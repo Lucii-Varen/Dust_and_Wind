@@ -1,0 +1,58 @@
+************** STARTING BATTLE EDITOR
+
+Loading from file CIV/data/world/maps/battle/custom/Thermopyle/descr_battle.txt
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1b968fcc from script
+		Creating unit (Eastern Spearman) at 0xbb35eec
+		Creating unit (Eastern Spearman) at 0xbb36134
+		Creating unit (Eastern Spearman) at 0xbb355cc
+		Creating unit (Eastern General) at 0xbb35ca4
+		Creating unit (Elephants) at 0xbb35a5c
+		Creating unit (Eastern Spearman) at 0xbb35814
+		Creating unit (Eastern Spearman) at 0xbb36a54
+		Creating unit (Hillmen) at 0xbb35384
+		Creating unit (Hillmen) at 0x292a8d94
+		Creating unit (Hillmen) at 0x292a8fdc
+		Creating unit (Hillmen) at 0x292a9224
+		Creating unit (Eastern Heavy Infantry) at 0x292a946c
+		Creating unit (Eastern Heavy Infantry) at 0x292a96b4
+		Creating unit (sugdian warriors) at 0x292a98fc
+		Creating unit (sugdian warriors) at 0x292a9b44
+		Creating unit (sugdian chosen warriors) at 0x292a9d8c
+Created faction numidia from file
+	Creating army controlled by Leonidas at 0x1b969284 from script
+		Creating unit (Spartan Strategos) at 0x292a9fd4
+		Creating unit (Spartan Strategos) at 0x292aa21c
+		Creating unit (Spartan Strategos) at 0x292aa464
+Adding unit (Eastern Spearman) at 0xbb35eec to deployment area at 0x533c568
+Adding unit (Eastern Spearman) at 0xbb36134 to deployment area at 0x533c568
+Adding unit (Eastern Spearman) at 0xbb355cc to deployment area at 0x533c568
+Adding unit (Eastern General) at 0xbb35ca4 to deployment area at 0x533c568
+Adding unit (Elephants) at 0xbb35a5c to deployment area at 0x533c568
+Adding unit (Eastern Spearman) at 0xbb35814 to deployment area at 0x533c568
+Adding unit (Eastern Spearman) at 0xbb36a54 to deployment area at 0x533c568
+Adding unit (Hillmen) at 0xbb35384 to deployment area at 0x533c568
+Adding unit (Hillmen) at 0x292a8d94 to deployment area at 0x533c568
+Adding unit (Hillmen) at 0x292a8fdc to deployment area at 0x533c568
+Adding unit (Hillmen) at 0x292a9224 to deployment area at 0x533c568
+Adding unit (Eastern Heavy Infantry) at 0x292a946c to deployment area at 0x533c568
+Adding unit (Eastern Heavy Infantry) at 0x292a96b4 to deployment area at 0x533c568
+Adding unit (sugdian warriors) at 0x292a98fc to deployment area at 0x533c568
+Adding unit (sugdian warriors) at 0x292a9b44 to deployment area at 0x533c568
+Adding unit (sugdian chosen warriors) at 0x292a9d8c to deployment area at 0x533c568
+Adding unit (Spartan Strategos) at 0x292a9fd4 to deployment area at 0x533c5a4
+Adding unit (Spartan Strategos) at 0x292aa21c to deployment area at 0x533c5a4
+Adding unit (Spartan Strategos) at 0x292aa464 to deployment area at 0x533c5a4
+Load finished **************************
+
+
+Adding unit (sugdian warriors) at 0x2916b57c to deployment area at 0x533c568
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (sugdian warriors) at 0x2916b57c - Deployed at (319.622368, -287.729664) in deployment area at 0x533c568
+Adding unit (Immortals) at 0x2916b7c4 to deployment area at 0x533c568
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Immortals) at 0x2916b7c4 - Deployed at (348.729088, -295.304896) in deployment area at 0x533c568
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:sugdian warriors) at 0x2916b57c from (331.154368, -293.407424) to (338.397536, -288.954048)
+	 with rotation .225399 and width 14.892918 - now residing in deployment area at 0x533c568
+Adding unit (Takabara) at 0x2916ba0c to deployment area at 0x533c568
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Takabara) at 0x2916ba0c - Deployed at (317.351936, -284.49952) in deployment area at 0x533c568
+Adding unit (Unlocalised placement text) at 0x2916bc54 to deployment area at 0x533c568
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Unlocalised placement text) at 0x2916bc54 - Deployed at (377.5304, -308.1504) in deployment area at 0x533c568

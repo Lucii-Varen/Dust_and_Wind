@@ -1,0 +1,26 @@
+script
+	declare_show_me
+	declare_counter loop
+
+	monitor_event AbandonShowMe	TrueCondition
+		suspend_unscripted_advice false
+		console_command force_diplomacy off
+		terminate_script
+	end_monitor	
+
+	monitor_event ScrollClosed ScrollClosed diplomacy_scroll
+		ui_flash_stop
+		suspend_unscripted_advice false
+		console_command force_diplomacy off
+		terminate_script
+	end_monitor		
+	
+	suspend_unscripted_advice true
+	
+	console_command force_diplomacy accept
+
+	while I_CompareCounter loop = 0
+	end_while
+	
+	suspend_unscripted_advice false
+end_script

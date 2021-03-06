@@ -1,0 +1,104 @@
+************** STARTING BATTLE EDITOR
+
+Loading from file CIV/data/world/maps/battle/custom/Massacre_on_the_Teutoburgum_Forest/descr_battle.txt
+Created faction romans_scipii from file
+	Creating army controlled by Quintis Varus at 0x2757225c from script
+		Creating unit (Legionary First Cohort) at 0x132b1e5c
+		Creating unit (Legionary First Cohort) at 0x132b153c
+		Creating unit (Legionary First Cohort) at 0x132b352c
+		Creating unit (Legionary Cohort) at 0x132b19cc
+		Creating unit (Legionary Cohort) at 0x132b2e54
+		Creating unit (Legionary Cohort) at 0x132b309c
+		Creating unit (Legionary Cohort) at 0x132b12f4
+		Creating unit (Legionary Cohort) at 0x2b775424
+		Creating unit (Legionary Cohort) at 0x2b774d4c
+		Creating unit (Legionary Cohort) at 0x2b777aec
+		Creating unit (Legionary Cohort) at 0x2b7761d4
+		Creating unit (Legionary Cohort) at 0x2b777f7c
+		Creating unit (Ala II Equitatus) at 0x2b777d34
+		Creating unit (Roman Armoured General) at 0x2b77566c
+		Creating unit (Spearmen Auxilia) at 0x2b7781c4
+		Creating unit (Auxllia) at 0x2b7758b4
+		Creating unit (Heavy Auxllia) at 0x2b77840c
+Created faction germans from file
+	Creating army controlled by Arminius of Tuetoburga at 0x2757208c from script
+		Creating unit (Woodsman) at 0x2b776d3c
+		Creating unit (Woodsman) at 0x2b773f9c
+		Creating unit (German Tribes Warriors) at 0x2b77641c
+		Creating unit (German Tribes Warriors) at 0x2b776664
+		Creating unit (Night Raiders) at 0x2b776af4
+		Creating unit (German Tribes Warriors) at 0x2b7751dc
+		Creating unit (Skirmisher Warband) at 0x2b773d54
+		Creating unit (Skirmisher Warband) at 0x2b7741e4
+		Creating unit (Berserkers) at 0x2b77442c
+		Creating unit (Berserkers) at 0x2b7778a4
+		Creating unit (Woodsman) at 0x2b7768ac
+		Creating unit (Axemen) at 0x2b776f84
+		Creating unit (German foot Nobles) at 0x2b7771cc
+		Creating unit (German Heavy Infantry) at 0x2b775f8c
+		Creating unit (Heavy Warband) at 0x2b777414
+		Creating unit (Heavy Warband) at 0x2b774674
+		Creating unit (Spear Warband) at 0x2b7748bc
+		Creating unit (Night Raiders) at 0x2b774f94
+		Creating unit (Axemen) at 0x2b77765c
+		Creating unit (Spear Warband) at 0x2b774b04
+Adding unit (Legionary First Cohort) at 0x132b1e5c to deployment area at 0x58ce4e8
+Adding unit (Legionary First Cohort) at 0x132b153c to deployment area at 0x58ce4e8
+Adding unit (Legionary First Cohort) at 0x132b352c to deployment area at 0x58ce4e8
+Adding unit (Legionary Cohort) at 0x132b19cc to deployment area at 0x58ce4e8
+Adding unit (Legionary Cohort) at 0x132b2e54 to deployment area at 0x58ce4e8
+Adding unit (Legionary Cohort) at 0x132b309c to deployment area at 0x58ce4e8
+Adding unit (Legionary Cohort) at 0x132b12f4 to deployment area at 0x58ce4e8
+Adding unit (Legionary Cohort) at 0x2b775424 to deployment area at 0x58ce4e8
+Adding unit (Legionary Cohort) at 0x2b774d4c to deployment area at 0x58ce4e8
+Adding unit (Legionary Cohort) at 0x2b777aec to deployment area at 0x58ce4e8
+Adding unit (Legionary Cohort) at 0x2b7761d4 to deployment area at 0x58ce4e8
+Adding unit (Legionary Cohort) at 0x2b777f7c to deployment area at 0x58ce4e8
+Adding unit (Ala II Equitatus) at 0x2b777d34 to deployment area at 0x58ce4e8
+Adding unit (Roman Armoured General) at 0x2b77566c to deployment area at 0x58ce4e8
+Adding unit (Spearmen Auxilia) at 0x2b7781c4 to deployment area at 0x58ce4e8
+Adding unit (Auxllia) at 0x2b7758b4 to deployment area at 0x58ce4e8
+Adding unit (Heavy Auxllia) at 0x2b77840c to deployment area at 0x58ce4e8
+Adding unit (Woodsman) at 0x2b776d3c to deployment area at 0x58ce524
+Adding unit (Woodsman) at 0x2b773f9c to deployment area at 0x58ce524
+Adding unit (German Tribes Warriors) at 0x2b77641c to deployment area at 0x58ce524
+Adding unit (German Tribes Warriors) at 0x2b776664 to deployment area at 0x58ce524
+Adding unit (Night Raiders) at 0x2b776af4 to deployment area at 0x58ce524
+Adding unit (German Tribes Warriors) at 0x2b7751dc to deployment area at 0x58ce524
+Adding unit (Skirmisher Warband) at 0x2b773d54 to deployment area at 0x58ce524
+Adding unit (Skirmisher Warband) at 0x2b7741e4 to deployment area at 0x58ce524
+Adding unit (Berserkers) at 0x2b77442c to deployment area at 0x58ce524
+Adding unit (Berserkers) at 0x2b7778a4 to deployment area at 0x58ce524
+Adding unit (Woodsman) at 0x2b7768ac to deployment area at 0x58ce524
+Adding unit (Axemen) at 0x2b776f84 to deployment area at 0x58ce524
+Adding unit (German foot Nobles) at 0x2b7771cc to deployment area at 0x58ce524
+Adding unit (German Heavy Infantry) at 0x2b775f8c to deployment area at 0x58ce524
+Adding unit (Heavy Warband) at 0x2b777414 to deployment area at 0x58ce524
+Adding unit (Heavy Warband) at 0x2b774674 to deployment area at 0x58ce524
+Adding unit (Spear Warband) at 0x2b7748bc to deployment area at 0x58ce524
+Adding unit (Night Raiders) at 0x2b774f94 to deployment area at 0x58ce524
+Adding unit (Axemen) at 0x2b77765c to deployment area at 0x58ce524
+Adding unit (Spear Warband) at 0x2b774b04 to deployment area at 0x58ce524
+Load finished **************************
+
+
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Woodsman) at 0x2b776d3c from (550.140672, -400.094432) to (545.936832, -411.732096)
+	 with rotation -2.356195 and width 21.052 - now residing in deployment area at 0x58ce524
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Skirmisher Warband) at 0x2b7741e4 from (548.777152, -414.076832) to (557.220672, -446.904608)
+	 with rotation -1.919873 and width 37.973 - now residing in deployment area at 0x58ce524
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Skirmisher Warband) at 0x2b773d54 from (556.443008, -459.257632) to (560.19296, -500.215104)
+	 with rotation -1.623143 and width 62.832 - now residing in deployment area at 0x58ce524
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Heavy Warband) at 0x2b774674 from (565.94272, -379.031584) to (576.467328, -521.229568)
+	 with rotation -1.466102 and width 15.026 - now residing in deployment area at 0x58ce524
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Skirmisher Warband) at 0x2b7741e4 from (551.218624, -413.190336) to (574.712768, -443.786368)
+	 with rotation -1.919873 and width 37.973 - now residing in deployment area at 0x58ce524
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:German foot Nobles) at 0x2b7771cc from (525.462944, -382.025472) to (545.188288, -396.520576)
+	 with rotation -2.635475 and width 28.496 - now residing in deployment area at 0x58ce524
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Woodsman) at 0x2b776d3c from (544.850688, -399.932128) to (568.620224, -405.80256)
+	 with rotation -2.356195 and width 21.052 - now residing in deployment area at 0x58ce524
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:German foot Nobles) at 0x2b7771cc from (534.43776, -380.459328) to (551.939776, -390.586048)
+	 with rotation -2.635475 and width 28.496 - now residing in deployment area at 0x58ce524
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Axemen) at 0x2b77765c from (510.013472, -378.216704) to (523.911136, -375.658528)
+	 with rotation -2.652924 and width 30.975 - now residing in deployment area at 0x58ce524
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Axemen) at 0x2b77765c from (512.597888, -364.269056) to (517.055776, -390.044064)
+	 with rotation -2.652924 and width 30.975 - now residing in deployment area at 0x58ce524

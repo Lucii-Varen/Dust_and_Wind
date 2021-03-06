@@ -1,0 +1,2352 @@
+************** STARTING BATTLE EDITOR
+
+Loading from file CIV/data/world/maps/battle/custom/thermopyl/descr_battle.txt
+Created faction numidia from file
+	Creating army controlled by Leonidas of Sparta at 0x1657b2fc from script
+		Creating unit (Strategos) at 0x16461544
+		Creating unit (Greek Heroes) at 0x1646409c
+		Creating unit (Greek Heroes) at 0x16464c04
+		Creating unit (Hoplites) at 0x164619d4
+		Creating unit (Hoplites) at 0x16464e4c
+		Creating unit (Hoplites) at 0x16462c14
+		Creating unit (Hoplites) at 0x164622f4
+		Creating unit (Hoplites) at 0x164629cc
+		Creating unit (Thermon Hoplites) at 0x164642e4
+		Creating unit (Thermon Hoplites) at 0x16461c1c
+		Creating unit (Thermon Hoplites) at 0x16462e5c
+		Creating unit (Thermon Hoplites) at 0x164630a4
+		Creating unit (Peltasts) at 0x164632ec
+		Creating unit (Peltasts) at 0x16463534
+		Creating unit (Peltasts) at 0x1646377c
+		Creating unit (Heavy Peltasts) at 0x1646452c
+		Creating unit (Heavy Peltasts) at 0x164639c4
+		Creating unit (Heavy Thyreophoroi) at 0x16463c0c
+		Creating unit (Archers) at 0x164612fc
+		Creating unit (Archers) at 0x195a5294
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1657c604 from script
+		Creating unit (Eastern General) at 0x195a273c
+		Creating unit (Immortals) at 0x195a5724
+		Creating unit (Immortals) at 0x195a2984
+		Creating unit (Immortals) at 0x195a596c
+		Creating unit (Immortals) at 0x195a4974
+		Creating unit (Immortals) at 0x195a397c
+		Creating unit (Immortals) at 0x195a34ec
+		Creating unit (Immortals) at 0x195a429c
+		Creating unit (Immortals) at 0x195a3734
+		Creating unit (Immortals) at 0x195a3bc4
+		Creating unit (Immortals) at 0x195a4bbc
+		Creating unit (Immortals) at 0x195a5bb4
+		Creating unit (Dismounted Riders) at 0x195a1e1c
+		Creating unit (Dismounted Riders) at 0x195a54dc
+		Creating unit (Dismounted Riders) at 0x195a2064
+		Creating unit (Dismounted Riders) at 0x195a44e4
+		Creating unit (Dismounted Riders) at 0x195a2bcc
+		Creating unit (Dismounted Riders) at 0x195a4054
+		Creating unit (Dismounted Riders) at 0x195a24f4
+		Creating unit (Dismounted Riders) at 0x195a3e0c
+	Creating army controlled by Hydarnes of Babylonia at 0x1657c9a4 from script
+		Creating unit (Immortals) at 0x195a2e14
+		Creating unit (Parthian Heavy Swordsman) at 0x195a22ac
+		Creating unit (Parthian Heavy Swordsman) at 0x195a472c
+		Creating unit (Takabara) at 0x195a4e04
+		Creating unit (Takabara) at 0x195a504c
+		Creating unit (Takabara) at 0x195a305c
+		Creating unit (Eastern Infantry) at 0x195a32a4
+		Creating unit (Eastern Infantry) at 0x195a9bbc
+		Creating unit (Eastern Infantry) at 0x195a7064
+		Creating unit (Eastern Infantry) at 0x195a62b4
+		Creating unit (Eastern Infantry) at 0x195a606c
+		Creating unit (Eastern Infantry) at 0x195a698c
+		Creating unit (Eastern Spearmen) at 0x195a72ac
+		Creating unit (Eastern Spearmen) at 0x195a972c
+		Creating unit (Eastern Spearmen) at 0x195a7e14
+		Creating unit (Hillmen) at 0x195a805c
+		Creating unit (Hillmen) at 0x195a74f4
+		Creating unit (Hillmen) at 0x195a64fc
+		Creating unit (Hillmen) at 0x195a6bd4
+		Creating unit (Eastern Spearmen) at 0x195a773c
+	Creating army controlled by Datuvahya of Media at 0x1657b12c from script
+		Creating unit (Parthian heavy archer) at 0x195a82a4
+		Creating unit (Parthian heavy archer) at 0x195a8734
+		Creating unit (Slingers) at 0x195a84ec
+		Creating unit (Slingers) at 0x195a5e24
+		Creating unit (Peltasts) at 0x195a6e1c
+		Creating unit (Peltasts) at 0x195a6744
+		Creating unit (Peltasts) at 0x195a9054
+		Creating unit (Hyracanian Cavalry) at 0x195a897c
+		Creating unit (Median Cavalry) at 0x195a8bc4
+		Creating unit (Takabara) at 0x195a9974
+		Creating unit (Takabara) at 0x195a7984
+		Creating unit (Eastern Infantry) at 0x195a7bcc
+		Creating unit (Eastern Infantry) at 0x195a94e4
+		Creating unit (Eastern Infantry) at 0x195a8e0c
+		Creating unit (Eastern Spearmen) at 0x195a929c
+		Creating unit (Eastern Spearmen) at 0x16c8447c
+		Creating unit (Eastern Spearmen) at 0x16c84b54
+		Creating unit (Eastern Spearmen) at 0x16c846c4
+		Creating unit (Parthian Heavy Swordsman) at 0x16c836cc
+		Creating unit (Parthian Heavy Swordsman) at 0x16c84fe4
+	Creating army controlled by Zircon at 0x1657c6ec from script
+		Creating unit (Eastern Infantry) at 0x16c84d9c
+		Creating unit (Eastern Infantry) at 0x16c81924
+		Creating unit (Eastern Infantry) at 0x16c81ffc
+		Creating unit (Eastern Infantry) at 0x16c83914
+		Creating unit (Eastern Infantry) at 0x16c83b5c
+		Creating unit (Hillmen) at 0x16c82dac
+		Creating unit (Hillmen) at 0x16c8490c
+		Creating unit (Hillmen) at 0x16c8522c
+		Creating unit (Hillmen) at 0x16c85474
+		Creating unit (Hillmen) at 0x16c816dc
+		Creating unit (Eastern Infantry) at 0x16c8291c
+		Creating unit (Eastern Infantry) at 0x16c81b6c
+		Creating unit (Eastern Infantry) at 0x16c81db4
+		Creating unit (Eastern Infantry) at 0x16c82244
+		Creating unit (Eastern Infantry) at 0x16c8248c
+		Creating unit (Eastern Spearmen) at 0x16c82ff4
+		Creating unit (Eastern Spearmen) at 0x16c83da4
+		Creating unit (Eastern Spearmen) at 0x16c8323c
+		Creating unit (Eastern Spearmen) at 0x16c826d4
+		Creating unit (Eastern Spearmen) at 0x16c82b64
+	Creating army controlled by Sogdianus at 0x1657cc5c from script
+		Creating unit (Eastern General) at 0x16c83484
+		Creating unit (sugdian warriors) at 0x16c83fec
+		Creating unit (sugdian warriors) at 0x16c84234
+		Creating unit (sugdian warriors) at 0x1996167c
+		Creating unit (sugdian warriors) at 0x19963afc
+		Creating unit (sugdian warriors) at 0x199618c4
+		Creating unit (sugdian warriors) at 0x19962d4c
+		Creating unit (Arab Cavalry) at 0x19960b14
+		Creating unit (Eastern Spearmen) at 0x1996441c
+		Creating unit (Eastern Spearmen) at 0x19961434
+		Creating unit (Eastern Spearmen) at 0x19964664
+		Creating unit (Eastern Spearmen) at 0x199611ec
+		Creating unit (Eastern Spearmen) at 0x199621e4
+		Creating unit (Eastern Spearmen) at 0x199628bc
+		Creating unit (Eastern Spearmen) at 0x199608cc
+		Creating unit (Eastern Infantry) at 0x19960d5c
+		Creating unit (Eastern Infantry) at 0x19961b0c
+		Creating unit (Eastern Infantry) at 0x199648ac
+		Creating unit (Eastern Infantry) at 0x19962f94
+		Creating unit (Eastern Infantry) at 0x19963f8c
+Adding unit (Strategos) at 0x16461544 to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x1646409c to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x16464c04 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x164619d4 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x16464e4c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x16462c14 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x164622f4 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x164629cc to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x164642e4 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x16461c1c to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x16462e5c to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x164630a4 to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x164632ec to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x16463534 to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x1646377c to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x1646452c to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x164639c4 to deployment area at 0x580fe88
+Adding unit (Heavy Thyreophoroi) at 0x16463c0c to deployment area at 0x580fe88
+Adding unit (Archers) at 0x164612fc to deployment area at 0x580fe88
+Adding unit (Archers) at 0x195a5294 to deployment area at 0x580fe88
+Adding unit (Eastern General) at 0x195a273c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a5724 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a2984 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a596c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a4974 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a397c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a34ec to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a429c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a3734 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a3bc4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a4bbc to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a5bb4 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x195a1e1c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x195a54dc to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x195a2064 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x195a44e4 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x195a2bcc to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x195a4054 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x195a24f4 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x195a3e0c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x195a2e14 to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x195a22ac to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x195a472c to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x195a4e04 to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x195a504c to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x195a305c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x195a32a4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x195a9bbc to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x195a7064 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x195a62b4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x195a606c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x195a698c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x195a72ac to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x195a972c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x195a7e14 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x195a805c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x195a74f4 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x195a64fc to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x195a6bd4 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x195a773c to deployment area at 0x580ff00
+Adding unit (Parthian heavy archer) at 0x195a82a4 to deployment area at 0x580ff3c
+Adding unit (Parthian heavy archer) at 0x195a8734 to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x195a84ec to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x195a5e24 to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x195a6e1c to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x195a6744 to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x195a9054 to deployment area at 0x580ff3c
+Adding unit (Hyracanian Cavalry) at 0x195a897c to deployment area at 0x580ff3c
+Adding unit (Median Cavalry) at 0x195a8bc4 to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x195a9974 to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x195a7984 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x195a7bcc to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x195a94e4 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x195a8e0c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x195a929c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16c8447c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16c84b54 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16c846c4 to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x16c836cc to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x16c84fe4 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x16c84d9c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16c81924 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16c81ffc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16c83914 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16c83b5c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x16c82dac to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x16c8490c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x16c8522c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x16c85474 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x16c816dc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16c8291c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16c81b6c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16c81db4 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16c82244 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16c8248c to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x16c82ff4 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x16c83da4 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x16c8323c to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x16c826d4 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x16c82b64 to deployment area at 0x580ff78
+Adding unit (Eastern General) at 0x16c83484 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x16c83fec to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x16c84234 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x1996167c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x19963afc to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x199618c4 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x19962d4c to deployment area at 0x580ffb4
+Adding unit (Arab Cavalry) at 0x19960b14 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x1996441c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x19961434 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x19964664 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x199611ec to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x199621e4 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x199628bc to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x199608cc to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x19960d5c to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x19961b0c to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x199648ac to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x19962f94 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x19963f8c to deployment area at 0x580ffb4
+Load finished **************************
+
+
+Trying to remove unit (Eastern General) at 0x195a273c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a5724 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a2984 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a596c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a4974 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a397c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a34ec from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a429c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a3734 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a3bc4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a4bbc from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a5bb4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x195a1e1c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x195a54dc from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x195a2064 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x195a44e4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x195a2bcc from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x195a4054 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x195a24f4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x195a3e0c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x195a2e14 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x195a22ac from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x195a472c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Takabara) at 0x195a4e04 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Takabara) at 0x195a504c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Takabara) at 0x195a305c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x195a32a4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x195a9bbc from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x195a7064 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x195a62b4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x195a606c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x195a698c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x195a72ac from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x195a972c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x195a7e14 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x195a805c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x195a74f4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x195a64fc from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x195a6bd4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x195a773c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian heavy archer) at 0x195a82a4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Parthian heavy archer) at 0x195a8734 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Slingers) at 0x195a84ec from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Slingers) at 0x195a5e24 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x195a6e1c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x195a6744 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x195a9054 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Hyracanian Cavalry) at 0x195a897c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Median Cavalry) at 0x195a8bc4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Takabara) at 0x195a9974 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Takabara) at 0x195a7984 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x195a7bcc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x195a94e4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x195a8e0c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x195a929c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16c8447c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16c84b54 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16c846c4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x16c836cc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x16c84fe4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c84d9c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c81924 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c81ffc from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c83914 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c83b5c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x16c82dac from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x16c8490c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x16c8522c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x16c85474 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x16c816dc from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c8291c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c81b6c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c81db4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c82244 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16c8248c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16c82ff4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16c83da4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16c8323c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16c826d4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16c82b64 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern General) at 0x16c83484 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x16c83fec from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x16c84234 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x1996167c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x19963afc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x199618c4 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x19962d4c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Arab Cavalry) at 0x19960b14 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x1996441c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x19961434 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x19964664 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x199611ec from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x199621e4 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x199628bc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x199608cc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19960d5c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19961b0c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x199648ac from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19962f94 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19963f8c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Strategos) at 0x16461544 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Greek Heroes) at 0x1646409c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Greek Heroes) at 0x16464c04 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x164619d4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x16464e4c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x16462c14 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x164622f4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x164629cc from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x164642e4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x16461c1c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x16462e5c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x164630a4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x164632ec from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x16463534 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x1646377c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Heavy Peltasts) at 0x1646452c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Heavy Peltasts) at 0x164639c4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Heavy Thyreophoroi) at 0x16463c0c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Archers) at 0x164612fc from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Archers) at 0x195a5294 from deployment area at 0x580fe88 and the unit wasn't found
+Loading from file CIV/data/world/maps/battle/custom/Last_300/descr_battle.txt
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1657b86c from script
+		Creating unit (Eastern General) at 0x16a2daa4
+		Creating unit (Immortals) at 0x16a2bcfc
+		Creating unit (Immortals) at 0x16a2ea9c
+		Creating unit (Immortals) at 0x16a2c3d4
+		Creating unit (Immortals) at 0x16a2e3c4
+		Creating unit (Immortals) at 0x16a2d184
+		Creating unit (Immortals) at 0x16a2e60c
+		Creating unit (Immortals) at 0x16a2ccf4
+		Creating unit (Immortals) at 0x16a2ece4
+		Creating unit (Immortals) at 0x16a2bf44
+		Creating unit (Immortals) at 0x16a2caac
+		Creating unit (Immortals) at 0x16a2f604
+		Creating unit (Dismounted Riders) at 0x16a2d3cc
+		Creating unit (Dismounted Riders) at 0x16a2d614
+		Creating unit (Dismounted Riders) at 0x16a2ef2c
+		Creating unit (Dismounted Riders) at 0x16a2d85c
+		Creating unit (Dismounted Riders) at 0x16a2f174
+		Creating unit (Dismounted Riders) at 0x16a2f3bc
+		Creating unit (Dismounted Riders) at 0x16a2b86c
+		Creating unit (Dismounted Riders) at 0x169aa03c
+	Creating army controlled by Hydarnes of Babylonia at 0x1657b2fc from script
+		Creating unit (Immortals) at 0x169ab4c4
+		Creating unit (Parthian Heavy Swordsman) at 0x169aa95c
+		Creating unit (Parthian Heavy Swordsman) at 0x169a84dc
+		Creating unit (Takabara) at 0x169aa4cc
+		Creating unit (Takabara) at 0x169a928c
+		Creating unit (Takabara) at 0x169a8724
+		Creating unit (Eastern Infantry) at 0x169a94d4
+		Creating unit (Eastern Infantry) at 0x169aadec
+		Creating unit (Eastern Infantry) at 0x169a9044
+		Creating unit (Eastern Infantry) at 0x169a8bb4
+		Creating unit (Eastern Infantry) at 0x169aaba4
+		Creating unit (Eastern Infantry) at 0x169a8dfc
+		Creating unit (Eastern Spearmen) at 0x169a9bac
+		Creating unit (Eastern Spearmen) at 0x169a896c
+		Creating unit (Eastern Spearmen) at 0x169a7974
+		Creating unit (Hillmen) at 0x169ab034
+		Creating unit (Hillmen) at 0x169a971c
+		Creating unit (Hillmen) at 0x169a9964
+		Creating unit (Hillmen) at 0x169a9df4
+		Creating unit (Eastern Spearmen) at 0x169ab27c
+	Creating army controlled by Datuvahya of Media at 0x1657bb24 from script
+		Creating unit (Parthian heavy archer) at 0x169a7bbc
+		Creating unit (Parthian heavy archer) at 0x169aa284
+		Creating unit (Slingers) at 0x169ab70c
+		Creating unit (Slingers) at 0x169aa714
+		Creating unit (Peltasts) at 0x169a7e04
+		Creating unit (Peltasts) at 0x169a804c
+		Creating unit (Peltasts) at 0x169a8294
+		Creating unit (Hyracanian Cavalry) at 0x19fb0794
+		Creating unit (Median Cavalry) at 0x19fae9ec
+		Creating unit (Takabara) at 0x19fb09dc
+		Creating unit (Takabara) at 0x19faee7c
+		Creating unit (Eastern Infantry) at 0x19fb0c24
+		Creating unit (Eastern Infantry) at 0x19faf0c4
+		Creating unit (Eastern Infantry) at 0x19fafc2c
+		Creating unit (Eastern Spearmen) at 0x19fafe74
+		Creating unit (Eastern Spearmen) at 0x19fb054c
+		Creating unit (Eastern Spearmen) at 0x19fb00bc
+		Creating unit (Eastern Spearmen) at 0x19fb0304
+		Creating unit (Parthian Heavy Swordsman) at 0x19fae55c
+		Creating unit (Parthian Heavy Swordsman) at 0x19fb0e6c
+	Creating army controlled by Zircon at 0x1657b5b4 from script
+		Creating unit (Eastern Infantry) at 0x19fb10b4
+		Creating unit (Eastern Infantry) at 0x19fb12fc
+		Creating unit (Eastern Infantry) at 0x19fb1544
+		Creating unit (Eastern Infantry) at 0x19fb178c
+		Creating unit (Eastern Infantry) at 0x19fb19d4
+		Creating unit (Hillmen) at 0x19faec34
+		Creating unit (Hillmen) at 0x19fae7a4
+		Creating unit (Hillmen) at 0x19fb1c1c
+		Creating unit (Hillmen) at 0x19faf30c
+		Creating unit (Hillmen) at 0x19faf554
+		Creating unit (Eastern Infantry) at 0x19faf79c
+		Creating unit (Eastern Infantry) at 0x19fb1e64
+		Creating unit (Eastern Infantry) at 0x19faf9e4
+		Creating unit (Eastern Infantry) at 0x19fae0cc
+		Creating unit (Eastern Infantry) at 0x19fae314
+		Creating unit (Eastern Spearmen) at 0x16aa2dac
+		Creating unit (Eastern Spearmen) at 0x16aa124c
+		Creating unit (Eastern Spearmen) at 0x16aa000c
+		Creating unit (Eastern Spearmen) at 0x16aa1004
+		Creating unit (Eastern Spearmen) at 0x16aa1924
+Created faction numidia from file
+	Creating army controlled by Leonidas of Sparta at 0x1657c17c from script
+		Creating unit (Strategos) at 0x16aa1494
+		Creating unit (Greek Heroes) at 0x16aa291c
+		Creating unit (Greek Heroes) at 0x16aa16dc
+		Creating unit (Hoplites) at 0x16aa2b64
+		Creating unit (Hoplites) at 0x16aa3914
+		Creating unit (Hoplites) at 0x16aa2244
+		Creating unit (Hoplites) at 0x16aa1db4
+		Creating unit (Hoplites) at 0x16aa3b5c
+		Creating unit (Thermon Hoplites) at 0x16aa2ff4
+		Creating unit (Thermon Hoplites) at 0x16aa323c
+		Creating unit (Thermon Hoplites) at 0x16aa3da4
+		Creating unit (Thermon Hoplites) at 0x16aa36cc
+		Creating unit (Peltasts) at 0x16aa0254
+		Creating unit (Peltasts) at 0x16aa06e4
+		Creating unit (Peltasts) at 0x16aa049c
+		Creating unit (Heavy Peltasts) at 0x16aa092c
+		Creating unit (Heavy Peltasts) at 0x16aa0b74
+		Creating unit (Heavy Thyreophoroi) at 0x16aa1b6c
+		Creating unit (Archers) at 0x16aa3484
+		Creating unit (Archers) at 0x16aa1ffc
+Adding unit (Eastern General) at 0x16a2daa4 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2bcfc to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2ea9c to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2c3d4 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2e3c4 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2d184 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2e60c to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2ccf4 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2ece4 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2bf44 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2caac to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x16a2f604 to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x16a2d3cc to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x16a2d614 to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x16a2ef2c to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x16a2d85c to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x16a2f174 to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x16a2f3bc to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x16a2b86c to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x169aa03c to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x169ab4c4 to deployment area at 0x580fec4
+Adding unit (Parthian Heavy Swordsman) at 0x169aa95c to deployment area at 0x580fec4
+Adding unit (Parthian Heavy Swordsman) at 0x169a84dc to deployment area at 0x580fec4
+Adding unit (Takabara) at 0x169aa4cc to deployment area at 0x580fec4
+Adding unit (Takabara) at 0x169a928c to deployment area at 0x580fec4
+Adding unit (Takabara) at 0x169a8724 to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x169a94d4 to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x169aadec to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x169a9044 to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x169a8bb4 to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x169aaba4 to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x169a8dfc to deployment area at 0x580fec4
+Adding unit (Eastern Spearmen) at 0x169a9bac to deployment area at 0x580fec4
+Adding unit (Eastern Spearmen) at 0x169a896c to deployment area at 0x580fec4
+Adding unit (Eastern Spearmen) at 0x169a7974 to deployment area at 0x580fec4
+Adding unit (Hillmen) at 0x169ab034 to deployment area at 0x580fec4
+Adding unit (Hillmen) at 0x169a971c to deployment area at 0x580fec4
+Adding unit (Hillmen) at 0x169a9964 to deployment area at 0x580fec4
+Adding unit (Hillmen) at 0x169a9df4 to deployment area at 0x580fec4
+Adding unit (Eastern Spearmen) at 0x169ab27c to deployment area at 0x580fec4
+Adding unit (Parthian heavy archer) at 0x169a7bbc to deployment area at 0x580ff00
+Adding unit (Parthian heavy archer) at 0x169aa284 to deployment area at 0x580ff00
+Adding unit (Slingers) at 0x169ab70c to deployment area at 0x580ff00
+Adding unit (Slingers) at 0x169aa714 to deployment area at 0x580ff00
+Adding unit (Peltasts) at 0x169a7e04 to deployment area at 0x580ff00
+Adding unit (Peltasts) at 0x169a804c to deployment area at 0x580ff00
+Adding unit (Peltasts) at 0x169a8294 to deployment area at 0x580ff00
+Adding unit (Hyracanian Cavalry) at 0x19fb0794 to deployment area at 0x580ff00
+Adding unit (Median Cavalry) at 0x19fae9ec to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x19fb09dc to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x19faee7c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x19fb0c24 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x19faf0c4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x19fafc2c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x19fafe74 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x19fb054c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x19fb00bc to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x19fb0304 to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x19fae55c to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x19fb0e6c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x19fb10b4 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x19fb12fc to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x19fb1544 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x19fb178c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x19fb19d4 to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x19faec34 to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x19fae7a4 to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x19fb1c1c to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x19faf30c to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x19faf554 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x19faf79c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x19fb1e64 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x19faf9e4 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x19fae0cc to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x19fae314 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16aa2dac to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16aa124c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16aa000c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16aa1004 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16aa1924 to deployment area at 0x580ff3c
+Adding unit (Strategos) at 0x16aa1494 to deployment area at 0x580ff78
+Adding unit (Greek Heroes) at 0x16aa291c to deployment area at 0x580ff78
+Adding unit (Greek Heroes) at 0x16aa16dc to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x16aa2b64 to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x16aa3914 to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x16aa2244 to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x16aa1db4 to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x16aa3b5c to deployment area at 0x580ff78
+Adding unit (Thermon Hoplites) at 0x16aa2ff4 to deployment area at 0x580ff78
+Adding unit (Thermon Hoplites) at 0x16aa323c to deployment area at 0x580ff78
+Adding unit (Thermon Hoplites) at 0x16aa3da4 to deployment area at 0x580ff78
+Adding unit (Thermon Hoplites) at 0x16aa36cc to deployment area at 0x580ff78
+Adding unit (Peltasts) at 0x16aa0254 to deployment area at 0x580ff78
+Adding unit (Peltasts) at 0x16aa06e4 to deployment area at 0x580ff78
+Adding unit (Peltasts) at 0x16aa049c to deployment area at 0x580ff78
+Adding unit (Heavy Peltasts) at 0x16aa092c to deployment area at 0x580ff78
+Adding unit (Heavy Peltasts) at 0x16aa0b74 to deployment area at 0x580ff78
+Adding unit (Heavy Thyreophoroi) at 0x16aa1b6c to deployment area at 0x580ff78
+Adding unit (Archers) at 0x16aa3484 to deployment area at 0x580ff78
+Adding unit (Archers) at 0x16aa1ffc to deployment area at 0x580ff78
+Load finished **************************
+
+
+Trying to remove unit (Eastern General) at 0x16a2daa4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2bcfc from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2ea9c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2c3d4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2e3c4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2d184 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2e60c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2ccf4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2ece4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2bf44 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2caac from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x16a2f604 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x16a2d3cc from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x16a2d614 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x16a2ef2c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x16a2d85c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x16a2f174 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x16a2f3bc from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x16a2b86c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x169aa03c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Parthian heavy archer) at 0x169a7bbc from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian heavy archer) at 0x169aa284 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Slingers) at 0x169ab70c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Slingers) at 0x169aa714 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x169a7e04 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x169a804c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x169a8294 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Hyracanian Cavalry) at 0x19fb0794 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Median Cavalry) at 0x19fae9ec from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Takabara) at 0x19fb09dc from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Takabara) at 0x19faee7c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fb0c24 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19faf0c4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fafc2c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x19fafe74 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x19fb054c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x19fb00bc from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x19fb0304 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x19fae55c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x19fb0e6c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fb10b4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fb12fc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fb1544 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fb178c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fb19d4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x19faec34 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x19fae7a4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x19fb1c1c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x19faf30c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x19faf554 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19faf79c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fb1e64 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19faf9e4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fae0cc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19fae314 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16aa2dac from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16aa124c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16aa000c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16aa1004 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x16aa1924 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Strategos) at 0x16aa1494 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Greek Heroes) at 0x16aa291c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Greek Heroes) at 0x16aa16dc from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x16aa2b64 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x16aa3914 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x16aa2244 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x16aa1db4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x16aa3b5c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x16aa2ff4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x16aa323c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x16aa3da4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x16aa36cc from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x16aa0254 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x16aa06e4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x16aa049c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Heavy Peltasts) at 0x16aa092c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Heavy Peltasts) at 0x16aa0b74 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Heavy Thyreophoroi) at 0x16aa1b6c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Archers) at 0x16aa3484 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Archers) at 0x16aa1ffc from deployment area at 0x580ff78 and the unit wasn't found
+Loading from file CIV/data/world/maps/battle/custom/thermopyl/descr_battle.txt
+Created faction numidia from file
+	Creating army controlled by Leonidas of Sparta at 0x1657b3e4 from script
+		Creating unit (Strategos) at 0x59a9384
+		Creating unit (Greek Heroes) at 0x59a95cc
+		Creating unit (Greek Heroes) at 0x59a85d4
+		Creating unit (Hoplites) at 0x59aa80c
+		Creating unit (Hoplites) at 0x59a9a5c
+		Creating unit (Hoplites) at 0x59a913c
+		Creating unit (Hoplites) at 0x59aaee4
+		Creating unit (Hoplites) at 0x59aaa54
+		Creating unit (Thermon Hoplites) at 0x59abedc
+		Creating unit (Thermon Hoplites) at 0x59aac9c
+		Creating unit (Thermon Hoplites) at 0x59a8a64
+		Creating unit (Thermon Hoplites) at 0x59ab5bc
+		Creating unit (Peltasts) at 0x59ac124
+		Creating unit (Peltasts) at 0x59a9814
+		Creating unit (Peltasts) at 0x59aba4c
+		Creating unit (Heavy Peltasts) at 0x59aa5c4
+		Creating unit (Heavy Peltasts) at 0x59ac36c
+		Creating unit (Heavy Thyreophoroi) at 0x59abc94
+		Creating unit (Archers) at 0x59ab12c
+		Creating unit (Archers) at 0x59ab374
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1657c17c from script
+		Creating unit (Eastern General) at 0x59a881c
+		Creating unit (Immortals) at 0x59ab804
+		Creating unit (Immortals) at 0x59a9ca4
+		Creating unit (Immortals) at 0x59a8cac
+		Creating unit (Immortals) at 0x59a8ef4
+		Creating unit (Immortals) at 0x59a9eec
+		Creating unit (Immortals) at 0x59aa134
+		Creating unit (Immortals) at 0x1956e784
+		Creating unit (Immortals) at 0x1956ce6c
+		Creating unit (Immortals) at 0x1956c0bc
+		Creating unit (Immortals) at 0x1956d544
+		Creating unit (Immortals) at 0x1956d78c
+		Creating unit (Dismounted Riders) at 0x1956c54c
+		Creating unit (Dismounted Riders) at 0x1956e53c
+		Creating unit (Dismounted Riders) at 0x1956cc24
+		Creating unit (Dismounted Riders) at 0x1956d0b4
+		Creating unit (Dismounted Riders) at 0x1956d9d4
+		Creating unit (Dismounted Riders) at 0x1956d2fc
+		Creating unit (Dismounted Riders) at 0x1956c304
+		Creating unit (Dismounted Riders) at 0x1956ec14
+	Creating army controlled by Hydarnes of Babylonia at 0x1657c9a4 from script
+		Creating unit (Immortals) at 0x1956b30c
+		Creating unit (Parthian Heavy Swordsman) at 0x1956dc1c
+		Creating unit (Parthian Heavy Swordsman) at 0x1956b554
+		Creating unit (Takabara) at 0x1956b79c
+		Creating unit (Takabara) at 0x1956de64
+		Creating unit (Takabara) at 0x1956ee5c
+		Creating unit (Eastern Infantry) at 0x1956e0ac
+		Creating unit (Eastern Infantry) at 0x1956b9e4
+		Creating unit (Eastern Infantry) at 0x1956c794
+		Creating unit (Eastern Infantry) at 0x1956e9cc
+		Creating unit (Eastern Infantry) at 0x1956bc2c
+		Creating unit (Eastern Infantry) at 0x1956b0c4
+		Creating unit (Eastern Spearmen) at 0x1956e2f4
+		Creating unit (Eastern Spearmen) at 0x1956c9dc
+		Creating unit (Eastern Spearmen) at 0x1956be74
+		Creating unit (Hillmen) at 0x16efc36c
+		Creating unit (Hillmen) at 0x16efaee4
+		Creating unit (Hillmen) at 0x16efcc8c
+		Creating unit (Hillmen) at 0x16efced4
+		Creating unit (Eastern Spearmen) at 0x16ef9ca4
+	Creating army controlled by Datuvahya of Media at 0x1657cc5c from script
+		Creating unit (Parthian heavy archer) at 0x16efb5bc
+		Creating unit (Parthian heavy archer) at 0x16ef9814
+		Creating unit (Slingers) at 0x16efc7fc
+		Creating unit (Slingers) at 0x16efd11c
+		Creating unit (Peltasts) at 0x16efa5c4
+		Creating unit (Peltasts) at 0x16efba4c
+		Creating unit (Peltasts) at 0x16efb804
+		Creating unit (Hyracanian Cavalry) at 0x16efa134
+		Creating unit (Median Cavalry) at 0x16ef9a5c
+		Creating unit (Takabara) at 0x16efac9c
+		Creating unit (Takabara) at 0x16efb12c
+		Creating unit (Eastern Infantry) at 0x16ef9eec
+		Creating unit (Eastern Infantry) at 0x16efd364
+		Creating unit (Eastern Infantry) at 0x16efc5b4
+		Creating unit (Eastern Spearmen) at 0x16efa80c
+		Creating unit (Eastern Spearmen) at 0x16efb374
+		Creating unit (Eastern Spearmen) at 0x16efbc94
+		Creating unit (Eastern Spearmen) at 0x16ef95cc
+		Creating unit (Parthian Heavy Swordsman) at 0x16efa37c
+		Creating unit (Parthian Heavy Swordsman) at 0x16efbedc
+	Creating army controlled by Zircon at 0x1657ca8c from script
+		Creating unit (Eastern Infantry) at 0x16efc124
+		Creating unit (Eastern Infantry) at 0x16efaa54
+		Creating unit (Eastern Infantry) at 0x16efca44
+		Creating unit (Eastern Infantry) at 0x1953c2dc
+		Creating unit (Eastern Infantry) at 0x1953e9a4
+		Creating unit (Hillmen) at 0x1953b9bc
+		Creating unit (Hillmen) at 0x1953bc04
+		Creating unit (Hillmen) at 0x1953d9ac
+		Creating unit (Hillmen) at 0x1953c094
+		Creating unit (Hillmen) at 0x1953ce44
+		Creating unit (Eastern Infantry) at 0x1953e514
+		Creating unit (Eastern Infantry) at 0x1953d51c
+		Creating unit (Eastern Infantry) at 0x1953be4c
+		Creating unit (Eastern Infantry) at 0x1953c524
+		Creating unit (Eastern Infantry) at 0x1953e75c
+		Creating unit (Eastern Spearmen) at 0x1953d764
+		Creating unit (Eastern Spearmen) at 0x1953d08c
+		Creating unit (Eastern Spearmen) at 0x1953dbf4
+		Creating unit (Eastern Spearmen) at 0x1953de3c
+		Creating unit (Eastern Spearmen) at 0x1953e2cc
+	Creating army controlled by Sogdianus at 0x1657cb74 from script
+		Creating unit (Eastern General) at 0x1953e084
+		Creating unit (sugdian warriors) at 0x1953c76c
+		Creating unit (sugdian warriors) at 0x1953ebec
+		Creating unit (sugdian warriors) at 0x1953c9b4
+		Creating unit (sugdian warriors) at 0x1953ee34
+		Creating unit (sugdian warriors) at 0x1953cbfc
+		Creating unit (sugdian warriors) at 0x1953d2d4
+		Creating unit (Arab Cavalry) at 0x19538e64
+		Creating unit (Eastern Spearmen) at 0x1953ae54
+		Creating unit (Eastern Spearmen) at 0x195399cc
+		Creating unit (Eastern Spearmen) at 0x195390ac
+		Creating unit (Eastern Spearmen) at 0x195389d4
+		Creating unit (Eastern Spearmen) at 0x1953a534
+		Creating unit (Eastern Spearmen) at 0x19539c14
+		Creating unit (Eastern Spearmen) at 0x19537304
+		Creating unit (Eastern Infantry) at 0x1953878c
+		Creating unit (Eastern Infantry) at 0x1953a77c
+		Creating unit (Eastern Infantry) at 0x19539e5c
+		Creating unit (Eastern Infantry) at 0x1953b09c
+		Creating unit (Eastern Infantry) at 0x19537c24
+Adding unit (Strategos) at 0x59a9384 to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x59a95cc to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x59a85d4 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59aa80c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59a9a5c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59a913c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59aaee4 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59aaa54 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x59abedc to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x59aac9c to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x59a8a64 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x59ab5bc to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x59ac124 to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x59a9814 to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x59aba4c to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x59aa5c4 to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x59ac36c to deployment area at 0x580fe88
+Adding unit (Heavy Thyreophoroi) at 0x59abc94 to deployment area at 0x580fe88
+Adding unit (Archers) at 0x59ab12c to deployment area at 0x580fe88
+Adding unit (Archers) at 0x59ab374 to deployment area at 0x580fe88
+Adding unit (Eastern General) at 0x59a881c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x59ab804 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x59a9ca4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x59a8cac to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x59a8ef4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x59a9eec to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x59aa134 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x1956e784 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x1956ce6c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x1956c0bc to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x1956d544 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x1956d78c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x1956c54c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x1956e53c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x1956cc24 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x1956d0b4 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x1956d9d4 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x1956d2fc to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x1956c304 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x1956ec14 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x1956b30c to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x1956dc1c to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x1956b554 to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x1956b79c to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x1956de64 to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x1956ee5c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x1956e0ac to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x1956b9e4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x1956c794 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x1956e9cc to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x1956bc2c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x1956b0c4 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x1956e2f4 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x1956c9dc to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x1956be74 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x16efc36c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x16efaee4 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x16efcc8c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x16efced4 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x16ef9ca4 to deployment area at 0x580ff00
+Adding unit (Parthian heavy archer) at 0x16efb5bc to deployment area at 0x580ff3c
+Adding unit (Parthian heavy archer) at 0x16ef9814 to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x16efc7fc to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x16efd11c to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x16efa5c4 to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x16efba4c to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x16efb804 to deployment area at 0x580ff3c
+Adding unit (Hyracanian Cavalry) at 0x16efa134 to deployment area at 0x580ff3c
+Adding unit (Median Cavalry) at 0x16ef9a5c to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x16efac9c to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x16efb12c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x16ef9eec to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x16efd364 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x16efc5b4 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16efa80c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16efb374 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16efbc94 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x16ef95cc to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x16efa37c to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x16efbedc to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x16efc124 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16efaa54 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x16efca44 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x1953c2dc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x1953e9a4 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x1953b9bc to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x1953bc04 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x1953d9ac to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x1953c094 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x1953ce44 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x1953e514 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x1953d51c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x1953be4c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x1953c524 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x1953e75c to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x1953d764 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x1953d08c to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x1953dbf4 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x1953de3c to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x1953e2cc to deployment area at 0x580ff78
+Adding unit (Eastern General) at 0x1953e084 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x1953c76c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x1953ebec to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x1953c9b4 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x1953ee34 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x1953cbfc to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x1953d2d4 to deployment area at 0x580ffb4
+Adding unit (Arab Cavalry) at 0x19538e64 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x1953ae54 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x195399cc to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x195390ac to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x195389d4 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x1953a534 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x19539c14 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x19537304 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x1953878c to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x1953a77c to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x19539e5c to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x1953b09c to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x19537c24 to deployment area at 0x580ffb4
+Load finished **************************
+
+
+Trying to remove unit (Eastern Infantry) at 0x16efc124 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16efaa54 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x16efca44 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953c2dc from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953e9a4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x1953b9bc from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x1953bc04 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x1953d9ac from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x1953c094 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x1953ce44 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953e514 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953d51c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953be4c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953c524 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953e75c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x1953d764 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x1953d08c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x1953dbf4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x1953de3c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x1953e2cc from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern General) at 0x1953e084 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x1953c76c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x1953ebec from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x1953c9b4 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x1953ee34 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x1953cbfc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x1953d2d4 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Arab Cavalry) at 0x19538e64 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x1953ae54 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x195399cc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x195390ac from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x195389d4 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x1953a534 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x19539c14 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x19537304 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953878c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953a77c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19539e5c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x1953b09c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x19537c24 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Strategos) at 0x59a9384 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Greek Heroes) at 0x59a95cc from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Greek Heroes) at 0x59a85d4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x59aa80c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x59a9a5c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x59a913c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x59aaee4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Hoplites) at 0x59aaa54 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x59abedc from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x59aac9c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x59a8a64 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Thermon Hoplites) at 0x59ab5bc from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x59ac124 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x59a9814 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x59aba4c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Heavy Peltasts) at 0x59aa5c4 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Heavy Peltasts) at 0x59ac36c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Heavy Thyreophoroi) at 0x59abc94 from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Archers) at 0x59ab12c from deployment area at 0x580fe88 and the unit wasn't found
+Trying to remove unit (Archers) at 0x59ab374 from deployment area at 0x580fe88 and the unit wasn't found
+************** STARTING BATTLE EDITOR
+
+Loading from file CIV/data/world/maps/battle/custom/thermopyl/descr_battle.txt
+Created faction numidia from file
+	Creating army controlled by Leonidas of Sparta at 0x1657cb74 from script
+		Creating unit (Strategos) at 0x59abedc
+		Creating unit (Greek Heroes) at 0x59abc94
+		Creating unit (Greek Heroes) at 0x59ab12c
+		Creating unit (Hoplites) at 0x59aa37c
+		Creating unit (Hoplites) at 0x59aa5c4
+		Creating unit (Hoplites) at 0x59aa80c
+		Creating unit (Hoplites) at 0x59ab374
+		Creating unit (Hoplites) at 0x59ac124
+		Creating unit (Thermon Hoplites) at 0x59ac36c
+		Creating unit (Thermon Hoplites) at 0x59a85d4
+		Creating unit (Thermon Hoplites) at 0x169ab70c
+		Creating unit (Thermon Hoplites) at 0x169aa03c
+		Creating unit (Peltasts) at 0x169a7bbc
+		Creating unit (Peltasts) at 0x169a8294
+		Creating unit (Peltasts) at 0x169a7e04
+		Creating unit (Heavy Peltasts) at 0x169a804c
+		Creating unit (Heavy Peltasts) at 0x169aa284
+		Creating unit (Heavy Thyreophoroi) at 0x169aa714
+		Creating unit (Archers) at 0x16efaa54
+		Creating unit (Archers) at 0x16efca44
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1657c51c from script
+		Creating unit (Eastern General) at 0x16efc124
+		Creating unit (Immortals) at 0x4a99704
+		Creating unit (Immortals) at 0x4a99b94
+		Creating unit (Immortals) at 0x392902f4
+		Creating unit (Immortals) at 0x3928e0bc
+		Creating unit (Immortals) at 0x3928f78c
+		Creating unit (Immortals) at 0x3928e304
+		Creating unit (Immortals) at 0x3928f544
+		Creating unit (Immortals) at 0x3928dc2c
+		Creating unit (Immortals) at 0x392900ac
+		Creating unit (Immortals) at 0x3928de74
+		Creating unit (Immortals) at 0x3929053c
+		Creating unit (Dismounted Riders) at 0x3928d0c4
+		Creating unit (Dismounted Riders) at 0x3928e54c
+		Creating unit (Dismounted Riders) at 0x3928e794
+		Creating unit (Dismounted Riders) at 0x3928d30c
+		Creating unit (Dismounted Riders) at 0x39290784
+		Creating unit (Dismounted Riders) at 0x3928d554
+		Creating unit (Dismounted Riders) at 0x392909cc
+		Creating unit (Dismounted Riders) at 0x3928e9dc
+	Creating army controlled by Hydarnes of Babylonia at 0x1657c6ec from script
+		Creating unit (Immortals) at 0x3928f9d4
+		Creating unit (Parthian Heavy Swordsman) at 0x3928fc1c
+		Creating unit (Parthian Heavy Swordsman) at 0x392912ec
+		Creating unit (Takabara) at 0x3928d9e4
+		Creating unit (Takabara) at 0x39291534
+		Creating unit (Takabara) at 0x3928ec24
+		Creating unit (Eastern Infantry) at 0x39290c14
+		Creating unit (Eastern Infantry) at 0x3928ee6c
+		Creating unit (Eastern Infantry) at 0x3928f0b4
+		Creating unit (Eastern Infantry) at 0x3928d79c
+		Creating unit (Eastern Infantry) at 0x3928fe64
+		Creating unit (Eastern Infantry) at 0x39290e5c
+		Creating unit (Eastern Spearmen) at 0x392910a4
+		Creating unit (Eastern Spearmen) at 0x3928f2fc
+		Creating unit (Eastern Spearmen) at 0x3929177c
+		Creating unit (Hillmen) at 0x3929376c
+		Creating unit (Hillmen) at 0x39292e4c
+		Creating unit (Hillmen) at 0x39293094
+		Creating unit (Hillmen) at 0x392919c4
+		Creating unit (Eastern Spearmen) at 0x39292774
+	Creating army controlled by Datuvahya of Media at 0x1657b5b4 from script
+		Creating unit (Parthian heavy archer) at 0x392922e4
+		Creating unit (Parthian heavy archer) at 0x39293524
+		Creating unit (Slingers) at 0x3929252c
+		Creating unit (Slingers) at 0x392929bc
+		Creating unit (Peltasts) at 0x39291c0c
+		Creating unit (Peltasts) at 0x39294764
+		Creating unit (Peltasts) at 0x392932dc
+		Creating unit (Hyracanian Cavalry) at 0x3929451c
+		Creating unit (Median Cavalry) at 0x392949ac
+		Creating unit (Takabara) at 0x39294bf4
+		Creating unit (Takabara) at 0x392939b4
+		Creating unit (Eastern Infantry) at 0x39293bfc
+		Creating unit (Eastern Infantry) at 0x39294e3c
+		Creating unit (Eastern Infantry) at 0x392942d4
+		Creating unit (Eastern Spearmen) at 0x39292c04
+		Creating unit (Eastern Spearmen) at 0x39291e54
+		Creating unit (Eastern Spearmen) at 0x39293e44
+		Creating unit (Eastern Spearmen) at 0x3929209c
+		Creating unit (Parthian Heavy Swordsman) at 0x3929408c
+		Creating unit (Parthian Heavy Swordsman) at 0x243a90a4
+	Creating army controlled by Zircon at 0x1657b69c from script
+		Creating unit (Eastern Infantry) at 0x243a9534
+		Creating unit (Eastern Infantry) at 0x243a8c14
+		Creating unit (Eastern Infantry) at 0x243a79d4
+		Creating unit (Eastern Infantry) at 0x243a99c4
+		Creating unit (Eastern Infantry) at 0x243a8e5c
+		Creating unit (Hillmen) at 0x243a69dc
+		Creating unit (Hillmen) at 0x243a7c1c
+		Creating unit (Hillmen) at 0x243a92ec
+		Creating unit (Hillmen) at 0x243a977c
+		Creating unit (Hillmen) at 0x243a6304
+		Creating unit (Eastern Infantry) at 0x243a6794
+		Creating unit (Eastern Infantry) at 0x243a70b4
+		Creating unit (Eastern Infantry) at 0x243a9c0c
+		Creating unit (Eastern Infantry) at 0x243a72fc
+		Creating unit (Eastern Infantry) at 0x243a7e64
+		Creating unit (Eastern Spearmen) at 0x243a9e54
+		Creating unit (Eastern Spearmen) at 0x243a7544
+		Creating unit (Eastern Spearmen) at 0x243aa2e4
+		Creating unit (Eastern Spearmen) at 0x243a80ac
+		Creating unit (Eastern Spearmen) at 0x243a89cc
+	Creating army controlled by Sogdianus at 0x1657b86c from script
+		Creating unit (Eastern General) at 0x243a853c
+		Creating unit (sugdian warriors) at 0x243a778c
+		Creating unit (sugdian warriors) at 0x243aa52c
+		Creating unit (sugdian warriors) at 0x243aa09c
+		Creating unit (sugdian warriors) at 0x243a8784
+		Creating unit (sugdian warriors) at 0x243aa774
+		Creating unit (sugdian warriors) at 0x243a82f4
+		Creating unit (Arab Cavalry) at 0x243a60bc
+		Creating unit (Eastern Spearmen) at 0x243a654c
+		Creating unit (Eastern Spearmen) at 0x243a6c24
+		Creating unit (Eastern Spearmen) at 0x243a6e6c
+		Creating unit (Eastern Spearmen) at 0x243acbf4
+		Creating unit (Eastern Spearmen) at 0x243ad9a4
+		Creating unit (Eastern Spearmen) at 0x243adbec
+		Creating unit (Eastern Spearmen) at 0x243ade34
+		Creating unit (Eastern Infantry) at 0x243ad514
+		Creating unit (Eastern Infantry) at 0x243ab094
+		Creating unit (Eastern Infantry) at 0x243ab524
+		Creating unit (Eastern Infantry) at 0x243ac764
+		Creating unit (Eastern Infantry) at 0x243ab76c
+Adding unit (Strategos) at 0x59abedc to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x59abc94 to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x59ab12c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59aa37c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59aa5c4 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59aa80c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59ab374 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x59ac124 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x59ac36c to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x59a85d4 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x169ab70c to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x169aa03c to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x169a7bbc to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x169a8294 to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x169a7e04 to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x169a804c to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x169aa284 to deployment area at 0x580fe88
+Adding unit (Heavy Thyreophoroi) at 0x169aa714 to deployment area at 0x580fe88
+Adding unit (Archers) at 0x16efaa54 to deployment area at 0x580fe88
+Adding unit (Archers) at 0x16efca44 to deployment area at 0x580fe88
+Adding unit (Eastern General) at 0x16efc124 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x4a99704 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x4a99b94 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x392902f4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x3928e0bc to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x3928f78c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x3928e304 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x3928f544 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x3928dc2c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x392900ac to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x3928de74 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x3929053c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x3928d0c4 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x3928e54c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x3928e794 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x3928d30c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x39290784 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x3928d554 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x392909cc to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x3928e9dc to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x3928f9d4 to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x3928fc1c to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x392912ec to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x3928d9e4 to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x39291534 to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x3928ec24 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x39290c14 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x3928ee6c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x3928f0b4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x3928d79c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x3928fe64 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x39290e5c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x392910a4 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x3928f2fc to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x3929177c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x3929376c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x39292e4c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x39293094 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x392919c4 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x39292774 to deployment area at 0x580ff00
+Adding unit (Parthian heavy archer) at 0x392922e4 to deployment area at 0x580ff3c
+Adding unit (Parthian heavy archer) at 0x39293524 to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x3929252c to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x392929bc to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x39291c0c to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x39294764 to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x392932dc to deployment area at 0x580ff3c
+Adding unit (Hyracanian Cavalry) at 0x3929451c to deployment area at 0x580ff3c
+Adding unit (Median Cavalry) at 0x392949ac to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x39294bf4 to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x392939b4 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x39293bfc to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x39294e3c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x392942d4 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x39292c04 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x39291e54 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x39293e44 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x3929209c to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x3929408c to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x243a90a4 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x243a9534 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x243a8c14 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x243a79d4 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x243a99c4 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x243a8e5c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x243a69dc to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x243a7c1c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x243a92ec to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x243a977c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x243a6304 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x243a6794 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x243a70b4 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x243a9c0c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x243a72fc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x243a7e64 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x243a9e54 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x243a7544 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x243aa2e4 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x243a80ac to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x243a89cc to deployment area at 0x580ff78
+Adding unit (Eastern General) at 0x243a853c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x243a778c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x243aa52c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x243aa09c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x243a8784 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x243aa774 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x243a82f4 to deployment area at 0x580ffb4
+Adding unit (Arab Cavalry) at 0x243a60bc to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x243a654c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x243a6c24 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x243a6e6c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x243acbf4 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x243ad9a4 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x243adbec to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x243ade34 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x243ad514 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x243ab094 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x243ab524 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x243ac764 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x243ab76c to deployment area at 0x580ffb4
+Load finished **************************
+
+
+Trying to remove unit (Immortals) at 0x4a99704 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x4a99b94 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x392902f4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x3928e0bc from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x3928f78c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x3928e304 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x3928f544 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x3928dc2c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x392900ac from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x3928de74 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x3929053c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x3928d0c4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x3928e54c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x3928e794 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x3928d30c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x39290784 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x3928d554 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x392909cc from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x3928e9dc from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a9534 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a8c14 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a79d4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a99c4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a8e5c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x243a69dc from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x243a7c1c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x243a92ec from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x243a977c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x243a6304 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a6794 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a70b4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a9c0c from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a72fc from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243a7e64 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x243a9e54 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x243a7544 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x243aa2e4 from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x243a80ac from deployment area at 0x580ff78 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x243a89cc from deployment area at 0x580ff78 and the unit wasn't found
+************** STARTING BATTLE EDITOR
+
+Loading from file CIV/data/world/maps/battle/custom/thermopyl/descr_battle.txt
+Created faction numidia from file
+	Creating army controlled by Leonidas of Sparta at 0x1657b12c from script
+		Creating unit (Strategos) at 0x2f0730a4
+		Creating unit (Greek Heroes) at 0x2f0720ac
+		Creating unit (Greek Heroes) at 0x2f0732ec
+		Creating unit (Hoplites) at 0x2f07377c
+		Creating unit (Hoplites) at 0x2f06f0c4
+		Creating unit (Hoplites) at 0x2f06f30c
+		Creating unit (Hoplites) at 0x2f06f554
+		Creating unit (Hoplites) at 0x2f071544
+		Creating unit (Thermon Hoplites) at 0x2f06f9e4
+		Creating unit (Thermon Hoplites) at 0x2f06fc2c
+		Creating unit (Thermon Hoplites) at 0x2f070e6c
+		Creating unit (Thermon Hoplites) at 0x2f06fe74
+		Creating unit (Peltasts) at 0x2f0700bc
+		Creating unit (Peltasts) at 0x2f070304
+		Creating unit (Peltasts) at 0x2f070794
+		Creating unit (Heavy Peltasts) at 0x2f070c24
+		Creating unit (Heavy Peltasts) at 0x2f0710b4
+		Creating unit (Heavy Thyreophoroi) at 0x2f07651c
+		Creating unit (Archers) at 0x2f076bf4
+		Creating unit (Archers) at 0x2f075524
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1657bb24 from script
+		Creating unit (Eastern General) at 0x2f07576c
+		Creating unit (Immortals) at 0x2f075e44
+		Creating unit (Immortals) at 0x2f075bfc
+		Creating unit (Immortals) at 0x2f0769ac
+		Creating unit (Immortals) at 0x2f0739c4
+		Creating unit (Immortals) at 0x2f076e3c
+		Creating unit (Immortals) at 0x2f073c0c
+		Creating unit (Immortals) at 0x2f0752dc
+		Creating unit (Immortals) at 0x2f0759b4
+		Creating unit (Immortals) at 0x2f07608c
+		Creating unit (Immortals) at 0x2f0762d4
+		Creating unit (Immortals) at 0x2f076764
+		Creating unit (Dismounted Riders) at 0x2f073e54
+		Creating unit (Dismounted Riders) at 0x2f07409c
+		Creating unit (Dismounted Riders) at 0x2f0742e4
+		Creating unit (Dismounted Riders) at 0x2f07452c
+		Creating unit (Dismounted Riders) at 0x2f074774
+		Creating unit (Dismounted Riders) at 0x2f0749bc
+		Creating unit (Dismounted Riders) at 0x2f074c04
+		Creating unit (Dismounted Riders) at 0x2f074e4c
+	Creating army controlled by Hydarnes of Babylonia at 0x1657e4d4 from script
+		Creating unit (Immortals) at 0x2f075094
+		Creating unit (Parthian Heavy Swordsman) at 0x243a6304
+		Creating unit (Parthian Heavy Swordsman) at 0x243a6794
+		Creating unit (Takabara) at 0x243a7544
+		Creating unit (Takabara) at 0x243a72fc
+		Creating unit (Takabara) at 0x243a79d4
+		Creating unit (Eastern Infantry) at 0x243a7c1c
+		Creating unit (Eastern Infantry) at 0x243a89cc
+		Creating unit (Eastern Infantry) at 0x243a8c14
+		Creating unit (Eastern Infantry) at 0x243a9534
+		Creating unit (Eastern Infantry) at 0x243a8e5c
+		Creating unit (Eastern Infantry) at 0x243a9e54
+		Creating unit (Eastern Spearmen) at 0x243a69dc
+		Creating unit (Eastern Spearmen) at 0x243a92ec
+		Creating unit (Eastern Spearmen) at 0x243a99c4
+		Creating unit (Hillmen) at 0x243a9c0c
+		Creating unit (Hillmen) at 0x243a70b4
+		Creating unit (Hillmen) at 0x243a7e64
+		Creating unit (Hillmen) at 0x243a977c
+		Creating unit (Eastern Spearmen) at 0x243aa2e4
+	Creating army controlled by Datuvahya of Media at 0x1657cffc from script
+		Creating unit (Parthian heavy archer) at 0x243a80ac
+		Creating unit (Parthian heavy archer) at 0x243ac9ac
+		Creating unit (Slingers) at 0x243ad75c
+		Creating unit (Slingers) at 0x243ab2dc
+		Creating unit (Peltasts) at 0x243ac51c
+		Creating unit (Peltasts) at 0x243ad2cc
+		Creating unit (Peltasts) at 0x243aa9bc
+		Creating unit (Hyracanian Cavalry) at 0x243ab9b4
+		Creating unit (Median Cavalry) at 0x243aac04
+		Creating unit (Takabara) at 0x243aae4c
+		Creating unit (Takabara) at 0x243ac08c
+		Creating unit (Eastern Infantry) at 0x243abbfc
+		Creating unit (Eastern Infantry) at 0x243abe44
+		Creating unit (Eastern Infantry) at 0x243ad084
+		Creating unit (Eastern Spearmen) at 0x243ace3c
+		Creating unit (Eastern Spearmen) at 0x243ac2d4
+		Creating unit (Eastern Spearmen) at 0x392900ac
+		Creating unit (Eastern Spearmen) at 0x392902f4
+		Creating unit (Parthian Heavy Swordsman) at 0x3928e304
+		Creating unit (Parthian Heavy Swordsman) at 0x3928f544
+	Creating army controlled by Zircon at 0x1657e5bc from script
+		Creating unit (Eastern Infantry) at 0x3928e794
+		Creating unit (Eastern Infantry) at 0x3928e0bc
+		Creating unit (Eastern Infantry) at 0x3928e9dc
+		Creating unit (Eastern Infantry) at 0x3928d0c4
+		Creating unit (Eastern Infantry) at 0x3928f78c
+		Creating unit (Hillmen) at 0x3928e54c
+		Creating unit (Hillmen) at 0x3929053c
+		Creating unit (Hillmen) at 0x3928d30c
+		Creating unit (Hillmen) at 0x3928d554
+		Creating unit (Hillmen) at 0x39290784
+		Creating unit (Eastern Infantry) at 0x392909cc
+		Creating unit (Eastern Infantry) at 0x3928dc2c
+		Creating unit (Eastern Infantry) at 0x3928de74
+		Creating unit (Eastern Infantry) at 0x59aaa54
+		Creating unit (Eastern Infantry) at 0x59aac9c
+		Creating unit (Eastern Spearmen) at 0x59a8a64
+		Creating unit (Eastern Spearmen) at 0x59aaee4
+		Creating unit (Eastern Spearmen) at 0x59ab5bc
+		Creating unit (Eastern Spearmen) at 0x59a913c
+		Creating unit (Eastern Spearmen) at 0x59a9384
+	Creating army controlled by Sogdianus at 0x1657e874 from script
+		Creating unit (Eastern General) at 0x59a95cc
+		Creating unit (sugdian warriors) at 0x59a9814
+		Creating unit (sugdian warriors) at 0x59a9a5c
+		Creating unit (sugdian warriors) at 0x59aba4c
+		Creating unit (sugdian warriors) at 0x4a99704
+		Creating unit (sugdian warriors) at 0x4a99b94
+		Creating unit (sugdian warriors) at 0x38b46094
+		Creating unit (Arab Cavalry) at 0x38b459bc
+		Creating unit (Eastern Spearmen) at 0x38b44c0c
+		Creating unit (Eastern Spearmen) at 0x38b4751c
+		Creating unit (Eastern Spearmen) at 0x38b46e44
+		Creating unit (Eastern Spearmen) at 0x38b462dc
+		Creating unit (Eastern Spearmen) at 0x38b47764
+		Creating unit (Eastern Spearmen) at 0x38b44e54
+		Creating unit (Eastern Spearmen) at 0x38b479ac
+		Creating unit (Eastern Infantry) at 0x38b4676c
+		Creating unit (Eastern Infantry) at 0x38b47bf4
+		Creating unit (Eastern Infantry) at 0x38b469b4
+		Creating unit (Eastern Infantry) at 0x38b45e4c
+		Creating unit (Eastern Infantry) at 0x38b472d4
+Adding unit (Strategos) at 0x2f0730a4 to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x2f0720ac to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x2f0732ec to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x2f07377c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x2f06f0c4 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x2f06f30c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x2f06f554 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x2f071544 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x2f06f9e4 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x2f06fc2c to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x2f070e6c to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x2f06fe74 to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x2f0700bc to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x2f070304 to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x2f070794 to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x2f070c24 to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x2f0710b4 to deployment area at 0x580fe88
+Adding unit (Heavy Thyreophoroi) at 0x2f07651c to deployment area at 0x580fe88
+Adding unit (Archers) at 0x2f076bf4 to deployment area at 0x580fe88
+Adding unit (Archers) at 0x2f075524 to deployment area at 0x580fe88
+Adding unit (Eastern General) at 0x2f07576c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f075e44 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f075bfc to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f0769ac to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f0739c4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f076e3c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f073c0c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f0752dc to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f0759b4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f07608c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f0762d4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f076764 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x2f073e54 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x2f07409c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x2f0742e4 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x2f07452c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x2f074774 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x2f0749bc to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x2f074c04 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x2f074e4c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x2f075094 to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x243a6304 to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x243a6794 to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x243a7544 to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x243a72fc to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x243a79d4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x243a7c1c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x243a89cc to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x243a8c14 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x243a9534 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x243a8e5c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x243a9e54 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x243a69dc to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x243a92ec to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x243a99c4 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x243a9c0c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x243a70b4 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x243a7e64 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x243a977c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x243aa2e4 to deployment area at 0x580ff00
+Adding unit (Parthian heavy archer) at 0x243a80ac to deployment area at 0x580ff3c
+Adding unit (Parthian heavy archer) at 0x243ac9ac to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x243ad75c to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x243ab2dc to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x243ac51c to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x243ad2cc to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x243aa9bc to deployment area at 0x580ff3c
+Adding unit (Hyracanian Cavalry) at 0x243ab9b4 to deployment area at 0x580ff3c
+Adding unit (Median Cavalry) at 0x243aac04 to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x243aae4c to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x243ac08c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x243abbfc to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x243abe44 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x243ad084 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x243ace3c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x243ac2d4 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x392900ac to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x392902f4 to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x3928e304 to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x3928f544 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x3928e794 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x3928e0bc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x3928e9dc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x3928d0c4 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x3928f78c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x3928e54c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x3929053c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x3928d30c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x3928d554 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x39290784 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x392909cc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x3928dc2c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x3928de74 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x59aaa54 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x59aac9c to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x59a8a64 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x59aaee4 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x59ab5bc to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x59a913c to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x59a9384 to deployment area at 0x580ff78
+Adding unit (Eastern General) at 0x59a95cc to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x59a9814 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x59a9a5c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x59aba4c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x4a99704 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x4a99b94 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x38b46094 to deployment area at 0x580ffb4
+Adding unit (Arab Cavalry) at 0x38b459bc to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x38b44c0c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x38b4751c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x38b46e44 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x38b462dc to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x38b47764 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x38b44e54 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x38b479ac to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x38b4676c to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x38b47bf4 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x38b469b4 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x38b45e4c to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x38b472d4 to deployment area at 0x580ffb4
+Load finished **************************
+
+
+Trying to remove unit (Immortals) at 0x2f075094 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian heavy archer) at 0x243ac9ac from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Slingers) at 0x243ad75c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Slingers) at 0x243ab2dc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x243ac51c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x243ad2cc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x243aa9bc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Hyracanian Cavalry) at 0x243ab9b4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Median Cavalry) at 0x243aac04 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Takabara) at 0x243aae4c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Takabara) at 0x243ac08c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243abbfc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243abe44 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x243ad084 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x243ace3c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x243ac2d4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x38b46094 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Arab Cavalry) at 0x38b459bc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x38b44c0c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x38b4751c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x38b46e44 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x38b462dc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x38b47764 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x38b44e54 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x38b479ac from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x38b4676c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x38b47bf4 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x38b469b4 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x38b45e4c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x38b472d4 from deployment area at 0x580ffb4 and the unit wasn't found
+************** STARTING BATTLE EDITOR
+
+Loading from file CIV/data/world/maps/battle/custom/thermopyl/descr_battle.txt
+Created faction numidia from file
+	Creating army controlled by Leonidas of Sparta at 0x1657d73c from script
+		Creating unit (Strategos) at 0x243ad2cc
+		Creating unit (Greek Heroes) at 0x243abbfc
+		Creating unit (Greek Heroes) at 0x243aac04
+		Creating unit (Hoplites) at 0x243ab9b4
+		Creating unit (Hoplites) at 0x2f0712fc
+		Creating unit (Hoplites) at 0x2f07054c
+		Creating unit (Hoplites) at 0x2f073534
+		Creating unit (Hoplites) at 0x2f0709dc
+		Creating unit (Thermon Hoplites) at 0x2f0722f4
+		Creating unit (Thermon Hoplites) at 0x2f071e64
+		Creating unit (Thermon Hoplites) at 0x2f07253c
+		Creating unit (Thermon Hoplites) at 0x2f06f79c
+		Creating unit (Peltasts) at 0x2f072784
+		Creating unit (Peltasts) at 0x2f072c14
+		Creating unit (Peltasts) at 0x2f072e5c
+		Creating unit (Heavy Peltasts) at 0x2f075094
+		Creating unit (Heavy Peltasts) at 0x5a53be5c
+		Creating unit (Heavy Thyreophoroi) at 0x5a53830c
+		Creating unit (Archers) at 0x5a539794
+		Creating unit (Archers) at 0x5a53bc14
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1657dadc from script
+		Creating unit (Eastern General) at 0x5a5380c4
+		Creating unit (Immortals) at 0x5a53ac1c
+		Creating unit (Immortals) at 0x5a5389e4
+		Creating unit (Immortals) at 0x5a538554
+		Creating unit (Immortals) at 0x5a53a78c
+		Creating unit (Immortals) at 0x5a53a9d4
+		Creating unit (Immortals) at 0x5a53b784
+		Creating unit (Immortals) at 0x5a53c0a4
+		Creating unit (Immortals) at 0x5a538c2c
+		Creating unit (Immortals) at 0x5a539304
+		Creating unit (Immortals) at 0x5a539e6c
+		Creating unit (Immortals) at 0x5a538e74
+		Creating unit (Dismounted Riders) at 0x5a53c534
+		Creating unit (Dismounted Riders) at 0x5a5399dc
+		Creating unit (Dismounted Riders) at 0x5a53c2ec
+		Creating unit (Dismounted Riders) at 0x5a53ae64
+		Creating unit (Dismounted Riders) at 0x5a53c77c
+		Creating unit (Dismounted Riders) at 0x5a53954c
+		Creating unit (Dismounted Riders) at 0x5a53a544
+		Creating unit (Dismounted Riders) at 0x5a539c24
+	Creating army controlled by Hydarnes of Babylonia at 0x1657dd94 from script
+		Creating unit (Immortals) at 0x5a53b0ac
+		Creating unit (Parthian Heavy Swordsman) at 0x5a53b2f4
+		Creating unit (Parthian Heavy Swordsman) at 0x5a5390bc
+		Creating unit (Takabara) at 0x5a53879c
+		Creating unit (Takabara) at 0x5a53b53c
+		Creating unit (Takabara) at 0x5a53a0b4
+		Creating unit (Eastern Infantry) at 0x5a53a2fc
+		Creating unit (Eastern Infantry) at 0x5a53b9cc
+		Creating unit (Eastern Infantry) at 0x5a53f9ac
+		Creating unit (Eastern Infantry) at 0x5a53e524
+		Creating unit (Eastern Infantry) at 0x5a53fbf4
+		Creating unit (Eastern Infantry) at 0x5a53ce54
+		Creating unit (Eastern Spearmen) at 0x5a53fe3c
+		Creating unit (Eastern Spearmen) at 0x5a53dc04
+		Creating unit (Eastern Spearmen) at 0x5a53f764
+		Creating unit (Hillmen) at 0x5a53c9c4
+		Creating unit (Hillmen) at 0x5a53de4c
+		Creating unit (Hillmen) at 0x5a53d09c
+		Creating unit (Hillmen) at 0x5a53f2d4
+		Creating unit (Eastern Spearmen) at 0x5a53e094
+	Creating army controlled by Datuvahya of Media at 0x1657d0e4 from script
+		Creating unit (Parthian heavy archer) at 0x5a53e2dc
+		Creating unit (Parthian heavy archer) at 0x5a53d2e4
+		Creating unit (Slingers) at 0x5a53d52c
+		Creating unit (Slingers) at 0x5a53e76c
+		Creating unit (Peltasts) at 0x5a53cc0c
+		Creating unit (Peltasts) at 0x5a53ebfc
+		Creating unit (Peltasts) at 0x5a53d774
+		Creating unit (Hyracanian Cavalry) at 0x5a53ee44
+		Creating unit (Median Cavalry) at 0x5a53d9bc
+		Creating unit (Takabara) at 0x5a53e9b4
+		Creating unit (Takabara) at 0x5a53f08c
+		Creating unit (Eastern Infantry) at 0x5a53f51c
+		Creating unit (Eastern Infantry) at 0x67e99754
+		Creating unit (Eastern Infantry) at 0x67e9b98c
+		Creating unit (Eastern Spearmen) at 0x67e9999c
+		Creating unit (Eastern Spearmen) at 0x67e9950c
+		Creating unit (Eastern Spearmen) at 0x67e9a504
+		Creating unit (Eastern Spearmen) at 0x67e99be4
+		Creating unit (Parthian Heavy Swordsman) at 0x67e9abdc
+		Creating unit (Parthian Heavy Swordsman) at 0x67e99e2c
+	Creating army controlled by Zircon at 0x1657e4d4 from script
+		Creating unit (Eastern Infantry) at 0x67e9ae24
+		Creating unit (Eastern Infantry) at 0x67e9d2a4
+		Creating unit (Eastern Infantry) at 0x67e9b4fc
+		Creating unit (Eastern Infantry) at 0x67e9d97c
+		Creating unit (Eastern Infantry) at 0x67e9a074
+		Creating unit (Hillmen) at 0x67e9d4ec
+		Creating unit (Hillmen) at 0x67e9bbd4
+		Creating unit (Hillmen) at 0x67e9a2bc
+		Creating unit (Hillmen) at 0x67e9b06c
+		Creating unit (Hillmen) at 0x67e9b2b4
+		Creating unit (Eastern Infantry) at 0x67e9a74c
+		Creating unit (Eastern Infantry) at 0x67e9a994
+		Creating unit (Eastern Infantry) at 0x67e9c2ac
+		Creating unit (Eastern Infantry) at 0x67e9d05c
+		Creating unit (Eastern Infantry) at 0x67e992c4
+		Creating unit (Eastern Spearmen) at 0x67e9b744
+		Creating unit (Eastern Spearmen) at 0x67e9be1c
+		Creating unit (Eastern Spearmen) at 0x67e9c064
+		Creating unit (Eastern Spearmen) at 0x67e9ce14
+		Creating unit (Eastern Spearmen) at 0x67e9c4f4
+	Creating army controlled by Sogdianus at 0x1657e304 from script
+		Creating unit (Eastern General) at 0x67e9c73c
+		Creating unit (sugdian warriors) at 0x67e9c984
+		Creating unit (sugdian warriors) at 0x67e9cbcc
+		Creating unit (sugdian warriors) at 0x67e9d734
+		Creating unit (sugdian warriors) at 0x67e9e72c
+		Creating unit (sugdian warriors) at 0x67e9f96c
+		Creating unit (sugdian warriors) at 0x67e9f04c
+		Creating unit (Arab Cavalry) at 0x67e9e29c
+		Creating unit (Eastern Spearmen) at 0x67e9ebbc
+		Creating unit (Eastern Spearmen) at 0x67e9fbb4
+		Creating unit (Eastern Spearmen) at 0x67e9e974
+		Creating unit (Eastern Spearmen) at 0x67e9f724
+		Creating unit (Eastern Spearmen) at 0x67e9e054
+		Creating unit (Eastern Spearmen) at 0x67e9ee04
+		Creating unit (Eastern Spearmen) at 0x67e9de0c
+		Creating unit (Eastern Infantry) at 0x67e9f294
+		Creating unit (Eastern Infantry) at 0x67e9e4e4
+		Creating unit (Eastern Infantry) at 0x67e9f4dc
+		Creating unit (Eastern Infantry) at 0x67e9fdfc
+		Creating unit (Eastern Infantry) at 0x67e9dbc4
+Adding unit (Strategos) at 0x243ad2cc to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x243abbfc to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x243aac04 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x243ab9b4 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x2f0712fc to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x2f07054c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x2f073534 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x2f0709dc to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x2f0722f4 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x2f071e64 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x2f07253c to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x2f06f79c to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x2f072784 to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x2f072c14 to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x2f072e5c to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x2f075094 to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x5a53be5c to deployment area at 0x580fe88
+Adding unit (Heavy Thyreophoroi) at 0x5a53830c to deployment area at 0x580fe88
+Adding unit (Archers) at 0x5a539794 to deployment area at 0x580fe88
+Adding unit (Archers) at 0x5a53bc14 to deployment area at 0x580fe88
+Adding unit (Eastern General) at 0x5a5380c4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a53ac1c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a5389e4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a538554 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a53a78c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a53a9d4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a53b784 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a53c0a4 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a538c2c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a539304 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a539e6c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a538e74 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x5a53c534 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x5a5399dc to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x5a53c2ec to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x5a53ae64 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x5a53c77c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x5a53954c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x5a53a544 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x5a539c24 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a53b0ac to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x5a53b2f4 to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x5a5390bc to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x5a53879c to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x5a53b53c to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x5a53a0b4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x5a53a2fc to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x5a53b9cc to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x5a53f9ac to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x5a53e524 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x5a53fbf4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x5a53ce54 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x5a53fe3c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x5a53dc04 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x5a53f764 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x5a53c9c4 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x5a53de4c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x5a53d09c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x5a53f2d4 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x5a53e094 to deployment area at 0x580ff00
+Adding unit (Parthian heavy archer) at 0x5a53e2dc to deployment area at 0x580ff3c
+Adding unit (Parthian heavy archer) at 0x5a53d2e4 to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x5a53d52c to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x5a53e76c to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x5a53cc0c to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x5a53ebfc to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x5a53d774 to deployment area at 0x580ff3c
+Adding unit (Hyracanian Cavalry) at 0x5a53ee44 to deployment area at 0x580ff3c
+Adding unit (Median Cavalry) at 0x5a53d9bc to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x5a53e9b4 to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x5a53f08c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x5a53f51c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e99754 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e9b98c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x67e9999c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x67e9950c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x67e9a504 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x67e99be4 to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x67e9abdc to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x67e99e2c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e9ae24 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x67e9d2a4 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x67e9b4fc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x67e9d97c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x67e9a074 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x67e9d4ec to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x67e9bbd4 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x67e9a2bc to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x67e9b06c to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x67e9b2b4 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x67e9a74c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x67e9a994 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x67e9c2ac to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x67e9d05c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x67e992c4 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x67e9b744 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x67e9be1c to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x67e9c064 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x67e9ce14 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x67e9c4f4 to deployment area at 0x580ff78
+Adding unit (Eastern General) at 0x67e9c73c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x67e9c984 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x67e9cbcc to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x67e9d734 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x67e9e72c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x67e9f96c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x67e9f04c to deployment area at 0x580ffb4
+Adding unit (Arab Cavalry) at 0x67e9e29c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x67e9ebbc to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x67e9fbb4 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x67e9e974 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x67e9f724 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x67e9e054 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x67e9ee04 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x67e9de0c to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x67e9f294 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x67e9e4e4 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x67e9f4dc to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x67e9fdfc to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x67e9dbc4 to deployment area at 0x580ffb4
+Load finished **************************
+
+
+Trying to remove unit (Eastern General) at 0x5a5380c4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a53ac1c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a5389e4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a538554 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a53a78c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a53a9d4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a53b784 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a53c0a4 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a538c2c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a539304 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a539e6c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a538e74 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x5a53c534 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x5a5399dc from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x5a53c2ec from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x5a53ae64 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x5a53c77c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x5a53954c from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x5a53a544 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Dismounted Riders) at 0x5a539c24 from deployment area at 0x580fec4 and the unit wasn't found
+Trying to remove unit (Immortals) at 0x5a53b0ac from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x5a53b2f4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x5a5390bc from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Takabara) at 0x5a53879c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Takabara) at 0x5a53b53c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Takabara) at 0x5a53a0b4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x5a53a2fc from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x5a53b9cc from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x5a53f9ac from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x5a53e524 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x5a53fbf4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x5a53ce54 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x5a53fe3c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x5a53dc04 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x5a53f764 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x5a53c9c4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x5a53de4c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x5a53d09c from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Hillmen) at 0x5a53f2d4 from deployment area at 0x580ff00 and the unit wasn't found
+Trying to remove unit (Parthian heavy archer) at 0x5a53e2dc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Parthian heavy archer) at 0x5a53d2e4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Slingers) at 0x5a53d52c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Slingers) at 0x5a53e76c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x5a53cc0c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x5a53ebfc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Peltasts) at 0x5a53d774 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Hyracanian Cavalry) at 0x5a53ee44 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Median Cavalry) at 0x5a53d9bc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Takabara) at 0x5a53e9b4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Takabara) at 0x5a53f08c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x5a53f51c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x67e99754 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x67e9b98c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9999c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9950c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9a504 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e99be4 from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x67e9abdc from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Parthian Heavy Swordsman) at 0x67e99e2c from deployment area at 0x580ff3c and the unit wasn't found
+Trying to remove unit (Eastern General) at 0x67e9c73c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x67e9c984 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x67e9cbcc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x67e9d734 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x67e9e72c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x67e9f96c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (sugdian warriors) at 0x67e9f04c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Arab Cavalry) at 0x67e9e29c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9ebbc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9fbb4 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9e974 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9f724 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9e054 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9ee04 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Spearmen) at 0x67e9de0c from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x67e9f294 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x67e9e4e4 from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x67e9f4dc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x67e9fdfc from deployment area at 0x580ffb4 and the unit wasn't found
+Trying to remove unit (Eastern Infantry) at 0x67e9dbc4 from deployment area at 0x580ffb4 and the unit wasn't found
+************** STARTING BATTLE EDITOR
+
+Loading from file CIV/data/world/maps/battle/custom/Last_300/descr_battle.txt
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1657d0e4 from script
+		Creating unit (Eastern General) at 0x67e93c14
+		Creating unit (Immortals) at 0x67e9154c
+		Creating unit (Immortals) at 0x67e940a4
+		Creating unit (Immortals) at 0x67e90e74
+		Creating unit (Immortals) at 0x67e90554
+		Creating unit (Immortals) at 0x67e9353c
+		Creating unit (Immortals) at 0x67e93784
+		Creating unit (Immortals) at 0x67e932f4
+		Creating unit (Immortals) at 0x67e91794
+		Creating unit (Immortals) at 0x67e942ec
+		Creating unit (Immortals) at 0x67e94534
+		Creating unit (Immortals) at 0x67e91c24
+		Creating unit (Dismounted Riders) at 0x67e9278c
+		Creating unit (Dismounted Riders) at 0x67e910bc
+		Creating unit (Dismounted Riders) at 0x67e91304
+		Creating unit (Dismounted Riders) at 0x67e929d4
+		Creating unit (Dismounted Riders) at 0x67e920b4
+		Creating unit (Dismounted Riders) at 0x67e92c1c
+		Creating unit (Dismounted Riders) at 0x67e91e6c
+		Creating unit (Dismounted Riders) at 0x67e92e64
+	Creating army controlled by Hydarnes of Babylonia at 0x1657d56c from script
+		Creating unit (Immortals) at 0x67e930ac
+		Creating unit (Parthian Heavy Swordsman) at 0x67e959bc
+		Creating unit (Parthian Heavy Swordsman) at 0x67e9676c
+		Creating unit (Takabara) at 0x67e98e34
+		Creating unit (Takabara) at 0x67e9751c
+		Creating unit (Takabara) at 0x67e9907c
+		Creating unit (Eastern Infantry) at 0x67e95774
+		Creating unit (Eastern Infantry) at 0x67e9708c
+		Creating unit (Eastern Infantry) at 0x67e96094
+		Creating unit (Eastern Infantry) at 0x67e9509c
+		Creating unit (Eastern Infantry) at 0x67e9552c
+		Creating unit (Eastern Infantry) at 0x67e962dc
+		Creating unit (Eastern Spearmen) at 0x67e96e44
+		Creating unit (Eastern Spearmen) at 0x67e979ac
+		Creating unit (Eastern Spearmen) at 0x67e96524
+		Creating unit (Hillmen) at 0x67e95c04
+		Creating unit (Hillmen) at 0x67e97764
+		Creating unit (Hillmen) at 0x67e98514
+		Creating unit (Hillmen) at 0x67e949c4
+		Creating unit (Eastern Spearmen) at 0x67e94c0c
+	Creating army controlled by Datuvahya of Media at 0x1657dadc from script
+		Creating unit (Parthian heavy archer) at 0x67e969b4
+		Creating unit (Parthian heavy archer) at 0x67e95e4c
+		Creating unit (Slingers) at 0x67e97bf4
+		Creating unit (Slingers) at 0x67e96bfc
+		Creating unit (Peltasts) at 0x67e972d4
+		Creating unit (Peltasts) at 0x67e97e3c
+		Creating unit (Peltasts) at 0x67e94e54
+		Creating unit (Hyracanian Cavalry) at 0x67e98084
+		Creating unit (Median Cavalry) at 0x67e952e4
+		Creating unit (Takabara) at 0x67e982cc
+		Creating unit (Takabara) at 0x67e9875c
+		Creating unit (Eastern Infantry) at 0x67e989a4
+		Creating unit (Eastern Infantry) at 0x67e98bec
+		Creating unit (Eastern Infantry) at 0x67e9d734
+		Creating unit (Eastern Spearmen) at 0x67e9abdc
+		Creating unit (Eastern Spearmen) at 0x67e99e2c
+		Creating unit (Eastern Spearmen) at 0x67e9cbcc
+		Creating unit (Eastern Spearmen) at 0x67e9b98c
+		Creating unit (Parthian Heavy Swordsman) at 0x67e9a504
+		Creating unit (Parthian Heavy Swordsman) at 0x67e9c73c
+	Creating army controlled by Zircon at 0x1657d90c from script
+		Creating unit (Eastern Infantry) at 0x67e9c984
+		Creating unit (Eastern Infantry) at 0x67e9950c
+		Creating unit (Eastern Infantry) at 0x67e99754
+		Creating unit (Eastern Infantry) at 0x67e9999c
+		Creating unit (Eastern Infantry) at 0x67e99be4
+		Creating unit (Hillmen) at 0x67e9f96c
+		Creating unit (Hillmen) at 0x67e9ee04
+		Creating unit (Hillmen) at 0x67e9fbb4
+		Creating unit (Hillmen) at 0x67e9e4e4
+		Creating unit (Hillmen) at 0x67e9f04c
+		Creating unit (Eastern Infantry) at 0x67e9f294
+		Creating unit (Eastern Infantry) at 0x67e9e72c
+		Creating unit (Eastern Infantry) at 0x67e9de0c
+		Creating unit (Eastern Infantry) at 0x67e9e974
+		Creating unit (Eastern Infantry) at 0x67e9ebbc
+		Creating unit (Eastern Spearmen) at 0x67e9f4dc
+		Creating unit (Eastern Spearmen) at 0x67e9f724
+		Creating unit (Eastern Spearmen) at 0x67e9dbc4
+		Creating unit (Eastern Spearmen) at 0x67e9fdfc
+		Creating unit (Eastern Spearmen) at 0x67e9e054
+Created faction numidia from file
+	Creating army controlled by Leonidas of Sparta at 0x1657df64 from script
+		Creating unit (Strategos) at 0x67e9e29c
+		Creating unit (Greek Heroes) at 0x5a5380c4
+		Creating unit (Greek Heroes) at 0x5a53ae64
+		Creating unit (Hoplites) at 0x5a53a9d4
+		Creating unit (Hoplites) at 0x5a538554
+		Creating unit (Hoplites) at 0x5a53c0a4
+		Creating unit (Hoplites) at 0x5a539c24
+		Creating unit (Hoplites) at 0x5a53879c
+		Creating unit (Thermon Hoplites) at 0x5a53c2ec
+		Creating unit (Thermon Hoplites) at 0x5a5389e4
+		Creating unit (Thermon Hoplites) at 0x5a53b53c
+		Creating unit (Thermon Hoplites) at 0x5a5390bc
+		Creating unit (Peltasts) at 0x5a53a544
+		Creating unit (Peltasts) at 0x5a538e74
+		Creating unit (Peltasts) at 0x5a538c2c
+		Creating unit (Heavy Peltasts) at 0x5a539304
+		Creating unit (Heavy Peltasts) at 0x5a53b784
+		Creating unit (Heavy Thyreophoroi) at 0x5a5399dc
+		Creating unit (Archers) at 0x5a53c534
+		Creating unit (Archers) at 0x5a539e6c
+Adding unit (Eastern General) at 0x67e93c14 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e9154c to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e940a4 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e90e74 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e90554 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e9353c to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e93784 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e932f4 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e91794 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e942ec to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e94534 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e91c24 to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x67e9278c to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x67e910bc to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x67e91304 to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x67e929d4 to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x67e920b4 to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x67e92c1c to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x67e91e6c to deployment area at 0x580fe88
+Adding unit (Dismounted Riders) at 0x67e92e64 to deployment area at 0x580fe88
+Adding unit (Immortals) at 0x67e930ac to deployment area at 0x580fec4
+Adding unit (Parthian Heavy Swordsman) at 0x67e959bc to deployment area at 0x580fec4
+Adding unit (Parthian Heavy Swordsman) at 0x67e9676c to deployment area at 0x580fec4
+Adding unit (Takabara) at 0x67e98e34 to deployment area at 0x580fec4
+Adding unit (Takabara) at 0x67e9751c to deployment area at 0x580fec4
+Adding unit (Takabara) at 0x67e9907c to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x67e95774 to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x67e9708c to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x67e96094 to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x67e9509c to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x67e9552c to deployment area at 0x580fec4
+Adding unit (Eastern Infantry) at 0x67e962dc to deployment area at 0x580fec4
+Adding unit (Eastern Spearmen) at 0x67e96e44 to deployment area at 0x580fec4
+Adding unit (Eastern Spearmen) at 0x67e979ac to deployment area at 0x580fec4
+Adding unit (Eastern Spearmen) at 0x67e96524 to deployment area at 0x580fec4
+Adding unit (Hillmen) at 0x67e95c04 to deployment area at 0x580fec4
+Adding unit (Hillmen) at 0x67e97764 to deployment area at 0x580fec4
+Adding unit (Hillmen) at 0x67e98514 to deployment area at 0x580fec4
+Adding unit (Hillmen) at 0x67e949c4 to deployment area at 0x580fec4
+Adding unit (Eastern Spearmen) at 0x67e94c0c to deployment area at 0x580fec4
+Adding unit (Parthian heavy archer) at 0x67e969b4 to deployment area at 0x580ff00
+Adding unit (Parthian heavy archer) at 0x67e95e4c to deployment area at 0x580ff00
+Adding unit (Slingers) at 0x67e97bf4 to deployment area at 0x580ff00
+Adding unit (Slingers) at 0x67e96bfc to deployment area at 0x580ff00
+Adding unit (Peltasts) at 0x67e972d4 to deployment area at 0x580ff00
+Adding unit (Peltasts) at 0x67e97e3c to deployment area at 0x580ff00
+Adding unit (Peltasts) at 0x67e94e54 to deployment area at 0x580ff00
+Adding unit (Hyracanian Cavalry) at 0x67e98084 to deployment area at 0x580ff00
+Adding unit (Median Cavalry) at 0x67e952e4 to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x67e982cc to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x67e9875c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x67e989a4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x67e98bec to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x67e9d734 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x67e9abdc to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x67e99e2c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x67e9cbcc to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x67e9b98c to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x67e9a504 to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x67e9c73c to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x67e9c984 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e9950c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e99754 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e9999c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e99be4 to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x67e9f96c to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x67e9ee04 to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x67e9fbb4 to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x67e9e4e4 to deployment area at 0x580ff3c
+Adding unit (Hillmen) at 0x67e9f04c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e9f294 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e9e72c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e9de0c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e9e974 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x67e9ebbc to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x67e9f4dc to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x67e9f724 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x67e9dbc4 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x67e9fdfc to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x67e9e054 to deployment area at 0x580ff3c
+Adding unit (Strategos) at 0x67e9e29c to deployment area at 0x580ff78
+Adding unit (Greek Heroes) at 0x5a5380c4 to deployment area at 0x580ff78
+Adding unit (Greek Heroes) at 0x5a53ae64 to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x5a53a9d4 to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x5a538554 to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x5a53c0a4 to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x5a539c24 to deployment area at 0x580ff78
+Adding unit (Hoplites) at 0x5a53879c to deployment area at 0x580ff78
+Adding unit (Thermon Hoplites) at 0x5a53c2ec to deployment area at 0x580ff78
+Adding unit (Thermon Hoplites) at 0x5a5389e4 to deployment area at 0x580ff78
+Adding unit (Thermon Hoplites) at 0x5a53b53c to deployment area at 0x580ff78
+Adding unit (Thermon Hoplites) at 0x5a5390bc to deployment area at 0x580ff78
+Adding unit (Peltasts) at 0x5a53a544 to deployment area at 0x580ff78
+Adding unit (Peltasts) at 0x5a538e74 to deployment area at 0x580ff78
+Adding unit (Peltasts) at 0x5a538c2c to deployment area at 0x580ff78
+Adding unit (Heavy Peltasts) at 0x5a539304 to deployment area at 0x580ff78
+Adding unit (Heavy Peltasts) at 0x5a53b784 to deployment area at 0x580ff78
+Adding unit (Heavy Thyreophoroi) at 0x5a5399dc to deployment area at 0x580ff78
+Adding unit (Archers) at 0x5a53c534 to deployment area at 0x580ff78
+Adding unit (Archers) at 0x5a539e6c to deployment area at 0x580ff78
+Load finished **************************
+
+
+Loading from file CIV/data/world/maps/battle/custom/thermopyl/descr_battle.txt
+Created faction numidia from file
+	Creating army controlled by Leonidas of Sparta at 0x1657de7c from script
+		Creating unit (Strategos) at 0x5a53fe3c
+		Creating unit (Greek Heroes) at 0x5a53f08c
+		Creating unit (Greek Heroes) at 0x5a53cc0c
+		Creating unit (Hoplites) at 0x5a53e2dc
+		Creating unit (Hoplites) at 0x5a53c9c4
+		Creating unit (Hoplites) at 0x5a53dc04
+		Creating unit (Hoplites) at 0x5a53de4c
+		Creating unit (Hoplites) at 0x5a53ce54
+		Creating unit (Thermon Hoplites) at 0x5a53d09c
+		Creating unit (Thermon Hoplites) at 0x5a53d2e4
+		Creating unit (Thermon Hoplites) at 0x5a53e524
+		Creating unit (Thermon Hoplites) at 0x5a53d52c
+		Creating unit (Peltasts) at 0x5a53d9bc
+		Creating unit (Peltasts) at 0x5a53ac1c
+		Creating unit (Peltasts) at 0x5a53954c
+		Creating unit (Heavy Peltasts) at 0x5a53a0b4
+		Creating unit (Heavy Peltasts) at 0x5a53a2fc
+		Creating unit (Heavy Thyreophoroi) at 0x5a53b2f4
+		Creating unit (Archers) at 0x5a53b0ac
+		Creating unit (Archers) at 0x5a53a78c
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1657e21c from script
+		Creating unit (Eastern General) at 0x5a53b9cc
+		Creating unit (Immortals) at 0x5a53c77c
+		Creating unit (Immortals) at 0x243ad75c
+		Creating unit (Immortals) at 0x243ac51c
+		Creating unit (Immortals) at 0x243ac9ac
+		Creating unit (Immortals) at 0x243ab2dc
+		Creating unit (Immortals) at 0x243ad084
+		Creating unit (Immortals) at 0x243ace3c
+		Creating unit (Immortals) at 0x243ac08c
+		Creating unit (Immortals) at 0x243aa9bc
+		Creating unit (Immortals) at 0x243aae4c
+		Creating unit (Immortals) at 0x243abe44
+		Creating unit (Dismounted Riders) at 0x243ac2d4
+		Creating unit (Dismounted Riders) at 0x67e909e4
+		Creating unit (Dismounted Riders) at 0x67e90c2c
+		Creating unit (Dismounted Riders) at 0x67e9477c
+		Creating unit (Dismounted Riders) at 0x67e922fc
+		Creating unit (Dismounted Riders) at 0x67e939cc
+		Creating unit (Dismounted Riders) at 0x67e919dc
+		Creating unit (Dismounted Riders) at 0x67e92544
+	Creating army controlled by Hydarnes of Babylonia at 0x1657e78c from script
+		Creating unit (Immortals) at 0x67e93e5c
+		Creating unit (Parthian Heavy Swordsman) at 0x67e900c4
+		Creating unit (Parthian Heavy Swordsman) at 0x67e9030c
+		Creating unit (Takabara) at 0x67e9079c
+		Creating unit (Takabara) at 0x257e2e3c
+		Creating unit (Takabara) at 0x257e22d4
+		Creating unit (Eastern Infantry) at 0x257e3514
+		Creating unit (Eastern Infantry) at 0x257df9c4
+		Creating unit (Eastern Infantry) at 0x257e1bfc
+		Creating unit (Eastern Infantry) at 0x257e1e44
+		Creating unit (Eastern Infantry) at 0x257e0c04
+		Creating unit (Eastern Infantry) at 0x257e052c
+		Creating unit (Eastern Spearmen) at 0x257e2bf4
+		Creating unit (Eastern Spearmen) at 0x257e208c
+		Creating unit (Eastern Spearmen) at 0x257e3bec
+		Creating unit (Hillmen) at 0x257e3084
+		Creating unit (Hillmen) at 0x257e251c
+		Creating unit (Hillmen) at 0x257e3e34
+		Creating unit (Hillmen) at 0x257e19b4
+		Creating unit (Eastern Spearmen) at 0x257e375c
+	Creating army controlled by Datuvahya of Media at 0x1657e134 from script
+		Creating unit (Parthian heavy archer) at 0x257e2764
+		Creating unit (Parthian heavy archer) at 0x257e29ac
+		Creating unit (Slingers) at 0x257e32cc
+		Creating unit (Slingers) at 0x257e39a4
+		Creating unit (Peltasts) at 0x257e407c
+		Creating unit (Peltasts) at 0x257dfc0c
+		Creating unit (Peltasts) at 0x257e0774
+		Creating unit (Hyracanian Cavalry) at 0x257dfe54
+		Creating unit (Median Cavalry) at 0x257e009c
+		Creating unit (Takabara) at 0x257e02e4
+		Creating unit (Takabara) at 0x257e09bc
+		Creating unit (Eastern Infantry) at 0x257e0e4c
+		Creating unit (Eastern Infantry) at 0x257e1094
+		Creating unit (Eastern Infantry) at 0x257e12dc
+		Creating unit (Eastern Spearmen) at 0x257e1524
+		Creating unit (Eastern Spearmen) at 0x257e176c
+		Creating unit (Eastern Spearmen) at 0x257e52bc
+		Creating unit (Eastern Spearmen) at 0x257e4be4
+		Creating unit (Parthian Heavy Swordsman) at 0x257e698c
+		Creating unit (Parthian Heavy Swordsman) at 0x257e82a4
+	Creating army controlled by Zircon at 0x1657d9f4 from script
+		Creating unit (Eastern Infantry) at 0x257e7bcc
+		Creating unit (Eastern Infantry) at 0x257e805c
+		Creating unit (Eastern Infantry) at 0x257e8734
+		Creating unit (Eastern Infantry) at 0x257e897c
+		Creating unit (Eastern Infantry) at 0x257e42c4
+		Creating unit (Hillmen) at 0x257e74f4
+		Creating unit (Hillmen) at 0x257e5504
+		Creating unit (Hillmen) at 0x257e5994
+		Creating unit (Hillmen) at 0x257e6bd4
+		Creating unit (Hillmen) at 0x257e5bdc
+		Creating unit (Eastern Infantry) at 0x257e72ac
+		Creating unit (Eastern Infantry) at 0x257e6744
+		Creating unit (Eastern Infantry) at 0x257e84ec
+		Creating unit (Eastern Infantry) at 0x257e4e2c
+		Creating unit (Eastern Infantry) at 0x257e62b4
+		Creating unit (Eastern Spearmen) at 0x257e5074
+		Creating unit (Eastern Spearmen) at 0x257e574c
+		Creating unit (Eastern Spearmen) at 0x257e5e24
+		Creating unit (Eastern Spearmen) at 0x257e7064
+		Creating unit (Eastern Spearmen) at 0x257e606c
+	Creating army controlled by Sogdianus at 0x1657dbc4 from script
+		Creating unit (Eastern General) at 0x257e64fc
+		Creating unit (sugdian warriors) at 0x257e6e1c
+		Creating unit (sugdian warriors) at 0x257e773c
+		Creating unit (sugdian warriors) at 0x257e7984
+		Creating unit (sugdian warriors) at 0x257e7e14
+		Creating unit (sugdian warriors) at 0x257e450c
+		Creating unit (sugdian warriors) at 0x257e4754
+		Creating unit (Arab Cavalry) at 0x257e499c
+		Creating unit (Eastern Spearmen) at 0x257eb044
+		Creating unit (Eastern Spearmen) at 0x257e8e0c
+		Creating unit (Eastern Spearmen) at 0x257ea96c
+		Creating unit (Eastern Spearmen) at 0x257e9e04
+		Creating unit (Eastern Spearmen) at 0x257eb28c
+		Creating unit (Eastern Spearmen) at 0x257eadfc
+		Creating unit (Eastern Spearmen) at 0x257e8bc4
+		Creating unit (Eastern Infantry) at 0x257ea4dc
+		Creating unit (Eastern Infantry) at 0x257ebdf4
+		Creating unit (Eastern Infantry) at 0x257eb4d4
+		Creating unit (Eastern Infantry) at 0x257e94e4
+		Creating unit (Eastern Infantry) at 0x257ec03c
+Adding unit (Strategos) at 0x5a53fe3c to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x5a53f08c to deployment area at 0x580fe88
+Adding unit (Greek Heroes) at 0x5a53cc0c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x5a53e2dc to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x5a53c9c4 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x5a53dc04 to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x5a53de4c to deployment area at 0x580fe88
+Adding unit (Hoplites) at 0x5a53ce54 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x5a53d09c to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x5a53d2e4 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x5a53e524 to deployment area at 0x580fe88
+Adding unit (Thermon Hoplites) at 0x5a53d52c to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x5a53d9bc to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x5a53ac1c to deployment area at 0x580fe88
+Adding unit (Peltasts) at 0x5a53954c to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x5a53a0b4 to deployment area at 0x580fe88
+Adding unit (Heavy Peltasts) at 0x5a53a2fc to deployment area at 0x580fe88
+Adding unit (Heavy Thyreophoroi) at 0x5a53b2f4 to deployment area at 0x580fe88
+Adding unit (Archers) at 0x5a53b0ac to deployment area at 0x580fe88
+Adding unit (Archers) at 0x5a53a78c to deployment area at 0x580fe88
+Adding unit (Eastern General) at 0x5a53b9cc to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x5a53c77c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243ad75c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243ac51c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243ac9ac to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243ab2dc to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243ad084 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243ace3c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243ac08c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243aa9bc to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243aae4c to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x243abe44 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x243ac2d4 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x67e909e4 to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x67e90c2c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x67e9477c to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x67e922fc to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x67e939cc to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x67e919dc to deployment area at 0x580fec4
+Adding unit (Dismounted Riders) at 0x67e92544 to deployment area at 0x580fec4
+Adding unit (Immortals) at 0x67e93e5c to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x67e900c4 to deployment area at 0x580ff00
+Adding unit (Parthian Heavy Swordsman) at 0x67e9030c to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x67e9079c to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x257e2e3c to deployment area at 0x580ff00
+Adding unit (Takabara) at 0x257e22d4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x257e3514 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x257df9c4 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x257e1bfc to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x257e1e44 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x257e0c04 to deployment area at 0x580ff00
+Adding unit (Eastern Infantry) at 0x257e052c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x257e2bf4 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x257e208c to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x257e3bec to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x257e3084 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x257e251c to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x257e3e34 to deployment area at 0x580ff00
+Adding unit (Hillmen) at 0x257e19b4 to deployment area at 0x580ff00
+Adding unit (Eastern Spearmen) at 0x257e375c to deployment area at 0x580ff00
+Adding unit (Parthian heavy archer) at 0x257e2764 to deployment area at 0x580ff3c
+Adding unit (Parthian heavy archer) at 0x257e29ac to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x257e32cc to deployment area at 0x580ff3c
+Adding unit (Slingers) at 0x257e39a4 to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x257e407c to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x257dfc0c to deployment area at 0x580ff3c
+Adding unit (Peltasts) at 0x257e0774 to deployment area at 0x580ff3c
+Adding unit (Hyracanian Cavalry) at 0x257dfe54 to deployment area at 0x580ff3c
+Adding unit (Median Cavalry) at 0x257e009c to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x257e02e4 to deployment area at 0x580ff3c
+Adding unit (Takabara) at 0x257e09bc to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x257e0e4c to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x257e1094 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x257e12dc to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x257e1524 to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x257e176c to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x257e52bc to deployment area at 0x580ff3c
+Adding unit (Eastern Spearmen) at 0x257e4be4 to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x257e698c to deployment area at 0x580ff3c
+Adding unit (Parthian Heavy Swordsman) at 0x257e82a4 to deployment area at 0x580ff3c
+Adding unit (Eastern Infantry) at 0x257e7bcc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x257e805c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x257e8734 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x257e897c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x257e42c4 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x257e74f4 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x257e5504 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x257e5994 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x257e6bd4 to deployment area at 0x580ff78
+Adding unit (Hillmen) at 0x257e5bdc to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x257e72ac to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x257e6744 to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x257e84ec to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x257e4e2c to deployment area at 0x580ff78
+Adding unit (Eastern Infantry) at 0x257e62b4 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x257e5074 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x257e574c to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x257e5e24 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x257e7064 to deployment area at 0x580ff78
+Adding unit (Eastern Spearmen) at 0x257e606c to deployment area at 0x580ff78
+Adding unit (Eastern General) at 0x257e64fc to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x257e6e1c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x257e773c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x257e7984 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x257e7e14 to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x257e450c to deployment area at 0x580ffb4
+Adding unit (sugdian warriors) at 0x257e4754 to deployment area at 0x580ffb4
+Adding unit (Arab Cavalry) at 0x257e499c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x257eb044 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x257e8e0c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x257ea96c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x257e9e04 to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x257eb28c to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x257eadfc to deployment area at 0x580ffb4
+Adding unit (Eastern Spearmen) at 0x257e8bc4 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x257ea4dc to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x257ebdf4 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x257eb4d4 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x257e94e4 to deployment area at 0x580ffb4
+Adding unit (Eastern Infantry) at 0x257ec03c to deployment area at 0x580ffb4
+Load finished **************************
+
+

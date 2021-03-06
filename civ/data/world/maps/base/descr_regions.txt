@@ -1,0 +1,1845 @@
+;
+;	This file contains a variety of region information, in this format:
+;	
+;	region tag
+;		settlement tag
+;		default culture tag
+;		map RGB value
+;		comma-seperated resource list
+;		triumph point value
+;		base farm level
+;
+;;;;;;;;Cisalpine_Gaul;;;;;
+;;;;;;;;;;;;;Minor Asia;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Italy;;;;;;;;;;
+;;;;;;;;;;;;;Greece;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;Syria;;;;;;;
+;;;;;;;;;;;Middle_East;;;;;;;;;
+;;;;;;;;;;;;;;;Caucasus;;;;;;;;;;;;;;;;;;
+;;;;Sicily;;;;;
+;;;;;;;;;;North Africa;;;;;;;;;
+;;;;;;;;;;;Central Asia;;;;;;;;;;;
+;;;;;;;;;;;;Iran;;;;;;;;;;
+;;;;;;;;;Arabia;;;;;;
+;;;;;;;;spain;;;;Iberia;;;;;;
+;;;;Gallia;;;;;
+;;;;;Britania;;;;;
+;;;;;;;;;;Germania;;;;;;;;;;;;;;;;;
+;
+;
+
+Tribus_Siracae				
+	Campus_Siracae				
+	scythia				
+	Siracae				
+	177 170 58				
+	pigs, hides, silver, slaves, scythian		
+	5
+	5
+
+Tribus_Roxolani				
+	Campus_Roxolani				
+	scythia				
+	Roxolani				
+	177 58 83						
+	hides, slaves, scythian
+	5
+	5
+
+Locus_Rugii				
+	Rugium				
+	germans				
+	Rugii				
+	203 41 232				
+	silver, iron, amber, slaves, Germania, viking	
+	5
+	6
+
+Tribus_Neuri				
+	Vicus_Neuri				
+	germans				
+	Neuri				
+	131 33 125						
+	amber, timber, wild_animals, slaves, Germania, scythian	
+	5
+	7
+
+Locus_Lugii				
+	Carrodunum				
+	spain				
+	Lugii				
+	177 78 58				
+	furs, iron, silver, slaves, Germania		
+	5
+	6
+
+Scythia				
+	Olbia				
+	greek_cities				
+	Scythians				
+	33 131 116				
+	pigs, hides, iron, slaves, greek, scythian		
+	5
+	12
+
+Getia				
+	Buridava				
+	dacia				
+	Daci				
+	72 177 58				
+	grain, slaves, VII_CLAUDIA, getti 		
+	5
+	9
+
+Scythia_Parva				
+	Tomi				
+	thrace				
+	Getae				
+	131 33 38				
+	dogs, timber, slaves, VII_CLAUDIA, getti, greek		
+	5
+	6
+
+Heraclea_Chersonesus				
+	Chersonesos				
+	romans_julii				
+	Chersonesans				
+	17 74 202				
+	dogs, wine, slaves, greek, scythian		
+	5
+	6
+
+Taurica				
+	Neapolis_Scythica				
+	dacia				
+	Scythians				
+	211 212 2				
+	furs, slaves, greek, scythian		
+	5
+	5
+
+Regnum_Bosphoranum				
+	Panticapaeum				
+	romans_julii				
+	Bosphorans				
+	200 197 155				
+	dogs, pottery, furs, slaves, greek, scythian		
+	5
+	5
+
+Maeotis				
+	Tanais				
+	romans_julii				
+	Maeotae				
+	131 89 33				
+	textiles, grain, furs, pigs, slaves, greek, scythian	
+	5
+	14
+
+Colchis				
+	Kotais				
+	armenia				
+	Colchians				
+	199 31 143				
+	wine, gold, slaves, eastern, IV_SCYTHICA		
+	5
+	6
+
+Atropatene				
+	Gazaca				
+	armenia				
+	Medes				
+	61 239 246						
+	tin, copper, textiles, dogs, slaves, IV_SCYTHICA, eastern	
+	5
+	8
+
+;;;;;;;;Cisalpine_Gaul;;;;;
+
+Cisalpine_Gaul				
+	Mediolanium				
+	gauls				
+	Insubres				
+	221 232 41						
+	slaves, III_Gallica	
+	5
+	10
+
+Venetia		
+	Patavium				
+	gauls				
+	Veneti				
+	13 198 117				
+	furs, glass, textiles, slaves, III_Gallica	
+	5
+	10
+
+Transalpine_Gaul				
+	Massilia				
+	greek_cities				
+	Vocontii				
+	117 198 13				
+	olive_oil, slaves, V_alaudae, greek, III_Gallica		
+	5
+	9
+
+Dalmatia				
+	Segestica				
+	dacia				
+	Illyrians				
+	58 173 177				
+	gold, silver, iron, wine, slaves, illyria, VII_CLAUDIA		
+	5
+	4
+
+Illyria				
+	Scodra				
+	thrace				
+	Illyrians				
+	61 177 58				
+	gold, timber, olive_oil, tin, slaves, illyria, getti, VII_CLAUDIA, greek		
+	5
+	4
+
+Tribus_Eravisci				
+	Vicus_Eravisci				
+	dacia				
+	Eravisci				
+	250 128 151						
+	pigs, hides, slaves, illyria, II_adiuturix 	
+	5
+	8
+
+Pannonia				
+	Aquincum				
+	spain				
+	Pannonians				
+	131 61 33				
+	textiles, iron,	slaves, illyria, II_adiuturix
+	3
+	8
+
+Dardania				
+	Sardica				
+	thrace				
+	Dardanii				
+	131 33 100						
+	silver, slaves, VII_CLAUDIA, V_MACEDONICA, illyria, getti 	
+	5
+	7
+
+Moesia				
+	Naissus				
+	thrace				
+	Moesii				
+	98 101 199						
+	silver, slaves, VII_CLAUDIA, illyria, getti	
+	5
+	6
+
+Thrace				
+	Seutopolis				
+	thrace				
+	Odrysae				
+	218 246 61				
+	pigs, marble, copper, gold, VII_CLAUDIA, V_MACEDONICA, slaves, getti, greek			
+	5
+	10
+
+Armenia_Maior				
+	Armavira				
+	armenia				
+	Armenians				
+	202 61 17				
+	gold, wine, marble, slaves, IV_SCYTHICA, eastern
+	5
+	8
+
+;;;;;;;;;;;;;Greece;;;;;;;;;;;;;;;;;;;;;
+Epirus				
+	Apollonia				
+	macedon				
+	Epirots				
+	83 58 177						
+	copper, slaves, greek, illyria, V_MACEDONICA	
+	5
+	6
+
+Nea_Epirus				
+	Dyrrachium				
+	macedon				
+	Epirots				
+	132 165 109					
+	slaves, greek, illyria, V_MACEDONICA	
+	5
+	4
+
+Macedonia				
+	Pella				
+	macedon				
+	Edones				
+	177 58 145				
+	gold, slaves, V_MACEDONICA, greek, cretan		
+	5
+	10
+
+Chalcidice
+	Thessalonica
+	macedon
+	Edones
+	51 168 111
+	timber, slaves, V_MACEDONICA, greek, cretan
+	5
+	4
+
+Propontis				
+	Byzantium				
+	thrace				
+	Sithones				
+	118 131 33				
+	gold, timber, slaves, V_MACEDONICA, getti, greek 		
+	5
+	12
+
+Thessalia				
+	Larissa				
+	macedon				
+	Thessalians				
+	177 83 58						
+	copper, slaves, V_MACEDONICA, cretan, thessalia, greek	
+	5
+	12
+
+Aetolia				
+	Thermon				
+	greek_cities				
+	Aetolians				
+	13 18 244						
+	slaves, thermon, cretan, greek, V_MACEDONICA	
+	5
+	4
+
+Attica				
+	Athens				
+	greek_cities				
+	Athenians				
+	58 177 106				
+	lead, silver, iron, olive_oil, slaves, V_MACEDONICA, athen, greek, cretan		
+	5
+	6
+
+Achaia				
+	Corinth				
+	greek_cities				
+	Achaeans				
+	225 192 192				
+	slaves, corinth, V_MACEDONICA, greek, cretan		
+	5
+	6
+
+Laconia				
+	Sparta				
+	numidia				
+	Helots				
+	244 13 24				
+	copper, iron, sparta, cretan, V_MACEDONICA, greek, slaves		
+	5
+	6
+
+Elis
+	Olympia
+	numidia
+	Achaeans
+	171 62 98
+	olive_oil, timber, marble, V_MACEDONICA, greek, cretan	
+	5
+	3
+;;;;;;;;;;;;;Minor Asia;;;;;;;;;;;;;;;;;;;;;;;
+Troas
+	Assos				
+	macedon				
+	Mysians				
+	158 44 35				
+	iron, timber, slaves, IV_SCYTHICA, pergam, cretan, greek		
+	5
+	5
+
+Mysia				
+	Pergamum				
+	greek_cities				
+	Mysians				
+	33 59 131				
+	furs, silver, wine, textiles, slaves, IV_SCYTHICA, pergam, cretan, greek		
+	5
+	12
+
+Bithynia				
+	Nicomedia				
+	greek_cities				
+	Bithynians				
+	202 17 122				
+	silver, gold, wine, slaves, IV_SCYTHICA, galats, greek			
+	5
+	11
+
+Cierus
+	Heraclea
+	greek_cities
+	Paphlagonians
+	79 79 157
+	slaves, IV_SCYTHICA, greek, eastern
+	5
+	4
+
+Paphlagonia				
+	Sinope				
+	pontus				
+	Paphlagonians				
+	202 156 17				
+	timber, slaves, IV_SCYTHICA, greek, eastern		
+	5
+	9
+
+Cappadocia				
+	Mazaka				
+	pontus				
+	Cappadocians				
+	177 58 148				
+	pigs, silver, lead, slaves, IV_SCYTHICA, galats, eastern		
+	5
+	7
+
+Galatia				
+	Ancyra				
+	spain				
+	Galatians				
+	17 165 202				
+	furs, textiles, slaves, IV_SCYTHICA, eastern, galats			
+	5
+	7
+
+Pisidia
+	Apameia
+	seleucid
+	Pamphylians
+	14 241 169
+	furs, tin, slaves, IV_SCYTHICA, eastern, galats			
+	5
+	4
+
+Cilicia				
+	Tarsus				
+	greek_cities				
+	Cilicians				
+	17 202 52				
+	copper, pottery, timber, slaves, eastern, vi_ferrata, Cilicia		
+	5
+	12
+
+Lydia				
+	Sardis				
+	greek_cities				
+	Lydians				
+	149 109 127				
+	silver, marble, textiles, gold, tin, slaves, eastern, IV_SCYTHICA, cretan, greek		
+	5
+	10
+
+Ionia
+	Ephesus
+	greek_cities
+	Lydians
+	177 58 58
+	silver, timber, slaves, Ephesus, IV_SCYTHICA, cretan, greek
+	5
+	6
+
+Caria				
+	Halicarnasus				
+	greek_cities				
+	Carians				
+	131 83 77				
+	olive_oil, textiles, slaves, IV_SCYTHICA, cretan, Ephesus, greek		
+	5
+	10
+
+;;;;;;;;;;;;Italy;;;;;;;;;;
+Latium				
+	Roma				
+	romans_scipii				
+	Latins				
+	52 13 198						
+	rome, italy, slaves, early_VII_CLAUDIA	
+	5
+	8
+
+Calabria				
+	Tarentum				
+	greek_cities				
+	Calabrians				
+	33 196 58				
+	timber, italy, slaves, greek, early_VII_CLAUDIA		
+	5
+	9
+
+Campania				
+	Capua				
+	macedon				
+	Campanians				
+	198 13 174				
+	glass, wine, italy, samnites, slaves, early_VII_CLAUDIA		
+	5
+	9
+
+Apulia				
+	Cannae				
+	macedon				
+	Apulians				
+	159 160 99				
+	copper, italy, samnites, slaves		
+	5
+	8
+
+Picenum
+	Ancona
+	romans_scipii
+	Umbrians
+	128 2 4
+	olive_oil, italy, samnites, slaves
+	5
+	4
+
+Bruttium				
+	Croton				
+	numidia				
+	Lucanians				
+	13 170 198				
+	silver, italy, slaves, greek, early_VII_CLAUDIA		
+	5
+	8
+
+Liguria				
+	Segesta				;Genua
+	romans_scipii				
+	Ligurians				
+	157 13 198				
+	pottery, timber, italy, etruscans, slaves, III_Gallica		
+	5
+	7
+
+Etruria				
+	Arretium				
+	romans_scipii				
+	Etruscans				
+	157 198 13				
+	olive_oil, iron, marble, italy, etruscans, slaves		
+	5
+	7
+
+Umbria				
+	Ariminum				
+	romans_scipii				
+	Umbrians				
+	198 43 13				
+	pottery, italy, etruscans, slaves		
+	5
+	7
+
+;;;;;;;;;;;Syria;;;;;;;
+Syria				
+	Antioch				
+	seleucid				
+	Syrians				
+	13 244 165				
+	iron, wine, textiles, silk, camels, slaves, XVI_flavia, vi_ferrata, eastern, Cilicia		
+	5
+	9
+
+Osrhoene				
+	Edessa				
+	armenia				
+	Syrians				
+	244 122 13				
+	textiles, silk, camels, slaves, eastern, I_parthica, vi_ferrata		
+	5
+	8
+
+Regnum_Palmyrae				
+	Palmyra				
+	parthia				
+	Palmyrans				
+	175 171 244				
+	incense, camels, slaves, I_parthica, XVI_flavia, eastern, vi_ferrata	
+	5
+	4
+
+Coele_Syria				
+	Damascus				
+	armenia				
+	Syrians				
+	244 203 14				
+	olive_oil, camels, slaves, I_parthica, XVI_flavia, vi_ferrata, eastern		
+	5
+	7
+
+;;;;;;;;;;;;;;;Caucasus;;;;;;;;;;;;;;;;;;
+Sophene				
+	Amida				
+	armenia				
+	Armenians				
+	3 57 209				
+	silver, copper, slaves, eastern, I_parthica, vi_ferrata		
+	5
+	8
+
+Babylonia				
+	Seleucia				
+	seleucid				
+	Syrians				
+	177 58 167				
+	grain, textiles, camels, slaves, I_parthica, eastern		
+	5
+	9
+
+Tigris				
+	Babylon				
+	seleucid				
+	Syrians				
+	111 174 171				
+	slaves, I_parthica, eastern		
+	5
+	7
+
+;;;;Sicily;;;;;
+
+Sicilia_Romanus				
+	Messana				
+	romans_scipii				
+	Sicani				
+	177 142 58				
+	grain, timber, italy, slaves, syracuse, greek, early_VII_CLAUDIA		
+	5
+	8
+
+Sicilia_Graecus				
+	Syracuse				
+	greek_cities				
+	Syracusans				
+	198 178 13						
+	slaves, syracuse, greek, early_VII_CLAUDIA	
+	5
+	8
+
+Sicilia_Poeni				
+	Lilybaeum				
+	carthage				
+	Sicani				
+	65 17 202						
+	slaves, early_VII_CLAUDIA	
+	5
+	8
+;;;;;;;;;;Islands;;;;;;;;;
+Corsica				
+	Aleria				
+	carthage				
+	Beronicensis				
+	115 144 78				
+	iron, slaves, etruscans, early_VII_CLAUDIA		
+	5
+	7
+
+Cyprus				
+	Salamis				
+	greek_cities				
+	Cypriots				
+	126 144 111				
+	gold, timber, purple_dye, copper, slaves, greek, vi_ferrata, Cilicia		
+	5
+	9
+
+Baliares				
+	Bocchoris				
+	carthage				
+	Iberians				
+	41 232 225				
+	wine, marble, lead, slaves		
+	5
+	6
+
+Sardinia				
+	Caralis				
+	carthage				
+	Beronicensis				
+	198 35 13				
+	dogs, lead, wine, slaves, early_VII_CLAUDIA		
+	5
+	5
+
+Rhodos				
+	Rhodes				
+	greek_cities				
+	Rhodians				
+	131 33 77				
+	timber, slaves, rhodos, cretan, greek		
+	5
+	6
+
+Crete				
+	Kydonia				
+	greek_cities				
+	Cretans				
+	193 162 206				
+	iron, purple_dye, slaves, creat, cretan, greek		
+	5
+	7
+
+;;;;;;;;;;North Africa;;;;;;;;;
+Africa			;Zeugitana				
+	Carthago				
+	carthage				
+	Poeni				
+	202 191 17				
+	grain, timber, olive_oil, elephants, camels, slaves, carthage, V_ALAUDEA_imp, africa, III_AUGUSTA		
+	7
+	11
+
+Zeugitana
+	Hadrumetum
+	carthage
+	Poeni
+	7 66 12
+	iron, olive_oil, slaves, V_ALAUDEA_imp, africa, III_AUGUSTA		
+	5
+	7
+
+Byzacium				
+	Thapsus 			
+	carthage				
+	Poeni				
+	31 202 17				
+	pottery, elephants, camels, slaves, V_ALAUDEA_imp, africa, III_AUGUSTA		
+	5
+	4
+
+;Byzacium				
+;	Hadrumetum 			
+;	carthage				
+;	Poeni				
+;	31 202 17				
+;	iron, pottery, olive_oil, elephants, camels, slaves, V_ALAUDEA_imp, africa, III_AUGUSTA		
+;	5
+;	4
+
+Locus_Massyli				
+	Hippo_Regius				
+	carthage				
+	Numidians				
+	189 71 91				
+	textiles, elephants, timber, camels, slaves, III_AUGUSTA, africa		
+	5
+	7
+
+Numidia				
+	Cirta				
+	Carthage				
+	Numidians				
+	17 83 202				
+	pigs, furs,  marble, elephants, camels, slaves, III_AUGUSTA, africa		
+	5
+	7
+
+Tripolitania				
+	Lepcis_Magna				
+	carthage				
+	Poeni				
+	202 17 48				
+	purple_dye, camels, slaves, V_ALAUDEA_imp, africa, III_AUGUSTA		
+	5
+	8
+
+Gaetulia				
+	Dimmidi				
+	carthage				
+	Gaetuli				
+	244 13 138				
+	slaves 		
+	5
+	2
+
+;;;;;;;;;;;Middle_East;;;;;;;;;
+Phoenicia				
+	Sidon				
+	seleucid				
+	Phoenicians				
+	33 131 128				
+	timber, slaves, V_ALAUDEA_imp, vi_ferrata, eastern, Cilicia		
+	5
+	9
+
+Phoenicia_Minor
+	Tyre
+	seleucid
+	Phoenicians
+	242 125 9
+	glass, slaves, V_ALAUDEA_imp, vi_ferrata, eastern
+	5
+	2
+
+Judaea				
+	Jerusalem				
+	egypt				
+	Judaeans				
+	244 13 29				
+	furs, wine, purple_dye, camels, slaves, V_ALAUDEA_imp, vi_ferrata, eastern		
+	5
+	8
+
+Nabataea				
+	Bostra				
+	egypt				
+	Nabataeans				
+	13 244 160				
+	incense, camels, slaves, eastern, arabia		
+	5
+	4
+
+Cyrenaica				
+	Cyrene				
+	greek_cities				
+	Libyans				
+	244 171 13				
+	olive_oil, timber, camels, slaves, greek, III_AUGUSTA		
+	5
+	7
+
+Sinai				
+	Petra				
+	egypt				
+	Nabataeans				
+	35 244 13				
+	camels, slaves, II_TRAIANA, eastern, arabia		
+	5
+	4
+
+Libya				
+	Siwa				
+	egypt				
+	Libyans				
+	42 232 77				
+	furs, camels, slaves, II_TRAIANA, africa		
+	5
+	2
+
+Marmarica				
+	Paraetonium				
+	egypt				
+	Libyans				
+	136 125 2				
+	marble, camels, slaves, II_TRAIANA		
+	5
+	5
+
+Nile_Delta				
+	Alexandria				
+	egypt				
+	Egyptians				
+	244 13 214				
+	grain, glass, textiles, camels, slaves, II_TRAIANA		
+	5
+	9
+
+Middle_Egypt				
+	Memphis				
+	egypt				
+	Egyptians				
+	122 13 244				
+	grain, marble, camels, slaves, II_TRAIANA		
+	5
+	9
+
+Thebais				
+	Thebes				
+	egypt				
+	Egyptians				
+	241 244 13				
+	textiles, gold, wild_animals, camels, slaves, II_TRAIANA		
+	5
+	12
+
+Scandia				
+	Burgaz_Gothii				
+	germans				
+	Goths				
+	126 115 178				
+	iron, amber, slaves, viking, Germania		
+	5
+	3
+;;;;;;;;;;;Central Asia;;;;;;;;;;;
+Tribus_Massagetae				
+	Campus_Massagetae				
+	scythia				
+	Massagetae				
+	58 177 75
+	furs, camels, slaves, scythian						
+	5
+	3
+
+Chorasmia				
+	Khiva				
+	parthia				
+	Chorasmians				
+	122 4 85				
+	grain, dogs, pottery, camels, slaves, eastern		
+	5
+	14
+
+Chach				
+	Kangha				
+	britons				
+	Saka				
+	147 187 95				
+	copper, hides, pigs, camels, slaves, eastern, sugdian		
+	5
+	7
+
+Sogdiana				
+	Maracanda				
+	britons				
+	Sogdians				
+	133 55 61				
+	tin, gold, textiles, slaves, eastern, sugdian		
+	5
+	8
+
+Sogdiana_Minor				
+	Varakhsha				
+	britons				
+	Sogdians				
+	36 84 139				
+	silk, slaves, eastern, sugdian		
+	5
+	7
+
+Tribus_Dahae				
+	Nisa				
+	parthia				
+	Parni				
+	192 137 84				
+	grain, pigs, hides, textiles, camels, slaves, eastern		
+	5
+	12
+
+Margiana				
+	Merv				
+	parthia				
+	Mardi				
+	25 59 226				
+	grain, wine, silk, camels, slaves, eastern, sugdian		
+	5
+	9
+
+;;;;;;;;;;;;Iran;;;;;;;;;;
+Hyrcania				
+	Zadracarta				
+	parthia				
+	Hyrcanians				
+	23 124 42				
+	timber, slaves, eastern		
+	5
+	8
+
+Choarene				
+	Apamea				
+	parthia				
+	Medes				
+	211 44 67				
+	furs, silver, silk, camels, slaves, eastern	
+	5
+	4
+
+Astauene				
+	Asaak				
+	parthia				
+	Parthians				
+	188 46 46				
+	camels, slaves, eastern		
+	5
+	7
+
+Parthyene				
+	Hecatompylos				
+	parthia				
+	Parthians				
+	117 162 204				
+	furs, tin, gold, silk, camels, slaves, eastern		
+	5
+	3
+
+Tabiena				
+	Tabae				
+	parthia				
+	Persians				
+	217 188 101				
+	copper, slaves, eastern		
+	5
+	4
+
+Sakastan				
+	Zarang				
+	parthia				
+	Persians				
+	97 24 135				
+	camels, slaves, eastern		
+	5
+	4
+
+Persis				
+	Istakhr				
+	parthia				
+	Persians				
+	232 172 176				
+	lead, hides, camels, slaves, eastern		
+	5
+	5
+
+Carmania				
+	Harmozia				
+	parthia				
+	Persians				
+	186 45 1				
+	timber, gold, silver, textiles, iron, camels, slaves, eastern		
+	5
+	5
+
+Tribus_Iirkai				
+	Campus_Iirkai				
+	scythia				
+	Sarmatians				
+	96 114 167				
+	silver, timber, iron, copper, gold, slaves, scythian		
+	5
+	4
+
+Gedrosia				
+	Pura				
+	roman_rebels				
+	Gedrosians				
+	194 177 101				
+	furs, copper, camels, slaves, eastern, indian		
+	5
+	2
+
+Aria				
+	Alexandria_Ariana				
+	parthia				
+	Arians				
+	3 179 152				
+	copper, tin, wine, textiles, camels, slaves, eastern		
+	5
+	5
+
+Drangiana				
+	Prophthasia				
+	roman_rebels				
+	Drangians				
+	41 68 140				
+	gold, tin, camels, slaves, eastern		
+	5
+	5
+
+Arachosia				
+	Alexandropolis				
+	roman_rebels				
+	Arachosians				
+	110 8 8				
+	copper, lead, silver, camels, slaves, eastern, indian	
+	5
+	3
+
+Sind				
+	Patala				
+	roman_rebels				
+	Hindu				
+	21 190 29				
+	purple_dye, gold, incense, wild_animals, camels, elephants, slaves, indian		
+	5
+	10
+
+Sattagydia				
+	Opiana				
+	roman_rebels				
+	Hindu				
+	238 239 158				
+	grain, camels, elephants, slaves, indian		
+	5
+	10
+
+Gandhara				
+	Taxila				
+	britons				
+	Hindu				
+	162 97 102				
+	gold, timber, marble, textiles, camels, elephants, slaves, indian		
+	5
+	9
+
+Bactria				
+	Bactra				
+	roman_rebels				
+	Bactrians				
+	20 155 2				
+	silk, gold, camels, slaves, eastern, sugdian		
+	5
+	7
+
+Bactria_Oxiana				
+	Alexandria_Oxiana				
+	roman_rebels				
+	Bactrians				
+	130 99 50				
+	textiles, slaves, eastern, sugdian		
+	5
+	4
+
+Tocharia				
+	Gushan				
+	britons				
+	Tochari				
+	1 128 187				
+	silk, camels, silver, slaves, eastern, sugdian	
+	5
+	8
+
+Tribus_Aorsi				
+	Campus_Aorsi				
+	scythia				
+	Aorsi				
+	205 212 157				
+	hides, camels, slaves, scythian		
+	5
+	4
+
+Nubia				
+	Pselchis				
+	egypt				
+	Nubians				
+	166 6 33				
+	iron, camels, slaves		
+	5
+	8
+
+Kush				
+	Meroe				
+	egypt				
+	Meroits				
+	86 99 121				
+	copper, silver, gold, camels, elephants, slaves		
+	5
+	7
+
+Ethiopia				
+	Axum				
+	egypt				
+	Ethiopians				
+	195 96 104				
+	furs, timber, gold, camels, elephants, slaves		
+	5
+	7
+
+;;;;;;;;;Arabia;;;;;;
+;Arabia				
+;	Gorda				
+;	romans_brutii				
+;	Arabs				
+;	13 171 244				
+;	camels, slaves, eastern, arabia		
+;	5
+;	1
+
+Maphoriai			
+	Zabida				
+	romans_brutii				
+	Arabs				
+	117 151 57				
+	incense, slaves, eastern, arabia		
+	5
+	5
+
+Main				
+	Carna				
+	romans_brutii				
+	Minaei				
+	235 43 43				
+	incense, gold, camels, slaves, eastern, arabia		
+	5
+	5
+
+Saba				
+	Mariaba				
+	romans_brutii				
+	Sabaeai				
+	6 129 61				
+	incense, wild_animals, camels, incense, slaves, eastern, arabia		
+	5
+	6
+
+Qataban				
+	Tamna				
+	romans_brutii				
+	Cattabanei				
+	180 181 33				
+	camels, slaves, eastern, arabia
+	5
+	6
+
+Hadramaut				
+	Sabata				
+	romans_brutii				
+	Chatramotitae				
+	8 195 166				
+	incense, camels, slaves, eastern, arabia		
+	5
+	4
+
+Zufar				
+	Ubar				
+	romans_brutii				
+	Omani				
+	117 204 141				
+	camels, slaves, eastern, arabia		
+	5
+	2
+
+Maketa				
+	Omana				
+	romans_brutii				
+	Omani				
+	240 182 100				
+	dogs, copper, camels, slaves, eastern, arabia		
+	5
+	4
+
+Locus_Gerraei				
+	Gerra				
+	romans_brutii				
+	Gerraei				
+	104 184 119				
+	incense, camels, slaves, eastern, arabia			
+	5
+	3
+
+Paropamisadae				
+	Kophen				
+	parthia				
+	Paropamisadians				
+	158 128 38				
+	silver, marble, slaves, eastern, indian		
+	5
+	4
+
+Mauretania_Tingitana				
+	Tingi				
+	carthage				
+	Moors				
+	202 126 17				
+	purple_dye, timber, camels, slaves, africa, III_AUGUSTA		
+	5
+	6
+
+Mauretania_Massaesili				
+	Siga				
+	carthage				
+	Moors				
+	158 177 26				
+	silver, wild_animals, copper, elephants, camels, slaves, africa, III_AUGUSTA		
+	5
+	6
+Cydamae				
+	Cydaus				
+	carthage				
+	Garamantes				
+	50 220 11				
+	wild_animals, camels, slaves, africa		
+	5
+	4
+
+Phasania				
+	Garama				
+	carthage				
+	Garamantes				
+	220 177 28				
+	furs, hides, camels, slaves, africa		
+	5
+	6
+
+Hoggar				
+	Rapsa				
+	carthage				
+	Garamantes				
+	54 132 36				
+	copper, wild_animals, camels, slaves, africa		
+	5
+	5
+
+Augila				
+	Augila				
+	egypt				
+	Nasamones				
+	47 121 213				
+	furs, camels, slaves, africa		
+	5
+	3
+
+Locus_Blemmye				
+	Campus_Blemmye				
+	egypt				
+	Blemmye				
+	71 147 50				
+	camels, slaves		
+	5
+	2
+
+;;;;;;;;spain;;;;Iberia;;;;;;
+Ceretania				
+	Emporion				
+	greek_cities				
+	Iberians				
+	13 196 198				
+	timber, marble, slaves, IX_Hispana		
+	5
+	8
+
+Beribracia				
+	Saguntum				
+	romans_scipii				
+	Iberians				
+	53 100 47				
+	pottery, slaves, IX_Hispana, greek		
+	5
+	8
+
+Lusitania				
+	Oxtraca				
+	carthage				
+	Iberians				
+	13 198 30						
+	slaves, IX_Hispana	
+	5
+	7
+
+Tartesania				
+	Arsa				
+	carthage				
+	Iberians				
+	204 9 9				
+	dogs, slaves, IX_Hispana
+	5
+	7
+
+Carpetania				
+	Baikor				
+	gauls				
+	Iberians				
+	238 106 8				
+	silver, copper, lead, slaves, IX_Hispana		
+	5
+	6
+
+Bastetania				
+	Carthago_Nova				
+	carthage				
+	Iberians				
+	187 198 13				
+	dogs, lead, silver, slaves, IX_Hispana		
+	5
+	7
+
+Turdetania				
+	Gadir				
+	carthage				
+	Iberians				
+	17 13 198				
+	silver, copper, lead, gold, olive_oil, wine, slaves, IX_Hispana		
+	5
+	10
+
+Celtiberia				
+	Numantia				
+	gauls				
+	Iberians				
+	198 13 35				
+	pigs, wine, iron, silver, slaves, IX_Hispana		
+	5
+	8
+
+Asturia				
+	Pallantia				
+	spain				
+	Iberians				
+	204 160 7				
+	tin, slaves, IX_Hispana		
+	5
+	5
+
+Gallaecia				
+	Tyde				
+	gauls				
+	Iberians				
+	13 157 198				
+	gold, timber, iron, slaves, IX_Hispana		
+	5
+	4
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Lesbos				
+	Mytilene				
+	greek_cities				
+	Lesbians				
+	162 156 2				
+	olive_oil, wine, cretan, greek, slaves		
+	5
+	6
+
+Euboea				
+	Chalkis				
+	greek_cities				
+	Euboeans				
+	232 3 67				
+	marble, slaves, cretan, greek 		
+	5
+	5
+
+Tribus_Bastarnae				
+	Vibantavarium				
+	dacia				
+	Bastarnae				
+	223 192 126						
+	slaves	
+	5
+	7
+
+Tribus_Tissagetae				
+	Vicus_Tissagetae				
+	germans				
+	Tissagetae				
+	175 198 15				
+	wild_animals, timber, slaves, scythian		
+	5
+	4
+
+Tribus_Iazyges				
+	Campus_Iazyges				
+	scythia				
+	Iazyges				
+	5 116 44						
+	pigs, hides, iron, slaves, scythian
+	5
+	7
+
+Pamphylia				
+	Side				
+	greek_cities				
+	Pamphylians				
+	221 14 63				
+	marble, wine, slaves, IV_SCYTHICA, galats, eastern, Cilicia			
+	5
+	10
+
+Media				
+	Ecbatana				
+	armenia				
+	Medes				
+	58 167 177				
+	gold, copper, iron, silk, slaves, eastern		
+	5
+	8
+
+Elymais				
+	Susa				
+	armenia				
+	Elamites				
+	72 58 177				
+	tin, copper, iron, slaves, eastern		
+	5
+	7
+
+Characene				
+	Charax				
+	parthia				
+	Chaldeans				
+	183 184 33				
+	furs, dogs, wine, camels, slaves, eastern		
+	5
+	7
+
+Gordyene				
+	Pinaca				
+	armenia				
+	Medes				
+	194 218 61				
+	copper, slaves, eastern		
+	5
+	6
+
+Pontus				
+	Amasia				
+	pontus				
+	Paphlagonians				
+	250 229 51				
+	copper, iron, tin, silver, slaves, IV_SCYTHICA, eastern		
+	5
+	8
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Britania;;;;;;;;;;;;;;;;;;;;;
+
+Tribus_Trinovantes				
+	Camulodunum				
+	gauls				
+	Trinovantes				
+	232 41 46				
+	iron, textiles, slaves, II_AUGUSTA		
+	5
+	8
+
+Caledonia				
+	Atauna				
+	gauls				
+	Caledonii				
+	6 122 176				
+	slaves, II_AUGUSTA		
+	5
+	3
+
+Tribus_Ordovices				
+	Deva				
+	gauls				
+	Ordovices				
+	41 232 63				
+	gold, lead, slaves, II_AUGUSTA		
+	5
+	4
+
+Tribus_Dumnonii				
+	Ictis				
+	gauls				
+	Dumnonii				
+	129 123 31				
+	tin, slaves, II_AUGUSTA		
+	5
+	4
+
+Tribus_Brigantes				
+	Isurium				
+	gauls				
+	Brigantes				
+	232 41 198				
+	furs, slaves, lead, II_AUGUSTA		
+	5
+	5
+
+Connachta				
+	Emain_Macha				
+	gauls				
+	Eblani				
+	212 232 41						
+	silver, slaves, II_AUGUSTA
+	5
+	3
+
+Erain				
+	Ivernis				
+	gauls				
+	Hibernians				
+	43 130 47						
+	slaves
+	5
+	3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Gallia;;;;;;;;;;;;;;;;;;;;;;;
+Sequania				
+	Vesontio				
+	gauls				
+	Sequani				
+	72 41 232						
+	wine, slaves, V_alaudae, XXII_primigenia	 
+	4
+	7
+
+Lugdinensis				
+	Vienna				
+	gauls				
+	Allobroges				
+	85 114 141				
+	glass, pottery, slaves, V_alaudae	
+	3
+	6
+
+Aeduia				
+	Bibracte				
+	gauls				
+	Bituriges				
+	31 75 37				
+	hides, slaves, V_alaudae, XXII_primigenia		
+	4
+	7
+
+Lemovicia				
+	Lemonum				
+	gauls				
+	Lemovici				
+	68 232 41				
+	grain, slaves, V_alaudae				
+	4
+	8
+
+Aquitania				
+	Burdigala				
+	gauls				
+	Aquitani				
+	154 162 97				
+	marble, wine, pigs, slaves, V_alaudae	
+	3
+	8
+
+Arvernia				
+	Gergovia				
+	gauls				
+	Arverni				
+	194 204 127				
+	iron, slaves, V_alaudae		
+	3
+	7
+
+Narbonensis				
+	Tolosa				
+	gauls				
+	Volcae				
+	196 13 198				
+	silver, wine, textiles, pigs, slaves, V_alaudae		
+	5
+	8
+
+Biturigia				
+	Avaricum				
+	gauls				
+	Bituriges				
+	68 166 211				
+	iron, lead, slaves, V_alaudae		
+	4
+	7
+
+Armorica				
+	Darioritum				
+	gauls				
+	Veneti				
+	232 41 135				
+	timber, glass, slaves, V_alaudae		
+	4
+	7
+
+Belgica				
+	Samarobriva				
+	gauls				
+	Belgae				
+	232 90 41				
+	marble, pottery, textiles, slaves, XXII_primigenia		
+	4
+	7
+
+Aulercia				
+	Cenabum				
+	gauls				
+	Belgae				
+	33 152 75				
+	slaves, V_alaudae		
+	5
+	7
+
+;;;;;;;;;;Germania;;;;;;;;;;;;;;;;;
+Cimbrica				
+	Hafnia				
+	germans				
+	Cimbri				
+	232 41 55				
+	slaves, timber, amber, viking		
+	5
+	4
+
+Locus_Aestii				
+	Vicus_Aestii				
+	germans				
+	Aestii				
+	58 177 95				
+	dogs, amber, slaves, Germania		
+	5
+	4
+
+Tribus_Suebi				
+	Teutoburgum				
+	germans				
+	Suebi				
+	232 198 41				
+	hides, slaves, I_GERMANICA, Germania		
+	5
+	5
+
+Tribus_Chauci				
+	Phabiranum				
+	germans				
+	Chauci				
+	41 162 232				
+	dogs, slaves, I_GERMANICA, Germania		
+	5
+	5
+
+Tribus_Cherusci				
+	Tulisurgium				
+	germans				
+	Cherusci				
+	219 9 68				
+	iron, hides, slaves, XXII_primigenia, Germania		
+	5
+	6
+
+Tribus_Chattii				
+	Mattium				
+	germans				
+	Chatti				
+	39 67 171				
+	furs, wild_animals, timber, slaves, I_GERMANICA, Germania
+	5
+	5
+
+Tribus_Volcae				
+	Sumelocenna				
+	gauls				
+	Volcae				
+	63 232 41				
+	wine, hides, slaves, I_GERMANICA, Germania		
+	5
+	7
+
+Boihaemum				
+	Eburonum				
+	spain				
+	Boii				
+	58 150 177				
+	silver, iron, slaves, Germania		
+	3
+	7
+
+Noricum				
+	Iuvavum				
+	spain				
+	Nori				
+	230 41 232						
+	gold, wine, copper, slaves, I_GERMANICA, Germania	
+	3
+	6
+
+Tribus_Cotini				
+	Leucaristus				
+	spain				
+	Cotini				
+	33 100 131						
+	iron, slaves, Germania	
+	5
+	5
+
+Nurthralandan				
+	Burgaz_Sueones				
+	germans				
+	Sueones				
+	19 147 64				
+	dogs, silver, slaves, viking, Germania		
+	5
+	2
+
+Dacia				
+	Sarmizegetusa				
+	dacia				
+	Tevrisci				
+	72 122 168				
+	furs, silver, gold, iron, copper, slaves, VII_CLAUDIA, getti  		
+	5
+	6
+
+Insula_Gothii				
+	Valhagarum				
+	germans				
+	Goths				
+	218 89 3				
+	slaves, viking		
+	5
+	3
+
+Locus_Careotae				
+	Vicus_Careotae				
+	germans				
+	Careotae				
+	148 155 177				
+	wild_animals, dogs, timber, slaves, scythian		
+	5
+	5
+
+Armenia				
+	Thospia				
+	armenia				
+	Armenians				
+	220 106 114				
+	iron, pigs, slaves, IV_SCYTHICA, eastern
+	5
+	6
+
+Tribus_Legae				
+	Campus_Legae				
+	scythia				
+	Legae				
+	41 86 232				
+	slaves, scythian
+	5
+	5
+
+Azania				
+	Opone				
+	romans_brutii				
+	Ethiopians				
+	232 125 29				
+	elephants, slaves		
+	5
+	2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;deleted_regions;;;;;;;
+;Tribus_Sakae				
+;	Campus_Sakae				
+;	scythia				
+;	Saka				
+;	53 37 207				
+;	pigs, hides, copper, iron, camels, slaves, scythian		
+;	5
+;	4
+
+;Tribus_Alanni				
+;	Campus_Alanni				
+;	scythia				
+;	Alans				
+;	239 240 100				
+;	slaves, scythian		
+;	5
+;	4
+
+;Tribus_Yuezhi				
+;	Solek				
+;	scythia				
+;	Yuezhi				
+;	155 255 167				
+;	silver, silk, camels, slaves, eastern		
+;	5
+;	1
+
+;Wusun				
+;	Chighu				
+;	scythia				
+;	Usunes				
+;	249 105 109				
+;	furs, pigs, silver, hides, camels, slaves, scythian		
+;	5
+;	4

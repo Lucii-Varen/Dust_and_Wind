@@ -1,0 +1,822 @@
+;
+; regions list
+;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Latium
+	Roma
+	romans_scipii
+	Latins
+	52 13 198
+	slaves
+	5
+	6
+T_Caerae
+	Caerae
+	gauls
+	Galatians
+	217 48 48
+	slaves
+	5
+	7
+T_Antium
+	Antium
+	gauls
+	Etruscans
+	89 82 18
+	slaves
+	5
+	6
+T_Iguvium
+	Iguvium
+	gauls
+	Veneti
+	136 173 26
+	slaves
+	5
+	4
+T_Bovianum
+	Bovianum
+	gauls
+	Galatians
+	71 46 6
+	slaves
+	5
+	2
+T_Tarquinii
+	Tarquinii
+	gauls
+	Sequani
+	148 135 59
+	slaves
+	5
+	7
+;;;;;;Sicily;;;;;;
+T_Syracusae
+	Syracusae
+	greek_cities
+	Syracusans
+	234 227 93
+	slaves
+	5
+	7
+T_Leontini
+	Leontini
+	greek_cities
+	Syracusans
+	140 134 11
+	slaves
+	5
+	7
+T_Lilybaeum
+	Lilybaeum
+	carthage
+	Poeni
+	99 90 18
+	slaves
+	5
+	8
+T_Corfinium
+	Corfinium
+	gauls
+	Galatians
+	46 94 29
+	slaves
+	5
+	2
+T_Grumentum
+	Grumentum
+	gauls
+	Etruscans
+	117 106 135
+	slaves
+	5
+	2
+T_Terina
+	Terina
+	gauls
+	Umbrians
+	120 45 35
+	slaves
+	5
+	4
+T_Tarentum
+	Tarentum
+	gauls
+	Veneti
+	8 85 209
+	slaves
+	5
+	8
+T_Brundisium
+	Brundisium
+	gauls
+	Etruscans
+	79 5 48
+	slaves
+	5
+	6
+T_Arpi
+	Arpi
+	gauls
+	Umbrians
+	204 135 45
+	slaves
+	5
+	6
+T_Sena_Gallica
+	Sena_Gallica
+	gauls
+	Sequani
+	102 57 51
+	slaves
+	5
+	5
+T_Ariminum
+	Ariminum
+	gauls
+	Etruscans
+	161 98 82
+	slaves
+	5
+	5
+T_Bononia
+	Bononia
+	gauls
+	Boii
+	19 171 175
+	slaves
+	5
+	6
+T_Mediolanium
+	Mediolanium
+	gauls
+	Etruscans
+	18 115 35
+	slaves
+	5
+	4
+T_Genua
+	Genua
+	gauls
+	Veneti
+	150 120 140
+	slaves
+	5
+	4
+T_Patavium
+	Patavium
+	gauls
+	Umbrians
+	245 209 180
+	slaves
+	5
+	5
+T_Neapolis
+	Neapolis
+	gauls
+	Veneti
+	63 110 6
+	slaves
+	5
+	8
+T_Henna
+	Henna
+	gauls
+	Etruscans
+	230 142 60
+	slaves
+	5
+	5
+T_Adria
+	Adria
+	gauls
+	Veneti
+	222 58 35
+	slaves
+	5
+	6
+T_Arretium
+	Arretium
+	gauls
+	Veneti
+	135 116 11
+	slaves
+	5
+	6
+T_Brixia
+	Brixia
+	gauls
+	Etruscans
+	148 135 65
+	slaves
+	5
+	6
+T_Velturnum
+	Velturnum
+	gauls
+	Veneti
+	133 91 35
+	slaves
+	5
+	2
+T_Selinus
+	Selinus
+	gauls
+	Sequani
+	74 53 13
+	slaves
+	5
+	7
+T_Panormus
+	Panormus
+	gauls
+	Sequani
+	143 132 33
+	slaves
+	5
+	4
+T_Agrigentum
+	Agrigentum
+	gauls
+	Sequani
+	148 123 43
+	slaves
+	5
+	5
+T_Aleria
+	Aleria
+	gauls
+	Etruscans
+	106 255 0
+	slaves
+	5
+	3
+T_Olbia
+	Olbia
+	gauls
+	Umbrians
+	135 184 100
+	slaves
+	5
+	6
+T_Rhegium
+	Rhegium
+	gauls
+	Sequani
+	47 65 102
+	slaves
+	5
+	4
+T_Locri_Epizephyrii
+	Locri_Epizephyrii
+	gauls
+	Etruscans
+	138 176 252
+	slaves
+	5
+	6
+T_Croton
+	Croton
+	gauls
+	Umbrians
+	7 35 92
+	slaves
+	5
+	8
+T_Elea
+	Elea
+	gauls
+	Umbrians
+	121 49 245
+	slaves
+	5
+	3
+T_Thurii
+	Thurii
+	gauls
+	Veneti
+	120 133 158
+	slaves
+	5
+	7
+T_Heraclea
+	Heraclea
+	gauls
+	Belgae
+	5 28 71
+	slaves
+	5
+	8
+T_Metapontum
+	Metapontum
+	gauls
+	Belgae
+	27 70 92
+	slaves
+	5
+	8
+T_Camarina
+	Camarina
+	gauls
+	Belgae
+	173 137 54
+	slaves
+	5
+	7
+T_Messana
+	Messana
+	gauls
+	Belgae
+	237 173 45
+	slaves
+	5
+	4
+T_Catana
+	Catana
+	gauls
+	Arverni
+	207 199 56
+	slaves
+	5
+	8
+T_Gela
+	Gela
+	gauls
+	Arverni
+	171 164 38
+	slaves
+	5
+	6
+T_Tyndaris
+	Tyndaris
+	gauls
+	Belgae
+	104 135 83
+	slaves
+	5
+	3
+T_Thermae
+	Thermae
+	gauls
+	Umbrians
+	232 223 90
+	slaves
+	5
+	3
+T_Entella
+	Entella
+	gauls
+	Sequani
+	133 91 24
+	slaves
+	5
+	3
+T_Segesta_Elymorum
+	Segesta_Elymorum
+	gauls
+	Arverni
+	245 209 161
+	slaves
+	5
+	6
+T_Consentia
+	Consentia
+	gauls
+	Veneti
+	179 108 98
+	slaves
+	5
+	4
+T_Laos
+	Laos
+	gauls
+	Belgae
+	176 151 217
+	slaves
+	5
+	2
+T_Uzentum
+	Uzentum
+	gauls
+	Umbrians
+	245 179 218
+	slaves
+	5
+	7
+T_Barium
+	Barium
+	gauls
+	Sequani
+	196 184 18
+	slaves
+	5
+	4
+T_Canusium
+	Canusium
+	gauls
+	Calabrians
+	148 121 12
+	slaves
+	5
+	5
+T_Silvium
+	Silvium
+	gauls
+	Umbrians
+	240 216 120
+	slaves
+	5
+	4
+T_Paestum
+	Paestum
+	gauls
+	Arverni
+	48 22 94
+	slaves
+	5
+	6
+T_Aquilonia
+	Aquilonia
+	gauls
+	Etruscans
+	133 70 51
+	slaves
+	5
+	3
+T_Caudium
+	Caudium
+	gauls
+	Allobroges
+	235 184 101
+	slaves
+	5
+	4
+T_Capua
+	Capua
+	gauls
+	Arverni
+	222 237 9
+	slaves
+	5
+	8
+T_Anagnia
+	Anagnia
+	gauls
+	Calabrians
+	89 34 18
+	slaves
+	5
+	3
+T_Fundi
+	Fundi
+	gauls
+	Calabrians
+	232 166 79
+	slaves
+	5
+	5
+T_Teanum_Sidicinum
+	Teanum_Sidicinum
+	gauls
+	Umbrians
+	84 80 8
+	slaves
+	5
+	4
+T_Volsinii
+	Volsinii
+	gauls
+	Boii
+	201 174 18
+	slaves
+	5
+	8
+T_Perusia
+	Perusia
+	gauls
+	Allobroges
+	82 72 14
+	slaves
+	5
+	8
+T_Interamnium
+	Interamnium
+	gauls
+	Arverni
+	207 153 212
+	slaves
+	5
+	6
+T_Falerii
+	Falerii
+	gauls
+	Allobroges
+	214 200 122
+	slaves
+	5
+	7
+T_Clusium
+	Clusium
+	gauls
+	Sequani
+	199 158 98
+	slaves
+	5
+	6
+T_Pisae
+	Pisae
+	gauls
+	Boii
+	210 219 88
+	slaves
+	5
+	6
+T_Volaterrae
+	Volaterrae
+	gauls
+	Etruscans
+	201 107 24
+	slaves
+	5
+	7
+T_Rusellae
+	Rusellae
+	gauls
+	Arverni
+	102 51 51
+	slaves
+	5
+	7
+T_Camerinum
+	Camerinum
+	gauls
+	Allobroges
+	161 173 26
+	slaves
+	5
+	3
+T_Nursia
+	Nursia
+	gauls
+	Sequani
+	102 49 107
+	slaves
+	5
+	3
+T_Fesulae
+	Fesulae
+	gauls
+	Boii
+	97 88 9
+	slaves
+	5
+	5
+T_Luna
+	Luna
+	gauls
+	Etruscans
+	245 190 15
+	slaves
+	5
+	3
+T_Parma
+	Parma
+	gauls
+	Arverni
+	102 49 115
+	slaves
+	5
+	5
+T_Verona
+	Verona
+	gauls
+	Boii
+	145 97 30
+	slaves
+	5
+	5
+T_Tridentum
+	Tridentum
+	gauls
+	Allobroges
+	161 87 140
+	slaves
+	5
+	2
+T_Nesactium
+	Nesactium
+	gauls
+	Boii
+	173 137 80
+	slaves
+	5
+	6
+T_Carseoli
+	Carseoli
+	gauls
+	Arverni
+	189 107 82
+	slaves
+	5
+	3
+T_Larinum
+	Larinum
+	gauls
+	Allobroges
+	65 176 117
+	slaves
+	5
+	4
+T_Melita
+	Melita
+	gauls
+	Boii
+	226 138 56
+	slaves
+	5
+	8
+T_Sarsina
+	Sarsina
+	gauls
+	Boii
+	117 130 76
+	slaves
+	5
+	5
+T_Misa
+	Misa
+	gauls
+	Umbrians
+	47 65 115
+	slaves
+	5
+	3
+T_Spina
+	Spina
+	gauls
+	Calabrians
+	67 49 115
+	slaves
+	5
+	5
+T_Mantua
+	Mantua
+	gauls
+	Boii
+	199 158 105
+	slaves
+	5
+	3
+T_Arpinum
+	Arpinum
+	gauls
+	Etruscans
+	56 52 18
+	slaves
+	5
+	4
+T_Mevania
+	Mevania
+	gauls
+	Allobroges
+	95 115 36
+	slaves
+	5
+	4
+T_Interamna_Nahartium
+	Interamna_Nahartium
+	gauls
+	Boii
+	94 224 107
+	slaves
+	5
+	5
+T_Tifernum_Tiberinum
+	Tifernum_Tiberinum
+	gauls
+	Allobroges
+	68 74 33
+	slaves
+	5
+	4
+T_Aufidena
+	Aufidena
+	macedon
+	Epirots
+	194 126 105
+	slaves
+	5
+	3
+T_Marruvium
+	Marruvium
+	macedon
+	Illyrians
+	41 61 44
+	slaves
+	5
+	1
+T_Maluentum
+	Maluentum
+	gauls
+	Boii
+	143 116 73
+	slaves
+	5
+	3
+T_Cortona
+	Cortona
+	gauls
+	Belgae
+	97 130 76
+	slaves
+	5
+	7
+T_Populonia
+	Populonia
+	gauls
+	Arverni
+	59 19 19
+	slaves
+	5
+	7
+T_Pinna
+	Pinna
+	gauls
+	Belgae
+	13 148 34
+	slaves
+	5
+	4
+T_Altinum
+	Altinum
+	gauls
+	Veneti
+	104 135 100
+	slaves
+	5
+	3
+T_Osopum
+	Osopum
+	gauls
+	Umbrians
+	161 87 155
+	slaves
+	5
+	2
+T_Feltria
+	Feltria
+	gauls
+	Arverni
+	106 255 15
+	slaves
+	5
+	1
+T_Tarvisium
+	Tarvisium
+	gauls
+	Boii
+	74 53 30
+	slaves
+	5
+	6
+T_Vicetia
+	Vicetia
+	gauls
+	Belgae
+	230 142 85
+	slaves
+	5
+	5
+T_Cluviae
+	Cluviae
+	gauls
+	Arverni
+	110 79 30
+	slaves
+	5
+	1
+T_Marruvium
+	Marruvium
+	gauls
+	Boii
+	41 61 44
+	slaves
+	5
+	1
+T_Ortona
+	Ortona
+	gauls
+	Arverni
+	144 189 61
+	slaves
+	5
+	5
+T_Mutina
+	Mutina
+	gauls
+	Umbrians
+	19 100 175
+	slaves, italy, etruscans
+	5
+	5

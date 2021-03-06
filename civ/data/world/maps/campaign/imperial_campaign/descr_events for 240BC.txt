@@ -1,0 +1,143 @@
+;dust and wind
+; historical events and when they occur
+
+event	historic	carthage_clear_glass
+date	4 summer
+
+event	historic	archimedes_screw
+date	14 winter
+
+event	historic	Hannibal_at_the_gates
+date	22 winter
+
+event	historic	greek_logic
+date	24 summer
+
+event	historic	star_catalogue
+date	34 winter
+
+event	plague	plague_in_alexandria
+date	34 summer
+position	178, 75
+
+; event	rites_of_bacchus_banned
+; date	78 winter
+
+event	historic	earthquake_in_pontus
+date	84 summer
+
+event	historic	concrete_invented
+date	94 winter
+
+event	volcano	eruption_at_vesuvius
+date	99 summer
+position	103, 121
+
+event	historic	philosophy_banned
+date	103 winter
+
+event	historic	astrolabe_invented
+date	114 summer
+
+event	historic	lex_aebutia
+date	114 winter
+
+event	historic	roman_stoicism
+date	120 summer
+
+event	historic	lex_papira
+date	120 winter
+
+event	plague	plague_in_italy
+date	144 summer
+position	96, 138
+
+event	plague	plague_in_italy
+date	144 summer
+position	95, 127
+
+event	plague	plague_in_italy
+date	144 summer
+position	102, 124
+
+event	plague	plague_in_italy
+date	144 summer
+position	114, 119
+
+event	plague	plague_in_italy
+date	144 summer
+position	108, 125
+
+event	historic	social_war
+date	149 summer
+
+event	historic	vestral_virgin_struck_down
+date	152 winter
+
+;event	a_new_man__gaius_marius
+;date	154 summer
+
+event	historic	de_rerum_natura
+date	166 winter
+
+event	plague	plague_in_asia_minor
+date	173 summer
+position	192, 124
+
+event	plague	plague_in_asia_minor
+date	173 summer
+position	191, 133
+
+event	plague	plague_in_asia_minor
+date	173 summer
+position	200, 111
+
+event	historic	lex_pompeia
+date	175 winter
+
+event	historic	caesar_civil_war
+date	191 summer
+
+event	historic	a_new_religion
+date	194 summer
+
+event	plague	plague_in_italy
+date	204 winter
+position	96, 138
+
+event	plague	plague_in_italy
+date	204 summer
+position	95, 127
+
+event	plague	plague_in_italy
+date	204 summer
+position	102, 124
+
+event	plague	plague_in_italy
+date	204 summer
+position	114, 119
+
+event	plague	plague_in_italy
+date	204 summer
+position	108, 125
+
+event	historic	de_materia_medica
+date	214 summer
+
+event	historic	julian_calendar
+date	218 winter
+
+event	historic	earthquake_in_iberia
+date	258 summer
+
+event	historic	the_aeneid
+date	269 winter
+
+event	historic	lex_adulteriis_coercendis
+date	271 summer
+
+event	historic	trouble_in_judea
+date	284 winter
+
+event	historic	lex_fufia_caninia
+date	286 summer

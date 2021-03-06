@@ -1,0 +1,430 @@
+************** STARTING BATTLE EDITOR
+
+Loading from file civ/data/world/maps/battle/custom/Siege_minas_tirith/descr_battle.txt
+Created faction romans_scipii from file
+Created faction germans from file
+	Creating army controlled by Adalberina at 0x22f9e3d4 from script
+		Creating unit (Heavy Warband) at 0x236237bc
+		Creating unit (Heavy Warband) at 0x23620eac
+		Creating unit (Heavy Warband) at 0x236217cc
+		Creating unit (Night Raiders) at 0x23622a0c
+		Creating unit (Scandian Axeman) at 0x23622c54
+		Creating unit (German foot Nobles) at 0x23622e9c
+		Creating unit (German foot Nobles) at 0x23623e94
+		Creating unit (German Heavy Infantry) at 0x23620344
+		Creating unit (German Heavy Infantry) at 0x236210f4
+		Creating unit (German Tribes Warriors) at 0x23621c5c
+		Creating unit (German Tribes Warriors) at 0x2362257c
+		Creating unit (German Tribes Warriors) at 0x2362133c
+		Creating unit (Axemen) at 0x23621ea4
+		Creating unit (Axemen) at 0x23623a04
+		Creating unit (Axemen) at 0x236240dc
+		Creating unit (Axemen) at 0x236230e4
+		Creating unit (Axemen) at 0x236220ec
+		Creating unit (Axemen) at 0x23622334
+		Creating unit (Scandian Spearmen) at 0x236227c4
+		Creating unit (Scandian Spearmen) at 0x2362332c
+Created faction dacia from file
+	Creating army controlled by Vencaslac at 0x22f9eeb4 from script
+		Creating unit (Dacian Peltasts) at 0x23623574
+		Creating unit (Dacian Peltasts) at 0x27655c64
+		Creating unit (Dacian Heavy Spearmen) at 0x27654a24
+Adding unit (Heavy Warband) at 0x236237bc to deployment area at 0x4f60578
+Adding unit (Heavy Warband) at 0x23620eac to deployment area at 0x4f60578
+Adding unit (Heavy Warband) at 0x236217cc to deployment area at 0x4f60578
+Adding unit (Night Raiders) at 0x23622a0c to deployment area at 0x4f60578
+Adding unit (Scandian Axeman) at 0x23622c54 to deployment area at 0x4f60578
+Adding unit (German foot Nobles) at 0x23622e9c to deployment area at 0x4f60578
+Adding unit (German foot Nobles) at 0x23623e94 to deployment area at 0x4f60578
+Adding unit (German Heavy Infantry) at 0x23620344 to deployment area at 0x4f60578
+Adding unit (German Heavy Infantry) at 0x236210f4 to deployment area at 0x4f60578
+Adding unit (German Tribes Warriors) at 0x23621c5c to deployment area at 0x4f60578
+Adding unit (German Tribes Warriors) at 0x2362257c to deployment area at 0x4f60578
+Adding unit (German Tribes Warriors) at 0x2362133c to deployment area at 0x4f60578
+Adding unit (Axemen) at 0x23621ea4 to deployment area at 0x4f60578
+Adding unit (Axemen) at 0x23623a04 to deployment area at 0x4f60578
+Adding unit (Axemen) at 0x236240dc to deployment area at 0x4f60578
+Adding unit (Axemen) at 0x236230e4 to deployment area at 0x4f60578
+Adding unit (Axemen) at 0x236220ec to deployment area at 0x4f60578
+Adding unit (Axemen) at 0x23622334 to deployment area at 0x4f60578
+Adding unit (Scandian Spearmen) at 0x236227c4 to deployment area at 0x4f60578
+Adding unit (Scandian Spearmen) at 0x2362332c to deployment area at 0x4f60578
+Adding unit (Dacian Peltasts) at 0x23623574 to deployment area at 0x4f605b4
+Adding unit (Dacian Peltasts) at 0x27655c64 to deployment area at 0x4f605b4
+Adding unit (Dacian Heavy Spearmen) at 0x27654a24 to deployment area at 0x4f605b4
+Load finished **************************
+
+
+Adding unit (Dacian Heavy Cavalry) at 0x2ee088ec to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Heavy Cavalry) at 0x2ee088ec - Deployed at (-295.353504, -504.491584) in deployment area at 0x4f605b4
+Adding unit (Dacian Heavy Cavalry) at 0x2ee0920c to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Heavy Cavalry) at 0x2ee0920c - Deployed at (-435.710272, -497.580064) in deployment area at 0x4f605b4
+Adding unit (Dacian Nobles) at 0x2ee07d84 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Nobles) at 0x2ee07d84 - Deployed at (-365.279008, -496.425216) in deployment area at 0x4f605b4
+Adding unit (Dacian Nobles) at 0x2ee09454 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Nobles) at 0x2ee09454 - Deployed at (-312.980544, -499.469248) in deployment area at 0x4f605b4
+Adding unit (Archer Warband) at 0x2ee0eb04 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Archer Warband) at 0x2ee0eb04 - Deployed at (-160.184224, -479.349568) in deployment area at 0x4f605b4
+Adding unit (Dacian Foot Nobles) at 0x2ee0c1f4 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Foot Nobles) at 0x2ee0c1f4 - Deployed at (-320.868832, -471.661024) in deployment area at 0x4f605b4
+Adding unit (Dacian Foot Nobles) at 0x2ee0bd64 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Foot Nobles) at 0x2ee0bd64 - Deployed at (-388.368224, -472.324384) in deployment area at 0x4f605b4
+Adding unit (Falxmen) at 0x2ee0b68c to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Falxmen) at 0x2ee0b68c - Deployed at (-283.0008, -474.808416) in deployment area at 0x4f605b4
+Adding unit (Falxmen) at 0x2ee0cb14 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Falxmen) at 0x2ee0cb14 - Deployed at (-520.156192, -474.684896) in deployment area at 0x4f605b4
+Adding unit (Dacian Heavy Spearmen) at 0x2ee0f424 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Heavy Spearmen) at 0x2ee0f424 - Deployed at (-120.96852, -481.363456) in deployment area at 0x4f605b4
+Adding unit (Chosen Swordsmen) at 0x2ee0cfa4 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Swordsmen) at 0x2ee0cfa4 - Deployed at (-253.836304, -494.27936) in deployment area at 0x4f605b4
+Adding unit (Chosen Swordsmen) at 0x2ee0d1ec to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Swordsmen) at 0x2ee0d1ec - Deployed at (-504.817536, -486.912768) in deployment area at 0x4f605b4
+Adding unit (Dacian Sword Warband) at 0x2ee0d67c to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Sword Warband) at 0x2ee0d67c - Deployed at (-116.44184, -490.091808) in deployment area at 0x4f605b4
+Adding unit (Dacian Sword Warband) at 0x2ee0c684 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Sword Warband) at 0x2ee0c684 - Deployed at (-158.45448, -496.013856) in deployment area at 0x4f605b4
+Adding unit (Dacian Sword Warband) at 0x2ee0ad6c to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Dacian Sword Warband) at 0x2ee0ad6c - Deployed at (-565.809152, -474.326528) in deployment area at 0x4f605b4
+Adding unit (Warband) at 0x2ee0f1dc to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x2ee0f1dc - Deployed at (-704.606848, -476.548448) in deployment area at 0x4f605b4
+Adding unit (Warband) at 0x2ee0e1e4 to deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x2ee0e1e4 - Deployed at (-660.534784, -487.489088) in deployment area at 0x4f605b4
+CREATE_UNIT_FUNCTION::do_func() - Trying to create unit (barb infantry dacian), but failed
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (dacia:Dacian Heavy Cavalry) at 0x2ee0920c from (-395.091136, -501.461472) to (-605.461952, -494.947136)
+	 with rotation .005465 and width 69.675336 - now residing in deployment area at 0x4f605b4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (dacia:Dacian Nobles) at 0x2ee07d84 from (-354.360192, -506.049408) to (-454.643552, -489.580896)
+	 with rotation .052443 and width 50.524796 - now residing in deployment area at 0x4f605b4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (dacia:Dacian Nobles) at 0x2ee09454 from (-298.510464, -511.704768) to (-372.426624, -490.335328)
+	 with rotation .124924 and width 56.13074 - now residing in deployment area at 0x4f605b4
+CREATE_ARMY::do_func() - Creating army at 0x2ea7af3c (General: Captain Cadwaladur), adding to spain
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (46.80938, -541.608064)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-750.873344, -515.289376)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-770.00416, -582.66048)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (58.43666, -611.72704)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-770.00416, -582.66048) to (-733.604352, -531.456128)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-750.873344, -515.289376) to (-740.184064, -605.349056)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-734.9984, -530.53008)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-734.9984, -530.53008)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-733.604352, -531.456128) to (-765.317696, -515.044928)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-740.184064, -605.349056) to (-778.379008, -586.234304)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (58.43666, -611.72704) to (52.486024, -637.939968)
+Adding unit (Warband) at 0x2ee0e42c to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x2ee0e42c - Deployed at (-747.380224, -522.095264) in deployment area at 0x4f605f0
+Adding unit (Warband) at 0x2ee0afb4 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x2ee0afb4 - Deployed at (-517.2768, -527.818304) in deployment area at 0x4f605f0
+Adding unit (Warband) at 0x2ee0ef94 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x2ee0ef94 - Deployed at (-328.468352, -532.1704) in deployment area at 0x4f605f0
+Adding unit (Naked Fanatics) at 0x2ee10f84 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x2ee10f84 - Deployed at (-441.765792, -531.87792) in deployment area at 0x4f605f0
+Adding unit (Naked Fanatics) at 0x2ee1165c to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x2ee1165c - Deployed at (-578.192128, -525.615168) in deployment area at 0x4f605f0
+Adding unit (Chosen Swordsmen) at 0x2ee111cc to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Swordsmen) at 0x2ee111cc - Deployed at (-685.954944, -522.606944) in deployment area at 0x4f605f0
+Adding unit (Chosen Swordsmen) at 0x2ee0f8b4 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Swordsmen) at 0x2ee0f8b4 - Deployed at (-392.672384, -535.533824) in deployment area at 0x4f605f0
+Adding unit (Noble infantry) at 0x2ee0fafc to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Noble infantry) at 0x2ee0fafc - Deployed at (-323.18752, -553.806272) in deployment area at 0x4f605f0
+Adding unit (Noble infantry) at 0x2ee101d4 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Noble infantry) at 0x2ee101d4 - Deployed at (-621.634752, -526.69152) in deployment area at 0x4f605f0
+Adding unit (Heavy Warband) at 0x2ee10af4 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x2ee10af4 - Deployed at (-271.693728, -540.756736) in deployment area at 0x4f605f0
+Adding unit (Heavy Warband) at 0x2ee108ac to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x2ee108ac - Deployed at (-542.727296, -536.943232) in deployment area at 0x4f605f0
+Adding unit (Swordsmen) at 0x2ee0291c to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x2ee0291c - Deployed at (-229.993168, -541.216768) in deployment area at 0x4f605f0
+Adding unit (Swordsmen) at 0x2ee02b64 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x2ee02b64 - Deployed at (-182.481664, -543.564928) in deployment area at 0x4f605f0
+Adding unit (Swordsmen) at 0x2ee02dac to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x2ee02dac - Deployed at (-137.15256, -547.14176) in deployment area at 0x4f605f0
+Adding unit (Mercenary War Elephants) at 0x2ee05b4c to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Mercenary War Elephants) at 0x2ee05b4c - Deployed at (-720.56736, -545.67648) in deployment area at 0x4f605f0
+Adding unit (Celtic Heavy Infantry) at 0x2ee03484 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Celtic Heavy Infantry) at 0x2ee03484 - Deployed at (-97.321896, -548.142592) in deployment area at 0x4f605f0
+Adding unit (Celtic Heavy Infantry) at 0x2ee05d94 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Celtic Heavy Infantry) at 0x2ee05d94 - Deployed at (-503.278976, -544.099456) in deployment area at 0x4f605f0
+Adding unit (Celtic Heavy Infantry) at 0x2ee06224 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Celtic Heavy Infantry) at 0x2ee06224 - Deployed at (-417.273984, -546.982464) in deployment area at 0x4f605f0
+Adding unit (Swordsmen) at 0x2ee036cc to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x2ee036cc - Deployed at (-135.771728, -564.0624) in deployment area at 0x4f605f0
+Adding unit (Swordsmen) at 0x2ee03914 to deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x2ee03914 - Deployed at (-199.151584, -556.16064) in deployment area at 0x4f605f0
+CREATE_UNIT_FUNCTION::do_func() - Trying to create unit (warband sword gaul), but failed
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-778.379008, -586.234304) to (-768.763712, -571.905472)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (52.486024, -637.939968) to (28.140656, -608.438528)
+CREATE_ARMY::do_func() - Creating army at 0x2ea7ce0c (General: Captain Bava), adding to germans
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (28.299552, -619.167488)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (21.286042, -681.35488)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-797.945408, -628.898688)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-768.71872, -577.814912)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-771.148544, -578.678848)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-771.148544, -578.678848)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-768.71872, -577.814912) to (-795.024384, -574.224448)
+Adding unit (Heavy Warband) at 0x2ee0323c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x2ee0323c - Deployed at (-718.416512, -583.928576) in deployment area at 0x4f6062c
+Adding unit (Heavy Warband) at 0x2ee03b5c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x2ee03b5c - Deployed at (-511.241184, -594.49344) in deployment area at 0x4f6062c
+Adding unit (Heavy Warband) at 0x2ee03fec to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x2ee03fec - Deployed at (-245.739792, -610.507648) in deployment area at 0x4f6062c
+Adding unit (Chosen Axemen) at 0x2ee046c4 to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Axemen) at 0x2ee046c4 - Deployed at (-368.188064, -603.340544) in deployment area at 0x4f6062c
+Adding unit (Night Raiders) at 0x2ee0490c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Night Raiders) at 0x2ee0490c - Deployed at (-110.342312, -618.881088) in deployment area at 0x4f6062c
+Adding unit (Night Raiders) at 0x2ee04d9c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Night Raiders) at 0x2ee04d9c - Deployed at (-444.766432, -598.957184) in deployment area at 0x4f6062c
+Adding unit (Spear Warband) at 0x2ee0522c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Spear Warband) at 0x2ee0522c - Deployed at (-51.8519, -620.630528) in deployment area at 0x4f6062c
+Adding unit (Spear Warband) at 0x277440d4 to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Spear Warband) at 0x277440d4 - Deployed at (-167.472704, -611.671808) in deployment area at 0x4f6062c
+Adding unit (Spear Warband) at 0x27742a04 to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Spear Warband) at 0x27742a04 - Deployed at (-304.109856, -606.759488) in deployment area at 0x4f6062c
+Adding unit (Axemen) at 0x27743324 to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Axemen) at 0x27743324 - Deployed at (-215.020256, -608.227712) in deployment area at 0x4f6062c
+Adding unit (Axemen) at 0x2774232c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Axemen) at 0x2774232c - Deployed at (-403.856384, -600.507712) in deployment area at 0x4f6062c
+Adding unit (Axemen) at 0x2774157c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Axemen) at 0x2774157c - Deployed at (-14.16655, -619.989632) in deployment area at 0x4f6062c
+Adding unit (Archer Warband) at 0x2774431c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Archer Warband) at 0x2774431c - Deployed at (-563.851776, -590.684032) in deployment area at 0x4f6062c
+Adding unit (German Heavy Infantry) at 0x27742574 to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (German Heavy Infantry) at 0x27742574 - Deployed at (-681.582016, -584.90816) in deployment area at 0x4f6062c
+Adding unit (German Heavy Infantry) at 0x27744e84 to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (German Heavy Infantry) at 0x27744e84 - Deployed at (-632.595584, -587.171968) in deployment area at 0x4f6062c
+Adding unit (German Tribes Warriors) at 0x277410ec to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (German Tribes Warriors) at 0x277410ec - Deployed at (-595.961024, -588.622784) in deployment area at 0x4f6062c
+Adding unit (German Tribes Warriors) at 0x2774356c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (German Tribes Warriors) at 0x2774356c - Deployed at (-481.3504, -596.3008) in deployment area at 0x4f6062c
+Adding unit (German foot Nobles) at 0x27743c44 to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (German foot Nobles) at 0x27743c44 - Deployed at (-333.74608, -606.940032) in deployment area at 0x4f6062c
+Adding unit (German Tribes Warriors) at 0x27743e8c to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (German Tribes Warriors) at 0x27743e8c - Deployed at (-277.90176, -606.716096) in deployment area at 0x4f6062c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Night Raiders) at 0x2ee0490c from (-91.324432, -621.711104) to (-132.869648, -615.078528)
+	 with rotation .058291 and width 29.181586 - now residing in deployment area at 0x4f6062c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (germans:Spear Warband) at 0x277440d4 from (-147.155488, -616.810368) to (-179.756816, -611.03552)
+	 with rotation .114569 and width 30.709768 - now residing in deployment area at 0x4f6062c
+Adding unit (German Tribes Warriors) at 0x277449f4 to deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (German Tribes Warriors) at 0x277449f4 - Deployed at (-97.375976, -617.732544) in deployment area at 0x4f6062c
+CREATE_UNIT_FUNCTION::do_func() - Trying to create unit (german warriors), but failed
+CREATE_ARMY::do_func() - Creating army at 0x2ea7d9d4 (General: Captain Alexander), adding to macedon
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (95.738864, -20.677796)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-107.038632, -201.429216)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-276.190912, -245.970848)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-634.181632, -237.341952)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-737.27296, -229.695808)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-769.637568, -28.120942)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-107.038632, -201.429216) to (166.268832, 89.926984)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-104.489656, -158.97496)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-104.489656, -158.97496) to (16.86847, -229.366144)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (95.738864, -20.677796) to (61.665712, -160.15168)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (16.86847, -229.366144) to (-88.87196, -212.57456)
+Adding unit (Cretan archers) at 0x2774555c to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Cretan archers) at 0x2774555c - Deployed at (-532.942368, -196.02744) in deployment area at 0x4f60668
+Adding unit (Cretan archers) at 0x27741a0c to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Cretan archers) at 0x27741a0c - Deployed at (-624.694464, -194.92672) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Cretan archers) at 0x27741a0c from (-630.31104, -191.486912) to (-627.173248, -195.192832)
+	 with rotation 3.13028 and width 11.075658 - now residing in deployment area at 0x4f60668
+Adding unit (Cretan archers) at 0x277420e4 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Cretan archers) at 0x277420e4 - Deployed at (-246.839792, -187.082096) in deployment area at 0x4f60668
+Adding unit (Machairophoroi) at 0x27746554 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Machairophoroi) at 0x27746554 - Deployed at (-302.926208, -196.05624) in deployment area at 0x4f60668
+Adding unit (Machairophoroi) at 0x2774754c to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Machairophoroi) at 0x2774754c - Deployed at (-362.658816, -196.275696) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Machairophoroi) at 0x2774754c from (-374.45808, -190.099952) to (-428.107712, -194.327696)
+	 with rotation -3.095957 and width 16.775006 - now residing in deployment area at 0x4f60668
+Adding unit (Machairophoroi) at 0x2774878c to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Machairophoroi) at 0x2774878c - Deployed at (-707.520704, -180.36808) in deployment area at 0x4f60668
+Adding unit (Chalkaspist) at 0x277489d4 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chalkaspist) at 0x277489d4 - Deployed at (-587.577728, -194.675392) in deployment area at 0x4f60668
+Adding unit (Chalkaspist) at 0x27745c34 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chalkaspist) at 0x27745c34 - Deployed at (-474.73152, -194.384096) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Chalkaspist) at 0x27745c34 from (-483.781728, -190.496512) to (-472.14064, -194.292224)
+	 with rotation 3.124719 and width 19.863152 - now residing in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Chalkaspist) at 0x277489d4 from (-597.757696, -191.062624) to (-590.538688, -195.143856)
+	 with rotation 3.095382 and width 24.935514 - now residing in deployment area at 0x4f60668
+Adding unit (Hypaspist) at 0x277482fc to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hypaspist) at 0x277482fc - Deployed at (-657.036672, -195.619728) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Hypaspist) at 0x277482fc from (-660.357504, -192.47088) to (-659.444096, -195.043152)
+	 with rotation -3.078796 and width 15.709346 - now residing in deployment area at 0x4f60668
+Adding unit (Hypaspist) at 0x27747304 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hypaspist) at 0x27747304 - Deployed at (-342.58464, -195.48592) in deployment area at 0x4f60668
+Adding unit (Royal Pikemen) at 0x27748544 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Royal Pikemen) at 0x27748544 - Deployed at (-531.512096, -164.964448) in deployment area at 0x4f60668
+Adding unit (Phalanx Pikemen) at 0x27747794 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Phalanx Pikemen) at 0x27747794 - Deployed at (-400.662016, -167.52736) in deployment area at 0x4f60668
+Adding unit (Phalanx Pikemen) at 0x277460c4 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Phalanx Pikemen) at 0x277460c4 - Deployed at (-143.091248, -105.182832) in deployment area at 0x4f60668
+Adding unit (Corinth Hoplites) at 0x277469e4 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Corinth Hoplites) at 0x277469e4 - Deployed at (-204.006336, -143.4044) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Corinth Hoplites) at 0x277469e4 from (-207.887888, -146.411344) to (-207.772032, -137.674336)
+	 with rotation 2.351018 and width 19.322238 - now residing in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Corinth Hoplites) at 0x277469e4 from (-209.789536, -151.616032) to (-215.287408, -144.493328)
+	 with rotation 2.351018 and width 19.322238 - now residing in deployment area at 0x4f60668
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Corinth Hoplites) at 0x277469e4 - was in army controlled by Captain Alexander at 0x2ea7d9d4 from macedon and in deployment area at 0x4f60668
+Removed unit (Corinth Hoplites) at 0x277469e4 from deployment area at 0x4f60668
+Adding unit (Corinth Hoplites) at 0x277479dc to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Corinth Hoplites) at 0x277479dc - Deployed at (-202.097232, -142.268272) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Corinth Hoplites) at 0x277479dc from (-214.401216, -152.735376) to (-205.623952, -146.827808)
+	 with rotation 2.384478 and width 32.285686 - now residing in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Hypaspist) at 0x27747304 from (-351.650208, -191.382384) to (-340.230592, -195.113488)
+	 with rotation 3.11494 and width 19.932842 - now residing in deployment area at 0x4f60668
+Adding unit (Corinth Hoplites) at 0x2efebac4 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Corinth Hoplites) at 0x2efebac4 - Deployed at (-270.243072, -195.965104) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Cretan archers) at 0x277420e4 from (-253.549024, -189.736512) to (-245.155744, -184.769776)
+	 with rotation 2.665004 and width 13.440134 - now residing in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Machairophoroi) at 0x27746554 from (-315.528, -190.953216) to (-372.343456, -192.817664)
+	 with rotation -3.096053 and width 17.32265 - now residing in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Hypaspist) at 0x27747304 from (-348.916576, -189.111664) to (-313.522784, -195.589712)
+	 with rotation 3.11494 and width 19.932842 - now residing in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Machairophoroi) at 0x27746554 from (-379.686752, -191.117456) to (-344.230496, -189.993616)
+	 with rotation -3.096053 and width 17.32265 - now residing in deployment area at 0x4f60668
+Adding unit (Pergamum Hoplites) at 0x2efea3f4 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Pergamum Hoplites) at 0x2efea3f4 - Deployed at (-84.141152, -130.99596) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Pergamum Hoplites) at 0x2efea3f4 from (-95.812872, -131.03116) to (-90.627776, -132.0222)
+	 with rotation -3.075919 and width 19.89422 - now residing in deployment area at 0x4f60668
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Pergamum Hoplites) at 0x2efea3f4 - was in army controlled by Captain Alexander at 0x2ea7d9d4 from macedon and in deployment area at 0x4f60668
+Removed unit (Pergamum Hoplites) at 0x2efea3f4 from deployment area at 0x4f60668
+Adding unit (Pergamum Hoplites) at 0x2efeb87c to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Pergamum Hoplites) at 0x2efeb87c - Deployed at (-78.300432, -130.685856) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Pergamum Hoplites) at 0x2efeb87c from (-102.31644, -130.293168) to (-82.007616, -130.982088)
+	 with rotation 3.135744 and width 36.966256 - now residing in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Pergamum Hoplites) at 0x2efeb87c from (-98.654752, -131.183224) to (-84.39268, -130.18152)
+	 with rotation 3.135744 and width 36.966256 - now residing in deployment area at 0x4f60668
+Adding unit (Pergamum Hoplites) at 0x2efeb3ec to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Pergamum Hoplites) at 0x2efeb3ec - Deployed at (-28.741592, -97.94372) in deployment area at 0x4f60668
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (macedon:Pergamum Hoplites) at 0x2efeb3ec from (-49.8498, -117.262432) to (-29.913544, -98.857688)
+	 with rotation 2.540656 and width 36.742296 - now residing in deployment area at 0x4f60668
+Adding unit (Hypaspist) at 0x2efea884 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hypaspist) at 0x2efea884 - Deployed at (-170.389984, -131.225216) in deployment area at 0x4f60668
+Adding unit (Chalkaspist) at 0x2efe8d24 to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chalkaspist) at 0x2efe8d24 - Deployed at (-706.2576, -146.685376) in deployment area at 0x4f60668
+Adding unit (Phalanx Pikemen) at 0x2efeaacc to deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Phalanx Pikemen) at 0x2efeaacc - Deployed at (-551.290752, -164.251008) in deployment area at 0x4f60668
+CREATE_UNIT_FUNCTION::do_func() - Trying to create unit (greek pikemen macedonia), but failed
+CREATE_ARMY::do_func() - Creating army at 0x2ea7d0c4 (General: Captain Belnirari), adding to scythia
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (849.542912, 228.691616)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (661.042176, 232.250912)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (573.520576, -772.00576)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (819.094464, -843.26016)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (573.520576, -772.00576) to (843.838848, -846.59936)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (819.094464, -843.26016) to (536.865248, -850.0)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (540.195776, -849.830784) to (554.772736, -850.0)
+Adding unit (Sarmatian Elite Nobles) at 0x2efebd0c to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Sarmatian Elite Nobles) at 0x2efebd0c - Deployed at (593.018432, -778.167232) in deployment area at 0x4f606a4
+Adding unit (Sarmatian Elite Nobles) at 0x2efec19c to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Sarmatian Elite Nobles) at 0x2efec19c - Deployed at (598.5392, -557.583488) in deployment area at 0x4f606a4
+Adding unit (Sarmatian Elite Nobles) at 0x2efe8404 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Sarmatian Elite Nobles) at 0x2efe8404 - Deployed at (613.56288, -357.96448) in deployment area at 0x4f606a4
+Adding unit (Scythian Nobles) at 0x2efead14 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Nobles) at 0x2efead14 - Deployed at (591.863872, -686.303936) in deployment area at 0x4f606a4
+Adding unit (Scythian Nobles) at 0x2efe9f64 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Nobles) at 0x2efe9f64 - Deployed at (606.417856, -474.6712) in deployment area at 0x4f606a4
+Adding unit (Scythian Nobles) at 0x2efe8894 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Nobles) at 0x2efe8894 - Deployed at (622.166016, -299.753984) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Nobles) at 0x2efe9f64 from (612.258688, -454.890368) to (643.117184, -474.339712)
+	 with rotation -1.483935 and width 51.938528 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Sarmatian Elite Nobles) at 0x2efec19c from (603.982912, -526.028128) to (635.72128, -540.086208)
+	 with rotation -1.460254 and width 53.43856 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Nobles) at 0x2efead14 from (593.979072, -637.658112) to (629.680704, -622.106048)
+	 with rotation -1.512409 and width 72.966512 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Sarmatian Elite Nobles) at 0x2efebd0c from (598.333184, -746.009856) to (621.702208, -693.804928)
+	 with rotation -1.505506 and width 53.891204 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Sarmatian Elite Nobles) at 0x2efe8404 from (623.804928, -348.234208) to (645.483264, -413.700416)
+	 with rotation -1.481346 and width 42.65594 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Nobles) at 0x2efe8894 from (631.903168, -285.363392) to (648.484352, -364.9608)
+	 with rotation -1.449324 and width 51.254436 - now residing in deployment area at 0x4f606a4
+Adding unit (Scythian Riders) at 0x2efeb634 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Riders) at 0x2efeb634 - Deployed at (653.330048, -309.940512) in deployment area at 0x4f606a4
+Adding unit (Scythian Riders) at 0x2efe9ad4 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Riders) at 0x2efe9ad4 - Deployed at (615.250368, -781.96768) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Riders) at 0x2efe9ad4 from (619.37952, -738.353664) to (618.444992, -766.371776)
+	 with rotation -1.528228 and width 61.661552 - now residing in deployment area at 0x4f606a4
+Adding unit (Scythian Noble Archers) at 0x2efe7ae4 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Noble Archers) at 0x2efe7ae4 - Deployed at (681.030016, -310.046272) in deployment area at 0x4f606a4
+Adding unit (Scythian Noble Archers) at 0x2efedcfc to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Noble Archers) at 0x2efedcfc - Deployed at (637.633088, -774.466368) in deployment area at 0x4f606a4
+Adding unit (Scythian Noble Women) at 0x2eff0a9c to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Noble Women) at 0x2eff0a9c - Deployed at (668.757248, -413.538208) in deployment area at 0x4f606a4
+Adding unit (Scythian Noble Women) at 0x2efed624 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Noble Women) at 0x2efed624 - Deployed at (636.530304, -698.500544) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Noble Women) at 0x2eff0a9c from (677.349696, -383.584032) to (668.837248, -672.88224)
+	 with rotation -1.486427 and width 88.933544 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Noble Women) at 0x2efed624 from (651.152, -639.380864) to (668.399808, -434.362048)
+	 with rotation -1.474156 and width 122.249008 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Noble Women) at 0x2eff0a9c from (685.052544, -608.196416) to (638.028992, -703.029376)
+	 with rotation -1.486427 and width 88.933544 - now residing in deployment area at 0x4f606a4
+Adding unit (Scythian Riders) at 0x2efecabc to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Riders) at 0x2efecabc - Deployed at (646.73056, -612.800192) in deployment area at 0x4f606a4
+Adding unit (Scythian Riders) at 0x2efeeaac to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Riders) at 0x2efeeaac - Deployed at (654.286208, -543.627776) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Riders) at 0x2efeeaac from (669.024896, -520.925728) to (661.755584, -518.216992)
+	 with rotation -1.448845 and width 55.630376 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Riders) at 0x2efecabc from (664.687808, -591.0656) to (650.8848, -588.622528)
+	 with rotation -1.402826 and width 46.764208 - now residing in deployment area at 0x4f606a4
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Scythian Riders) at 0x2efecabc - was in army controlled by Captain Belnirari at 0x2ea7d0c4 from scythia and in deployment area at 0x4f606a4
+Removed unit (Scythian Riders) at 0x2efecabc from deployment area at 0x4f606a4
+Adding unit (Scythian Riders) at 0x2efef3cc to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scythian Riders) at 0x2efef3cc - Deployed at (649.072128, -601.791104) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Scythian Riders) at 0x2efef3cc from (656.911168, -574.364608) to (656.430208, -597.485184)
+	 with rotation -1.505027 and width 60.700716 - now residing in deployment area at 0x4f606a4
+Adding unit (Head Hunting Maidens) at 0x2efecd04 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Head Hunting Maidens) at 0x2efecd04 - Deployed at (688.0096, -482.654656) in deployment area at 0x4f606a4
+Adding unit (Head Hunting Maidens) at 0x2efedab4 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Head Hunting Maidens) at 0x2efedab4 - Deployed at (671.030464, -637.5808) in deployment area at 0x4f606a4
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Head Hunting Maidens) at 0x2efedab4 - was in army controlled by Captain Belnirari at 0x2ea7d0c4 from scythia and in deployment area at 0x4f606a4
+Removed unit (Head Hunting Maidens) at 0x2efedab4 from deployment area at 0x4f606a4
+Adding unit (Head Hunting Maidens) at 0x2efefcec to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Head Hunting Maidens) at 0x2efefcec - Deployed at (711.973248, -485.1704) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efefcec from (726.08352, -457.23792) to (679.566848, -600.319296)
+	 with rotation -1.507328 and width 106.056976 - now residing in deployment area at 0x4f606a4
+Adding unit (Barbarian Cavalry) at 0x2efef614 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Barbarian Cavalry) at 0x2efef614 - Deployed at (696.627968, -371.594592) in deployment area at 0x4f606a4
+Adding unit (Barbarian Cavalry) at 0x2efecf4c to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Barbarian Cavalry) at 0x2efecf4c - Deployed at (721.022208, -375.020576) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Barbarian Cavalry) at 0x2efecf4c from (733.26048, -358.542496) to (675.110208, -652.3872)
+	 with rotation -1.485277 and width 49.570936 - now residing in deployment area at 0x4f606a4
+Adding unit (Barbarian Cavalry) at 0x2efee3d4 to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Barbarian Cavalry) at 0x2efee3d4 - Deployed at (720.481664, -376.492608) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Barbarian Cavalry) at 0x2efee3d4 from (735.761088, -349.54656) to (673.791232, -712.493056)
+	 with rotation -1.538008 and width 54.053488 - now residing in deployment area at 0x4f606a4
+Adding unit (Barbarian Cavalry) at 0x2efee61c to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Barbarian Cavalry) at 0x2efee61c - Deployed at (701.82592, -319.596576) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Barbarian Cavalry) at 0x2efee61c from (716.024064, -298.291776) to (703.1248, -316.077696)
+	 with rotation -1.499466 and width 52.560152 - now residing in deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Trying to create unit (barb cavalry scythian), but failed
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Barbarian Cavalry) at 0x2efee3d4 from (677.4288, -700.833472) to (667.772608, -775.370112)
+	 with rotation -1.538008 and width 54.053488 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Barbarian Cavalry) at 0x2efecf4c from (688.490048, -645.801728) to (671.71936, -708.621568)
+	 with rotation -1.485277 and width 49.570936 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efefcec from (696.958528, -555.589632) to (676.350528, -639.799808)
+	 with rotation -1.507328 and width 106.056976 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efecd04 from (700.868416, -452.719712) to (696.602176, -624.506496)
+	 with rotation -1.494769 and width 112.833008 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efefcec from (688.43328, -579.027712) to (687.960512, -490.448288)
+	 with rotation -1.507328 and width 106.056976 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efecd04 from (707.513152, -559.625856) to (678.781696, -640.25376)
+	 with rotation -1.494769 and width 112.833008 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efecd04 from (693.424192, -551.758208) to (717.618112, -551.662336)
+	 with rotation -1.494769 and width 112.833008 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efefcec from (705.469952, -430.77584) to (674.108672, -650.775232)
+	 with rotation -1.507328 and width 106.056976 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efefcec from (692.618176, -591.558464) to (677.775808, -650.678912)
+	 with rotation -1.507328 and width 106.056976 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efecd04 from (718.324224, -531.169792) to (687.327936, -506.895552)
+	 with rotation -1.494769 and width 112.833008 - now residing in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Head Hunting Maidens) at 0x2efefcec from (693.99648, -593.94368) to (675.350784, -638.176576)
+	 with rotation -1.507328 and width 106.056976 - now residing in deployment area at 0x4f606a4
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Scythian Nobles) at 0x2efead14 - was in army controlled by Captain Belnirari at 0x2ea7d0c4 from scythia and in deployment area at 0x4f606a4
+Removed unit (Scythian Nobles) at 0x2efead14 from deployment area at 0x4f606a4
+Adding unit (Barbarian Chosen Warlord) at 0x2eff060c to deployment area at 0x4f606a4
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Barbarian Chosen Warlord) at 0x2eff060c - Deployed at (628.952576, -599.01632) in deployment area at 0x4f606a4
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (scythia:Barbarian Chosen Warlord) at 0x2eff060c from (631.279936, -575.647296) to (631.296256, -603.3312)
+	 with rotation -1.523147 and width 43.313956 - now residing in deployment area at 0x4f606a4
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (661.042176, 232.250912) to (642.898176, -243.232176)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (849.542912, 228.691616) to (820.207936, -266.643792)
+CREATE_ARMY::do_func() - Creating army at 0x2ea7cb54 (General: Captain Argishti), adding to scythia
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-769.637568, -28.120942) to (-727.250368, -10.40596)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-844.785024, 39.635972)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-720.924096, 46.01468)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-737.315392, -90.998272)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-848.367232, -93.30608)
+Adding unit (HOLY SHIT) at 0x2efefaa4 to deployment area at 0x4f606e0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (HOLY SHIT) at 0x2efefaa4 - Deployed at (-794.910912, -87.540832) in deployment area at 0x4f606e0

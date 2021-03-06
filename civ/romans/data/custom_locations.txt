@@ -1,0 +1,169 @@
+; custom locations , add new locations at the bottom
+
+custom_location		British Grassland
+{
+	location		50	190		
+	image			data/menu/grass1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Gallic Countryside
+{
+	location		49	151		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Italian Lowland
+{
+	location		94	129		
+	image			data/menu/grass3.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Sahara Desert
+{
+	location		50	51		
+	image			data/menu/sand1.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Libyan Plains
+{
+	location		175	8		
+	image			data/menu/sand2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Arabian Dunes
+{
+	location		224	47		
+	image			data/menu/sand3.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Germanic Forest
+{
+	location		98	186		
+	image			data/menu/forest1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Nordic Woodland
+{
+	location		98	186		
+	image			data/menu/forest2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Cappadocian Forest
+{
+	location		93	116		
+	image			data/menu/forest3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Prippet Marshes
+{
+	location		5	62		
+	image			data/menu/baron1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Sierra Nevada
+{
+	location		83	37		
+	image			data/menu/baron2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Scottish Highland
+{
+	location		118	122		
+	image			data/menu/baron3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Armenian Mountains
+{
+	location		189	59		
+	image			data/menu/mountain1.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Pontic Peaks
+{
+	location		204	59		
+	image			data/menu/mountain2.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Alpine Valley
+{
+	location		96	96		
+	image			data/menu/mountain3.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Tuscan Bay
+{
+	location		87	78		
+	image			data/menu/coast1.tga
+	sett_locked		no
+	summer			no
+
+}
+
+custom_location		Greek Shore
+{
+	location		103	43		
+	image			data/menu/coast2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		African Coast
+{
+	location		86	27		
+	image			data/menu/coast3.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Moon River
+{
+	location		21	71		
+	image			data/menu/river1.tga
+	sett_locked		yes
+	summer			no
+}
+custom_location		River Jordan
+{
+	location		204	89		
+	image			data/menu/river2.tga
+	sett_locked		yes
+	summer			yes
+}
+custom_location		Nile 
+{
+	location		183	76		
+	image			data/menu/river3.tga
+	sett_locked		yes
+	summer			yes
+}
+

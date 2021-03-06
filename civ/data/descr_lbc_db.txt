@@ -1,0 +1,188 @@
+faction romans_julii
+model greek_archer			 7
+model greek_hoplite 	20
+model greek_lesser_general 	3
+model greek_general 	2
+model horse_light 	3
+model greek_peltast		10
+model greek_hoplite_militia		30
+
+faction romans_brutii
+model east_sabaean_skirmisher		40
+model east_sabeian_militia		25
+model arab_infantry		15
+model sabeian_axemen		10
+model camel 	8
+
+faction romans_scipii
+model roman_city_militia 	10
+model roman_lesser_general 	3
+model roman_general 	2
+model roman_centurion 	1
+
+faction roman_rebels
+model roman_archer		10
+model etruscan_hoplite_militia		30
+model etruscan_light_infantry			20
+model etruscan_machairophoroi		12
+model etruscan_heavy_infantry		8
+model etruscan_royal_hoplites		4
+model horse_light 	3
+model greek_peltast		10
+
+faction macedon
+model greek_archer			 7
+model greek_hoplite 	20
+model greek_lesser_general 	3
+model greek_general 	2
+model horse_light 	3
+model greek_peltast		10
+model greek_hoplite_militia		30
+
+faction egypt
+model egyptian_infantry 	25
+model egyptian_spearman		20
+model greek_pike_phalanx		12
+model horse_light 	3
+model camel 	7
+
+faction seleucid
+model greek_archer			 7
+model greek_hoplite 	20
+model hellenic_lesser_general 	3
+model hellenic_general 	2
+model horse_light 	3
+model greek_peltast		10
+model greek_hoplite_militia		30
+
+faction carthage
+model carthage_town_militia		25
+model carthaginian_heavy_infantry 	10
+model carthaginian_lesser_general 	3
+model carthaginian_general 	2
+model horse_light 	2
+model elephant_forest 	1
+model carthaginian_peltast		15
+model carthaginian_heavy_swordsman		10
+model carthaginian_heavy_infantry		8
+
+faction parthia
+model east_cataphract_archer2		4
+model east_militia 	25
+model horse_light 	12
+model eastern_auxilia		10
+model eastern_medium_infantry		15
+model parthian_takabara		12
+model eastern_heavy_infantry_parthia		4
+model persian_sparabara		20
+model camel 	7
+
+faction pontus
+model greek_pike_phalanx 	10
+model east_lesser_general 	3
+model east_militia 	25
+model east_musician			 1
+model horse_light 	9
+model thureos_spears		8
+model thureos_swordsmen		5
+model greek_argyraspid		4
+model east_cataphract_archer2		4
+
+faction gauls
+model gaul_bogaty			 6
+model gaul_violent_warriors		8
+model gaul_chief		6
+model barb_druid		3
+model gaul_heavy_gaul_infantry		14
+model barb_warguard		10
+model warband_sword_gaul		15
+model barb_infantry_longshield_gaul		20
+model barb_peltast_gaul		20
+
+faction germans
+model barb_archer_warband 	11
+model german_lesser_general 	3
+model german_general 	2
+model horse_light 	2
+
+faction britons
+model east_cataphract_archer2		4
+model east_militia 	25
+model horse_light 	12
+model parthian_takabara		12
+model persian_sparabara		20
+model camel 	10
+model sugdian_infantry		20		
+model sugdian_warriors		10
+
+faction armenia
+model armenian_auxilia		12
+model east_cataphract_archer2		4
+model east_militia 	25
+model horse_light 	12
+model parthian_takabara		12
+model persian_sparabara		20
+model camel 	7
+model east_heavy_infantry 	5
+
+faction dacia
+model barb_infantry_longshield		20
+model barb_dacian_peltast		15
+model barb_archer_warband			 8
+model barb_warguard_dacian 	8
+model warband_falx		10
+model unit_dacian_falx_warband		4
+model horse_light 	6
+
+faction greek_cities
+model greek_archer			 7
+model greek_hoplite 	20
+model greek_lesser_general 	3
+model greek_general 	2
+model horse_light 	3
+model greek_peltast		10
+model greek_hoplite_militia		30
+
+faction numidia
+model greek_archer			 7
+model greek_hoplite 	20
+model greek_lesser_general 	3
+model greek_general 	2
+model horse_light 	3
+model greek_hoplite_militia		30
+model greek_peltast		10
+
+faction scythia
+model scythian_skirmisher		15
+model barb_scythian_archer		10
+model barb_scythian_noble_cavalry2		4
+model horse_light 	15
+model barb_infantry_scythia		20
+model warband_axe_scythia		10
+model warband_swords_scythia		6
+
+faction spain
+model chief_troop			 6
+model gaul_violent_warriors		8
+model gaul_chief		6
+model barb_druid		3
+model gaul_heavy_gaul_infantry		14
+model barb_warguard		10
+model warband_sword_gaul		15
+model barb_infantry_longshield_gaul		20
+model barb_peltast_gaul		20
+
+faction thrace
+model greek_archer			 7
+model greek_hoplite 	20
+model greek_lesser_general 	3
+model greek_general 	2
+model horse_light 	3
+model greek_hoplite_militia		30
+model greek_peltast		10
+
+faction slaves
+model greek_archer   60
+
+
+

@@ -1,0 +1,430 @@
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+************** STARTING BATTLE EDITOR
+
+CREATE_ARMY::do_func() - Creating army at 0x27aef7dc (General: Captain Hannibal), adding to carthage
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-134.62368, -181.550752)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-27.788122, -389.010144)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (70.65864, -586.65792)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (87.21244, -629.08832)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-14.89462, -680.06848)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-155.481232, -452.79888)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-201.975152, -357.993056)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-212.683968, -281.966624)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-212.683968, -281.966624)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-201.975152, -357.993056)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-155.481232, -452.79888)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-14.89462, -680.06848)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (87.21244, -629.08832)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (70.65864, -586.65792)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-27.788122, -389.010144)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-3.605621, -394.926272)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (110.948256, -607.496192)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (116.906616, -676.984128)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (22.145534, -677.028736)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-105.803552, -481.38928)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-181.5384, -278.275328)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-134.528272, -188.060608)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-3.745403, -396.93344)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-3.745403, -396.93344)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-3.605621, -394.926272) to (-198.498784, -323.83088)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-179.586208, -284.725312)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-179.586208, -284.725312)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-178.029696, -284.410656)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-178.029696, -284.410656)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-181.5384, -278.275328) to (7.693086, -429.924736)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-105.803552, -481.38928) to (-261.79352, -364.505504)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-198.498784, -323.83088) to (-375.667264, -202.64112)
+DELETE_DEPLOY_POINT::do_func() - Deleting deploy point at (-134.528272, -188.060608)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-134.62368, -181.550752) to (-198.630224, -23.471558)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-141.594336, -539.792896)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (22.145534, -677.028736) to (-165.32456, -817.783232)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-141.594336, -539.792896) to (-331.40464, -589.67296)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-260.31952, -365.430976)
+DELETE_DEPLOY_POINT::do_func() - Deleting deploy point at (-260.31952, -365.430976)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-261.79352, -364.505504) to (-545.624256, -430.483296)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-375.667264, -202.64112) to (-609.896576, -156.417568)
+Adding unit (Warband) at 0x27c9e9f4 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x27c9e9f4 - Deployed at (-44.727148, -351.994784) in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Warband) at 0x27c9e9f4 from (-44.668892, -351.450592) to (-45.052796, -353.804288)
+	 with rotation 1.062665 and width 21.519494 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Warband) at 0x27c9e9f4 from (-44.7072, -352.946976) to (-46.31018, -351.632832)
+	 with rotation 1.062665 and width 21.519494 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Warband) at 0x27c9e9f4 from (-48.0157, -361.314496) to (-45.39968, -362.275584)
+	 with rotation 1.062665 and width 21.519494 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Warband) at 0x27c9e9f4 from (-46.455656, -370.081536) to (-46.330428, -356.997568)
+	 with rotation 1.062665 and width 21.519494 - now residing in deployment area at 0x6ffe4f8
+DELETE_ARMY_FUNCTION::do_func() - Deleting army controlled by Captain Hannibal at 0x27aef7dc from carthage
+	Removing unit (Warband) at 0x27c9e9f4
+Removed unit (Warband) at 0x27c9e9f4 from deployment area at 0x6ffe4f8
+CREATE_ARMY::do_func() - Creating army at 0x27aef8c4 (General: Captain Hannibal), adding to carthage
+Adding unit (Warband) at 0x27c9d324 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x27c9d324 - Deployed at (-51.806548, -341.838208) in deployment area at 0x6ffe4f8
+Adding unit (Warband) at 0x27c9dc44 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x27c9dc44 - Deployed at (-73.13648, -303.867136) in deployment area at 0x6ffe4f8
+Adding unit (Warband) at 0x27c9e564 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x27c9e564 - Deployed at (-26.343696, -386.329376) in deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Warband) at 0x27c9e564 - Deployed at (-26.343696, -386.329376) in deployment area at 0x6ffe4f8
+Removed unit (Warband) at 0x27c9e564 from deployment area at 0x6ffe4f8
+Adding unit (Warband) at 0x27ca00c4 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x27ca00c4 - Deployed at (-29.080574, -385.699968) in deployment area at 0x6ffe4f8
+Adding unit (Celtic Nobles) at 0x27ca030c to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Celtic Nobles) at 0x27ca030c - Deployed at (-97.076624, -270.28992) in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Celtic Nobles) at 0x27ca030c from (-92.795776, -280.06752) to (-96.428336, -270.29184)
+	 with rotation .941289 and width 33.261632 - now residing in deployment area at 0x6ffe4f8
+Adding unit (Celtic Nobles) at 0x27c9f314 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Celtic Nobles) at 0x27c9f314 - Deployed at (-14.414842, -420.694592) in deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Celtic Nobles) at 0x27c9f314 - Deployed at (-14.414842, -420.694592) in deployment area at 0x6ffe4f8
+Removed unit (Celtic Nobles) at 0x27c9f314 from deployment area at 0x6ffe4f8
+Adding unit (Celtic Nobles) at 0x27c9ee84 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Celtic Nobles) at 0x27c9ee84 - Deployed at (-14.845032, -420.689952) in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Celtic Nobles) at 0x27ca030c from (-93.735024, -281.583328) to (-96.8376, -274.374592)
+	 with rotation .941289 and width 33.261632 - now residing in deployment area at 0x6ffe4f8
+Adding unit (Scutarii) at 0x27c9f0cc to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scutarii) at 0x27c9f0cc - Deployed at (-59.99012, -342.535328) in deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Scutarii) at 0x27c9f0cc - Deployed at (-59.99012, -342.535328) in deployment area at 0x6ffe4f8
+Removed unit (Scutarii) at 0x27c9f0cc from deployment area at 0x6ffe4f8
+Adding unit (Scutarii) at 0x27ca079c to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scutarii) at 0x27ca079c - Deployed at (-59.815924, -344.114048) in deployment area at 0x6ffe4f8
+Adding unit (Iberian Infantry) at 0x27c9d7b4 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Iberian Infantry) at 0x27c9d7b4 - Deployed at (-106.030272, -280.57056) in deployment area at 0x6ffe4f8
+Adding unit (Iberian Infantry) at 0x27c9d9fc to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Iberian Infantry) at 0x27c9d9fc - Deployed at (-28.410552, -416.73152) in deployment area at 0x6ffe4f8
+Adding unit (Skirmishers) at 0x30a19334 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Skirmishers) at 0x30a19334 - Deployed at (-38.641716, -384.690752) in deployment area at 0x6ffe4f8
+Adding unit (Slingers) at 0x30a17344 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Slingers) at 0x30a17344 - Deployed at (-82.723936, -307.026048) in deployment area at 0x6ffe4f8
+Adding unit (General's Armoured Bodyguard) at 0x30a17eac to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (General's Armoured Bodyguard) at 0x30a17eac - Deployed at (-85.065152, -360.267136) in deployment area at 0x6ffe4f8
+Adding unit (Scutarii) at 0x30a1ae94 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scutarii) at 0x30a1ae94 - Deployed at (-136.156448, -244.950736) in deployment area at 0x6ffe4f8
+Adding unit (Scutarii) at 0x30a18c5c to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Scutarii) at 0x30a18c5c - Deployed at (-18.944534, -454.559552) in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Scutarii) at 0x30a18c5c from (-22.345592, -460.605344) to (-36.412192, -467.14976)
+	 with rotation 1.319511 and width 30.568242 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Iberian Infantry) at 0x27c9d9fc from (-26.567898, -431.387456) to (-39.700868, -428.093568)
+	 with rotation 1.357381 and width 35.05076 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Celtic Nobles) at 0x27c9ee84 from (-16.252216, -438.075744) to (-26.596634, -428.052064)
+	 with rotation 1.427273 and width 32.035148 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Iberian Infantry) at 0x27c9d7b4 from (-99.268512, -292.5616) to (-121.042376, -288.710496)
+	 with rotation .924319 and width 39.627636 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Celtic Nobles) at 0x27ca030c from (-90.084344, -285.3392) to (-111.963632, -281.422176)
+	 with rotation .941289 and width 33.261632 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Iberian Infantry) at 0x27c9d7b4 from (-113.120544, -305.903072) to (-122.638752, -285.192672)
+	 with rotation .924319 and width 39.627636 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Scutarii) at 0x30a1ae94 from (-131.509248, -263.789488) to (-147.99712, -250.40632)
+	 with rotation .998813 and width 41.313376 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Scutarii) at 0x30a1ae94 from (-147.65728, -256.413488) to (-152.952976, -250.28392)
+	 with rotation .998813 and width 41.313376 - now residing in deployment area at 0x6ffe4f8
+Adding unit (Libyan Spearmen) at 0x30a1a574 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Libyan Spearmen) at 0x30a1a574 - Deployed at (-133.825, -495.403552) in deployment area at 0x6ffe4f8
+Adding unit (Libyan Spearmen) at 0x30a1a0e4 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Libyan Spearmen) at 0x30a1a0e4 - Deployed at (-229.826656, -300.002272) in deployment area at 0x6ffe4f8
+Adding unit (Lions of Carthage) at 0x30a1b56c to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Lions of Carthage) at 0x30a1b56c - Deployed at (-240.335712, -304.493088) in deployment area at 0x6ffe4f8
+Adding unit (Lions of Carthage) at 0x30a17c64 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Lions of Carthage) at 0x30a17c64 - Deployed at (-143.55864, -494.991456) in deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Lions of Carthage) at 0x30a17c64 - Deployed at (-143.55864, -494.991456) in deployment area at 0x6ffe4f8
+Removed unit (Lions of Carthage) at 0x30a17c64 from deployment area at 0x6ffe4f8
+Adding unit (Lions of Carthage) at 0x30a170fc to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Lions of Carthage) at 0x30a170fc - Deployed at (-142.455984, -495.814976) in deployment area at 0x6ffe4f8
+CREATE_ARMY::do_func() - Creating army at 0x27af02bc (General: Captain Hasdrubal), adding to carthage
+Adding unit (Numidian Cavalry) at 0x30a1b7b4 to deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Numidian Cavalry) at 0x30a1b7b4 - Deployed at (-21.403794, -577.293824) in deployment area at 0x6ffe4f8
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Numidian Cavalry) at 0x30a1b7b4 - Deployed at (-21.403794, -577.293824) in deployment area at 0x6ffe4f8
+Removed unit (Numidian Cavalry) at 0x30a1b7b4 from deployment area at 0x6ffe4f8
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (122.185304, -676.898176)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (122.185304, -676.898176)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (113.724048, -606.276864)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (113.724048, -606.276864)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (128.723752, -528.138432)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (128.723752, -528.138432)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (110.948256, -607.496192) to (-22.280586, -519.102176)
+DELETE_DEPLOY_POINT::do_func() - Deleting deploy point at (116.906616, -676.984128)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-165.32456, -817.783232) to (-156.281904, -560.47296)
+DELETE_DEPLOY_POINT::do_func() - Deleting deploy point at (-331.40464, -589.67296)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-545.624256, -430.483296) to (-201.312576, -417.364736)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-156.281904, -560.47296) to (-146.44824, -542.509696)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-22.280586, -519.102176) to (-18.645614, -501.085312)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-609.896576, -156.417568) to (-267.791328, -309.630112)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-198.630224, -23.471558) to (-160.07816, -224.909216)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-56.744252, -296.41328)
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Libyan Spearmen) at 0x30a1a0e4 from (-221.942688, -315.768992) to (-217.637456, -306.736096)
+	 with rotation 1.001881 and width 32.892766 - now residing in deployment area at 0x6ffe4f8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Lions of Carthage) at 0x30a1b56c from (-231.969408, -324.911488) to (-227.366112, -314.628608)
+	 with rotation .984432 and width 35.564384 - now residing in deployment area at 0x6ffe4f8
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-267.791328, -309.630112) to (-249.048544, -319.347776)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-137.12208, -589.481792)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-12.301942, -531.154976)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (66.982176, -698.81952)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-96.844376, -727.530368)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (-137.12208, -589.481792) to (-149.52112, -555.585664)
+Adding unit (Numidian Cavalry) at 0x30a13e84 to deployment area at 0x6ffe534
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Numidian Cavalry) at 0x30a13e84 - Deployed at (-42.399108, -565.850688) in deployment area at 0x6ffe534
+Adding unit (Carthage Royal cavalry) at 0x30a14e7c to deployment area at 0x6ffe534
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Carthage Royal cavalry) at 0x30a14e7c - Deployed at (-70.690976, -576.746176) in deployment area at 0x6ffe534
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Carthage Royal cavalry) at 0x30a14e7c - Deployed at (-70.690976, -576.746176) in deployment area at 0x6ffe534
+Removed unit (Carthage Royal cavalry) at 0x30a14e7c from deployment area at 0x6ffe534
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Numidian Cavalry) at 0x30a13e84 - Deployed at (-42.399108, -565.850688) in deployment area at 0x6ffe534
+Removed unit (Numidian Cavalry) at 0x30a13e84 from deployment area at 0x6ffe534
+Adding unit (Numidian Cavalry) at 0x30a16c24 to deployment area at 0x6ffe534
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Numidian Cavalry) at 0x30a16c24 - Deployed at (-12.321304, -620.490304) in deployment area at 0x6ffe534
+Adding unit (Carthage Royal cavalry) at 0x30a169dc to deployment area at 0x6ffe534
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Carthage Royal cavalry) at 0x30a169dc - Deployed at (-61.021988, -614.716672) in deployment area at 0x6ffe534
+Adding unit (General's Armoured Bodyguard) at 0x30a1530c to deployment area at 0x6ffe534
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (General's Armoured Bodyguard) at 0x30a1530c - Deployed at (-81.776208, -643.023616) in deployment area at 0x6ffe534
+CREATE_ARMY::do_func() - Creating army at 0x27af30f4 (General: Captain Himilcar), adding to carthage
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-273.504352, -290.425024)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-182.367584, -215.865472)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-257.65448, -96.219392)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-346.337344, -149.257408)
+Adding unit (Numidian Cavalry) at 0x30a16e6c to deployment area at 0x6ffe570
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Numidian Cavalry) at 0x30a16e6c - Deployed at (-270.021504, -118.77956) in deployment area at 0x6ffe570
+Adding unit (Sacred Band Cavalry) at 0x30a15554 to deployment area at 0x6ffe570
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Sacred Band Cavalry) at 0x30a15554 - Deployed at (-299.15776, -134.278528) in deployment area at 0x6ffe570
+Adding unit (General's Armoured Bodyguard) at 0x30a140cc to deployment area at 0x6ffe570
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (General's Armoured Bodyguard) at 0x30a140cc - Deployed at (-310.936672, -157.556432) in deployment area at 0x6ffe570
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Numidian Cavalry) at 0x30a16c24 from (-14.278596, -636.070208) to (18.135818, -652.908992)
+	 with rotation 1.118847 and width 52.001204 - now residing in deployment area at 0x6ffe534
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Carthage Royal cavalry) at 0x30a169dc from (-55.316008, -628.784064) to (-33.622848, -651.960192)
+	 with rotation 1.131694 and width 62.77986 - now residing in deployment area at 0x6ffe534
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:General's Armoured Bodyguard) at 0x30a1530c from (-75.740536, -656.477632) to (-48.1007, -673.875072)
+	 with rotation 1.165154 and width 39.074752 - now residing in deployment area at 0x6ffe534
+CREATE_ARMY::do_func() - Creating army at 0x27af27e4 (General: Captain Quintus), adding to romans_scipii
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (125.997952, -65.702864)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (289.130112, -316.345728)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (368.245728, -264.286128)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (214.323328, -47.020476)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (214.323328, -47.020476) to (201.708768, -38.308936)
+Adding unit (Hastati) at 0x30a160bc to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x30a160bc - Deployed at (292.4528, -307.241888) in deployment area at 0x6ffe5ac
+Adding unit (Hastati) at 0x30a150c4 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x30a150c4 - Deployed at (265.195072, -264.958864) in deployment area at 0x6ffe5ac
+Adding unit (Hastati) at 0x30a1579c to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x30a1579c - Deployed at (237.014464, -219.762048) in deployment area at 0x6ffe5ac
+Adding unit (Hastati) at 0x30a1654c to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x30a1654c - Deployed at (210.38704, -177.791808) in deployment area at 0x6ffe5ac
+Adding unit (Hastati) at 0x30a130d4 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x30a130d4 - Deployed at (180.569584, -137.406656) in deployment area at 0x6ffe5ac
+Adding unit (Hastati) at 0x30a12e8c to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x30a12e8c - Deployed at (158.319248, -99.868528) in deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Hastati) at 0x30a12e8c - Deployed at (158.319248, -99.868528) in deployment area at 0x6ffe5ac
+Removed unit (Hastati) at 0x30a12e8c from deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Hastati) at 0x30a130d4 from (162.807248, -105.782992) to (185.33376, -138.74168)
+	 with rotation -2.113346 and width 40.64958 - now residing in deployment area at 0x6ffe5ac
+Adding unit (Hastati) at 0x30a1256c to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x30a1256c - Deployed at (190.804624, -103.265416) in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Hastati) at 0x30a1256c from (192.120272, -97.812336) to (163.202448, -103.412872)
+	 with rotation -2.149395 and width 46.202912 - now residing in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Hastati) at 0x30a130d4 from (181.03696, -128.949736) to (184.684944, -141.165904)
+	 with rotation -2.113346 and width 40.64958 - now residing in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Hastati) at 0x30a1654c from (205.04824, -163.776032) to (213.602656, -182.385152)
+	 with rotation -2.161858 and width 45.580692 - now residing in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Hastati) at 0x30a1579c from (232.1524, -204.6192) to (239.358976, -224.414368)
+	 with rotation -2.106635 and width 42.253036 - now residing in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Hastati) at 0x30a150c4 from (255.074192, -246.73624) to (266.181312, -266.190304)
+	 with rotation -2.120441 and width 45.226516 - now residing in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Hastati) at 0x30a1579c from (237.203824, -213.701696) to (236.993632, -220.375008)
+	 with rotation -2.106635 and width 42.253036 - now residing in deployment area at 0x6ffe5ac
+Adding unit (Hastati) at 0x30a137ac to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x30a137ac - Deployed at (305.498624, -300.929472) in deployment area at 0x6ffe5ac
+Adding unit (Hastati) at 0x30a1331c to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x30a1331c - Deployed at (176.610752, -99.105488) in deployment area at 0x6ffe5ac
+Adding unit (Principes) at 0x30a107c4 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x30a107c4 - Deployed at (279.864384, -260.652592) in deployment area at 0x6ffe5ac
+Adding unit (Principes) at 0x30a127b4 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x30a127b4 - Deployed at (252.859408, -215.668128) in deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Principes) at 0x30a127b4 - Deployed at (252.859408, -215.668128) in deployment area at 0x6ffe5ac
+Removed unit (Principes) at 0x30a127b4 from deployment area at 0x6ffe5ac
+Adding unit (Principes) at 0x30a11c4c to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x30a11c4c - Deployed at (250.961616, -213.49504) in deployment area at 0x6ffe5ac
+Adding unit (Principes) at 0x30a1132c to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x30a1132c - Deployed at (225.093872, -174.510592) in deployment area at 0x6ffe5ac
+Adding unit (Principes) at 0x30a0fea4 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x30a0fea4 - Deployed at (197.271168, -133.40004) in deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Principes) at 0x30a0fea4 - Deployed at (197.271168, -133.40004) in deployment area at 0x6ffe5ac
+Removed unit (Principes) at 0x30a0fea4 from deployment area at 0x6ffe5ac
+Adding unit (Principes) at 0x30a117bc to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x30a117bc - Deployed at (199.834912, -136.743248) in deployment area at 0x6ffe5ac
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (201.708768, -38.308936) to (195.897168, -21.606622)
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Hastati) at 0x30a1331c from (174.699152, -92.977352) to (173.94312, -93.981408)
+	 with rotation -2.098678 and width 42.387744 - now residing in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Principes) at 0x30a117bc from (195.162528, -127.182832) to (198.329024, -129.998808)
+	 with rotation -2.134247 and width 39.79184 - now residing in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Principes) at 0x30a1132c from (226.923616, -165.842928) to (222.753376, -170.244704)
+	 with rotation -2.178349 and width 39.01266 - now residing in deployment area at 0x6ffe5ac
+Adding unit (Principes) at 0x30a10c54 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x30a10c54 - Deployed at (321.413376, -288.324384) in deployment area at 0x6ffe5ac
+Adding unit (Principes) at 0x30a11a04 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x30a11a04 - Deployed at (190.39976, -88.798104) in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Principes) at 0x30a11a04 from (183.512016, -77.94768) to (186.259808, -82.721104)
+	 with rotation -2.154764 and width 40.129688 - now residing in deployment area at 0x6ffe5ac
+Adding unit (Triarii) at 0x30a12324 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x30a12324 - Deployed at (296.403936, -253.737984) in deployment area at 0x6ffe5ac
+Adding unit (Triarii) at 0x30a0f0f4 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x30a0f0f4 - Deployed at (264.645088, -204.682928) in deployment area at 0x6ffe5ac
+Adding unit (Triarii) at 0x30a0f584 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x30a0f584 - Deployed at (239.1972, -165.434864) in deployment area at 0x6ffe5ac
+Adding unit (Triarii) at 0x30a0fa14 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x30a0fa14 - Deployed at (210.921488, -124.341728) in deployment area at 0x6ffe5ac
+Adding unit (Triarii) at 0x30a10334 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x30a10334 - Deployed at (285.830496, -208.23144) in deployment area at 0x6ffe5ac
+Adding unit (Triarii) at 0x2b9bac04 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x2b9bac04 - Deployed at (245.835536, -149.318544) in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Triarii) at 0x2b9bac04 from (245.200464, -142.42536) to (247.339424, -151.250832)
+	 with rotation -2.15323 and width 25.349478 - now residing in deployment area at 0x6ffe5ac
+MOVE_UNIT_FUNCTION::undo_func() - Moving unit (romans_scipii:Triarii) at 0x2b9bac04 from (247.339424, -151.250832) to (245.200464, -142.42536)
+	 with rotation -2.15323 and width 25.349478 - now residing in deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Triarii) at 0x2b9bac04 - Deployed at (245.835536, -149.318544) in deployment area at 0x6ffe5ac
+Removed unit (Triarii) at 0x2b9bac04 from deployment area at 0x6ffe5ac
+Adding unit (Triarii) at 0x2b9bde34 to deployment area at 0x6ffe5ac
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x2b9bde34 - Deployed at (242.880528, -148.476112) in deployment area at 0x6ffe5ac
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (368.245728, -264.286128) to (345.726912, -276.013248)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (195.897168, -21.606622) to (178.059712, -36.538608)
+CREATE_ARMY::do_func() - Creating army at 0x27af3a04 (General: Captain Cassius), adding to romans_scipii
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (360.273248, -435.078976)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (291.247616, -323.241632)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (347.044832, -281.480736)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (346.201568, -282.562368)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (346.201568, -282.562368)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (347.044832, -281.480736) to (355.98944, -274.796352)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (184.853152, -34.52884)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (176.11048, -32.654236)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (125.316608, -54.503)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (74.799208, 25.792206)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (187.775872, 74.040456)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (125.316608, -54.503) to (163.4764, 73.117504)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (176.11048, -32.654236) to (216.838656, -16.044016)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (184.853152, -34.52884) to (473.81392, -332.101024)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (355.98944, -274.796352) to (422.487072, -390.193408)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (345.955648, -290.505184)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (345.955648, -290.505184) to (301.450752, -333.991776)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (291.247616, -323.241632) to (352.786496, -278.110176)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (301.450752, -333.991776) to (292.132704, -323.802144)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (152.6564, -17.053264)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (151.485328, -15.93753)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (152.6564, -17.053264) to (179.8092, -32.29916)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (151.485328, -15.93753) to (122.28572, -63.137556)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (216.838656, -16.044016) to (242.001136, .497414)
+DELETE_DEPLOY_POINT::do_func() - Deleting deploy point at (187.775872, 74.040456)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (163.4764, 73.117504) to (173.390896, 85.760984)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (74.799208, 25.792206) to (68.07324, 37.44008)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (172.518064, 86.728176)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (172.518064, 86.728176)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (173.390896, 85.760984) to (186.064576, 92.40436)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (473.81392, -332.101024) to (494.274048, -363.446784)
+MOVE_DEPLOY_POINT::do_func() - Moving deploy point from (242.001136, .497414) to (349.055104, -115.109272)
+DELETE_DEPLOY_POINT::do_func() - Deleting deploy point at (422.487072, -390.193408)
+Adding unit (Equites) at 0x2b9bc51c to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Equites) at 0x2b9bc51c - Deployed at (362.676256, -417.262464) in deployment area at 0x6ffe5e8
+Adding unit (Equites) at 0x2b9bd9a4 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Equites) at 0x2b9bd9a4 - Deployed at (343.692832, -380.804672) in deployment area at 0x6ffe5e8
+Adding unit (Equites) at 0x2b9bcbf4 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Equites) at 0x2b9bcbf4 - Deployed at (127.80936, -49.525924) in deployment area at 0x6ffe5e8
+Adding unit (Equites) at 0x2b9bc764 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Equites) at 0x2b9bc764 - Deployed at (107.348224, -12.777574) in deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Equites) at 0x2b9bc764 - Deployed at (107.348224, -12.777574) in deployment area at 0x6ffe5e8
+Removed unit (Equites) at 0x2b9bc764 from deployment area at 0x6ffe5e8
+Adding unit (Equites) at 0x2b9ba9bc to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Equites) at 0x2b9ba9bc - Deployed at (101.347352, -.651199) in deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Equites) at 0x2b9ba9bc - Deployed at (101.347352, -.651199) in deployment area at 0x6ffe5e8
+Removed unit (Equites) at 0x2b9ba9bc from deployment area at 0x6ffe5e8
+Adding unit (Equites) at 0x2b9bb524 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Equites) at 0x2b9bb524 - Deployed at (104.619352, -5.608399) in deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Equites) at 0x2b9bb524 - Deployed at (104.619352, -5.608399) in deployment area at 0x6ffe5e8
+Removed unit (Equites) at 0x2b9bb524 from deployment area at 0x6ffe5e8
+Adding unit (Equites) at 0x2b9bb76c to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Equites) at 0x2b9bb76c - Deployed at (106.749728, -11.522446) in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Equites) at 0x2b9bb76c from (104.059968, 1.875931) to (96.048616, 6.100861)
+	 with rotation -2.076051 and width 39.042924 - now residing in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Equites) at 0x2b9bcbf4 from (127.55916, -34.643172) to (116.546432, -30.161042)
+	 with rotation -2.077106 and width 40.007672 - now residing in deployment area at 0x6ffe5e8
+Adding unit (Roman General) at 0x2b9bd2cc to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Roman General) at 0x2b9bd2cc - Deployed at (398.129344, -370.441152) in deployment area at 0x6ffe5e8
+Adding unit (Hastati) at 0x2b9bbbfc to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x2b9bbbfc - Deployed at (355.623264, -274.968512) in deployment area at 0x6ffe5e8
+Adding unit (Hastati) at 0x2b9bbe44 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x2b9bbe44 - Deployed at (327.676768, -231.626048) in deployment area at 0x6ffe5e8
+Adding unit (Hastati) at 0x2b9bc08c to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x2b9bc08c - Deployed at (304.402304, -195.782304) in deployment area at 0x6ffe5e8
+Adding unit (Hastati) at 0x2b9bd75c to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x2b9bd75c - Deployed at (276.185056, -154.428128) in deployment area at 0x6ffe5e8
+Adding unit (Hastati) at 0x2b9b89cc to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x2b9b89cc - Deployed at (245.083312, -107.313816) in deployment area at 0x6ffe5e8
+Adding unit (Hastati) at 0x2b9b70b4 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hastati) at 0x2b9b70b4 - Deployed at (216.038, -63.282028) in deployment area at 0x6ffe5e8
+Adding unit (Principes) at 0x2b9b9534 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x2b9b9534 - Deployed at (371.116896, -266.228752) in deployment area at 0x6ffe5e8
+Adding unit (Principes) at 0x2b9b72fc to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x2b9b72fc - Deployed at (346.839648, -225.168352) in deployment area at 0x6ffe5e8
+Adding unit (Principes) at 0x2b9b6794 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x2b9b6794 - Deployed at (321.96336, -189.430784) in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Principes) at 0x2b9b6794 from (315.703104, -169.519648) to (322.07152, -187.557312)
+	 with rotation -2.150258 and width 40.205724 - now residing in deployment area at 0x6ffe5e8
+Adding unit (Principes) at 0x2b9b99c4 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x2b9b99c4 - Deployed at (293.625536, -147.430736) in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Principes) at 0x2b9b99c4 from (289.966432, -132.011232) to (292.129248, -143.626176)
+	 with rotation -2.140287 and width 38.346064 - now residing in deployment area at 0x6ffe5e8
+Adding unit (Principes) at 0x2b9ba774 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x2b9ba774 - Deployed at (263.524688, -101.362824) in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Principes) at 0x2b9ba774 from (259.006224, -88.095144) to (256.745728, -94.186104)
+	 with rotation -2.119866 and width 37.811708 - now residing in deployment area at 0x6ffe5e8
+Adding unit (Principes) at 0x2b9b82f4 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Principes) at 0x2b9b82f4 - Deployed at (232.679712, -54.547928) in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Principes) at 0x2b9b82f4 from (228.234336, -36.87526) to (231.695056, -52.082948)
+	 with rotation -2.152655 and width 36.3521 - now residing in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Principes) at 0x2b9b72fc from (337.445568, -202.338112) to (347.80016, -225.414816)
+	 with rotation -2.107114 and width 43.739396 - now residing in deployment area at 0x6ffe5e8
+Adding unit (Triarii) at 0x2b9b853c to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x2b9b853c - Deployed at (361.39952, -216.712) in deployment area at 0x6ffe5e8
+Adding unit (Triarii) at 0x2b9b8c14 to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x2b9b8c14 - Deployed at (337.03776, -177.482704) in deployment area at 0x6ffe5e8
+Adding unit (Triarii) at 0x2b9b60bc to deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Triarii) at 0x2b9b60bc - Deployed at (307.943456, -133.3678) in deployment area at 0x6ffe5e8
+CREATE_UNIT_FUNCTION::do_func() - Trying to create unit (roman triarii), but failed
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Triarii) at 0x2b9b60bc from (302.626656, -120.379592) to (291.058112, -106.754192)
+	 with rotation -2.125522 and width 43.580364 - now residing in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Triarii) at 0x2b9b8c14 from (327.945184, -161.960944) to (326.78256, -161.476032)
+	 with rotation -2.105197 and width 42.326932 - now residing in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Triarii) at 0x2b9b853c from (348.88, -195.541008) to (352.55952, -201.993712)
+	 with rotation -2.124755 and width 38.7466 - now residing in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Triarii) at 0x2b9b8c14 from (321.122336, -147.57008) to (323.918336, -157.814752)
+	 with rotation -2.105197 and width 42.326932 - now residing in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_scipii:Roman General) at 0x2b9bd2cc from (393.770368, -355.999456) to (152.987184, 5.550919)
+	 with rotation -2.051124 and width 46.104616 - now residing in deployment area at 0x6ffe5e8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Numidian Cavalry) at 0x30a16c24 from (18.601806, -668.23008) to (12.091264, -650.248704)
+	 with rotation 1.118847 and width 52.001204 - now residing in deployment area at 0x6ffe534
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Carthage Royal cavalry) at 0x30a169dc from (-25.583618, -664.567488) to (-77.24184, -628.790912)
+	 with rotation 1.131694 and width 62.77986 - now residing in deployment area at 0x6ffe534
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:General's Armoured Bodyguard) at 0x30a1530c from (-40.644624, -695.076032) to (-88.524192, -677.731648)
+	 with rotation 1.165154 and width 39.074752 - now residing in deployment area at 0x6ffe534
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Carthage Royal cavalry) at 0x30a169dc from (-78.732696, -643.925824) to (-70.323504, -662.52864)
+	 with rotation 1.131694 and width 62.77986 - now residing in deployment area at 0x6ffe534
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Numidian Cavalry) at 0x30a16c24 from (14.386444, -679.927232) to (-31.88881, -661.107584)
+	 with rotation 1.118847 and width 52.001204 - now residing in deployment area at 0x6ffe534
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:General's Armoured Bodyguard) at 0x30a140cc from (-306.441408, -172.761696) to (-323.862048, -154.4816)
+	 with rotation 1.05001 and width 29.197748 - now residing in deployment area at 0x6ffe570
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Sacred Band Cavalry) at 0x30a15554 from (-286.818336, -163.89448) to (-317.026496, -137.588112)
+	 with rotation 1.050298 and width 63.065348 - now residing in deployment area at 0x6ffe570
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (carthage:Numidian Cavalry) at 0x30a16e6c from (-262.573392, -150.38064) to (-290.937728, -122.500128)
+	 with rotation 1.089126 and width 66.779936 - now residing in deployment area at 0x6ffe570

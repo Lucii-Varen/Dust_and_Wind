@@ -1,0 +1,213 @@
+************** STARTING BATTLE EDITOR
+
+Loading from file civ/data/world/maps/battle/custom/The_siege_of_Carthage/descr_battle.txt
+Created faction romans_scipii from file
+	Creating army controlled by Cassius Aelius at 0x15891e2c from script
+		Creating unit (Hastati) at 0x1382cd9c
+		Creating unit (Hastati) at 0x1382e8fc
+		Creating unit (Hastati) at 0x1382d22c
+		Creating unit (Hastati) at 0x1382aff4
+		Creating unit (Hastati) at 0x1382cfe4
+		Creating unit (Principes) at 0x1382b484
+		Creating unit (Principes) at 0x1382b6cc
+		Creating unit (Principes) at 0x1382b914
+		Creating unit (Principes) at 0x1382bb5c
+		Creating unit (Principes) at 0x1382bda4
+		Creating unit (Triarii) at 0x1382bfec
+		Creating unit (Triarii) at 0x1382c234
+		Creating unit (Triarii) at 0x1de867ec
+		Creating unit (Triarii) at 0x1de845b4
+		Creating unit (Triarii) at 0x1de86c7c
+		Creating unit (Evocati) at 0x1de857f4
+		Creating unit (Evocati) at 0x1de84ed4
+		Creating unit (Evocati) at 0x1de835bc
+		Creating unit (Evocati) at 0x1de8635c
+		Creating unit (Evocati) at 0x1de86a34
+	Creating army controlled by Galerius Asconius at 0x15891604 from script
+		Creating unit (Evocati) at 0x1de847fc
+		Creating unit (Hastati) at 0x1de83c94
+		Creating unit (Hastati) at 0x1de85c84
+		Creating unit (Hastati) at 0x1de82ee4
+		Creating unit (Hastati) at 0x1de83804
+		Creating unit (Hastati) at 0x1de85ecc
+		Creating unit (Principes) at 0x1de855ac
+		Creating unit (Principes) at 0x1de86114
+		Creating unit (Triarii) at 0x1de8312c
+		Creating unit (Triarii) at 0x1de85a3c
+		Creating unit (Triarii) at 0x1de865a4
+		Creating unit (Triarii) at 0x1de8436c
+		Creating unit (Triarii) at 0x1de83374
+		Creating unit (Evocati) at 0x1de85364
+		Creating unit (Evocati) at 0x1de83a4c
+		Creating unit (Evocati) at 0x1de84a44
+		Creating unit (Evocati) at 0x1de83edc
+		Creating unit (Principes) at 0x1de8511c
+		Creating unit (Principes) at 0x1de84c8c
+		Creating unit (Principes) at 0x1de84124
+	Creating army controlled by Manius Odaenathus at 0x15891f14 from script
+		Creating unit (Hastati) at 0x15ea3004
+		Creating unit (Hastati) at 0x15ea36dc
+		Creating unit (Hastati) at 0x15ea647c
+		Creating unit (Hastati) at 0x15ea56cc
+		Creating unit (Heavy Onagers) at 0x15ea5914
+		Creating unit (Principes) at 0x15ea3924
+		Creating unit (Principes) at 0x15ea4ff4
+		Creating unit (Principes) at 0x15ea448c
+		Creating unit (Principes) at 0x15ea5484
+		Creating unit (Principes) at 0x15ea46d4
+		Creating unit (Triarii) at 0x15ea491c
+		Creating unit (Triarii) at 0x15ea4dac
+		Creating unit (Triarii) at 0x15ea4b64
+		Creating unit (Triarii) at 0x15ea5b5c
+		Creating unit (Triarii) at 0x15ea66c4
+		Creating unit (Evocati) at 0x15ea3494
+		Creating unit (Evocati) at 0x15ea5da4
+		Creating unit (Evocati) at 0x15ea3b6c
+		Creating unit (Evocati) at 0x15ea5fec
+		Creating unit (Evocati) at 0x15ea690c
+Created faction carthage from file
+	Creating army controlled by Gelon Urso at 0x15892d94 from script
+		Creating unit (Numidian Legionaries) at 0x15ea6b54
+		Creating unit (Numidian Legionaries) at 0x15ea523c
+		Creating unit (Sacred Band) at 0x15ea2dbc
+		Creating unit (Machairophoroi) at 0x15ea324c
+		Creating unit (Machairophoroi) at 0x15ea3db4
+		Creating unit (Poeni Infantry) at 0x15ea3ffc
+		Creating unit (Skirmishers) at 0x15ea4244
+		Creating unit (Slingers) at 0x15c6af0c
+		Creating unit (Libyan Spearmen) at 0x15c6a5ec
+		Creating unit (Libyan Spearmen) at 0x15c6b39c
+		Creating unit (Lions of Carthage) at 0x15c6ba74
+		Creating unit (Archers) at 0x15c6a15c
+		Creating unit (Archers) at 0x15c69f14
+		Creating unit (Poeni Infantry) at 0x15c69a84
+		Creating unit (Poeni Infantry) at 0x15c6a3a4
+		Creating unit (Sacred Band) at 0x15c69164
+		Creating unit (Skirmishers) at 0x15c69ccc
+		Creating unit (Machairophoroi) at 0x15c693ac
+		Creating unit (Machairophoroi) at 0x15c6c394
+		Creating unit (General's Armoured Bodyguard) at 0x15c695f4
+	Creating army controlled by Hiempsal Ilipa at 0x15891ffc from script
+		Creating unit (Heavy Onagers) at 0x15c6983c
+		Creating unit (Sacred Band) at 0x15c6c824
+		Creating unit (Lions of Carthage) at 0x15c6aa7c
+		Creating unit (Skirmishers) at 0x15c6c5dc
+		Creating unit (Libyan Spearmen) at 0x15c6bf04
+		Creating unit (Machairophoroi) at 0x15c6bcbc
+		Creating unit (Machairophoroi) at 0x15c6b5e4
+		Creating unit (Machairophoroi) at 0x15c6a834
+		Creating unit (Slingers) at 0x15c6b82c
+		Creating unit (Poeni Infantry) at 0x15c6c14c
+		Creating unit (Sacred Band) at 0x15c68a8c
+		Creating unit (Numidian Legionaries) at 0x15c68f1c
+		Creating unit (Poeni Infantry) at 0x15c68cd4
+		Creating unit (Poeni Infantry) at 0x15c6acc4
+		Creating unit (Libyan Spearmen) at 0x15c6b154
+		Creating unit (Machairophoroi) at 0x1db7bc0c
+		Creating unit (Archers) at 0x1db7a2f4
+		Creating unit (Machairophoroi) at 0x1db799d4
+		Creating unit (Lions of Carthage) at 0x1db7b534
+		Creating unit (General's Armoured Bodyguard) at 0x1db7d76c
+Adding unit (Hastati) at 0x1382cd9c to deployment area at 0x4df0578
+Adding unit (Hastati) at 0x1382e8fc to deployment area at 0x4df0578
+Adding unit (Hastati) at 0x1382d22c to deployment area at 0x4df0578
+Adding unit (Hastati) at 0x1382aff4 to deployment area at 0x4df0578
+Adding unit (Hastati) at 0x1382cfe4 to deployment area at 0x4df0578
+Adding unit (Principes) at 0x1382b484 to deployment area at 0x4df0578
+Adding unit (Principes) at 0x1382b6cc to deployment area at 0x4df0578
+Adding unit (Principes) at 0x1382b914 to deployment area at 0x4df0578
+Adding unit (Principes) at 0x1382bb5c to deployment area at 0x4df0578
+Adding unit (Principes) at 0x1382bda4 to deployment area at 0x4df0578
+Adding unit (Triarii) at 0x1382bfec to deployment area at 0x4df0578
+Adding unit (Triarii) at 0x1382c234 to deployment area at 0x4df0578
+Adding unit (Triarii) at 0x1de867ec to deployment area at 0x4df0578
+Adding unit (Triarii) at 0x1de845b4 to deployment area at 0x4df0578
+Adding unit (Triarii) at 0x1de86c7c to deployment area at 0x4df0578
+Adding unit (Evocati) at 0x1de857f4 to deployment area at 0x4df0578
+Adding unit (Evocati) at 0x1de84ed4 to deployment area at 0x4df0578
+Adding unit (Evocati) at 0x1de835bc to deployment area at 0x4df0578
+Adding unit (Evocati) at 0x1de8635c to deployment area at 0x4df0578
+Adding unit (Evocati) at 0x1de86a34 to deployment area at 0x4df0578
+Adding unit (Evocati) at 0x1de847fc to deployment area at 0x4df05b4
+Adding unit (Hastati) at 0x1de83c94 to deployment area at 0x4df05b4
+Adding unit (Hastati) at 0x1de85c84 to deployment area at 0x4df05b4
+Adding unit (Hastati) at 0x1de82ee4 to deployment area at 0x4df05b4
+Adding unit (Hastati) at 0x1de83804 to deployment area at 0x4df05b4
+Adding unit (Hastati) at 0x1de85ecc to deployment area at 0x4df05b4
+Adding unit (Principes) at 0x1de855ac to deployment area at 0x4df05b4
+Adding unit (Principes) at 0x1de86114 to deployment area at 0x4df05b4
+Adding unit (Triarii) at 0x1de8312c to deployment area at 0x4df05b4
+Adding unit (Triarii) at 0x1de85a3c to deployment area at 0x4df05b4
+Adding unit (Triarii) at 0x1de865a4 to deployment area at 0x4df05b4
+Adding unit (Triarii) at 0x1de8436c to deployment area at 0x4df05b4
+Adding unit (Triarii) at 0x1de83374 to deployment area at 0x4df05b4
+Adding unit (Evocati) at 0x1de85364 to deployment area at 0x4df05b4
+Adding unit (Evocati) at 0x1de83a4c to deployment area at 0x4df05b4
+Adding unit (Evocati) at 0x1de84a44 to deployment area at 0x4df05b4
+Adding unit (Evocati) at 0x1de83edc to deployment area at 0x4df05b4
+Adding unit (Principes) at 0x1de8511c to deployment area at 0x4df05b4
+Adding unit (Principes) at 0x1de84c8c to deployment area at 0x4df05b4
+Adding unit (Principes) at 0x1de84124 to deployment area at 0x4df05b4
+Adding unit (Hastati) at 0x15ea3004 to deployment area at 0x4df05f0
+Adding unit (Hastati) at 0x15ea36dc to deployment area at 0x4df05f0
+Adding unit (Hastati) at 0x15ea647c to deployment area at 0x4df05f0
+Adding unit (Hastati) at 0x15ea56cc to deployment area at 0x4df05f0
+Adding unit (Heavy Onagers) at 0x15ea5914 to deployment area at 0x4df05f0
+Adding unit (Principes) at 0x15ea3924 to deployment area at 0x4df05f0
+Adding unit (Principes) at 0x15ea4ff4 to deployment area at 0x4df05f0
+Adding unit (Principes) at 0x15ea448c to deployment area at 0x4df05f0
+Adding unit (Principes) at 0x15ea5484 to deployment area at 0x4df05f0
+Adding unit (Principes) at 0x15ea46d4 to deployment area at 0x4df05f0
+Adding unit (Triarii) at 0x15ea491c to deployment area at 0x4df05f0
+Adding unit (Triarii) at 0x15ea4dac to deployment area at 0x4df05f0
+Adding unit (Triarii) at 0x15ea4b64 to deployment area at 0x4df05f0
+Adding unit (Triarii) at 0x15ea5b5c to deployment area at 0x4df05f0
+Adding unit (Triarii) at 0x15ea66c4 to deployment area at 0x4df05f0
+Adding unit (Evocati) at 0x15ea3494 to deployment area at 0x4df05f0
+Adding unit (Evocati) at 0x15ea5da4 to deployment area at 0x4df05f0
+Adding unit (Evocati) at 0x15ea3b6c to deployment area at 0x4df05f0
+Adding unit (Evocati) at 0x15ea5fec to deployment area at 0x4df05f0
+Adding unit (Evocati) at 0x15ea690c to deployment area at 0x4df05f0
+Adding unit (Numidian Legionaries) at 0x15ea6b54 to deployment area at 0x4df062c
+Adding unit (Numidian Legionaries) at 0x15ea523c to deployment area at 0x4df062c
+Adding unit (Sacred Band) at 0x15ea2dbc to deployment area at 0x4df062c
+Adding unit (Machairophoroi) at 0x15ea324c to deployment area at 0x4df062c
+Adding unit (Machairophoroi) at 0x15ea3db4 to deployment area at 0x4df062c
+Adding unit (Poeni Infantry) at 0x15ea3ffc to deployment area at 0x4df062c
+Adding unit (Skirmishers) at 0x15ea4244 to deployment area at 0x4df062c
+Adding unit (Slingers) at 0x15c6af0c to deployment area at 0x4df062c
+Adding unit (Libyan Spearmen) at 0x15c6a5ec to deployment area at 0x4df062c
+Adding unit (Libyan Spearmen) at 0x15c6b39c to deployment area at 0x4df062c
+Adding unit (Lions of Carthage) at 0x15c6ba74 to deployment area at 0x4df062c
+Adding unit (Archers) at 0x15c6a15c to deployment area at 0x4df062c
+Adding unit (Archers) at 0x15c69f14 to deployment area at 0x4df062c
+Adding unit (Poeni Infantry) at 0x15c69a84 to deployment area at 0x4df062c
+Adding unit (Poeni Infantry) at 0x15c6a3a4 to deployment area at 0x4df062c
+Adding unit (Sacred Band) at 0x15c69164 to deployment area at 0x4df062c
+Adding unit (Skirmishers) at 0x15c69ccc to deployment area at 0x4df062c
+Adding unit (Machairophoroi) at 0x15c693ac to deployment area at 0x4df062c
+Adding unit (Machairophoroi) at 0x15c6c394 to deployment area at 0x4df062c
+Adding unit (General's Armoured Bodyguard) at 0x15c695f4 to deployment area at 0x4df062c
+Adding unit (Heavy Onagers) at 0x15c6983c to deployment area at 0x4df0668
+Adding unit (Sacred Band) at 0x15c6c824 to deployment area at 0x4df0668
+Adding unit (Lions of Carthage) at 0x15c6aa7c to deployment area at 0x4df0668
+Adding unit (Skirmishers) at 0x15c6c5dc to deployment area at 0x4df0668
+Adding unit (Libyan Spearmen) at 0x15c6bf04 to deployment area at 0x4df0668
+Adding unit (Machairophoroi) at 0x15c6bcbc to deployment area at 0x4df0668
+Adding unit (Machairophoroi) at 0x15c6b5e4 to deployment area at 0x4df0668
+Adding unit (Machairophoroi) at 0x15c6a834 to deployment area at 0x4df0668
+Adding unit (Slingers) at 0x15c6b82c to deployment area at 0x4df0668
+Adding unit (Poeni Infantry) at 0x15c6c14c to deployment area at 0x4df0668
+Adding unit (Sacred Band) at 0x15c68a8c to deployment area at 0x4df0668
+Adding unit (Numidian Legionaries) at 0x15c68f1c to deployment area at 0x4df0668
+Adding unit (Poeni Infantry) at 0x15c68cd4 to deployment area at 0x4df0668
+Adding unit (Poeni Infantry) at 0x15c6acc4 to deployment area at 0x4df0668
+Adding unit (Libyan Spearmen) at 0x15c6b154 to deployment area at 0x4df0668
+Adding unit (Machairophoroi) at 0x1db7bc0c to deployment area at 0x4df0668
+Adding unit (Archers) at 0x1db7a2f4 to deployment area at 0x4df0668
+Adding unit (Machairophoroi) at 0x1db799d4 to deployment area at 0x4df0668
+Adding unit (Lions of Carthage) at 0x1db7b534 to deployment area at 0x4df0668
+Adding unit (General's Armoured Bodyguard) at 0x1db7d76c to deployment area at 0x4df0668
+Load finished **************************
+
+

@@ -1,0 +1,298 @@
+************** STARTING BATTLE EDITOR
+
+Loading from file CIV/data/world/maps/battle/custom/Gaugamela/descr_battle.txt
+Created faction macedon from file
+	Creating army controlled by Alexander at 0x274eec94 from script
+		Creating unit (General's Armoured Bodyguard) at 0x132bb784
+		Creating unit (Xystophoroi) at 0x132bce54
+		Creating unit (Xystophoroi) at 0x132bc77c
+		Creating unit (Podromoi) at 0x132bc2ec
+		Creating unit (Companion Cavalry) at 0x132bd09c
+		Creating unit (Chalkaspist) at 0x132bd774
+		Creating unit (Hypaspist) at 0x132bdc04
+		Creating unit (Getai light peltasts) at 0x2e36b4d4
+		Creating unit (Cretan archers) at 0x2e36d954
+		Creating unit (Getai peltasts) at 0x2e36972c
+		Creating unit (Royal Pikemen) at 0x2e36a4dc
+		Creating unit (Royal Pikemen) at 0x2e36c95c
+		Creating unit (Phalanx Pikemen) at 0x2e36adfc
+		Creating unit (Phalanx Pikemen) at 0x2e36abb4
+		Creating unit (Phalanx Pikemen) at 0x2e36b71c
+		Creating unit (Phalanx Pikemen) at 0x2e36d034
+		Creating unit (Phalanx Pikemen) at 0x2e3694e4
+		Creating unit (Phalanx Pikemen) at 0x2e36c284
+		Creating unit (Hypaspist) at 0x2e36c03c
+		Creating unit (Thessalian Cavalry) at 0x2e369bbc
+	Creating army controlled by Permenion at 0x274ee724 from script
+		Creating unit (General's Armoured Bodyguard) at 0x2e36cba4
+		Creating unit (Podromoi) at 0x2e36b044
+		Creating unit (Royal Pikemen) at 0x2e36d27c
+		Creating unit (Hypaspist) at 0x2e36d70c
+		Creating unit (Phalanx Pikemen) at 0x2e36db9c
+		Creating unit (Phalanx Pikemen) at 0x2e36d4c4
+		Creating unit (Phalanx Pikemen) at 0x2e369974
+		Creating unit (Phalanx Pikemen) at 0x2e36b28c
+		Creating unit (Phalanx Pikemen) at 0x2e369e04
+		Creating unit (Phalanx Pikemen) at 0x2e36a724
+		Creating unit (Phalanx Pikemen) at 0x2e36cdec
+		Creating unit (Slingers) at 0x2e36a294
+		Creating unit (Peltasts) at 0x2e36a04c
+		Creating unit (Phalanx Pikemen) at 0x2e36a96c
+		Creating unit (Phalanx Pikemen) at 0x2e36b964
+		Creating unit (Getai light peltasts) at 0x2e36bbac
+		Creating unit (Chalkaspist) at 0x2e36bdf4
+Created faction parthia from file
+	Creating army controlled by Darius at 0x274edfe4 from script
+		Creating unit (Eastern General) at 0x2e36c4cc
+		Creating unit (Immortals) at 0x2e36c714
+		Creating unit (Immortals) at 0x2e36f26c
+		Creating unit (Immortals) at 0x2e36dde4
+		Creating unit (Eastern Infantry) at 0x2e370b84
+		Creating unit (Eastern Infantry) at 0x2e36eddc
+		Creating unit (Eastern Infantry) at 0x2e36f024
+		Creating unit (Eastern Infantry) at 0x2e370dcc
+		Creating unit (Eastern Infantry) at 0x2e36e704
+		Creating unit (Takabara) at 0x2e36e4bc
+		Creating unit (Takabara) at 0x2e36e94c
+		Creating unit (Takabara) at 0x2e36eb94
+		Creating unit (Archers) at 0x2e37125c
+		Creating unit (Archers) at 0x2e36e02c
+		Creating unit (Archers) at 0x2e37093c
+		Creating unit (Eastern Spearmen) at 0x2e3704ac
+		Creating unit (Eastern Spearmen) at 0x2e36e274
+		Creating unit (Eastern Spearmen) at 0x2e371014
+		Creating unit (Eastern Spearmen) at 0x2e36f4b4
+		Creating unit (Eastern Spearmen) at 0x2e36f6fc
+	Creating army controlled by Artaxerxes at 0x274ef11c from script
+		Creating unit (Takabara) at 0x2e36f944
+		Creating unit (Takabara) at 0x2e36fb8c
+		Creating unit (Takabara) at 0x2e36fdd4
+		Creating unit (Takabara) at 0x2e37001c
+		Creating unit (Eastern Spearmen) at 0x2e370264
+		Creating unit (Eastern Spearmen) at 0x2e3706f4
+		Creating unit (Eastern Spearmen) at 0x2a1210ac
+		Creating unit (Eastern Spearmen) at 0x2a11e30c
+		Creating unit (Eastern Spearmen) at 0x2a12277c
+		Creating unit (Eastern Spearmen) at 0x2a11fe6c
+		Creating unit (War Elephants) at 0x2a11e0c4
+		Creating unit (Raiders) at 0x2a1200b4
+		Creating unit (Eastern Spearmen) at 0x2a11e554
+		Creating unit (Eastern Spearmen) at 0x2a1220a4
+		Creating unit (Eastern Infantry) at 0x2a1222ec
+		Creating unit (Eastern Infantry) at 0x2a1219cc
+		Creating unit (Eastern Infantry) at 0x2a11f0bc
+		Creating unit (Eastern Infantry) at 0x2a1202fc
+		Creating unit (Eastern Infantry) at 0x2a1212f4
+		Creating unit (Eastern Infantry) at 0x2a11f304
+	Creating army controlled by Hydarnes at 0x274eebac from script
+		Creating unit (Takabara) at 0x2a121e5c
+		Creating unit (Takabara) at 0x2a120c1c
+		Creating unit (Takabara) at 0x2a11e79c
+		Creating unit (Scythian Riders) at 0x2a120e64
+		Creating unit (Scythian Nobles) at 0x2a11f9dc
+		Creating unit (Scythian Mercenaries) at 0x2a11e9e4
+		Creating unit (Median Cavalry) at 0x2a11ec2c
+		Creating unit (Eastern Infantry) at 0x2a11ee74
+		Creating unit (Eastern Infantry) at 0x2a120544
+		Creating unit (Eastern Infantry) at 0x2a122534
+		Creating unit (Eastern Infantry) at 0x2a11f54c
+		Creating unit (Eastern Infantry) at 0x2a121784
+		Creating unit (Eastern Infantry) at 0x2a11f794
+		Creating unit (Eastern Spearmen) at 0x2a11fc24
+		Creating unit (Eastern Spearmen) at 0x2a12078c
+		Creating unit (Eastern Spearmen) at 0x2a1209d4
+		Creating unit (Eastern Spearmen) at 0x2a12153c
+		Creating unit (Eastern Spearmen) at 0x2a121c14
+		Creating unit (Eastern Spearmen) at 0x2a123c04
+		Creating unit (Eastern Spearmen) at 0x2a124bfc
+	Creating army controlled by Jahangir at 0x274ede14 from script
+		Creating unit (Eastern Spearmen) at 0x2a123e4c
+		Creating unit (Eastern Spearmen) at 0x2a122c0c
+		Creating unit (Eastern Spearmen) at 0x2a1239bc
+		Creating unit (Hillmen) at 0x2a1232e4
+		Creating unit (Hillmen) at 0x2a1252d4
+		Creating unit (Hillmen) at 0x2a125bf4
+		Creating unit (Hillmen) at 0x2a124094
+		Creating unit (Hillmen) at 0x2a12551c
+		Creating unit (Eastern Infantry) at 0x2a1242dc
+		Creating unit (Eastern Infantry) at 0x2a124524
+		Creating unit (Eastern Infantry) at 0x2a1229c4
+		Creating unit (Eastern Infantry) at 0x2a125e3c
+		Creating unit (Eastern Infantry) at 0x2a12476c
+		Creating unit (Hyracanian Cavalry) at 0x2a122e54
+		Creating unit (Median Cavalry) at 0x2a1249b4
+		Creating unit (Eastern Cavalry) at 0x2a124e44
+		Creating unit (Eastern Cavalry) at 0x2a12309c
+		Creating unit (Median Cavalry) at 0x2a125764
+		Creating unit (Takabara) at 0x2a12352c
+		Creating unit (Eastern Infantry) at 0x2a12508c
+Created faction pontus from file
+	Creating army controlled by Cotys at 0x274edb5c from script
+		Creating unit (Scythed Chariots) at 0x2a1259ac
+		Creating unit (Scythed Chariots) at 0x4b7c8c24
+		Creating unit (Scythed Chariots) at 0x4b7c6314
+		Creating unit (Scythed Chariots) at 0x4b7c9544
+		Creating unit (Scythed Chariots) at 0x4b7c60cc
+		Creating unit (Chariot Archers) at 0x4b7c8e6c
+		Creating unit (Chariot Archers) at 0x4b7c67a4
+Adding unit (General's Armoured Bodyguard) at 0x132bb784 to deployment area at 0x581e4e8
+Adding unit (Xystophoroi) at 0x132bce54 to deployment area at 0x581e4e8
+Adding unit (Xystophoroi) at 0x132bc77c to deployment area at 0x581e4e8
+Adding unit (Podromoi) at 0x132bc2ec to deployment area at 0x581e4e8
+Adding unit (Companion Cavalry) at 0x132bd09c to deployment area at 0x581e4e8
+Adding unit (Chalkaspist) at 0x132bd774 to deployment area at 0x581e4e8
+Adding unit (Hypaspist) at 0x132bdc04 to deployment area at 0x581e4e8
+Adding unit (Getai light peltasts) at 0x2e36b4d4 to deployment area at 0x581e4e8
+Adding unit (Cretan archers) at 0x2e36d954 to deployment area at 0x581e4e8
+Adding unit (Getai peltasts) at 0x2e36972c to deployment area at 0x581e4e8
+Adding unit (Royal Pikemen) at 0x2e36a4dc to deployment area at 0x581e4e8
+Adding unit (Royal Pikemen) at 0x2e36c95c to deployment area at 0x581e4e8
+Adding unit (Phalanx Pikemen) at 0x2e36adfc to deployment area at 0x581e4e8
+Adding unit (Phalanx Pikemen) at 0x2e36abb4 to deployment area at 0x581e4e8
+Adding unit (Phalanx Pikemen) at 0x2e36b71c to deployment area at 0x581e4e8
+Adding unit (Phalanx Pikemen) at 0x2e36d034 to deployment area at 0x581e4e8
+Adding unit (Phalanx Pikemen) at 0x2e3694e4 to deployment area at 0x581e4e8
+Adding unit (Phalanx Pikemen) at 0x2e36c284 to deployment area at 0x581e4e8
+Adding unit (Hypaspist) at 0x2e36c03c to deployment area at 0x581e4e8
+Adding unit (Thessalian Cavalry) at 0x2e369bbc to deployment area at 0x581e4e8
+Adding unit (General's Armoured Bodyguard) at 0x2e36cba4 to deployment area at 0x581e524
+Adding unit (Podromoi) at 0x2e36b044 to deployment area at 0x581e524
+Adding unit (Royal Pikemen) at 0x2e36d27c to deployment area at 0x581e524
+Adding unit (Hypaspist) at 0x2e36d70c to deployment area at 0x581e524
+Adding unit (Phalanx Pikemen) at 0x2e36db9c to deployment area at 0x581e524
+Adding unit (Phalanx Pikemen) at 0x2e36d4c4 to deployment area at 0x581e524
+Adding unit (Phalanx Pikemen) at 0x2e369974 to deployment area at 0x581e524
+Adding unit (Phalanx Pikemen) at 0x2e36b28c to deployment area at 0x581e524
+Adding unit (Phalanx Pikemen) at 0x2e369e04 to deployment area at 0x581e524
+Adding unit (Phalanx Pikemen) at 0x2e36a724 to deployment area at 0x581e524
+Adding unit (Phalanx Pikemen) at 0x2e36cdec to deployment area at 0x581e524
+Adding unit (Slingers) at 0x2e36a294 to deployment area at 0x581e524
+Adding unit (Peltasts) at 0x2e36a04c to deployment area at 0x581e524
+Adding unit (Phalanx Pikemen) at 0x2e36a96c to deployment area at 0x581e524
+Adding unit (Phalanx Pikemen) at 0x2e36b964 to deployment area at 0x581e524
+Adding unit (Getai light peltasts) at 0x2e36bbac to deployment area at 0x581e524
+Adding unit (Chalkaspist) at 0x2e36bdf4 to deployment area at 0x581e524
+Adding unit (Eastern General) at 0x2e36c4cc to deployment area at 0x581e560
+Adding unit (Immortals) at 0x2e36c714 to deployment area at 0x581e560
+Adding unit (Immortals) at 0x2e36f26c to deployment area at 0x581e560
+Adding unit (Immortals) at 0x2e36dde4 to deployment area at 0x581e560
+Adding unit (Eastern Infantry) at 0x2e370b84 to deployment area at 0x581e560
+Adding unit (Eastern Infantry) at 0x2e36eddc to deployment area at 0x581e560
+Adding unit (Eastern Infantry) at 0x2e36f024 to deployment area at 0x581e560
+Adding unit (Eastern Infantry) at 0x2e370dcc to deployment area at 0x581e560
+Adding unit (Eastern Infantry) at 0x2e36e704 to deployment area at 0x581e560
+Adding unit (Takabara) at 0x2e36e4bc to deployment area at 0x581e560
+Adding unit (Takabara) at 0x2e36e94c to deployment area at 0x581e560
+Adding unit (Takabara) at 0x2e36eb94 to deployment area at 0x581e560
+Adding unit (Archers) at 0x2e37125c to deployment area at 0x581e560
+Adding unit (Archers) at 0x2e36e02c to deployment area at 0x581e560
+Adding unit (Archers) at 0x2e37093c to deployment area at 0x581e560
+Adding unit (Eastern Spearmen) at 0x2e3704ac to deployment area at 0x581e560
+Adding unit (Eastern Spearmen) at 0x2e36e274 to deployment area at 0x581e560
+Adding unit (Eastern Spearmen) at 0x2e371014 to deployment area at 0x581e560
+Adding unit (Eastern Spearmen) at 0x2e36f4b4 to deployment area at 0x581e560
+Adding unit (Eastern Spearmen) at 0x2e36f6fc to deployment area at 0x581e560
+Adding unit (Takabara) at 0x2e36f944 to deployment area at 0x581e59c
+Adding unit (Takabara) at 0x2e36fb8c to deployment area at 0x581e59c
+Adding unit (Takabara) at 0x2e36fdd4 to deployment area at 0x581e59c
+Adding unit (Takabara) at 0x2e37001c to deployment area at 0x581e59c
+Adding unit (Eastern Spearmen) at 0x2e370264 to deployment area at 0x581e59c
+Adding unit (Eastern Spearmen) at 0x2e3706f4 to deployment area at 0x581e59c
+Adding unit (Eastern Spearmen) at 0x2a1210ac to deployment area at 0x581e59c
+Adding unit (Eastern Spearmen) at 0x2a11e30c to deployment area at 0x581e59c
+Adding unit (Eastern Spearmen) at 0x2a12277c to deployment area at 0x581e59c
+Adding unit (Eastern Spearmen) at 0x2a11fe6c to deployment area at 0x581e59c
+Adding unit (War Elephants) at 0x2a11e0c4 to deployment area at 0x581e59c
+Adding unit (Raiders) at 0x2a1200b4 to deployment area at 0x581e59c
+Adding unit (Eastern Spearmen) at 0x2a11e554 to deployment area at 0x581e59c
+Adding unit (Eastern Spearmen) at 0x2a1220a4 to deployment area at 0x581e59c
+Adding unit (Eastern Infantry) at 0x2a1222ec to deployment area at 0x581e59c
+Adding unit (Eastern Infantry) at 0x2a1219cc to deployment area at 0x581e59c
+Adding unit (Eastern Infantry) at 0x2a11f0bc to deployment area at 0x581e59c
+Adding unit (Eastern Infantry) at 0x2a1202fc to deployment area at 0x581e59c
+Adding unit (Eastern Infantry) at 0x2a1212f4 to deployment area at 0x581e59c
+Adding unit (Eastern Infantry) at 0x2a11f304 to deployment area at 0x581e59c
+Adding unit (Takabara) at 0x2a121e5c to deployment area at 0x581e5d8
+Adding unit (Takabara) at 0x2a120c1c to deployment area at 0x581e5d8
+Adding unit (Takabara) at 0x2a11e79c to deployment area at 0x581e5d8
+Adding unit (Scythian Riders) at 0x2a120e64 to deployment area at 0x581e5d8
+Adding unit (Scythian Nobles) at 0x2a11f9dc to deployment area at 0x581e5d8
+Adding unit (Scythian Mercenaries) at 0x2a11e9e4 to deployment area at 0x581e5d8
+Adding unit (Median Cavalry) at 0x2a11ec2c to deployment area at 0x581e5d8
+Adding unit (Eastern Infantry) at 0x2a11ee74 to deployment area at 0x581e5d8
+Adding unit (Eastern Infantry) at 0x2a120544 to deployment area at 0x581e5d8
+Adding unit (Eastern Infantry) at 0x2a122534 to deployment area at 0x581e5d8
+Adding unit (Eastern Infantry) at 0x2a11f54c to deployment area at 0x581e5d8
+Adding unit (Eastern Infantry) at 0x2a121784 to deployment area at 0x581e5d8
+Adding unit (Eastern Infantry) at 0x2a11f794 to deployment area at 0x581e5d8
+Adding unit (Eastern Spearmen) at 0x2a11fc24 to deployment area at 0x581e5d8
+Adding unit (Eastern Spearmen) at 0x2a12078c to deployment area at 0x581e5d8
+Adding unit (Eastern Spearmen) at 0x2a1209d4 to deployment area at 0x581e5d8
+Adding unit (Eastern Spearmen) at 0x2a12153c to deployment area at 0x581e5d8
+Adding unit (Eastern Spearmen) at 0x2a121c14 to deployment area at 0x581e5d8
+Adding unit (Eastern Spearmen) at 0x2a123c04 to deployment area at 0x581e5d8
+Adding unit (Eastern Spearmen) at 0x2a124bfc to deployment area at 0x581e5d8
+Adding unit (Eastern Spearmen) at 0x2a123e4c to deployment area at 0x581e614
+Adding unit (Eastern Spearmen) at 0x2a122c0c to deployment area at 0x581e614
+Adding unit (Eastern Spearmen) at 0x2a1239bc to deployment area at 0x581e614
+Adding unit (Hillmen) at 0x2a1232e4 to deployment area at 0x581e614
+Adding unit (Hillmen) at 0x2a1252d4 to deployment area at 0x581e614
+Adding unit (Hillmen) at 0x2a125bf4 to deployment area at 0x581e614
+Adding unit (Hillmen) at 0x2a124094 to deployment area at 0x581e614
+Adding unit (Hillmen) at 0x2a12551c to deployment area at 0x581e614
+Adding unit (Eastern Infantry) at 0x2a1242dc to deployment area at 0x581e614
+Adding unit (Eastern Infantry) at 0x2a124524 to deployment area at 0x581e614
+Adding unit (Eastern Infantry) at 0x2a1229c4 to deployment area at 0x581e614
+Adding unit (Eastern Infantry) at 0x2a125e3c to deployment area at 0x581e614
+Adding unit (Eastern Infantry) at 0x2a12476c to deployment area at 0x581e614
+Adding unit (Hyracanian Cavalry) at 0x2a122e54 to deployment area at 0x581e614
+Adding unit (Median Cavalry) at 0x2a1249b4 to deployment area at 0x581e614
+Adding unit (Eastern Cavalry) at 0x2a124e44 to deployment area at 0x581e614
+Adding unit (Eastern Cavalry) at 0x2a12309c to deployment area at 0x581e614
+Adding unit (Median Cavalry) at 0x2a125764 to deployment area at 0x581e614
+Adding unit (Takabara) at 0x2a12352c to deployment area at 0x581e614
+Adding unit (Eastern Infantry) at 0x2a12508c to deployment area at 0x581e614
+Adding unit (Scythed Chariots) at 0x2a1259ac to deployment area at 0x581e650
+Adding unit (Scythed Chariots) at 0x4b7c8c24 to deployment area at 0x581e650
+Adding unit (Scythed Chariots) at 0x4b7c6314 to deployment area at 0x581e650
+Adding unit (Scythed Chariots) at 0x4b7c9544 to deployment area at 0x581e650
+Adding unit (Scythed Chariots) at 0x4b7c60cc to deployment area at 0x581e650
+Adding unit (Chariot Archers) at 0x4b7c8e6c to deployment area at 0x581e650
+Adding unit (Chariot Archers) at 0x4b7c67a4 to deployment area at 0x581e650
+Load finished **************************
+
+
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a1202fc from (-273.096512, 489.115776) to (40.989432, 389.262112)
+	 with rotation -2.827414 and width 32.27 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a11f304 from (-132.568496, 460.940064) to (9.39463, 400.354688)
+	 with rotation -2.827414 and width 39.806 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a1212f4 from (-322.44992, 507.841216) to (51.733036, 350.320512)
+	 with rotation -2.984552 and width 29.084 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a1202fc from (33.132836, 390.833568) to (55.467376, 380.388608)
+	 with rotation -2.827414 and width 32.27 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a11f304 from (.13501, 408.593152) to (24.018592, 393.4264)
+	 with rotation -2.827414 and width 39.806 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a11f0bc from (-285.464992, 479.692512) to (-41.639376, 409.376512)
+	 with rotation -2.949654 and width 35.21 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:War Elephants) at 0x2a11e0c4 from (-74.68756, 434.246656) to (-9.1284, 432.608)
+	 with rotation -2.792516 and width 106.211 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a11f0bc from (-60.168316, 418.162912) to (-30.011356, 410.518784)
+	 with rotation -2.949654 and width 35.21 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Raiders) at 0x2a1200b4 from (-144.382816, 450.994624) to (-72.436456, 423.734176)
+	 with rotation -2.792516 and width 70.038 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a1222ec from (-205.622672, 466.723584) to (-147.9016, 447.936416)
+	 with rotation -2.879762 and width 28.835 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Spearmen) at 0x2e36e274 from (157.365232, 386.982656) to (151.266784, 362.769024)
+	 with rotation -2.809965 and width 33.666 - now residing in deployment area at 0x581e560
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Immortals) at 0x2e36dde4 from (224.484224, 371.709472) to (140.429872, 390.143424)
+	 with rotation -2.775067 and width 65.244004 - now residing in deployment area at 0x581e560
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Median Cavalry) at 0x2a11ec2c from (-633.60864, 466.587392) to (-396.09856, 477.63664)
+	 with rotation 2.949654 and width 42.73 - now residing in deployment area at 0x581e5d8
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a12508c from (549.084992, 195.31552) to (352.532928, 297.60704)
+	 with rotation -2.652924 and width 30.286 - now residing in deployment area at 0x581e614
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Eastern Infantry) at 0x2a11f304 from (7.473542, 397.352096) to (12.877862, 394.991328)
+	 with rotation -2.827414 and width 39.806 - now residing in deployment area at 0x581e59c
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Immortals) at 0x2e36c714 from (189.258224, 368.634944) to (141.10008, 385.905696)
+	 with rotation -2.89721 and width 65.069 - now residing in deployment area at 0x581e560
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (parthia:Immortals) at 0x2e36dde4 from (110.817704, 404.624832) to (209.582432, 363.877152)
+	 with rotation -2.775067 and width 65.244004 - now residing in deployment area at 0x581e560

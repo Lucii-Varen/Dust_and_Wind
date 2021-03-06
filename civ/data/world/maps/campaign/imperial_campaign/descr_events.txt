@@ -1,0 +1,178 @@
+
+; historical events and when they occur
+;
+; Events are followed by a category, and a label
+; labels are used as lookups into historic_events.txt for title and body strings,
+; and also as image names for the event picture
+; 
+; Currently supported categories are:
+; historic - Just generates a message
+; volcano  - triggers a volcano if there is one on the map at the position specified
+; plague   - triggers a plague in settlements at the specified positions
+; emergent_faction - triggers the emergence of the given faction.  This faction must be marked
+;	as emergent in descr_strat.txt
+;
+; event descriptions are followed by a date (year as offset from starting date, and season, summer/winter)
+; and either a list of positions, or list of regions.  Each position/region specification must appear on 
+; a seperate line below the date
+
+event	espionage_in_carthage
+date	4 winter
+
+event	eruption_at_etna
+date	9 winter
+position	104, 105
+
+event	plague_in_macedonia
+date	14 winter
+position	136, 124
+
+event	stoic_philosophy
+date	14 summer
+
+event	hand_pump_invented
+date	14 winter
+
+event	librarian_at_alexandria
+date	18 summer
+
+event	great_library_completed
+date	24 winter
+
+event	carthage_clear_glass
+date	34 summer
+
+event	archimedes_screw
+date	44 winter
+
+event	historic	Hannibal_at_the_gates
+date	52 winter
+
+event	greek_logic
+date	54 summer
+
+event	star_catalogue
+date	64 winter
+
+event	plague_in_alexandria
+date	64 summer
+position	178, 76
+
+; event	historic	rites_of_bacchus_banned
+; date	78 winter
+
+event	earthquake_in_pontus
+date	84 summer
+
+event	concrete_invented
+date	94 winter
+
+event	eruption_at_vesuvius
+date	99 summer
+position	103, 121
+
+event	philosophy_banned
+date	103 winter
+
+event	astrolabe_invented
+date	114 summer
+
+event	lex_aebutia
+date	114 winter
+
+event	roman_stoicism
+date	120 summer
+
+event	lex_papira
+date	120 winter
+
+event	plague_in_italy
+date	144 summer
+position	96, 138
+
+event	plague_in_italy
+date	144 summer
+position	95, 127
+
+event	plague_in_italy
+date	144 summer
+position	102, 124
+
+event	plague_in_italy
+date	144 summer
+position	114, 119
+
+event	plague_in_italy
+date	144 summer
+position	108, 125
+
+event	vestral_virgin_struck_down
+date	150 winter
+
+;event	a_new_man__gaius_marius
+;date	154 summer
+
+event	de_rerum_natura
+date	166 winter
+
+event	plague_in_asia_minor
+date	173 summer
+position	192, 124
+
+event	plague_in_asia_minor
+date	173 summer
+position	191, 133
+
+event	plague_in_asia_minor
+date	173 summer
+position	200, 111
+
+event	lex_pompeia
+date	175 winter
+
+event	historic	social_war
+date	179 summer
+
+event	new_religion
+date	194 summer
+
+event	plague_in_italy
+date	204 winter
+position	96, 138
+
+event	plague_in_italy
+date	204 summer
+position	95, 127
+
+event	plague_in_italy
+date	204 summer
+position	102, 124
+
+event	plague_in_italy
+date	204 summer
+position	114, 119
+
+event	plague_in_italy
+date	204 summer
+position	108, 125
+
+event	de_materia_medica
+date	214 summer
+
+event	julian_calendar
+date	218 winter
+
+event	earthquake_in_iberia
+date	258 summer
+
+event	the_aeneid
+date	269 winter
+
+event	lex_adulteriis_coercendis
+date	271 summer
+
+event	trouble_in_judea
+date	284 winter
+
+event	lex_fufia_caninia
+date	286 summer

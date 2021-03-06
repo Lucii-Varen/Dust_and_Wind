@@ -1,0 +1,40 @@
+;Hot Seat Mod by Myrddraal.  Please do NOT edit this script.
+
+script
+suspend_unscripted_advice true
+suspend_during_battle on
+
+declare_counter loop
+set_counter loop 0
+
+	monitor_event FactionTurnStart FactionType romans_brutii
+		console_command control romans_brutii
+		snap_strat_camera 0, 156
+		zoom_strat_camera 0.8
+		while I_LocalFaction greek_cities
+		end_while
+		snap_strat_camera 0, 156
+		zoom_strat_camera 0.8
+		call_object_shortcut strat_ui save_stratmap
+		inhibit_camera_input true
+		disable_entire_ui
+		hide_ui
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType romans_scipii
+		console_command control romans_scipii
+		snap_strat_camera 0, 156
+		zoom_strat_camera 0.8
+		while I_LocalFaction roman_rebels
+		end_while
+		snap_strat_camera 0, 156
+		zoom_strat_camera 0.8
+		call_object_shortcut strat_ui save_stratmap
+		inhibit_camera_input true
+		disable_entire_ui
+		hide_ui
+	end_monitor
+
+while I_CompareCounter loop = 0
+end_while
+end_script

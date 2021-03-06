@@ -1,0 +1,238 @@
+************** STARTING BATTLE EDITOR
+
+CREATE_ARMY::do_func() - Creating army at 0x1817e59c (General: Captain Titus), adding to romans_julii
+CREATE_ARMY::do_func() - Creating army at 0x1817e684 (General: Captain Caradog), adding to gauls
+CREATE_ARMY::do_func() - Creating army at 0x1817e76c (General: Captain Belenus), adding to gauls
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-440.255968, -22.656662)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-298.99536, -295.379616)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-267.2432, -276.765568)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-401.873312, 7.630127)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-401.873312, 7.630127)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-400.04144, 9.938538)
+INSERT_DEPLOY_POINT::undo_func() - Deleting deploy point at (-400.04144, 9.938538)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-395.062272, -4.144745)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-190.968544, -286.083552)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-246.446064, -137.71136)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-157.711872, -69.861176)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-98.418472, -241.7628)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-507.997248, -117.384048)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-434.202432, -321.788608)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-508.592288, -382.46672)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-601.12256, -137.862816)
+Adding unit (Legio IX HISPANA (imperial)) at 0x1e9a356c to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Legio IX HISPANA (imperial)) at 0x1e9a356c - Deployed at (-274.649152, -273.926272) in deployment area at 0x42ee358
+Adding unit (Legio IX HISPANA (imperial)) at 0x1e9a37b4 to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Legio IX HISPANA (imperial)) at 0x1e9a37b4 - Deployed at (-303.861344, -207.944816) in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x1e9a37b4 from (-306.373216, -206.54856) to (-304.682208, -209.53472)
+	 with rotation 2.728568 and width 9.284972 - now residing in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x1e9a37b4 from (-306.43312, -210.347248) to (-304.854144, -210.431088)
+	 with rotation 2.728568 and width 9.284972 - now residing in deployment area at 0x42ee358
+Adding unit (Legio IX HISPANA (imperial)) at 0x1e9a39fc to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Legio IX HISPANA (imperial)) at 0x1e9a39fc - Deployed at (-332.406208, -145.291536) in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x1e9a39fc from (-337.34704, -142.478704) to (-334.701248, -146.107696)
+	 with rotation 2.709298 and width 8.329789 - now residing in deployment area at 0x42ee358
+Adding unit (Legio IX HISPANA (imperial)) at 0x1e9a3c44 to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Legio IX HISPANA (imperial)) at 0x1e9a3c44 - Deployed at (-369.105568, -68.68356) in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x1e9a3c44 from (-371.534592, -67.93156) to (-370.21312, -70.040128)
+	 with rotation 2.682166 and width 9.250372 - now residing in deployment area at 0x42ee358
+Adding unit (Legio IX HISPANA (imperial)) at 0x1e9a3e8c to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Legio IX HISPANA (imperial)) at 0x1e9a3e8c - Deployed at (-288.019776, -282.284864) in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x1e9a3e8c from (-297.135744, -269.478976) to (-294.184288, -284.997664)
+	 with rotation 2.715817 and width 9.284158 - now residing in deployment area at 0x42ee358
+Adding unit (Legio IX HISPANA (imperial)) at 0x18ce9be4 to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Legio IX HISPANA (imperial)) at 0x18ce9be4 - Deployed at (-321.590048, -222.33616) in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x18ce9be4 from (-325.879968, -224.393568) to (-323.07648, -221.559856)
+	 with rotation 2.74688 and width 9.4827 - now residing in deployment area at 0x42ee358
+Adding unit (Legio IX HISPANA (imperial)) at 0x18ce9e2c to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Legio IX HISPANA (imperial)) at 0x18ce9e2c - Deployed at (-348.982848, -158.333984) in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x18ce9be4 from (-350.29712, -161.38264) to (-323.00016, -220.742928)
+	 with rotation 2.74688 and width 9.4827 - now residing in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x18ce9e2c from (-352.11328, -155.910224) to (-350.434816, -154.661152)
+	 with rotation 2.663854 and width 9.743582 - now residing in deployment area at 0x42ee358
+Adding unit (Legio IX HISPANA (imperial)) at 0x18cea074 to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Legio IX HISPANA (imperial)) at 0x18cea074 - Deployed at (-381.884032, -91.42304) in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x18cea074 from (-383.7944, -92.854352) to (-382.876576, -89.865392)
+	 with rotation 2.641899 and width 9.598644 - now residing in deployment area at 0x42ee358
+Adding unit (Roman Armoured General) at 0x18cea2bc to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Roman Armoured General) at 0x18cea2bc - Deployed at (-284.293472, -272.16352) in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Roman Armoured General) at 0x18cea2bc from (-285.957824, -273.915232) to (-287.375968, -272.552384)
+	 with rotation 2.676797 and width 3.954912 - now residing in deployment area at 0x42ee358
+Adding unit (Early Legionary Cavalry) at 0x18cea504 to deployment area at 0x42ee358
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Early Legionary Cavalry) at 0x18cea504 - Deployed at (-338.249376, -154.926944) in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Early Legionary Cavalry) at 0x18cea504 from (-341.908608, -154.049568) to (-341.590656, -156.149552)
+	 with rotation 2.729527 and width 6.380016 - now residing in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x18ce9be4 from (-326.289408, -219.61752) to (-323.503648, -219.049616)
+	 with rotation 2.74688 and width 9.4827 - now residing in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x1e9a3e8c from (-296.465568, -286.76144) to (-294.740608, -282.79328)
+	 with rotation 2.715817 and width 9.284158 - now residing in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x18ce9e2c from (-354.817728, -153.312976) to (-351.97376, -152.680688)
+	 with rotation 2.663854 and width 9.743582 - now residing in deployment area at 0x42ee358
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (romans_julii:Legio IX HISPANA (imperial)) at 0x18cea074 from (-386.37808, -83.632416) to (-386.789696, -84.216)
+	 with rotation 2.641899 and width 9.598644 - now residing in deployment area at 0x42ee358
+Adding unit (Swordsmen) at 0x18cea74c to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x18cea74c - Deployed at (-188.888736, -274.070816) in deployment area at 0x42ee394
+Adding unit (Swordsmen) at 0x18cea994 to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x18cea994 - Deployed at (-230.022576, -161.773872) in deployment area at 0x42ee394
+Adding unit (Naked Fanatics) at 0x18ceae24 to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x18ceae24 - Deployed at (-206.164352, -180.755792) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18ceae24 from (-211.697072, -180.096768) to (-193.30504, -143.102224)
+	 with rotation -1.956209 and width 20.186066 - now residing in deployment area at 0x42ee394
+Adding unit (Naked Fanatics) at 0x18ceb2b4 to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x18ceb2b4 - Deployed at (-171.67448, -268.028288) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18ceb2b4 from (-151.776112, -237.18648) to (-161.857456, -242.297136)
+	 with rotation -1.91019 and width 24.199512 - now residing in deployment area at 0x42ee394
+Adding unit (Warband) at 0x18ceb744 to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x18ceb744 - Deployed at (-218.166608, -199.208224) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Warband) at 0x18ceb744 from (-211.129888, -197.637568) to (-173.228416, -171.882544)
+	 with rotation -1.969919 and width 13.936962 - now residing in deployment area at 0x42ee394
+Adding unit (Warband) at 0x18cebbd4 to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Warband) at 0x18cebbd4 - Deployed at (-173.609264, -221.05368) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Warband) at 0x18cebbd4 from (-168.608432, -221.761904) to (-166.962944, -207.304384)
+	 with rotation -1.861773 and width 18.899996 - now residing in deployment area at 0x42ee394
+Adding unit (Head Hurlers) at 0x18cec064 to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Head Hurlers) at 0x18cec064 - Deployed at (-223.396256, -194.115936) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Head Hurlers) at 0x18cec064 from (-222.862, -183.394848) to (-217.560016, -208.396336)
+	 with rotation -1.913737 and width 25.704106 - now residing in deployment area at 0x42ee394
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Head Hurlers) at 0x18cec064 - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee394
+Removed unit (Head Hurlers) at 0x18cec064 from deployment area at 0x42ee394
+Adding unit (Head Hurlers) at 0x18cec4f4 to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Head Hurlers) at 0x18cec4f4 - Deployed at (-211.46008, -213.030384) in deployment area at 0x42ee394
+Adding unit (Druids) at 0x18cec984 to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Druids) at 0x18cec984 - Deployed at (-203.566208, -188.55152) in deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::undo_func() - Removing unit (Druids) at 0x18cec984 - Deployed at (-203.566208, -188.55152) in deployment area at 0x42ee394
+Removed unit (Druids) at 0x18cec984 from deployment area at 0x42ee394
+Adding unit (Druids) at 0x18cece14 to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Druids) at 0x18cece14 - Deployed at (-208.600592, -181.620256) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Druids) at 0x18cece14 from (-204.68048, -182.832352) to (-191.87816, -191.496608)
+	 with rotation -1.886317 and width 7.682582 - now residing in deployment area at 0x42ee394
+Adding unit (Gaulan berserker) at 0x18ced05c to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Gaulan berserker) at 0x18ced05c - Deployed at (-198.830304, -248.387728) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Gaulan berserker) at 0x18ced05c from (-199.229552, -243.894608) to (-209.248272, -226.852672)
+	 with rotation -1.840873 and width 12.940878 - now residing in deployment area at 0x42ee394
+Adding unit (Heavy Warband) at 0x18ced4ec to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x18ced4ec - Deployed at (-211.83008, -184.155328) in deployment area at 0x42ee394
+Adding unit (Heavy Warband) at 0x18ced97c to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x18ced97c - Deployed at (-195.57056, -231.702128) in deployment area at 0x42ee394
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Heavy Warband) at 0x18ced4ec - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee394
+Removed unit (Heavy Warband) at 0x18ced4ec from deployment area at 0x42ee394
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Heavy Warband) at 0x18ced97c - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee394
+Removed unit (Heavy Warband) at 0x18ced97c from deployment area at 0x42ee394
+Adding unit (Heavy Warband) at 0x18ca5e2c to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x18ca5e2c - Deployed at (-194.093952, -224.636208) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Heavy Warband) at 0x18ca5e2c from (-196.911056, -225.819584) to (-202.30536, -170.142304)
+	 with rotation -1.989477 and width 12.318114 - now residing in deployment area at 0x42ee394
+Adding unit (Heavy Warband) at 0x18ca62bc to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x18ca62bc - Deployed at (-196.30984, -226.545968) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Heavy Warband) at 0x18ca62bc from (-197.118016, -231.160928) to (-188.426816, -216.94368)
+	 with rotation -1.778938 and width 15.99643 - now residing in deployment area at 0x42ee394
+Adding unit (Chosen Swordsmen) at 0x18ca674c to deployment area at 0x42ee394
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Swordsmen) at 0x18ca674c - Deployed at (-200.520912, -245.38816) in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Chosen Swordsmen) at 0x18ca674c from (-202.5416, -237.756688) to (-220.093696, -141.791104)
+	 with rotation -1.924283 and width 17.224548 - now residing in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Druids) at 0x18cece14 from (-190.922032, -189.917776) to (-193.925424, -241.219232)
+	 with rotation -1.886317 and width 7.682582 - now residing in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Gaulan berserker) at 0x18ced05c from (-209.217248, -223.942704) to (-207.416064, -229.478064)
+	 with rotation -1.840873 and width 12.940878 - now residing in deployment area at 0x42ee394
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Heavy Warband) at 0x18ca5e2c from (-205.441328, -180.289984) to (-197.39632, -185.74152)
+	 with rotation -1.989477 and width 12.318114 - now residing in deployment area at 0x42ee394
+Adding unit (Naked Fanatics) at 0x18ca6bdc to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x18ca6bdc - Deployed at (-465.59456, -293.13744) in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18ca6bdc from (-457.160448, -280.752608) to (-475.143744, -326.175168)
+	 with rotation .907254 and width 15.59743 - now residing in deployment area at 0x42ee3d0
+Adding unit (Swordsmen) at 0x18ca706c to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x18ca706c - Deployed at (-448.235936, -307.567008) in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Swordsmen) at 0x18ca706c from (-451.453536, -315.122464) to (-447.662592, -298.21328)
+	 with rotation 1.208777 and width 16.695312 - now residing in deployment area at 0x42ee3d0
+Adding unit (Chosen Swordsmen) at 0x18ca74fc to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Swordsmen) at 0x18ca74fc - Deployed at (-457.720192, -271.624) in deployment area at 0x42ee3d0
+Adding unit (Chosen Swordsmen) at 0x18ca798c to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Swordsmen) at 0x18ca798c - Deployed at (-467.465088, -246.814736) in deployment area at 0x42ee3d0
+Adding unit (Swordsmen) at 0x18ca7e1c to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x18ca7e1c - Deployed at (-507.679456, -134.511024) in deployment area at 0x42ee3d0
+Adding unit (Naked Fanatics) at 0x18ca82ac to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x18ca82ac - Deployed at (-537.09632, -142.369232) in deployment area at 0x42ee3d0
+Adding unit (Naked Fanatics) at 0x18ca873c to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x18ca873c - Deployed at (-524.993344, -179.681856) in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18ca873c from (-510.1256, -172.368096) to (-541.882624, -185.323152)
+	 with rotation 1.241566 and width 16.670446 - now residing in deployment area at 0x42ee3d0
+Adding unit (Druids) at 0x18ca8bcc to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Druids) at 0x18ca8bcc - Deployed at (-481.38576, -244.406608) in deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Trying to create unit (barb peltast gaul), but failed
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Swordsmen) at 0x18ca7e1c - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee3d0
+Removed unit (Swordsmen) at 0x18ca7e1c from deployment area at 0x42ee3d0
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Naked Fanatics) at 0x18ca82ac - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee3d0
+Removed unit (Naked Fanatics) at 0x18ca82ac from deployment area at 0x42ee3d0
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Naked Fanatics) at 0x18ca873c - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee3d0
+Removed unit (Naked Fanatics) at 0x18ca873c from deployment area at 0x42ee3d0
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Druids) at 0x18ca8bcc - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee3d0
+Removed unit (Druids) at 0x18ca8bcc from deployment area at 0x42ee3d0
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Chosen Swordsmen) at 0x18ca798c - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee3d0
+Removed unit (Chosen Swordsmen) at 0x18ca798c from deployment area at 0x42ee3d0
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Chosen Swordsmen) at 0x18ca74fc - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee3d0
+Removed unit (Chosen Swordsmen) at 0x18ca74fc from deployment area at 0x42ee3d0
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Swordsmen) at 0x18ca706c - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee3d0
+Removed unit (Swordsmen) at 0x18ca706c from deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18ca6bdc from (-466.936224, -315.374496) to (-475.143744, -326.175168)
+	 with rotation .907254 and width 15.59743 - now residing in deployment area at 0x42ee3d0
+DELETE_UNIT_FUNCTION::do_func() - Deleting unit (Naked Fanatics) at 0x18ca6bdc - was in army controlled by Captain Caradog at 0x1817e684 from gauls and in deployment area at 0x42ee3d0
+Removed unit (Naked Fanatics) at 0x18ca6bdc from deployment area at 0x42ee3d0
+Adding unit (Swordsmen) at 0x18ca905c to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x18ca905c - Deployed at (-447.462784, -294.254176) in deployment area at 0x42ee3d0
+Adding unit (Swordsmen) at 0x18ca94ec to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x18ca94ec - Deployed at (-507.274368, -129.109272) in deployment area at 0x42ee3d0
+Adding unit (Swordsmen) at 0x18ca997c to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Swordsmen) at 0x18ca997c - Deployed at (-479.257888, -214.654672) in deployment area at 0x42ee3d0
+Adding unit (Chosen Swordsmen) at 0x18b5f5f4 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Swordsmen) at 0x18b5f5f4 - Deployed at (-467.379232, -246.198576) in deployment area at 0x42ee3d0
+Adding unit (Chosen Swordsmen) at 0x18b5fa84 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Chosen Swordsmen) at 0x18b5fa84 - Deployed at (-492.83552, -180.702288) in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Chosen Swordsmen) at 0x18b5fa84 from (-490.952992, -190.413488) to (-492.504256, -176.622496)
+	 with rotation 1.277135 and width 27.181742 - now residing in deployment area at 0x42ee3d0
+Adding unit (Skirmisher Warband) at 0x18b5ff14 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Skirmisher Warband) at 0x18b5ff14 - Deployed at (-505.950208, -191.172384) in deployment area at 0x42ee3d0
+Adding unit (Druids) at 0x18b603a4 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Druids) at 0x18b603a4 - Deployed at (-483.523328, -206.083488) in deployment area at 0x42ee3d0
+Adding unit (Naked Fanatics) at 0x18b60834 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x18b60834 - Deployed at (-519.773056, -139.323296) in deployment area at 0x42ee3d0
+Adding unit (Naked Fanatics) at 0x18b60cc4 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x18b60cc4 - Deployed at (-508.942304, -175.911328) in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18b60cc4 from (-507.139808, -177.708176) to (-536.304128, -181.069968)
+	 with rotation 1.214242 and width 10.957808 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18b60834 from (-511.718432, -149.053808) to (-539.797568, -149.482336)
+	 with rotation 1.168126 and width 28.27355 - now residing in deployment area at 0x42ee3d0
+Adding unit (Naked Fanatics) at 0x18b61154 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Naked Fanatics) at 0x18b61154 - Deployed at (-483.23472, -301.233696) in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18b61154 from (-479.134016, -300.977632) to (-482.226944, -325.730496)
+	 with rotation 1.295734 and width 22.288924 - now residing in deployment area at 0x42ee3d0
+Adding unit (Gaulan berserker) at 0x18b615e4 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Gaulan berserker) at 0x18b615e4 - Deployed at (-494.704864, -164.790672) in deployment area at 0x42ee3d0
+Adding unit (Heavy Warband) at 0x18b61a74 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x18b61a74 - Deployed at (-475.941472, -265.679328) in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Heavy Warband) at 0x18b61a74 from (-473.935872, -265.969792) to (-484.981216, -288.191936)
+	 with rotation 1.260836 and width 16.139442 - now residing in deployment area at 0x42ee3d0
+Adding unit (Heavy Warband) at 0x18b61f04 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x18b61f04 - Deployed at (-504.178944, -250.60832) in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Heavy Warband) at 0x18b61f04 from (-499.351072, -246.46808) to (-500.511584, -261.736144)
+	 with rotation 1.092099 and width 12.514684 - now residing in deployment area at 0x42ee3d0
+Adding unit (Heavy Warband) at 0x18b62394 to deployment area at 0x42ee3d0
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Heavy Warband) at 0x18b62394 - Deployed at (-515.491392, -209.332704) in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Heavy Warband) at 0x18b62394 from (-514.16736, -212.951264) to (-516.75904, -223.325232)
+	 with rotation 1.166401 and width 17.137334 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Gaulan berserker) at 0x18b615e4 from (-498.563552, -170.283456) to (-453.513088, -280.344736)
+	 with rotation 1.266493 and width 8.913116 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Chosen Swordsmen) at 0x18b5f5f4 from (-463.644096, -255.12) to (-464.802048, -252.497472)
+	 with rotation 1.191903 and width 29.55542 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Swordsmen) at 0x18ca997c from (-477.160608, -227.51184) to (-472.488192, -224.609536)
+	 with rotation 1.23217 and width 28.735822 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Skirmisher Warband) at 0x18b5ff14 from (-487.44848, -243.382288) to (-486.729024, -233.35624)
+	 with rotation 1.199477 and width 77.651224 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Heavy Warband) at 0x18b62394 from (-514.113632, -227.106592) to (-515.880608, -250.085552)
+	 with rotation 1.166401 and width 17.137334 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Druids) at 0x18b603a4 from (-485.035584, -206.979216) to (-493.703872, -227.077264)
+	 with rotation 1.239073 and width 6.571696 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Chosen Swordsmen) at 0x18b5fa84 from (-490.335808, -187.839152) to (-483.969024, -191.734064)
+	 with rotation 1.277135 and width 27.181742 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18b60cc4 from (-529.460704, -176.657008) to (-511.225632, -181.694352)
+	 with rotation 1.214242 and width 10.957808 - now residing in deployment area at 0x42ee3d0
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (gauls:Naked Fanatics) at 0x18b60834 from (-523.398624, -154.231984) to (-531.914432, -153.055888)
+	 with rotation 1.168126 and width 28.27355 - now residing in deployment area at 0x42ee3d0

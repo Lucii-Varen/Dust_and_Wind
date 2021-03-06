@@ -1,0 +1,203 @@
+;;;;;;;;;;;;;;;;;RSterrain;;;;;;;;;;;;;;;;;;;
+;
+;
+;
+;	cultivated_low			
+;	cultivated_medium	
+;	cultivated_high		
+;	fertility_low		
+;	fertility_medium	
+;	fertility_high		
+;	forest_dense		
+;	forest_sparse		
+;	hills				
+;	mountains_high		
+;	mountains_low		
+;	swamp				
+;	beach				
+;	scorched			
+;
+;
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+climate default
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_grass.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_grass.tga
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm1.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm1.tga
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm2.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm2.tga
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_grass.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_grass.tga
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_grass.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_grass.tga
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_grass.tga    	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_grass.tga
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_forest.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsnow2.tga
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_forestsparse.tga		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_open_forest.tga	
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_hills.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_hills.tga
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains8.tga        	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter8.tga 
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_mountains.tga        	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_mountain.tga
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_swamp.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_swamp.tga
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert3.tga
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}
+
+
+climate temperate_grassland_infertile
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSinfertile_grass.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_infertile_grass.tga
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm1.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm1.tga
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm2.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm2.tga
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSinfertile_grass.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_infertile_grass.tga
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSinfertile_grass.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_infertile_grass.tga
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSinfertile_grass.tga    	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_infertile_grass.tga
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_forest.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsnow2.tga
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSinfertile_forestsparse.tga	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_open_forest.tga
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_hills.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_hills.tga
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains8.tga        	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter8.tga 
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSalpine_mountains.tga        	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter8.tga
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_swamp.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_swamp.tga
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert3.tga
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}
+
+climate highland
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_grass3.tga	         ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_grass3.tga
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm1.tga	         ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm1.tga
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm2.tga	         ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm2.tga
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_grass1.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_grass1.tga
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_grass3.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_grass3.tga
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_grass3.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_grass3.tga
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_forest.tga	         ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_forest.tga	
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_forestsparse.tga	 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_forestsparse.tga
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_hills.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSalpine_winter_hills.tga
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains8.tga        	 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter8.tga 
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSalpine_mountains.tga        	 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter8.tga
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_swamp.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_swamp.tga
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert1.tga
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}
+
+climate alpine
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_grass3.tga	         ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_grass3.tga
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm1.tga	         ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm1.tga
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm2.tga	         ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm2.tga
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_grass1.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_grass1.tga
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_grass3.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_grass3.tga
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_grass3.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_grass3.tga
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_forest.tga	         ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsnow2.tga
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_forestsparse.tga	 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RShighland_winter_forestsparse.tga
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSalpine_hills.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSalpine_winter_hills.tga
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains8.tga        	 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter8.tga 
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSalpine_mountains.tga        	 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter8.tga
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_swamp.tga		 ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_swamp.tga
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert1.tga	
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}
+
+climate sub_arctic
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarctic_grass3.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarcticgrass_winter2.tga                 
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_farm2.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_farm_winter.tga          
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_farm2.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_farm_winter.tga         
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarctic_grass3.tga		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarcticgrass_winter.tga  
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarctic_grass3.tga		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarcticgrass_winter.tga  
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid_forest.tga		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarcticgrass_winter2.tga  
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterranean_forest.tga					
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterranean_forest.tga	          
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarctic_hills.tga		  
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains7.tga        	  
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid_mountains.tga        	  
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSarid_swamp.tga			  
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert1.tga
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}
+
+climate semi_arid
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid1.tga                ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid1_winter.tga
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_farm2.tga             ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid_winter.tga
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_farm2.tga             ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid_winter.tga
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid1.tga                ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid1_winter.tga  
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid2.tga                ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid2_winter.tga               
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid3.tga                ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid3_winter.tga  
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSrockydesert_forest.tga       ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarcticgrass_winter.tga
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSrockydesert_forest.tga       ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarcticgrass_winter.tga
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid_hills.tga           ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid_winter_hills.tga
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains7.tga               ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter7.tga            	 
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsemiarid_mountains.tga        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains7.tga 
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSarid_swamp.tga
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert1.tga
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}
+
+climate test_climate
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneangrass_fertilitylow.tga	  ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneangrass_fertilitymedium.tga       
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm1.tga	         
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm2.tga	         
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneangrass_fertilitylow.tga     ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneangrass_fertilitymedium.tga
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneangrass_fertilitymedium.tga     ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneangrass_winter.tga
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneangrass_fertilitymedium.tga     ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneangrass_winter.tga
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_forest.tga                      ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneanforest_winter.tga
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterranean_forest.tga                ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterraneangrass_winter.tga
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsubarctic_hills.tga                     ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_hills.tga
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter7.tga
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmediterranean_mountains.tga
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSarid_swamp.tga
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert3.tga
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}
+
+climate rocky_desert
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert5.tga
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert5.tga
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert5.tga
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert5.tga
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSrockydesert_fertilitymedium.tga
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_farm2.tga
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSrockydesert_forest.tga
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSrockydesert_forest.tga
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSrockydesert_hills2.tga
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter7.tga
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_mountains.tga
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSarid_swamp.tga
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert1.tga
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}
+
+climate sandy_desert
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsandydesert_fertilitylow.tga
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsandydesert_fertilitylow.tga
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsandydesert_fertilitylow.tga
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsandydesert_fertilitylow.tga
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsandydesert_fertilitymedium.tga
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsandydesert_fertilityhigh.tga
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_forest.tga
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_forest.tga
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsandydesert_hills.tga
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter7.tga
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert_mountains.tga
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSarid_swamp.tga
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert1.tga
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}
+
+climate swamp
+{
+	cultivated_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_grass.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_grass.tga
+	cultivated_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm1.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm1.tga
+	cultivated_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_farm2.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_farm2.tga
+	fertility_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_grass.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_grass.tga
+	fertility_medium	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_grass.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_grass.tga
+	fertility_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_grass.tga    	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_grass.tga
+	forest_dense		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_forest.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSsnow2.tga
+	forest_sparse		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_forestsparse.tga	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_grass.tga	
+	hills			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_hills.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_hills.tga
+	mountains_high		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains8.tga        	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSmountains_winter8.tga 
+	mountains_low		..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_mountains.tga        	..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_mountain.tga
+	swamp			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_swamp.tga	        ..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdefault_winter_swamp.tga
+	beach			..\..\..\..\civ\data\terrain\aerial_map\ground_types\RSdesert3.tga
+	scorched		..\..\..\..\civ\data\terrain\aerial_map\ground_types\scorched.tga
+}

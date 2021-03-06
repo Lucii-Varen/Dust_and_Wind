@@ -1,0 +1,224 @@
+************** STARTING BATTLE EDITOR
+
+Loading from file civ/data/world/maps/battle/custom/Last_300/descr_battle.txt
+Created faction parthia from file
+	Creating army controlled by Xerxes at 0x1172a25c from script
+		Creating unit (Eastern General) at 0xe13b62c
+		Creating unit (Immortals) at 0xe13da44
+		Creating unit (Immortals) at 0xe13a2ec
+		Creating unit (Immortals) at 0xe13bfcc
+		Creating unit (Immortals) at 0xe13c96c
+		Creating unit (Immortals) at 0xe13a554
+		Creating unit (Immortals) at 0xe13cbd4
+		Creating unit (Immortals) at 0xe13a7bc
+		Creating unit (Immortals) at 0xe13ac8c
+		Creating unit (Immortals) at 0xe13b894
+		Creating unit (Immortals) at 0xe13bafc
+		Creating unit (Immortals) at 0xe13bd64
+		Creating unit (Unlocalised placement text) at 0xe13c49c
+		Creating unit (Unlocalised placement text) at 0xe13c704
+		Creating unit (Unlocalised placement text) at 0xe13324c
+		Creating unit (Unlocalised placement text) at 0xe13371c
+		Creating unit (Unlocalised placement text) at 0xe134324
+		Creating unit (Unlocalised placement text) at 0xe1347f4
+		Creating unit (Unlocalised placement text) at 0xe133bec
+		Creating unit (Unlocalised placement text) at 0xe1340bc
+	Creating army controlled by Hydarnes of Babylonia at 0x1172aa9c from script
+		Creating unit (Immortals) at 0xe13458c
+		Creating unit (Eastern Heavy Infantry) at 0xe1358cc
+		Creating unit (Eastern Heavy Infantry) at 0xe134a5c
+		Creating unit (Takabara) at 0xe131f0c
+		Creating unit (Takabara) at 0xe132b14
+		Creating unit (Takabara) at 0x4b12624
+		Creating unit (Eastern Infantry) at 0x3bc1058c
+		Creating unit (Eastern Infantry) at 0x3bc11d9c
+		Creating unit (Eastern Infantry) at 0x3bc0fe54
+		Creating unit (Eastern Infantry) at 0x3bc0fbec
+		Creating unit (Eastern Infantry) at 0x3bc11b34
+		Creating unit (Eastern Infantry) at 0x3bc100bc
+		Creating unit (Eastern Spearmen) at 0x3bc118cc
+		Creating unit (Eastern Spearmen) at 0x3bc10324
+		Creating unit (Eastern Spearmen) at 0x3bc10cc4
+		Creating unit (Hillmen) at 0x3bc11664
+		Creating unit (Hillmen) at 0x3bc10f2c
+		Creating unit (Hillmen) at 0x3bc12004
+		Creating unit (Hillmen) at 0x3bc11194
+		Creating unit (Eastern Spearmen) at 0x3bc12c0c
+	Creating army controlled by Datuvahya of Media at 0x1172a364 from script
+		Creating unit (Persian Archer) at 0x3bc13814
+		Creating unit (Persian Archer) at 0x3bc113fc
+		Creating unit (Slingers) at 0x3bc1226c
+		Creating unit (Slingers) at 0x3bc124d4
+		Creating unit (Peltasts) at 0x3bc1273c
+		Creating unit (Peltasts) at 0x3bc129a4
+		Creating unit (Peltasts) at 0x3bc12e74
+		Creating unit (Parthian heavy Raiders) at 0x3bc130dc
+		Creating unit (Parthian Heavy Lancers) at 0x3bc107f4
+		Creating unit (Takabara) at 0x3bc13344
+		Creating unit (Takabara) at 0x3bc10a5c
+		Creating unit (Eastern Infantry) at 0x3bc135ac
+		Creating unit (Eastern Infantry) at 0x3e229e54
+		Creating unit (Eastern Infantry) at 0x3e22b3fc
+		Creating unit (Eastern Spearmen) at 0x3e22aa5c
+		Creating unit (Eastern Spearmen) at 0x3e22a0bc
+		Creating unit (Eastern Spearmen) at 0x3e22a324
+		Creating unit (Eastern Spearmen) at 0x3e22af2c
+		Creating unit (Eastern Heavy Infantry) at 0x3e22acc4
+		Creating unit (Eastern Heavy Infantry) at 0x3e22a58c
+Created faction numidia from file
+	Creating army controlled by Leonidas of Sparta at 0x1172a67c from script
+		Creating unit (Strategos) at 0x3e22b194
+		Creating unit (Greek Heroes) at 0x3e22b664
+		Creating unit (Greek Heroes) at 0x3e229bec
+		Creating unit (Hoplites) at 0x3e22a7f4
+		Creating unit (Hoplites) at 0x3e22b8cc
+		Creating unit (Hoplites) at 0x414c818c
+		Creating unit (Hoplites) at 0x414c88c4
+		Creating unit (Hoplites) at 0x414c77ec
+		Creating unit (Thermon Hoplites) at 0x414c7584
+		Creating unit (Thermon Hoplites) at 0x414c8d94
+		Creating unit (Thermon Hoplites) at 0x414c83f4
+		Creating unit (Thermon Hoplites) at 0x414c8b2c
+		Creating unit (Peltasts) at 0x414c7a54
+		Creating unit (Peltasts) at 0x414c731c
+		Creating unit (Peltasts) at 0x414c865c
+		Creating unit (Heavy Peltasts) at 0x414c7cbc
+		Creating unit (Heavy Peltasts) at 0x414c7f24
+		Creating unit (Heavy Thyreophoroi) at 0x414c70b4
+Adding unit (Eastern General) at 0xe13b62c to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13da44 to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13a2ec to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13bfcc to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13c96c to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13a554 to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13cbd4 to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13a7bc to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13ac8c to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13b894 to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13bafc to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13bd64 to deployment area at 0x4e0bd28
+Adding unit (Unlocalised placement text) at 0xe13c49c to deployment area at 0x4e0bd28
+Adding unit (Unlocalised placement text) at 0xe13c704 to deployment area at 0x4e0bd28
+Adding unit (Unlocalised placement text) at 0xe13324c to deployment area at 0x4e0bd28
+Adding unit (Unlocalised placement text) at 0xe13371c to deployment area at 0x4e0bd28
+Adding unit (Unlocalised placement text) at 0xe134324 to deployment area at 0x4e0bd28
+Adding unit (Unlocalised placement text) at 0xe1347f4 to deployment area at 0x4e0bd28
+Adding unit (Unlocalised placement text) at 0xe133bec to deployment area at 0x4e0bd28
+Adding unit (Unlocalised placement text) at 0xe1340bc to deployment area at 0x4e0bd28
+Adding unit (Immortals) at 0xe13458c to deployment area at 0x4e0bd64
+Adding unit (Eastern Heavy Infantry) at 0xe1358cc to deployment area at 0x4e0bd64
+Adding unit (Eastern Heavy Infantry) at 0xe134a5c to deployment area at 0x4e0bd64
+Adding unit (Takabara) at 0xe131f0c to deployment area at 0x4e0bd64
+Adding unit (Takabara) at 0xe132b14 to deployment area at 0x4e0bd64
+Adding unit (Takabara) at 0x4b12624 to deployment area at 0x4e0bd64
+Adding unit (Eastern Infantry) at 0x3bc1058c to deployment area at 0x4e0bd64
+Adding unit (Eastern Infantry) at 0x3bc11d9c to deployment area at 0x4e0bd64
+Adding unit (Eastern Infantry) at 0x3bc0fe54 to deployment area at 0x4e0bd64
+Adding unit (Eastern Infantry) at 0x3bc0fbec to deployment area at 0x4e0bd64
+Adding unit (Eastern Infantry) at 0x3bc11b34 to deployment area at 0x4e0bd64
+Adding unit (Eastern Infantry) at 0x3bc100bc to deployment area at 0x4e0bd64
+Adding unit (Eastern Spearmen) at 0x3bc118cc to deployment area at 0x4e0bd64
+Adding unit (Eastern Spearmen) at 0x3bc10324 to deployment area at 0x4e0bd64
+Adding unit (Eastern Spearmen) at 0x3bc10cc4 to deployment area at 0x4e0bd64
+Adding unit (Hillmen) at 0x3bc11664 to deployment area at 0x4e0bd64
+Adding unit (Hillmen) at 0x3bc10f2c to deployment area at 0x4e0bd64
+Adding unit (Hillmen) at 0x3bc12004 to deployment area at 0x4e0bd64
+Adding unit (Hillmen) at 0x3bc11194 to deployment area at 0x4e0bd64
+Adding unit (Eastern Spearmen) at 0x3bc12c0c to deployment area at 0x4e0bd64
+Adding unit (Persian Archer) at 0x3bc13814 to deployment area at 0x4e0bda0
+Adding unit (Persian Archer) at 0x3bc113fc to deployment area at 0x4e0bda0
+Adding unit (Slingers) at 0x3bc1226c to deployment area at 0x4e0bda0
+Adding unit (Slingers) at 0x3bc124d4 to deployment area at 0x4e0bda0
+Adding unit (Peltasts) at 0x3bc1273c to deployment area at 0x4e0bda0
+Adding unit (Peltasts) at 0x3bc129a4 to deployment area at 0x4e0bda0
+Adding unit (Peltasts) at 0x3bc12e74 to deployment area at 0x4e0bda0
+Adding unit (Parthian heavy Raiders) at 0x3bc130dc to deployment area at 0x4e0bda0
+Adding unit (Parthian Heavy Lancers) at 0x3bc107f4 to deployment area at 0x4e0bda0
+Adding unit (Takabara) at 0x3bc13344 to deployment area at 0x4e0bda0
+Adding unit (Takabara) at 0x3bc10a5c to deployment area at 0x4e0bda0
+Adding unit (Eastern Infantry) at 0x3bc135ac to deployment area at 0x4e0bda0
+Adding unit (Eastern Infantry) at 0x3e229e54 to deployment area at 0x4e0bda0
+Adding unit (Eastern Infantry) at 0x3e22b3fc to deployment area at 0x4e0bda0
+Adding unit (Eastern Spearmen) at 0x3e22aa5c to deployment area at 0x4e0bda0
+Adding unit (Eastern Spearmen) at 0x3e22a0bc to deployment area at 0x4e0bda0
+Adding unit (Eastern Spearmen) at 0x3e22a324 to deployment area at 0x4e0bda0
+Adding unit (Eastern Spearmen) at 0x3e22af2c to deployment area at 0x4e0bda0
+Adding unit (Eastern Heavy Infantry) at 0x3e22acc4 to deployment area at 0x4e0bda0
+Adding unit (Eastern Heavy Infantry) at 0x3e22a58c to deployment area at 0x4e0bda0
+Adding unit (Strategos) at 0x3e22b194 to deployment area at 0x4e0bddc
+Adding unit (Greek Heroes) at 0x3e22b664 to deployment area at 0x4e0bddc
+Adding unit (Greek Heroes) at 0x3e229bec to deployment area at 0x4e0bddc
+Adding unit (Hoplites) at 0x3e22a7f4 to deployment area at 0x4e0bddc
+Adding unit (Hoplites) at 0x3e22b8cc to deployment area at 0x4e0bddc
+Adding unit (Hoplites) at 0x414c818c to deployment area at 0x4e0bddc
+Adding unit (Hoplites) at 0x414c88c4 to deployment area at 0x4e0bddc
+Adding unit (Hoplites) at 0x414c77ec to deployment area at 0x4e0bddc
+Adding unit (Thermon Hoplites) at 0x414c7584 to deployment area at 0x4e0bddc
+Adding unit (Thermon Hoplites) at 0x414c8d94 to deployment area at 0x4e0bddc
+Adding unit (Thermon Hoplites) at 0x414c83f4 to deployment area at 0x4e0bddc
+Adding unit (Thermon Hoplites) at 0x414c8b2c to deployment area at 0x4e0bddc
+Adding unit (Peltasts) at 0x414c7a54 to deployment area at 0x4e0bddc
+Adding unit (Peltasts) at 0x414c731c to deployment area at 0x4e0bddc
+Adding unit (Peltasts) at 0x414c865c to deployment area at 0x4e0bddc
+Adding unit (Heavy Peltasts) at 0x414c7cbc to deployment area at 0x4e0bddc
+Adding unit (Heavy Peltasts) at 0x414c7f24 to deployment area at 0x4e0bddc
+Adding unit (Heavy Thyreophoroi) at 0x414c70b4 to deployment area at 0x4e0bddc
+Load finished **************************
+
+
+PLACE_AND_MOVE_MODEL_FUNCTION::do_func() - Creating model bighill3
+PLACE_AND_MOVE_MODEL_FUNCTION::undo_func() - Removing (or moving) model bighill3
+PLACE_AND_MOVE_MODEL_FUNCTION::do_func() - Creating model mediumhill03
+PLACE_AND_MOVE_MODEL_FUNCTION::do_func() - Creating model mediumhill4
+CREATE_ARMY::do_func() - Creating army at 0x116ff494 (General: Captain Zircon), adding to parthia
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-23.846232, -210.45664)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-144.811968, -155.442288)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (-130.759168, 6.962219)
+INSERT_DEPLOY_POINT::do_func() - Adding deploy point at (31.507138, -105.27876)
+Adding unit (Eastern Infantry) at 0x441ee75c to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0x441ee75c - Deployed at (-25.12812, -203.43896) in deployment area at 0x4e0be18
+Adding unit (Eastern Infantry) at 0x441f0b74 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0x441f0b74 - Deployed at (-55.779932, -188.352576) in deployment area at 0x4e0be18
+Adding unit (Eastern Infantry) at 0x441ee28c to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0x441ee28c - Deployed at (-81.204952, -175.652864) in deployment area at 0x4e0be18
+Adding unit (Eastern Infantry) at 0x441ee9c4 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0x441ee9c4 - Deployed at (-107.679232, -163.17672) in deployment area at 0x4e0be18
+Adding unit (Eastern Infantry) at 0x441ef834 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0x441ef834 - Deployed at (-98.612288, -150.563472) in deployment area at 0x4e0be18
+Adding unit (Hillmen) at 0x441ef0fc to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hillmen) at 0x441ef0fc - Deployed at (-73.386312, -165.437104) in deployment area at 0x4e0be18
+Adding unit (Hillmen) at 0x441ea194 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hillmen) at 0x441ea194 - Deployed at (-49.818168, -178.289232) in deployment area at 0x4e0be18
+Adding unit (Hillmen) at 0xe132174 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hillmen) at 0xe132174 - Deployed at (-20.376434, -190.056064) in deployment area at 0x4e0be18
+Adding unit (Hillmen) at 0xe1328ac to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hillmen) at 0xe1328ac - Deployed at (-95.675696, -132.807128) in deployment area at 0x4e0be18
+Adding unit (Hillmen) at 0xe134f2c to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Hillmen) at 0xe134f2c - Deployed at (-10.824586, -173.79776) in deployment area at 0x4e0be18
+Adding unit (Eastern Infantry) at 0xe133e54 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0xe133e54 - Deployed at (-42.354168, -161.1724) in deployment area at 0x4e0be18
+Adding unit (Eastern Infantry) at 0xe131ca4 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0xe131ca4 - Deployed at (-67.119912, -151.50344) in deployment area at 0x4e0be18
+Adding unit (Eastern Infantry) at 0x3dc704f4 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0x3dc704f4 - Deployed at (-88.124136, -122.042152) in deployment area at 0x4e0be18
+Adding unit (Eastern Infantry) at 0x3dc7290c to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0x3dc7290c - Deployed at (-62.659448, -137.483744) in deployment area at 0x4e0be18
+Adding unit (Eastern Infantry) at 0x3c801acc to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Infantry) at 0x3c801acc - Deployed at (-36.298296, -149.400448) in deployment area at 0x4e0be18
+Adding unit (Eastern Spearmen) at 0x2f84e1dc to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Spearmen) at 0x2f84e1dc - Deployed at (-4.781822, -161.58552) in deployment area at 0x4e0be18
+Adding unit (Eastern Spearmen) at 0x2f84cc34 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Spearmen) at 0x2f84cc34 - Deployed at (.349281, -151.931888) in deployment area at 0x4e0be18
+Adding unit (Eastern Spearmen) at 0x2f84c294 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Spearmen) at 0x2f84c294 - Deployed at (-31.110412, -140.391808) in deployment area at 0x4e0be18
+Adding unit (Eastern Spearmen) at 0x2f8505f4 to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Spearmen) at 0x2f8505f4 - Deployed at (-58.326772, -125.833976) in deployment area at 0x4e0be18
+Adding unit (Eastern Spearmen) at 0x2f85038c to deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Eastern Spearmen) at 0x2f85038c - Deployed at (-85.124984, -113.198608) in deployment area at 0x4e0be18
+CREATE_UNIT_FUNCTION::do_func() - Trying to create unit (east infantry), but failed
+MOVE_UNIT_FUNCTION::do_func() - Moving unit (numidia:Strategos) at 0x3e22b194 from (-258.374144, -546.312128) to (-267.570864, -545.91232)
+	 with rotation .244382 and width 23.204 - now residing in deployment area at 0x4e0bddc
+Adding unit (Archers) at 0x2f84c4fc to deployment area at 0x4e0bddc
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Archers) at 0x2f84c4fc - Deployed at (-270.245408, -595.551744) in deployment area at 0x4e0bddc
+Adding unit (Archers) at 0x2f84c02c to deployment area at 0x4e0bddc
+CREATE_UNIT_FUNCTION::do_func() - Creating unit (Archers) at 0x2f84c02c - Deployed at (-339.669632, -584.40704) in deployment area at 0x4e0bddc

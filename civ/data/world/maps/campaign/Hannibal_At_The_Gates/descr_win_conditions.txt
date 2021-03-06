@@ -1,0 +1,19 @@
+romans_julii
+imperator
+short_campaign outlive_factions
+gauls
+
+romans_brutii
+imperator
+short_campaign outlive_factions
+gauls
+
+romans_scipii
+imperator
+short_campaign outlive_factions
+gauls
+
+gauls
+take_rome 
+short_campaign outlive_factions
+romans_julii romans_senate
