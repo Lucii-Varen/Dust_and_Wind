@@ -615,7 +615,7 @@ building barracks
                 recruit "roman republican legion first"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource italy and building_present_min_level regions national3 and building_present_min_level hinterland_reform reform3 and not building_present_min_level hinterland_reform reform4 
 		;;;;;;;;;;;;Caesar Legions;;;;;;;;;;;;;
                 recruit "roman legionary cohort i"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
-                recruit "roman legionary cohort i"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national2 and building_present_min_level hinterland_reform reform4 and not building_present_min_level hinterland_reform reform5 
+                recruit "roman legionary cohort i"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national2 and building_present_min_level hinterland_reform reform4 
 		;;;;;;;;;;;Early Legions;;;;;;;;;;;;;;;
                 recruit "roman early legionary I GERMANICA"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
                 recruit "roman early legionary I GERMANICA"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource I_GERMANICA and building_present_min_level regions national2 and building_present_min_level hinterland_reform reform4 and not building_present_min_level hinterland_reform reform5
@@ -963,7 +963,7 @@ building barracks
                 recruit "marian evocati"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national3 and building_present_min_level hinterland_reform reform3 and not building_present_min_level hinterland_reform reform4
 		;;;;;;;;;;;;Caesar Legions;;;;;;;;;;;;;
                 recruit "roman legionary cohort i"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
-                recruit "roman legionary cohort i"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national2 and building_present_min_level hinterland_reform reform4 and not building_present_min_level hinterland_reform reform5 
+                recruit "roman legionary cohort i"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national2 and building_present_min_level hinterland_reform reform4 
                 recruit "roman legionary first cohort i"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
                 recruit "roman legionary first cohort i"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource italy and building_present_min_level regions national3 and building_present_min_level hinterland_reform reform4 and not building_present_min_level hinterland_reform reform5
                 recruit "roman praetorian cohort i"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
@@ -6312,7 +6312,6 @@ building hinterland_reform
         {
             capability
             {
-                recruit "roman legionary cohort i"  0  requires factions { romans_scipii, roman_rebels, }  and building_present_min_level regions national2 and building_present_min_level barracks city_barracks and not building_present_min_level barracks royal_barracks
                 recruit "roman legionary cohort ii"  0  requires factions { romans_scipii, roman_rebels, }  and marian_reforms and building_present_min_level regions national3 and building_present_min_level barracks army_barracks 
                 recruit "roman legionary first cohort ii"  0  requires factions { romans_scipii, roman_rebels, }  and marian_reforms and hidden_resource italy and building_present_min_level regions national3 and building_present_min_level barracks army_barracks 
                 recruit "roman praetorian cohort urban i"  0  requires factions { romans_scipii, roman_rebels, }  and marian_reforms and hidden_resource italy and building_present_min_level regions national4 and building_present_min_level barracks royal_barracks 
