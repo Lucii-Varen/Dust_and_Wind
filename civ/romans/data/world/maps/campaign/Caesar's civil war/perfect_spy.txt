@@ -1,4 +1,0 @@
-script
-	console_command toggle_perfect_spy
-
-end_script
