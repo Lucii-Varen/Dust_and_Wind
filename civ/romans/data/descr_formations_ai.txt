@@ -851,7 +851,7 @@ begin_formation ai_maniple_line
 	;;; purpose flags													; can use this for anything
 	attack
         march
-	ai_priority			0.5
+	ai_priority			0.7
         supported_factions			 romans_scipii, roman_rebels 
 
 		
