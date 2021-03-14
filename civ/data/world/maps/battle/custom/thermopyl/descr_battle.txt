@@ -158,7 +158,7 @@ unit		greek peltast				soldiers 220 exp 5 armour 2 weapon_lvl 3
 unit		greek peltast				soldiers 220 exp 5 armour 2 weapon_lvl 3
 unit		greek heavy peltast				soldiers 200 exp 3 armour 3 weapon_lvl 3
 unit		greek heavy peltast				soldiers 200 exp 3 armour 3 weapon_lvl 3
-unit		greek mahairofory				soldiers 200 exp 3 armour 3 weapon_lvl 3
+unit		greek heavy peltast				soldiers 200 exp 3 armour 3 weapon_lvl 3
 unit		greek archer				soldiers 200 exp 5 armour 3 weapon_lvl 3
 unit		greek archer				soldiers 200 exp 5 armour 3 weapon_lvl 3
 

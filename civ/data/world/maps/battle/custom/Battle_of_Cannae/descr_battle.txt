@@ -90,14 +90,14 @@ unit		carthaginian legionary				soldiers 220 exp 4 armour 2 weapon_lvl 2
 character	Hasdrubal Barca, general, age 30, , x 113, y 120 
 
 army
-unit		numidian cavalry				soldiers 120 exp 5 armour 3 weapon_lvl 3
-unit		carthaginian cavalry royal				soldiers 108 exp 6 armour 3 weapon_lvl 3
+unit		numidian cavalry				soldiers 140 exp 5 armour 3 weapon_lvl 3
+unit		carthaginian cavalry royal				soldiers 120 exp 6 armour 3 weapon_lvl 3
 unit		carthaginian general's cavalry				soldiers 60 exp 5 armour 2 weapon_lvl 2
 
 character	Himilcar Barca, general, age 30, , x 113, y 120 
 
 army
-unit		numidian cavalry				soldiers 120 exp 5 armour 3 weapon_lvl 3
+unit		numidian cavalry				soldiers 140 exp 5 armour 3 weapon_lvl 3
 unit		carthaginian royal cavalry				soldiers 108 exp 4 armour 3 weapon_lvl 2
 unit		carthaginian general's cavalry				soldiers 60 exp 4 armour 2 weapon_lvl 1
 

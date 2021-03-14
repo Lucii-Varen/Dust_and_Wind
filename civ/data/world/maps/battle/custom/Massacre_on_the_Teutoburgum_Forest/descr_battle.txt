@@ -23,45 +23,45 @@ army
 unit		roman legionary first cohort ii				soldiers 240 exp 0 armour 0 weapon_lvl 0
 unit		roman legionary first cohort ii				soldiers 240 exp 0 armour 0 weapon_lvl 0
 unit		roman legionary first cohort ii				soldiers 240 exp 0 armour 0 weapon_lvl 0
-unit		roman legionary cohort ii				soldiers 180 exp 0 armour 0 weapon_lvl 0
-unit		roman legionary cohort ii				soldiers 180 exp 0 armour 0 weapon_lvl 0
-unit		roman legionary cohort ii				soldiers 180 exp 0 armour 0 weapon_lvl 0
-unit		roman legionary cohort ii				soldiers 180 exp 0 armour 0 weapon_lvl 0
-unit		roman legionary cohort ii				soldiers 180 exp 0 armour 0 weapon_lvl 0
-unit		roman legionary cohort ii				soldiers 180 exp 0 armour 0 weapon_lvl 0
-unit		roman legionary cohort ii				soldiers 180 exp 0 armour 0 weapon_lvl 0
-unit		roman legionary cohort ii				soldiers 180 exp 0 armour 0 weapon_lvl 0
-unit		roman legionary cohort ii				soldiers 180 exp 0 armour 0 weapon_lvl 0
+unit		roman legionary cohort ii				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		roman legionary cohort ii				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		roman legionary cohort ii				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		roman legionary cohort ii				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		roman legionary cohort ii				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		roman legionary cohort ii				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		roman legionary cohort ii				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		roman legionary cohort ii				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		roman legionary cohort ii				soldiers 200 exp 0 armour 0 weapon_lvl 0
 unit		roman heavy cavalry				soldiers 108 exp 0 armour 0 weapon_lvl 0
-unit		roman generals guard cavalry				soldiers 48 exp 0 armour 0 weapon_lvl 0
-unit		roman infantry auxillia				soldiers 200 exp 0 armour 0 weapon_lvl 0
-unit		roman auxillia legion				soldiers 200 exp 0 armour 0 weapon_lvl 0
-unit		roman heavy auxillia				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		roman generals guard cavalry				soldiers 60 exp 0 armour 0 weapon_lvl 0
+unit		roman infantry auxillia				soldiers 220 exp 0 armour 0 weapon_lvl 0
+unit		roman auxillia legion				soldiers 220 exp 0 armour 0 weapon_lvl 0
+unit		roman heavy auxillia				soldiers 220 exp 0 armour 0 weapon_lvl 0
 
 faction	germans
 character	Arminius of_Tuetoburga, general, age 30, , x 84, y 178 
 
 army
-unit		warband dhaxe german				soldiers 160 exp 0 armour 3 weapon_lvl 0
-unit		warband dhaxe german				soldiers 160 exp 0 armour 0 weapon_lvl 0
-unit		german warriors				soldiers 200 exp 0 armour 0 weapon_lvl 0
-unit		german warriors				soldiers 200 exp 0 armour 0 weapon_lvl 0
-unit		barb night raiders german				soldiers 200 exp 0 armour 0 weapon_lvl 0
-unit		german warriors				soldiers 200 exp 0 armour 0 weapon_lvl 0
-unit		barb peltast german				soldiers 180 exp 0 armour 0 weapon_lvl 3
-unit		barb peltast german				soldiers 180 exp 1 armour 0 weapon_lvl 3
-unit		barb berserker german				soldiers 48 exp 0 armour 0 weapon_lvl 0
-unit		barb berserker german				soldiers 48 exp 0 armour 0 weapon_lvl 0
-unit		warband dhaxe german				soldiers 160 exp 0 armour 0 weapon_lvl 0
-unit		warband axe german				soldiers 200 exp 0 armour 0 weapon_lvl 0
-unit		german bodyguard				soldiers 160 exp 0 armour 0 weapon_lvl 0
-unit		german heavy infantry				soldiers 180 exp 0 armour 0 weapon_lvl 0
-unit		heavy warband				soldiers 200 exp 0 armour 0 weapon_lvl 0
-unit		heavy warband				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		warband dhaxe german				soldiers 180 exp 0 armour 3 weapon_lvl 0
+unit		warband dhaxe german				soldiers 180 exp 0 armour 0 weapon_lvl 0
+unit		german warriors				soldiers 240 exp 0 armour 0 weapon_lvl 0
+unit		german warriors				soldiers 240 exp 0 armour 0 weapon_lvl 0
+unit		barb night raiders german				soldiers 240 exp 0 armour 0 weapon_lvl 0
+unit		german warriors				soldiers 240 exp 0 armour 0 weapon_lvl 0
+unit		barb peltast german				soldiers 220 exp 0 armour 0 weapon_lvl 3
+unit		barb peltast german				soldiers 220 exp 1 armour 0 weapon_lvl 3
+unit		barb berserker german				soldiers 50 exp 0 armour 0 weapon_lvl 0
+unit		barb berserker german				soldiers 50 exp 0 armour 0 weapon_lvl 0
+unit		warband dhaxe german				soldiers 180 exp 0 armour 0 weapon_lvl 0
+unit		warband axe german				soldiers 240 exp 0 armour 0 weapon_lvl 0
+unit		german bodyguard				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		german heavy infantry				soldiers 200 exp 0 armour 0 weapon_lvl 0
+unit		heavy warband				soldiers 240 exp 0 armour 0 weapon_lvl 0
+unit		heavy warband				soldiers 240 exp 0 armour 0 weapon_lvl 0
 unit		warband spear german				soldiers 240 exp 2 armour 0 weapon_lvl 0
 unit		barb night raiders german				soldiers 240 exp 0 armour 0 weapon_lvl 0
-unit		warband axe german				soldiers 200 exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				soldiers 241 exp 0 armour 0 weapon_lvl 0
+unit		warband axe german				soldiers 240 exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				soldiers 240 exp 0 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of battle section <<<<

@@ -21,10 +21,10 @@ faction	macedon
 character	Alexander, general, age 30, , x 235, y 99 
 
 army
-unit		greek general's guard cavalry				soldiers 60 exp 9 armour 3 weapon_lvl 2
+unit		greek general's guard cavalry				soldiers 60 exp 9 armour 3 weapon_lvl 3
 unit		greek xystophoroi				soldiers 120 exp 5 armour 2 weapon_lvl 1
 unit		greek xystophoroi				soldiers 120 exp 5 armour 2 weapon_lvl 1
-unit		unit thracian podroma				soldiers 120 exp 5 armour 2 weapon_lvl 3
+unit		unit thracian podroma				soldiers 120 exp 6 armour 2 weapon_lvl 3
 unit		greek royal cavalry				soldiers 120 exp 6 armour 3 weapon_lvl 2
 unit		Halkaspist				soldiers 200 exp 4 armour 1 weapon_lvl 2
 unit		macedon shield				soldiers 180 exp 4 armour 3 weapon_lvl 1
