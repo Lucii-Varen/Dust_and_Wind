@@ -965,14 +965,19 @@ end_monitor
         console_command add_money carthage, 20000
     end_monitor
     monitor_event FactionTurnStart FactionType carthage
-        and FactionIsLocal
+        and not FactionIsLocal
         and Treasury < -20000
-        console_command add_money carthage, 32000
+        console_command add_money carthage, 38000
     end_monitor
     monitor_event FactionTurnStart FactionType carthage
         and not FactionIsLocal
-        and Treasury < -20000
-        console_command add_money carthage, 30000
+        and Treasury < -10000
+        console_command add_money carthage, 25000
+end_monitor
+monitor_event FactionTurnStart FactionType carthage
+   		and not FactionIsLocal
+        and Treasury < -5000
+        console_command add_money carthage, 15000
 end_monitor
 
     monitor_event FactionTurnStart FactionType parthia
@@ -1483,7 +1488,6 @@ and I_CompareCounter Rome_undersiege = 1
 	and I_FactionBesieged romans_scipii
     and I_CompareCounter Rome_undersiege = 1
     and I_CompareCounter MarianLegions = 0
-		set_counter Rome_undersiege 2
 		console_command create_unit Roma "roman triarii" 4 1 1 1
         console_command create_unit Roma "roman princeps" 5 1 2 1
 		console_command create_unit Roma "roman hastati" 5 1 2 1
@@ -1491,13 +1495,13 @@ and I_CompareCounter Rome_undersiege = 1
         console_command create_unit Roma "roman velite" 2 2 0 2
         console_command create_unit Roma "roman city militia" 2 3 3 3
         console_command add_money romans_scipii, 10000
+        set_counter Rome_undersiege 2
 end_if
 
 	if I_SettlementOwner Roma = romans_scipii
 	and I_FactionBesieged romans_scipii
     and I_CompareCounter Rome_undersiege = 1
     and I_CompareCounter MarianLegions = 1
-		set_counter Roma_undersiege 2
 		console_command create_unit Roma "roman republican legion" 5 0 2 2
         console_command create_unit Roma "roman republican legion" 5 0 2 2
         console_command create_unit Roma "roman republican legion" 5 0 2 2
@@ -1505,6 +1509,7 @@ end_if
 		console_command create_unit Roma "roman archer" 2 0 2 2
         console_command create_unit Roma "roman city militia" 1 3 3 3
         console_command add_money romans_scipii, 10000
+        set_counter Roma_undersiege 2
 end_if
 end_monitor
 
@@ -3537,15 +3542,15 @@ and I_CompareCounter Seleucia_undersiege = 1
 	and I_FactionBesieged seleucid
     and I_CompareCounter Seleucia_undersiege = 1
 		set_counter Seleucia_undersiege 2
-		console_command create_unit Seleucia "greek peltast" 2 1 2 1
-		console_command create_unit Seleucia "greek levy pikemen" 2 0 2 1
-		console_command create_unit Seleucia "thureos spears" 2 1 1 1
-		console_command create_unit Seleucia "greek swordsmen" 3 1 1 1
+		console_command create_unit Seleucia "greek peltast" 2 0 1 1
+		console_command create_unit Seleucia "greek levy pikemen" 2 0 1 1
+		console_command create_unit Seleucia "thureos spears" 2 0 1 1
+		console_command create_unit Seleucia "greek swordsmen" 3 0 1 1
         console_command create_unit Seleucia "greek heavy swordsmen" 1 0 1 1
-        console_command create_unit Seleucia "eastern cavalry" 2 1 1 1
-        console_command create_unit Seleucia "greek xystophoroi" 1 1 1 1
+        console_command create_unit Seleucia "eastern cavalry" 2 0 1 1
+        console_command create_unit Seleucia "greek xystophoroi" 1 0 1 1
         
-        console_command add_money seleucid, 40000
+        console_command add_money seleucid, 10000
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Babylon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3704,7 +3709,7 @@ and I_CompareCounter Babylon_undersiege = 1
         console_command create_unit Babylon "eastern cavalry" 2 1 1 1
         console_command create_unit Babylon "greek xystophoroi" 1 1 1 1
         
-        console_command add_money seleucid, 40000
+        console_command add_money seleucid, 20000
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Edessa;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3931,7 +3936,7 @@ and I_CompareCounter Damascus_undersiege = 1
         console_command create_unit Damascus "greek heavy swordsmen" 1 0 1 1
         console_command create_unit Damascus "eastern cavalry" 2 1 1 1
         
-        console_command add_money seleucid, 30000
+        console_command add_money seleucid, 10000
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Carthago;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -4115,7 +4120,7 @@ and I_CompareCounter Carthago_undersiege = 1
 	if I_SettlementOwner Carthago = carthage 
 	and I_FactionBesieged carthage
     and I_CompareCounter Carthago_undersiege = 1
-		set_counter Carthago_undersiege 2
+		
         console_command create_unit Carthago "carthaginian legionary" 2 0 2 2
         console_command create_unit Carthago "carthaginian sacred band infantry" 1 0 2 2
         console_command create_unit Carthago "carthaginian heavy infantry" 3 0 2 2
@@ -4126,8 +4131,11 @@ and I_CompareCounter Carthago_undersiege = 1
         console_command create_unit Carthago "numidian cavalry" 3 3 2 2
         
 console_command add_money carthage, 40000
-if I_SettlementOwner Cirta != romans_scipii
-    
+
+if I_SettlementOwner Carthago = carthage 
+	and I_FactionBesieged carthage
+    and I_SettlementOwner Cirta != romans_scipii
+
     console_command kill_character "Zeuxis"
             spawn_army
             faction carthage
@@ -4206,6 +4214,7 @@ end
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
 end
 end_if
+set_counter Carthago_undersiege 2
 end_if
 end_monitor
 
@@ -4277,7 +4286,6 @@ monitor_event FactionTurnStart FactionType carthage
   if I_CompareCounter carthaginian_revolt = 1
   and I_SettlementOwner Carthago = romans_scipii
   and I_NumberOfSettlements carthage > 0
-  set_counter carthaginian_revolt 2
   console_command kill_character "Zeuxis"
             spawn_army
             faction carthage
@@ -4355,13 +4363,13 @@ end
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
 end
+set_counter carthaginian_revolt 2
 console_command add_money carthage, 40000
 end_if
 
   if I_CompareCounter carthaginian_revolt = 1
   and I_SettlementOwner Hadrumetum = romans_scipii
   and I_NumberOfSettlements carthage > 0
-  set_counter carthaginian_revolt 2
   console_command kill_character "Zeuxis"
             spawn_army
             faction carthage
@@ -4439,13 +4447,13 @@ end
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
 end
+set_counter carthaginian_revolt 2
 console_command add_money carthage, 40000
 end_if
 
 if I_CompareCounter carthaginian_revolt = 1
   and I_SettlementOwner Thapsus = romans_scipii
   and I_NumberOfSettlements carthage > 0
-  set_counter carthaginian_revolt 2
   console_command kill_character "Zeuxis"
             spawn_army
             faction carthage
@@ -4523,13 +4531,13 @@ end
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
 end
+set_counter carthaginian_revolt 2
 console_command add_money carthage, 40000
 end_if
 
 if I_CompareCounter carthaginian_revolt = 1
   and I_SettlementOwner Hippo_Regius = romans_scipii
   and I_NumberOfSettlements carthage > 0
-  set_counter carthaginian_revolt 2
   console_command kill_character "Zeuxis"
             spawn_army
             faction carthage
@@ -4607,6 +4615,7 @@ end
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
 end
+set_counter carthaginian_revolt 2
 console_command add_money carthage, 40000
 end_if
 end_monitor
@@ -4618,256 +4627,256 @@ monitor_event SettlementTurnStart SettlementName Hadrumetum
 and not SettlementIsLocal
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile romans_scipii general, 2 85,98
+	if I_CharacterTypeNearTile romans_scipii general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_scipii family, 2 85,98
+	if I_CharacterTypeNearTile romans_scipii family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile romans_scipii family, 2 85,98
-	and not I_CharacterTypeNearTile romans_scipii general, 2 85,98
+	and not I_CharacterTypeNearTile romans_scipii family, 2 85,95
+	and not I_CharacterTypeNearTile romans_scipii general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile numidia general, 2 85,98
+	if I_CharacterTypeNearTile numidia general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile numidia family, 2 85,98
+	if I_CharacterTypeNearTile numidia family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile numidia family, 2 85,98
-	and not I_CharacterTypeNearTile numidia general, 2 85,98
+	and not I_CharacterTypeNearTile numidia family, 2 85,95
+	and not I_CharacterTypeNearTile numidia general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile greek_cities general, 2 85,98
+	if I_CharacterTypeNearTile greek_cities general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile greek_cities family, 2 85,98
+	if I_CharacterTypeNearTile greek_cities family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile greek_cities family, 2 85,98
-	and not I_CharacterTypeNearTile greek_cities general, 2 85,98
+	and not I_CharacterTypeNearTile greek_cities family, 2 85,95
+	and not I_CharacterTypeNearTile greek_cities general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile thrace general, 2 85,98
+	if I_CharacterTypeNearTile thrace general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile thrace family, 2 85,98
+	if I_CharacterTypeNearTile thrace family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile thrace family, 2 85,98
-	and not I_CharacterTypeNearTile thrace general, 2 85,98
+	and not I_CharacterTypeNearTile thrace family, 2 85,95
+	and not I_CharacterTypeNearTile thrace general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile pontus general, 2 85,98
+	if I_CharacterTypeNearTile pontus general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile pontus family, 2 85,98
+	if I_CharacterTypeNearTile pontus family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile pontus family, 2 85,98
-	and not I_CharacterTypeNearTile pontus general, 2 85,98
+	and not I_CharacterTypeNearTile pontus family, 2 85,95
+	and not I_CharacterTypeNearTile pontus general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile romans_brutii general, 2 85,98
+	if I_CharacterTypeNearTile romans_brutii general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_brutii family, 2 85,98
+	if I_CharacterTypeNearTile romans_brutii family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile romans_brutii family, 2 85,98
-	and not I_CharacterTypeNearTile romans_brutii general, 2 85,98
+	and not I_CharacterTypeNearTile romans_brutii family, 2 85,95
+	and not I_CharacterTypeNearTile romans_brutii general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile gauls general, 2 85,98
+	if I_CharacterTypeNearTile gauls general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile gauls family, 2 85,98
+	if I_CharacterTypeNearTile gauls family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile gauls family, 2 85,98
-	and not I_CharacterTypeNearTile gauls general, 2 85,98
+	and not I_CharacterTypeNearTile gauls family, 2 85,95
+	and not I_CharacterTypeNearTile gauls general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile seleucid general, 2 85,98
+	if I_CharacterTypeNearTile seleucid general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile seleucid family, 2 85,98
+	if I_CharacterTypeNearTile seleucid family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile seleucid family, 2 85,98
-	and not I_CharacterTypeNearTile seleucid general, 2 85,98
+	and not I_CharacterTypeNearTile seleucid family, 2 85,95
+	and not I_CharacterTypeNearTile seleucid general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile dacia general, 2 85,98
+	if I_CharacterTypeNearTile dacia general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile dacia family, 2 85,98
+	if I_CharacterTypeNearTile dacia family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile dacia family, 2 85,98
-	and not I_CharacterTypeNearTile dacia general, 2 85,98
+	and not I_CharacterTypeNearTile dacia family, 2 85,95
+	and not I_CharacterTypeNearTile dacia general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile spain general, 2 85,98
+	if I_CharacterTypeNearTile spain general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile spain family, 2 85,98
+	if I_CharacterTypeNearTile spain family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile spain family, 2 85,98
-	and not I_CharacterTypeNearTile spain general, 2 85,98
+	and not I_CharacterTypeNearTile spain family, 2 85,95
+	and not I_CharacterTypeNearTile spain general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile romans_julii general, 2 85,98
+	if I_CharacterTypeNearTile romans_julii general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_julii family, 2 85,98
+	if I_CharacterTypeNearTile romans_julii family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile romans_julii family, 2 85,98
-	and not I_CharacterTypeNearTile romans_julii general, 2 85,98
+	and not I_CharacterTypeNearTile romans_julii family, 2 85,95
+	and not I_CharacterTypeNearTile romans_julii general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile germans general, 2 85,98
+	if I_CharacterTypeNearTile germans general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile germans family, 2 85,98
+	if I_CharacterTypeNearTile germans family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile germans family, 2 85,98
-	and not I_CharacterTypeNearTile germans general, 2 85,98
+	and not I_CharacterTypeNearTile germans family, 2 85,95
+	and not I_CharacterTypeNearTile germans general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile armenia general, 2 85,98
+	if I_CharacterTypeNearTile armenia general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile armenia family, 2 85,98
+	if I_CharacterTypeNearTile armenia family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile armenia family, 2 85,98
-	and not I_CharacterTypeNearTile armenia general, 2 85,98
+	and not I_CharacterTypeNearTile armenia family, 2 85,95
+	and not I_CharacterTypeNearTile armenia general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile egypt general, 2 85,98
+	if I_CharacterTypeNearTile egypt general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile egypt family, 2 85,98
+	if I_CharacterTypeNearTile egypt family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile egypt family, 2 85,98
-	and not I_CharacterTypeNearTile egypt general, 2 85,98
+	and not I_CharacterTypeNearTile egypt family, 2 85,95
+	and not I_CharacterTypeNearTile egypt general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile macedon general, 2 85,98
+	if I_CharacterTypeNearTile macedon general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile macedon family, 2 85,98
+	if I_CharacterTypeNearTile macedon family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile macedon family, 2 85,98
-	and not I_CharacterTypeNearTile macedon general, 2 85,98
+	and not I_CharacterTypeNearTile macedon family, 2 85,95
+	and not I_CharacterTypeNearTile macedon general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile parthia general, 2 85,98
+	if I_CharacterTypeNearTile parthia general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile parthia family, 2 85,98
+	if I_CharacterTypeNearTile parthia family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile parthia family, 2 85,98
-	and not I_CharacterTypeNearTile parthia general, 2 85,98
+	and not I_CharacterTypeNearTile parthia family, 2 85,95
+	and not I_CharacterTypeNearTile parthia general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile roman_rebels general, 2 85,98
+	if I_CharacterTypeNearTile roman_rebels general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile roman_rebels family, 2 85,98
+	if I_CharacterTypeNearTile roman_rebels family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile roman_rebels family, 2 85,98
-	and not I_CharacterTypeNearTile roman_rebels general, 2 85,98
+	and not I_CharacterTypeNearTile roman_rebels family, 2 85,95
+	and not I_CharacterTypeNearTile roman_rebels general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 end_monitor
@@ -4878,8 +4887,7 @@ and I_CompareCounter Hadrumetum_undersiege = 1
 	if I_SettlementOwner Hadrumetum = carthage
 	and I_FactionBesieged carthage
     and I_CompareCounter Hadrumetum_undersiege = 1
-		set_counter Hadrumetum_undersiege 2
-        console_command create_unit Hadrumetum "carthaginian legionary" 2 0 2 2
+		console_command create_unit Hadrumetum "carthaginian legionary" 2 0 2 2
         console_command create_unit Hadrumetum "carthaginian sacred band infantry" 1 0 2 2
         console_command create_unit Hadrumetum "carthaginian heavy infantry" 3 0 2 2
         console_command create_unit Hadrumetum "carthaginian heavy swordsman" 4 1 2 2
@@ -4889,8 +4897,10 @@ and I_CompareCounter Hadrumetum_undersiege = 1
         console_command create_unit Hadrumetum "numidian cavalry" 3 3 2 2
         
         console_command add_money carthage, 40000
-if I_SettlementOwner Cirta != romans_scipii
-    
+  
+if I_SettlementOwner Hadrumetum = carthage
+	and I_FactionBesieged carthage
+    and I_SettlementOwner Cirta != romans_scipii
     console_command kill_character "Zeuxis"
             spawn_army
             faction carthage
@@ -4969,9 +4979,214 @@ end
             unit numidian cavalry, exp 5 armour 2 weapon_lvl 3
 end
 end_if
+set_counter Hadrumetum_undersiege 2
+end_if
+end_monitor
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Hadrumetum;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_counter Lepcis_Magna_undersiege
+set_counter Lepcis_Magna_undersiege 0
+monitor_event SettlementTurnStart SettlementName Lepcis_Magna
+and not SettlementIsLocal
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile romans_scipii general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_scipii family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile romans_scipii family, 2 96,75
+	and not I_CharacterTypeNearTile romans_scipii general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile numidia general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile numidia family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile numidia family, 2 96,75
+	and not I_CharacterTypeNearTile numidia general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile greek_cities general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile greek_cities family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile greek_cities family, 2 96,75
+	and not I_CharacterTypeNearTile greek_cities general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile thrace general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile thrace family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile thrace family, 2 96,75
+	and not I_CharacterTypeNearTile thrace general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile pontus general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile pontus family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile pontus family, 2 96,75
+	and not I_CharacterTypeNearTile pontus general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile romans_brutii general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_brutii family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile romans_brutii family, 2 96,75
+	and not I_CharacterTypeNearTile romans_brutii general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile seleucid general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile seleucid family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile seleucid family, 2 96,75
+	and not I_CharacterTypeNearTile seleucid general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile armenia general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile armenia family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile armenia family, 2 96,75
+	and not I_CharacterTypeNearTile armenia general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile egypt general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile egypt family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile egypt family, 2 96,75
+	and not I_CharacterTypeNearTile egypt general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile macedon general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile macedon family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile macedon family, 2 96,75
+	and not I_CharacterTypeNearTile macedon general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile parthia general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile parthia family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile parthia family, 2 96,75
+	and not I_CharacterTypeNearTile parthia general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
+end_if
+
+if I_CompareCounter Lepcis_Magna_undersiege = 0
+	and I_SettlementOwner Lepcis_Magna = carthage
+	if I_CharacterTypeNearTile roman_rebels general, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile roman_rebels family, 2 96,75
+		set_counter Lepcis_Magna_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Lepcis_Magna_undersiege = 2
+	and not I_CharacterTypeNearTile roman_rebels family, 2 96,75
+	and not I_CharacterTypeNearTile roman_rebels general, 2 96,75
+	set_counter Lepcis_Magna_undersiege 0
 end_if
 end_monitor
 
+monitor_event SettlementTurnEnd SettlementName Lepcis_Magna
+and not SettlementIsLocal
+and I_CompareCounter Lepcis_Magna_undersiege = 1
+	if I_SettlementOwner Lepcis_Magna = carthage
+	and I_FactionBesieged carthage
+    and I_CompareCounter Lepcis_Magna_undersiege = 1
+		console_command create_unit Lepcis_Magna "carthaginian legionary" 2 0 2 2
+        console_command create_unit Lepcis_Magna "carthaginian sacred band infantry" 1 0 2 2
+        console_command create_unit Lepcis_Magna "carthaginian heavy infantry" 3 0 2 2
+        console_command create_unit Lepcis_Magna "carthaginian heavy swordsman" 4 1 2 2
+		console_command create_unit Lepcis_Magna "carthaginian peltast" 2 1 2 2
+		console_command create_unit Lepcis_Magna "carthaginian archer" 1 1 2 2
+        console_command create_unit Lepcis_Magna "carthaginian cavalry royal" 2 1 2 2
+        console_command create_unit Lepcis_Magna "numidian cavalry" 3 3 2 2
+        
+        console_command add_money carthage, 40000
+        set_counter Lepcis_Magna_undersiege 2
+end_if
+end_monitor 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Carthago_Nova;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 declare_counter Carthago_Nova_undersiege
 set_counter Carthago_Nova_undersiege 0
@@ -5049,7 +5264,6 @@ and I_CompareCounter Carthago_Nova_undersiege = 1
 	if I_SettlementOwner Carthago_Nova = carthage
 	and I_FactionBesieged carthage
     and I_CompareCounter Carthago_Nova_undersiege = 1
-		set_counter Carthago_Nova_undersiege 2
 		console_command create_unit Carthago_Nova "carthaginian peltast" 2 1 1 1
 		console_command create_unit Carthago_Nova "carthaginian archer" 1 1 1 1
 		console_command create_unit Carthago_Nova "carthaginian heavy swordsman" 4 1 1 1
@@ -5060,6 +5274,7 @@ and I_CompareCounter Carthago_Nova_undersiege = 1
         console_command create_unit Carthago_Nova "numidian cavalry" 3 3 2 2
         
         console_command add_money carthage, 40000
+        set_counter Carthago_Nova_undersiege 2
 end_if
 end_monitor
 
@@ -6819,7 +7034,7 @@ spawn_army
 		unit barb infantry dacian, exp 3 armour 2 weapon_lvl 2
 		unit barb infantry dacian, exp 3 armour 2 weapon_lvl 2
 		unit barb infantry dacian, exp 3 armour 2 weapon_lvl 2
-		unit dacian sword warband, exp 2 armour 2 weapon_lvl 2
+		unit dacian sword warband, exp 3 armour 2 weapon_lvl 2
 		unit dacian sword warband, exp 3 armour 2 weapon_lvl 2
 		unit dacian sword warband, exp 3 armour 2 weapon_lvl 2
 		unit dacian sword warband, exp 3 armour 2 weapon_lvl 2
@@ -7039,7 +7254,7 @@ spawn_army
 		unit barb infantry dacian, exp 3 armour 2 weapon_lvl 2
 		unit barb infantry dacian, exp 3 armour 2 weapon_lvl 2
 		unit barb infantry dacian, exp 3 armour 2 weapon_lvl 2
-		unit dacian sword warband, exp 2 armour 2 weapon_lvl 2
+		unit dacian sword warband, exp 3 armour 2 weapon_lvl 2
 		unit dacian sword warband, exp 3 armour 2 weapon_lvl 2
 		unit dacian sword warband, exp 3 armour 2 weapon_lvl 2
 		unit dacian sword warband, exp 3 armour 2 weapon_lvl 2
@@ -8200,6 +8415,7 @@ and I_CompareCounter Campus_Siracae_undersiege = 1
         
         console_command add_money scythia, 40000
         if I_NumberOfSettlements scythia < 5
+        and I_FactionBesieged scythia
         console_command kill_character "Scylurus"
             spawn_army
 	faction scythia
@@ -8388,6 +8604,7 @@ and I_CompareCounter Campus_Aorsi_undersiege = 1
         
         console_command add_money scythia, 40000
         if I_NumberOfSettlements scythia < 5
+        and I_FactionBesieged scythia
         console_command kill_character "Scylurus"
             spawn_army
 	faction scythia
@@ -8531,6 +8748,7 @@ and I_CompareCounter Campus_Massagetae_undersiege = 1
         
         console_command add_money scythia, 40000
         if I_NumberOfSettlements scythia < 4
+        and I_FactionBesieged scythia
         console_command kill_character "Scylurus"
             spawn_army
 	faction scythia
@@ -8718,6 +8936,7 @@ and I_CompareCounter Campus_Roxolani_undersiege = 1
         console_command create_unit Campus_Roxolani "barb scythian nobles" 2 0 1 2
         console_command create_unit Campus_Roxolani "barb head hunting maidens scythian" 2 1 2 1
         if I_NumberOfSettlements scythia < 4
+        and I_FactionBesieged scythia
         console_command kill_character "Scylurus"
             spawn_army
 	faction scythia
@@ -8911,7 +9130,6 @@ and I_CompareCounter Alexandria_undersiege = 1
 	if I_SettlementOwner Alexandria = egypt
 	and I_FactionBesieged egypt
     and I_CompareCounter Alexandria_undersiege = 1
-		set_counter Alexandria_undersiege 2
 		console_command create_unit Alexandria "thureos swordsmen" 4 3 2 2
 		console_command create_unit Alexandria "thureos spears" 3 3 2 2
         console_command create_unit Alexandria "greek pikemen" 4 2 2 2
@@ -8923,6 +9141,7 @@ and I_CompareCounter Alexandria_undersiege = 1
 console_command add_money egypt, 40000
 if I_SettlementOwner Jerusalem != egypt
 and I_SettlementOwner Petra != egypt
+and I_FactionBesieged egypt
 spawn_army 
     faction egypt
     		character Teos, general, age 30, x 178, y 71
@@ -8948,6 +9167,7 @@ spawn_army
 			unit greek royal cavalry, exp 3 armour 1 weapon_lvl 1
             end        
 end_if
+set_counter Alexandria_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Memphis;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -9112,7 +9332,6 @@ and I_CompareCounter Memphis_undersiege = 1
 	if I_SettlementOwner Memphis = egypt
 	and I_FactionBesieged egypt
     and I_CompareCounter Memphis_undersiege = 1
-		set_counter Memphis_undersiege 2
         console_command create_unit Memphis "thureos swordsmen" 4 3 2 2
 		console_command create_unit Memphis "thureos spears" 3 3 2 2
         console_command create_unit Memphis "greek pikemen" 3 2 2 2
@@ -9124,6 +9343,7 @@ and I_CompareCounter Memphis_undersiege = 1
 console_command add_money egypt, 40000
 if I_SettlementOwner Jerusalem != egypt
 and I_SettlementOwner Thebes != egypt
+and I_FactionBesieged egypt
 spawn_army 
     faction egypt
     		character Teos, general, age 30, x 179, y 71
@@ -9149,6 +9369,7 @@ spawn_army
 			unit greek royal cavalry, exp 3 armour 1 weapon_lvl 1
             end        
 end_if
+set_counter Memphis_undersiege 2
 end_if
 end_monitor
 
@@ -9314,7 +9535,6 @@ and I_CompareCounter Thebes_undersiege = 1
 	if I_SettlementOwner Thebes = egypt
 	and I_FactionBesieged egypt
     and I_CompareCounter Thebes_undersiege = 1
-		set_counter Thebes_undersiege 2
         console_command create_unit Thebes "thureos swordsmen" 4 3 2 2
 		console_command create_unit Thebes "thureos spears" 3 3 2 2
         console_command create_unit Thebes "greek pikemen" 3 2 2 2
@@ -9326,6 +9546,7 @@ and I_CompareCounter Thebes_undersiege = 1
 		console_command create_unit Thebes "greek royal cavalry" 1 0 2 2
 
 console_command add_money egypt, 40000
+set_counter Thebes_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Amasia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -9520,7 +9741,6 @@ and I_CompareCounter Amasia_undersiege = 1
 	if I_SettlementOwner Amasia = pontus
 	and I_FactionBesieged pontus
     and I_CompareCounter Amasia_undersiege = 1
-		set_counter Amasia_undersiege 2
         console_command create_unit Amasia "heavy thureos swordsmen" 2 1 2 2
         console_command create_unit Amasia "thureos swordsmen" 5 1 2 2
 		console_command create_unit Amasia "east peltast" 1 1 2 2
@@ -9530,8 +9750,9 @@ and I_CompareCounter Amasia_undersiege = 1
         console_command create_unit Amasia "eastern heavy archer" 1 1 2 2
         console_command create_unit Amasia "east heavy cavalry" 2 1 2 2
         console_command create_unit Amasia "east cappodocian cavalry" 1 1 2 2
+        console_command add_money pontus, 40000
+        set_counter Amasia_undersiege 2
 end_if
-console_command add_money pontus, 40000
 end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Kotais;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -10696,7 +10917,6 @@ end_monitor
 monitor_event FactionTurnStart FactionType pontus
     and not FactionIsLocal
     and I_CompareCounter Pontus_emergency = 1
-    set_counter Pontus_emergency 2
 spawn_army
 faction pontus
 			character Thyrsos, general, age 30, x 189, y 133
@@ -10722,6 +10942,7 @@ faction pontus
 			unit east cappodocian cavalry, exp 3 armour 1 weapon_lvl 1
 end
 console_command add_money pontus, 40000
+set_counter Pontus_emergency 2
 end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Sinope;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -17069,6 +17290,13 @@ and not SettlementIsLocal
 and I_TurnNumber = 15
 and I_SettlementOwner Tomi = thrace
 console_command add_population Tomi 4000
+console_command add_population Cydaus 4000
+console_command add_population Lepcis_Magna 4000
+console_command add_population Lepcis_Magna 3000
+console_command add_population Cirta 4000
+console_command add_population Cirta 4000
+console_command add_population Siga 4000
+console_command add_population Siga 4000
 end_monitor
 
 monitor_event SettlementTurnStart SettlementName Thessalonica
@@ -17116,7 +17344,7 @@ and not SettlementIsLocal
 and I_SettlementOwner Phabiranum = germans
 and I_TurnNumber = 100
 console_command add_population Phabiranum 4000
-console_command add_population Phabiranum 3000
+console_command add_population Phabiranum 4000
 end_monitor
 
 monitor_event FactionTurnStart FactionIsLocal
@@ -17822,6 +18050,27 @@ monitor_event FactionTurnEnd FactionIsLocal
     console_command add_population Zadracarta 4000
     console_command add_population Zadracarta 4000
     console_command add_population Zadracarta 4000
+end_if
+if I_SettlementOwner Saguntum = gauls
+    console_command add_population Saguntum 4000
+    console_command add_population Saguntum 4000
+    console_command add_population Saguntum 4000
+    console_command add_population Saguntum 4000
+    console_command add_population Saguntum 4000
+end_if
+if I_SettlementOwner Emporion = gauls
+    console_command add_population Emporion 4000
+    console_command add_population Emporion 4000
+    console_command add_population Emporion 4000
+    console_command add_population Emporion 4000
+    console_command add_population Emporion 4000
+end_if
+if I_SettlementOwner Teutoburgum = spain
+    console_command add_population Teutoburgum 4000
+    console_command add_population Teutoburgum 4000
+    console_command add_population Teutoburgum 4000
+    console_command add_population Teutoburgum 4000
+    console_command add_population Teutoburgum 4000
 end_if
 	if I_SettlementOwner Hecatompylos = seleucid
     console_command add_population Hecatompylos 4000
@@ -18881,15 +19130,18 @@ end_if
 if I_CompareCounter narbone_conquering1 = 1
 and I_SettlementOwner Massilia = romans_scipii
 settlement_flash_stop Massilia
+set_counter narbone_conquering1 0
 end_if
 if I_CompareCounter narbone_conquering2 = 1
 and I_SettlementOwner Tolosa = romans_scipii
 settlement_flash_stop Tolosa
+set_counter narbone_conquering2 0
 end_if
 if I_CompareCounter narbone_conquering3 = 1
 and I_SettlementOwner Emporion = romans_scipii
 settlement_flash_stop Emporion
 advance_advice_thread senate_mission_peace_with_gauls_thread
+set_counter narbone_conquering3 0
 end_if
 end_monitor
 

@@ -3317,16 +3317,16 @@ settlement
 
 settlement
 {
-	level large_town
+	level city
 	region Sicilia_Poeni
 
 	year_founded 0
-	population 3000
+	population 5600
 	plan_set default_set
 	faction_creator carthage
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -3338,7 +3338,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -3391,24 +3391,28 @@ settlement
 	{
 		type hinterland_roads paved_roads
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
 {
-	level large_town
+	level city
 	region Byzacium
 
 	year_founded 0
-	population 2100
+	population 6100
 	plan_set default_set
 	faction_creator carthage
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -3417,6 +3421,18 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+        building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -3495,6 +3511,10 @@ settlement
 	{
 		type port_buildings port
 	}
+        building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -3534,11 +3554,15 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
+        building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
 {
-	level town
+	level large_town
 	region Tripolitania
 
 	year_founded 0
@@ -3547,7 +3571,7 @@ settlement
 	faction_creator carthage
         building
         {
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -3556,6 +3580,18 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type market trader
+	}
+        building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -3578,26 +3614,30 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
 		type port_buildings port
 	}
+        building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
 {
-	level town
+	level city
 	region Locus_Massyli
 
 	year_founded 0
-	population 1500
+	population 7000
 	plan_set default_set
 	faction_creator carthage
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
@@ -3605,7 +3645,11 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
+	}
+	building
+	{
+		type port_buildings port
 	}
 	building
 	{
@@ -3623,45 +3667,169 @@ ancillaries spymaster
 army
 unit		carthaginian general's cavalry				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian elephant forest				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian elephant forest				exp 2 armour 0 weapon_lvl 0
+
+character	Zimrida, general, age 25, , x 95, y 105 
+army
+unit		carthaginian cavalry royal				exp 1 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 3 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 3 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry royal				exp 2 armour 0 weapon_lvl 0
 
 character	Hasdrubal, named character, heir, age 45, , x 82, y 101
 traits NaturalMilitarySkill 3 , GoodDefender 1 , Intelligent 1 , Energetic 1 , GoodAmbusher 2
 ancillaries Herald
 army
 unit		carthaginian general's cavalry				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian city militia				exp 2 armour 1 weapon_lvl 1
-unit		carthaginian city militia				exp 2 armour 1 weapon_lvl 1
-unit		carthaginian city militia				exp 2 armour 1 weapon_lvl 1
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian cavalry royal				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry royal				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 2 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian elephant forest				exp 2 armour 0 weapon_lvl 0
 
 character	Burrhus, named character, age 41, , x 85, y 95 
 traits GoodAdministrator 2 , Intelligent 1 , PublicFaith 1 , GoodTrader 2
 ancillaries priest_of_Tanit, merchant
 army
 unit		carthaginian general's cavalry				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian city militia				exp 2 armour 1 weapon_lvl 1
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian cavalry royal				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry royal				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 2 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian heavy infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian elephant forest				exp 2 armour 0 weapon_lvl 0
 
 character	Theages, named character, age 23, , x 94, y 104
 traits GoodAdministrator 2 , PublicFaith 2
 ancillaries freeman_clerk, merchant
 army
 unit		carthaginian general's cavalry				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 1 armour 2 weapon_lvl 2
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 1 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 1 weapon_lvl 0
 
 character	Milkpilles, general, age 45, , x 87, y 90
 army
-unit		carthaginian city militia				exp 2 armour 2 weapon_lvl 1
-unit		carthaginian city militia				exp 2 armour 2 weapon_lvl 1
-unit		carthaginian peltast	
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 1 armour 2 weapon_lvl 2
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 1 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 1 weapon_lvl 0	
 
 ;aleria
 character	Milkpilles, general, age 45, , x 82, y 130
 army
-unit		carthaginian city militia				exp 2 armour 3 weapon_lvl 1
-unit		carthaginian city militia				exp 2 armour 3 weapon_lvl 1
-unit		carthaginian peltast				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 1 armour 2 weapon_lvl 2
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 1 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 1 weapon_lvl 0	
 
 character	Theodekles, named character, age 22, , x 35, y 111 
 traits GoodAdministrator 2
@@ -3670,8 +3838,23 @@ army
 unit		carthaginian general's cavalry				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 1 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian sacred band infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 1 armour 2 weapon_lvl 2
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		thureos spears				exp 2 armour 1 weapon_lvl 1
+unit		carthaginian heavy swordsman				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 1 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 1 weapon_lvl 0	
 
 
 character	Theophanes, named character, age 21, , x 12, y 111 
@@ -5563,15 +5746,52 @@ army
 unit		spartan general's guard cavalry				exp 2 armour 2 weapon_lvl 3
 unit		greek hoplite spartan				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
 
 character	Demetrios of Syracuse, general, age 20, , x 106, y 100
-traits GoodAdministrator 1 , Intelligent 1 , PublicFaith 1
 army
+unit		greek hoplite spartan				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite spartan				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
+unit		merc cretan archers			exp 2 armour 2 weapon_lvl 3
+unit		syracuse hoplite				exp 3 armour 1 weapon_lvl 1
+unit		syracuse hoplite				exp 3 armour 1 weapon_lvl 1
+unit		syracuse hoplite				exp 3 armour 1 weapon_lvl 1
+unit		syracuse hoplite				exp 3 armour 1 weapon_lvl 1
+unit		greek heavy peltast				exp 3 armour 1 weapon_lvl 1
+unit		greek heavy peltast				exp 3 armour 1 weapon_lvl 1
+unit		hellenic slingers				exp 3 armour 1 weapon_lvl 1
+unit		greek spartan light hoplite				exp 3 armour 1 weapon_lvl 1
+unit		greek spartan light hoplite				exp 3 armour 1 weapon_lvl 1
+unit		spartan thorakitai				exp 3 armour 1 weapon_lvl 1
+unit		greek armoured heavy cavalry				exp 3 armour 1 weapon_lvl 1
+unit		greek armoured heavy cavalry				exp 3 armour 1 weapon_lvl 1
+
+character	Demetrios, general, age 20, , x 105, y 100
+army
+unit		greek hoplite spartan				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite spartan				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 3 armour 1 weapon_lvl 1
+unit		merc cretan archers			exp 2 armour 2 weapon_lvl 3
+unit		syracuse hoplite				exp 3 armour 1 weapon_lvl 1
+unit		syracuse hoplite				exp 3 armour 1 weapon_lvl 1
+unit		syracuse hoplite				exp 3 armour 1 weapon_lvl 1
+unit		syracuse hoplite				exp 3 armour 1 weapon_lvl 1
+unit		greek heavy peltast				exp 3 armour 1 weapon_lvl 1
+unit		greek heavy peltast				exp 3 armour 1 weapon_lvl 1
+unit		hellenic slingers				exp 3 armour 1 weapon_lvl 1
+unit		greek spartan light hoplite				exp 3 armour 1 weapon_lvl 1
+unit		greek spartan light hoplite				exp 3 armour 1 weapon_lvl 1
+unit		spartan thorakitai				exp 3 armour 1 weapon_lvl 1
+unit		greek armoured heavy cavalry				exp 3 armour 1 weapon_lvl 1
+unit		greek armoured heavy cavalry				exp 3 armour 1 weapon_lvl 1
 
 ;Crete
 character	Kallipos, general, age 20, , x 146, y 94
@@ -5626,6 +5846,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
@@ -5649,6 +5873,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
@@ -5671,6 +5899,10 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -5698,7 +5930,11 @@ settlement
 	building
 	{
 		type barracks muster_field
-	}		
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
@@ -5725,7 +5961,11 @@ settlement
 	building
 	{
 		type barracks muster_field
-	}		
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}	
 }
 
 character	Zipoetes, named character, leader, age 50, , x 185, y 182 
@@ -7725,16 +7965,16 @@ settlement
 
 settlement
 {
-	level large_town
+	level city
 	region Numidia
 
 	year_founded 0
-	population 1800
+	population 6800
 	plan_set default_set
 	faction_creator carthage
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -8504,31 +8744,50 @@ unit		barb archer dacian				exp 3 armour 0 weapon_lvl 0
 character	sub_faction gauls, Diviciacus, general, age 22, , x 83, y 140
 army
 unit		etruscan heavy infantry				exp 2 armour 0 weapon_lvl 0
+unit		etruscan heavy infantry				exp 2 armour 0 weapon_lvl 0
 unit		etruscan archer				exp 1 armour 0 weapon_lvl 0
 unit		etruscan archer				exp 1 armour 0 weapon_lvl 0
 unit		etruscan hoplite militia				exp 2 armour 0 weapon_lvl 1
 unit		etruscan hoplite militia				exp 2 armour 0 weapon_lvl 1
 unit		etruscan hoplite militia				exp 2 armour 0 weapon_lvl 1
+unit		etruscan hoplite militia				exp 2 armour 0 weapon_lvl 1
+unit		etruscan light infantry				exp 2 armour 0 weapon_lvl 0
+unit		etruscan light infantry				exp 2 armour 0 weapon_lvl 0
 unit		etruscan light infantry				exp 2 armour 0 weapon_lvl 0
 unit		etruscan light infantry				exp 2 armour 0 weapon_lvl 0
 unit		etruscan light infantry				exp 2 armour 0 weapon_lvl 0
 unit		etruscan light infantry				exp 2 armour 0 weapon_lvl 0
 unit		etruscan heavy spearman				exp 2 armour 0 weapon_lvl 0
 unit		etruscan heavy spearman				exp 2 armour 0 weapon_lvl 0
+unit		etruscan machairophoroi				exp 2 armour 0 weapon_lvl 0
+unit		etruscan machairophoroi				exp 2 armour 0 weapon_lvl 0
 unit		etruscan machairophoroi				exp 2 armour 0 weapon_lvl 0
 unit		etruscan machairophoroi				exp 2 armour 0 weapon_lvl 0
 
-;Transalpine_Gaul
+;Transalpine_Gaul;;;;;Massilia
 character	sub_faction greek_cities, Cleon, general, age 20, , x 67, y 138
 army
-unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite		exp 3 armour 1 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 1 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 1 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 1 weapon_lvl 1
+unit		greek medium cavalry				exp 7 armour 3 weapon_lvl 3
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
+unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
 unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
 unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
 unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+
 
 ;Epirus
 character	sub_faction greek_cities, Pyrrhus, general, age 20, , x 125, y 119
@@ -8744,7 +9003,7 @@ unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
 
-;Sicilia_Romanus
+;Sicilia_Romanus;;;;;Messana
 character	sub_faction greek_cities, Pentheus, general, age 20, , x 106, y 107
 army
 unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
@@ -8752,20 +9011,86 @@ unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
 unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
 unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
 unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
-unit		greek hoplite militia				exp 3 armour 2 weapon_lvl 2
-unit		greek hoplite militia				exp 3 armour 2 weapon_lvl 2
-unit		greek hoplite militia				exp 3 armour 2 weapon_lvl 2
-unit		greek hoplite militia				exp 3 armour 2 weapon_lvl 2
-unit		greek hoplite militia				exp 3 armour 2 weapon_lvl 2
-unit		greek hoplite militia				exp 3 armour 2 weapon_lvl 2
-unit		greek hoplite militia				exp 3 armour 2 weapon_lvl 2
-unit		greek hoplite militia				exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite militia				exp 3 armour 3 weapon_lvl 2
+unit		greek hoplite militia				exp 3 armour 3 weapon_lvl 2
+unit		greek hoplite militia				exp 3 armour 3 weapon_lvl 2
+unit		greek hoplite militia				exp 3 armour 3 weapon_lvl 2
+unit		greek hoplite militia				exp 3 armour 3 weapon_lvl 2
+unit		greek hoplite militia				exp 3 armour 3 weapon_lvl 2
+unit		greek hoplite militia				exp 3 armour 3 weapon_lvl 2
+unit		greek hoplite militia				exp 3 armour 3 weapon_lvl 2
 unit		greek peltast			exp 3 armour 2 weapon_lvl 2
 unit		greek peltast			exp 3 armour 2 weapon_lvl 2
 unit		greek peltast			exp 3 armour 2 weapon_lvl 2
 unit		greek peltast			exp 3 armour 2 weapon_lvl 2
 unit		greek peltast			exp 3 armour 2 weapon_lvl 2
 unit		greek peltast			exp 3 armour 2 weapon_lvl 2
+
+character	sub_faction greek_cities, Pentheus, general, age 20, , x 105, y 107
+army
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		samnite spearman				exp 3 armour 3 weapon_lvl 2
+unit		samnite spearman				exp 3 armour 3 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek medium cavalry			exp 3 armour 2 weapon_lvl 2
+unit		greek medium cavalry			exp 3 armour 2 weapon_lvl 2
+
+character	sub_faction greek_cities, Parmenides, general, age 21, , x 104, y 107
+army
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		samnite spearman				exp 3 armour 3 weapon_lvl 2
+unit		samnite spearman				exp 3 armour 3 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek medium cavalry			exp 3 armour 2 weapon_lvl 2
+unit		greek medium cavalry			exp 3 armour 2 weapon_lvl 2
+
+character	sub_faction greek_cities, Pentheus, general, age 20, , x 106, y 106
+army
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		samnite spearman				exp 3 armour 3 weapon_lvl 2
+unit		samnite spearman				exp 3 armour 3 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek medium cavalry			exp 3 armour 2 weapon_lvl 2
+unit		greek medium cavalry			exp 3 armour 2 weapon_lvl 2
 
 ;Caledonia
 character	sub_faction gauls, Aneirin, general, age 20, , x 50, y 216

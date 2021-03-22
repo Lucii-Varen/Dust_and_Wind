@@ -2697,7 +2697,7 @@ model_sprite		slave, 70.0, civ/data/sprites/east_hillmen_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				east_cappodocian_cavalry
-skeleton			fs_hc_spearman1, fs_hc_swordsman1
+skeleton			fs_thp_m_spearman, fs_hc_swordsman1
 indiv_range			40
 texture				pontus, civ/data/new/models_units/textures/unit_eastern_cappodocean_cavalry_pontus.tga
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_EASTERN_HEAVY_CAVALRY_BAKTRIAN.TGA

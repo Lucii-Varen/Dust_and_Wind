@@ -8116,256 +8116,256 @@ monitor_event SettlementTurnStart SettlementName Hadrumetum
 and not SettlementIsLocal
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile romans_scipii general, 2 85,98
+	if I_CharacterTypeNearTile romans_scipii general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_scipii family, 2 85,98
+	if I_CharacterTypeNearTile romans_scipii family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile romans_scipii family, 2 85,98
-	and not I_CharacterTypeNearTile romans_scipii general, 2 85,98
+	and not I_CharacterTypeNearTile romans_scipii family, 2 85,95
+	and not I_CharacterTypeNearTile romans_scipii general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile numidia general, 2 85,98
+	if I_CharacterTypeNearTile numidia general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile numidia family, 2 85,98
+	if I_CharacterTypeNearTile numidia family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile numidia family, 2 85,98
-	and not I_CharacterTypeNearTile numidia general, 2 85,98
+	and not I_CharacterTypeNearTile numidia family, 2 85,95
+	and not I_CharacterTypeNearTile numidia general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile greek_cities general, 2 85,98
+	if I_CharacterTypeNearTile greek_cities general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile greek_cities family, 2 85,98
+	if I_CharacterTypeNearTile greek_cities family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile greek_cities family, 2 85,98
-	and not I_CharacterTypeNearTile greek_cities general, 2 85,98
+	and not I_CharacterTypeNearTile greek_cities family, 2 85,95
+	and not I_CharacterTypeNearTile greek_cities general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile thrace general, 2 85,98
+	if I_CharacterTypeNearTile thrace general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile thrace family, 2 85,98
+	if I_CharacterTypeNearTile thrace family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile thrace family, 2 85,98
-	and not I_CharacterTypeNearTile thrace general, 2 85,98
+	and not I_CharacterTypeNearTile thrace family, 2 85,95
+	and not I_CharacterTypeNearTile thrace general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile pontus general, 2 85,98
+	if I_CharacterTypeNearTile pontus general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile pontus family, 2 85,98
+	if I_CharacterTypeNearTile pontus family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile pontus family, 2 85,98
-	and not I_CharacterTypeNearTile pontus general, 2 85,98
+	and not I_CharacterTypeNearTile pontus family, 2 85,95
+	and not I_CharacterTypeNearTile pontus general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile romans_brutii general, 2 85,98
+	if I_CharacterTypeNearTile romans_brutii general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_brutii family, 2 85,98
+	if I_CharacterTypeNearTile romans_brutii family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile romans_brutii family, 2 85,98
-	and not I_CharacterTypeNearTile romans_brutii general, 2 85,98
+	and not I_CharacterTypeNearTile romans_brutii family, 2 85,95
+	and not I_CharacterTypeNearTile romans_brutii general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile gauls general, 2 85,98
+	if I_CharacterTypeNearTile gauls general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile gauls family, 2 85,98
+	if I_CharacterTypeNearTile gauls family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile gauls family, 2 85,98
-	and not I_CharacterTypeNearTile gauls general, 2 85,98
+	and not I_CharacterTypeNearTile gauls family, 2 85,95
+	and not I_CharacterTypeNearTile gauls general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile seleucid general, 2 85,98
+	if I_CharacterTypeNearTile seleucid general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile seleucid family, 2 85,98
+	if I_CharacterTypeNearTile seleucid family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile seleucid family, 2 85,98
-	and not I_CharacterTypeNearTile seleucid general, 2 85,98
+	and not I_CharacterTypeNearTile seleucid family, 2 85,95
+	and not I_CharacterTypeNearTile seleucid general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile dacia general, 2 85,98
+	if I_CharacterTypeNearTile dacia general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile dacia family, 2 85,98
+	if I_CharacterTypeNearTile dacia family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile dacia family, 2 85,98
-	and not I_CharacterTypeNearTile dacia general, 2 85,98
+	and not I_CharacterTypeNearTile dacia family, 2 85,95
+	and not I_CharacterTypeNearTile dacia general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile spain general, 2 85,98
+	if I_CharacterTypeNearTile spain general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile spain family, 2 85,98
+	if I_CharacterTypeNearTile spain family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile spain family, 2 85,98
-	and not I_CharacterTypeNearTile spain general, 2 85,98
+	and not I_CharacterTypeNearTile spain family, 2 85,95
+	and not I_CharacterTypeNearTile spain general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile romans_julii general, 2 85,98
+	if I_CharacterTypeNearTile romans_julii general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_julii family, 2 85,98
+	if I_CharacterTypeNearTile romans_julii family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile romans_julii family, 2 85,98
-	and not I_CharacterTypeNearTile romans_julii general, 2 85,98
+	and not I_CharacterTypeNearTile romans_julii family, 2 85,95
+	and not I_CharacterTypeNearTile romans_julii general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile germans general, 2 85,98
+	if I_CharacterTypeNearTile germans general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile germans family, 2 85,98
+	if I_CharacterTypeNearTile germans family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile germans family, 2 85,98
-	and not I_CharacterTypeNearTile germans general, 2 85,98
+	and not I_CharacterTypeNearTile germans family, 2 85,95
+	and not I_CharacterTypeNearTile germans general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile armenia general, 2 85,98
+	if I_CharacterTypeNearTile armenia general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile armenia family, 2 85,98
+	if I_CharacterTypeNearTile armenia family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile armenia family, 2 85,98
-	and not I_CharacterTypeNearTile armenia general, 2 85,98
+	and not I_CharacterTypeNearTile armenia family, 2 85,95
+	and not I_CharacterTypeNearTile armenia general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile egypt general, 2 85,98
+	if I_CharacterTypeNearTile egypt general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile egypt family, 2 85,98
+	if I_CharacterTypeNearTile egypt family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile egypt family, 2 85,98
-	and not I_CharacterTypeNearTile egypt general, 2 85,98
+	and not I_CharacterTypeNearTile egypt family, 2 85,95
+	and not I_CharacterTypeNearTile egypt general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile macedon general, 2 85,98
+	if I_CharacterTypeNearTile macedon general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile macedon family, 2 85,98
+	if I_CharacterTypeNearTile macedon family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile macedon family, 2 85,98
-	and not I_CharacterTypeNearTile macedon general, 2 85,98
+	and not I_CharacterTypeNearTile macedon family, 2 85,95
+	and not I_CharacterTypeNearTile macedon general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile parthia general, 2 85,98
+	if I_CharacterTypeNearTile parthia general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile parthia family, 2 85,98
+	if I_CharacterTypeNearTile parthia family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile parthia family, 2 85,98
-	and not I_CharacterTypeNearTile parthia general, 2 85,98
+	and not I_CharacterTypeNearTile parthia family, 2 85,95
+	and not I_CharacterTypeNearTile parthia general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 
 if I_CompareCounter Hadrumetum_undersiege = 0
 	and I_SettlementOwner Hadrumetum = carthage
-	if I_CharacterTypeNearTile roman_rebels general, 2 85,98
+	if I_CharacterTypeNearTile roman_rebels general, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile roman_rebels family, 2 85,98
+	if I_CharacterTypeNearTile roman_rebels family, 2 85,95
 		set_counter Hadrumetum_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Hadrumetum_undersiege = 2
-	and not I_CharacterTypeNearTile roman_rebels family, 2 85,98
-	and not I_CharacterTypeNearTile roman_rebels general, 2 85,98
+	and not I_CharacterTypeNearTile roman_rebels family, 2 85,95
+	and not I_CharacterTypeNearTile roman_rebels general, 2 85,95
 	set_counter Hadrumetum_undersiege 0
 end_if
 end_monitor

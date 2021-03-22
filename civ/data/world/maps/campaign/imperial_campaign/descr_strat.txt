@@ -5682,6 +5682,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
