@@ -367,7 +367,7 @@ building barracks
                 recruit "polybian legion"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national1 and building_present_min_level hinterland_reform reform2 and not building_present_min_level hinterland_reform reform3
 		;;;;;;;;;;;;;Allies;;;;;;;;;;;;;;;;;;;
                 recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, } 
-                recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and not building_present_min_level hinterland_reform reform2 
+                recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource etruscans and not building_present_min_level hinterland_reform reform2 
 		recruit "samnite hastati"  0  requires factions { roman_rebels, } and building_factions { slave, }
 		recruit "samnite hastati"  0  requires factions { romans_scipii, } and building_factions { slave, }
 		recruit "samnite hastati"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
@@ -647,7 +647,7 @@ building barracks
                 recruit "roman_early legionary v macedonica"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource V_MACEDONICA and building_present_min_level regions national2 and building_present_min_level hinterland_reform reform4 and not building_present_min_level hinterland_reform reform5 
 		;;;;;;;;Allies;;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, } 
-                recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and not building_present_min_level hinterland_reform reform2 
+                recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource etruscans and not building_present_min_level hinterland_reform reform2 
 		recruit "samnite hastati"  0  requires factions { roman_rebels, } and building_factions { slave, }
 		recruit "samnite hastati"  0  requires factions { romans_scipii, } and building_factions { slave, }
 		recruit "samnite hastati"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
@@ -1029,7 +1029,7 @@ building barracks
                 recruit "roman_early legionary v macedonica"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource V_MACEDONICA and building_present_min_level regions national2 and building_present_min_level hinterland_reform reform4 and not building_present_min_level hinterland_reform reform5 
 		;;;;;;;;Allies;;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, } 
-                recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and not building_present_min_level hinterland_reform reform2 
+                recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource etruscans and not building_present_min_level hinterland_reform reform2 
 		recruit "samnite hastati"  0  requires factions { roman_rebels, } and building_factions { slave, }
 		recruit "samnite hastati"  0  requires factions { romans_scipii, } and building_factions { slave, }
 		recruit "samnite hastati"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
@@ -1482,7 +1482,7 @@ building barracks
                 recruit "roman_early legionary v macedonica"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource V_MACEDONICA and building_present_min_level regions national2 and building_present_min_level hinterland_reform reform4 and not building_present_min_level hinterland_reform reform5 
 		;;;;;;;;;;;;;;;Allies;;;;;;;;;;;;;;;
                 recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, } 
-                recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and not building_present_min_level hinterland_reform reform2 
+                recruit "etruscan light infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource etruscans and not building_present_min_level hinterland_reform reform2 
 		recruit "samnite hastati"  0  requires factions { roman_rebels, } and building_factions { slave, }
 		recruit "samnite hastati"  0  requires factions { romans_scipii, } and building_factions { slave, }
 		recruit "samnite hastati"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
