@@ -16804,7 +16804,7 @@ and I_CompareCounter Thospia_undersiege = 1
 if I_NumberOfSettlements armenia < 3
 spawn_army 
     faction armenia
-    character Ziaelas, general, age 29, x 222, y 188
+    character Ziaelas, general, age 29, x 222, y 133
 		unit east generals cavalry, exp 3 armour 1 weapon_lvl 1
 		unit east infantry, exp 3 armour 1 weapon_lvl 1
 		unit east infantry, exp 3 armour 1 weapon_lvl 1

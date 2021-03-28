@@ -2045,14 +2045,14 @@ building equestrian
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "roman cavalry auxillia"  0  requires factions { romans_scipii, roman_rebels, } and marian_reforms
                 recruit "roman light cavalry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
-                recruit "roman light cavalry"  0  requires factions { romans_scipii, roman_rebels, } and building_present_min_level regions national1 and not building_present_min_level hinterland_reform reform4 
+                recruit "roman light cavalry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national1 and not building_present_min_level hinterland_reform reform4 
                 recruit "roman heavy equites"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
-                recruit "roman heavy equites"  0  requires factions { romans_scipii, roman_rebels, } and building_present_min_level regions national2 and not building_present_min_level hinterland_reform reform4 
+                recruit "roman heavy equites"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national2 and not building_present_min_level hinterland_reform reform4 
 
 		recruit "roman medium cavalry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
 		recruit "roman medium cavalry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national1 and building_present_min_level hinterland_reform reform4
                 recruit "roman early heavy cavalry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
-                recruit "roman early heavy cavalry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level regions national2 and building_present_min_level hinterland_reform reform4
+                recruit "roman early heavy cavalry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and building_present_min_level hinterland_reform reform4 and building_present_min_level regions national2
 		;;;;;;;;;;;;Allies;;;;;;;;;;;;;;;;;;;;
                 recruit "carthaginian longshield cavalry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
                 recruit "carthaginian longshield cavalry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource africa and not building_present_min_level hinterland_reform reform4

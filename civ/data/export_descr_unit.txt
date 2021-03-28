@@ -2336,7 +2336,7 @@ soldier          carthage_numidian_cavalry, 35, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, hardy, cantabrian_circle, mercenary_unit
-formation        3, 4, 6, 6, 4, square
+formation        2, 4, 4, 5, 6, square
 stat_health      1, 1
 stat_pri         9, 3, heavy_javelin, 50, 6, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
@@ -11077,7 +11077,7 @@ dictionary       JEDI      ; JEDI
 category         infantry
 class            heavy
 voice_type       Light_1
-soldier          JEDI, 12, 0, 1, 0.25
+soldier          JEDI, 12, 0, 10, 0.2
 attributes       sea_faring, hide_forest, very_hardy, warcry
 formation        1, 1.2, 3, 3, 15, square
 stat_health      15, 15

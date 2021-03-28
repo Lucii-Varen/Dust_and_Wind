@@ -2337,7 +2337,7 @@ soldier          carthage_numidian_cavalry, 35, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, hardy, cantabrian_circle, mercenary_unit
-formation        3, 4, 6, 6, 4, square
+formation        2, 4, 4, 5, 6, square
 stat_health      1, 1
 stat_pri         9, 3, heavy_javelin, 50, 6, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown

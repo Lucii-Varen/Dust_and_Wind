@@ -5299,7 +5299,7 @@ model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_ROMA
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				eastern_heavy_infantry
-skeleton			fs_s1_hoplite_heavy, fs_s1_swordsman									; combat spear
+skeleton			fs_gladius, fs_s1_swordsman									; combat spear
 indiv_range			40
 texture				armenia, civ/data/new/models_units/textures/UNIT_EASTERN_ARMENIAN_HEAVY_INFANTRY.TGA
 model_flexi			civ/data/new/models_units/UNIT_EASTERN_ARMENIAN_HEAVY_INFANTRY.cas, 15
@@ -6703,7 +6703,7 @@ model_sprite		merc, 60.0, civ/data/sprites/slave_greek_male_peasant_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				JEDI
-skeleton			fs_assassins							;fs_semi_fast_swordsman
+skeleton			fs_zerg_rush	;fs_assassins							;fs_semi_fast_swordsman
 indiv_range			40
 texture				slave, civ/data/new/models_units/textures/UNIT_SLAVE_JEDI.TGA
 model_flexi			civ/data/new/models_units/UNIT_SLAVE_JEDI.cas, 15

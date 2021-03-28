@@ -5335,7 +5335,7 @@ model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_ROMA
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				eastern_heavy_infantry
-skeleton			fs_s1_hoplite_heavy, fs_s1_swordsman									; combat spear
+skeleton			fs_gladius, fs_s1_swordsman									; combat spear
 indiv_range			40
 texture				armenia, civ/data/new/models_units/textures/UNIT_EASTERN_ARMENIAN_HEAVY_INFANTRY.TGA
 model_flexi			civ/data/new/models_units/UNIT_EASTERN_ARMENIAN_HEAVY_INFANTRY.cas, 15

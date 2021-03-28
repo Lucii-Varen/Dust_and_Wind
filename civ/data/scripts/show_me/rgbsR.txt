@@ -11628,13 +11628,13 @@ and I_CompareCounter Ecbatana_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Ecbatana_undersiege = 1
 		set_counter Ecbatana_undersiege 2
-        console_command create_unit Ecbatana "eastern heavy infantry parthia" 1 0 2 2
+        console_command create_unit Ecbatana "eastern heavy infantry parthia" 2 0 2 2
         console_command create_unit Ecbatana "parthian thureophoroi" 3 1 2 2
         console_command create_unit Ecbatana "eastern auxilia" 3 2 2 2
-		console_command create_unit Ecbatana "east persian cavalry" 2 0 2 2
-        console_command create_unit Ecbatana "eastern cavalry" 2 0 2 2
-        console_command create_unit Ecbatana "east peltast" 2 2 2 2
-        console_command create_unit Ecbatana "parthian takabara" 3 2 2 2
+		console_command create_unit Ecbatana "east persian cavalry" 3 0 2 2
+        console_command create_unit Ecbatana "eastern cavalry" 4 1 2 2
+        console_command create_unit Ecbatana "east peltast" 1 2 2 2
+        console_command create_unit Ecbatana "parthian takabara" 2 2 2 2
         console_command create_unit Ecbatana "east infantry" 2 2 2 2
 end_if
 end_monitor
@@ -11772,14 +11772,14 @@ and I_CompareCounter Susa_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Susa_undersiege = 1
 		set_counter Susa_undersiege 2
-        console_command create_unit Susa "eastern heavy infantry parthia" 1 0 2 2
+        console_command create_unit Susa "eastern heavy infantry parthia" 2 0 2 2
         console_command create_unit Susa "parthian thureophoroi" 3 1 2 2
 		console_command create_unit Susa "eastern auxilia" 2 2 2 2
         console_command create_unit Susa "east persian cavalry" 2 0 2 2
-        console_command create_unit Susa "eastern cavalry" 2 1 2 2
+        console_command create_unit Susa "eastern cavalry" 4 1 2 2
         console_command create_unit Susa "parthian takabara" 4 2 2 2
 		console_command create_unit Susa "east infantry" 2 2 2 2
-        console_command create_unit Susa "east peltast" 2 1 2 2
+        console_command create_unit Susa "east peltast" 1 1 2 2
 
 end_if
 end_monitor
@@ -11933,14 +11933,14 @@ and I_CompareCounter Charax_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Charax_undersiege = 1
 		set_counter Charax_undersiege 2
-        console_command create_unit Charax "eastern heavy infantry parthia" 1 0 2 2
+        console_command create_unit Charax "eastern heavy infantry parthia" 2 0 2 2
         console_command create_unit Charax "parthian thureophoroi" 3 1 2 2
 		console_command create_unit Charax "eastern auxilia" 2 1 2 2
         console_command create_unit Charax "east persian cavalry" 2 0 2 2
-        console_command create_unit Charax "eastern cavalry" 2 0 2 2
-        console_command create_unit Charax "parthian takabara" 3 2 2 2
+        console_command create_unit Charax "eastern cavalry" 4 0 2 2
+        console_command create_unit Charax "parthian takabara" 4 2 2 2
         console_command create_unit Charax "east infantry" 2 2 2 2
-        console_command create_unit Charax "east peltast" 2 2 2 2
+        console_command create_unit Charax "east peltast" 1 2 2 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Zadracarta;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -12080,8 +12080,8 @@ and I_CompareCounter Zadracarta_undersiege = 1
         console_command create_unit Zadracarta "parthian thureophoroi" 3 3 2 2
         console_command create_unit Zadracarta "eastern auxilia" 2 2 2 2
         console_command create_unit Zadracarta "east persian cavalry" 2 2 2 2
-        console_command create_unit Zadracarta "eastern cavalry" 2 2 2 2
-        console_command create_unit Zadracarta "parthian takabara" 2 3 2 2
+        console_command create_unit Zadracarta "eastern cavalry" 4 2 2 2
+        console_command create_unit Zadracarta "parthian takabara" 4 3 2 2
 		console_command create_unit Zadracarta "east peltast" 1 3 2 2
 		console_command create_unit Zadracarta "east infantry" 2 4 2 2
         console_command add_money parthia, 20000
@@ -12225,8 +12225,8 @@ and I_CompareCounter Apamea_undersiege = 1
         console_command create_unit Apamea "parthian thureophoroi" 3 3 2 2
         console_command create_unit Apamea "eastern auxilia" 2 2 2 2
         console_command create_unit Apamea "east persian cavalry" 2 2 2 2
-        console_command create_unit Apamea "eastern cavalry" 2 2 2 2
-        console_command create_unit Apamea "parthian takabara" 2 3 2 2
+        console_command create_unit Apamea "eastern cavalry" 4 2 2 2
+        console_command create_unit Apamea "parthian takabara" 4 3 2 2
 		console_command create_unit Apamea "east peltast" 1 3 2 2
 		console_command create_unit Apamea "east infantry" 2 4 2 2
         console_command add_money parthia, 20000
@@ -12369,8 +12369,8 @@ and I_CompareCounter Hecatompylos_undersiege = 1
         console_command create_unit Hecatompylos "parthian thureophoroi" 3 3 2 2
         console_command create_unit Hecatompylos "eastern auxilia" 2 2 2 2
         console_command create_unit Hecatompylos "east persian cavalry" 2 2 2 2
-        console_command create_unit Hecatompylos "eastern cavalry" 2 2 2 2
-        console_command create_unit Hecatompylos "parthian takabara" 2 3 2 2
+        console_command create_unit Hecatompylos "eastern cavalry" 4 2 2 2
+        console_command create_unit Hecatompylos "parthian takabara" 4 3 2 2
 		console_command create_unit Hecatompylos "east peltast" 1 3 2 2
 		console_command create_unit Hecatompylos "east infantry" 2 4 2 2
         console_command add_money parthia, 20000
@@ -12495,11 +12495,11 @@ and I_CompareCounter Asaak_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Asaak_undersiege = 1
 		set_counter Asaak_undersiege 2
-        console_command create_unit Asaak "eastern heavy infantry parthia" 2 2 2 2
+        console_command create_unit Asaak "eastern heavy infantry parthia" 2 3 2 2
         console_command create_unit Asaak "parthian thureophoroi" 3 3 2 2
-        console_command create_unit Asaak "eastern auxilia" 2 2 2 2
-        console_command create_unit Asaak "east persian cavalry" 2 2 2 2
-        console_command create_unit Asaak "eastern cavalry" 2 2 2 2
+        console_command create_unit Asaak "eastern auxilia" 2 3 2 2
+        console_command create_unit Asaak "east persian cavalry" 2 3 2 2
+        console_command create_unit Asaak "eastern cavalry" 4 3 2 2
         console_command create_unit Asaak "parthian takabara" 2 3 2 2
 		console_command create_unit Asaak "east peltast" 1 3 2 2
 		console_command create_unit Asaak "east heavy sparabara" 2 4 2 2
@@ -12605,7 +12605,7 @@ and I_CompareCounter Nisa_undersiege = 1
         console_command create_unit Nisa "parthian thureophoroi" 3 3 2 2
         console_command create_unit Nisa "eastern auxilia" 2 3 2 2
         console_command create_unit Nisa "east persian cavalry" 2 3 2 2
-        console_command create_unit Nisa "eastern cavalry" 2 3 2 2
+        console_command create_unit Nisa "eastern cavalry" 4 3 2 2
         console_command create_unit Nisa "parthian takabara" 4 3 2 2
 		console_command create_unit Nisa "east peltast" 1 3 2 3		
 		console_command create_unit Nisa "east heavy sparabara" 2 4 2 2
@@ -13651,7 +13651,7 @@ and I_CompareCounter Thospia_undersiege = 1
 if I_NumberOfSettlements armenia < 3
 spawn_army 
     faction armenia
-    character Ziaelas, general, age 29, x 222, y 188
+    character Ziaelas, general, age 29, x 222, y 133
 		unit east generals cavalry, exp 3 armour 1 weapon_lvl 1
 		unit east infantry, exp 3 armour 1 weapon_lvl 1
 		unit east infantry, exp 3 armour 1 weapon_lvl 1
@@ -17345,10 +17345,11 @@ and I_SettlementOwner Phabiranum = germans
 and I_TurnNumber = 100
 console_command add_population Phabiranum 4000
 console_command add_population Phabiranum 4000
+console_command process_cq Halicarnasus
 end_monitor
 
 monitor_event FactionTurnStart FactionIsLocal
-and I_TurnNumber = 50
+and I_TurnNumber = 60
 console_command add_population Prophthasia 4000
 console_command add_population Prophthasia 4000
 console_command add_population Alexandria_Oxiana 4000
@@ -17361,10 +17362,28 @@ console_command add_population Palmyra 4000
 console_command add_population Palmyra 4000
 console_command add_population Apamea 4000
 console_command add_population Apamea 4000
+console_command add_population Apameia 4000
+console_command add_population Apameia 4000
+console_command add_population Ancyra 4000
+console_command add_population Ancyra 4000
 console_command add_population Tabae 4000
 console_command add_population Tabae 4000
 console_command add_population Hecatompylos 4000
 console_command add_population Hecatompylos 3000
+console_command add_population Amasia 4000
+console_command add_population Amasia 3000
+console_command add_population Halicarnasus 4000
+console_command add_population Halicarnasus 3000
+console_command add_population Ecbatana 4000
+console_command add_population Ecbatana 4000
+console_command add_population Charax 4000
+console_command add_population Charax 4000
+console_command add_population Nicomedia 4000
+console_command add_population Nicomedia 4000
+console_command add_population Zarang 4000
+console_command add_population Zarang 4000
+console_command add_population Pura 4000
+console_command add_population Pura 4000
 end_monitor
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -17854,7 +17873,7 @@ end_monitor
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;diplomatic stance;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-monitor_event FactionTurnStart FactionIsLocal
+monitor_event FactionTurnEnd FactionIsLocal
 if I_SettlementOwner Tarsus = seleucid
 and not I_LocalFaction seleucid
 and not I_LocalFaction pontus
@@ -17976,9 +17995,52 @@ if not I_LocalFaction germans
 end_if
 
 if I_SettlementOwner Vienna = spain
-and not I_LocalFaction gauls
-and not I_LocalFaction spain
 console_command diplomatic_stance gauls spain War
+end_if
+if I_SettlementOwner Vicus_Tissagetae = spain
+console_command diplomatic_stance scythia spain War
+console_command add_population Vicus_Tissagetae 4000
+console_command add_population Vicus_Tissagetae 4000
+console_command add_population Vicus_Tissagetae 4000
+console_command add_population Vicus_Tissagetae 4000
+end_if
+if I_SettlementOwner Campus_Roxolani = spain
+console_command diplomatic_stance scythia spain War
+console_command add_population Campus_Roxolani 4000
+console_command add_population Campus_Roxolani 4000
+console_command add_population Campus_Roxolani 4000
+console_command add_population Campus_Roxolani 4000
+end_if
+if I_SettlementOwner Campus_Iazyges = spain
+console_command diplomatic_stance scythia spain War
+console_command add_population Campus_Iazyges 4000
+console_command add_population Campus_Iazyges 4000
+console_command add_population Campus_Iazyges 4000
+console_command add_population Campus_Iazyges 4000
+end_if
+if I_SettlementOwner Campus_Iazyges = thrace
+console_command diplomatic_stance scythia thrace War
+end_if
+if I_SettlementOwner Vicus_Tissagetae = germans
+console_command diplomatic_stance scythia germans War
+console_command add_population Vicus_Tissagetae 4000
+console_command add_population Vicus_Tissagetae 4000
+console_command add_population Vicus_Tissagetae 4000
+console_command add_population Vicus_Tissagetae 4000
+end_if
+if I_SettlementOwner Campus_Roxolani = germans
+console_command diplomatic_stance scythia germans War
+console_command add_population Campus_Roxolani 4000
+console_command add_population Campus_Roxolani 4000
+console_command add_population Campus_Roxolani 4000
+console_command add_population Campus_Roxolani 4000
+end_if
+if I_SettlementOwner Campus_Iazyges = germans
+console_command diplomatic_stance scythia germans War
+console_command add_population Campus_Iazyges 4000
+console_command add_population Campus_Iazyges 4000
+console_command add_population Campus_Iazyges 4000
+console_command add_population Campus_Iazyges 4000
 end_if
 
 end_monitor
@@ -18099,6 +18161,69 @@ end_if
     console_command add_population Ecbatana 4000
     console_command add_population Ecbatana 4000
 end_if
+
+if I_SettlementOwner Leucaristus = romans_julii
+console_command add_population Leucaristus 4000
+console_command add_population Leucaristus 4000
+console_command add_population Leucaristus 4000
+console_command add_population Leucaristus 4000
+end_if
+if I_SettlementOwner Eburonum = romans_julii
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+end_if
+if I_SettlementOwner Leucaristus = germans
+and I_CompareCounter gallic_war = 0
+console_command diplomatic_stance spain germans War
+console_command add_population Leucaristus 4000
+console_command add_population Leucaristus 4000
+console_command add_population Leucaristus 4000
+console_command add_population Leucaristus 4000
+end_if
+if I_SettlementOwner Eburonum = germans
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+end_if
+if I_SettlementOwner Eburonum = gauls
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+console_command add_population Eburonum 4000
+end_if
+if I_SettlementOwner Iuvavum = gauls
+console_command add_population Iuvavum 4000
+console_command add_population Iuvavum 4000
+console_command add_population Iuvavum 4000
+console_command add_population Iuvavum 4000
+console_command add_population Iuvavum 4000
+console_command add_population Iuvavum 4000
+console_command add_population Iuvavum 4000
+console_command add_population Iuvavum 4000
+end_if
+if I_SettlementOwner Campus_Roxolani = romans_julii
+console_command add_population Campus_Roxolani 4000
+console_command add_population Campus_Roxolani 4000
+console_command add_population Campus_Roxolani 4000
+console_command add_population Campus_Roxolani 4000
+end_if
+if I_SettlementOwner Campus_Siracae = romans_julii
+console_command add_population Campus_Siracae 4000
+console_command add_population Campus_Siracae 4000
+console_command add_population Campus_Siracae 4000
+console_command add_population Campus_Siracae 4000
+end_if
 end_monitor
     
 monitor_event CharacterSelected FactionType thrace
@@ -18138,11 +18263,6 @@ end_monitor
 
 monitor_event CharacterSelected FactionType dacia
 and not I_LocalFaction dacia
-call_object_shortcut campaign_hud automerge_units
-end_monitor
-
-monitor_event CharacterSelected FactionType thrace
-and not I_LocalFaction thrace
 call_object_shortcut campaign_hud automerge_units
 end_monitor
 
@@ -19863,7 +19983,7 @@ end_monitor
 declare_counter conquering_greece
 set_counter conquering_greece 0
 
-monitor_event SettlementTurnStart SettlementName Pella
+monitor_event SettlementTurnEnd SettlementName Pella
 and not SettlementBuildingExists = monument_victory_minor
 	if I_SettlementOwner Emporion = romans_scipii
     and I_SettlementOwner Pallantia = romans_scipii
