@@ -3510,27 +3510,27 @@ model_sprite		roman_rebels, 70.0, civ/data/sprites/romans/romans_scipii_roman_ev
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				roman_republican_LEG
-skeleton			fs_pilum, fs_s1_gladius
+skeleton			fs_s1_javelinman, fs_s1_gladius
 indiv_range			40
 texture				romans_scipii, civ/data/new/models_units/legions/textures/REPUBLICAN_LEGION_julii.tga
 texture				roman_rebels, civ/data/new/models_units/legions/textures/REPUBLICAN_LEGION_REBELS.tga
 model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN.cas, 15
 model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN.cas, 30
-model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN.cas, 40
-model_flexi			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN.cas, max
+model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN_LOW.cas, 40
+model_flexi			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN_LOW.cas, max
 model_sprite		romans_scipii, 70.0, civ/data/sprites/romans/romans_scipii_roman_republican_LEG_sprite.spr
 model_sprite		roman_rebels, 70.0, civ/data/sprites/romans/roman_rebels_roman_republican_LEG_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				marian_evocati
-skeleton			fs_pilum, fs_s1_gladius
+skeleton			fs_s1_javelinman, fs_s1_gladius
 indiv_range			40
 texture				romans_scipii, civ/data/new/models_units/legions/textures/REPUBLICAN_LEGION_EVOCATI.tga
 texture				roman_rebels, civ/data/new/models_units/legions/textures/REPUBLICAN_LEGION_EVOCATI_REBEL.tga
-model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_HIGH.cas, 15
-model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_HIGH.cas, 30
-model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_HIGH.cas, 40
-model_flexi			civ/data/new/models_units/legions/Legion_REPUBLICAN_HIGH.cas, max
+model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN.cas, 15
+model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN.cas, 30
+model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN_LOW.cas, 40
+model_flexi			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN_LOW.cas, max
 model_sprite		romans_scipii, 70.0, civ/data/sprites/romans/romans_scipii_marian_evocati_sprite.spr
 model_sprite		roman_rebels, 70.0, civ/data/sprites/romans/roman_rebels_marian_evocati_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
@@ -3597,14 +3597,14 @@ texture				romans_scipii, civ/data/new/models_units/legions/textures/UNIT_EARLY_
 texture				roman_rebels, civ/data/new/models_units/legions/textures/UNIT_EARLY_LEGIONARY_REBEL.TGA
 model_flexi_m			civ/data/new/models_units/legions/EarlyRS_legionary1.cas, 15
 model_flexi_m			civ/data/new/models_units/legions/EarlyRS_legionary1.cas, 30
-model_flexi_m			civ/data/new/models_units/legions/EarlyRS_legionary1.cas, 40
-model_flexi			civ/data/new/models_units/legions/EarlyRS_legionary1.cas, max
+model_flexi_m			civ/data/new/models_units/legions/EarlyRS_legionary1_low.cas, 40
+model_flexi			civ/data/new/models_units/legions/EarlyRS_legionary1_low.cas, max
 model_sprite		roman_rebels, 70.0, civ/data/sprites/romans/roman_rebels_roman_legionary_cohort_i_sprite.spr
 model_sprite		romans_scipii, 70.0, civ/data/sprites/romans/romans_scipii_roman_legionary_cohort_i_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				roman_light_infantry						
-skeleton			fs_s1_javelinman, fs_s1_gladius
+skeleton			fs_s1_fast_javelinman, fs_s1_gladius
 indiv_range			40
 texture				romans_julii, civ/data/new/models_units/LEGIONS/textures/UNIT_ROMAN_LIGHT_AUXILIA.TGA
 texture				romans_brutii, civ/data/new/models_units/LEGIONS/textures/UNIT_ROMAN_LIGHT_AUXILIA.TGA
@@ -4616,8 +4616,8 @@ texture				romans_scipii, civ/data/new/models_units/textures/UNIT_GREEK_MAHAIROF
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 8
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 40
-model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_LOW.cas, max
 model_sprite		egypt, 80.0, civ/data/sprites/egypt_greek_swordsmen_sprite.spr
 model_sprite		greek_cities, 80.0, civ/data/sprites/greek_cities_greek_swordsmen_sprite.spr
 model_sprite		macedon, 80.0, civ/data/sprites/macedon_greek_swordsmen_sprite.spr
@@ -4635,8 +4635,8 @@ texture				greek_cities, civ/data/new/models_units/textures/UNIT_GREEK_MAHAIROFO
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 8
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 40
-model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_LOW.cas, max
 model_sprite		macedon, 80.0, civ/data/sprites/macedon_greek_heavy_swordsmen_sprite.spr
 model_sprite		seleucid, 80.0, civ/data/sprites/seleucid_greek_heavy_swordsmen_sprite.spr
 model_sprite		greek_cities, 80.0, civ/data/sprites/greek_cities_greek_heavy_swordsmen_sprite.spr
@@ -4746,8 +4746,8 @@ indiv_range			40
 texture				numidia, civ/data/new/models_units/textures/UNIT_GREEK_MAHAIROFOROI_SPARTAN_ARMOURED.TGA
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_SPARTAN.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_SPARTAN.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_SPARTAN.cas, 40
-model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_SPARTAN.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_SPARTAN_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI_SPARTAN_LOW.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_hypaspist

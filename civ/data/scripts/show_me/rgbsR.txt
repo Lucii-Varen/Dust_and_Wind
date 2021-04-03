@@ -16369,6 +16369,7 @@ and I_SettlementOwner Messana = romans_scipii
 and I_SettlementOwner Gadir = romans_scipii
 and I_SettlementOwner Tingi = romans_scipii
 set_counter ScipioLegions 1
+terminate_monitor
 end_monitor
 
 monitor_event SettlementTurnEnd SettlementName Carthago
@@ -16596,7 +16597,7 @@ set_counter MarianLegions 0
 ;terminate_monitor     
 ;end_monitor
 
-monitor_event SettlementTurnStart SettlementName Pella
+monitor_event SettlementTurnEnd SettlementName Pella
 and SettlementBuildingExists = monument_victory_minor
 set_counter MarianLegions 1
 end_monitor
@@ -16805,7 +16806,6 @@ monitor_event SettlementTurnStart SettlementName Capua
         console_command create_building Valhagarum "reform3"
         console_command create_building Zadracarta "reform3"
         console_command create_building Zabida "reform3"
-set_counter CimbriInvasion 1
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Ceasar's Legions;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;declare_counter CeasarsLegions
@@ -17390,7 +17390,7 @@ end_monitor
     ;;;;;;;;;;;;;;;;;;;;;;peace with the dead;;;;;;;;;;;;;;
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-    monitor_event FactionTurnStart FactionIsLocal
+    monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  romans_scipii = 0
         console_command diplomatic_stance romans_julii romans_scipii neutral
         console_command diplomatic_stance greek_cities romans_scipii neutral
@@ -17414,7 +17414,7 @@ end_monitor
         terminate_monitor
 end_monitor
 
-    monitor_event FactionTurnStart FactionIsLocal
+    monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  romans_julii = 0
         console_command diplomatic_stance romans_scipii romans_julii neutral
         console_command diplomatic_stance greek_cities romans_julii neutral
@@ -17438,7 +17438,7 @@ end_monitor
         terminate_monitor
 end_monitor
 
-    monitor_event FactionTurnStart FactionIsLocal
+    monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  romans_brutii = 0
         console_command diplomatic_stance romans_scipii romans_brutii neutral
         console_command diplomatic_stance greek_cities romans_brutii neutral
@@ -17462,7 +17462,7 @@ end_monitor
         terminate_monitor
 end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  greek_cities = 0
         console_command diplomatic_stance romans_scipii greek_cities neutral
         console_command diplomatic_stance romans_brutii greek_cities neutral
@@ -17486,7 +17486,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  macedon = 0
         console_command diplomatic_stance romans_scipii macedon neutral
         console_command diplomatic_stance romans_brutii macedon neutral
@@ -17510,7 +17510,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  seleucid = 0
         console_command diplomatic_stance romans_scipii seleucid neutral
         console_command diplomatic_stance romans_brutii seleucid neutral
@@ -17534,7 +17534,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  britons = 0
         console_command diplomatic_stance romans_scipii britons neutral
         console_command diplomatic_stance romans_brutii britons neutral
@@ -17558,7 +17558,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  egypt = 0
         console_command diplomatic_stance romans_scipii egypt neutral
         console_command diplomatic_stance romans_brutii egypt neutral
@@ -17582,7 +17582,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  carthage = 0
         console_command diplomatic_stance romans_scipii carthage neutral
         console_command diplomatic_stance romans_brutii carthage neutral
@@ -17607,7 +17607,7 @@ end_monitor
     end_monitor
 
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  gauls = 0
         console_command diplomatic_stance romans_scipii gauls neutral
         console_command diplomatic_stance romans_brutii gauls neutral
@@ -17631,7 +17631,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  germans = 0
         console_command diplomatic_stance romans_scipii germans neutral
         console_command diplomatic_stance romans_brutii germans neutral
@@ -17655,7 +17655,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  spain = 0
         console_command diplomatic_stance romans_scipii spain neutral
         console_command diplomatic_stance romans_brutii spain neutral
@@ -17679,7 +17679,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  thrace = 0
         console_command diplomatic_stance romans_scipii thrace neutral
         console_command diplomatic_stance romans_brutii thrace neutral
@@ -17703,7 +17703,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  scythia = 0
         console_command diplomatic_stance romans_scipii scythia neutral
         console_command diplomatic_stance romans_brutii scythia neutral
@@ -17727,7 +17727,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  parthia = 0
         console_command diplomatic_stance romans_scipii parthia neutral
         console_command diplomatic_stance romans_brutii parthia neutral
@@ -17751,7 +17751,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  armenia = 0
         console_command diplomatic_stance romans_scipii armenia neutral
         console_command diplomatic_stance romans_brutii armenia neutral
@@ -17775,7 +17775,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  pontus = 0
         console_command diplomatic_stance romans_scipii pontus neutral
         console_command diplomatic_stance romans_brutii pontus neutral
@@ -17799,7 +17799,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  dacia = 0
         console_command diplomatic_stance romans_scipii dacia neutral
         console_command diplomatic_stance romans_brutii dacia neutral
@@ -17823,7 +17823,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  numidia = 0
         console_command diplomatic_stance romans_scipii numidia neutral
         console_command diplomatic_stance romans_brutii numidia neutral
@@ -17847,7 +17847,7 @@ end_monitor
         terminate_monitor
     end_monitor
 
-		monitor_event FactionTurnStart FactionIsLocal
+		monitor_event FactionTurnEnd FactionIsLocal
         and I_NumberOfSettlements  roman_rebels = 0
         console_command diplomatic_stance romans_scipii roman_rebels neutral
         console_command diplomatic_stance romans_brutii roman_rebels neutral
@@ -18010,6 +18010,7 @@ console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
+console_command add_money scythia 15000
 end_if
 if I_SettlementOwner Campus_Iazyges = spain
 console_command diplomatic_stance scythia spain War
@@ -18017,9 +18018,11 @@ console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
+console_command add_money scythia 15000
 end_if
 if I_SettlementOwner Campus_Iazyges = thrace
 console_command diplomatic_stance scythia thrace War
+console_command add_money scythia 15000
 end_if
 if I_SettlementOwner Vicus_Tissagetae = germans
 console_command diplomatic_stance scythia germans War
@@ -18034,6 +18037,7 @@ console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
+console_command add_money scythia 15000
 end_if
 if I_SettlementOwner Campus_Iazyges = germans
 console_command diplomatic_stance scythia germans War
@@ -18041,8 +18045,86 @@ console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
+console_command add_money scythia 15000
 end_if
 
+if I_SettlementOwner Tabae = britons
+console_command diplomatic_stance parthia britons War
+console_command add_population Tabae 4000
+console_command add_population Tabae 4000
+console_command add_population Tabae 4000
+console_command add_population Tabae 4000
+console_command add_population Tabae 4000
+console_command add_population Tabae 4000
+end_if
+if I_SettlementOwner Hecatompylos = britons
+console_command diplomatic_stance parthia britons War
+console_command add_population Hecatompylos 4000
+console_command add_population Hecatompylos 4000
+console_command add_population Hecatompylos 4000
+console_command add_population Hecatompylos 4000
+console_command add_population Hecatompylos 4000
+console_command add_population Hecatompylos 4000
+console_command add_money parthia, 40000
+end_if
+if I_SettlementOwner Asaak = britons
+console_command diplomatic_stance parthia britons War
+console_command add_population Asaak 4000
+console_command add_population Asaak 4000
+console_command add_population Asaak 4000
+console_command add_population Asaak 4000
+console_command add_population Asaak 4000
+console_command add_population Asaak 4000
+console_command add_money parthia, 40000
+end_if
+if I_SettlementOwner Zadracarta = britons
+console_command diplomatic_stance parthia britons War
+console_command add_population Zadracarta 4000
+console_command add_population Zadracarta 4000
+console_command add_population Zadracarta 4000
+console_command add_population Zadracarta 4000
+console_command add_population Zadracarta 4000
+console_command add_population Zadracarta 4000
+console_command add_money parthia, 40000
+end_if
+if I_SettlementOwner Apamea = britons
+console_command diplomatic_stance parthia britons War
+console_command add_population Apamea 4000
+console_command add_population Apamea 4000
+console_command add_population Apamea 4000
+console_command add_population Apamea 4000
+console_command add_population Apamea 4000
+console_command add_population Apamea 4000
+console_command add_money parthia, 40000
+end_if
+if I_SettlementOwner Ecbatana = britons
+console_command diplomatic_stance parthia britons War
+console_command add_population Ecbatana 4000
+console_command add_population Ecbatana 4000
+console_command add_population Ecbatana 4000
+console_command add_population Ecbatana 4000
+console_command add_money parthia, 40000
+end_if
+if I_SettlementOwner Charax = britons
+console_command diplomatic_stance parthia britons War
+console_command add_population Charax 4000
+console_command add_population Charax 4000
+console_command add_population Charax 4000
+console_command add_population Charax 4000
+console_command add_population Charax 4000
+console_command add_population Charax 4000
+console_command add_money parthia, 40000
+end_if
+if I_SettlementOwner Susa = britons
+console_command diplomatic_stance parthia britons War
+console_command add_population Susa 4000
+console_command add_population Susa 4000
+console_command add_population Susa 4000
+console_command add_population Susa 4000
+console_command add_population Susa 4000
+console_command add_population Susa 4000
+console_command add_money parthia, 40000
+end_if
 end_monitor
 
 monitor_event FactionTurnStart FactionType pontus
@@ -18542,6 +18624,30 @@ and DiplomaticStanceFromFaction romans_scipii = AtWar
 	console_command diplomatic_stance gauls romans_scipii neutral
     console_command add_money gauls, -40000
 	console_command add_money gauls, -40000
+    spawn_army
+	faction germans
+    		character Adalmun, general, age 32, x 55, y 158
+		unit barb chieftain cavalry german, exp 3 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 3 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 3 armour 2 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit barb night raiders german, exp 1 armour 2 weapon_lvl 1
+		unit german warriors, exp 3 armour 2 weapon_lvl 2
+		unit german warriors, exp 3 armour 2 weapon_lvl 2
+		unit heavy warband, exp 1 armour 2 weapon_lvl 0
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit german heavy infantry, exp 3 armour 2 weapon_lvl 2
+		unit german heavy infantry, exp 3 armour 2 weapon_lvl 2
+		unit german bodyguard, exp 2 armour 2 weapon_lvl 1
+		unit german bodyguard, exp 2 armour 2 weapon_lvl 1
+		unit barb noble cavalry german, exp 3 armour 2 weapon_lvl 1
+		unit barb cavalry gaul, exp 3 armour 2 weapon_lvl 1
+end
     if I_NumberOfSettlements germans > 0
     console_command diplomatic_stance germans gauls War
     end_if
@@ -20239,10 +20345,18 @@ if I_SettlementOwner Pella = romans_scipii
   and I_SettlementOwner Mytilene = romans_scipii
 console_command create_building Pella "monument_victory_minor"
 set_counter conquering_greece 0
+set_counter MarianLegions 1
 end_if
 end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3 Cimbri War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event SettlementTurnEnd SettlementName Massilia
+and SettlementBuildingExists = reform3
+and not SettlementBuildingExists = monument_victory_minor
+set_counter CimbriInvasion 1
+end_monitor
+
 monitor_event FactionTurnStart FactionType germans
     and not FactionIsLocal
     and I_CompareCounter CimbriInvasion = 1
@@ -20519,6 +20633,80 @@ spawn_army
 		unit barb cavalry gaul, exp 3 armour 2 weapon_lvl 1
 end
 
+spawn_army
+	faction germans
+    		character Adalmun, general, age 32, x 88, y 175
+		unit barb chieftain cavalry german, exp 4 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 3 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 3 armour 2 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit barb night raiders german, exp 1 armour 2 weapon_lvl 1
+		unit german warriors, exp 3 armour 2 weapon_lvl 2
+		unit german warriors, exp 3 armour 2 weapon_lvl 2
+		unit heavy warband, exp 1 armour 2 weapon_lvl 0
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit german heavy infantry, exp 3 armour 2 weapon_lvl 2
+		unit german heavy infantry, exp 3 armour 2 weapon_lvl 2
+		unit german bodyguard, exp 2 armour 2 weapon_lvl 1
+		unit german bodyguard, exp 2 armour 2 weapon_lvl 1
+		unit barb noble cavalry german, exp 3 armour 2 weapon_lvl 1
+		unit barb cavalry gaul, exp 3 armour 2 weapon_lvl 1
+end
+
+spawn_army
+	faction germans
+    		character Adalmun, general, age 32, x 89, y 175
+		unit barb chieftain cavalry german, exp 4 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 3 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 3 armour 2 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit barb night raiders german, exp 1 armour 2 weapon_lvl 1
+		unit german warriors, exp 3 armour 2 weapon_lvl 2
+		unit german warriors, exp 3 armour 2 weapon_lvl 2
+		unit heavy warband, exp 1 armour 2 weapon_lvl 0
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit german heavy infantry, exp 3 armour 2 weapon_lvl 2
+		unit german heavy infantry, exp 3 armour 2 weapon_lvl 2
+		unit german bodyguard, exp 2 armour 2 weapon_lvl 1
+		unit german bodyguard, exp 2 armour 2 weapon_lvl 1
+		unit barb noble cavalry german, exp 3 armour 2 weapon_lvl 1
+		unit barb cavalry gaul, exp 3 armour 2 weapon_lvl 1
+end
+
+spawn_army
+	faction germans
+    		character Adalmun, general, age 32, x 90, y 175
+		unit barb chieftain cavalry german, exp 4 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 3 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 3 armour 2 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit warband spear german, exp 3 armour 3 weapon_lvl 2
+		unit barb night raiders german, exp 1 armour 2 weapon_lvl 1
+		unit german warriors, exp 3 armour 2 weapon_lvl 2
+		unit german warriors, exp 3 armour 2 weapon_lvl 2
+		unit heavy warband, exp 1 armour 2 weapon_lvl 0
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit warband axe german, exp 3 armour 2 weapon_lvl 1
+		unit german heavy infantry, exp 3 armour 2 weapon_lvl 2
+		unit german heavy infantry, exp 3 armour 2 weapon_lvl 2
+		unit german bodyguard, exp 2 armour 2 weapon_lvl 1
+		unit german bodyguard, exp 2 armour 2 weapon_lvl 1
+		unit barb noble cavalry german, exp 3 armour 2 weapon_lvl 1
+		unit barb cavalry gaul, exp 3 armour 2 weapon_lvl 1
+end
         console_command kill_character "Gnaeus Papirius"
 spawn_army
 	faction romans_scipii
@@ -20651,6 +20839,7 @@ console_command diplomatic_stance germans romans_scipii War
 end_if
 
 set_counter CimbriInvasion 0
+console_command create_building Massilia "monument_victory_minor"
 end_monitor
 
 monitor_event FactionTurnStart FactionType germans
@@ -20665,7 +20854,6 @@ end_if
 if I_SettlementOwner Vienna = germans
 console_command diplomatic_stance germans romans_scipii War
 console_command diplomatic_stance germans gaul War
-console_command diplomatic_stance germans spain War
 end_if
 if I_SettlementOwner Aquincum = germans
 console_command diplomatic_stance germans romans_scipii War
@@ -20674,8 +20862,6 @@ console_command diplomatic_stance germans spain War
 end_if
 if I_SettlementOwner Segestica = germans
 console_command diplomatic_stance germans romans_scipii War
-console_command diplomatic_stance germans gaul War
-console_command diplomatic_stance germans spain War
 end_if
 if I_SettlementOwner Tolosa = germans
 console_command diplomatic_stance germans romans_scipii War
@@ -20711,7 +20897,7 @@ end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4 war with Pontus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-monitor_event SettlementTurnStart SettlementName Roma
+monitor_event SettlementTurnStart SettlementName Ancona
 and SettlementBuildingExists = Caesar_civil_war
 if I_SettlementOwner Sidon = romans_scipii
 and I_SettlementOwner Antioch = romans_scipii
@@ -20751,10 +20937,11 @@ and I_CompareCounter Conquering_MinorAsia = 0
 and I_SettlementOwner Byzantium = romans_scipii
 console_command diplomatic_stance pontus romans_scipii neutral
 console_command diplomatic_stance romans_scipii pontus neutral
-console_command add_money pontus, -40000
-console_command add_money pontus, -40000
 	if I_NumberOfSettlements parthia > 0
     console_command diplomatic_stance parthia pontus War
+	end_if
+	if I_NumberOfSettlements egypt > 0
+    console_command diplomatic_stance egypt pontus War
 	end_if
 	if I_NumberOfSettlements armenia > 0
     console_command diplomatic_stance armenia pontus War
@@ -20808,6 +20995,7 @@ declare_counter Conquering_MinorAsia10
 declare_counter Conquering_MinorAsia11
 declare_counter Conquering_MinorAsia12
 declare_counter Conquering_MinorAsia13
+declare_counter Conquering_MinorAsia14
 set_counter Conquering_MinorAsia1 0
 set_counter Conquering_MinorAsia2 0
 set_counter Conquering_MinorAsia3 0
@@ -20819,6 +21007,7 @@ set_counter Conquering_MinorAsia10 0
 set_counter Conquering_MinorAsia11 0
 set_counter Conquering_MinorAsia12 0
 set_counter Conquering_MinorAsia13 0
+set_counter Conquering_MinorAsia14 0
 monitor_event FactionTurnStart FactionType romans_scipii
 and I_CompareCounter Conquering_MinorAsia = 1
 if I_SettlementOwner Side = egypt
@@ -20968,70 +21157,74 @@ settlement_flash_start Side
 set_counter Conquering_MinorAsia9 1
 end_if
 if I_SettlementOwner Side = romans_scipii
-    settlement_flash_stop Side
+	settlement_flash_stop Side
 	set_counter Conquering_MinorAsia9 0
 end_if
 
 if I_CompareCounter Conquering_MinorAsia10 = 0
 and I_SettlementOwner Side = romans_scipii
-if I_SettlementOwner Tarsus != romans_scipii
-senate_mission_take_city moderate_reward, Tarsus
-settlement_flash_start Tarsus
-end_if
-if I_SettlementOwner Apameia != romans_scipii
+and I_SettlementOwner Apameia != romans_scipii
 senate_mission_take_city moderate_reward, Apameia
 settlement_flash_start Apameia
-end_if
 set_counter Conquering_MinorAsia10 1
 end_if
 if I_CompareCounter Conquering_MinorAsia10 = 1
-if I_SettlementOwner Tarsus = romans_scipii
-settlement_flash_stop Tarsus
-end_if
-if I_SettlementOwner Apameia = romans_scipii
+and I_SettlementOwner Apameia = romans_scipii
 settlement_flash_stop Apameia
-end_if
 set_counter Conquering_MinorAsia10 0
 end_if
 
 if I_CompareCounter Conquering_MinorAsia11 = 0
-and I_SettlementOwner Tarsus = romans_scipii
-and I_SettlementOwner Antioch != romans_scipii
-senate_mission_take_city moderate_reward, Antioch
-settlement_flash_start Antioch
+and I_SettlementOwner Apameia = romans_scipii
+and I_SettlementOwner Tarsus != romans_scipii
+senate_mission_take_city moderate_reward, Tarsus
+settlement_flash_start Tarsus
 set_counter Conquering_MinorAsia11 1
 end_if
 if I_CompareCounter Conquering_MinorAsia11 = 1
-and I_SettlementOwner Antioch = romans_scipii
-settlement_flash_stop Antioch
+and I_SettlementOwner Tarsus = romans_scipii
+settlement_flash_stop Tarsus
 set_counter Conquering_MinorAsia11 0
 end_if
 
 if I_CompareCounter Conquering_MinorAsia12 = 0
+and I_SettlementOwner Tarsus = romans_scipii
+and I_SettlementOwner Antioch != romans_scipii
+senate_mission_take_city moderate_reward, Antioch
+settlement_flash_start Antioch
+set_counter Conquering_MinorAsia12 1
+end_if
+if I_CompareCounter Conquering_MinorAsia12 = 1
+and I_SettlementOwner Antioch = romans_scipii
+settlement_flash_stop Antioch
+set_counter Conquering_MinorAsia12 0
+end_if
+
+if I_CompareCounter Conquering_MinorAsia13 = 0
 and I_SettlementOwner Antioch = romans_scipii
 and I_SettlementOwner Sidon != romans_scipii
 and I_SettlementOwner Sidon != egypt
 senate_mission_take_city moderate_reward, Sidon
 settlement_flash_start Sidon
-set_counter Conquering_MinorAsia12 1
+set_counter Conquering_MinorAsia13 1
 end_if
-if I_CompareCounter Conquering_MinorAsia12 = 1
+if I_CompareCounter Conquering_MinorAsia13 = 1
 and I_SettlementOwner Sidon = romans_scipii
 settlement_flash_stop Sidon
-set_counter Conquering_MinorAsia12 0
+set_counter Conquering_MinorAsia13 0
 end_if
 
-if I_CompareCounter Conquering_MinorAsia13 = 0
+if I_CompareCounter Conquering_MinorAsia14 = 0
 and I_SettlementOwner Sidon = romans_scipii
 and I_SettlementOwner Salamis != romans_scipii
 senate_mission_take_city moderate_reward, Salamis
 settlement_flash_start Salamis
-set_counter Conquering_MinorAsia13 1
+set_counter Conquering_MinorAsia14 1
 end_if
-if I_CompareCounter Conquering_MinorAsia13 = 1
+if I_CompareCounter Conquering_MinorAsia14 = 1
 and I_SettlementOwner Salamis = romans_scipii
 settlement_flash_stop Salamis
-set_counter Conquering_MinorAsia13 0
+set_counter Conquering_MinorAsia14 0
 end_if
 
 end_monitor
