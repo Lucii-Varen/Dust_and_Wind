@@ -3030,8 +3030,8 @@ texture				roman_rebels, civ/data/new/models_units/textures/UNIT_ETRSUCAN_HOPLIT
 texture				merc, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
 model_flexi			civ/data/new/models_units/unit_greek_hoplite.cas, 15
 model_flexi			civ/data/new/models_units/unit_greek_hoplite.cas, 30
-model_flexi			civ/data/new/models_units/unit_greek_hoplite.cas, 40
-model_flexi			civ/data/new/models_units/unit_greek_hoplite.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_hoplite_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_GREEK_hoplite_LOW.cas, max
 model_sprite		slave, 60.0, data/sprites/slave_greek_hoplite_sprite.spr
 model_sprite		greek_cities, 60.0, data/sprites/greek_cities_greek_hoplite_sprite.spr
 model_sprite		pontus, 60.0, data/sprites/greek_cities_greek_hoplite_sprite.spr
@@ -4688,8 +4688,8 @@ texture				numidia, civ/data/new/models_units/textures/UNIT_GREEK_OLYMPIC_CHEMPI
 texture				romans_julii, civ/data/new/models_units/textures/UNIT_GREEK_OLYMPIC_CHEMPIONS_BOSPORAN.TGA
 model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION.CAS, 8
 model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION.cas, 15
-model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION_LOW.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION_LOW.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_heroes
