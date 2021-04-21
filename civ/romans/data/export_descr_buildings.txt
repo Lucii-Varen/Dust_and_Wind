@@ -661,6 +661,16 @@ building barracks
                 recruit "samnite swordsman"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
                 recruit "samnite swordsman"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform2
 
+                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and building_factions { slave, }
+                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and building_factions { slave, }
+                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
+                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform2
+
+                recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
+                recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
+                recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource V_alaudae and not building_present_min_level hinterland_reform reform3
+                recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource III_Gallica and not building_present_min_level hinterland_reform reform3
+
                 recruit "warband axe german"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
                 recruit "warband axe german"  0  requires factions { romans_scipii, roman_rebels, } and not building_factions { slave, } and hidden_resource Germania and not building_present_min_level hinterland_reform reform3
 
@@ -1042,6 +1052,11 @@ building barracks
                 recruit "samnite swordsman"  0  requires factions { romans_scipii, } and building_factions { slave, }
                 recruit "samnite swordsman"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
                 recruit "samnite swordsman"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform2
+
+                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and building_factions { slave, }
+                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and building_factions { slave, }
+                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
+                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform2
 
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
@@ -1495,6 +1510,11 @@ building barracks
                 recruit "samnite swordsman"  0  requires factions { romans_scipii, } and building_factions { slave, }
                 recruit "samnite swordsman"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
                 recruit "samnite swordsman"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform2
+
+                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and building_factions { slave, }
+                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and building_factions { slave, }
+                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
+                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform2
 
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }

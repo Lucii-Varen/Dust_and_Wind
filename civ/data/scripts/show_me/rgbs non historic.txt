@@ -1,13 +1,16 @@
 script
-
-declare_counter loop
-set_counter loop 0
+;NON HISTORIC;
 
     console_command toggle_perfect_spy
 
+    ;select_ui_element advisor_dismiss_button
+    ;simulate_mouse_click lclick_down
+    ;simulate_mouse_click lclick_up
     select_ui_element advisor_dismiss_button
-    simulate_mouse_click lclick_down
-    simulate_mouse_click lclick_up
+	simulate_mouse_click lclick_up
+	suspend_unscripted_advice true
+	declare_show_me
+
 while I_AdvisorVisible 
 end_while
 suspend_unscripted_advice true
@@ -1273,14 +1276,19 @@ end_monitor
         console_command add_money carthage, 20000
     end_monitor
     monitor_event FactionTurnStart FactionType carthage
-        and FactionIsLocal
+        and not FactionIsLocal
         and Treasury < -20000
-        console_command add_money carthage, 32000
+        console_command add_money carthage, 38000
     end_monitor
     monitor_event FactionTurnStart FactionType carthage
         and not FactionIsLocal
-        and Treasury < -20000
-        console_command add_money carthage, 30000
+        and Treasury < -10000
+        console_command add_money carthage, 25000
+end_monitor
+monitor_event FactionTurnStart FactionType carthage
+   		and not FactionIsLocal
+        and Treasury < -5000
+        console_command add_money carthage, 15000
 end_monitor
 
     monitor_event FactionTurnStart FactionType parthia
@@ -7280,11 +7288,11 @@ and I_CompareCounter Antioch_undersiege = 1
 	and I_FactionBesieged seleucid
     and I_CompareCounter Antioch_undersiege = 1
 		set_counter Antioch_undersiege 2
+        console_command create_unit Antioch "greek heavy swordsmen" 1 0 1 1
+        console_command create_unit Antioch "greek swordsmen" 3 1 1 1
+        console_command create_unit Antioch "thureos spears" 2 1 1 1
 		console_command create_unit Antioch "greek peltast" 2 1 2 1
 		console_command create_unit Antioch "greek levy pikemen" 2 0 2 1
-		console_command create_unit Antioch "thureos spears" 2 1 1 1
-		console_command create_unit Antioch "greek swordsmen" 3 1 1 1
-        console_command create_unit Antioch "greek heavy swordsmen" 1 0 1 1
         console_command create_unit Antioch "eastern cavalry" 2 1 1 1
         console_command create_unit Antioch "greek xystophoroi" 1 1 1 1
         console_command add_money seleucid, 40000
@@ -7439,18 +7447,18 @@ and I_CompareCounter Seleucia_undersiege = 1
 	and I_FactionBesieged seleucid
     and I_CompareCounter Seleucia_undersiege = 1
 		set_counter Seleucia_undersiege 2
-		console_command create_unit Seleucia "greek peltast" 2 1 2 1
-		console_command create_unit Seleucia "greek levy pikemen" 2 0 2 1
-		console_command create_unit Seleucia "thureos spears" 2 1 1 1
-		console_command create_unit Seleucia "greek swordsmen" 3 1 1 1
+		console_command create_unit Seleucia "greek peltast" 2 0 1 1
+		console_command create_unit Seleucia "greek levy pikemen" 2 0 1 1
+		console_command create_unit Seleucia "thureos spears" 2 0 1 1
+		console_command create_unit Seleucia "greek swordsmen" 3 0 1 1
         console_command create_unit Seleucia "greek heavy swordsmen" 1 0 1 1
-        console_command create_unit Seleucia "eastern cavalry" 2 1 1 1
-        console_command create_unit Seleucia "greek xystophoroi" 1 1 1 1
+        console_command create_unit Seleucia "eastern cavalry" 2 0 1 1
+        console_command create_unit Seleucia "greek xystophoroi" 1 0 1 1
         
-        console_command add_money seleucid, 40000
+        console_command add_money seleucid, 10000
 end_if
 end_monitor
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Seleucia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Babylon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 declare_counter Babylon_undersiege
 set_counter Babylon_undersiege 0
 monitor_event SettlementTurnStart SettlementName Babylon
@@ -7606,7 +7614,7 @@ and I_CompareCounter Babylon_undersiege = 1
         console_command create_unit Babylon "eastern cavalry" 2 1 1 1
         console_command create_unit Babylon "greek xystophoroi" 1 1 1 1
         
-        console_command add_money seleucid, 40000
+        console_command add_money seleucid, 20000
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Edessa;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -7712,11 +7720,11 @@ and I_CompareCounter Edessa_undersiege = 1
 	and I_FactionBesieged seleucid
     and I_CompareCounter Edessa_undersiege = 1
 		set_counter Edessa_undersiege 2
+        console_command create_unit Edessa "greek heavy swordsmen" 1 0 1 1
+        console_command create_unit Edessa "greek swordsmen" 3 1 1 1
+        console_command create_unit Edessa "thureos spears" 2 1 1 1
 		console_command create_unit Edessa "greek peltast" 2 1 2 1
 		console_command create_unit Edessa "greek levy pikemen" 2 0 2 1
-		console_command create_unit Edessa "thureos spears" 2 1 1 1
-		console_command create_unit Edessa "greek swordsmen" 3 1 1 1
-        console_command create_unit Edessa "greek heavy swordsmen" 1 0 1 1
         console_command create_unit Edessa "eastern cavalry" 2 1 1 1
         console_command create_unit Edessa "greek xystophoroi" 1 1 1 1
         
@@ -7833,7 +7841,7 @@ and I_CompareCounter Damascus_undersiege = 1
         console_command create_unit Damascus "greek heavy swordsmen" 1 0 1 1
         console_command create_unit Damascus "eastern cavalry" 2 1 1 1
         
-        console_command add_money seleucid, 30000
+        console_command add_money seleucid, 10000
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Carthago;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -12328,7 +12336,6 @@ and I_CompareCounter Alexandria_undersiege = 1
 	if I_SettlementOwner Alexandria = egypt
 	and I_FactionBesieged egypt
     and I_CompareCounter Alexandria_undersiege = 1
-		set_counter Alexandria_undersiege 2
 		console_command create_unit Alexandria "thureos swordsmen" 4 3 2 2
 		console_command create_unit Alexandria "thureos spears" 3 3 2 2
         console_command create_unit Alexandria "greek pikemen" 4 2 2 2
@@ -12340,6 +12347,7 @@ and I_CompareCounter Alexandria_undersiege = 1
 console_command add_money egypt, 40000
 if I_SettlementOwner Jerusalem != egypt
 and I_SettlementOwner Petra != egypt
+and I_FactionBesieged egypt
 spawn_army 
     faction egypt
     		character Teos, general, age 30, x 178, y 71
@@ -12365,6 +12373,7 @@ spawn_army
 			unit greek royal cavalry, exp 3 armour 1 weapon_lvl 1
             end        
 end_if
+set_counter Alexandria_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Memphis;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -12529,7 +12538,6 @@ and I_CompareCounter Memphis_undersiege = 1
 	if I_SettlementOwner Memphis = egypt
 	and I_FactionBesieged egypt
     and I_CompareCounter Memphis_undersiege = 1
-		set_counter Memphis_undersiege 2
         console_command create_unit Memphis "thureos swordsmen" 4 3 2 2
 		console_command create_unit Memphis "thureos spears" 3 3 2 2
         console_command create_unit Memphis "greek pikemen" 3 2 2 2
@@ -12541,6 +12549,7 @@ and I_CompareCounter Memphis_undersiege = 1
 console_command add_money egypt, 40000
 if I_SettlementOwner Jerusalem != egypt
 and I_SettlementOwner Thebes != egypt
+and I_FactionBesieged egypt
 spawn_army 
     faction egypt
     		character Teos, general, age 30, x 179, y 71
@@ -12566,6 +12575,7 @@ spawn_army
 			unit greek royal cavalry, exp 3 armour 1 weapon_lvl 1
             end        
 end_if
+set_counter Memphis_undersiege 2
 end_if
 end_monitor
 
@@ -12731,7 +12741,6 @@ and I_CompareCounter Thebes_undersiege = 1
 	if I_SettlementOwner Thebes = egypt
 	and I_FactionBesieged egypt
     and I_CompareCounter Thebes_undersiege = 1
-		set_counter Thebes_undersiege 2
         console_command create_unit Thebes "thureos swordsmen" 4 3 2 2
 		console_command create_unit Thebes "thureos spears" 3 3 2 2
         console_command create_unit Thebes "greek pikemen" 3 2 2 2
@@ -12739,8 +12748,11 @@ and I_CompareCounter Thebes_undersiege = 1
         console_command create_unit Thebes "egyptian cleruch" 2 2 2 2
         console_command create_unit Thebes "egyptian infantry" 2 2 2 2
         console_command create_unit Thebes "egyptian peltast" 2 3 2 3
+		console_command create_unit Thebes "greek xystophoroi" 1 0 2 2
+		console_command create_unit Thebes "greek royal cavalry" 1 0 2 2
 
 console_command add_money egypt, 40000
+set_counter Thebes_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Amasia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -12935,18 +12947,18 @@ and I_CompareCounter Amasia_undersiege = 1
 	if I_SettlementOwner Amasia = pontus
 	and I_FactionBesieged pontus
     and I_CompareCounter Amasia_undersiege = 1
-		set_counter Amasia_undersiege 2
-        console_command create_unit Amasia "heavy thureos swordsmen" 2 0 2 2
-        console_command create_unit Amasia "thureos swordsmen" 5 0 2 2
+        console_command create_unit Amasia "heavy thureos swordsmen" 2 1 2 2
+        console_command create_unit Amasia "thureos swordsmen" 5 1 2 2
 		console_command create_unit Amasia "east peltast" 1 1 2 2
-		console_command create_unit Amasia "greek pikemen" 2 0 2 2
-		console_command create_unit Amasia "east infantry" 2 1 2 2
-		console_command create_unit Amasia "thureos spears" 4 0 2 2 
-        console_command create_unit Amasia "eastern heavy archer" 1 0 2 2
-        console_command create_unit Amasia "east heavy cavalry" 2 0 2 2
-        console_command create_unit Amasia "east cappodocian cavalry" 1 0 2 2
+		console_command create_unit Amasia "greek pikemen" 2 2 2 2
+		console_command create_unit Amasia "east infantry" 2 3 2 2
+		console_command create_unit Amasia "thureos spears" 4 2 2 2 
+        console_command create_unit Amasia "eastern heavy archer" 1 1 2 2
+        console_command create_unit Amasia "east heavy cavalry" 2 1 2 2
+        console_command create_unit Amasia "east cappodocian cavalry" 1 1 2 2
+        console_command add_money pontus, 40000
+        set_counter Amasia_undersiege 2
 end_if
-console_command add_money pontus, 40000
 end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Kotais;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13142,11 +13154,12 @@ and I_CompareCounter Kotais_undersiege = 1
 	and I_FactionBesieged pontus
     and I_CompareCounter Kotais_undersiege = 1
 		set_counter Kotais_undersiege 2
-		console_command create_unit Kotais "east peltast" 1 1 2 1
-		console_command create_unit Kotais "greek pikemen" 2 0 1 1
-		console_command create_unit Kotais "east infantry" 2 1 1 1
-		console_command create_unit Kotais "thureos spears" 4 0 1 1
-        console_command create_unit Kotais "thureos swordsmen" 4 0 1 1
+		console_command create_unit Kotais "east peltast" 1 1 2 2
+		console_command create_unit Kotais "greek pikemen" 2 0 2 2
+		console_command create_unit Kotais "east infantry" 2 2 2 2
+		console_command create_unit Kotais "thureos spears" 4 0 2 2
+        console_command create_unit Kotais "thureos swordsmen" 4 0 2 2
+        console_command create_unit Kotais "east heavy cavalry" 2 2 2 2
 end_if
 console_command add_money pontus, 40000
 end_monitor
@@ -13326,14 +13339,15 @@ and I_CompareCounter Tarsus_undersiege = 1
 	if I_SettlementOwner Tarsus = pontus
 	and I_FactionBesieged pontus
     and I_CompareCounter Tarsus_undersiege = 1
-		set_counter Tarsus_undersiege 2
-		console_command create_unit Tarsus "east peltast" 1 1 2 1
-		console_command create_unit Tarsus "greek pikemen" 2 0 1 0
-		console_command create_unit Tarsus "east infantry" 2 0 1 1
-		console_command create_unit Tarsus "thureos spears" 2 0 1 1
-        console_command create_unit Tarsus "thureos swordsmen" 1 0 1 1
+        console_command create_unit Tarsus "thureos spears" 2 0 2 2
+        console_command create_unit Tarsus "thureos swordsmen" 1 0 2 2
+		console_command create_unit Tarsus "east peltast" 1 1 2 2
+		console_command create_unit Tarsus "greek pikemen" 2 0 2 2
+        console_command create_unit Tarsus "east heavy cavalry" 2 2 2 2
+		console_command create_unit Tarsus "east infantry" 2 0 2 2
+        console_command add_money pontus, 40000
+        set_counter Tarsus_undersiege 2
 end_if
-console_command add_money pontus, 40000
 end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Mazaka;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13511,11 +13525,13 @@ and I_CompareCounter Mazaka_undersiege = 1
 	if I_SettlementOwner Mazaka = pontus
 	and I_FactionBesieged pontus
 		set_counter Mazaka_undersiege 2
+        console_command create_unit Mazaka "heavy thureos swordsmen" 1 2 2 2
         console_command create_unit Mazaka "thureos spears" 4 2 2 2
         console_command create_unit Mazaka "thureos swordsmen" 5 2 2 2
+        console_command create_unit Mazaka "east heavy cavalry" 2 2 2 2
 		console_command create_unit Mazaka "east peltast" 2 2 2 2
 		console_command create_unit Mazaka "greek pikemen" 3 2 2 2
-		console_command create_unit Mazaka "east infantry" 2 3 2 2
+		console_command create_unit Mazaka "east infantry" 2 3 2 2 
 end_if
 console_command add_money pontus, 40000
 end_monitor
@@ -13694,13 +13710,13 @@ and I_CompareCounter Heraclea_undersiege = 1
 	if I_SettlementOwner Heraclea = pontus
 	and I_FactionBesieged pontus
 		set_counter Heraclea_undersiege 2
-		console_command create_unit Heraclea "east peltast" 2 2 2 2
-		console_command create_unit Heraclea "greek pikemen" 3 2 2 2
-		console_command create_unit Heraclea "east infantry" 3 3 2 2
-		console_command create_unit Heraclea "thureos spears" 4 2 2 2
+        console_command create_unit Heraclea "heavy thureos swordsmen" 2 2 2 2
         console_command create_unit Heraclea "thureos swordsmen" 5 2 2 2
-        console_command create_unit Heraclea "thureos spears" 2 2 2 2
-        console_command create_unit Heraclea "thureos swordsmen" 2 2 2 2
+        console_command create_unit Heraclea "greek pikemen" 3 2 2 2
+        console_command create_unit Heraclea "thureos spears" 4 2 2 2
+		console_command create_unit Heraclea "east peltast" 2 2 2 2
+		console_command create_unit Heraclea "east infantry" 2 3 2 2
+        console_command create_unit Heraclea "east heavy cavalry" 2 2 2 2
 end_if
 console_command add_money pontus, 40000
 end_monitor
@@ -14107,7 +14123,6 @@ end_monitor
 monitor_event FactionTurnStart FactionType pontus
     and not FactionIsLocal
     and I_CompareCounter Pontus_emergency = 1
-    set_counter Pontus_emergency 2
 spawn_army
 faction pontus
 			character Thyrsos, general, age 30, x 189, y 133
@@ -14133,6 +14148,7 @@ faction pontus
 			unit east cappodocian cavalry, exp 3 armour 1 weapon_lvl 1
 end
 console_command add_money pontus, 40000
+set_counter Pontus_emergency 2
 end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Sinope;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -14327,11 +14343,12 @@ if I_SettlementOwner Sinope = pontus
 	and I_FactionBesieged pontus
     and I_CompareCounter Sinope_undersiege = 1
 		set_counter Sinope_undersiege 2
-		console_command create_unit Sinope "east peltast" 1 1 2 1
-		console_command create_unit Sinope "greek pikemen" 2 0 1 0
-		console_command create_unit Sinope "east infantry" 2 0 1 1
-		console_command create_unit Sinope "thureos spears" 2 0 1 1
-        console_command create_unit Sinope "thureos swordsmen" 1 0 1 1
+        console_command create_unit Sinope "thureos swordsmen" 4 2 2 2
+        console_command create_unit Sinope "thureos spears" 4 2 2 2
+        console_command create_unit Sinope "east heavy cavalry" 2 2 2 2
+		console_command create_unit Sinope "east peltast" 1 2 2 2
+		console_command create_unit Sinope "greek pikemen" 2 2 2 2
+		console_command create_unit Sinope "east infantry" 2 2 2 2
 end_if
 console_command add_money pontus, 40000
 end_monitor
@@ -14493,11 +14510,12 @@ if I_SettlementOwner Nicomedia = pontus
 	and I_FactionBesieged pontus
     and I_CompareCounter Nicomedia_undersiege = 1
 		set_counter Nicomedia_undersiege 2
-        console_command create_unit Nicomedia "thureos swordsmen" 2 0 1 1
-        console_command create_unit Nicomedia "thureos spears" 4 0 1 1
-		console_command create_unit Nicomedia "greek pikemen" 2 0 1 1
-		console_command create_unit Nicomedia "east infantry" 2 0 1 1
-        console_command create_unit Nicomedia "east peltast" 1 1 2 1
+        console_command create_unit Nicomedia "thureos swordsmen" 2 0 2 2
+        console_command create_unit Nicomedia "thureos spears" 4 0 2 2
+		console_command create_unit Nicomedia "greek pikemen" 2 0 2 2
+        console_command create_unit Nicomedia "east heavy cavalry" 2 2 2 2
+		console_command create_unit Nicomedia "east infantry" 2 0 2 2
+        console_command create_unit Nicomedia "east peltast" 1 1 2 2
 end_if
 console_command add_money pontus, 40000
 end_monitor
@@ -14659,11 +14677,12 @@ if I_SettlementOwner Ancyra = pontus
 	and I_FactionBesieged pontus
     and I_CompareCounter Ancyra_undersiege = 1
 		set_counter Ancyra_undersiege 2
-        console_command create_unit Ancyra "thureos swordsmen" 2 1 1 1
-        console_command create_unit Ancyra "thureos spears" 4 1 1 1
-		console_command create_unit Ancyra "greek pikemen" 2 1 1 1
-		console_command create_unit Ancyra "east infantry" 2 1 1 1
-        console_command create_unit Ancyra "east peltast" 1 1 2 1
+        console_command create_unit Ancyra "thureos swordsmen" 4 1 2 2
+        console_command create_unit Ancyra "thureos spears" 4 1 2 2
+		console_command create_unit Ancyra "greek pikemen" 2 1 2 2
+        console_command create_unit Ancyra "east heavy cavalry" 2 2 2 2
+		console_command create_unit Ancyra "east infantry" 2 1 2 2
+        console_command create_unit Ancyra "east peltast" 1 1 2 2
 end_if
 console_command add_money pontus, 40000
 end_monitor
@@ -14815,14 +14834,14 @@ and I_CompareCounter Ecbatana_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Ecbatana_undersiege = 1
 		set_counter Ecbatana_undersiege 2
-		console_command create_unit Ecbatana "east peltast" 2 2 2 2
-		console_command create_unit Ecbatana "eastern auxilia" 3 2 2 2
-		console_command create_unit Ecbatana "east infantry" 2 2 2 2
-		console_command create_unit Ecbatana "parthian takabara" 3 2 2 2
-        console_command create_unit Ecbatana "eastern heavy infantry parthia" 1 0 2 2
+        console_command create_unit Ecbatana "eastern heavy infantry parthia" 2 0 2 2
         console_command create_unit Ecbatana "parthian thureophoroi" 3 1 2 2
-        console_command create_unit Ecbatana "east persian cavalry" 2 0 2 2
-        console_command create_unit Ecbatana "eastern cavalry" 2 0 2 2
+        console_command create_unit Ecbatana "eastern auxilia" 3 2 2 2
+		console_command create_unit Ecbatana "east persian cavalry" 3 0 2 2
+        console_command create_unit Ecbatana "eastern cavalry" 4 1 2 2
+        console_command create_unit Ecbatana "east peltast" 1 2 2 2
+        console_command create_unit Ecbatana "parthian takabara" 2 2 2 2
+        console_command create_unit Ecbatana "east infantry" 2 2 2 2
 end_if
 end_monitor
 
@@ -14938,21 +14957,6 @@ end_if
 
 if I_CompareCounter Susa_undersiege = 0
 	and I_SettlementOwner Susa = parthia
-	if I_CharacterTypeNearTile romans_brutii general, 2 257,114
-		set_counter Susa_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile romans_brutii family, 2 257,114
-		set_counter Susa_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Susa_undersiege = 2
-	and not I_CharacterTypeNearTile romans_brutii family, 2 257,114
-	and not I_CharacterTypeNearTile romans_brutii general, 2 257,114
-	set_counter Susa_undersiege 0
-end_if
-
-if I_CompareCounter Susa_undersiege = 0
-	and I_SettlementOwner Susa = parthia
 	if I_CharacterTypeNearTile roman_rebels general, 2 257,114
 		set_counter Susa_undersiege 1
 	end_if
@@ -14965,6 +14969,21 @@ if I_CompareCounter Susa_undersiege = 2
 	and not I_CharacterTypeNearTile roman_rebels general, 2 257,114
 	set_counter Susa_undersiege 0
 end_if
+
+if I_CompareCounter Susa_undersiege = 0
+	and I_SettlementOwner Susa = parthia
+	if I_CharacterTypeNearTile romans_brutii general, 2 257,114
+		set_counter Susa_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_brutii family, 2 257,114
+		set_counter Susa_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Susa_undersiege = 2
+	and not I_CharacterTypeNearTile romans_brutii family, 2 257,114
+	and not I_CharacterTypeNearTile romans_brutii general, 2 257,114
+	set_counter Susa_undersiege 0
+end_if
 end_monitor
 
 monitor_event SettlementTurnEnd SettlementName Susa
@@ -14974,14 +14993,15 @@ and I_CompareCounter Susa_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Susa_undersiege = 1
 		set_counter Susa_undersiege 2
-		console_command create_unit Susa "east peltast" 2 1 2 2
-		console_command create_unit Susa "eastern auxilia" 2 2 2 2
-		console_command create_unit Susa "east infantry" 2 2 2 2
-		console_command create_unit Susa "parthian takabara" 4 2 2 2
-        console_command create_unit Susa "eastern heavy infantry parthia" 1 0 2 2
+        console_command create_unit Susa "eastern heavy infantry parthia" 2 0 2 2
         console_command create_unit Susa "parthian thureophoroi" 3 1 2 2
+		console_command create_unit Susa "eastern auxilia" 2 2 2 2
         console_command create_unit Susa "east persian cavalry" 2 0 2 2
-        console_command create_unit Susa "eastern cavalry" 2 0 2 2
+        console_command create_unit Susa "eastern cavalry" 4 1 2 2
+        console_command create_unit Susa "parthian takabara" 4 2 2 2
+		console_command create_unit Susa "east infantry" 2 2 2 2
+        console_command create_unit Susa "east peltast" 1 1 2 2
+
 end_if
 end_monitor
 
@@ -15134,14 +15154,14 @@ and I_CompareCounter Charax_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Charax_undersiege = 1
 		set_counter Charax_undersiege 2
-		console_command create_unit Charax "east peltast" 2 2 2 2
+        console_command create_unit Charax "eastern heavy infantry parthia" 2 0 2 2
+        console_command create_unit Charax "parthian thureophoroi" 3 1 2 2
 		console_command create_unit Charax "eastern auxilia" 2 1 2 2
-		console_command create_unit Charax "east infantry" 2 2 2 2
-		console_command create_unit Charax "parthian takabara" 3 2 2 2
-        console_command create_unit Charax "eastern heavy infantry parthia" 1 0 2 2
-        console_command create_unit Charax "parthian thureophoroi" 3 1 1 1
         console_command create_unit Charax "east persian cavalry" 2 0 2 2
-        console_command create_unit Charax "eastern cavalry" 2 0 2 2
+        console_command create_unit Charax "eastern cavalry" 4 0 2 2
+        console_command create_unit Charax "parthian takabara" 4 2 2 2
+        console_command create_unit Charax "east infantry" 2 2 2 2
+        console_command create_unit Charax "east peltast" 1 2 2 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Zadracarta;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -15277,14 +15297,14 @@ and I_CompareCounter Zadracarta_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Zadracarta_undersiege = 1
 		set_counter Zadracarta_undersiege 2
-        console_command create_unit Zadracarta "eastern heavy infantry parthia" 2 2 1 1
-        console_command create_unit Zadracarta "parthian thureophoroi" 3 3 1 1
-        console_command create_unit Zadracarta "eastern auxilia" 2 2 1 1
-        console_command create_unit Zadracarta "parthian takabara" 2 3 2 2
+        console_command create_unit Zadracarta "eastern heavy infantry parthia" 2 2 2 2
+        console_command create_unit Zadracarta "parthian thureophoroi" 3 3 2 2
+        console_command create_unit Zadracarta "eastern auxilia" 2 2 2 2
+        console_command create_unit Zadracarta "east persian cavalry" 2 2 2 2
+        console_command create_unit Zadracarta "eastern cavalry" 4 2 2 2
+        console_command create_unit Zadracarta "parthian takabara" 4 3 2 2
 		console_command create_unit Zadracarta "east peltast" 1 3 2 2
 		console_command create_unit Zadracarta "east infantry" 2 4 2 2
-		console_command create_unit Zadracarta "east persian cavalry" 2 2 1 1
-        console_command create_unit Zadracarta "eastern cavalry" 2 2 1 1
         console_command add_money parthia, 20000
 end_if
 end_monitor
@@ -15422,14 +15442,158 @@ and I_CompareCounter Apamea_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Apamea_undersiege = 1
 		set_counter Apamea_undersiege 2
-        console_command create_unit Apamea "eastern heavy infantry parthia" 2 2 1 1
-        console_command create_unit Apamea "parthian thureophoroi" 3 3 1 1
-        console_command create_unit Apamea "eastern auxilia" 2 2 1 1
-        console_command create_unit Apamea "parthian takabara" 2 3 2 2
+        console_command create_unit Apamea "eastern heavy infantry parthia" 2 2 2 2
+        console_command create_unit Apamea "parthian thureophoroi" 3 3 2 2
+        console_command create_unit Apamea "eastern auxilia" 2 2 2 2
+        console_command create_unit Apamea "east persian cavalry" 2 2 2 2
+        console_command create_unit Apamea "eastern cavalry" 4 2 2 2
+        console_command create_unit Apamea "parthian takabara" 4 3 2 2
 		console_command create_unit Apamea "east peltast" 1 3 2 2
 		console_command create_unit Apamea "east infantry" 2 4 2 2
-		console_command create_unit Apamea "east persian cavalry" 2 2 1 1
-        console_command create_unit Apamea "eastern cavalry" 2 2 1 1
+        console_command add_money parthia, 20000
+end_if
+end_monitor
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Hecatompylos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_counter Hecatompylos_undersiege
+set_counter Hecatompylos_undersiege 0
+monitor_event SettlementTurnStart SettlementName Hecatompylos
+and not SettlementIsLocal
+if I_CompareCounter Hecatompylos_undersiege = 0
+	and I_SettlementOwner Hecatompylos = parthia
+	if I_CharacterTypeNearTile pontus general, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile pontus family, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Hecatompylos_undersiege = 2
+	and not I_CharacterTypeNearTile pontus family, 2 284,135
+	and not I_CharacterTypeNearTile pontus general, 2 284,135
+	set_counter Hecatompylos_undersiege 0
+end_if
+
+if I_CompareCounter Hecatompylos_undersiege = 0
+	and I_SettlementOwner Hecatompylos = parthia
+	if I_CharacterTypeNearTile romans_julii general, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_julii family, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Hecatompylos_undersiege = 2
+	and not I_CharacterTypeNearTile romans_julii family, 2 284,135
+	and not I_CharacterTypeNearTile romans_julii general, 2 284,135
+	set_counter Hecatompylos_undersiege 0
+end_if
+
+if I_CompareCounter Hecatompylos_undersiege = 0
+	and I_SettlementOwner Hecatompylos = parthia
+	if I_CharacterTypeNearTile romans_scipii general, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_scipii family, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Hecatompylos_undersiege = 2
+	and not I_CharacterTypeNearTile romans_scipii family, 2 284,135
+	and not I_CharacterTypeNearTile romans_scipii general, 2 284,135
+	set_counter Hecatompylos_undersiege 0
+end_if
+
+if I_CompareCounter Hecatompylos_undersiege = 0
+	and I_SettlementOwner Hecatompylos = parthia
+	if I_CharacterTypeNearTile armenia general, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile armenia family, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Hecatompylos_undersiege = 2
+	and not I_CharacterTypeNearTile armenia family, 2 284,135
+	and not I_CharacterTypeNearTile armenia general, 2 284,135
+	set_counter Hecatompylos_undersiege 0
+end_if
+
+if I_CompareCounter Hecatompylos_undersiege = 0
+	and I_SettlementOwner Hecatompylos = parthia
+	if I_CharacterTypeNearTile egypt general, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile egypt family, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Hecatompylos_undersiege = 2
+	and not I_CharacterTypeNearTile egypt family, 2 284,135
+	and not I_CharacterTypeNearTile egypt general, 2 284,135
+	set_counter Hecatompylos_undersiege 0
+end_if
+
+if I_CompareCounter Hecatompylos_undersiege = 0
+	and I_SettlementOwner Hecatompylos = parthia
+	if I_CharacterTypeNearTile britons general, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Hecatompylos_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 284,135
+	and not I_CharacterTypeNearTile britons general, 2 284,135
+	set_counter Hecatompylos_undersiege 0
+end_if
+
+if I_CompareCounter Hecatompylos_undersiege = 0
+	and I_SettlementOwner Hecatompylos = parthia
+	if I_CharacterTypeNearTile roman_rebels general, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile roman_rebels family, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Hecatompylos_undersiege = 2
+	and not I_CharacterTypeNearTile roman_rebels family, 2 284,135
+	and not I_CharacterTypeNearTile roman_rebels general, 2 284,135
+	set_counter Hecatompylos_undersiege 0
+end_if
+
+if I_CompareCounter Hecatompylos_undersiege = 0
+	and I_SettlementOwner Hecatompylos = parthia
+	if I_CharacterTypeNearTile seleucid general, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile seleucid family, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Hecatompylos_undersiege = 2
+	and not I_CharacterTypeNearTile seleucid family, 2 284,135
+	and not I_CharacterTypeNearTile seleucid general, 2 284,135
+	set_counter Hecatompylos_undersiege 0
+end_if
+end_monitor
+
+monitor_event SettlementTurnEnd SettlementName Hecatompylos
+and not SettlementIsLocal
+and I_CompareCounter Hecatompylos_undersiege = 1
+	if I_SettlementOwner Hecatompylos = parthia
+	and I_FactionBesieged parthia
+    and I_CompareCounter Hecatompylos_undersiege = 1
+		set_counter Hecatompylos_undersiege 2
+        console_command create_unit Hecatompylos "eastern heavy infantry parthia" 2 2 2 2
+        console_command create_unit Hecatompylos "parthian thureophoroi" 3 3 2 2
+        console_command create_unit Hecatompylos "eastern auxilia" 2 2 2 2
+        console_command create_unit Hecatompylos "east persian cavalry" 2 2 2 2
+        console_command create_unit Hecatompylos "eastern cavalry" 4 2 2 2
+        console_command create_unit Hecatompylos "parthian takabara" 4 3 2 2
+		console_command create_unit Hecatompylos "east peltast" 1 3 2 2
+		console_command create_unit Hecatompylos "east infantry" 2 4 2 2
         console_command add_money parthia, 20000
 end_if
 end_monitor
@@ -15567,14 +15731,14 @@ and I_CompareCounter Asaak_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Asaak_undersiege = 1
 		set_counter Asaak_undersiege 2
-        console_command create_unit Asaak "eastern heavy infantry parthia" 2 2 1 1
-        console_command create_unit Asaak "parthian thureophoroi" 3 3 1 1
-        console_command create_unit Asaak "eastern auxilia" 2 2 1 1
+        console_command create_unit Asaak "eastern heavy infantry parthia" 2 3 2 2
+        console_command create_unit Asaak "parthian thureophoroi" 3 3 2 2
+        console_command create_unit Asaak "eastern auxilia" 2 3 2 2
+        console_command create_unit Asaak "east persian cavalry" 2 3 2 2
+        console_command create_unit Asaak "eastern cavalry" 4 3 2 2
         console_command create_unit Asaak "parthian takabara" 2 3 2 2
 		console_command create_unit Asaak "east peltast" 1 3 2 2
-		console_command create_unit Asaak "east infantry" 2 4 2 2
-		console_command create_unit Asaak "east persian cavalry" 2 2 1 1
-        console_command create_unit Asaak "eastern cavalry" 2 2 1 1
+		console_command create_unit Asaak "east heavy sparabara" 2 4 2 2
         console_command add_money parthia, 20000
 end_if
 end_monitor
@@ -15615,6 +15779,23 @@ if I_CompareCounter Nisa_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType roman_rebels
+if I_CompareCounter Nisa_undersiege = 0
+	and I_SettlementOwner Nisa = parthia
+	if I_CharacterTypeNearTile roman_rebels general, 2 291,157
+		set_counter Nisa_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile roman_rebels family, 2 291,157
+		set_counter Nisa_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Nisa_undersiege = 2
+	and not I_CharacterTypeNearTile roman_rebels family, 2 291,157
+	and not I_CharacterTypeNearTile roman_rebels general, 2 291,157
+	set_counter Nisa_undersiege 0
+end_if
+end_monitor
+
 monitor_event FactionTurnEnd FactionType armenia
 if I_CompareCounter Nisa_undersiege = 0
 	and I_SettlementOwner Nisa = parthia
@@ -15649,19 +15830,19 @@ if I_CompareCounter Nisa_undersiege = 2
 end_if
 end_monitor
 
-monitor_event FactionTurnEnd FactionType roman_rebels
+monitor_event FactionTurnEnd FactionType romans_julii
 if I_CompareCounter Nisa_undersiege = 0
 	and I_SettlementOwner Nisa = parthia
-	if I_CharacterTypeNearTile roman_rebels general, 2 291,157
+	if I_CharacterTypeNearTile romans_julii general, 2 291,157
 		set_counter Nisa_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile roman_rebels family, 2 291,157
+	if I_CharacterTypeNearTile romans_julii family, 2 291,157
 		set_counter Nisa_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Nisa_undersiege = 2
-	and not I_CharacterTypeNearTile roman_rebels family, 2 291,157
-	and not I_CharacterTypeNearTile roman_rebels general, 2 291,157
+	and not I_CharacterTypeNearTile romans_julii family, 2 291,157
+	and not I_CharacterTypeNearTile romans_julii general, 2 291,157
 	set_counter Nisa_undersiege 0
 end_if
 end_monitor
@@ -15673,14 +15854,15 @@ and I_CompareCounter Nisa_undersiege = 1
 	and I_FactionBesieged parthia
     and I_CompareCounter Nisa_undersiege = 1
 		set_counter Nisa_undersiege 2
-        console_command create_unit Nisa "eastern heavy infantry parthia" 2 2 2 2
+        console_command create_unit Nisa "eastern heavy infantry parthia" 2 3 2 2
         console_command create_unit Nisa "parthian thureophoroi" 3 3 2 2
         console_command create_unit Nisa "eastern auxilia" 2 3 2 2
+        console_command create_unit Nisa "east persian cavalry" 2 3 2 2
+        console_command create_unit Nisa "eastern cavalry" 4 3 2 2
         console_command create_unit Nisa "parthian takabara" 4 3 2 2
 		console_command create_unit Nisa "east peltast" 1 3 2 3		
-		console_command create_unit Nisa "east infantry" 2 4 2 2
-        console_command create_unit Nisa "east persian cavalry" 2 2 2 2
-        console_command create_unit Nisa "eastern cavalry" 2 2 2 2
+		console_command create_unit Nisa "east heavy sparabara" 2 4 2 2
+
         console_command add_money parthia, 40000
 end_if
 end_monitor
@@ -16025,17 +16207,16 @@ and not SettlementIsLocal
 and I_CompareCounter Bactra_undersiege = 1
 	if I_SettlementOwner Bactra = roman_rebels
 	and I_FactionBesieged roman_rebels
-    	set_counter Bactra_undersiege 2
+        console_command create_unit Bactra "heavy thureos swordsmen" 2 3 2 2
+        console_command create_unit Bactra "thureos swordsmen" 4 3 2 2
+        console_command create_unit Bactra "greek pikemen" 3 3 2 2
 		console_command create_unit Bactra "east peltast" 2 3 2 2
-		console_command create_unit Bactra "greek pikemen" 3 3 2 2
+		console_command create_unit Bactra "east horse archer" 2 3 2 2
+        console_command create_unit Bactra "BAKTRIAN NOBLES" 2 3 2 2
 		console_command create_unit Bactra "thureos spears" 2 3 2 2
 		console_command create_unit Bactra "parthian takabara" 2 3 2 2
-        console_command create_unit Bactra "thureos swordsmen" 4 3 2 2
-        console_command create_unit Bactra "heavy thureos swordsmen" 2 3 2 2
-        console_command create_unit Bactra "east horse archer" 2 3 2 2
-        console_command create_unit Bactra "BAKTRIAN NOBLES" 2 3 2 2
-        
         console_command add_money roman_rebels, 40000
+        set_counter Bactra_undersiege 2
 end_if
 end_monitor
 
@@ -16204,7 +16385,6 @@ and not SettlementIsLocal
 and I_CompareCounter Alexandria_Ariana_undersiege = 1
 	if I_SettlementOwner Alexandria_Ariana = roman_rebels
 	and I_FactionBesieged roman_rebels
-    	set_counter Alexandria_Ariana_undersiege 2
         console_command create_unit Alexandria_Ariana "BAKTRIAN NOBLES" 2 3 2 2
         console_command create_unit Alexandria_Ariana "heavy thureos swordsmen" 2 3 2 2
         console_command create_unit Alexandria_Ariana "thureos swordsmen" 4 3 2 2
@@ -16215,6 +16395,7 @@ and I_CompareCounter Alexandria_Ariana_undersiege = 1
         console_command create_unit Alexandria_Ariana "east horse archer" 2 3 2 2
         
         console_command add_money roman_rebels, 40000
+        set_counter Alexandria_Ariana_undersiege 2
 end_if
 end_monitor
 
@@ -16379,7 +16560,6 @@ and not SettlementIsLocal
 and I_CompareCounter Prophthasia_undersiege = 1
 	if I_SettlementOwner Prophthasia = roman_rebels
 	and I_FactionBesieged roman_rebels
-    	set_counter Prophthasia_undersiege 2
         console_command create_unit Prophthasia "heavy thureos swordsmen" 2 1 2 2
         console_command create_unit Prophthasia "thureos swordsmen" 4 1 2 2
         console_command create_unit Prophthasia "BAKTRIAN NOBLES" 2 1 2 2
@@ -16390,6 +16570,7 @@ and I_CompareCounter Prophthasia_undersiege = 1
         console_command create_unit Prophthasia "east horse archer" 2 1 2 2
         
         console_command add_money roman_rebels, 40000
+        set_counter Prophthasia_undersiege 2
 end_if
 end_monitor
 
@@ -16769,7 +16950,6 @@ and I_CompareCounter Thospia_undersiege = 1
 	if I_SettlementOwner Thospia = armenia
 	and I_FactionBesieged armenia
     and I_CompareCounter Thospia_undersiege = 1
-		set_counter Thospia_undersiege 2
         console_command create_unit Thospia "east heavy infantry" 4 3 1 1
         console_command create_unit Thospia "parthian takabara" 4 3 1 1
         console_command create_unit Thospia "armenian auxilia" 5 3 1 1
@@ -16778,11 +16958,11 @@ and I_CompareCounter Thospia_undersiege = 1
 		console_command create_unit Thospia "east infantry" 4 3 1 1
         console_command create_unit Thospia "east horse archer" 4 3 1 1
         console_command add_money armenia, 40000
-
+		set_counter Thospia_undersiege 2
 if I_NumberOfSettlements armenia < 3
 spawn_army 
     faction armenia
-    character Ziaelas, general, age 29, x 222, y 188
+    character Ziaelas, general, age 29, x 222, y 133
 		unit east generals cavalry, exp 3 armour 1 weapon_lvl 1
 		unit east infantry, exp 3 armour 1 weapon_lvl 1
 		unit east infantry, exp 3 armour 1 weapon_lvl 1
@@ -16990,7 +17170,6 @@ and not SettlementIsLocal
 and I_CompareCounter Gazaca_undersiege = 1
 	if I_SettlementOwner Gazaca = armenia
 	and I_FactionBesieged armenia
-    	set_counter Gazaca_undersiege 2
         console_command create_unit Gazaca "armenian auxilia" 5 3 1 1
         console_command create_unit Gazaca "parthian takabara" 4 3 1 1
         console_command create_unit Gazaca "east infantry" 4 3 1 1
@@ -16999,7 +17178,7 @@ and I_CompareCounter Gazaca_undersiege = 1
         console_command create_unit Gazaca "east horse archer" 4 3 1 1
         
         console_command add_money armenia, 40000
-        
+        set_counter Gazaca_undersiege 2
 if I_NumberOfSettlements armenia < 3
 spawn_army 
     faction armenia
@@ -20387,7 +20566,7 @@ monitor_event SettlementTurnStart SettlementName Heraclea
 and not SettlementIsLocal
 and I_TurnNumber = 60
 console_command add_population Heraclea 4000
-console_command add_population Heraclea 3000
+console_command add_population Heraclea 4000
 end_monitor
 monitor_event SettlementTurnStart SettlementName Mazaka
 and not SettlementIsLocal
@@ -20397,32 +20576,33 @@ console_command add_population Mazaka 3000
 end_monitor
 monitor_event SettlementTurnStart SettlementName Pinaca
 and not SettlementIsLocal
-and I_TurnNumber = 40
+and I_TurnNumber = 80
 console_command add_population Pinaca 4000
-console_command add_population Pinaca 4000
+console_command add_population Pinaca 3000
 end_monitor
 monitor_event SettlementTurnStart SettlementName Tomi
 and not SettlementIsLocal
 and I_TurnNumber = 15
 and I_SettlementOwner Tomi = thrace
 console_command add_population Tomi 4000
+console_command add_population Cydaus 4000
+console_command add_population Lepcis_Magna 4000
+console_command add_population Lepcis_Magna 3000
+console_command add_population Cirta 4000
+console_command add_population Cirta 4000
+console_command add_population Siga 4000
+console_command add_population Siga 4000
 end_monitor
-monitor_event SettlementTurnStart SettlementName Ancona
-and not SettlementIsLocal
-and I_TurnNumber = 40
-console_command add_population Ancona 4000
-console_command add_population Ancona 4000
-end_monitor
+
 monitor_event SettlementTurnStart SettlementName Thessalonica
 and not SettlementIsLocal
-and I_TurnNumber = 20
+and I_TurnNumber = 60
 console_command add_population Thessalonica 4000
 console_command add_population Thessalonica 4000
 end_monitor
 monitor_event SettlementTurnStart SettlementName Neapolis_Scythica
 and not SettlementIsLocal
 and I_TurnNumber = 20
-and I_SettlementOwner Neapolis_Scythica = romans_julii
 console_command add_population Neapolis_Scythica 4000
 console_command add_population Neapolis_Scythica 4000
 console_command add_money romans_julii, 40000
@@ -20459,54 +20639,64 @@ and not SettlementIsLocal
 and I_SettlementOwner Phabiranum = germans
 and I_TurnNumber = 100
 console_command add_population Phabiranum 4000
-console_command add_population Phabiranum 3000
-end_monitor
-monitor_event SettlementTurnStart SettlementName Hecatompylos
-and not SettlementIsLocal
-and I_TurnNumber = 90
-console_command add_population Hecatompylos 4000
-console_command add_population Hecatompylos 3000
-end_monitor
-monitor_event SettlementTurnStart SettlementName Apamea
-and not SettlementIsLocal
-and I_TurnNumber = 60
-console_command add_population Apamea 4000
-console_command add_population Apamea 4000
-end_monitor
-monitor_event SettlementTurnStart SettlementName Palmyra
-and not SettlementIsLocal
-and I_TurnNumber = 60
-console_command add_population Palmyra 4000
-console_command add_population Palmyra 4000
-end_monitor
-monitor_event SettlementTurnStart SettlementName Sabata
-and not SettlementIsLocal
-and I_TurnNumber = 50
-console_command add_population Sabata 4000
-console_command add_population Sabata 4000
+console_command add_population Phabiranum 4000
+console_command process_cq Halicarnasus
 end_monitor
 
 monitor_event FactionTurnStart FactionIsLocal
-and I_CompareCounter roman_rebels_player = 0
-and I_CompareCounter parthia_player = 0
-and I_CompareCounter sogdian_player = 0
-and I_CompareCounter saba_player = 0
 and I_TurnNumber = 50
-console_command add_population Prophthasia 4000
-console_command add_population Prophthasia 4000
-console_command add_population Alexandria_Oxiana 4000
-console_command add_population Alexandria_Oxiana 4000
-console_command add_population Alexandria_Ariana 4000
-console_command add_population Alexandria_Ariana 4000
+if I_CompareCounter saba_player = 0
+console_command add_population Sabata 4000
+console_command add_population Sabata 4000
+end_if
+if I_CompareCounter greek_cities_player = 0
+console_command add_population Halicarnasus 4000
+console_command add_population Halicarnasus 3000
+end_if
+if  I_CompareCounter seleucid_player = 0
 console_command add_population Palmyra 4000
 console_command add_population Palmyra 4000
-console_command add_population Apamea 4000
-console_command add_population Apamea 4000
-console_command add_population Tabae 4000
-console_command add_population Tabae 4000
+end_if
+if I_CompareCounter sparta_player = 0
+console_command add_population Sparta 4000
+console_command add_population Sparta 4000
+end_if
+if I_CompareCounter parthia_player = 0
+and I_CompareCounter sogdian_player = 0
+and I_CompareCounter roman_rebels_player = 0
 console_command add_population Hecatompylos 4000
 console_command add_population Hecatompylos 3000
+console_command add_population Ecbatana 4000
+console_command add_population Ecbatana 4000
+console_command add_population Charax 4000
+console_command add_population Charax 4000
+console_command add_population Apamea 4000
+console_command add_population Apamea 4000
+console_command add_population Tabae 4000
+console_command add_population Tabae 4000
+console_command add_population Alexandria_Oxiana 4000
+console_command add_population Alexandria_Oxiana 4000
+console_command add_population Alexandria_Ariana 4000
+console_command add_population Alexandria_Ariana 4000
+console_command add_population Prophthasia 4000
+console_command add_population Prophthasia 4000
+console_command add_population Zarang 4000
+console_command add_population Zarang 4000
+console_command add_population Pura 4000
+console_command add_population Pura 4000
+end_if
+if I_CompareCounter pontus_player = 0
+console_command add_population Amasia 4000
+console_command add_population Amasia 3000
+console_command add_population Nicomedia 4000
+console_command add_population Nicomedia 4000
+console_command add_population Apameia 4000
+console_command add_population Apameia 4000
+console_command add_population Ancyra 4000
+console_command add_population Ancyra 4000
+end_if
 end_monitor
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;CIVIL WARS;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -21003,10 +21193,8 @@ declare_counter Hannibal_invasion
 set_counter Hannibal_invasion 0
 monitor_event SettlementTurnEnd SettlementName Arretium
 and not SettlementBuildingExists = monument_victory_minor
-and I_TurnNumber > 20
+and I_TurnNumber > 30
 if I_NumberOfSettlements carthage > 0
-and I_NumberOfSettlements romans_scipii > 0
-and not I_LocalFaction carthage
 and I_SettlementOwner Roma = romans_scipii
 and I_SettlementOwner Arretium = romans_scipii
 and I_SettlementOwner Ariminum = romans_scipii
@@ -21020,14 +21208,6 @@ and I_SettlementOwner Lilybaeum = romans_scipii
 and I_SettlementOwner Segesta = romans_scipii
 and I_SettlementOwner Massilia = romans_scipii
 and I_SettlementOwner Patavium = romans_scipii
-set_counter Hannibal_invasion 1
-end_if
-if I_LocalFaction carthage
-and I_SettlementOwner Roma = romans_scipii
-and I_SettlementOwner Massilia = romans_scipii
-and I_SettlementOwner Tolosa = romans_scipii
-and I_SettlementOwner Messana = romans_scipii
-and I_SettlementOwner Lilybaeum = romans_scipii
 set_counter Hannibal_invasion 1
 end_if
 end_monitor
@@ -21139,6 +21319,7 @@ if I_CompareCounter romans_player = 1
 console_command control romans_scipii
 console_command control romans_scipii
 end_if
+end_if
 if I_CompareCounter gauls_player = 1
 console_command control gauls
 console_command control gauls   
@@ -21244,49 +21425,49 @@ console_command control carthage
         spawn_army
             faction romans_scipii 
             character Lucius Aemilius, named character, age 43, x 96, y 128
-            unit roman generals guard cavalry early, exp 0 armour 1 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman princeps, exp 0 armour 1 weapon_lvl 1
-            unit roman princeps, exp 0 armour 1 weapon_lvl 1
-            unit roman princeps, exp 0 armour 1 weapon_lvl 1
-            unit roman princeps, exp 0 armour 1 weapon_lvl 1
-            unit roman velite, exp 0 armour 2 weapon_lvl 1
-            unit roman velite, exp 0 armour 2 weapon_lvl 1
-            unit roman triarii, exp 0 armour 1 weapon_lvl 1
-            unit roman triarii, exp 0 armour 1 weapon_lvl 1
-            unit roman triarii, exp 0 armour 1 weapon_lvl 1
-            unit roman light cavalry, exp 1 armour 2 weapon_lvl 1
-            unit roman light cavalry, exp 1 armour 2 weapon_lvl 1
+            unit roman generals guard cavalry early, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman princeps, exp 0 armour 2 weapon_lvl 2
+            unit roman princeps, exp 0 armour 2 weapon_lvl 2
+            unit roman princeps, exp 0 armour 2 weapon_lvl 2
+            unit roman princeps, exp 0 armour 2 weapon_lvl 2
+            unit roman velite, exp 0 armour 2 weapon_lvl 2
+            unit roman velite, exp 0 armour 2 weapon_lvl 2
+            unit roman triarii, exp 0 armour 2 weapon_lvl 2
+            unit roman triarii, exp 0 armour 2 weapon_lvl 2
+            unit roman triarii, exp 0 armour 2 weapon_lvl 2
+            unit roman light cavalry, exp 1 armour 2 weapon_lvl 2
+            unit roman light cavalry, exp 1 armour 2 weapon_lvl 2
         end
     console_command kill_character "Gaius Terentius"
         spawn_army
             faction romans_scipii 
             character Gaius Terentius, named character, age 41, x 96, y 127
-            unit roman generals guard cavalry early, exp 0 armour 1 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman hastati, exp 0 armour 2 weapon_lvl 1
-            unit roman princeps, exp 0 armour 1 weapon_lvl 1
-            unit roman princeps, exp 0 armour 1 weapon_lvl 1
-            unit roman princeps, exp 0 armour 1 weapon_lvl 1
-            unit roman princeps, exp 0 armour 1 weapon_lvl 1
-            unit roman velite, exp 0 armour 2 weapon_lvl 1
-            unit roman velite, exp 0 armour 2 weapon_lvl 1
-            unit roman triarii, exp 0 armour 1 weapon_lvl 1
-            unit roman triarii, exp 0 armour 1 weapon_lvl 1
-            unit roman triarii, exp 0 armour 1 weapon_lvl 1
-            unit roman light cavalry, exp 1 armour 2 weapon_lvl 1
-            unit roman light cavalry, exp 1 armour 2 weapon_lvl 1
+            unit roman generals guard cavalry early, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman hastati, exp 0 armour 2 weapon_lvl 2
+            unit roman princeps, exp 0 armour 2 weapon_lvl 2
+            unit roman princeps, exp 0 armour 2 weapon_lvl 2
+            unit roman princeps, exp 0 armour 2 weapon_lvl 2
+            unit roman princeps, exp 0 armour 2 weapon_lvl 2
+            unit roman velite, exp 0 armour 2 weapon_lvl 2
+            unit roman velite, exp 0 armour 2 weapon_lvl 2
+            unit roman triarii, exp 0 armour 2 weapon_lvl 2
+            unit roman triarii, exp 0 armour 2 weapon_lvl 2
+            unit roman triarii, exp 0 armour 2 weapon_lvl 2
+            unit roman light cavalry, exp 1 armour 2 weapon_lvl 2
+            unit roman light cavalry, exp 1 armour 2 weapon_lvl 2
         end
     console_command kill_character "Gnaeus Servilius"
         spawn_army
@@ -21302,8 +21483,6 @@ console_command control carthage
         end
 	console_command give_trait "Lucius Aemilius" Consul
 	console_command give_trait "Gaius Terentius" Consul
-	console_command give_trait "Gnaeus Servilius" Consul
-	console_command give_trait "Marcus Minucius" Consul
 
 if I_CompareCounter romans_player = 1
 console_command control romans_scipii
@@ -21437,8 +21616,8 @@ end_monitor
 ;console_command puppify_my_love
 console_command add_money 1
 
-while I_CompareCounter loop = 0
-;while I_TurnNumber < 99999
+;while I_CompareCounter loop = 0
+while I_TurnNumber < 99999
     suspend_unscripted_advice true
 end_while
 

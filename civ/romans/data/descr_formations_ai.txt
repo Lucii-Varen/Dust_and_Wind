@@ -387,7 +387,6 @@ begin_formation ai_maniple_line
         supported_factions			 romans_scipii, roman_rebels 
 
 
-
                 ; Screen of missile inf
 		begin_block 0
                         max_units			3
@@ -395,10 +394,10 @@ begin_formation ai_maniple_line
                         unit_type			elephants 3.0
                         unit_type			heavy_chariots 3.0
                         unit_formation          square, wedge
-                        ;min_unit_width			15
-                        ;max_unit_width			30
+                        ;min_unit_width			80
+                        ;max_unit_width			100
 			block_formation		line
-			block_relative_pos	0 0.0 -20.0
+			block_relative_pos	0 0.0 0.0
 			inter_unit_spacing	0.2
 			priority			1.0
 		end_block
@@ -412,12 +411,12 @@ begin_formation ai_maniple_line
                         default_melee_state	attack
                         unit_formation          square, testudo, wedge, phalanx
                         ;unit_formation          square, testudo
-			;unit_density		close, loose
-                        min_unit_width			15
-                        max_unit_width			15
+			;unit_density		loose, close
+                        min_unit_width			20
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	0 0.0 -6.0
-			inter_unit_spacing	0.2
+			inter_unit_spacing	25.0
 			priority			1.0
 		end_block
 
@@ -430,12 +429,12 @@ begin_formation ai_maniple_line
                         default_melee_state	attack
                         unit_formation          square, testudo, wedge, phalanx
                         ;unit_formation          square, testudo
-			;unit_density		close, loose
-                        min_unit_width			15
-                        max_unit_width			15
+			;unit_density		loose, close
+                        min_unit_width			20
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	1 0.0 -6.0
-			inter_unit_spacing	0.2
+			inter_unit_spacing	25.0
 			priority			1.0
 		end_block
 
@@ -448,12 +447,12 @@ begin_formation ai_maniple_line
                         default_melee_state	attack
                         unit_formation          square, testudo, wedge, phalanx
                         ;unit_formation          square, testudo
-                        ;unit_density		close, loose
-                        min_unit_width			15
-                        max_unit_width			15
+                        ;unit_density		loose, close
+                        min_unit_width			20
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	2 0.0 -6.0
-			inter_unit_spacing	0.2
+			inter_unit_spacing	25.0
 			priority			1.0
 		end_block
 
@@ -466,9 +465,9 @@ begin_formation ai_maniple_line
                         unit_type			any 0.0
                         unit_formation          square, testudo, phalanx
                         ;unit_formation          square, testudo
-                        ;unit_density		close, loose
-                        min_unit_width			15
-                        max_unit_width			25
+                        ;unit_density		loose, close
+                        min_unit_width			25
+                        max_unit_width			45
 			block_formation		line
 			block_relative_pos	3 0.0 -6.0
 			inter_unit_spacing	0.2
@@ -487,8 +486,7 @@ begin_formation ai_maniple_line
 			unit_type			any					0.01
                         unit_formation          square, phalanx
                         ;unit_density		close, loose
-                        min_unit_width			15
-                        max_unit_width			20
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	5 0.0 -20.0
 			inter_unit_spacing	10.0
@@ -502,8 +500,7 @@ begin_formation ai_maniple_line
 		begin_block 7
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			15
-                        max_unit_width			15
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	5 -1.0 -1.0
 			inter_unit_spacing	0.2
@@ -514,8 +511,7 @@ begin_formation ai_maniple_line
 		begin_block 8
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			15
-                        max_unit_width			15
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	7 1 -3.0
 			inter_unit_spacing	0.2
@@ -526,8 +522,7 @@ begin_formation ai_maniple_line
 		begin_block 9
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			15
-                        max_unit_width			15
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	5 1.0 -1.0
 			inter_unit_spacing	0.2
@@ -538,8 +533,7 @@ begin_formation ai_maniple_line
 		begin_block 10
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			15
-                        max_unit_width			15
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	9 -1 -3.0
 			inter_unit_spacing	0.2
@@ -550,8 +544,7 @@ begin_formation ai_maniple_line
 		begin_block 11
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			15
-                        max_unit_width			15
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	8 -1.0 0.0
 			inter_unit_spacing	0.2
@@ -562,8 +555,7 @@ begin_formation ai_maniple_line
 		begin_block 12
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			15
-                        max_unit_width			15
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	11 1 -6.0
 			inter_unit_spacing	0.2
@@ -574,8 +566,7 @@ begin_formation ai_maniple_line
 		begin_block 13
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			15
-                        max_unit_width			15
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	10 1.0 0.0
 			inter_unit_spacing	0.2
@@ -586,8 +577,7 @@ begin_formation ai_maniple_line
 		begin_block 14
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			15
-                        max_unit_width			15
+                        max_unit_width			25
 			block_formation		line
 			block_relative_pos	12 -1 -6.0
 			inter_unit_spacing	0.2
@@ -600,11 +590,9 @@ begin_formation ai_maniple_line
 
 ;; general at the back
 		begin_block 16
-			;min_units				1
-			;max_units				1
+			min_units				1
+			max_units				1
 			unit_type				general_unit			1.0
-                        unit_type				chariots			3.0
-                        unit_type				elephants			1.0
                         ;unit_formation          square, testudo
 			;unit_density			close
 			block_formation			line
@@ -856,19 +844,18 @@ begin_formation ai_maniple_line
 
 		
 
-		; Screen of missile inf
+
+                ; Screen of missile inf
 		begin_block 0
                         max_units			3
 			unit_type			missile infantry 0.9
                         unit_type			elephants 3.0
                         unit_type			heavy_chariots 3.0
-                        default_melee_state	attack
                         unit_formation          square, wedge
-                        ;unit_density		loose, close
                         ;min_unit_width			80
-                        ;max_unit_width			120
+                        ;max_unit_width			100
 			block_formation		line
-			block_relative_pos	0 0.0 15.0
+			block_relative_pos	0 0.0 0.0
 			inter_unit_spacing	0.2
 			priority			1.0
 		end_block
@@ -880,14 +867,14 @@ begin_formation ai_maniple_line
 			unit_type			heavy_pilum_infantry 0.7
                         unit_type			heavy infantry 0.0
                         default_melee_state	attack
-                        ;unit_formation          square, testudo, wedge, phalanx
-                        unit_formation          wedge
-			;unit_density		close, loose
+                        unit_formation          square, testudo, wedge, phalanx
+                        ;unit_formation          square, testudo
+			;unit_density		loose, close
                         min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	0 0.0 -35.0
-			inter_unit_spacing	45.0
+			block_relative_pos	0 0.0 -6.0
+			inter_unit_spacing	25.0
 			priority			1.0
 		end_block
 
@@ -898,14 +885,14 @@ begin_formation ai_maniple_line
 			unit_type			light_pilum_infantry 0.1
                         unit_type			heavy infantry 0.0
                         default_melee_state	attack
-                        ;unit_formation          square, testudo, wedge, phalanx
-                        unit_formation          wedge
+                        unit_formation          square, testudo, wedge, phalanx
+                        ;unit_formation          square, testudo
 			;unit_density		loose, close
                         min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	1 0.0 -30.0
-			inter_unit_spacing	65.0
+			block_relative_pos	1 0.0 -6.0
+			inter_unit_spacing	25.0
 			priority			1.0
 		end_block
 
@@ -916,14 +903,14 @@ begin_formation ai_maniple_line
                         unit_type			light infantry 0.6
 			unit_type			heavy infantry 0.6
                         default_melee_state	attack
-                        ;unit_formation          square, testudo, wedge, phalanx
-                        unit_formation          wedge
-                        ;unit_density		close, loose
+                        unit_formation          square, testudo, wedge, phalanx
+                        ;unit_formation          square, testudo
+                        ;unit_density		loose, close
                         min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	2 0.0 -30.0
-			inter_unit_spacing	85.0
+			block_relative_pos	2 0.0 -6.0
+			inter_unit_spacing	25.0
 			priority			1.0
 		end_block
 
@@ -937,17 +924,17 @@ begin_formation ai_maniple_line
                         unit_formation          square, testudo, phalanx
                         ;unit_formation          square, testudo
                         ;unit_density		loose, close
-                        min_unit_width			80
-                        max_unit_width			120
+                        min_unit_width			25
+                        max_unit_width			45
 			block_formation		line
-			block_relative_pos	3 0.0 -20.0
+			block_relative_pos	3 0.0 -6.0
 			inter_unit_spacing	0.2
 			priority			1.0
 		end_block
 
 	
 		begin_dummy_block 5
-			spans  1 2 3 4 
+			spans  0 1 2 3 4 
 		end_dummy_block
 
 ;; artillery and handlers at the back
@@ -971,10 +958,9 @@ begin_formation ai_maniple_line
 		begin_block 7
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	3 -10.0 -15.0
+			block_relative_pos	5 -1.0 -1.0
 			inter_unit_spacing	0.2
 			priority			0.5
 		end_block
@@ -983,10 +969,9 @@ begin_formation ai_maniple_line
 		begin_block 8
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	2 10 -3.0
+			block_relative_pos	7 1 -3.0
 			inter_unit_spacing	0.2
 			priority			0.5
 		end_block
@@ -995,10 +980,9 @@ begin_formation ai_maniple_line
 		begin_block 9
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	3 10.0 -15.0
+			block_relative_pos	5 1.0 -1.0
 			inter_unit_spacing	0.2
 			priority			0.5
 		end_block
@@ -1007,10 +991,9 @@ begin_formation ai_maniple_line
 		begin_block 10
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	2 -10 -3.0
+			block_relative_pos	9 -1 -3.0
 			inter_unit_spacing	0.2
 			priority			0.5
 		end_block
@@ -1019,10 +1002,9 @@ begin_formation ai_maniple_line
 		begin_block 11
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	6 -10.0 0.0
+			block_relative_pos	8 -1.0 0.0
 			inter_unit_spacing	0.2
 			priority			0.6
 		end_block
@@ -1031,10 +1013,9 @@ begin_formation ai_maniple_line
 		begin_block 12
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	4 -1 -6.0
+			block_relative_pos	11 1 -6.0
 			inter_unit_spacing	0.2
 			priority			0.6
 		end_block
@@ -1043,10 +1024,9 @@ begin_formation ai_maniple_line
 		begin_block 13
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	6 10.0 0.0
+			block_relative_pos	10 1.0 0.0
 			inter_unit_spacing	0.2
 			priority			0.6
 		end_block
@@ -1055,16 +1035,15 @@ begin_formation ai_maniple_line
 		begin_block 14
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			20
-                        max_unit_width			30
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	4 1 -6.0
+			block_relative_pos	12 -1 -6.0
 			inter_unit_spacing	0.2
 			priority			0.6
 		end_block
 
                        begin_dummy_block 15
-			spans 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+			spans 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
 		end_dummy_block
 
 ;; general at the back
@@ -1075,7 +1054,7 @@ begin_formation ai_maniple_line
                         ;unit_formation          square, testudo
 			;unit_density			close
 			block_formation			line
-			block_relative_pos		15 0.0 -40.0
+			block_relative_pos		15 0.0 -20.0
 			inter_unit_spacing		10.0
 			priority				1.0
 		end_block
@@ -1095,87 +1074,100 @@ begin_formation ai_maniple_line
 
 
 
-
-		
-		;; First line of infantry
+                ; Screen of missile inf
 		begin_block 0
+                        max_units			3
+			unit_type			missile infantry 0.9
+                        unit_type			elephants 3.0
+                        unit_type			heavy_chariots 3.0
+                        unit_formation          square, wedge
+                        ;min_unit_width			80
+                        ;max_unit_width			100
+			block_formation		line
+			block_relative_pos	0 0.0 0.0
+			inter_unit_spacing	0.2
+			priority			1.0
+		end_block
+
+		;; First line of infantry
+		begin_block 1
 			min_units			3
                         unit_type			light_pilum_infantry 0.9
 			unit_type			heavy_pilum_infantry 0.7
                         unit_type			heavy infantry 0.0
-                        ;default_melee_state	defend
+                        default_melee_state	attack
                         unit_formation          square, testudo, wedge, phalanx
                         ;unit_formation          square, testudo
 			;unit_density		loose, close
-                        min_unit_width			30
-                        max_unit_width			40
+                        min_unit_width			20
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	0 0.0 -5.0
-			inter_unit_spacing	20.0
+			block_relative_pos	0 0.0 -6.0
+			inter_unit_spacing	25.0
 			priority			1.0
 		end_block
 
 		;; second line of infantry
-		begin_block 1
+		begin_block 2
 			min_units			3
 			unit_type			heavy_pilum_infantry 1.0
 			unit_type			light_pilum_infantry 0.1
                         unit_type			heavy infantry 0.0
-                        ;default_melee_state	defend
+                        default_melee_state	attack
                         unit_formation          square, testudo, wedge, phalanx
                         ;unit_formation          square, testudo
 			;unit_density		loose, close
-                        min_unit_width			30
-                        max_unit_width			40
+                        min_unit_width			20
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	0 0.0 -12.0
-			inter_unit_spacing	20.0
+			block_relative_pos	1 0.0 -6.0
+			inter_unit_spacing	25.0
 			priority			1.0
 		end_block
 
 		;; 3rd line of infantry(going to the triarii!)
-		begin_block 2
+		begin_block 3
 			max_units			4
                         unit_type			spearmen 1.0
                         unit_type			light infantry 0.6
 			unit_type			heavy infantry 0.6
-                        ;default_melee_state	defend
+                        default_melee_state	attack
                         unit_formation          square, testudo, wedge, phalanx
                         ;unit_formation          square, testudo
                         ;unit_density		loose, close
-                        min_unit_width			30
-                        max_unit_width			40
+                        min_unit_width			20
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	1 0.0 -12.0
-			inter_unit_spacing	20.0
+			block_relative_pos	2 0.0 -6.0
+			inter_unit_spacing	25.0
 			priority			1.0
 		end_block
 
 		;; Archers behind
-		begin_block 3
+		begin_block 4
 			unit_type			ranged_missile_infantry 1.0
                         unit_type			light infantry 0.4
 			unit_type			heavy infantry 0.4
 			unit_type			spearmen 0.8
                         unit_type			any 0.0
-                        unit_formation          square, testudo, wedge, phalanx
+                        unit_formation          square, testudo, phalanx
                         ;unit_formation          square, testudo
                         ;unit_density		loose, close
-                        min_unit_width			50
-                        max_unit_width			80
+                        min_unit_width			25
+                        max_unit_width			45
 			block_formation		line
-			block_relative_pos	2 0.0 -12.0
+			block_relative_pos	3 0.0 -6.0
 			inter_unit_spacing	0.2
 			priority			1.0
 		end_block
 
 	
-		begin_dummy_block 4
-			spans  0 1 2 3 
+		begin_dummy_block 5
+			spans  0 1 2 3 4 
 		end_dummy_block
 
 ;; artillery and handlers at the back
-		begin_block 5
+		begin_block 6
 			unit_type			handler				1.0
 			unit_type			siege				1.0
 			unit_type			any					0.01
@@ -1183,7 +1175,7 @@ begin_formation ai_maniple_line
                         ;unit_density		close, loose
                         max_unit_width			25
 			block_formation		line
-			block_relative_pos	4 0.0 -20.0
+			block_relative_pos	5 0.0 -20.0
 			inter_unit_spacing	10.0
 			priority			0.5
 		end_block
@@ -1192,114 +1184,106 @@ begin_formation ai_maniple_line
 		;; cavalry on the flanks and back a bit
 
 		;; left flank cav
-		begin_block 6
+		begin_block 7
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			40
-                        max_unit_width			60
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	4 -10.0 -10.0
+			block_relative_pos	5 -1.0 -1.0
 			inter_unit_spacing	0.2
 			priority			0.5
 		end_block
 
                 ;; left flank cav(more)
-		begin_block 7
+		begin_block 8
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			40
-                        max_unit_width			60
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	6 1 -3.0
+			block_relative_pos	7 1 -3.0
 			inter_unit_spacing	0.2
 			priority			0.5
 		end_block
 
 		;; right_flank cav
-		begin_block 8
+		begin_block 9
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			40
-                        max_unit_width			60
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	4 10.0 -10.0
+			block_relative_pos	5 1.0 -1.0
 			inter_unit_spacing	0.2
 			priority			0.5
 		end_block
 
                 ;; right_flank cav(more)
-		begin_block 9
+		begin_block 10
 			unit_type			cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			40
-                        max_unit_width			60
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	8 -1 -3.0
+			block_relative_pos	9 -1 -3.0
 			inter_unit_spacing	0.2
 			priority			0.5
 		end_block
 
 		;; left flank missile cav
-		begin_block 10
+		begin_block 11
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			40
-                        max_unit_width			60
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	7 -1.0 0.0
+			block_relative_pos	8 -1.0 0.0
 			inter_unit_spacing	0.2
 			priority			0.6
 		end_block
 
                 ;; left flank missile cav(more)
-		begin_block 11
+		begin_block 12
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			40
-                        max_unit_width			60
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	10 1 -6.0
+			block_relative_pos	11 1 -6.0
 			inter_unit_spacing	0.2
 			priority			0.6
 		end_block
 
 		;; right_flank missile cav
-		begin_block 12
+		begin_block 13
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			40
-                        max_unit_width			60
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	9 1.0 0.0
+			block_relative_pos	10 1.0 0.0
 			inter_unit_spacing	0.2
 			priority			0.6
 		end_block
 
                 ;; right_flank missile cav(more)
-		begin_block 13
+		begin_block 14
 			unit_type			missile cavalry 1.0
                         unit_formation          phalanx, testudo
-                        min_unit_width			40
-                        max_unit_width			60
+                        max_unit_width			25
 			block_formation		line
-			block_relative_pos	11 -1 -6.0
+			block_relative_pos	12 -1 -6.0
 			inter_unit_spacing	0.2
 			priority			0.6
 		end_block
 
-                       begin_dummy_block 14
-			spans 0 1 2 3 4 5 6 7 8 9 10 11 12 13 
+                       begin_dummy_block 15
+			spans 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
 		end_dummy_block
 
 ;; general at the back
-		begin_block 15
-			;min_units				1
-			;max_units				1
+		begin_block 16
+			min_units				1
+			max_units				1
 			unit_type				general_unit			1.0
                         ;unit_formation          square, testudo
 			;unit_density			close
 			block_formation			line
-			block_relative_pos		14 0.0 -15.0
+			block_relative_pos		15 0.0 -20.0
 			inter_unit_spacing		10.0
 			priority				1.0
 		end_block

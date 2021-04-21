@@ -3356,10 +3356,10 @@ type				greek_legionary
 skeleton			fs_s1_javelinman, fs_slow_swordsman					; throwing javelin
 indiv_range			40
 texture				seleucid, civ/data/new/models_units/textures/unit_greek_legionary_seleucid.tga
-model_flexi_m			civ/data/new/models_units/UNIT_GREEK_SILVER_LEGION.cas, 15
-model_flexi_m			civ/data/new/models_units/UNIT_GREEK_SILVER_LEGION.cas, 30
-model_flexi_m			civ/data/new/models_units/UNIT_GREEK_SILVER_LEGION.cas, 40
-model_flexi			civ/data/new/models_units/UNIT_GREEK_SILVER_LEGION.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_SILVER_LEGION.cas, 15
+model_flexi			civ/data/new/models_units/UNIT_GREEK_SILVER_LEGION.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_GREEK_SILVER_LEGION_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_GREEK_SILVER_LEGION_LOW.cas, max
 model_sprite		seleucid, 70.0, civ/data/sprites/seleucid_old_legionary_cohort_i_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
@@ -3521,16 +3521,27 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				roman_evocati
 skeleton			fs_pilum, fs_s1_gladius
 indiv_range			40
-texture				romans_julii, civ/data/new/models_units/legions/textures/UNIT_ROMAN_EVOCATI.TGA
-texture				romans_brutii, civ/data/new/models_units/legions/textures/UNIT_ROMAN_EVOCATI.TGA
-texture				romans_scipii, civ/data/new/models_units/legions/textures/UNIT_ROMAN_EVOCATI.TGA
-texture				roman_rebels, civ/data/new/models_units/legions/textures/UNIT_ROMAN_EVOCATI.TGA
-model_flexi_m			civ/data/new/models_units/legions/UNIT_ROMAN_EVOCATI.cas, 15
-model_flexi_m			civ/data/new/models_units/legions/UNIT_ROMAN_EVOCATI.cas, 30
-model_flexi_m			civ/data/new/models_units/legions/UNIT_ROMAN_EVOCATI.cas, 40
-model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_EVOCATI.cas, max
+texture				romans_scipii, civ/data/new/models_units/legions/textures/ROMAN_ITALIC_ALIIED_HASTATI.TGA
+texture				roman_rebels, civ/data/new/models_units/legions/textures/ROMAN_ITALIC_ALIIED_HASTATI.TGA
+model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 15
+model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 30
+model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 40
+model_flexi			civ/data/new/models_units/legions/roman_principe_premarian.cas, max
 model_sprite		romans_scipii, 70.0, civ/data/sprites/romans/romans_scipii_roman_evocati_sprite.spr
 model_sprite		roman_rebels, 70.0, civ/data/sprites/romans/romans_scipii_roman_evocati_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				italic_allied_cohort
+skeleton			fs_pilum, fs_s1_gladius
+indiv_range			40
+texture				romans_scipii, civ/data/new/models_units/legions/textures/UNIT_ROMAN_EVOCATI.TGA
+texture				roman_rebels, civ/data/new/models_units/legions/textures/UNIT_ROMAN_EVOCATI.TGA
+model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_EVOCATI.cas, 15
+model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_EVOCATI.cas, 30
+model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_EVOCATI.cas, 40
+model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_EVOCATI.cas, max
+model_sprite		romans_scipii, 70.0, civ/data/sprites/romans/romans_scipii_italic_allied_cohort_sprite.spr
+model_sprite		roman_rebels, 70.0, civ/data/sprites/romans/romans_scipii_italic_allied_cohort_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				roman_republican_LEG
@@ -3628,7 +3639,7 @@ model_sprite		romans_scipii, 70.0, civ/data/sprites/romans/romans_scipii_roman_l
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				roman_light_infantry						
-skeleton			fs_s1_fast_javelinman, fs_s1_gladius
+skeleton			fs_s1_fast_javelinman, fs_s1_gladius ;
 indiv_range			40
 texture				romans_julii, civ/data/new/models_units/LEGIONS/textures/UNIT_ROMAN_LIGHT_AUXILIA.TGA
 texture				romans_brutii, civ/data/new/models_units/LEGIONS/textures/UNIT_ROMAN_LIGHT_AUXILIA.TGA
@@ -4115,8 +4126,8 @@ texture				slave, civ/data/new/models_units/textures/UNIT_barb_gaul_heavy_infant
 model_flexi			civ/data/new/models_units/UNIT_BARB_CHOSEN_SWORD_RICH_4.cas, 8
 model_flexi			civ/data/new/models_units/UNIT_BARB_CHOSEN_SWORD_RICH_4.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_BARB_CHOSEN_SWORD_RICH_4.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_BARB_CHOSEN_SWORD_RICH_4.cas, 40
-model_flexi			civ/data/new/models_units/UNIT_BARB_CHOSEN_SWORD_RICH_4.cas, max
+model_flexi			civ/data/new/models_units/UNIT_BARB_CHOSEN_SWORD_RICH_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_BARB_CHOSEN_SWORD_RICH_LOW.cas, max
 model_sprite		60.0, civ/data/sprites/gauls_gaul_heavy_gaul_infantry_sprite.spr
 model_sprite		slave, 60.0, civ/data/sprites/slave_gaul_heavy_gaul_infantry_sprite.spr
 model_sprite		spain, 60.0, civ/data/sprites/spain_gaul_heavy_gaul_infantry_sprite.spr

@@ -945,14 +945,7 @@ end_monitor
         and Treasury < 25000
         console_command add_money seleucid, 15000
 end_monitor
-	monitor_event FactionTurnStart FactionType seleucid
-        and not FactionIsLocal
-        and I_TurnNumber = 1
-        and I_LocalFaction britons
-        console_command add_money seleucid, -40000
-        console_command add_money seleucid, -40000
-        console_command add_money seleucid, -40000
-    end_monitor
+
     monitor_event FactionTurnStart FactionType seleucid
         and Treasury < -15000
         console_command add_money seleucid, 30000
@@ -10133,15 +10126,15 @@ and I_CompareCounter Tarsus_undersiege = 1
 	if I_SettlementOwner Tarsus = pontus
 	and I_FactionBesieged pontus
     and I_CompareCounter Tarsus_undersiege = 1
-		set_counter Tarsus_undersiege 2
         console_command create_unit Tarsus "thureos spears" 2 0 2 2
         console_command create_unit Tarsus "thureos swordsmen" 1 0 2 2
 		console_command create_unit Tarsus "east peltast" 1 1 2 2
 		console_command create_unit Tarsus "greek pikemen" 2 0 2 2
         console_command create_unit Tarsus "east heavy cavalry" 2 2 2 2
 		console_command create_unit Tarsus "east infantry" 2 0 2 2
+        console_command add_money pontus, 40000
+        set_counter Tarsus_undersiege 2
 end_if
-console_command add_money pontus, 40000
 end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Mazaka;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -12494,7 +12487,6 @@ and I_CompareCounter Asaak_undersiege = 1
 	if I_SettlementOwner Asaak = parthia
 	and I_FactionBesieged parthia
     and I_CompareCounter Asaak_undersiege = 1
-		set_counter Asaak_undersiege 2
         console_command create_unit Asaak "eastern heavy infantry parthia" 2 3 2 2
         console_command create_unit Asaak "parthian thureophoroi" 3 3 2 2
         console_command create_unit Asaak "eastern auxilia" 2 3 2 2
@@ -12503,7 +12495,34 @@ and I_CompareCounter Asaak_undersiege = 1
         console_command create_unit Asaak "parthian takabara" 2 3 2 2
 		console_command create_unit Asaak "east peltast" 1 3 2 2
 		console_command create_unit Asaak "east heavy sparabara" 2 4 2 2
+        
+            console_command kill_character "Zoroaster"
+            spawn_army
+            faction parthia
+            character Zoroaster, general, age 30, x 290, y 149
+            unit east heavy cataphract, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east peltast, exp 0 armour 2 weapon_lvl 2
+            unit east archer, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+end
         console_command add_money parthia, 20000
+        set_counter Asaak_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Nisa;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -12610,10 +12629,214 @@ and I_CompareCounter Nisa_undersiege = 1
 		console_command create_unit Nisa "east peltast" 1 3 2 3		
 		console_command create_unit Nisa "east heavy sparabara" 2 4 2 2
 
+            console_command kill_character "Zoroaster"
+            spawn_army
+            faction parthia
+            character Zoroaster, general, age 30, x 289, y 157
+            unit east heavy cataphract, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east peltast, exp 0 armour 2 weapon_lvl 2
+            unit east archer, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+end
+            spawn_army
+            faction parthia
+            character Zoroaster, general, age 30, x 289, y 158
+            unit east heavy cataphract, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east peltast, exp 0 armour 2 weapon_lvl 2
+            unit east archer, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+end
         console_command add_money parthia, 40000
 end_if
 end_monitor
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Khiva;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_counter Khiva_undersiege
+set_counter Khiva_undersiege 0
+monitor_event FactionTurnEnd FactionType pontus
+if I_CompareCounter Khiva_undersiege = 0
+	and I_SettlementOwner Khiva = parthia
+	if I_CharacterTypeNearTile pontus general, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile pontus family, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Khiva_undersiege = 2
+	and not I_CharacterTypeNearTile pontus family, 2 282,171
+	and not I_CharacterTypeNearTile pontus general, 2 282,171
+	set_counter Khiva_undersiege 0
+end_if
+end_monitor
 
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Khiva_undersiege = 0
+	and I_SettlementOwner Khiva = parthia
+	if I_CharacterTypeNearTile britons general, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Khiva_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 282,171
+	and not I_CharacterTypeNearTile britons general, 2 282,171
+	set_counter Khiva_undersiege 0
+end_if
+end_monitor
+
+monitor_event FactionTurnEnd FactionType armenia
+if I_CompareCounter Khiva_undersiege = 0
+	and I_SettlementOwner Khiva = parthia
+	if I_CharacterTypeNearTile armenia general, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile armenia family, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Khiva_undersiege = 2
+	and not I_CharacterTypeNearTile armenia family, 2 282,171
+	and not I_CharacterTypeNearTile armenia general, 2 282,171
+	set_counter Khiva_undersiege 0
+end_if
+end_monitor
+
+monitor_event FactionTurnEnd FactionType seleucid
+if I_CompareCounter Khiva_undersiege = 0
+	and I_SettlementOwner Khiva = parthia
+	if I_CharacterTypeNearTile seleucid general, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile seleucid family, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Khiva_undersiege = 2
+	and not I_CharacterTypeNearTile seleucid family, 2 282,171
+	and not I_CharacterTypeNearTile seleucid general, 2 282,171
+	set_counter Khiva_undersiege 0
+end_if
+end_monitor
+
+monitor_event FactionTurnEnd FactionType romans_julii
+if I_CompareCounter Khiva_undersiege = 0
+	and I_SettlementOwner Khiva = parthia
+	if I_CharacterTypeNearTile romans_julii general, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_julii family, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Khiva_undersiege = 2
+	and not I_CharacterTypeNearTile romans_julii family, 2 282,171
+	and not I_CharacterTypeNearTile romans_julii general, 2 282,171
+	set_counter Khiva_undersiege 0
+end_if
+end_monitor
+
+monitor_event SettlementTurnStart SettlementName Khiva
+and not SettlementIsLocal
+and I_CompareCounter Khiva_undersiege = 1
+	if I_SettlementOwner Khiva = parthia
+	and I_FactionBesieged parthia
+    and I_CompareCounter Khiva_undersiege = 1
+		set_counter Khiva_undersiege 2
+        console_command create_unit Khiva "eastern heavy infantry parthia" 2 3 2 2
+        console_command create_unit Khiva "parthian thureophoroi" 3 3 2 2
+        console_command create_unit Khiva "eastern auxilia" 2 3 2 2
+        console_command create_unit Khiva "east persian cavalry" 2 3 2 2
+        console_command create_unit Khiva "eastern cavalry" 4 3 2 2
+        console_command create_unit Khiva "parthian takabara" 4 3 2 2
+		console_command create_unit Khiva "east peltast" 1 3 2 3		
+		console_command create_unit Khiva "east heavy sparabara" 2 4 2 2
+
+            console_command kill_character "Zoroaster"
+            spawn_army
+            faction parthia
+            character Zoroaster, general, age 30, x 282, y 169
+            unit east heavy cataphract, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east peltast, exp 0 armour 2 weapon_lvl 2
+            unit east archer, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+end
+            spawn_army
+            faction parthia
+            character Zoroaster, general, age 30, x 282, y 168
+            unit east heavy cataphract, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east horse archer, exp 0 armour 2 weapon_lvl 2
+            unit east peltast, exp 0 armour 2 weapon_lvl 2
+            unit east archer, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east infantry, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit east hillmen, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
+end
+        console_command add_money parthia, 40000
+end_if
+end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Maracanda;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 declare_counter Maracanda_undersiege
 set_counter Maracanda_undersiege 0
@@ -14061,7 +14284,7 @@ monitor_event SettlementTurnEnd SettlementName Teutoburgum
 	if I_SettlementOwner Teutoburgum = germans
 	and I_FactionBesieged germans
     and I_CompareCounter Teutoburgum_undersiege = 1
-    set_counter Teutoburgum_undersiege 2
+
     	console_command create_unit Teutoburgum "barb peltast german" 2 2 2 2
 		console_command create_unit Teutoburgum "warband spear german" 2 3 2 2
 		console_command create_unit Teutoburgum "warband axe german" 4 2 2 2
@@ -14070,7 +14293,7 @@ monitor_event SettlementTurnEnd SettlementName Teutoburgum
         console_command create_unit Teutoburgum "barb noble cavalry german" 2 0 2 2
         
         console_command add_money germans, 40000
-if I_NumberOfSettlements germans < 6
+    set_counter Teutoburgum_undersiege 2
 console_command kill_character "Adalmun"
 spawn_army
 	faction germans
@@ -14096,7 +14319,7 @@ spawn_army
 		unit barb noble cavalry german, exp 3 armour 2 weapon_lvl 2
 		unit barb cavalry gaul, exp 3 armour 2 weapon_lvl 2
 end
-end_if
+
 end_if
 end_monitor
 
@@ -14205,14 +14428,15 @@ and I_CompareCounter Hafnia_undersiege = 1
 	if I_SettlementOwner Hafnia = germans
 	and I_FactionBesieged germans
     and I_CompareCounter Hafnia_undersiege = 1
-		set_counter Hafnia_undersiege 2
-		console_command create_unit Hafnia "barb peltast german" 2 4 2 3
-		console_command create_unit Hafnia "warband spear german" 4 4 2 2
-		console_command create_unit Hafnia "warband axe german" 5 3 2 2
-		console_command create_unit Hafnia "heavy warband" 4 3 2 2
+
         console_command create_unit Hafnia "barb night raiders german" 3 3 2 2
+        console_command create_unit Hafnia "warband axe german" 5 3 2 2
+        console_command create_unit Hafnia "warband spear german" 4 4 2 2
+		console_command create_unit Hafnia "heavy warband" 4 3 2 2
+		console_command create_unit Hafnia "barb peltast german" 2 4 2 3
         
         console_command add_money germans, 40000
+        		set_counter Hafnia_undersiege 2
 if I_NumberOfSettlements germans < 6
 console_command kill_character "Adalmun"
     spawn_army
@@ -14633,14 +14857,14 @@ and I_CompareCounter Rugium_undersiege = 1
 	if I_SettlementOwner Rugium = germans
 	and I_FactionBesieged germans
 		set_counter Rugium_undersiege 2
-		console_command create_unit Rugium "barb peltast german" 2 1 1 2
-		console_command create_unit Rugium "warband spear german" 3 1 1 1
-		console_command create_unit Rugium "warband axe german" 4 1 1 1
-		console_command create_unit Rugium "heavy warband" 4 1 1 1
         console_command create_unit Rugium "barb night raiders german" 2 0 1 1
-        
+        console_command create_unit Rugium "warband axe german" 4 1 1 1
+		console_command create_unit Rugium "heavy warband" 4 1 1 1
+        console_command create_unit Rugium "warband spear german" 3 1 1 1
+		console_command create_unit Rugium "barb peltast german" 2 1 1 2
+		
         console_command add_money germans, 40000
-if I_NumberOfSettlements germans < 6
+if I_NumberOfSettlements germans < 7
 console_command kill_character "Adalmun"
     spawn_army
 	faction germans
@@ -16369,6 +16593,7 @@ and I_SettlementOwner Messana = romans_scipii
 and I_SettlementOwner Gadir = romans_scipii
 and I_SettlementOwner Tingi = romans_scipii
 set_counter ScipioLegions 1
+terminate_monitor
 end_monitor
 
 monitor_event SettlementTurnEnd SettlementName Carthago
@@ -16596,7 +16821,7 @@ set_counter MarianLegions 0
 ;terminate_monitor     
 ;end_monitor
 
-monitor_event SettlementTurnStart SettlementName Pella
+monitor_event SettlementTurnEnd SettlementName Pella
 and SettlementBuildingExists = monument_victory_minor
 set_counter MarianLegions 1
 end_monitor
@@ -17939,6 +18164,14 @@ and I_NumberOfSettlements parthia > 0
 and I_NumberOfSettlements armenia > 0
 console_command diplomatic_stance parthia armenia War
 end_if
+if I_SettlementOwner Kotais = scythia
+if I_NumberOfSettlements armenia > 0
+    console_command diplomatic_stance armenia scythia War
+end_if
+if I_NumberOfSettlements pontus > 0  
+    console_command diplomatic_stance pontus scythia War
+end_if
+end_if
 if not I_LocalFaction thrace
 	and not I_LocalFaction dacia
     and I_NumberOfSettlements thrace > 0
@@ -17955,6 +18188,7 @@ if not I_LocalFaction thrace
 end_if
 
 if not I_LocalFaction germans
+and I_NumberOfSettlements germans > 0
 	if I_SettlementOwner Tulisurgium = spain
 	console_command diplomatic_stance germans spain War
 	end_if
@@ -17976,13 +18210,31 @@ if not I_LocalFaction germans
 	if I_SettlementOwner Teutoburgum = romans_julii
 	console_command diplomatic_stance germans romans_julii War
 	end_if
+    if I_SettlementOwner Teutoburgum = romans_julii
+	console_command diplomatic_stance germans romans_julii War
+    console_command add_population Teutoburgum 4000
+	console_command add_population Teutoburgum 4000
+	console_command add_population Teutoburgum 4000
+	console_command add_population Teutoburgum 4000
+	console_command add_population Teutoburgum 4000
+	console_command add_population Teutoburgum 4000
+	end_if
     if I_SettlementOwner Hafnia = gauls
 	console_command diplomatic_stance germans gauls War
 	end_if
 	if I_SettlementOwner Hafnia = spain
 	console_command diplomatic_stance germans spain War
 	end_if
-	if I_SettlementOwner Rugium = spain
+	if I_SettlementOwner Hafnia = romans_julii
+	console_command diplomatic_stance germans romans_julii War
+    console_command add_population Hafnia 4000
+	console_command add_population Hafnia 4000
+	console_command add_population Hafnia 4000
+	console_command add_population Hafnia 4000
+	console_command add_population Hafnia 4000
+	console_command add_population Hafnia 4000
+	end_if
+    if I_SettlementOwner Rugium = spain
 	console_command diplomatic_stance germans spain War
 	end_if
 	if I_SettlementOwner Rugium = gauls
@@ -17990,9 +18242,16 @@ if not I_LocalFaction germans
 	end_if
     if I_SettlementOwner Rugium = romans_julii
 	console_command diplomatic_stance germans romans_julii War
+    console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
 	end_if
 end_if
 
+if I_NumberOfSettlements scythia > 0
 if I_SettlementOwner Vienna = spain
 console_command diplomatic_stance gauls spain War
 end_if
@@ -18046,7 +18305,9 @@ console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
 console_command add_money scythia 15000
 end_if
+end_if
 
+if I_NumberOfSettlements parthia > 0
 if I_SettlementOwner Tabae = britons
 console_command diplomatic_stance parthia britons War
 console_command add_population Tabae 4000
@@ -18065,6 +18326,7 @@ console_command add_population Hecatompylos 4000
 console_command add_population Hecatompylos 4000
 console_command add_population Hecatompylos 4000
 console_command add_money parthia, 40000
+console_command add_money britons, -30000
 end_if
 if I_SettlementOwner Asaak = britons
 console_command diplomatic_stance parthia britons War
@@ -18075,6 +18337,7 @@ console_command add_population Asaak 4000
 console_command add_population Asaak 4000
 console_command add_population Asaak 4000
 console_command add_money parthia, 40000
+console_command add_money britons, -40000
 end_if
 if I_SettlementOwner Zadracarta = britons
 console_command diplomatic_stance parthia britons War
@@ -18085,6 +18348,7 @@ console_command add_population Zadracarta 4000
 console_command add_population Zadracarta 4000
 console_command add_population Zadracarta 4000
 console_command add_money parthia, 40000
+console_command add_money britons, -40000
 end_if
 if I_SettlementOwner Apamea = britons
 console_command diplomatic_stance parthia britons War
@@ -18095,6 +18359,7 @@ console_command add_population Apamea 4000
 console_command add_population Apamea 4000
 console_command add_population Apamea 4000
 console_command add_money parthia, 40000
+console_command add_money britons, -40000
 end_if
 if I_SettlementOwner Ecbatana = britons
 console_command diplomatic_stance parthia britons War
@@ -18103,6 +18368,7 @@ console_command add_population Ecbatana 4000
 console_command add_population Ecbatana 4000
 console_command add_population Ecbatana 4000
 console_command add_money parthia, 40000
+console_command add_money britons, -40000
 end_if
 if I_SettlementOwner Charax = britons
 console_command diplomatic_stance parthia britons War
@@ -18113,6 +18379,7 @@ console_command add_population Charax 4000
 console_command add_population Charax 4000
 console_command add_population Charax 4000
 console_command add_money parthia, 40000
+console_command add_money britons, -40000
 end_if
 if I_SettlementOwner Susa = britons
 console_command diplomatic_stance parthia britons War
@@ -18123,6 +18390,19 @@ console_command add_population Susa 4000
 console_command add_population Susa 4000
 console_command add_population Susa 4000
 console_command add_money parthia, 40000
+console_command add_money britons, -40000
+end_if
+if I_SettlementOwner Nisa = britons
+console_command diplomatic_stance parthia britons War
+console_command add_population Nisa 4000
+console_command add_population Nisa 4000
+console_command add_population Nisa 4000
+console_command add_population Nisa 4000
+console_command add_population Nisa 4000
+console_command add_population Nisa 4000
+console_command add_money parthia, 40000
+console_command add_money britons, -40000
+end_if
 end_if
 end_monitor
 
@@ -19128,20 +19408,19 @@ end_if
 end_monitor
 
 monitor_event FactionTurnEnd FactionType romans_scipii
+and I_CompareCounter CeasarsLegions = 0
 and DiplomaticStanceFromFaction egypt = AtWar
-if I_CompareCounter CeasarsLegions = 0
     and I_SettlementOwner Garama != egypt
     and I_SettlementOwner Lepcis_Magna != egypt
     and I_SettlementOwner Rapsa != egypt
     and I_SettlementOwner Cydaus != egypt
 	console_command diplomatic_stance romans_scipii egypt Allied
     console_command diplomatic_stance egypt romans_scipii Allied
-end_if
+
 end_monitor
 monitor_event FactionTurnEnd FactionType egypt
 and I_CompareCounter CeasarsLegions = 0
 and DiplomaticStanceFromFaction romans_scipii = AtWar
-if I_CompareCounter CeasarsLegions = 0
     and I_SettlementOwner Garama != egypt
     and I_SettlementOwner Lepcis_Magna != egypt
     and I_SettlementOwner Rapsa != egypt
@@ -19164,7 +19443,6 @@ if I_CompareCounter CeasarsLegions = 0
 	if I_NumberOfSettlements greek_cities > 0
     console_command diplomatic_stance greek_cities egypt War
 	end_if
-end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1 war with Carthage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
                   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -20344,6 +20622,7 @@ if I_SettlementOwner Pella = romans_scipii
   and I_SettlementOwner Mytilene = romans_scipii
 console_command create_building Pella "monument_victory_minor"
 set_counter conquering_greece 0
+set_counter MarianLegions 1
 end_if
 end_monitor
 
@@ -20834,7 +21113,6 @@ end_if
 
 if I_SettlementOwner Iuvavum = germans
 console_command diplomatic_stance germans romans_scipii War
-console_command diplomatic_stance spain romans_scipii Allied
 end_if
 
 set_counter CimbriInvasion 0
@@ -20853,7 +21131,6 @@ end_if
 if I_SettlementOwner Vienna = germans
 console_command diplomatic_stance germans romans_scipii War
 console_command diplomatic_stance germans gaul War
-console_command diplomatic_stance germans spain War
 end_if
 if I_SettlementOwner Aquincum = germans
 console_command diplomatic_stance germans romans_scipii War
@@ -20862,8 +21139,6 @@ console_command diplomatic_stance germans spain War
 end_if
 if I_SettlementOwner Segestica = germans
 console_command diplomatic_stance germans romans_scipii War
-console_command diplomatic_stance germans gaul War
-console_command diplomatic_stance germans spain War
 end_if
 if I_SettlementOwner Tolosa = germans
 console_command diplomatic_stance germans romans_scipii War
@@ -20899,7 +21174,7 @@ end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4 war with Pontus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-monitor_event SettlementTurnStart SettlementName Roma
+monitor_event SettlementTurnStart SettlementName Ancona
 and SettlementBuildingExists = Caesar_civil_war
 if I_SettlementOwner Sidon = romans_scipii
 and I_SettlementOwner Antioch = romans_scipii
@@ -20939,10 +21214,11 @@ and I_CompareCounter Conquering_MinorAsia = 0
 and I_SettlementOwner Byzantium = romans_scipii
 console_command diplomatic_stance pontus romans_scipii neutral
 console_command diplomatic_stance romans_scipii pontus neutral
-console_command add_money pontus, -40000
-console_command add_money pontus, -40000
 	if I_NumberOfSettlements parthia > 0
     console_command diplomatic_stance parthia pontus War
+	end_if
+	if I_NumberOfSettlements egypt > 0
+    console_command diplomatic_stance egypt pontus War
 	end_if
 	if I_NumberOfSettlements armenia > 0
     console_command diplomatic_stance armenia pontus War
@@ -20996,6 +21272,7 @@ declare_counter Conquering_MinorAsia10
 declare_counter Conquering_MinorAsia11
 declare_counter Conquering_MinorAsia12
 declare_counter Conquering_MinorAsia13
+declare_counter Conquering_MinorAsia14
 set_counter Conquering_MinorAsia1 0
 set_counter Conquering_MinorAsia2 0
 set_counter Conquering_MinorAsia3 0
@@ -21007,6 +21284,7 @@ set_counter Conquering_MinorAsia10 0
 set_counter Conquering_MinorAsia11 0
 set_counter Conquering_MinorAsia12 0
 set_counter Conquering_MinorAsia13 0
+set_counter Conquering_MinorAsia14 0
 monitor_event FactionTurnStart FactionType romans_scipii
 and I_CompareCounter Conquering_MinorAsia = 1
 if I_SettlementOwner Side = egypt
@@ -21156,70 +21434,74 @@ settlement_flash_start Side
 set_counter Conquering_MinorAsia9 1
 end_if
 if I_SettlementOwner Side = romans_scipii
-    settlement_flash_stop Side
+	settlement_flash_stop Side
 	set_counter Conquering_MinorAsia9 0
 end_if
 
 if I_CompareCounter Conquering_MinorAsia10 = 0
 and I_SettlementOwner Side = romans_scipii
-if I_SettlementOwner Tarsus != romans_scipii
-senate_mission_take_city moderate_reward, Tarsus
-settlement_flash_start Tarsus
-end_if
-if I_SettlementOwner Apameia != romans_scipii
+and I_SettlementOwner Apameia != romans_scipii
 senate_mission_take_city moderate_reward, Apameia
 settlement_flash_start Apameia
-end_if
 set_counter Conquering_MinorAsia10 1
 end_if
 if I_CompareCounter Conquering_MinorAsia10 = 1
-if I_SettlementOwner Tarsus = romans_scipii
-settlement_flash_stop Tarsus
-end_if
-if I_SettlementOwner Apameia = romans_scipii
+and I_SettlementOwner Apameia = romans_scipii
 settlement_flash_stop Apameia
-end_if
 set_counter Conquering_MinorAsia10 0
 end_if
 
 if I_CompareCounter Conquering_MinorAsia11 = 0
-and I_SettlementOwner Tarsus = romans_scipii
-and I_SettlementOwner Antioch != romans_scipii
-senate_mission_take_city moderate_reward, Antioch
-settlement_flash_start Antioch
+and I_SettlementOwner Apameia = romans_scipii
+and I_SettlementOwner Tarsus != romans_scipii
+senate_mission_take_city moderate_reward, Tarsus
+settlement_flash_start Tarsus
 set_counter Conquering_MinorAsia11 1
 end_if
 if I_CompareCounter Conquering_MinorAsia11 = 1
-and I_SettlementOwner Antioch = romans_scipii
-settlement_flash_stop Antioch
+and I_SettlementOwner Tarsus = romans_scipii
+settlement_flash_stop Tarsus
 set_counter Conquering_MinorAsia11 0
 end_if
 
 if I_CompareCounter Conquering_MinorAsia12 = 0
+and I_SettlementOwner Tarsus = romans_scipii
+and I_SettlementOwner Antioch != romans_scipii
+senate_mission_take_city moderate_reward, Antioch
+settlement_flash_start Antioch
+set_counter Conquering_MinorAsia12 1
+end_if
+if I_CompareCounter Conquering_MinorAsia12 = 1
+and I_SettlementOwner Antioch = romans_scipii
+settlement_flash_stop Antioch
+set_counter Conquering_MinorAsia12 0
+end_if
+
+if I_CompareCounter Conquering_MinorAsia13 = 0
 and I_SettlementOwner Antioch = romans_scipii
 and I_SettlementOwner Sidon != romans_scipii
 and I_SettlementOwner Sidon != egypt
 senate_mission_take_city moderate_reward, Sidon
 settlement_flash_start Sidon
-set_counter Conquering_MinorAsia12 1
+set_counter Conquering_MinorAsia13 1
 end_if
-if I_CompareCounter Conquering_MinorAsia12 = 1
+if I_CompareCounter Conquering_MinorAsia13 = 1
 and I_SettlementOwner Sidon = romans_scipii
 settlement_flash_stop Sidon
-set_counter Conquering_MinorAsia12 0
+set_counter Conquering_MinorAsia13 0
 end_if
 
-if I_CompareCounter Conquering_MinorAsia13 = 0
+if I_CompareCounter Conquering_MinorAsia14 = 0
 and I_SettlementOwner Sidon = romans_scipii
 and I_SettlementOwner Salamis != romans_scipii
 senate_mission_take_city moderate_reward, Salamis
 settlement_flash_start Salamis
-set_counter Conquering_MinorAsia13 1
+set_counter Conquering_MinorAsia14 1
 end_if
-if I_CompareCounter Conquering_MinorAsia13 = 1
+if I_CompareCounter Conquering_MinorAsia14 = 1
 and I_SettlementOwner Salamis = romans_scipii
 settlement_flash_stop Salamis
-set_counter Conquering_MinorAsia13 0
+set_counter Conquering_MinorAsia14 0
 end_if
 
 end_monitor
@@ -22151,6 +22433,29 @@ console_command kill_character "Vercingetorix"
             unit barb heavy cavalry, exp 3 armour 2 weapon_lvl 2
             unit barb noble cavalry gaul, exp 3 armour 2 weapon_lvl 2
 end
+        spawn_army
+            faction gauls 
+            character Casticos, general, age 30, x 55, y 157
+            unit barb chieftain cavalry early gaul, exp 3 armour 2 weapon_lvl 2
+            unit barb peltast gaul, exp 3 armour 2 weapon_lvl 3
+            unit barb infantry gaul, exp 3 armour 2 weapon_lvl 2
+            unit barb infantry gaul, exp 3 armour 2 weapon_lvl 2
+            unit barb infantry gaul, exp 3 armour 2 weapon_lvl 2
+            unit gaul heavy infantry, exp 3 armour 2 weapon_lvl 2
+            unit gaul heavy infantry, exp 3 armour 2 weapon_lvl 2
+            unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
+            unit warband huntsman gaul, exp 3 armour 2 weapon_lvl 2
+            unit warband sword gaul, exp 3 armour 2 weapon_lvl 2
+            unit warband sword gaul, exp 3 armour 2 weapon_lvl 2
+            unit warband sword gaul, exp 3 armour 2 weapon_lvl 2
+            unit barb naked fanatics gauls, exp 3 armour 2 weapon_lvl 2
+            unit gaul chief, exp 3 armour 2 weapon_lvl 2
+            unit gaul Violent warriors, exp 3 armour 2 weapon_lvl 2
+            unit gaul bogaty, exp 3 armour 2 weapon_lvl 2
+            unit gaul heavy cavlry, exp 3 armour 2 weapon_lvl 2
+            unit barb heavy cavalry, exp 3 armour 2 weapon_lvl 2
+            unit barb noble cavalry gaul, exp 3 armour 2 weapon_lvl 2
+end
 set_counter senate_withdraws_of_consul_authority 1
 end_if
 end_monitor
@@ -22165,36 +22470,21 @@ end_monitor
 monitor_event SettlementTurnEnd SettlementName Vesontio
 and not SettlementBuildingExists = monument_victory_minor
 and I_CompareCounter gallic_war = 1
-and I_SettlementOwner Vesontio != germans
 console_command kill_character "Gnaeus Pompeius"  
 console_command kill_character "Gaius Julius"
 spawn_army
 faction romans_scipii
             character Gaius Julius, named character, age 43, x 55, y 140
 			unit roman generals guard cavalry, exp 4 armour 3 weapon_lvl 3
-			unit roman republican legion first, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion first, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion first, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman republican legion, exp 3 armour 3 weapon_lvl 3
-			unit roman archer auxillia, exp 3 armour 3 weapon_lvl 3
-			unit roman archer auxillia, exp 3 armour 3 weapon_lvl 3
-			unit roman onager, exp 4 armour 3 weapon_lvl 3
 			unit roman heavy equites, exp 3 armour 3 weapon_lvl 3
 			unit roman heavy equites, exp 3 armour 3 weapon_lvl 3
 			end
 console_command give_trait "Gaius Julius" GoodCommander 4
 console_command give_trait "Gaius Julius" GoodAdministrator 2
 console_command give_trait "Gaius Julius" Consul
+console_command give_trait "Gaius Julius" HighPersonalSecurity 3
+console_command give_trait "Gaius Julius" LoyaltyStarter 1
+console_command give_ancillary "Gaius Julius" bodyguard
 console_command give_ancillary "Gaius Julius" elder_senator
 console_command give_ancillary "Gaius Julius" siege_engineer
 console_command give_ancillary "Gaius Julius" priest_of_Jupiter
@@ -22304,7 +22594,7 @@ set_counter gallic_war2 0
 monitor_event FactionTurnStart FactionType romans_scipii
 and I_CompareCounter gallic_war = 1
 if I_CompareCounter gallic_war1 = 0
-and I_SettlementOwner Vienna != romans_scipii
+and I_SettlementOwner Vienna = germans
 senate_mission_take_city moderate_reward, Vienna
 settlement_flash_start Vienna
 set_counter gallic_war1 1

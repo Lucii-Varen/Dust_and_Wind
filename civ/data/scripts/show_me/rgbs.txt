@@ -7301,11 +7301,11 @@ and I_CompareCounter Antioch_undersiege = 1
 	and I_FactionBesieged seleucid
     and I_CompareCounter Antioch_undersiege = 1
 		set_counter Antioch_undersiege 2
+        console_command create_unit Antioch "greek heavy swordsmen" 1 0 1 1
+        console_command create_unit Antioch "greek swordsmen" 3 1 1 1
+        console_command create_unit Antioch "thureos spears" 2 1 1 1
 		console_command create_unit Antioch "greek peltast" 2 1 2 1
 		console_command create_unit Antioch "greek levy pikemen" 2 0 2 1
-		console_command create_unit Antioch "thureos spears" 2 1 1 1
-		console_command create_unit Antioch "greek swordsmen" 3 1 1 1
-        console_command create_unit Antioch "greek heavy swordsmen" 1 0 1 1
         console_command create_unit Antioch "eastern cavalry" 2 1 1 1
         console_command create_unit Antioch "greek xystophoroi" 1 1 1 1
         console_command add_money seleucid, 40000
@@ -7460,18 +7460,18 @@ and I_CompareCounter Seleucia_undersiege = 1
 	and I_FactionBesieged seleucid
     and I_CompareCounter Seleucia_undersiege = 1
 		set_counter Seleucia_undersiege 2
-		console_command create_unit Seleucia "greek peltast" 2 1 2 1
-		console_command create_unit Seleucia "greek levy pikemen" 2 0 2 1
-		console_command create_unit Seleucia "thureos spears" 2 1 1 1
-		console_command create_unit Seleucia "greek swordsmen" 3 1 1 1
+		console_command create_unit Seleucia "greek peltast" 2 0 1 1
+		console_command create_unit Seleucia "greek levy pikemen" 2 0 1 1
+		console_command create_unit Seleucia "thureos spears" 2 0 1 1
+		console_command create_unit Seleucia "greek swordsmen" 3 0 1 1
         console_command create_unit Seleucia "greek heavy swordsmen" 1 0 1 1
-        console_command create_unit Seleucia "eastern cavalry" 2 1 1 1
-        console_command create_unit Seleucia "greek xystophoroi" 1 1 1 1
+        console_command create_unit Seleucia "eastern cavalry" 2 0 1 1
+        console_command create_unit Seleucia "greek xystophoroi" 1 0 1 1
         
-        console_command add_money seleucid, 40000
+        console_command add_money seleucid, 10000
 end_if
 end_monitor
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Seleucia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Babylon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 declare_counter Babylon_undersiege
 set_counter Babylon_undersiege 0
 monitor_event SettlementTurnStart SettlementName Babylon
@@ -7627,7 +7627,7 @@ and I_CompareCounter Babylon_undersiege = 1
         console_command create_unit Babylon "eastern cavalry" 2 1 1 1
         console_command create_unit Babylon "greek xystophoroi" 1 1 1 1
         
-        console_command add_money seleucid, 40000
+        console_command add_money seleucid, 20000
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Edessa;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -7733,11 +7733,11 @@ and I_CompareCounter Edessa_undersiege = 1
 	and I_FactionBesieged seleucid
     and I_CompareCounter Edessa_undersiege = 1
 		set_counter Edessa_undersiege 2
+        console_command create_unit Edessa "greek heavy swordsmen" 1 0 1 1
+        console_command create_unit Edessa "greek swordsmen" 3 1 1 1
+        console_command create_unit Edessa "thureos spears" 2 1 1 1
 		console_command create_unit Edessa "greek peltast" 2 1 2 1
 		console_command create_unit Edessa "greek levy pikemen" 2 0 2 1
-		console_command create_unit Edessa "thureos spears" 2 1 1 1
-		console_command create_unit Edessa "greek swordsmen" 3 1 1 1
-        console_command create_unit Edessa "greek heavy swordsmen" 1 0 1 1
         console_command create_unit Edessa "eastern cavalry" 2 1 1 1
         console_command create_unit Edessa "greek xystophoroi" 1 1 1 1
         
@@ -7854,7 +7854,7 @@ and I_CompareCounter Damascus_undersiege = 1
         console_command create_unit Damascus "greek heavy swordsmen" 1 0 1 1
         console_command create_unit Damascus "eastern cavalry" 2 1 1 1
         
-        console_command add_money seleucid, 30000
+        console_command add_money seleucid, 10000
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Carthago;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
