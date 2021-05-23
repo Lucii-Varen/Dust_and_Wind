@@ -1702,7 +1702,7 @@ settlement
 	region Chalcidice
 
 	year_founded 0
-	population 2600
+	population 6500
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1728,6 +1728,10 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -1760,6 +1764,10 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
@@ -1786,6 +1794,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -8869,16 +8881,28 @@ unit		ephesus hoplite		exp 3 armour 2 weapon_lvl 1
 unit		merc cretan archers			exp 3 armour 3 weapon_lvl 2
 unit		merc cretan archers			exp 3 armour 3 weapon_lvl 2
 
-;Illyria
+;Illyria;;;;scodra
 character	sub_faction thrace, Dentupes, general, age 20, , x 122, y 129
 army
 unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
+unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
+unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
 unit		merc cilician pirate				exp 3 armour 0 weapon_lvl 0
 
 ;Tribus_Neuri
@@ -9569,6 +9593,33 @@ unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
 unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
 unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
 unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 1
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 1
+unit		greek peltast				exp 3 armour 2 weapon_lvl 0
+unit		greek peltast				exp 3 armour 2 weapon_lvl 0
+unit		greek peltast				exp 3 armour 2 weapon_lvl 0
+unit		greek peltast				exp 3 armour 2 weapon_lvl 0
+
+;Elis;
+character	sub_faction numidia, Leonidas, general, age 20, , x 133, y 105
+army
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
 unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 1
 unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 1
 unit		greek peltast				exp 3 armour 2 weapon_lvl 0
@@ -9937,6 +9988,17 @@ unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<

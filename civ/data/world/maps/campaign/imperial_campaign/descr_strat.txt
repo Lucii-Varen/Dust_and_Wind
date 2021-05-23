@@ -1718,6 +1718,10 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
@@ -1749,6 +1753,10 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
@@ -1775,6 +1783,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -8688,16 +8700,28 @@ unit		ephesus hoplite		exp 3 armour 2 weapon_lvl 1
 unit		merc cretan archers			exp 3 armour 3 weapon_lvl 2
 unit		merc cretan archers			exp 3 armour 3 weapon_lvl 2
 
-;Illyria
+;Illyria;;;scodra
 character	sub_faction thrace, Dentupes, general, age 20, , x 122, y 129
 army
 unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
+unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
+unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
 unit		merc cilician pirate				exp 3 armour 0 weapon_lvl 0
 
 ;Tribus_Neuri
@@ -8987,7 +9011,7 @@ unit		merc elephants				exp 3 armour 0 weapon_lvl 0
 character	sub_faction parthia, Uvaxshtra, general, age 20, , x 339, y 117
 army
 unit		indian cavalry			exp 4 armour 1 weapon_lvl 1
-unit		east horse archer			exp 4 armour 1 weapon_lvl 1
+unit		east horse archer merc			exp 4 armour 1 weapon_lvl 1
 unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
@@ -9006,8 +9030,8 @@ unit		indian archer				exp 3 armour 0 weapon_lvl 0
 character	sub_faction parthia, Umamaita, general, age 20, , x 329, y 126
 army
 unit		east infantry		exp 3 armour 0 weapon_lvl 0
-unit		east horse archer		exp 3 armour 0 weapon_lvl 0
-unit		east horse archer		exp 3 armour 0 weapon_lvl 0
+unit		east horse archer merc		exp 3 armour 0 weapon_lvl 0
+unit		east horse archer merc		exp 3 armour 0 weapon_lvl 0
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
@@ -9017,8 +9041,8 @@ unit		east infantry				exp 3 armour 0 weapon_lvl 0
 character	sub_faction parthia, Umamaita, general, age 20, , x 341, y 156
 army
 unit		east infantry		exp 3 armour 0 weapon_lvl 0
-unit		east horse archer		exp 3 armour 0 weapon_lvl 0
-unit		east horse archer		exp 3 armour 0 weapon_lvl 0
+unit		east horse archer merc		exp 3 armour 0 weapon_lvl 0
+unit		east horse archer merc		exp 3 armour 0 weapon_lvl 0
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
@@ -9288,9 +9312,35 @@ unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
 unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
 unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
 unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
 unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 1
 unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 1
 unit		greek peltast				exp 3 armour 2 weapon_lvl 0
+unit		greek peltast				exp 3 armour 2 weapon_lvl 0
+unit		greek peltast				exp 3 armour 2 weapon_lvl 0
+unit		greek peltast				exp 3 armour 2 weapon_lvl 0
+
+;Elis;
+character	sub_faction numidia, Leonidas, general, age 20, , x 132, y 106
+army
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 0
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 1
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 1
 unit		greek peltast				exp 3 armour 2 weapon_lvl 0
 unit		greek peltast				exp 3 armour 2 weapon_lvl 0
 unit		greek peltast				exp 3 armour 2 weapon_lvl 0
@@ -9656,6 +9706,17 @@ unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
 unit		merc illyrian			exp 5 armour 1 weapon_lvl 1
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
 
 ;Azania
 character	sub_faction romans_brutii, Faram, general, age 25, , x 295, y 1

@@ -166,7 +166,7 @@ unit		greek archer				soldiers 200 exp 5 armour 3 weapon_lvl 3
 ; >>>> start of battle section <<<<
 
 battle	140, 114
-variable_weather_and_time ( day_time 9.00, year_day 0, duration	10.00, weather_seed	0 )
+variable_weather_and_time ( day_time 9.00, year_day 0, duration	12.00, weather_seed	0 )
 
 home_faction	numidia
 alliance	numidia, defending

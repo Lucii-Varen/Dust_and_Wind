@@ -36,13 +36,13 @@ date	14 winter
 event	librarian_at_alexandria
 date	18 summer
 
-event	great_library_completed
+event	historic	great_library_completed
 date	24 winter
 
-event	carthage_clear_glass
+event	historic	carthage_clear_glass
 date	34 summer
 
-event	archimedes_screw
+event	historic	archimedes_screw
 date	44 winter
 
 event	historic	Hannibal_at_the_gates

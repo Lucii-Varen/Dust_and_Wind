@@ -3752,9 +3752,9 @@ texture				romans_scipii, civ/data/new/models_units/legions/textures/UNIT_ROMAN_
 ;texture				roman_rebels, civ/data/new/models_units/textures/UNIT_ETRUSCAN_HEAVY_SPEARMEN.tga
 texture				slave, civ/data/new/models_units/legions/textures/UNIT_ROMAN_TRIARII.tga
 texture				merc, civ/data/new/models_units/textures/UNIT_ETRUSCAN_HEAVY_SPEARMEN.tga
-model_flexi_m			civ/data/new/models_units/legions/UNIT_ROMAN_TRIARII2.cas, 15
-model_flexi_m			civ/data/new/models_units/legions/UNIT_ROMAN_TRIARII2.cas, 30
-model_flexi_m			civ/data/new/models_units/legions/UNIT_ROMAN_TRIARII2.cas, 40
+model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_TRIARII2.cas, 15
+model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_TRIARII2.cas, 30
+model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_TRIARII2.cas, 40
 model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_TRIARII2.cas, max
 model_sprite		merc, 70.0, civ/data/sprites/romans/romans_scipii_roman_triarii_sprite.spr
 model_sprite		slave, 70.0, civ/data/sprites/romans/romans_scipii_roman_triarii_sprite.spr
@@ -3791,7 +3791,7 @@ model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_CITY_MILITIA.cas, 30
 model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_CITY_MILITIA.cas, 40
 model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_CITY_MILITIA.cas, max
 model_sprite		slave, 60.0, data/sprites/romans_julii_roman_city_militia_sprite.spr		;slave_roman_city_militia_sprite.spr
-model_sprite		roman_rebels, 60.0, data/sprites/romans_senate_roman_city_militia_sprite.spr
+model_sprite		roman_rebels, 60.0, data/sprites/romans_julii_roman_city_militia_sprite.spr
 model_sprite		romans_scipii, 60.0, data/sprites/romans_julii_roman_city_militia_sprite.spr
 model_sprite		romans_julii, 60.0, data/sprites/romans_julii_roman_city_militia_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
@@ -4649,6 +4649,7 @@ texture				greek_cities, civ/data/new/models_units/textures/UNIT_GREEK_MAHAIROFO
 texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_MAHAIROFOROI_MACEDON.TGA
 texture				romans_julii, civ/data/new/models_units/textures/UNIT_GREEK_MAHAIROFOROI_CIMMERIA.TGA
 texture				romans_scipii, civ/data/new/models_units/textures/UNIT_GREEK_MAHAIROFOROI_ROMAN.TGA
+texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_MAHAIROFOROI_ROMAN.TGA
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 8
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MAHAIROFOROI.cas, 30
@@ -4660,6 +4661,7 @@ model_sprite		macedon, 80.0, civ/data/sprites/macedon_greek_swordsmen_sprite.spr
 model_sprite		romans_julii, 80.0, civ/data/sprites/romans_julii_greek_swordsmen_sprite.spr
 model_sprite		seleucid, 80.0, civ/data/sprites/seleucid_greek_swordsmen_sprite.spr
 model_sprite		romans_scipii, 80.0, civ/data/sprites/seleucid_greek_heavy_swordsmen_sprite.spr
+model_sprite		roman_rebels, 80.0, civ/data/sprites/seleucid_greek_heavy_swordsmen_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_heavy_swordsmen

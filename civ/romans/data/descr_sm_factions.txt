@@ -101,7 +101,7 @@ defeat_movie				fmv/lose/spain_eliminated.wmv
 death_movie					fmv/death/death_spain_grass_320x240.wmv
 custom_battle_availability	yes
 can_sap						no
-prefers_naval_invasions		yes
+prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						germans
@@ -143,7 +143,7 @@ defeat_movie				fmv/lose/dacia_eliminated.wmv
 death_movie					fmv/death/death_dacia_sand_320x240.wmv
 custom_battle_availability	yes
 can_sap						no
-prefers_naval_invasions		yes
+prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						macedon
@@ -316,7 +316,7 @@ defeat_movie				fmv/lose/parthia_eliminated.wmv
 death_movie					fmv/death/death_parthia_sand_320x240.wmv
 custom_battle_availability	yes
 can_sap						yes
-prefers_naval_invasions		yes
+prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						pontus
@@ -357,7 +357,7 @@ defeat_movie				fmv/lose/SPQR_eliminated.wmv
 death_movie					fmv/death/death_SPQR_grass_320x240.wmv
 custom_battle_availability	yes
 can_sap						yes
-prefers_naval_invasions		yes
+prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						armenia
@@ -378,7 +378,7 @@ defeat_movie				fmv/lose/armenia_eliminated.wmv
 death_movie					fmv/death/death_armenia_sand_320x240.wmv
 custom_battle_availability	yes
 can_sap						yes
-prefers_naval_invasions		yes
+prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						romans_brutii
@@ -399,7 +399,7 @@ defeat_movie				fmv/lose/brutii_eliminated.wmv
 death_movie					fmv/death/death_brutii_grass_320x240.wmv
 custom_battle_availability	yes
 can_sap						yes
-prefers_naval_invasions		yes
+prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						scythia
@@ -420,7 +420,7 @@ defeat_movie				fmv/lose/scythia_eliminated.wmv
 death_movie					fmv/death/death_scythia_sand_320x240.wmv
 custom_battle_availability	yes
 can_sap						no
-prefers_naval_invasions		yes
+prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						slave

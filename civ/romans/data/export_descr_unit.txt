@@ -495,7 +495,7 @@ formation        1.2, 1.2, 2.4, 2.4, 10, square
 stat_health      1, 1
 stat_pri         13, 4, heavy_javelin, 40, 2, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown
-stat_sec         15, 4, no, 0, 0, melee, blade, slashing, sword, 15, 1
+stat_sec         15, 4, no, 0, 0, melee, blade, slashing, sword, 20, 1
 stat_sec_attr    no
 stat_pri_armour  7, 7, 5, leather
 stat_sec_armour  0, 0, flesh
@@ -2339,11 +2339,11 @@ mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, hardy, cantabrian_circle, mercenary_unit
 formation        2, 4, 4, 5, 6, square
 stat_health      1, 1
-stat_pri         9, 3, heavy_javelin, 50, 6, thrown, archery, piercing, spear, 24 ,1
+stat_pri         11, 3, heavy_javelin, 50, 6, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         6, 4, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  1, 4, 4, flesh
+stat_pri_armour  4, 4, 4, flesh
 stat_sec_armour  1, 1, flesh
 stat_heat        -1
 stat_ground      0, 2, 0, -3
@@ -4816,7 +4816,7 @@ category         infantry
 class            heavy
 voice_type       Heavy_1
 soldier          olympic_chempions, 50, 0, 1.3, 0.3
-mount_effect     elephant +6, chariot +6
+mount_effect     elephant +2, chariot +1
 attributes       sea_faring, hide_improved_forest, can_sap, very_hardy, warcry
 formation        1, 1.2, 2, 2.4, 6, square
 stat_health      1, 1
@@ -4824,7 +4824,7 @@ stat_pri         10, 8, heavy_javelin, 50, 2, thrown, archery, piercing, spear, 
 stat_pri_attr    prec, thrown, ap
 stat_sec         9, 2, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  11, 6, 5, metal
+stat_pri_armour  9, 6, 5, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      2, 0, 1, -2
@@ -4917,7 +4917,7 @@ ownership        greek, eastern, carthage, egypt, barbarian
 type             thermon hoplite
 dictionary       thermon_hoplite      ; Thermon Hoplites
 category         infantry
-class            spearmen
+class            heavy
 voice_type       Heavy_1
 soldier          thermon_hoplite, 50, 0, 1.3, 0.3
 officer          greek_standard
@@ -4926,7 +4926,7 @@ attributes       sea_faring, hide_forest, can_sap, very_hardy
 formation        0.85, 1, 2, 2, 9, square
 stat_health      1, 1
 stat_pri         11, 4, no, 0, 0, melee, blade, piercing, spear, 24 ,1
-stat_pri_attr    light_spear, spear_bonus_8
+stat_pri_attr    ap
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  11, 6, 6, metal
@@ -4952,7 +4952,7 @@ attributes       sea_faring, hide_forest, can_sap, very_hardy, warcry
 formation        1, 1, 2, 2, 9, square
 stat_health      1, 1
 stat_pri         12, 4, no, 0, 0, melee, blade, piercing, spear, 24 ,1
-stat_pri_attr    light_spear
+stat_pri_attr    light_spear, ap
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  11, 5, 7, metal
@@ -5286,8 +5286,8 @@ voice_type       Heavy_1
 soldier          spartan_thorakitai, 55, 0, 1.21, 0.3
 officer          greek_officer
 officer          spartan_musician
-attributes       sea_faring, hide_forest, can_sap, hardy
-formation        0.92, 1.5, 2, 2, 6, square
+attributes       sea_faring, hide_forest, can_sap, very_hardy
+formation        0.92, 1.5, 2, 2, 6, square, shield_wall
 stat_health      1, 1
 stat_pri         11, 4, heavy_javelin, 45, 2, thrown, simple, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
@@ -5577,7 +5577,7 @@ voice_type       Heavy_1
 soldier          cimmerian_royal_cavalry, 30, 0, 1
 mount            horse half_armoured
 mount_effect     elephant -6, camel -3
-attributes       sea_faring, hide_forest, hardy
+attributes       sea_faring, hide_forest, very_hardy, power_charge
 formation        1.5, 4, 3, 6, 4, square, wedge
 stat_health      1, 1
 stat_pri         10, 15, no, 0, 0, melee, blade, piercing, spear, 24 ,1
@@ -5609,7 +5609,7 @@ stat_health      1, 1
 stat_pri         8, 15, no, 0, 0, melee, blade, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         8, 6, no, 0, 0, melee, simple, piercing, sword, 24 ,1
-stat_sec_attr    ap
+stat_sec_attr    no
 stat_pri_armour  18, 5, 2, metal
 stat_sec_armour  10, 1, flesh
 stat_heat        3
@@ -5972,7 +5972,7 @@ stat_sec_attr    no
 stat_pri_armour  6, 4, 4, leather
 stat_sec_armour  0, 1, flesh
 stat_heat        1
-stat_ground      0, -1, -2, 0
+stat_ground      0, -1, 0, 0
 stat_mental      12, normal, trained
 stat_charge_dist 40
 stat_fire_delay  0
@@ -6458,8 +6458,8 @@ class            heavy
 voice_type       Heavy_1
 soldier          greek_xystophoroi, 30, 0, 1
 mount            horse half_armoured
-mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, hardy
+mount_effect     elephant -6, camel -3
+attributes       sea_faring, hide_forest, very_hardy
 formation        1.5, 4, 3, 6, 4, square, wedge
 stat_health      1, 1
 stat_pri         9, 11, no, 0, 0, melee, simple, piercing, spear, 24 ,1
@@ -6783,7 +6783,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 1400, 670, 50, 70, 440
-ownership        slave, greek, eastern, carthage, egypt
+ownership        slave, greek, eastern, carthage, egypt, romans_scipii, roman_rebels
 
 type             etruscan machairophoroi
 dictionary       etruscan_machairophoroi      ; Machairophoroi
@@ -6809,7 +6809,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 2200, 950, 50, 80, 590
-ownership        slave
+ownership        slave, roman_rebels
 
 type             etruscan heavy infantry
 dictionary       etruscan_heavy_infantry      ; etruscan heavy infantry
@@ -6861,7 +6861,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2500, 1000, 50, 80, 500
-ownership        greek, eastern, carthage, egypt, slave
+ownership        greek, eastern, carthage, egypt, roman_rebels, slave
 
 type             etruscan heavy cavalry
 dictionary       etruscan_heavy_cavalry      ; Etruscan heavy cavalry
@@ -6892,7 +6892,7 @@ ownership        slave
 ;;;;;;romans;;;;;;
 
 type             thureos spears roman
-dictionary       thureos_spears      ; Thureos spearmen
+dictionary       thureos_spears_roman      ; Allied Troops
 category         infantry
 class            spearmen
 voice_type       Medium_1
@@ -6977,7 +6977,7 @@ officer          roman_rep_standard
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         11, 4, arrow, 175, 31, missile, archery, piercing, none, 10 ,1
+stat_pri         11, 4, arrow, 175, 35, missile, archery, piercing, none, 10 ,1
 stat_pri_attr    no
 stat_sec         4, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -7182,7 +7182,7 @@ mount_effect     horse -1, camel -1
 attributes       sea_faring, hide_forest, can_sap, very_hardy
 formation        0.9, 1.3, 0.75, 0.9, 5, square
 stat_health      1, 1
-stat_pri         8, 3, no, 0, 0, melee, blade, piercing, spear, 24 ,1.3
+stat_pri         8, 3, no, 0, 0, melee, blade, piercing, spear, 24 ,1.4
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
@@ -8035,7 +8035,7 @@ dictionary       roman_early_legionary_I_GERMANICA_FIRST     ; legio I GERMANICA
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_I_GERMANICA, 55, 0, 1.3, 0.28
+soldier          early_legionary_I_GERMANICA, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_I_GER_early_standard
@@ -8062,7 +8062,7 @@ dictionary       roman_early_legionary_I_GERMANICA      ; legio I GERMANICA
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_I_GERMANICA, 50, 0, 1.3, 0.28
+soldier          early_legionary_I_GERMANICA, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_I_GER_early_standard
@@ -8089,7 +8089,7 @@ dictionary       roman_early_legionary_II_AUGUSTA_FIRST      ; legio II GALLICA 
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_II_AUGUSTA, 55, 0, 1.3, 0.28
+soldier          early_legionary_II_AUGUSTA, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_II_AUG_early_standard
@@ -8116,7 +8116,7 @@ dictionary       roman_early_legionary_II_AUGUSTA      ; legio II AUGUSTA
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_II_AUGUSTA, 50, 0, 1.3, 0.28
+soldier          early_legionary_II_AUGUSTA, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_II_AUG_early_standard
@@ -8143,7 +8143,7 @@ dictionary       roman_early_legionary_III_AUGUSTA_FIRST      ; legio III AUGUST
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_III_AUGUSTA, 55, 0, 1.3, 0.28
+soldier          early_legionary_III_AUGUSTA, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_III_AUG_early_standard
@@ -8170,7 +8170,7 @@ dictionary       roman_early_legionary_III_AUGUSTA      ; legio III AUGUSTA
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_III_AUGUSTA, 50, 0, 1.3, 0.28
+soldier          early_legionary_III_AUGUSTA, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_III_AUG_early_standard
@@ -8197,7 +8197,7 @@ dictionary       roman_early_legionary_III_gallica_FIRST      ; legionary III ga
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_III_gallica, 55, 0, 1.3, 0.28
+soldier          early_legionary_III_gallica, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_III_gall_early_standard
@@ -8224,7 +8224,7 @@ dictionary       roman_early_legionary_III_gallica      ; legionary III gallica
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_III_gallica, 50, 0, 1.3, 0.28
+soldier          early_legionary_III_gallica, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_III_gall_early_standard
@@ -8251,7 +8251,7 @@ dictionary       roman_early_legionary_III_cyrenaica_FIRST      ; legionary III 
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_III_CYRENAICA, 55, 0, 1.3, 0.28
+soldier          early_legionary_III_CYRENAICA, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_III_cyr_early_standard
@@ -8278,7 +8278,7 @@ dictionary       roman_early_legionary_III_cyrenaica      ; legionary III cyrena
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_III_CYRENAICA, 50, 0, 1.3, 0.28
+soldier          early_legionary_III_CYRENAICA, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_III_cyr_early_standard
@@ -8305,7 +8305,7 @@ dictionary       roman_early_legionary_IV_scythica_FIRST      ; legionary IV scy
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_IV_scythica, 55, 0, 1.3, 0.28
+soldier          early_legionary_IV_scythica, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_IV_scythica_early_standard
@@ -8332,7 +8332,7 @@ dictionary       roman_early_legionary_IV_scythica      ; legionary IV scythica
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_IV_scythica, 50, 0, 1.3, 0.28
+soldier          early_legionary_IV_scythica, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_IV_scythica_early_standard
@@ -8359,7 +8359,7 @@ dictionary       roman_early_legionary_V_alaudae_FIRST      ; legio V alaudae FI
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_V_alaudae, 55, 0, 1.3, 0.28
+soldier          early_legionary_V_alaudae, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_V_alaudae_early_standard
@@ -8386,7 +8386,7 @@ dictionary       roman_early_legionary_V_alaudae      ; legio V alaudae
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_V_alaudae, 50, 0, 1.3, 0.28
+soldier          early_legionary_V_alaudae, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_V_alaudae_early_standard
@@ -8413,7 +8413,7 @@ dictionary       roman_early_legionary_v_macedonica_FIRST      ; legio v macedon
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_v_macedonica, 55, 0, 1.3, 0.28
+soldier          early_legionary_v_macedonica, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_v_macedonica_early_standard
@@ -8440,7 +8440,7 @@ dictionary       roman_early_legionary_v_macedonica      ; legio v macedonica
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_v_macedonica, 50, 0, 1.3, 0.28
+soldier          early_legionary_v_macedonica, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_v_macedonica_early_standard
@@ -8467,7 +8467,7 @@ dictionary       roman_early_legionary_VI_FERRATA_first      ; legio VI FERRATA 
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_VI_FERRATA, 55, 0, 1.3, 0.28
+soldier          early_legionary_VI_FERRATA, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_VI_ferrata_early_standard
@@ -8494,7 +8494,7 @@ dictionary       roman_early_legionary_VI_FERRATA       ; legio VI FERRATA
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_VI_FERRATA, 50, 0, 1.3, 0.28
+soldier          early_legionary_VI_FERRATA, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_VI_ferrata_early_standard
@@ -8521,7 +8521,7 @@ dictionary       roman_early_legionary_VII_claudia_FIRST     ; legio VII claudia
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_VII_claudia, 55, 0, 1.3, 0.28
+soldier          early_legionary_VII_claudia, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_VII_claudia_early_standard
@@ -8548,7 +8548,7 @@ dictionary       roman_early_legionary_VII_claudia      ; Legio VII Claudia Pia 
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_VII_claudia, 50, 0, 1.3, 0.28
+soldier          early_legionary_VII_claudia, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_VII_claudia_early_standard
@@ -8575,7 +8575,7 @@ dictionary       roman_early_legionary_viii_augusta_FIRST      ; legio viii augu
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_viii_augusta, 55, 0, 1.3, 0.28
+soldier          early_legionary_viii_augusta, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_viii_augusta_early_standard
@@ -8602,7 +8602,7 @@ dictionary       roman_early_legionary_viii_augusta      ; legio viii augusta
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_viii_augusta, 50, 0, 1.3, 0.28
+soldier          early_legionary_viii_augusta, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_viii_augusta_early_standard
@@ -8629,7 +8629,7 @@ dictionary       roman_early_legionary_IX_Hispana_FIRST      ; legio IX Hispana 
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_IX_Hispana, 55, 0, 1.3, 0.28
+soldier          early_legionary_IX_Hispana, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_IX_Hispana_early_standard
@@ -8656,7 +8656,7 @@ dictionary       roman_early_legionary_IX_Hispana      ; legio IX Hispana
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_IX_Hispana, 50, 0, 1.3, 0.28
+soldier          early_legionary_IX_Hispana, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_IX_Hispana_early_standard
@@ -8683,7 +8683,7 @@ dictionary       roman_early_legionary_x_gemina_FIRST      ; legio x gemina FIRS
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_x_gemina, 55, 0, 1.3, 0.28
+soldier          early_legionary_x_gemina, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_x_gemina_early_standard
@@ -8710,7 +8710,7 @@ dictionary       roman_early_legionary_x_gemina      ; legio x gemina
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_x_gemina, 50, 0, 1.3, 0.28
+soldier          early_legionary_x_gemina, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_x_gemina_early_standard
@@ -8737,7 +8737,7 @@ dictionary       roman_early_legionary_xiii_gemina_FIRST      ; legio xiii gemin
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_xiii_gemina, 55, 0, 1.3, 0.28
+soldier          early_legionary_xiii_gemina, 60, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_eagle
 officer          roman_xiii_gemina_early_standard
@@ -8764,7 +8764,7 @@ dictionary       roman_early_legionary_xiii_gemina      ; legio xiii gemina
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          early_legionary_xiii_gemina, 50, 0, 1.3, 0.28
+soldier          early_legionary_xiii_gemina, 54, 0, 1.3, 0.28
 officer          roman_centurion
 officer          roman_standard_signum
 officer          roman_xiii_gemina_early_standard
@@ -10446,7 +10446,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 1760, 660, 50, 70, 440
-ownership        roman, eastern, greek, barbarian, carthage, egypt
+ownership        roman_rebels, romans_scipii, eastern, greek, barbarian, carthage, egypt, slave
  
 type             merc cilician pirate
 dictionary       merc_cilician_pirate      ; Cilician Pirates
@@ -11052,7 +11052,7 @@ dictionary       JEDI      ; JEDI
 category         infantry
 class            heavy
 voice_type       Light_1
-soldier          JEDI, 12, 0, 1, 0.25
+soldier          JEDI, 12, 0, 10, 0.2
 attributes       sea_faring, hide_forest, very_hardy, warcry
 formation        1, 1.2, 3, 3, 15, square
 stat_health      15, 15

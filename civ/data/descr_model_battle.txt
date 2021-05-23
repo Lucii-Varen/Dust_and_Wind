@@ -3497,8 +3497,8 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				roman_evocati
 skeleton			fs_pilum, fs_s1_gladius
 indiv_range			40
-texture				romans_scipii, civ/data/new/models_units/legions/textures/ROMAN_ITALIC_ALIIED_HASTATI
-texture				roman_rebels, civ/data/new/models_units/legions/textures/ROMAN_ITALIC_ALIIED_HASTATI
+texture				romans_scipii, civ/data/new/models_units/legions/textures/ROMAN_ITALIC_ALIIED_HASTATI.TGA
+texture				roman_rebels, civ/data/new/models_units/legions/textures/ROMAN_ITALIC_ALIIED_HASTATI.TGA
 model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 15
 model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 30
 model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 40
@@ -3767,7 +3767,7 @@ model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_CITY_MILITIA.cas, 30
 model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_CITY_MILITIA.cas, 40
 model_flexi			civ/data/new/models_units/legions/UNIT_ROMAN_CITY_MILITIA.cas, max
 model_sprite		slave, 60.0, data/sprites/romans_julii_roman_city_militia_sprite.spr		;slave_roman_city_militia_sprite.spr
-model_sprite		roman_rebels, 60.0, data/sprites/romans_senate_roman_city_militia_sprite.spr
+model_sprite		roman_rebels, 60.0, data/sprites/romans_julii_roman_city_militia_sprite.spr
 model_sprite		romans_scipii, 60.0, data/sprites/romans_julii_roman_city_militia_sprite.spr
 model_sprite		romans_julii, 60.0, data/sprites/romans_julii_roman_city_militia_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
@@ -6721,6 +6721,17 @@ model_flexi			civ/data/new/models_units/UNIT_SLAVE_JEDI.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_SLAVE_JEDI.cas, 30
 model_flexi			civ/data/new/models_units/UNIT_SLAVE_JEDI.cas, 40
 model_flexi			civ/data/new/models_units/UNIT_SLAVE_JEDI.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				viking_axeman
+skeleton			fs_javelinman, fs_s1_swordsman			
+indiv_range			40
+texture				slave, civ/data/models_unit/textures/unit_barb_warband_VIKING_axemen.TGA
+model_flexi			civ/data/models_unit/UNIT_VIKING_AXEMAN.CAS, 8
+model_flexi			civ/data/models_unit/UNIT_VIKING_AXEMAN.CAS, 15
+model_flexi			civ/data/models_unit/UNIT_VIKING_AXEMAN.CAS, 30
+model_flexi			civ/data/models_unit/UNIT_VIKING_AXEMAN.CAS, 40
+model_flexi			civ/data/models_unit/UNIT_VIKING_AXEMAN.CAS, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 
