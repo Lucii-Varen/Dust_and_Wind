@@ -5045,7 +5045,7 @@ ownership        greek, eastern, carthage, egypt, barbarian
 type             syracuse hoplite
 dictionary       syracuse_hoplite      ; Syracuse Hoplites
 category         infantry
-class            spearmen
+class            heavy
 voice_type       Heavy_1
 soldier          syracuse_hoplite, 50, 0, 1.3, 0.3
 officer          greek_standard
@@ -5071,7 +5071,7 @@ ownership        greek, eastern, carthage, egypt, barbarian
 type             rhodian hoplite
 dictionary       rhodian_hoplite      ; Rhodian Hoplites
 category         infantry
-class            spearmen
+class            heavy
 voice_type       Heavy_1
 soldier          Ephesian_Rhodian_hoplite, 50, 0, 1.3, 0.3
 officer          greek_standard
@@ -5097,7 +5097,7 @@ ownership        greek, eastern, carthage, egypt, barbarian
 type             ephesus hoplite
 dictionary       ephesus_hoplite      ; Ephesus Hoplites
 category         infantry
-class            spearmen
+class            heavy
 voice_type       Heavy_1
 soldier          Ephesian_Rhodian_hoplite, 50, 0, 1.3, 0.24
 officer          greek_standard
