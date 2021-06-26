@@ -4411,177 +4411,210 @@ begin_formation ai_carthage_line
 
 
 
-		; Screen of missile inf
-		begin_block 0
-			max_units			8			
-			unit_type			skirmish infantry	1.0
-			unit_type			chanting_screeching 0.9
-			unit_type			missile infantry	0.8
-			default_melee_state	fire_at_will_and_skirmish
-			unit_density		close
-                        max_unit_width		40
+                begin_block 0
+                        not_general
+			unit_type			skirmish infantry		1.0
+                        unit_type			light infantry		0.8
+                        unit_formation          square
+                        ;default_melee_state	fire_at_will
+                        min_unit_width			60
+                        max_unit_width			120
 			block_formation		line
-			block_relative_pos	0 0.0 0.0
+			block_relative_pos	0 0.0 0.0 
 			inter_unit_spacing	2.0
-			priority			0.6
+			priority			1.0
 		end_block
-		
-		;; first phalanx line
+
+
+		;; The main troop line. Spearmen will form a mass.
 		begin_block 1
-			min_units			4
-			max_units			6
-			unit_type			phalanx 1.0
-			;default_melee_state	defend
-			unit_density		close
+                        not_general
+                        unit_type			phalanx        	2.0
+			unit_type			non_phalanx_spear	0.7
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        default_melee_state	defend
+                        ;unit_formation          phalanx
+                        ;unit_formation          square
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
 			block_formation		line
-			block_relative_pos	0 0.0 -15.0
-			inter_unit_spacing	0.3
+			block_relative_pos	0 0.0 -5.0 
+			inter_unit_spacing	0.2
 			priority			1.0
 		end_block
 
-		;; second phalanx line
+                ;; the right cover of infantry
 		begin_block 2
-			min_units			4
-			max_units			6
-			unit_type			phalanx 1.0
-			;default_melee_state	defend
-			unit_density		close
-			block_formation		line
-			block_relative_pos	1 0.0 -15.0
-			inter_unit_spacing	0.3
-			priority			1.0
+                        min_units			1
+                        max_units			3
+                        not_general
+			unit_type			heavy infantry	1.0
+			unit_type			light infantry		0.6
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        unit_formation          square, testudo
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
+			block_formation		column
+			block_relative_pos	1 1.0 -8.0 
+			inter_unit_spacing	0.2
+			priority			0.8
 		end_block
 
-		;; archers behind the spearmen
-
+                ;; the left cover of infantry
 		begin_block 3
-			max_units			5
-			unit_type			ranged_missile_infantry 1.0			
-			default_melee_state	fire_at_will
-                        max_unit_width		40
-			block_formation		line
-			block_relative_pos	2 0.0 -10.0
-			inter_unit_spacing	2.0
-			priority			1.0
-		end_block
-
-		;; heavy and light infantry either side of the spearmen
-
-		;; left side
-		begin_block 4
-			unit_type			heavy infantry 0.9
-			unit_type			non_phalanx_spear 0.7
-			unit_type			light infantry 0.8
-			default_melee_state	fire_at_will
+                        min_units			1
+                        max_units			3
+                        not_general
+			unit_type			heavy infantry	1.0
+			unit_type			light infantry		0.6
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        unit_formation          square, testudo
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
 			block_formation		column
-			block_relative_pos	1 -1.5 0.0
-			inter_unit_spacing	2.0
+			block_relative_pos	1 -1.0 -8.0 
+			inter_unit_spacing	0.2
 			priority			0.8
 		end_block
 
-		;; right side
-		begin_block 5
-			unit_type			heavy infantry 0.9
-			unit_type			non_phalanx_spear 0.7
-			unit_type			light infantry 0.8
-			default_melee_state	fire_at_will
-			block_formation		column
-			block_relative_pos	1 1.5 0.0
-			inter_unit_spacing	2.0
-			priority			0.8
-		end_block
-
-		begin_dummy_block 6
-			spans 1 2 3 4 5
+                begin_dummy_block 4
+			spans 0 1 2 3 
 		end_dummy_block
 
-		;; cavalry on the flanks and back a bit
+                ;; right missile units
+		begin_block 5
+                        not_general
+			unit_type			missile infantry		1.0
+                        ;default_melee_state	fire_at_will
+                        ;unit_formation          square
+                        min_unit_width			45
+                        max_unit_width			50
+			block_formation		line
+			block_relative_pos	4 2.0 -1.0 
+			inter_unit_spacing	6.0
+			priority			1.0
+		end_block
 
-		;; left flank
+;; left missile units
+                begin_block 6
+                        not_general
+			unit_type			missile infantry		1.0
+                        ;default_melee_state	fire_at_will
+                        ;unit_formation          square
+                        min_unit_width			45
+                        max_unit_width			50
+			block_formation		line
+			block_relative_pos	4 -2.0 -1.0 
+			inter_unit_spacing	6.0
+			priority			1.0
+		end_block
+
+                ;; Spearmen will form a back up force.
 		begin_block 7
-			not_general
-			unit_type			cavalry 1.0
-			;default_melee_state	defend
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	2 -10.0 -30.0
-			inter_unit_spacing	4.0
-			priority			0.5
+                        min_units			1
+                        not_general
+			unit_type			non_phalanx_spear	1.0
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        ;unit_formation          square
+                        min_unit_width			30
+                        max_unit_width			30
+			block_formation		line
+			block_relative_pos	4 0.0 -5.0 
+			inter_unit_spacing	0.2
+			priority			1.0
 		end_block
 
-		;; right_flank
-		begin_block 8
-			not_general
-			unit_type			cavalry 1.0
-			;default_melee_state	defend
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	2 10.0 -30.0
-			inter_unit_spacing	4.0
-			priority			0.5
-		end_block
+                begin_dummy_block 8
+			spans 0 1 2 3 4 5 6 7 
+		end_dummy_block
 
-		;; left flank missile cav
-		begin_block 9
-			not_general
-			unit_type			missile cavalry 1.0
-			;default_melee_state	skirmish
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	7 -5.0 0.0
-			inter_unit_spacing	4.0
-			priority			0.6
-		end_block
-
-		;; right_flank missile cav
-		begin_block 10
-			not_general
-			unit_type			missile cavalry 1.0
-			;default_melee_state	skirmish
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	8 5.0 0.0
-			inter_unit_spacing	4.0
-			priority			0.6
-		end_block
 
 		;; general at the back
-		begin_block 11
+		begin_block 9
+			min_units				1
 			max_units				1
 			unit_type				general_unit			1.0
-			;default_melee_state	defend
-			unit_density			close
+                        unit_formation          square
+                        ;default_melee_state	defend
+			;unit_density			close
 			block_formation			line
-			block_relative_pos		6 0.0 -30.0
-			inter_unit_spacing		3.0
+			block_relative_pos		8 0.0 -10.0
+			inter_unit_spacing		10.0
 			priority				1.0
 		end_block
 
-		;; any behind
-		begin_block 12
-			max_units			0
-			unit_type			any					0.5
-			block_formation				line
-			block_relative_pos			2 0.0 -50.0
-			inter_unit_spacing			0.3
-			priority					0.1
+                begin_block 10
+                        not_general
+			unit_type				chariots			3.0
+                        unit_type				elephants			3.0
+                        ;default_melee_state	fire_at_will
+                        ;default_melee_state	defend
+                        unit_formation          phalanx
+			;unit_density		loose
+                        ;min_unit_width			60
+                        ;max_unit_width			60
+			block_formation		line
+			block_relative_pos	0 0.0 8.0 
+			inter_unit_spacing	10.0
+			priority			1.0
+		end_block	
+
+
+                begin_block 11 ;cavalry right
+                        not_general
+			unit_type			cavalry				1.0
+			;unit_density		close
+                        min_unit_width			35
+                        max_unit_width			40
+			block_formation		square
+			block_relative_pos	8 7 -3.0 
+			inter_unit_spacing	0.2
+			priority			0.8
 		end_block
 
-		;; artillery and handler behind
-		begin_block 13
-			unit_type			handler				1.0
-			unit_type			siege				1.0
-			default_melee_state	fire_at_will
-			block_formation				line
-			block_relative_pos			12 0.0 -20.0
-			inter_unit_spacing			3.0
-			priority					0.1
+                 begin_block 12 ;cavalry left
+                        not_general
+			unit_type			cavalry				1.0
+			;unit_density		close
+                        min_unit_width			35
+                        max_unit_width			40
+			block_formation		square
+			block_relative_pos	8 -7 -3.0 
+			inter_unit_spacing	0.2
+			priority			0.8
 		end_block
 
+
+	        ;; put the artillery and handlers behind everyone
+		begin_dummy_block 13
+			spans 0 1 2 3 4 5 6 7 8 9 10 11 12
+		end_dummy_block
+
+		begin_block 14
+                        not_general
+			unit_type					handler				1.0
+		unit_type					siege				3.0
+		unit_type					chanting_screeching	3.0
+                        ;default_melee_state	skirmish
+                        unit_formation          square
+                        ;min_unit_width			25
+                        max_unit_width			25
+			block_formation				line
+			block_relative_pos			13 0.0 -2.0
+			inter_unit_spacing			10.0
+			priority					1.0
+		end_block
+              
 end_formation
 
 begin_formation ai_carthage_line
@@ -4592,190 +4625,210 @@ begin_formation ai_carthage_line
 	ai_priority			0.15
         supported_factions			 carthage
 
-		; Screen of missile inf
-		begin_block 0
-			max_units			8			
-			unit_type			skirmish infantry	1.0
-			unit_type			chanting_screeching 0.9
-			unit_type			missile infantry	0.8
-			default_melee_state	skirmish
-			unit_density		close
-                        max_unit_width		40
+                begin_block 0
+                        not_general
+			unit_type			skirmish infantry		1.0
+                        unit_type			light infantry		0.8
+                        unit_formation          square
+                        ;default_melee_state	fire_at_will
+                        min_unit_width			60
+                        max_unit_width			120
 			block_formation		line
-			block_relative_pos	0 0.0 0.0
+			block_relative_pos	0 0.0 0.0 
 			inter_unit_spacing	2.0
-			priority			0.6
+			priority			1.0
 		end_block
-		
-		;; first spearmen line
+
+
+		;; The main troop line. Spearmen will form a mass.
 		begin_block 1
-			min_units			4
-			max_units			6
-			unit_type			non_phalanx_spear 1.0
-			;;default_melee_state	defend
-			unit_density		close
+                        not_general
+                        unit_type			phalanx        	2.0
+			unit_type			non_phalanx_spear	0.7
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        default_melee_state	defend
+                        ;unit_formation          phalanx
+                        ;unit_formation          square
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
 			block_formation		line
-			block_relative_pos	0 0.0 -15.0
-			inter_unit_spacing	0.3
+			block_relative_pos	0 0.0 -5.0 
+			inter_unit_spacing	0.2
 			priority			1.0
 		end_block
 
-		;; second spearmen line
+                ;; the right cover of infantry
 		begin_block 2
-			min_units			4
-			max_units			7
-			unit_type			non_phalanx_spear 1.0
-			;;default_melee_state	defend
-			unit_density		close
-			block_formation		line
-			block_relative_pos	1 0.0 -15.0
-			inter_unit_spacing	0.3
-			priority			1.0
+                        min_units			1
+                        max_units			3
+                        not_general
+			unit_type			heavy infantry	1.0
+			unit_type			light infantry		0.6
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        unit_formation          square, testudo
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
+			block_formation		column
+			block_relative_pos	1 1.0 -8.0 
+			inter_unit_spacing	0.2
+			priority			0.8
 		end_block
 
-		;; third spearmen line
+                ;; the left cover of infantry
 		begin_block 3
-			min_units			5
-			max_units			7
-			unit_type			non_phalanx_spear 1.0
-			;;default_melee_state	defend
-			unit_density		close
-			block_formation		line
-			block_relative_pos	2 0.0 -5.0
-			inter_unit_spacing	0.3
-			priority			1.0
-		end_block
-
-		;; archers behind the spearmen
-
-		begin_block 4
-			max_units			5
-			unit_type			ranged_missile_infantry 1.0			
-			;;default_melee_state	defend_and_defend
-                        max_unit_width		40
-			block_formation		line
-			block_relative_pos	3 0.0 -10.0
-			inter_unit_spacing	2.0
-			priority			1.0
-		end_block
-
-		;; heavy and light infantry either side of the spearmen
-
-		;; left side
-		begin_block 5
-			max_units			3
-			unit_type			heavy infantry 0.9
-			unit_type			light infantry 0.8
-			default_melee_state	fire_at_will
+                        min_units			1
+                        max_units			3
+                        not_general
+			unit_type			heavy infantry	1.0
+			unit_type			light infantry		0.6
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        unit_formation          square, testudo
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
 			block_formation		column
-			block_relative_pos	1 -1.5 0.0
-			inter_unit_spacing	2.0
+			block_relative_pos	1 -1.0 -8.0 
+			inter_unit_spacing	0.2
 			priority			0.8
 		end_block
 
-		;; right side
-		begin_block 6
-			max_units			3
-			unit_type			heavy infantry 0.9
-			unit_type			light infantry 0.8
-			default_melee_state	fire_at_will
-			block_formation		column
-			block_relative_pos	1 1.5 0.0
-			inter_unit_spacing	2.0
-			priority			0.8
-		end_block
-
-		begin_dummy_block 7
-			spans 1 2 3 4 5 6
+                begin_dummy_block 4
+			spans 0 1 2 3 
 		end_dummy_block
 
-		;; cavalry on the flanks and back a bit
-
-		;; left flank
-		begin_block 8
-			not_general
-			unit_type			cavalry 1.0
-			;default_melee_state	defend
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	3 -10.0 -30.0
-			inter_unit_spacing	4.0
-			priority			0.5
+                ;; right missile units
+		begin_block 5
+                        not_general
+			unit_type			missile infantry		1.0
+                        ;default_melee_state	fire_at_will
+                        ;unit_formation          square
+                        min_unit_width			45
+                        max_unit_width			50
+			block_formation		line
+			block_relative_pos	4 2.0 -1.0 
+			inter_unit_spacing	6.0
+			priority			1.0
 		end_block
 
-		;; right_flank
-		begin_block 9
-			not_general
-			unit_type			cavalry 1.0
-			;default_melee_state	defend
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	3 10.0 -30.0
-			inter_unit_spacing	4.0
-			priority			0.5
+;; left missile units
+                begin_block 6
+                        not_general
+			unit_type			missile infantry		1.0
+                        ;default_melee_state	fire_at_will
+                        ;unit_formation          square
+                        min_unit_width			45
+                        max_unit_width			50
+			block_formation		line
+			block_relative_pos	4 -2.0 -1.0 
+			inter_unit_spacing	6.0
+			priority			1.0
 		end_block
 
-		;; left flank missile cav
-		begin_block 10
-			not_general
-			unit_type			missile cavalry 1.0
-			default_melee_state	skirmish
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	8 -5.0 0.0
-			inter_unit_spacing	4.0
-			priority			0.6
+                ;; Spearmen will form a back up force.
+		begin_block 7
+                        min_units			1
+                        not_general
+			unit_type			non_phalanx_spear	1.0
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        ;unit_formation          square
+                        min_unit_width			30
+                        max_unit_width			30
+			block_formation		line
+			block_relative_pos	4 0.0 -5.0 
+			inter_unit_spacing	0.2
+			priority			1.0
 		end_block
 
-		;; right_flank missile cav
-		begin_block 11
-			not_general
-			unit_type			missile cavalry 1.0
-			default_melee_state	skirmish
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	9 5.0 0.0
-			inter_unit_spacing	4.0
-			priority			0.6
-		end_block
+                begin_dummy_block 8
+			spans 0 1 2 3 4 5 6 7 
+		end_dummy_block
+
 
 		;; general at the back
-		begin_block 12
+		begin_block 9
+			min_units				1
 			max_units				1
 			unit_type				general_unit			1.0
-			;default_melee_state	defend
-			unit_density			close
+                        unit_formation          square
+                        ;default_melee_state	defend
+			;unit_density			close
 			block_formation			line
-			block_relative_pos		7 0.0 -30.0
-			inter_unit_spacing		3.0
+			block_relative_pos		8 0.0 -10.0
+			inter_unit_spacing		10.0
 			priority				1.0
 		end_block
 
-		;; any behind
-		begin_block 13
-			max_units			0
-			unit_type			any					0.5
-			block_formation				line
-			block_relative_pos			3 0.0 -50.0
-			inter_unit_spacing			0.3
-			priority					0.1
+                begin_block 10
+                        not_general
+			unit_type				chariots			3.0
+                        unit_type				elephants			3.0
+                        ;default_melee_state	fire_at_will
+                        ;default_melee_state	defend
+                        unit_formation          phalanx
+			;unit_density		loose
+                        ;min_unit_width			60
+                        ;max_unit_width			60
+			block_formation		line
+			block_relative_pos	0 0.0 8.0 
+			inter_unit_spacing	10.0
+			priority			1.0
+		end_block	
+
+
+                begin_block 11 ;cavalry right
+                        not_general
+			unit_type			cavalry				1.0
+			;unit_density		close
+                        min_unit_width			35
+                        max_unit_width			40
+			block_formation		square
+			block_relative_pos	8 7 -3.0 
+			inter_unit_spacing	0.2
+			priority			0.8
 		end_block
 
-		;; artillery and handler behind
+                 begin_block 12 ;cavalry left
+                        not_general
+			unit_type			cavalry				1.0
+			;unit_density		close
+                        min_unit_width			35
+                        max_unit_width			40
+			block_formation		square
+			block_relative_pos	8 -7 -3.0 
+			inter_unit_spacing	0.2
+			priority			0.8
+		end_block
+
+
+	        ;; put the artillery and handlers behind everyone
+		begin_dummy_block 13
+			spans 0 1 2 3 4 5 6 7 8 9 10 11 12
+		end_dummy_block
+
 		begin_block 14
-			unit_type			handler				1.0
-			unit_type			siege				1.0
-			;default_melee_state	defend
+                        not_general
+			unit_type					handler				1.0
+		unit_type					siege				3.0
+		unit_type					chanting_screeching	3.0
+                        ;default_melee_state	skirmish
+                        unit_formation          square
+                        ;min_unit_width			25
+                        max_unit_width			25
 			block_formation				line
-			block_relative_pos			13 0.0 -20.0
-			inter_unit_spacing			3.0
-			priority					0.1
+			block_relative_pos			13 0.0 -2.0
+			inter_unit_spacing			10.0
+			priority					1.0
 		end_block
-
+              
 end_formation
 
 
@@ -4788,186 +4841,210 @@ begin_formation ai_carthage_line
         supported_factions			 carthage
 
 		
-		; Screen of missile inf
-		begin_block 0
-			max_units			8			
-			unit_type			skirmish infantry	1.0
-			unit_type			chanting_screeching 0.9
-			unit_type			missile infantry	0.8
-			default_melee_state	skirmish
-			unit_density		close
-                        max_unit_width		40
+                begin_block 0
+                        not_general
+			unit_type			skirmish infantry		1.0
+                        unit_type			light infantry		0.8
+                        unit_formation          square
+                        ;default_melee_state	fire_at_will
+                        min_unit_width			60
+                        max_unit_width			120
 			block_formation		line
-			block_relative_pos	0 0.0 0.0
+			block_relative_pos	0 0.0 0.0 
 			inter_unit_spacing	2.0
-			priority			0.6
+			priority			1.0
 		end_block
-		
-		;; first spearmen line
+
+
+		;; The main troop line. Spearmen will form a mass.
 		begin_block 1
-			min_units			4
-			max_units			6
-			unit_type			non_phalanx_spear 1.0
-			unit_density		close
+                        not_general
+                        unit_type			phalanx        	2.0
+			unit_type			non_phalanx_spear	0.7
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        default_melee_state	defend
+                        ;unit_formation          phalanx
+                        ;unit_formation          square
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
 			block_formation		line
-			block_relative_pos	0 0.0 -15.0
-			inter_unit_spacing	0.3
+			block_relative_pos	0 0.0 -5.0 
+			inter_unit_spacing	0.2
 			priority			1.0
 		end_block
 
-		;; second spearmen line
+                ;; the right cover of infantry
 		begin_block 2
-			min_units			4
-			max_units			7
-			unit_type			non_phalanx_spear 1.0
-			unit_density		close
-			block_formation		line
-			block_relative_pos	1 0.0 -15.0
-			inter_unit_spacing	0.3
-			priority			1.0
+                        min_units			1
+                        max_units			3
+                        not_general
+			unit_type			heavy infantry	1.0
+			unit_type			light infantry		0.6
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        unit_formation          square, testudo
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
+			block_formation		column
+			block_relative_pos	1 1.0 -8.0 
+			inter_unit_spacing	0.2
+			priority			0.8
 		end_block
 
-		;; third spearmen line
+                ;; the left cover of infantry
 		begin_block 3
-			min_units			5
-			max_units			7
-			unit_type			non_phalanx_spear 1.0
-			unit_density		close
-			block_formation		line
-			block_relative_pos	2 0.0 -5.0
-			inter_unit_spacing	0.3
-			priority			1.0
-		end_block
-
-		;; archers behind the spearmen
-
-		begin_block 4
-			max_units			5
-			unit_type			ranged_missile_infantry 1.0			
-			default_melee_state	skirmish
-                        max_unit_width		40
-			block_formation		line
-			block_relative_pos	3 0.0 -10.0
-			inter_unit_spacing	2.0
-			priority			1.0
-		end_block
-
-		;; heavy and light infantry either side of the spearmen
-
-		;; left side
-		begin_block 5
-			max_units			3
-			unit_type			heavy infantry 0.9
-			unit_type			light infantry 0.8
-			default_melee_state	fire_at_will
+                        min_units			1
+                        max_units			3
+                        not_general
+			unit_type			heavy infantry	1.0
+			unit_type			light infantry		0.6
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        unit_formation          square, testudo
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
 			block_formation		column
-			block_relative_pos	1 -1.5 0.0
-			inter_unit_spacing	2.0
+			block_relative_pos	1 -1.0 -8.0 
+			inter_unit_spacing	0.2
 			priority			0.8
 		end_block
 
-		;; right side
-		begin_block 6
-			max_units			3
-			unit_type			heavy infantry 0.9
-			unit_type			light infantry 0.8
-			default_melee_state	fire_at_will
-			block_formation		column
-			block_relative_pos	1 1.5 0.0
-			inter_unit_spacing	2.0
-			priority			0.8
-		end_block
-
-		begin_dummy_block 7
-			spans 1 2 3 4 5 6
+                begin_dummy_block 4
+			spans 0 1 2 3 
 		end_dummy_block
 
-		;; cavalry on the flanks and back a bit
-
-		;; left flank
-		begin_block 8
-			not_general
-			unit_type			cavalry 1.0
-			default_melee_state	im_an_invalid_command
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	7 -20.0 -40.0
-			inter_unit_spacing	4.0
-			priority			0.5
+                ;; right missile units
+		begin_block 5
+                        not_general
+			unit_type			missile infantry		1.0
+                        ;default_melee_state	fire_at_will
+                        ;unit_formation          square
+                        min_unit_width			45
+                        max_unit_width			50
+			block_formation		line
+			block_relative_pos	4 2.0 -1.0 
+			inter_unit_spacing	6.0
+			priority			1.0
 		end_block
 
-		;; right_flank
-		begin_block 9
-			not_general
-			unit_type			cavalry 1.0
-			default_melee_state	im_an_invalid_command
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	7 20.0 -40.0
-			inter_unit_spacing	4.0
-			priority			0.5
+;; left missile units
+                begin_block 6
+                        not_general
+			unit_type			missile infantry		1.0
+                        ;default_melee_state	fire_at_will
+                        ;unit_formation          square
+                        min_unit_width			45
+                        max_unit_width			50
+			block_formation		line
+			block_relative_pos	4 -2.0 -1.0 
+			inter_unit_spacing	6.0
+			priority			1.0
 		end_block
 
-		;; left flank missile cav
-		begin_block 10
-			not_general
-			unit_type			missile cavalry 1.0
-			default_melee_state	skirmish
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	8 -5.0 0.0
-			inter_unit_spacing	4.0
-			priority			0.6
+                ;; Spearmen will form a back up force.
+		begin_block 7
+                        min_units			1
+                        not_general
+			unit_type			non_phalanx_spear	1.0
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        ;unit_formation          square
+                        min_unit_width			30
+                        max_unit_width			30
+			block_formation		line
+			block_relative_pos	4 0.0 -5.0 
+			inter_unit_spacing	0.2
+			priority			1.0
 		end_block
 
-		;; right_flank missile cav
-		begin_block 11
-			not_general
-			unit_type			missile cavalry 1.0
-			default_melee_state	skirmish
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	9 5.0 0.0
-			inter_unit_spacing	4.0
-			priority			0.6
-		end_block
+                begin_dummy_block 8
+			spans 0 1 2 3 4 5 6 7 
+		end_dummy_block
+
 
 		;; general at the back
-		begin_block 12
+		begin_block 9
+			min_units				1
 			max_units				1
 			unit_type				general_unit			1.0
-			;default_melee_state	defend
-			unit_density			close
+                        unit_formation          square
+                        ;default_melee_state	defend
+			;unit_density			close
 			block_formation			line
-			block_relative_pos		7 0.0 -30.0
-			inter_unit_spacing		3.0
+			block_relative_pos		8 0.0 -10.0
+			inter_unit_spacing		10.0
 			priority				1.0
 		end_block
 
-		;; any behind
-		begin_block 13
-			max_units			0
-			unit_type			any					0.5
-			block_formation				line
-			block_relative_pos			7 0.0 -50.0
-			inter_unit_spacing			0.3
-			priority					0.1
+                begin_block 10
+                        not_general
+			unit_type				chariots			3.0
+                        unit_type				elephants			3.0
+                        ;default_melee_state	fire_at_will
+                        ;default_melee_state	defend
+                        unit_formation          phalanx
+			;unit_density		loose
+                        ;min_unit_width			60
+                        ;max_unit_width			60
+			block_formation		line
+			block_relative_pos	0 0.0 8.0 
+			inter_unit_spacing	10.0
+			priority			1.0
+		end_block	
+
+
+                begin_block 11 ;cavalry right
+                        not_general
+			unit_type			cavalry				1.0
+			;unit_density		close
+                        min_unit_width			35
+                        max_unit_width			40
+			block_formation		square
+			block_relative_pos	8 7 -3.0 
+			inter_unit_spacing	0.2
+			priority			0.8
 		end_block
 
-		;; artillery and handler behind
+                 begin_block 12 ;cavalry left
+                        not_general
+			unit_type			cavalry				1.0
+			;unit_density		close
+                        min_unit_width			35
+                        max_unit_width			40
+			block_formation		square
+			block_relative_pos	8 -7 -3.0 
+			inter_unit_spacing	0.2
+			priority			0.8
+		end_block
+
+
+	        ;; put the artillery and handlers behind everyone
+		begin_dummy_block 13
+			spans 0 1 2 3 4 5 6 7 8 9 10 11 12
+		end_dummy_block
+
 		begin_block 14
-			unit_type			handler				1.0
-			unit_type			siege				1.0
+                        not_general
+			unit_type					handler				1.0
+		unit_type					siege				3.0
+		unit_type					chanting_screeching	3.0
+                        ;default_melee_state	skirmish
+                        unit_formation          square
+                        ;min_unit_width			25
+                        max_unit_width			25
 			block_formation				line
-			block_relative_pos			13 0.0 -20.0
-			inter_unit_spacing			3.0
-			priority					0.1
+			block_relative_pos			13 0.0 -2.0
+			inter_unit_spacing			10.0
+			priority					1.0
 		end_block
-
+              
 end_formation
 
 
@@ -4984,186 +5061,210 @@ begin_formation ai_carthage_line
 
 
 
-		; Screen of missile inf
-		begin_block 0
-			max_units			8			
-			unit_type			skirmish infantry	1.0
-			unit_type			chanting_screeching 0.9
-			unit_type			missile infantry	0.8
-			default_melee_state	skirmish
-			unit_density		close
-                        max_unit_width		40
+                begin_block 0
+                        not_general
+			unit_type			skirmish infantry		1.0
+                        unit_type			light infantry		0.8
+                        unit_formation          square
+                        ;default_melee_state	fire_at_will
+                        min_unit_width			60
+                        max_unit_width			120
 			block_formation		line
-			block_relative_pos	0 0.0 0.0
+			block_relative_pos	0 0.0 0.0 
 			inter_unit_spacing	2.0
-			priority			0.6
+			priority			1.0
 		end_block
-		
-		;; first spearmen line
+
+
+		;; The main troop line. Spearmen will form a mass.
 		begin_block 1
-			min_units			4
-			max_units			6
-			unit_type			non_phalanx_spear 1.0
-			unit_density		close
+                        not_general
+                        unit_type			phalanx        	2.0
+			unit_type			non_phalanx_spear	0.7
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        default_melee_state	defend
+                        ;unit_formation          phalanx
+                        ;unit_formation          square
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
 			block_formation		line
-			block_relative_pos	0 0.0 -15.0
-			inter_unit_spacing	0.3
+			block_relative_pos	0 0.0 -5.0 
+			inter_unit_spacing	0.2
 			priority			1.0
 		end_block
 
-		;; second spearmen line
+                ;; the right cover of infantry
 		begin_block 2
-			min_units			4
-			max_units			7
-			unit_type			non_phalanx_spear 1.0
-			unit_density		close
-			block_formation		line
-			block_relative_pos	1 0.0 -15.0
-			inter_unit_spacing	0.3
-			priority			1.0
+                        min_units			1
+                        max_units			3
+                        not_general
+			unit_type			heavy infantry	1.0
+			unit_type			light infantry		0.6
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        unit_formation          square, testudo
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
+			block_formation		column
+			block_relative_pos	1 1.0 -8.0 
+			inter_unit_spacing	0.2
+			priority			0.8
 		end_block
 
-		;; third spearmen line
+                ;; the left cover of infantry
 		begin_block 3
-			min_units			5
-			max_units			7
-			unit_type			non_phalanx_spear 1.0
-			unit_density		close
-			block_formation		line
-			block_relative_pos	2 0.0 -5.0
-			inter_unit_spacing	0.3
-			priority			1.0
-		end_block
-
-		;; archers behind the spearmen
-
-		begin_block 4
-			max_units			5
-			unit_type			ranged_missile_infantry 1.0			
-			default_melee_state	skirmish
-                        max_unit_width		40
-			block_formation		line
-			block_relative_pos	3 0.0 -10.0
-			inter_unit_spacing	2.0
-			priority			1.0
-		end_block
-
-		;; heavy and light infantry either side of the spearmen
-
-		;; left side
-		begin_block 5
-			max_units			3
-			unit_type			heavy infantry 0.9
-			unit_type			light infantry 0.8
-			default_melee_state	fire_at_will
+                        min_units			1
+                        max_units			3
+                        not_general
+			unit_type			heavy infantry	1.0
+			unit_type			light infantry		0.6
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        unit_formation          square, testudo
+			;unit_density		close, loose
+                        min_unit_width			25
+                        max_unit_width			30
 			block_formation		column
-			block_relative_pos	1 -1.5 0.0
-			inter_unit_spacing	2.0
+			block_relative_pos	1 -1.0 -8.0 
+			inter_unit_spacing	0.2
 			priority			0.8
 		end_block
 
-		;; right side
-		begin_block 6
-			max_units			3
-			unit_type			heavy infantry 0.9
-			unit_type			light infantry 0.8
-			default_melee_state	fire_at_will
-			block_formation		column
-			block_relative_pos	1 1.5 0.0
-			inter_unit_spacing	2.0
-			priority			0.8
-		end_block
-
-		begin_dummy_block 7
-			spans 1 2 3 4 5 6
+                begin_dummy_block 4
+			spans 0 1 2 3 
 		end_dummy_block
 
-		;; cavalry on the flanks and back a bit
-
-		;; left flank
-		begin_block 8
-			not_general
-			unit_type			cavalry 1.0
-			default_melee_state	im_an_invalid_command
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	7 -20.0 -40.0
-			inter_unit_spacing	4.0
-			priority			0.5
+                ;; right missile units
+		begin_block 5
+                        not_general
+			unit_type			missile infantry		1.0
+                        ;default_melee_state	fire_at_will
+                        ;unit_formation          square
+                        min_unit_width			45
+                        max_unit_width			50
+			block_formation		line
+			block_relative_pos	4 2.0 -1.0 
+			inter_unit_spacing	6.0
+			priority			1.0
 		end_block
 
-		;; right_flank
-		begin_block 9
-			not_general
-			unit_type			cavalry 1.0
-			default_melee_state	im_an_invalid_command
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	7 20.0 -40.0
-			inter_unit_spacing	4.0
-			priority			0.5
+;; left missile units
+                begin_block 6
+                        not_general
+			unit_type			missile infantry		1.0
+                        ;default_melee_state	fire_at_will
+                        ;unit_formation          square
+                        min_unit_width			45
+                        max_unit_width			50
+			block_formation		line
+			block_relative_pos	4 -2.0 -1.0 
+			inter_unit_spacing	6.0
+			priority			1.0
 		end_block
 
-		;; left flank missile cav
-		begin_block 10
-			not_general
-			unit_type			missile cavalry 1.0
-			default_melee_state	skirmish
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	8 -5.0 0.0
-			inter_unit_spacing	4.0
-			priority			0.6
+                ;; Spearmen will form a back up force.
+		begin_block 7
+                        min_units			1
+                        not_general
+			unit_type			non_phalanx_spear	1.0
+                        unit_type			infantry			0.1
+			unit_type			any					0.1
+                        ;default_melee_state	skirmish
+                        ;unit_formation          square
+                        min_unit_width			30
+                        max_unit_width			30
+			block_formation		line
+			block_relative_pos	4 0.0 -5.0 
+			inter_unit_spacing	0.2
+			priority			1.0
 		end_block
 
-		;; right_flank missile cav
-		begin_block 11
-			not_general
-			unit_type			missile cavalry 1.0
-			default_melee_state	skirmish
-			unit_formation		square
-			unit_density		close
-			block_formation		column
-			block_relative_pos	9 5.0 0.0
-			inter_unit_spacing	4.0
-			priority			0.6
-		end_block
+                begin_dummy_block 8
+			spans 0 1 2 3 4 5 6 7 
+		end_dummy_block
+
 
 		;; general at the back
-		begin_block 12
+		begin_block 9
+			min_units				1
 			max_units				1
 			unit_type				general_unit			1.0
-			;default_melee_state	defend
-			unit_density			close
+                        unit_formation          square
+                        ;default_melee_state	defend
+			;unit_density			close
 			block_formation			line
-			block_relative_pos		7 0.0 -30.0
-			inter_unit_spacing		3.0
+			block_relative_pos		8 0.0 -10.0
+			inter_unit_spacing		10.0
 			priority				1.0
 		end_block
 
-		;; any behind
-		begin_block 13
-			max_units			0
-			unit_type			any					0.5
-			block_formation				line
-			block_relative_pos			7 0.0 -50.0
-			inter_unit_spacing			0.3
-			priority					0.1
+                begin_block 10
+                        not_general
+			unit_type				chariots			3.0
+                        unit_type				elephants			3.0
+                        ;default_melee_state	fire_at_will
+                        ;default_melee_state	defend
+                        unit_formation          phalanx
+			;unit_density		loose
+                        ;min_unit_width			60
+                        ;max_unit_width			60
+			block_formation		line
+			block_relative_pos	0 0.0 8.0 
+			inter_unit_spacing	10.0
+			priority			1.0
+		end_block	
+
+
+                begin_block 11 ;cavalry right
+                        not_general
+			unit_type			cavalry				1.0
+			;unit_density		close
+                        min_unit_width			35
+                        max_unit_width			40
+			block_formation		square
+			block_relative_pos	8 7 -3.0 
+			inter_unit_spacing	0.2
+			priority			0.8
 		end_block
 
-		;; artillery and handler behind
+                 begin_block 12 ;cavalry left
+                        not_general
+			unit_type			cavalry				1.0
+			;unit_density		close
+                        min_unit_width			35
+                        max_unit_width			40
+			block_formation		square
+			block_relative_pos	8 -7 -3.0 
+			inter_unit_spacing	0.2
+			priority			0.8
+		end_block
+
+
+	        ;; put the artillery and handlers behind everyone
+		begin_dummy_block 13
+			spans 0 1 2 3 4 5 6 7 8 9 10 11 12
+		end_dummy_block
+
 		begin_block 14
-			unit_type			handler				1.0
-			unit_type			siege				1.0
+                        not_general
+			unit_type					handler				1.0
+		unit_type					siege				3.0
+		unit_type					chanting_screeching	3.0
+                        ;default_melee_state	skirmish
+                        unit_formation          square
+                        ;min_unit_width			25
+                        max_unit_width			25
 			block_formation				line
-			block_relative_pos			13 0.0 -20.0
-			inter_unit_spacing			3.0
-			priority					0.1
+			block_relative_pos			13 0.0 -2.0
+			inter_unit_spacing			10.0
+			priority					1.0
 		end_block
-
+              
 end_formation
 
 begin_formation ai_carthage_line

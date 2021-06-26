@@ -10184,13 +10184,13 @@ and I_CompareCounter Tomi_undersiege = 1
 	if I_SettlementOwner Tomi = thrace
 	and I_FactionBesieged thrace
     and I_CompareCounter Tomi_undersiege = 1
-    	console_command create_unit Tomi "thracian thureos swordsmen" 4 2 2 2
-        console_command create_unit Tomi "thracian thorakitai" 4 2 2 2
+    	console_command create_unit Tomi "thracian thorakitai" 4 2 2 2
+        console_command create_unit Tomi "thracian nobles" 2 2 1 1
         console_command create_unit Tomi "thracian hoplite" 2 2 1 1
+    	console_command create_unit Tomi "thracian thureos swordsmen" 4 2 2 2
 		console_command create_unit Tomi "gettic light peltast" 2 2 2 1
 		console_command create_unit Tomi "thureos spears" 4 3 2 2
         console_command create_unit Tomi "thracian infantry" 2 3 2 2
-        console_command create_unit Tomi "thracian nobles" 2 2 1 1
 console_command add_money thrace, 40000
 if I_NumberOfSettlements thrace < 3
 console_command kill_character "Spartacus"
@@ -19085,7 +19085,7 @@ set_counter Leucaristus_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Camulodunum;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-declare_counter Avaricum_undersiege
+declare_counter Camulodunum_undersiege
 set_counter Camulodunum_undersiege 0
 monitor_event FactionTurnEnd FactionType germans
 if I_CompareCounter Camulodunum_undersiege = 0

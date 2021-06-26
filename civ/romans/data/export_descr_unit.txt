@@ -11095,30 +11095,30 @@ stat_food        60, 300
 stat_cost        2, 680, 50, 60, 90, 570
 ownership        Slave, scythia
 
-;type             roman wardogs
-;dictionary       roman_wardogs      ; Zergs
-;category         handler
-;class            light
-;voice_type       Light_1
-;soldier          zerg, 55, 165, 1, 0.07
-;animal           wardogs
-;attributes       sea_faring, hide_forest, very_hardy, warcry, mercenary_unit
-;formation        2.2, 2.2, 3, 3, 10, square
-;stat_health      1, 1
-;stat_pri         10, 5, no, 0, 0, melee, simple, piercing, sword, 25 ,1
-;stat_pri_attr    no
-;stat_sec         10, 5, no, 0, 0, melee, simple, slashing, sword, 25 ,1
-;stat_sec_attr    no
-;stat_pri_armour  7, 5, 0, metal
-;stat_sec_armour  7, 5, metal
-;stat_heat        -10
-;stat_ground      10, 10, 10, 10
-;stat_mental      100, berserker, trained
-;stat_charge_dist 40
-;stat_fire_delay  0
-;stat_food        60, 300
-;stat_cost        2, 680, 50, 60, 90, 570
-;ownership        Slave, scythia
+type             roman wardogs
+dictionary       roman_wardogs      ; Zergs
+category         handler
+class            light
+voice_type       Light_1
+soldier          zerg, 55, 165, 1, 0.07
+animal           wardogs
+attributes       sea_faring, hide_forest, very_hardy, warcry, mercenary_unit
+formation        2.2, 2.2, 3, 3, 10, square
+stat_health      1, 1
+stat_pri         10, 5, no, 0, 0, melee, simple, piercing, sword, 25 ,1
+stat_pri_attr    no
+stat_sec         10, 5, no, 0, 0, melee, simple, slashing, sword, 25 ,1
+stat_sec_attr    no
+stat_pri_armour  7, 5, 0, metal
+stat_sec_armour  7, 5, metal
+stat_heat        -10
+stat_ground      10, 10, 10, 10
+stat_mental      100, berserker, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 680, 50, 60, 90, 570
+ownership        Slave, scythia
 
 type             barb peasant slave
 dictionary       barb_peasant_slave      ; Barbarian Peasants

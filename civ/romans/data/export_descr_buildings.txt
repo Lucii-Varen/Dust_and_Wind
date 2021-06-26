@@ -663,8 +663,8 @@ building barracks
 
                 recruit "italic allied cohort"  0  requires factions { roman_rebels, } and building_factions { slave, }
                 recruit "italic allied cohort"  0  requires factions { romans_scipii, } and building_factions { slave, }
-                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
-                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform2
+                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource italy and not building_present_min_level hinterland_reform reform4
+                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource italy and not building_present_min_level hinterland_reform reform2
 
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
@@ -1061,8 +1061,8 @@ building barracks
 
                 recruit "italic allied cohort"  0  requires factions { roman_rebels, } and building_factions { slave, }
                 recruit "italic allied cohort"  0  requires factions { romans_scipii, } and building_factions { slave, }
-                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
-                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform2
+                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource italy and not building_present_min_level hinterland_reform reform4
+                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource italy and not building_present_min_level hinterland_reform reform2
 
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
@@ -1520,8 +1520,8 @@ building barracks
 
                 recruit "italic allied cohort"  0  requires factions { roman_rebels, } and building_factions { slave, }
                 recruit "italic allied cohort"  0  requires factions { romans_scipii, } and building_factions { slave, }
-                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform4
-                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource samnites and not building_present_min_level hinterland_reform reform2
+                recruit "italic allied cohort"  0  requires factions { roman_rebels, } and not building_factions { slave, } and hidden_resource italy and not building_present_min_level hinterland_reform reform4
+                recruit "italic allied cohort"  0  requires factions { romans_scipii, } and not building_factions { slave, } and hidden_resource italy and not building_present_min_level hinterland_reform reform2
 
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
                 recruit "gaul heavy infantry"  0  requires factions { romans_scipii, roman_rebels, } and building_factions { slave, }
@@ -4951,6 +4951,7 @@ building temple_of_forge
                 happiness_bonus bonus 1
                 law_bonus bonus 2
                 recruits_morale_bonus bonus 2
+		weapon_simple 1
                 armour bonus 1
             }
             construction  1 
@@ -4968,7 +4969,10 @@ building temple_of_forge
                 happiness_bonus bonus 2
                 law_bonus bonus 3
                 recruits_morale_bonus bonus 3
+                weapon_bladed bonus 1
+		weapon_simple 1
                 armour bonus 1
+
             }
             construction  2 
             cost  800 
@@ -4986,7 +4990,9 @@ building temple_of_forge
                 law_bonus bonus 4
                 recruits_morale_bonus bonus 4
                 weapon_bladed bonus 1
+		weapon_simple 1
                 armour bonus 1
+ 
             }
             construction  3 
             cost  1600 
@@ -5004,6 +5010,7 @@ building temple_of_forge
                 law_bonus bonus 4
                 recruits_morale_bonus bonus 4
                 weapon_bladed bonus 1
+		weapon_simple 1
                 armour bonus 1
             }
             construction  5 
@@ -5022,6 +5029,9 @@ building temple_of_forge
                 law_bonus bonus 4
                 recruits_morale_bonus bonus 5
                 population_growth_bonus bonus -3
+                weapon_bladed bonus 1
+		weapon_simple 1
+                armour bonus 1
             }
             construction  6 
             cost  6400 
