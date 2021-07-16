@@ -441,7 +441,7 @@ officer          celt_standard
 officer          celt_standard_horn
 attributes       sea_faring, hide_improved_forest, hardy, warcry
 formation        1.2, 1.2, 2.4, 2.4, 10, square
-stat_health      1, 0
+stat_health      1, 1
 stat_pri         13, 4, no, 0, 0, melee, blade, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         12, 5, no, 0, 0, melee, blade, piercing, sword, 24 ,1
@@ -636,7 +636,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 810, 0, 90, 130, 810
-ownership        gauls
+ownership        gauls, spain
 
 type             barb chieftain cavalry gaul
 dictionary       barb_chieftain_cavalry_gaul      ; Barbarian Chosen Warlord
@@ -715,32 +715,6 @@ stat_charge_dist 50
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 3000, 1250, 100, 150, 940
-ownership        spain
-
-type             barb chieftain cavalry early boii
-dictionary       barb_chieftain_cavalry_early_boii      ; Barbarian Warlord
-category         cavalry
-class            heavy
-voice_type       General_1
-soldier          barb_gaelic_chosen_cavalry, 15, 0, 1
-mount            generals horse
-mount_effect     elephant -8, camel -4
-attributes       sea_faring, general_unit, hide_forest, hardy
-formation        1.5, 4, 3, 6, 3, square
-stat_health      2, 1
-stat_pri         12, 9, no, 0, 0, melee, simple, piercing, spear, 24 ,1
-stat_pri_attr    no
-stat_sec         10, 4, no, 0, 0, melee, blade, piercing, sword, 24 ,1
-stat_sec_attr    no
-stat_pri_armour  8, 6, 4, metal
-stat_sec_armour  4, 1, flesh
-stat_heat        3
-stat_ground      0, -2, 0, 2
-stat_mental      19, impetuous, trained
-stat_charge_dist 40
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        0, 810, 0, 90, 130, 810
 ownership        spain
 
 type             barb chieftain cavalry BOII
@@ -1158,7 +1132,7 @@ stat_pri         7, 4, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    light_spear, spear_bonus_4
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  4, 2, 5, leather
+stat_pri_armour  4, 2, 7, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      2, -2, 3, 2
@@ -1503,7 +1477,7 @@ stat_cost        0, 1200, 700, 30, 40, 270
 ownership        scythia
 
 type             barb archers scythian chosen
-dictionary       barb_noble_horse_archers_scythian2      ; Scythian Noble Archers
+dictionary       barb_noble_horse_archers_scythian2      ; Scythian foot Noble Archers
 category         infantry
 class            missile
 voice_type       Medium_1
@@ -3375,7 +3349,7 @@ voice_type       Medium_1
 soldier          horse_guards, 25, 0, 1.2
 mount            Immortal cataphract
 mount_effect     elephant -6, camel -4
-attributes       sea_faring, hide_forest, can_sap, very_hardy
+attributes       sea_faring, hide_forest, can_sap, power_charge, very_hardy
 formation        1.5, 4, 3, 6, 4, square, wedge
 stat_health      1, 1
 stat_pri         11, 15, no, 0, 0, melee, blade, piercing, spear, 24 ,1
@@ -3394,7 +3368,7 @@ stat_cost        2, 4000, 1300, 90, 1200, 2430
 ownership        parthia
 
 type             parthian medium cavalry
-dictionary       parthian_medium_cavalry     ; Hyracanian Cavalry
+dictionary       parthian_medium_cavalry     ; Hyrcanian Cavalry
 category         cavalry
 class            heavy
 voice_type       Medium_1
@@ -3659,7 +3633,7 @@ officer          east_officer_swrodsman
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1.2, 1.2, 2, 2, 5, square
 stat_health      1, 1
-stat_pri         10, 5, arrow, 170, 35, missile, archery, piercing, none, 24 ,1
+stat_pri         10, 5, arrow, 170, 40, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
 stat_sec         7, 5, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -3705,7 +3679,7 @@ dictionary       sabaean_heavy_cavalry      ; sabaean heavy cavalry
 category         cavalry
 class            heavy
 voice_type       Heavy_1
-soldier          sabaean_heavy_cavalry, 27, 0, 1.2
+soldier          sabaean_heavy_cavalry, 30, 0, 1.2
 mount            horse half_armoured
 mount_effect     elephant -6, camel -4
 attributes       sea_faring, hide_forest, hardy
@@ -3833,12 +3807,12 @@ stat_cost        1, 2600, 1050, 70, 110, 890
 ownership        armenia
 
 type             heavy lancer
-dictionary       heavy_lancer      ; Armenian Heavy Lancers
+dictionary       heavy_lancer      ; Armenian Azats
 category         cavalry
 class            heavy
 voice_type       Heavy_1
 soldier          sugdian_cavalry, 30, 0, 1.2
-mount            heavy horse
+mount            horse half_armoured
 mount_effect     elephant -4, camel -2
 attributes       sea_faring, hide_forest, very_hardy, mercenary_unit
 formation        1.2, 4, 2.4, 6, 4, square, wedge
@@ -3848,7 +3822,7 @@ stat_pri_attr    no
 stat_sec         8, 4, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  10, 5, 4, metal
-stat_sec_armour  1, 1, flesh
+stat_sec_armour  3, 2, flesh
 stat_heat        3
 stat_ground      1, 0, 0, -1
 stat_mental      18, disciplined, highly_trained
@@ -3866,7 +3840,7 @@ voice_type       Heavy_1
 soldier          east_heavy_cataphract, 30, 0, 1.5
 mount            horse cataphract
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, hardy
+attributes       sea_faring, hide_forest, very_hardy
 formation        1.2, 4, 2.4, 6, 3, square, wedge
 stat_health      1, 1
 stat_pri         8, 15, no, 0, 0, melee, blade, piercing, spear, 24 ,1
@@ -4426,84 +4400,6 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 1400, 550, 50, 70, 520
-ownership        egypt
-
-type             egyptian elephant small
-dictionary       egyptian_elephant_small      ; Elephants
-category         cavalry
-class            heavy
-voice_type       Light_1
-soldier          egyptian_archer, 6, 6, 1
-mount            elephant forest
-mount_effect     horse +4, chariot +8, camel +4
-attributes       sea_faring, can_run_amok, frighten_foot, frighten_mounted
-formation        7, 9, 13,13, 1, square
-stat_health      1, 7
-stat_pri         0, 0, no, 0, 0, no, no, no, none, 24 ,1
-stat_pri_attr    no
-stat_sec         7, 10, no, 0, 0, melee, other, blunt, none, 24 ,2
-stat_sec_attr    area, ap, launching
-stat_pri_armour  0, 3, 0, flesh
-stat_sec_armour  10, 2, flesh
-stat_heat        -1
-stat_ground      0, 1, 0, -2
-stat_mental      11, normal, trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 3000, 1400, 140, 200, 1320
-ownership        egypt
-
-type             egyptian elephant african
-dictionary       egyptian_elephant_african      ; War Elephants
-category         cavalry
-class            heavy
-voice_type       Medium_1
-soldier          egyptian_elephant_archer, 18, 6, 1
-mount            elephant african
-mount_effect     horse +4, chariot +8, camel +4
-attributes       sea_faring, can_run_amok, hardy, frighten_foot, frighten_mounted
-formation        7, 11, 13,16, 1, square
-stat_health      1, 7
-stat_pri         7, 3, arrow, 120, 60, missile, archery, piercing, none, 24 ,1
-stat_pri_attr    no
-stat_sec         8, 20, no, 0, 0, melee, other, blunt, none, 24 ,2
-stat_sec_attr    area, launching, ap
-stat_pri_armour  0, 4, 0, flesh
-stat_sec_armour  13, 3, flesh
-stat_heat        -1
-stat_ground      0, 1, 0, -2
-stat_mental      13, normal, trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 5700, 1800, 270, 410, 2690
-ownership        egypt
-  
-type             egyptian elephant cataphract
-dictionary       egyptian_elephant_armoured      ; Armoured Elephants
-category         cavalry
-class            heavy
-voice_type       Heavy_1
-soldier          egyptian_elephant_archer, 18, 6, 1
-mount            elephant african cataphract
-mount_effect     horse +4, chariot +8, camel +4
-attributes       sea_faring, can_run_amok, hardy, frighten_foot, frighten_mounted
-formation        7, 11, 13,16, 1, square
-stat_health      1, 7
-stat_pri         7, 3, arrow, 120, 60, missile, archery, piercing, none, 24 ,1
-stat_pri_attr    no
-stat_sec         10, 25, no, 0, 0, melee, other, blunt, none, 24 ,2
-stat_sec_attr    area, launching, ap
-stat_pri_armour  0, 4, 0, flesh
-stat_sec_armour  16, 3, flesh
-stat_heat        -1
-stat_ground      0, 1, 0, -2
-stat_mental      14, normal, trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 7500, 2200, 300, 450, 2970
 ownership        egypt
 
 ;;;;;;greeks;;;;;;
@@ -5510,12 +5406,12 @@ stat_pri_armour  5, 5, 4, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        1
 stat_ground      2, 0, 2, 0
-stat_mental      11, normal, trained
+stat_mental      16, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 2400, 1150, 50, 50, 490
-ownership        romans_julii, britons
+ownership        romans_julii
 
 type             bosphorian cavalry
 dictionary       bosphorian_cavalry      ; bosphorian cavalry
@@ -5877,7 +5773,7 @@ stat_cost        0, 2500, 1000, 70, 100, 840
 ownership        thrace
 
 type             defence kings
-dictionary       defence_kings      ; Thracian swordsman
+dictionary       defence_kings      ; Thracian Heavy Machairophroi
 category         infantry
 class            heavy
 voice_type       Heavy_1
@@ -6081,7 +5977,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 2400, 1020, 50, 50, 490
-ownership        macedon, seleucid, egypt
+ownership        macedon, seleucid, egypt, britons
 
 type             greek levy pikemen
 dictionary       greek_levy_pikemen      ; Levy Pikemen
@@ -6491,8 +6387,8 @@ stat_health      1, 1
 stat_pri         8, 15, no, 0, 0, melee, blade, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         8, 6, no, 0, 0, melee, simple, piercing, sword, 24 ,1
-stat_sec_attr    ap
-stat_pri_armour  18, 5, 2, metal
+stat_sec_attr    no
+stat_pri_armour  18, 5, 0, metal
 stat_sec_armour  10, 1, flesh
 stat_heat        2
 stat_ground      1, 0, 0, -1
@@ -6553,7 +6449,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 3000, 1400, 140, 200, 1320
-ownership        seleucid
+ownership        seleucid, egypt
 
 type             greek elephant african
 dictionary       greek_elephant_african      ; War Elephants
@@ -6579,7 +6475,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 5700, 1800, 270, 410, 2690
-ownership        seleucid
+ownership        seleucid, egypt
   
 type             greek elephant cataphract
 dictionary       greek_elephant_armoured      ; Armoured Elephants
@@ -6605,7 +6501,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 7500, 2200, 300, 450, 2970
-ownership        seleucid
+ownership        seleucid, egypt
  
 type             greek ballista
 dictionary       greek_ballistas      ; Ballistas

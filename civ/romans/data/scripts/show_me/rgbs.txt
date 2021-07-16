@@ -37,6 +37,7 @@ end_monitor
 
     ;12 ;peace with the dead;
     ;13 ;diplomatic stance;
+    	;diplomatic stance egypt;
     ;1 war with Carthage;
        ;Second Punic War;
     ;2 war with Macedon;
@@ -17041,7 +17042,7 @@ set_counter CeasarsLegions 1
 end_if
 end_monitor
 
-monitor_event SettlementTurnStart SettlementName Avaricum
+monitor_event SettlementTurnEnd SettlementName Avaricum
 and SettlementBuildingExists = monument_victory_minor
 set_counter CeasarsLegions 1
 terminate_monitor
@@ -17267,7 +17268,7 @@ and I_SettlementOwner Cyrene = romans_scipii
 and I_SettlementOwner Thebes = romans_scipii
 and I_SettlementOwner Siwa = romans_scipii
 and I_SettlementOwner Paraetonium = romans_scipii
-and I_SettlementOwner Petra = romans_scipii
+;and I_SettlementOwner Petra = romans_scipii
 and I_SettlementOwner Tyre = romans_scipii
 and I_SettlementOwner Jerusalem = romans_scipii
 and I_SettlementOwner Syracuse = romans_scipii
@@ -17596,12 +17597,16 @@ console_command add_population Palmyra 4000
 console_command add_population Palmyra 4000
 console_command add_population Apamea 4000
 console_command add_population Apamea 4000
+console_command add_population Amida 4000
+console_command add_population Amida 4000
 console_command add_population Apameia 4000
 console_command add_population Apameia 4000
 console_command add_population Ancyra 4000
 console_command add_population Ancyra 4000
 console_command add_population Tabae 4000
 console_command add_population Tabae 4000
+console_command add_population Harmozia 4000
+console_command add_population Harmozia 4000
 console_command add_population Thospia 4000
 console_command add_population Thospia 4000
 console_command add_population Teutoburgum 4000
@@ -18184,6 +18189,12 @@ and I_NumberOfSettlements parthia > 0
 and I_NumberOfSettlements armenia > 0
 console_command diplomatic_stance parthia armenia War
 end_if
+if I_SettlementOwner Susa = pontus
+and I_NumberOfSettlements parthia > 0
+and I_NumberOfSettlements pontus > 0
+console_command diplomatic_stance parthia pontus War
+console_command add_money parthia, 25000
+end_if
 if I_SettlementOwner Kotais = scythia
 if I_NumberOfSettlements armenia > 0
     console_command diplomatic_stance armenia scythia War
@@ -18296,6 +18307,65 @@ end_if
 	console_command add_population Rugium 4000
 	console_command add_population Rugium 4000
 	console_command add_population Rugium 4000
+    console_command add_money germans, 25000
+    spawn_army
+	faction germans
+    	character Adalmun, general, age 29, x 94, y 188
+		unit barb chieftain cavalry german, exp 3 armour 1 weapon_lvl 1
+		unit barb peltast german, exp 2 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 2 armour 2 weapon_lvl 2
+		unit warband spear german, exp 2 armour 2 weapon_lvl 2
+		unit warband spear german, exp 2 armour 2 weapon_lvl 2
+		unit warband spear german, exp 2 armour 2 weapon_lvl 2
+		unit warband spear german, exp 2 armour 2 weapon_lvl 2
+		unit barb night raiders german, exp 1 armour 2 weapon_lvl 2
+		unit german warriors, exp 2 armour 2 weapon_lvl 2
+		unit german warriors, exp 2 armour 2 weapon_lvl 2
+		unit heavy warband, exp 2 armour 2 weapon_lvl 2
+		unit warband axe german, exp 2 armour 2 weapon_lvl 2
+		unit warband axe german, exp 2 armour 2 weapon_lvl 2
+		unit warband axe german, exp 2 armour 2 weapon_lvl 2
+		unit german heavy infantry, exp 1 armour 2 weapon_lvl 2
+		unit german heavy infantry, exp 1 armour 2 weapon_lvl 2
+		unit german bodyguard, exp 1 armour 2 weapon_lvl 2
+		unit german bodyguard, exp 1 armour 2 weapon_lvl 2
+		unit barb noble cavalry german, exp 2 armour 2 weapon_lvl 2
+		unit barb cavalry gaul, exp 2 armour 2 weapon_lvl 2
+end
+	end_if
+	if I_SettlementOwner Rugium = scythia
+	console_command diplomatic_stance germans scythia War
+    console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
+	console_command add_population Rugium 4000
+    console_command add_money germans, 25000
+    spawn_army
+	faction germans
+    	character Adalmun, general, age 29, x 94, y 188
+		unit barb chieftain cavalry german, exp 3 armour 1 weapon_lvl 1
+		unit barb peltast german, exp 2 armour 2 weapon_lvl 2
+		unit barb peltast german, exp 2 armour 2 weapon_lvl 2
+		unit warband spear german, exp 2 armour 2 weapon_lvl 2
+		unit warband spear german, exp 2 armour 2 weapon_lvl 2
+		unit warband spear german, exp 2 armour 2 weapon_lvl 2
+		unit warband spear german, exp 2 armour 2 weapon_lvl 2
+		unit barb night raiders german, exp 1 armour 2 weapon_lvl 2
+		unit german warriors, exp 2 armour 2 weapon_lvl 2
+		unit german warriors, exp 2 armour 2 weapon_lvl 2
+		unit heavy warband, exp 2 armour 2 weapon_lvl 2
+		unit warband axe german, exp 2 armour 2 weapon_lvl 2
+		unit warband axe german, exp 2 armour 2 weapon_lvl 2
+		unit warband axe german, exp 2 armour 2 weapon_lvl 2
+		unit german heavy infantry, exp 1 armour 2 weapon_lvl 2
+		unit german heavy infantry, exp 1 armour 2 weapon_lvl 2
+		unit german bodyguard, exp 1 armour 2 weapon_lvl 2
+		unit german bodyguard, exp 1 armour 2 weapon_lvl 2
+		unit barb noble cavalry german, exp 2 armour 2 weapon_lvl 2
+		unit barb cavalry gaul, exp 2 armour 2 weapon_lvl 2
+end
 	end_if
 end_if
 ;---------------------------------------------------------
@@ -18316,7 +18386,7 @@ console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
-console_command add_money scythia 15000
+console_command add_money scythia, 15000
 end_if
 if I_SettlementOwner Campus_Iazyges = spain
 console_command diplomatic_stance scythia spain War
@@ -18324,11 +18394,11 @@ console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
-console_command add_money scythia 15000
+console_command add_money scythia, 15000
 end_if
 if I_SettlementOwner Campus_Iazyges = thrace
 console_command diplomatic_stance scythia thrace War
-console_command add_money scythia 15000
+console_command add_money scythia, 15000
 end_if
 if I_SettlementOwner Vicus_Tissagetae = germans
 console_command diplomatic_stance scythia germans War
@@ -18343,7 +18413,7 @@ console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
 console_command add_population Campus_Roxolani 4000
-console_command add_money scythia 15000
+console_command add_money scythia, 15000
 end_if
 if I_SettlementOwner Campus_Iazyges = germans
 console_command diplomatic_stance scythia germans War
@@ -18351,7 +18421,7 @@ console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
 console_command add_population Campus_Iazyges 4000
-console_command add_money scythia 15000
+console_command add_money scythia, 15000
 end_if
 end_if
 
@@ -19107,7 +19177,7 @@ if I_SettlementOwner Segestica != macedon
     and I_CompareCounter conquering_greece = 0
 	console_command diplomatic_stance macedon romans_scipii neutral
     console_command add_money macedon, -40000
-	console_command add_money macedon, -40000
+	console_command add_money macedon, -20000
 	if I_NumberOfSettlements greek_cities > 0
     console_command diplomatic_stance greek_cities macedon War
     end_if
@@ -19127,13 +19197,14 @@ end_if
 end_monitor
 
 monitor_event FactionTurnEnd FactionType romans_scipii
-and I_CompareCounter MarianLegions = 0
 and DiplomaticStanceFromFaction thrace = AtWar
+if I_CompareCounter MarianLegions = 0
     and I_SettlementOwner Segestica != thrace
 	and I_SettlementOwner Scodra != thrace
     and I_SettlementOwner Aquincum != thrace
 	console_command diplomatic_stance thrace romans_scipii neutral
 	console_command diplomatic_stance romans_scipii thrace neutral
+end_if
 end_monitor
 monitor_event FactionTurnEnd FactionType romans_scipii
 and I_CompareCounter CeasarsLegions = 0
@@ -19240,6 +19311,7 @@ monitor_event FactionTurnEnd FactionType romans_scipii
 and DiplomaticStanceFromFaction dacia = AtWar 
 if I_CompareCounter Augustlegions = 0
     and I_CompareCounter MarianLegions = 0
+    and I_NumberOfSettlements dacia > 0
     and I_SettlementOwner Segestica != dacia
 	and I_SettlementOwner Scodra != dacia
     and I_SettlementOwner Aquincum != dacia
@@ -19247,7 +19319,10 @@ if I_CompareCounter Augustlegions = 0
 	console_command diplomatic_stance romans_scipii dacia neutral
     console_command diplomatic_stance dacia romans_scipii neutral
 end_if
-	if I_CompareCounter Augustlegions = 0
+end_monitor
+monitor_event FactionTurnEnd FactionType romans_scipii
+and DiplomaticStanceFromFaction dacia = AtWar 	
+    if I_CompareCounter Augustlegions = 0
     and I_CompareCounter MarianLegions = 1
     and I_NumberOfSettlements dacia > 0
     and I_SettlementOwner Segestica != dacia
@@ -19298,7 +19373,9 @@ if I_CompareCounter Augustlegions = 0
     console_command diplomatic_stance macedon dacia War
 	end_if
 end_if
-
+end_monitor
+monitor_event FactionTurnEnd FactionType dacia
+and DiplomaticStanceFromFaction romans_scipii = AtWar
 	if I_CompareCounter Augustlegions = 0
     and I_CompareCounter MarianLegions = 1
     and I_NumberOfSettlements dacia > 0
@@ -19493,7 +19570,7 @@ if I_CompareCounter gallic_war = 0
     console_command add_money germans, -20000
 end_if
 end_monitor
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;diplomatic stance egypt;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 monitor_event FactionTurnEnd FactionType romans_scipii
 and I_CompareCounter CeasarsLegions = 0
 and DiplomaticStanceFromFaction egypt = AtWar
@@ -19575,6 +19652,7 @@ end_monitor
 
 monitor_event FactionTurnStart FactionType romans_scipii
 and FactionIsLocal 
+and I_TurnNumber < 10
 and I_CompareCounter ScipioLegions = 0
 if I_CompareCounter Sicily_conquering = 1
 and I_SettlementOwner Messana = romans_scipii
@@ -22678,8 +22756,8 @@ spawn_army
 		unit gaul chief, exp 3 armour 2 weapon_lvl 1
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
 		unit barb heavy cavalry, exp 3 armour 2 weapon_lvl 1
 		unit barb noble cavalry gaul, exp 3 armour 2 weapon_lvl 1
 end
@@ -22703,8 +22781,8 @@ spawn_army
 		unit gaul chief, exp 3 armour 2 weapon_lvl 1
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
 		unit barb heavy cavalry, exp 3 armour 2 weapon_lvl 1
 		unit barb noble cavalry gaul, exp 3 armour 2 weapon_lvl 1
 end
@@ -22727,8 +22805,8 @@ spawn_army
 		unit gaul chief, exp 3 armour 2 weapon_lvl 1
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
 		unit barb heavy cavalry, exp 3 armour 2 weapon_lvl 1
 		unit barb noble cavalry gaul, exp 3 armour 2 weapon_lvl 1
 end
@@ -22751,8 +22829,8 @@ spawn_army
 		unit gaul chief, exp 3 armour 2 weapon_lvl 1
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
 		unit barb heavy cavalry, exp 3 armour 2 weapon_lvl 1
 		unit barb noble cavalry gaul, exp 3 armour 2 weapon_lvl 1
 end
@@ -22775,8 +22853,8 @@ spawn_army
 		unit gaul chief, exp 3 armour 2 weapon_lvl 1
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
 		unit barb warguard gaul, exp 3 armour 2 weapon_lvl 2
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
-		unit gaul bogaty, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
+		unit chief troop, exp 2 armour 2 weapon_lvl 1
 		unit barb heavy cavalry, exp 3 armour 2 weapon_lvl 1
 		unit barb noble cavalry gaul, exp 3 armour 2 weapon_lvl 1
 end

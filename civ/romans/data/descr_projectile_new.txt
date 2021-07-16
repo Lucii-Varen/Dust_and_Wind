@@ -57,7 +57,7 @@ radius			0.3
 mass			2.1
 area			2.0
 accuracy_vs_units		0.04
-accuracy_vs_buildings	0.0625
+accuracy_vs_buildings	0.04
 min_angle		5
 max_angle		70
 velocity		61
@@ -82,9 +82,9 @@ radius			0.3
 mass			2.1
 area			2.5
 accuracy_vs_units		0.1
-accuracy_vs_buildings	0.125
+accuracy_vs_buildings	0.11
 fiery					; uncomment this to make all boulders fiery
-min_angle		5
+min_angle		-10
 max_angle		70
 velocity		61
 ground_shatter
@@ -133,9 +133,9 @@ radius			0.30
 mass			2.1
 area			3.0
 accuracy_vs_units		0.09
-accuracy_vs_buildings	0.125
+accuracy_vs_buildings	0.1
 fiery					; uncomment this to make all boulders fiery
-min_angle		5
+min_angle		-10
 max_angle		70
 velocity		61
 ground_shatter

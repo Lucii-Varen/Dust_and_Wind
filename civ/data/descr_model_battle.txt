@@ -2723,19 +2723,6 @@ model_sprite		slave, 60.0, data/sprites/slave_egyptian_archer_sprite.spr
 model_sprite		egypt, 60.0, data/sprites/egypt_egyptian_archer_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
-type				egyptian_elephant_archer
-skeleton			fs_big_elephant_rider
-indiv_range			40
-texture				egypt, civ/data/new/models_units/textures/unit_egyptian_archer.tga
-texture				slave, civ/data/new/models_units/textures/unit_egyptian_archer.tga
-model_flexi			civ/data/new/models_units/unit_egyptian_archer.cas, 15
-model_flexi			civ/data/new/models_units/unit_egyptian_archer.cas, 30
-model_flexi			civ/data/new/models_units/unit_egyptian_archer.cas, 40
-model_flexi			civ/data/new/models_units/unit_egyptian_archer.cas, max
-model_sprite		slave, 60.0, data/sprites/slave_egyptian_archer_sprite.spr
-model_sprite		egypt, 60.0, data/sprites/egypt_egyptian_archer_sprite.spr
-model_tri			400, 0.5f, 0.5f, 0.5f
-
 type				egyptian_camel_archer
 skeleton			fs_hc_archer, fs_hc_swordsman1
 indiv_range			40
@@ -2880,25 +2867,27 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_elephant_archer
 skeleton			fs_forest_elephant_rider
 indiv_range			40
-texture				seleucid, data/models_unit/textures/unit_greek_archer_seleucid.tga
-texture				merc, data/models_unit/textures/unit_greek_archer_mercs.tga
-model_flexi			data/models_unit/unit_greek_archer_high.cas, 15
-model_flexi			data/models_unit/unit_greek_archer_med.cas, 30
-model_flexi			data/models_unit/unit_greek_archer_low.cas, 40
-model_flexi			data/models_unit/unit_greek_archer_lowest.cas, max
-model_sprite		seleucid, 60.0, data/sprites/seleucid_greek_elephant_archer_sprite.spr
+texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_MACEDON.tga
+texture				egypt, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_EGYPT.tga
+texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_SELEUCID.tga
+texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_BAKTRIAN.tga
+model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, 15
+model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, 30
+model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, 40
+model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_big_elephant_archer
 skeleton			fs_big_elephant_rider
 indiv_range			40
-texture				seleucid, data/models_unit/textures/unit_greek_archer_seleucid.tga
-texture				merc, data/models_unit/textures/unit_greek_archer_mercs.tga
-model_flexi			data/models_unit/unit_greek_archer_high.cas, 15
-model_flexi			data/models_unit/unit_greek_archer_med.cas, 30
-model_flexi			data/models_unit/unit_greek_archer_low.cas, 40
-model_flexi			data/models_unit/unit_greek_archer_lowest.cas, max
-model_sprite		seleucid, 60.0, data/sprites/seleucid_greek_big_elephant_archer_sprite.spr
+texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_MACEDON.tga
+texture				egypt, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_EGYPT.tga
+texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_SELEUCID.tga
+texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_BAKTRIAN.tga
+model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, 15
+model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, 30
+model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, 40
+model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_crew
@@ -4848,6 +4837,7 @@ indiv_range			40
 texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_MACEDON.tga
 texture				egypt, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_EGYPT.tga
 texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_SELEUCID.tga
+texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_BAKTRIAN.tga
 model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, 15
 model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, 30
 model_flexi			civ/data/new/models_units/unit_greek_archer_ELITE.cas, 40

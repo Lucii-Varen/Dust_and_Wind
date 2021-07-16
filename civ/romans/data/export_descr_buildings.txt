@@ -2016,7 +2016,7 @@ building equestrian
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 ;;;;;;;;;;;;;;;;;;NOBLES;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "barb noble cavalry german"  0  requires factions { germans, }  and building_factions { slave, }
-                recruit "barb noble cavalry german"  0  requires factions { germans, }  and not building_factions { slave, } and building_present_min_level equestrian hippodrome
+                recruit "barb noble cavalry german"  0  requires factions { germans, }  and not building_factions { slave, } and building_present_min_level barb_nobles warrior_nobles
                 recruit "gaul heavy cavlry"  0  requires factions { gauls, } and building_factions { slave, }
                 recruit "gaul heavy cavlry"  0  requires factions { gauls, } and not building_factions { slave, } and building_present_min_level barb_nobles warrior_nobles
                 recruit "boii noble cavalry"  0  requires factions { spain, } and building_factions { slave, }
@@ -2059,6 +2059,8 @@ building equestrian
                 recruit "east scythed chariot"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east horse archer"  0  requires factions { armenia, parthia, } and building_factions { slave, }
                 recruit "east horse archer"  0  requires factions { armenia, parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "heavy lancer"  0  requires factions { armenia, } and building_factions { slave, }
+                recruit "heavy lancer"  0  requires factions { armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east parthian cavalry"  0  requires factions { parthia, romans_brutii, } and building_factions { slave, }
                 recruit "east parthian cavalry"  0  requires factions { parthia, romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east persian cavalry"  0  requires factions { parthia, } and building_factions { slave, }
@@ -2236,7 +2238,7 @@ building equestrian
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 ;;;;;;;;;;;;;;;;;;NOBLES;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "barb noble cavalry german"  0  requires factions { germans, }  and building_factions { slave, }
-                recruit "barb noble cavalry german"  0  requires factions { germans, }  and not building_factions { slave, } and building_present_min_level equestrian hippodrome
+                recruit "barb noble cavalry german"  0  requires factions { germans, }  and not building_factions { slave, } and building_present_min_level barb_nobles warrior_nobles
                 recruit "gaul heavy cavlry"  0  requires factions { gauls, } and building_factions { slave, } and building_present_min_level barb_nobles warrior_nobles
                 recruit "gaul heavy cavlry"  0  requires factions { gauls, } and not building_factions { slave, } and building_present_min_level barb_nobles warrior_nobles
                 recruit "boii noble cavalry"  0  requires factions { spain, } and building_factions { slave, }
@@ -2284,6 +2286,8 @@ building equestrian
                 recruit "east scythed chariot"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east horse archer"  0  requires factions { armenia, parthia, } and building_factions { slave, }
                 recruit "east horse archer"  0  requires factions { armenia, parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "heavy lancer"  0  requires factions { armenia, } and building_factions { slave, }
+                recruit "heavy lancer"  0  requires factions { armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east camel cataphract"  0  requires factions { parthia, }  and resource camels and building_factions { slave, }
                 recruit "east camel cataphract"  0  requires factions { parthia, }  and resource camels and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east parthian cavalry"  0  requires factions { parthia, romans_brutii, } and building_factions { slave, }
