@@ -402,6 +402,7 @@ model_sprite		macedon, 100.0, civ/data/sprites/macedon_horse_half_armoured_sprit
 model_sprite		egypt, 100.0, civ/data/sprites/egypt_horse_half_armoured_sprite.spr
 model_sprite		greek_cities, 100.0, civ/data/sprites/greek_cities_horse_half_armoured_sprite.spr
 model_sprite		scythia, 100.0, civ/data/sprites/scythia_horse_half_armoured_sprite.spr
+model_sprite		merc, 100.0, civ/data/sprites/scythia_horse_half_armoured_sprite.spr
 model_sprite		seleucid, 100.0, civ/data/sprites/seleucid_horse_half_armoured_sprite.spr
 model_sprite		pontus, 100.0, civ/data/sprites/scythia_horse_half_armoured_sprite.spr
 model_sprite		armenia, 100.0, civ/data/sprites/scythia_horse_half_armoured_sprite.spr
@@ -539,7 +540,7 @@ indiv_range			40
 texture				romans_julii, civ/data/new/models_units/textures/HORSE_CATAPHRACTS_CIMMERIAN.TGA
 texture				romans_brutii, civ/data/new/models_units/textures/HORSE_CATAPHRACT.TGA
 texture				romans_scipii, civ/data/new/models_units/textures/HORSE_CATAPHRACT_ROMAN.TGA
-texture				roman_rebels, civ/data/new/models_units/textures/HORSE_CATAPHRACT_ROMAN.TGA
+texture				roman_rebels, civ/data/new/models_units/textures/HORSE_CATAPHRACT.TGA
 texture				carthage, civ/data/new/models_units/textures/HORSE_CATAPHRACT.TGA
 texture				spain, civ/data/new/models_units/textures/HORSE_CATAPHRACT.TGA
 texture				gauls, civ/data/new/models_units/textures/HORSE_CATAPHRACT.TGA
@@ -560,26 +561,26 @@ model_flexi_m			civ/data/new/models_units/mount_horse_cataphract2.CAS, 25
 model_flexi			civ/data/new/models_units/mount_horse_cataphract2.CAS, 55
 model_flexi			civ/data/new/models_units/mount_horse_cataphract2.CAS, 80
 model_flexi			civ/data/new/models_units/mount_horse_cataphract2.CAS, max
-model_sprite		scythia, 100.0, data/sprites/scythia_horse_cataphract_sprite.spr
-model_sprite		britons, 100.0, data/sprites/scythia_horse_cataphract_sprite.spr
-model_sprite		armenia, 100.0, data/sprites/armenia_horse_cataphract_sprite.spr
-model_sprite		pontus, 100.0, data/sprites/pontus_horse_cataphract_sprite.spr
-model_sprite		parthia, 100.0, data/sprites/parthia_horse_cataphract_sprite.spr
-model_sprite		carthage, 100.0, data/sprites/parthia_horse_cataphract_sprite.spr
-model_sprite		egypt, 100.0, data/sprites/parthia_horse_cataphract_sprite.spr
-model_sprite		thrace, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		macedon, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		numidia, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		greek_cities, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		seleucid, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		dacia, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		germans, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		gauls, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		spain, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		romans_julii, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		romans_brutii, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		romans_scipii, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
-model_sprite		roman_rebels, 100.0, civ/data/sprites/greek_cities_horse_cataphract_sprite.spr
+model_sprite		scythia, 100.0, civ/data/sprites/scythia_horse_cataphract_sprite.spr
+model_sprite		britons, 100.0, civ/data/sprites/britons_horse_cataphract_sprite.spr
+model_sprite		armenia, 100.0, civ/data/sprites/armenia_horse_cataphract_sprite.spr
+model_sprite		pontus, 100.0, civ/data/sprites/pontus_horse_cataphract_sprite.spr
+model_sprite		parthia, 100.0, civ/data/sprites/parthia_horse_cataphract_sprite.spr
+model_sprite		carthage, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		egypt, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		thrace, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		macedon, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		numidia, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		greek_cities, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		seleucid, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		dacia, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		germans, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		gauls, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		spain, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		romans_julii, 100.0, civ/data/sprites/romans_julii_horse_cataphract_sprite.spr
+model_sprite		romans_brutii, 100.0, civ/data/sprites/horse_cataphract_sprite.spr
+model_sprite		romans_scipii, 100.0, civ/data/sprites/romans_scipii_horse_cataphract_sprite.spr
+model_sprite		roman_rebels, 100.0, civ/data/sprites/roman_rebels_horse_cataphract_sprite.spr
 model_tri			700, 0.3f, 0.3f, 0.3f
 
 type				horse_cataphract_hellenic
@@ -2026,7 +2027,7 @@ model_sprite		slave, 60.0, civ/data/sprites/carthage_carthaginian_infantry_sprit
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				carthaginian_cavalry
-skeleton			fs_hc_swordsman1										; combat spear
+skeleton			fs_hc_javelinman, fs_hc_swordsman1										; combat spear
 indiv_range			40
 texture			carthage, civ/data/new/models_units/textures/UNIT_carthage_ROUNDSHIELD_CAVALRY.TGA
 texture			slave, civ/data/new/models_units/textures/UNIT_carthage_ROUNDSHIELD_CAVALRY_SLAVE.TGA
@@ -2472,6 +2473,9 @@ model_flexi			civ/data/new/models_units/unit_east_cataphract_ARCHER.cas, 15
 model_flexi			civ/data/new/models_units/unit_east_cataphract_ARCHER.cas, 30
 model_flexi			civ/data/new/models_units/unit_east_cataphract_ARCHER.cas, 40
 model_flexi			civ/data/new/models_units/unit_east_cataphract_ARCHER.cas, max
+model_sprite		armenia, 60.0, civ/data/sprites/armenia_east_cataphract_archer_sprite.spr
+model_sprite		parthia, 60.0, civ/data/sprites/parthia_east_cataphract_archer_sprite.spr
+model_sprite		britons, 60.0, civ/data/sprites/parthia_east_cataphract_archer_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				eastern_heavy_horse_archer
@@ -2480,6 +2484,7 @@ indiv_range			40
 texture				parthia, civ/data/new/models_units/textures/UNIT_EASTERN_Horse_ARCHER_PARTHIA.TGA
 texture				britons, civ/data/new/models_units/textures/UNIT_EASTERN_ARCHER_sughdian.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_EASTERN_ARCHER_BAKTRIA.TGA
+texture				armenia, civ/data/new/models_units/textures/UNIT_EASTERN_ARCHER_ARMENIA.TGA
 model_flexi			civ/data/new/models_units/unit_eastern_heavy_archer.cas, 15
 model_flexi			civ/data/new/models_units/unit_eastern_heavy_archer.cas, 30
 model_flexi			civ/data/new/models_units/unit_eastern_heavy_archer.cas, 40
@@ -4008,6 +4013,7 @@ type				sarmatian_elite_nobles
 skeleton			fs_thp_m_spearman, fs_hc_swordsman1
 indiv_range			40
 texture				scythia, civ/data/new/models_units/textures/BARB_SCYTHIAN_SARMATAN_NOBLES.TGA
+texture				merc, civ/data/new/models_units/textures/BARB_SCYTHIAN_SARMATAN_NOBLES.TGA
 model_flexi			civ/data/new/models_units/UNIT_BARB_SCYTHIAN_SARMATAN_NOBLES.cas, 8
 model_flexi			civ/data/new/models_units/UNIT_BARB_SCYTHIAN_SARMATAN_NOBLES.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_BARB_SCYTHIAN_SARMATAN_NOBLES.cas, 30
@@ -4665,6 +4671,12 @@ model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION.CAS, 8
 model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION_LOW.cas, 30
 model_flexi			civ/data/new/models_units/UNIT_GREEK_OLYMPIC_CHEMPION_LOW.cas, max
+model_sprite		greek_cities, 70.0, civ/data/sprites/greek_cities_olympic_chempions_sprite.spr
+model_sprite		macedon, 70.0, civ/data/sprites/macedon_olympic_chempions_sprite.spr
+model_sprite		seleucid, 70.0, civ/data/sprites/seleucid_olympic_chempions_sprite.spr
+model_sprite		thrace, 70.0, civ/data/sprites/thrace_olympic_chempions_sprite.spr
+model_sprite		numidia, 70.0, civ/data/sprites/numidia_olympic_chempions_sprite.spr
+model_sprite		romans_julii, 70.0, civ/data/sprites/romans_julii_olympic_chempions_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_heroes
@@ -5086,10 +5098,14 @@ skeleton			fs_javelinman, fs_swordsman								; throwing spear
 indiv_range			40
 texture				romans_brutii, civ/data/new/models_units/textures/UNIT_EAST_SABEIAN_HEAVY_INFANTRY.TGA
 texture				parthia, civ/data/new/models_units/textures/UNIT_EASTERN_INFANTRY_PARTHIA.TGA
+texture				armenia, civ/data/new/models_units/textures/UNIT_EASTERN_ARMENIAN_THUREOPHOROI.TGA
 model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY.cas, 8
 model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY.cas, 30
 model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY.cas, max
+model_sprite		armenia, 60.0, civ/data/sprites/armenia_sabeian_heavy_infantry_sprite.spr
+model_sprite		parthia, 60.0, civ/data/sprites/parthia_sabeian_heavy_infantry_sprite.spr
+model_sprite		romans_brutii, 60.0, civ/data/sprites/romans_brutii_sabeian_heavy_infantry_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				sabeian_noble_infantry
@@ -5152,11 +5168,11 @@ type				armenian_auxilia
 skeleton			fs_swordsman
 indiv_range			40
 texture				armenia, civ/data/new/models_units/textures/UNIT_EASTERN_ARMENIAN_AUXILIA.TGA
+model_flexi			civ/data/new/models_units/UNIT_EASTERN_ARMENIAN_AUXILIA.CAS, 15
 model_flexi			civ/data/new/models_units/UNIT_EASTERN_ARMENIAN_AUXILIA.CAS, 30
-model_flexi			civ/data/new/models_units/UNIT_EASTERN_ARMENIAN_AUXILIA.CAS, 60
-model_flexi			civ/data/new/models_units/UNIT_EASTERN_ARMENIAN_AUXILIA.CAS, 120
-model_flexi			civ/data/new/models_units/UNIT_EASTERN_ARMENIAN_AUXILIA.CAS, 240
+model_flexi			civ/data/new/models_units/UNIT_EASTERN_ARMENIAN_AUXILIA.CAS, 40
 model_flexi			civ/data/new/models_units/UNIT_EASTERN_ARMENIAN_AUXILIA.CAS, max
+model_sprite		armenia, 60.0, civ/data/sprites/armenia_armenian_auxilia_sprite.spr
 model_tri			700, 0.3f, 0.3f, 0.3f
 
 type				eastern_medium_infantry

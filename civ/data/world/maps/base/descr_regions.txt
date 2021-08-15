@@ -150,7 +150,7 @@ Atropatene
 	armenia				
 	Medes				
 	61 239 246						
-	tin, copper, textiles, dogs, slaves, IV_SCYTHICA, eastern	
+	tin, copper, textiles, slaves, IV_SCYTHICA, eastern	
 	5
 	8
 
@@ -255,6 +255,14 @@ Armenia_Maior
 	5
 	8
 
+Albania				
+	Cabalaca				
+	armenia				
+	Albanians				
+	251 210 147				
+	dogs, slaves, IV_SCYTHICA		
+	5
+	5
 ;;;;;;;;;;;;;Greece;;;;;;;;;;;;;;;;;;;;;
 Epirus				
 	Apollonia				

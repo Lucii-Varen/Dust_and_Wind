@@ -594,8 +594,8 @@ building barracks
                 recruit "east sabeian spearmen"  0  requires factions { romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "sabeian axemen"  0  requires factions { romans_brutii, } and building_factions { slave, }
                 recruit "sabeian axemen"  0  requires factions { romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, } and building_factions { slave, }
-                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, armenia, } and building_factions { slave, }
+                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;ROMANS;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -934,8 +934,8 @@ building barracks
                 recruit "east sabeian spearmen"  0  requires factions { romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "sabeian axemen"  0  requires factions { romans_brutii, } and building_factions { slave, }
                 recruit "sabeian axemen"  0  requires factions { romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, } and building_factions { slave, }
-                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, armenia, } and building_factions { slave, }
+                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "greek pikemen"  0  requires factions { pontus, } and building_factions { slave, }
                 recruit "greek pikemen"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "thureos spears"  0  requires factions {  pontus, } and building_factions { slave, }
@@ -1399,8 +1399,8 @@ building barracks
                 recruit "east sabeian spearmen"  0  requires factions { romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "sabeian axemen"  0  requires factions { romans_brutii, } and building_factions { slave, }
                 recruit "sabeian axemen"  0  requires factions { romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, } and building_factions { slave, }
-                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, armenia, } and building_factions { slave, }
+                recruit "parthian thureophoroi"  0  requires factions { romans_brutii, parthia, armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 ;;;;;;;;;;E l i t e s;;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "east hoplite brazen shield"  0  requires factions { pontus, } and building_factions { slave, } 
                 recruit "east hoplite brazen shield"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani pahlevani_rituals and not building_present_min_level hinterland_reform reform4
@@ -2063,8 +2063,8 @@ building equestrian
                 recruit "heavy lancer"  0  requires factions { armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east parthian cavalry"  0  requires factions { parthia, romans_brutii, } and building_factions { slave, }
                 recruit "east parthian cavalry"  0  requires factions { parthia, romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "east persian cavalry"  0  requires factions { parthia, } and building_factions { slave, }
-                recruit "east persian cavalry"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "east persian cavalry"  0  requires factions { parthia, armenia, } and building_factions { slave, }
+                recruit "east persian cavalry"  0  requires factions { parthia, armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "persian heavy riders"  0  requires factions { parthia, } and building_factions { slave, }
                 recruit "persian heavy riders"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "parthian medium cavalry"  0  requires factions { parthia, } and building_factions { slave, }
@@ -2124,7 +2124,6 @@ building equestrian
                 recruit "east parthian cavalry"  0  requires factions { britons, } and hidden_resource eastern
                 recruit "east parthian cavalry"  0  requires factions { britons, } and building_factions { slave, }
                 recruit "east parthian cavalry"  0  requires factions { britons, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
-                recruit "east persian cavalry"  0  requires factions { britons, } and hidden_resource eastern
                 recruit "east persian cavalry"  0  requires factions { britons, } and building_factions { slave, }
                 recruit "east persian cavalry"  0  requires factions { britons, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
 				;;;;;;;;;;;;E l i t e s;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2292,8 +2291,8 @@ building equestrian
                 recruit "east camel cataphract"  0  requires factions { parthia, }  and resource camels and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east parthian cavalry"  0  requires factions { parthia, romans_brutii, } and building_factions { slave, }
                 recruit "east parthian cavalry"  0  requires factions { parthia, romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "east persian cavalry"  0  requires factions { parthia, } and building_factions { slave, }
-                recruit "east persian cavalry"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "east persian cavalry"  0  requires factions { parthia, armenia, } and building_factions { slave, }
+                recruit "east persian cavalry"  0  requires factions { parthia, armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "persian heavy riders"  0  requires factions { parthia, } and building_factions { slave, }
                 recruit "persian heavy riders"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "parthian medium cavalry"  0  requires factions { parthia, } and building_factions { slave, }
@@ -2362,7 +2361,6 @@ building equestrian
                 recruit "east parthian cavalry"  0  requires factions { britons, } and hidden_resource eastern
                 recruit "east parthian cavalry"  0  requires factions { britons, } and building_factions { slave, }
                 recruit "east parthian cavalry"  0  requires factions { britons, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
-                recruit "east persian cavalry"  0  requires factions { britons, } and hidden_resource eastern
                 recruit "east persian cavalry"  0  requires factions { britons, } and building_factions { slave, }
                 recruit "east persian cavalry"  0  requires factions { britons, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
 				;;;;;;;;;;E l i t e s;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2921,7 +2919,7 @@ building market
             {
                 trade_base_income_bonus bonus 2
                 population_growth_bonus bonus 1
-                taxable_income_bonus 50 requires factions { egypt, } and resource grain
+                taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 250 requires factions { romans_brutii, } and resource incense
 		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
 		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
@@ -2933,7 +2931,8 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
 		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
-		taxable_income_bonus 50 requires factions { eastern, } and resource camels
+		taxable_income_bonus 100 requires factions { eastern, } and resource camels
+		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 1 requires factions { greek, barbarian, eastern, egypt, carthage, }
             }
             construction  2 
@@ -2956,7 +2955,7 @@ building market
                 agent spy  0  requires factions { romans_scipii, roman_rebels, } 
                 trade_base_income_bonus bonus 3
                 population_growth_bonus bonus 1
-                taxable_income_bonus 50 requires factions { egypt, } and resource grain
+                taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 220 requires factions { romans_brutii, } and resource incense
 		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
 		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
@@ -2968,7 +2967,8 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs  
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
 		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
-		taxable_income_bonus 50 requires factions { eastern, } and resource camels
+		taxable_income_bonus 100 requires factions { eastern, } and resource camels
+		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 2 requires factions { greek, barbarian, eastern, egypt, carthage, }
             }
             construction  3 
@@ -2998,7 +2998,7 @@ building market
                 agent assassin  2  requires factions { romans_scipii, roman_rebels, } 
                 trade_base_income_bonus bonus 4
                 population_growth_bonus bonus 1
-                taxable_income_bonus 50 requires factions { egypt, } and resource grain
+                taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 220 requires factions { romans_brutii, } and resource incense
 		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
 		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
@@ -3010,7 +3010,8 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
 		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
-		taxable_income_bonus 50 requires factions { eastern, } and resource camels
+		taxable_income_bonus 100 requires factions { eastern, } and resource camels
+		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 3 requires factions { greek, barbarian, eastern, egypt, carthage, }
 		
             }
@@ -3040,7 +3041,7 @@ building market
                 agent assassin  3  requires factions { romans_scipii, roman_rebels, } 
                 trade_base_income_bonus bonus 5
                 population_growth_bonus bonus 2
-                taxable_income_bonus 50 requires factions { egypt, } and resource grain
+                taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 200 requires factions { romans_brutii, } and resource incense
 		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
 		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
@@ -3052,7 +3053,8 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
 		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
-		taxable_income_bonus 50 requires factions { eastern, } and resource camels
+		taxable_income_bonus 100 requires factions { eastern, } and resource camels
+		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 4 requires factions { greek, barbarian, eastern, egypt, carthage, }
             }
             construction  6 
@@ -3082,7 +3084,7 @@ building market
                 trade_base_income_bonus bonus 6
                 happiness_bonus bonus 2
                 population_growth_bonus bonus -1 requires factions { eastern, }
-                taxable_income_bonus 50 requires factions { egypt, } and resource grain
+                taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 200 requires factions { romans_brutii, } and resource incense
 		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
 		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
@@ -3094,7 +3096,8 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
 		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
-		taxable_income_bonus 50 requires factions { eastern, } and resource camels
+		taxable_income_bonus 100 requires factions { eastern, } and resource camels
+		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 5 requires factions { greek, barbarian, eastern, egypt, carthage, }
             }
             construction  7 
@@ -3815,7 +3818,7 @@ building development_gr
             {
                 trade_base_income_bonus bonus 2 requires factions { romans_scipii, roman_rebels, greek, egypt, }
                 taxable_income_bonus 140 requires factions { romans_scipii, roman_rebels, greek, egypt, } 
-                taxable_income_bonus 50 requires factions { egypt, } and resource grain
+                taxable_income_bonus 100 requires factions { egypt, } and resource grain
 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource dogs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
@@ -3836,7 +3839,7 @@ building development_gr
             {
                 trade_base_income_bonus bonus 3 requires factions { romans_scipii, roman_rebels, greek, egypt, }
                 taxable_income_bonus 200 requires factions { romans_scipii, roman_rebels, greek, egypt, } 
-                taxable_income_bonus 50 requires factions { egypt, } and resource grain
+                taxable_income_bonus 100 requires factions { egypt, } and resource grain
 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource dogs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
@@ -3857,7 +3860,7 @@ building development_gr
             {
                 trade_base_income_bonus bonus 4 requires factions { romans_scipii, roman_rebels, greek, egypt, }
                 taxable_income_bonus 220 requires factions { romans_scipii, roman_rebels, greek, egypt, } 
-                taxable_income_bonus 50 requires factions { egypt, } and resource grain
+                taxable_income_bonus 120 requires factions { egypt, } and resource grain
 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource dogs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
@@ -4687,7 +4690,7 @@ building temple_of_battle
 }
 building temple_of_battleforge
 {
-    levels temple_of_battleforge_shrine temple_of_battleforge_temple temple_of_battleforge_large_temple temple_of_battleforge_awesome_temple 
+    levels temple_of_battleforge_shrine temple_of_battleforge_temple temple_of_battleforge_large_temple temple_of_battleforge_awesome_temple ;temple_of_battleforge_pantheon
     {
         temple_of_battleforge_shrine requires factions { spain, gauls, armenia, romans_brutii, } 
         {
@@ -4696,6 +4699,8 @@ building temple_of_battleforge
                 happiness_bonus bonus 2
                 trade_base_income_bonus bonus 1  requires factions { gauls, }
                 recruits_morale_bonus bonus 1
+		weapon_simple bonus 1
+                armour bonus 1
             }
             construction  1 
             cost  400 
@@ -4711,9 +4716,12 @@ building temple_of_battleforge
             {
                 recruit "barb naked fanatics gauls"  0  requires factions { gauls, } 
                 happiness_bonus bonus 2
-                law_bonus bonus 1 requires factions { eastern, }
+                law_bonus bonus 1 
                 trade_base_income_bonus bonus 1  requires factions { gauls, }
                 recruits_morale_bonus bonus 2
+                weapon_bladed bonus 1
+		weapon_simple bonus 1
+                armour bonus 1
             }
             construction  2 
             cost  800 
@@ -4729,9 +4737,12 @@ building temple_of_battleforge
             {
                 recruit "barb naked fanatics gauls"  1  requires factions { gauls, } 
                 happiness_bonus bonus 3
-                law_bonus bonus 2 requires factions { eastern, }
+                law_bonus bonus 2
                 trade_base_income_bonus bonus 1  requires factions { gauls, }
                 recruits_morale_bonus bonus 3
+                weapon_bladed bonus 1
+		weapon_simple bonus 1
+                armour bonus 1
             }
             construction  3 
             cost  1600 
@@ -4747,13 +4758,35 @@ building temple_of_battleforge
             {
                 recruit "barb naked fanatics gauls"  1  requires factions { gauls, } 
                 happiness_bonus bonus 4
-                law_bonus bonus 4 requires factions { eastern, }
+                law_bonus bonus 4
                 recruits_morale_bonus bonus 4
+                weapon_bladed bonus 1
+		weapon_simple bonus 1
+                armour bonus 1
             }
             construction  5 
             cost  3200 
             settlement_min large_city
             upgrades
+;            {
+;                temple_of_battleforge_pantheon
+;            }
+;        }
+;        temple_of_battleforge_pantheon requires factions { armenia, romans_brutii, } 
+;        {
+;            capability
+;            {
+;                happiness_bonus bonus 6
+;               law_bonus bonus 5
+;               recruits_morale_bonus bonus 4
+;                weapon_bladed bonus 1
+;		weapon_simple bonus 1
+;                armour bonus 1
+;            }
+;            construction  6 
+;            cost  6400 
+;            settlement_min huge_city
+;            upgrades
             {
             }
         }
@@ -4955,7 +4988,7 @@ building temple_of_forge
                 happiness_bonus bonus 1
                 law_bonus bonus 2
                 recruits_morale_bonus bonus 2
-		weapon_simple 1
+		weapon_simple bonus 1
                 armour bonus 1
             }
             construction  1 
@@ -4974,7 +5007,7 @@ building temple_of_forge
                 law_bonus bonus 3
                 recruits_morale_bonus bonus 3
                 weapon_bladed bonus 1
-		weapon_simple 1
+		weapon_simple bonus 1
                 armour bonus 1
 
             }
@@ -4994,7 +5027,7 @@ building temple_of_forge
                 law_bonus bonus 4
                 recruits_morale_bonus bonus 4
                 weapon_bladed bonus 1
-		weapon_simple 1
+		weapon_simple bonus 1
                 armour bonus 1
  
             }
@@ -5014,7 +5047,7 @@ building temple_of_forge
                 law_bonus bonus 4
                 recruits_morale_bonus bonus 4
                 weapon_bladed bonus 1
-		weapon_simple 1
+		weapon_simple bonus 1
                 armour bonus 1
             }
             construction  5 
@@ -5034,7 +5067,7 @@ building temple_of_forge
                 recruits_morale_bonus bonus 5
                 population_growth_bonus bonus -3
                 weapon_bladed bonus 1
-		weapon_simple 1
+		weapon_simple bonus 1
                 armour bonus 1
             }
             construction  6 
@@ -5118,7 +5151,7 @@ building temple_of_fun
                 temple_of_fun_pantheon
             }
         }
-        temple_of_fun_pantheon requires factions { egyptian, thrace, seleucid, romans_scipii, roman_rebels, greek, } 
+        temple_of_fun_pantheon requires factions { armenia, egyptian, thrace, seleucid, romans_scipii, roman_rebels, greek, } 
         {
             capability
             {

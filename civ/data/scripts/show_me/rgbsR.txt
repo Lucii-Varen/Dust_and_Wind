@@ -17778,16 +17778,19 @@ monitor_event FactionTurnEnd FactionIsLocal
 if I_SettlementOwner Tarsus = seleucid
 and not I_LocalFaction seleucid
 and not I_LocalFaction pontus
+and I_NumberOfSettlements pontus > 0
 console_command diplomatic_stance pontus seleucid War
 end_if
 if I_SettlementOwner Nicomedia = thrace
 and not I_LocalFaction thrace
 and not I_LocalFaction pontus
+and I_NumberOfSettlements pontus > 0
 console_command diplomatic_stance pontus thrace War
 end_if
 if I_SettlementOwner Messana = numidia
 and not I_LocalFaction carthage
 and not I_LocalFaction numidia
+and I_NumberOfSettlements carthage > 0
 console_command diplomatic_stance carthage numidia War
 end_if
 if I_SettlementOwner Nicomedia = greek_cities
@@ -17799,26 +17802,37 @@ end_if
 if I_SettlementOwner Nicomedia = macedon
 and not I_LocalFaction macedon
 and not I_LocalFaction pontus
+and I_NumberOfSettlements pontus > 0
 console_command diplomatic_stance pontus macedon War
 end_if
 if I_SettlementOwner Nicomedia = numidia
 and not I_LocalFaction numidia
 and not I_LocalFaction pontus
+and I_NumberOfSettlements pontus > 0
 console_command diplomatic_stance pontus numidia War
 end_if
 if I_SettlementOwner Nicomedia = seleucid
 and not I_LocalFaction seleucid
 and not I_LocalFaction pontus
+and I_NumberOfSettlements pontus > 0
 console_command diplomatic_stance pontus seleucid War
 end_if
 if I_SettlementOwner Nicomedia = dacia
 and not I_LocalFaction dacia
 and not I_LocalFaction pontus
+and I_NumberOfSettlements pontus > 0
 console_command diplomatic_stance pontus dacia War
 end_if
 if I_SettlementOwner Seleucia = seleucid
 and not I_LocalFaction armenia
 and not I_LocalFaction seleucid
+and I_NumberOfSettlements armenia > 0
+console_command diplomatic_stance armenia seleucid War
+end_if
+if I_SettlementOwner Cabalca = seleucid
+and not I_LocalFaction armenia
+and not I_LocalFaction seleucid
+and I_NumberOfSettlements armenia > 0
 console_command diplomatic_stance armenia seleucid War
 end_if
 if I_SettlementOwner Seleucia = seleucid

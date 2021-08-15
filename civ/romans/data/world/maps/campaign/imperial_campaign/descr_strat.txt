@@ -225,7 +225,6 @@ resource	dogs,	6,	116
 resource	dogs,	30,	108
 resource	dogs,	41,	116
 resource	dogs,	77,	123
-resource	dogs,	250,	149
 resource	dogs,	280,	178
 resource	dogs,	318,	71
 ;;;;;;Charax;;;;;;;
@@ -829,6 +828,7 @@ resource	textiles,	337,	150
 resource	textiles,	311,	176
 resource	textiles,	287,	158
 resource	textiles,	244,	141     ;Atropatene
+resource	dogs,	250,	149
 resource	textiles,	366,	149
 resource	textiles,	316,	130     ;Aria
 resource	textiles,	306,	93     ;Carmania
@@ -5209,7 +5209,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -5217,7 +5217,11 @@ settlement
 	}
 	building
 	{
-		type market trader
+		type market market
+	}
+	building
+	{
+		type smith blacksmith
 	}
 	building
 	{
@@ -5231,7 +5235,7 @@ settlement
 	region Armenia
 
 	year_founded 0
-	population 1400
+	population 2400
 	plan_set default_set
 	faction_creator armenia
 	building
@@ -5241,6 +5245,14 @@ settlement
 	building
 	{
 		type pahlevani satrapy
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
 	}
 	building
 	{
@@ -6111,7 +6123,7 @@ character	Vellocatus, named character, leader, age 60, , x 111, y 169
 traits GoodCommander 1 , Energetic 1 , Intelligent 1 , Drink 1
 ancillaries bard
 army
-unit		barb chieftain cavalry early boii				exp 1 armour 0 weapon_lvl 0
+unit		barb chieftain cavalry BOII				exp 1 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
@@ -6123,7 +6135,7 @@ character	Cerethreus, named character, heir, age 36, , x 112, y 169
 traits GoodCommander 3 , Energetic 1 , Intelligent 2 , Drink 1
 ancillaries bodyguard
 army
-unit		barb chieftain cavalry early boii				exp 1 armour 0 weapon_lvl 0
+unit		barb chieftain cavalry BOII				exp 1 armour 0 weapon_lvl 0
 unit		gaul heavy infantry				exp 0 armour 0 weapon_lvl 0
 unit		gaul heavy infantry				exp 0 armour 0 weapon_lvl 0
 unit		gaul heavy infantry				exp 0 armour 0 weapon_lvl 0
@@ -6136,7 +6148,7 @@ character	Eporedorix, named character, age 30, , x 99, y 160
 traits Intelligent 2
 ancillaries civilized_slave, beastmaster
 army
-unit		barb chieftain cavalry early boii				exp 1 armour 0 weapon_lvl 0
+unit		barb chieftain cavalry BOII				exp 1 armour 0 weapon_lvl 0
 unit		warband huntsman gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb warguard gaul				exp 0 armour 0 weapon_lvl 0
 unit		gaul heavy infantry				exp 0 armour 0 weapon_lvl 0
@@ -6153,7 +6165,7 @@ character	Lucco, named character, age 25, , x 111, y 168
 traits NaturalMilitarySkill 1 , Energetic 1 , Drink 1 , Bloodthirsty 1
 ancillaries armourer
 army
-unit		barb chieftain cavalry early boii				exp 1 armour 0 weapon_lvl 0
+unit		barb chieftain cavalry BOII				exp 1 armour 0 weapon_lvl 0
 unit		barb warguard gaul				exp 0 armour 0 weapon_lvl 0
 unit		gaul heavy infantry				exp 0 armour 0 weapon_lvl 0
 unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
@@ -7105,6 +7117,29 @@ settlement
 {
 	level town
 	region Atropatene
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type pahlevani satrapy
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+}
+
+settlement
+{
+	level town
+	region Albania	;Cabalaca
 
 	year_founded 0
 	population 1500
@@ -8718,6 +8753,16 @@ unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
 unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
 unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
 unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
+unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
+unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
+unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
+unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
+unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
+unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
+unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
+unit		carthaginian cavalry				exp 3 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 3 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 3 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 3 armour 0 weapon_lvl 0
 
@@ -8809,17 +8854,43 @@ unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
 unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
 unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
 unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
-unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
-unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
-unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
+unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
+unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
+unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
+unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
+unit		greek hoplite			exp 6 armour 1 weapon_lvl 1
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
 unit		greek medium cavalry				exp 7 armour 3 weapon_lvl 3
 
-;Dalmatia
+;Dalmatia;;;;;;Segestica
 character	sub_faction dacia, Dapyx, general, age 20, , x 109, y 145
 army
-unit		barb infantry slave		exp 3 armour 0 weapon_lvl 0
-unit		merc illyrian			exp 4 armour 1 weapon_lvl 1
-unit		merc illyrian			exp 4 armour 1 weapon_lvl 1
+unit		barb infantry slave		exp 3 armour 2 weapon_lvl 2
+unit		barb infantry slave		exp 3 armour 2 weapon_lvl 2
+unit		barb infantry slave		exp 3 armour 2 weapon_lvl 2
+unit		barb infantry slave		exp 3 armour 2 weapon_lvl 2
+unit		merc illyrian			exp 4 armour 2 weapon_lvl 1
+unit		merc illyrian			exp 4 armour 2 weapon_lvl 1
+unit		merc illyrian			exp 4 armour 2 weapon_lvl 1
+unit		merc illyrian			exp 4 armour 2 weapon_lvl 1
+unit		merc illyrian			exp 4 armour 2 weapon_lvl 1
+unit		merc illyrian			exp 4 armour 2 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
+unit		illyrian thureophoroi			exp 4 armour 1 weapon_lvl 1
 
 ;Bithynia
 character	sub_faction thrace, Ziepyrus, general, age 20, , x 165, y 128
@@ -8858,22 +8929,23 @@ unit		greek heavy peltast			exp 3 armour 1 weapon_lvl 1
 unit		greek peltast				exp 3 armour 2 weapon_lvl 3
 unit		greek peltast				exp 3 armour 2 weapon_lvl 3
 
-;Caria Halicarnasus
+;Caria;;;;Halicarnasus
 character	sub_faction greek_cities, Kallipos, general, age 20, , x 158, y 105
 army
-unit		greek hoplite militia		exp 4 armour 3 weapon_lvl 1
-unit		greek hoplite militia		exp 4 armour 3 weapon_lvl 1
-unit		greek hoplite militia		exp 4 armour 3 weapon_lvl 1
-unit		greek hoplite militia		exp 4 armour 3 weapon_lvl 1
-unit		greek hoplite militia		exp 4 armour 3 weapon_lvl 1
-unit		greek hoplite militia		exp 4 armour 3 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 2 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 2 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 2 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 2 weapon_lvl 1
-unit		greek cavalry				exp 3 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 3 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek cavalry				exp 4 armour 2 weapon_lvl 2
+unit		greek cavalry				exp 4 armour 2 weapon_lvl 2
+unit		greek cavalry				exp 4 armour 2 weapon_lvl 2
+unit		greek cavalry				exp 4 armour 2 weapon_lvl 2
 unit		ephesus hoplite		exp 3 armour 2 weapon_lvl 1
 unit		ephesus hoplite		exp 3 armour 2 weapon_lvl 1
 unit		ephesus hoplite		exp 3 armour 2 weapon_lvl 1
@@ -8938,8 +9010,22 @@ unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
 unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
 unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
 
-;Atropatene
+;Atropatene;;;;;Gazaca
 character	sub_faction armenia, Arame, general, age 20, , x 239, y 134
+army
+unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
+unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
+unit		east infantry		exp 3 armour 0 weapon_lvl 0
+unit		east infantry		exp 3 armour 0 weapon_lvl 0
+unit		east infantry		exp 3 armour 0 weapon_lvl 0
+unit		east infantry		exp 3 armour 0 weapon_lvl 0
+unit		east infantry		exp 3 armour 0 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+
+;Albania;;;;;Cabalaca
+character	sub_faction armenia, Arame, general, age 20, , x 244, y 147
 army
 unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
 unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
@@ -9013,12 +9099,27 @@ unit		barb archer dacian				exp 3 armour 0 weapon_lvl 1
 unit		greek hoplite		exp 3 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 3 armour 0 weapon_lvl 1
 
-;Colchis
+;Colchis;;;;;Kotais
 character	sub_faction armenia, Kudurmabug, general, age 20, , x 216, y 147
 army
-unit		east infantry			exp 3 armour 1 weapon_lvl 1
-unit		east infantry			exp 3 armour 1 weapon_lvl 1
+unit		east infantry			exp 5 armour 1 weapon_lvl 1
+unit		east infantry			exp 5 armour 1 weapon_lvl 1
+unit		east infantry			exp 5 armour 1 weapon_lvl 1
+unit		east infantry			exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		east hillmen		exp 4 armour 1 weapon_lvl 1
+unit		east hillmen		exp 4 armour 1 weapon_lvl 1
+unit		east hillmen		exp 4 armour 1 weapon_lvl 1
+unit		east hillmen		exp 4 armour 1 weapon_lvl 1
 unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
+unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
+unit		barb horse archers slave				exp 4 armour 2 weapon_lvl 1
+unit		barb horse archers slave				exp 4 armour 2 weapon_lvl 1
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
 
 ;Libya
 character	sub_faction carthage, Akbar, general, age 20, , x 155, y 58

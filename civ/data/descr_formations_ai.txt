@@ -493,7 +493,6 @@ begin_formation ai_maniple_line
 			priority			0.5
 		end_block
 
-
 		;; cavalry on the flanks and back a bit
 
 		;; left flank cav
@@ -612,8 +611,6 @@ begin_formation ai_maniple_line
 	ai_priority			0.4
         supported_factions			 romans_scipii 
 
-
-
                 ; Screen of missile inf
 		begin_block 0
                         max_units			3
@@ -701,7 +698,6 @@ begin_formation ai_maniple_line
 			priority			1.0
 		end_block
 
-	
 		begin_dummy_block 5
 			spans  0 1 2 3 4 
 		end_dummy_block
@@ -719,7 +715,6 @@ begin_formation ai_maniple_line
 			inter_unit_spacing	10.0
 			priority			0.5
 		end_block
-
 
 		;; cavalry on the flanks and back a bit
 
@@ -828,7 +823,6 @@ begin_formation ai_maniple_line
 			priority				1.0
 		end_block
 
-
 end_formation
 
 
@@ -841,7 +835,6 @@ begin_formation ai_maniple_line
         march
 	ai_priority			2.0
         supported_factions			 romans_scipii 
-
 		
 
 		; Screen of missile inf
@@ -930,7 +923,6 @@ begin_formation ai_maniple_line
 			inter_unit_spacing	0.2
 			priority			1.0
 		end_block
-
 	
 		begin_dummy_block 5
 			spans  0 1 2 3 4 
@@ -949,7 +941,6 @@ begin_formation ai_maniple_line
 			inter_unit_spacing	10.0
 			priority			0.5
 		end_block
-
 
 		;; cavalry on the flanks and back a bit
 
@@ -1070,8 +1061,6 @@ begin_formation ai_maniple_line
 	defend
 	ai_priority			1.0
         supported_factions			 romans_scipii 
-
-
 
 ; Screen of missile inf
 		begin_block 0
@@ -1297,9 +1286,6 @@ begin_formation ai_maniple_line
 	ai_priority			0.01
         supported_factions			 romans_scipii 
 
-
-
-
 		
 		;; First line of infantry(going to the triarii!)
 		begin_block 0
@@ -1515,7 +1501,6 @@ end_formation
 ;****************************************************************************************************************************
 ; Epigonus battle formation. Similar with macedonian formation but not with so thunderous cavalry charge.More balanced though
 ;****************************************************************************************************************************
-
 
 begin_formation ai_epigonus_line
 
@@ -2402,14 +2387,10 @@ begin_formation ai_epigonus_line
 
 end_formation
 
-
-
-
 ;***********************************************************************************************
 ; Macedonian battle formation. Elephants are in front.The skirmishers/missile units
 ; form a shield in front of vanguard. Cavalry will launch a devastating charge from the right in semi-wedge formation. The general will lead the attack
 ;***********************************************************************************************
-
 
 begin_formation ai_alexanders_line
 
@@ -2596,8 +2577,6 @@ begin_formation ai_alexanders_line
 			inter_unit_spacing	0.2
 			priority			0.4
 		end_block
-
-
 
 end_formation
 
@@ -2787,12 +2766,7 @@ begin_formation ai_alexanders_line
 			inter_unit_spacing	0.2
 			priority			0.4
 		end_block
-
-
-
 end_formation
-
-
 
 
 ;the formation attacks and sends skirmishers to challenge the enemy. The cavalry will attack once the phalanx is in position.
@@ -2983,9 +2957,6 @@ begin_formation ai_alexanders_line
 			priority			0.4
 		end_block
 
-
-
-
 end_formation
 
 
@@ -2997,8 +2968,6 @@ begin_formation ai_alexanders_line
 	defend
 	ai_priority			0.05
         supported_factions			 macedon
-
-
 
 
 		; Screen of missile inf
@@ -3192,8 +3161,6 @@ begin_formation ai_alexanders_line
         supported_factions			 macedon
 
 
-
-
 		; Screen of missile inf
 		begin_block 0
                         max_units			2
@@ -3374,810 +3341,6 @@ begin_formation ai_alexanders_line
 
 end_formation
 
-
-;**************************************************************************************************************************************
-; Nomad formation. A really punishing formation for armies that use horse archery. Constant skirmishing and movement is main AI purpose.
-;**************************************************************************************************************************************
-
-
-begin_formation ai_nomadic_line
-
-	;;; purpose flags													; can use this for anything
-        march
-	ai_priority			0.7
-        supported_factions			 parthia
-
-
-		;; the support cavalry (ready to charge where is needed)
-		begin_block 0
-                        min_units			2
-                        max_units			4
-                        not_general
-                       unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                        ;unit_formation          square
-                        min_unit_width			15
-                        max_unit_width			15
-			block_formation		line
-			block_relative_pos	0 0.0 -30.0 
-			inter_unit_spacing	10.0
-			priority			1.0
-		end_block
-
-                begin_dummy_block 1											
-		spacer 50.0 50.0 50 50
-	end_dummy_block
-
-                ;; The center will consist infantry in mixed formations
-		begin_block 2
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        ;unit_formation          shield_wall
-                        min_unit_width			15
-                        max_unit_width			15
-			block_formation		line
-			block_relative_pos	1 0.0 -6.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-
-	        ;; general at the center
-		begin_block 3
-			min_units				1
-			max_units				1
-			unit_type				general_unit			1.0
-                        ;unit_formation          shield_wall
-			;unit_density			close
-			block_formation			line
-			block_relative_pos		2 0.0 -7.0
-			inter_unit_spacing		10.0
-			priority				1.0
-		end_block
-
-                begin_block 4
-                        not_general
-			unit_type					handler				1.0
-		unit_type					siege				3.0
-		unit_type					chanting_screeching	3.0
-                unit_type				chariots			3.0
-                        unit_type				elephants			3.0
-                        ;unit_formation          square
-                        ;min_unit_width			15
-                        ;max_unit_width			15
-			block_formation				line
-			block_relative_pos			3 5.0 0.0
-			inter_unit_spacing			10.0
-			priority					1.0
-		end_block
-
-               begin_dummy_block 5
-			spans 2 3 4 
-		end_dummy_block
-
-               ;; The center will consist infantry in mixed formations (2)
-		begin_block 6
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        unit_type			any			0.01
-                        ;unit_formation          shield_wall
-                        min_unit_width			15
-                        max_unit_width			15
-			block_formation		line
-			block_relative_pos	5 0.0 -3.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-                ;; Cavalry ambush left
-		begin_block 7
-                        not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			15
-                        max_unit_width			15
-			block_formation		line
-			block_relative_pos	1 -25.0 0.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 8
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			15
-                        max_unit_width			15
-			block_formation		line
-			block_relative_pos	7 0.0 -3.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-                 ;; Cavalry ambush right
-		begin_block 9
-                      not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			15
-                        max_unit_width			15
-			block_formation		line
-			block_relative_pos	1 25.0 0.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 10
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			15
-                        max_unit_width			15
-			block_formation		line
-			block_relative_pos	9 0.0 -3.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-
-end_formation
-
-
-begin_formation ai_nomadic_line
-
-	;;; purpose flags													; can use this for anything
-	defend
-        march
-	ai_priority			0.1
-        supported_factions			 parthia
-
-
-		;; the support cavalry (ready to charge where is needed)
-		begin_block 0
-                        min_units			2
-                        max_units			4
-                        not_general
-                       unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                        ;unit_formation          square
-                        min_unit_width			80
-                        max_unit_width			80
-			block_formation		line
-			block_relative_pos	0 0.0 -20.0 
-			inter_unit_spacing	10.0
-			priority			1.0
-		end_block
-
-                begin_dummy_block 1											
-		spacer 50.0 50.0 50 50
-	end_dummy_block
-
-                ;; The center will consist infantry in mixed formations
-		begin_block 2
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        unit_formation          shield_wall
-                        min_unit_width			35
-                        max_unit_width			35
-			block_formation		line
-			block_relative_pos	1 0.0 -6.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-
-	        ;; general at the center
-		begin_block 3
-			min_units				1
-			max_units				1
-			unit_type				general_unit			1.0
-                        ;unit_formation          shield_wall
-			;unit_density			close
-			block_formation			line
-			block_relative_pos		2 0.0 -7.0
-			inter_unit_spacing		10.0
-			priority				1.0
-		end_block
-
-                begin_block 4
-                        not_general
-			unit_type					handler				1.0
-		unit_type					siege				3.0
-		unit_type					chanting_screeching	3.0
-                unit_type				chariots			3.0
-                        unit_type				elephants			3.0
-                        ;unit_formation          square
-                        ;min_unit_width			25
-                        ;max_unit_width			25
-			block_formation				line
-			block_relative_pos			3 5.0 0.0
-			inter_unit_spacing			10.0
-			priority					1.0
-		end_block
-
-               begin_dummy_block 5
-			spans 2 3 4 
-		end_dummy_block
-
-               ;; The center will consist infantry in mixed formations (2)
-		begin_block 6
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        unit_type			any			0.01
-                        unit_formation          shield_wall
-                        min_unit_width			25
-                        max_unit_width			25
-			block_formation		line
-			block_relative_pos	5 0.0 -3.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-                ;; Cavalry ambush left
-		begin_block 7
-                        not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			60
-                        max_unit_width			60
-			block_formation		line
-			block_relative_pos	1 -25.0 0.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 8
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			60
-                        max_unit_width			60
-			block_formation		line
-			block_relative_pos	7 0.0 -3.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-                 ;; Cavalry ambush right
-		begin_block 9
-                      not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			120
-                        max_unit_width			120
-			block_formation		line
-			block_relative_pos	1 25.0 0.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 10
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			120
-                        max_unit_width			120
-			block_formation		line
-			block_relative_pos	9 0.0 -3.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-
-end_formation
-
-;The formation will not change. Same strategy will be used also.Just for AI purposes it is produced(included some offsets for more cautious AI attack).The AI will curse human army with endless missile rain and pointless chase.
-begin_formation ai_nomadic_line
-
-	;;; purpose flags													; can use this for anything
-	attack
-        march
-	ai_priority			0.01
-        supported_factions			 parthia
-
-		
-
-		;; the support cavalry (ready to charge where is needed)
-		begin_block 0
-                        min_units			2
-                        max_units			4
-                        not_general
-                       unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                ;unit_formation          square
-                        min_unit_width			35
-                        max_unit_width			35
-			block_formation		line
-			block_relative_pos	0 0.0 -30.0 
-			inter_unit_spacing	30.0
-			priority			1.0
-		end_block
-
-                  begin_dummy_block 1											
-		spacer 50.0 50.0 50 50
-	end_dummy_block
-
-
-                ;; The center will consist infantry in mixed formations
-		begin_block 2
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        unit_formation          shield_wall
-                        min_unit_width			50
-                        max_unit_width			50
-			block_formation		line
-			block_relative_pos	1 0.0 -6.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-
-	        ;; general at the center
-		begin_block 3
-			min_units				1
-			max_units				1
-			unit_type				general_unit			1.0
-                        ;unit_formation          shield_wall
-			;unit_density			close
-			block_formation			line
-			block_relative_pos		2 0.0 -38.0
-			inter_unit_spacing		10.0
-			priority				1.0
-		end_block
-
-                begin_block 4
-                        not_general
-			unit_type					handler				1.0
-		unit_type					siege				3.0
-		unit_type					chanting_screeching	3.0
-                unit_type				chariots			3.0
-                        unit_type				elephants			3.0
-                        ;unit_formation          square
-                        ;min_unit_width			25
-                        ;max_unit_width			25
-			block_formation				line
-			block_relative_pos			3 5.0 0.0
-			inter_unit_spacing			10.0
-			priority					1.0
-		end_block
-
-               begin_dummy_block 5
-			spans 2 3 4 
-		end_dummy_block
-
-               ;; The center will consist infantry in mixed formations (2)
-		begin_block 6
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        unit_type			any			0.01
-                        unit_formation          shield_wall
-                        min_unit_width			40
-                        max_unit_width			40
-			block_formation		line
-			block_relative_pos	5 0.0 -3.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-                ;; Cavalry ambush left
-		begin_block 7
-                        not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			120
-                        max_unit_width			120
-			block_formation		line
-			block_relative_pos	1 -25.0 -25.0 
-			inter_unit_spacing	20.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 8
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			35
-                        max_unit_width			35
-			block_formation		line
-			block_relative_pos	7 0.0 -3.0 
-			inter_unit_spacing	15.0
-			priority			0.5
-		end_block
-
-                 ;; Cavalry ambush right
-		begin_block 9
-                      not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			120
-                        max_unit_width			120
-			block_formation		line
-			block_relative_pos	1 25.0 -25.0 
-			inter_unit_spacing	20.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 10
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			35
-                        max_unit_width			35
-			block_formation		line
-			block_relative_pos	9 0.0 -3.0 
-			inter_unit_spacing	15.0
-			priority			0.5
-		end_block
-
-
-end_formation
-
-begin_formation ai_nomadic_line
-
-	;;; purpose flags
-        attack													; can use this for anything
-	defend
-        march
-	ai_priority			0.01
-        supported_factions			 parthia
-
-
-
-
-		;; the support cavalry (ready to charge where is needed)
-		begin_block 0
-                        min_units			2
-                        max_units			4
-                        not_general
-                       unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                ;unit_formation          square
-                        min_unit_width			45
-                        max_unit_width			45
-			block_formation		line
-			block_relative_pos	0 0.0 -20.0 
-			inter_unit_spacing	20.0
-			priority			1.0
-		end_block
-
-                  begin_dummy_block 1											
-		spacer 50.0 50.0 50 50
-	end_dummy_block
-
-
-                ;; The center will consist infantry in mixed formations
-		begin_block 2
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        unit_formation          shield_wall
-                        min_unit_width			45
-                        max_unit_width			45
-			block_formation		line
-			block_relative_pos	1 0.0 -6.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-
-	        ;; general at the center
-		begin_block 3
-			;min_units				1
-			;max_units				1
-			unit_type				general_unit			1.0
-                        ;unit_formation          shield_wall
-			;unit_density			close
-			block_formation			line
-			block_relative_pos		2 0.0 -17.0
-			inter_unit_spacing		10.0
-			priority				1.0
-		end_block
-
-                begin_block 4
-                        not_general
-			unit_type					handler				1.0
-		unit_type					siege				3.0
-		unit_type					chanting_screeching	3.0
-                unit_type				chariots			3.0
-                        unit_type				elephants			3.0
-                        ;unit_formation          square
-                        min_unit_width			25
-                        max_unit_width			25
-			block_formation				line
-			block_relative_pos			3 5.0 0.0
-			inter_unit_spacing			10.0
-			priority					1.0
-		end_block
-
-               begin_dummy_block 5
-			spans 2 3 4 
-		end_dummy_block
-
-               ;; The center will consist infantry in mixed formations (2)
-		begin_block 6
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        unit_type			any			0.01
-                        unit_formation          shield_wall
-                        min_unit_width			45
-                        max_unit_width			45
-			block_formation		line
-			block_relative_pos	5 0.0 -3.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-                ;; Cavalry ambush left
-		begin_block 7
-                        not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			80
-                        max_unit_width			80
-			block_formation		line
-			block_relative_pos	1 -25.0 0.0 
-			inter_unit_spacing	20.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 8
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			80
-                        max_unit_width			80
-			block_formation		line
-			block_relative_pos	7 0.0 -3.0 
-			inter_unit_spacing	20.0
-			priority			0.5
-		end_block
-
-                 ;; Cavalry ambush right
-		begin_block 9
-                      not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			80
-                        max_unit_width			80
-			block_formation		line
-			block_relative_pos	1 25.0 0.0 
-			inter_unit_spacing	20.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 10
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			80
-                        max_unit_width			80
-			block_formation		line
-			block_relative_pos	9 0.0 -3.0 
-			inter_unit_spacing	20.0
-			priority			0.5
-		end_block
-
-
-end_formation
-
-begin_formation ai_nomadic_line
-
-	;;; purpose flags													; can use this for anything
-	pursue
-        march
-	ai_priority			0.18
-        supported_factions			 parthia
-
-
-
-
-		;; the support cavalry (ready to charge where is needed)
-		begin_block 0
-                        min_units			2
-                        max_units			4
-                        not_general
-                       unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                ;unit_formation          square
-                        min_unit_width			80
-                        max_unit_width			80
-			block_formation		line
-			block_relative_pos	0 0.0 -30.0 
-			inter_unit_spacing	30.0
-			priority			1.0
-		end_block
-
-                  begin_dummy_block 1											
-		spacer 50.0 50.0 50 50
-	end_dummy_block
-
-
-                ;; The center will consist infantry in mixed formations
-		begin_block 2
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        unit_formation          shield_wall
-                        min_unit_width			25
-                        max_unit_width			25
-			block_formation		line
-			block_relative_pos	1 0.0 -6.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-
-	        ;; general at the center
-		begin_block 3
-			;min_units				1
-			;max_units				1
-			unit_type				general_unit			1.0
-                        unit_formation          shield_wall
-			;unit_density			close
-			block_formation			line
-			block_relative_pos		2 0.0 -17.0
-			inter_unit_spacing		10.0
-			priority				1.0
-		end_block
-
-                begin_block 4
-                        not_general
-			unit_type					handler				1.0
-		unit_type					siege				3.0
-		unit_type					chanting_screeching	3.0
-                unit_type				chariots			3.0
-                        unit_type				elephants			3.0
-                        ;unit_formation          square
-                        min_unit_width			25
-                        max_unit_width			25
-			block_formation				line
-			block_relative_pos			3 5.0 0.0
-			inter_unit_spacing			10.0
-			priority					1.0
-		end_block
-
-               begin_dummy_block 5
-			spans 2 3 4 
-		end_dummy_block
-
-               ;; The center will consist infantry in mixed formations (2)
-		begin_block 6
-                        not_general
-			unit_type			spearmen infantry		0.8
-			unit_type			heavy infantry		1.0
-                        unit_type			infantry			0.6
-                        unit_type			any			0.01
-                        unit_formation          shield_wall
-                        min_unit_width			25
-                        max_unit_width			25
-			block_formation		line
-			block_relative_pos	5 0.0 -3.0 
-			inter_unit_spacing	0.2
-			priority			1.0
-		end_block
-
-                ;; Cavalry ambush left
-		begin_block 7
-                        not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			150
-                        max_unit_width			150
-			block_formation		line
-			block_relative_pos	1 -25.0 0.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 8
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			150
-                        max_unit_width			150
-			block_formation		line
-			block_relative_pos	7 0.0 -3.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-                 ;; Cavalry ambush right
-		begin_block 9
-                      not_general
-		        unit_type				skirmish cavalry		1.0
-		unit_type				missile cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			150
-                        max_unit_width			150
-			block_formation		line
-			block_relative_pos	1 25.0 0.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-;; support cavalry behind
-                begin_block 10
-                        not_general
-		unit_type				heavy cavalry			1.0
-		unit_type				spearmen cavalry		1.0
-                unit_type			cavalry				0.1
-                ;unit_formation          square
-                        min_unit_width			150
-                        max_unit_width			150
-			block_formation		line
-			block_relative_pos	9 0.0 -3.0 
-			inter_unit_spacing	6.0
-			priority			0.5
-		end_block
-
-
-end_formation
-
-
-
-
 ;****************************************************************************************************************************
 ; Asian battle formation. Skirmishing will be a priority and also missile cavalry will cover flanks
 ;****************************************************************************************************************************
@@ -4188,7 +3351,7 @@ begin_formation ai_asian_line
 	;;; purpose flags												; can use this for anything
         march
 	ai_priority			0.05
-        supported_factions			 pontus, armenia, greek_cities, romans_julii 
+        supported_factions			 pontus, armenia, parthia, greek_cities, romans_julii 
 
 
 
@@ -4382,7 +3545,7 @@ begin_formation ai_asian_line
 	;;; purpose flags												; can use this for anything
 	defend
 	ai_priority			0.1
-        supported_factions			 pontus, armenia, greek_cities, romans_julii  
+        supported_factions			 pontus, armenia, parthia, greek_cities, romans_julii  
 
 
 
@@ -4578,7 +3741,7 @@ begin_formation ai_asian_line
 	;;; purpose flags													; can use this for anything
 	attack
 	ai_priority			0.15
-        supported_factions			 pontus, armenia, greek_cities, romans_julii 
+        supported_factions			 pontus, armenia, parthia, greek_cities, romans_julii 
 
 		
 
@@ -4776,7 +3939,7 @@ begin_formation ai_asian_line
 	defend
         march
 	ai_priority			0.4
-        supported_factions			 pontus, armenia, greek_cities, romans_julii 
+        supported_factions			 pontus, armenia, parthia, greek_cities, romans_julii 
 
 
 
@@ -4972,7 +4135,7 @@ begin_formation ai_asian_line
 	;;; purpose flags												; can use this for anything
 	pursue
 	ai_priority			0.3
-        supported_factions			 pontus, armenia, greek_cities, romans_julii 
+        supported_factions			 pontus, armenia, parthia, greek_cities, romans_julii 
 
 
 

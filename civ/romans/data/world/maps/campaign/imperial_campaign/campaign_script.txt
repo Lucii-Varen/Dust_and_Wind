@@ -37,6 +37,7 @@ console_command create_building Burgaz_Gothii reform1
 console_command create_building Baikor reform1
 console_command create_building Burgaz_Sueones reform1
 console_command create_building Burdigala reform1
+console_command create_building Cabalaca reform1
 console_command create_building Campus_Alanni reform1
 console_command create_building Campus_Iazyges reform1
 console_command create_building Campus_Siracae reform1
