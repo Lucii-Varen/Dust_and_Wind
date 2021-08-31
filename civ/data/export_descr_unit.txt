@@ -2702,8 +2702,8 @@ officer          macedon_standard
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        0.9, 1.6, 2, 2, 6, square
 stat_health      1, 1
-stat_pri         11, 3, longjavelin, 40, 2, thrown, simple, piercing, spear, 24 ,1
-stat_pri_attr    prec, thrown ap
+stat_pri         13, 3, longjavelin, 40, 2, thrown, simple, piercing, spear, 24 ,1
+stat_pri_attr    prec, thrown
 stat_sec         9, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  8, 5, 6, leather
@@ -3143,7 +3143,7 @@ officer          eastern_standard
 attributes       sea_faring, hide_forest, can_sap, very_hardy
 formation        1, 1.5, 2, 2, 8, square
 stat_health      1, 1
-stat_pri         12, 3, heavy_javelin, 44, 2, thrown, simple, piercing, spear, 24 ,1
+stat_pri         13, 3, heavy_javelin, 44, 2, thrown, simple, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown
 stat_sec         9, 4, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
@@ -3170,7 +3170,7 @@ attributes       sea_faring, hide_forest, can_sap, very_hardy
 formation        1, 1.4, 2, 2, 8, square
 stat_health      1, 1
 stat_pri         12, 2, heavy_javelin, 40, 2, thrown, simple, piercing, spear, 24 ,1
-stat_pri_attr    prec, thrown
+stat_pri_attr    prec, thrown ap
 stat_sec         9, 5, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  11, 5, 5, leather
@@ -3999,7 +3999,7 @@ formation        1.5, 1.5, 3, 3, 3, square
 stat_health      1, 0
 stat_pri         4, 2, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_pri_attr    no
-stat_sec         53, 2, ballista, 190, 35, siege_missile, blade, piercing, none, 24 ,1
+stat_sec         53, 2, ballista, 190, 40, siege_missile, blade, piercing, none, 24 ,1
 stat_sec_attr    ap, bp, launching
 stat_pri_armour  4, 5, 0, flesh
 stat_sec_armour  0, 0, flesh
@@ -5552,11 +5552,11 @@ mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, very_hardy
 formation        1.2, 4, 2.4, 6, 3, square, wedge
 stat_health      1, 1
-stat_pri         8, 15, no, 0, 0, melee, blade, piercing, spear, 24 ,1
+stat_pri         8, 15, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    no
-stat_sec         8, 6, no, 0, 0, melee, simple, piercing, sword, 24 ,1
+stat_sec         8, 6, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  18, 5, 2, metal
+stat_pri_armour  18, 5, 0, metal
 stat_sec_armour  10, 1, flesh
 stat_heat        3
 stat_ground      0, 0, 0, -1
@@ -5830,8 +5830,8 @@ voice_type       Heavy_1
 soldier          defence_kings, 50, 0, 1.4, 0.3
 officer          greek_officer
 officer          greek_standard
-attributes       sea_faring, hide_improved_forest, hardy, warcry
-formation        1.2, 1.2, 2.4, 2.4, 7, square
+attributes       sea_faring, hide_improved_forest, very_hardy, warcry
+formation        1, 1.4, 2, 2, 7, square
 stat_health      1, 1
 stat_pri         12, 7, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_pri_attr    no
@@ -5841,7 +5841,7 @@ stat_pri_armour  9, 8, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      2, -2, 0, 0
-stat_mental      17, impetuous, untrained
+stat_mental      17, disciplined, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
@@ -6012,14 +6012,14 @@ category         infantry
 class            missile
 voice_type       Light_1
 soldier          diadoch_archer_elite, 50, 0, 1, 0.3
-attributes       sea_faring, hide_forest, can_sap
+attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1, 1.4, 2, 3, 3, square
 stat_health      1, 1
 stat_pri         10, 4, arrow, 170, 40, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
 stat_sec         6, 2, no, 0, 0, melee, simple, piercing, sword, 1, 1
 stat_sec_attr    no
-stat_pri_armour  5, 6, 0, leather
+stat_pri_armour  6, 5, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        1
 stat_ground      1, 0, 0, 0
@@ -6028,7 +6028,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 2400, 1020, 50, 50, 490
-ownership        macedon, seleucid, egypt, roman_rebels
+ownership        macedon, seleucid, egypt, thrace, roman_rebels
 
 type             greek levy pikemen
 dictionary       greek_levy_pikemen      ; Levy Pikemen
@@ -6344,7 +6344,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 1900, 800, 70, 110, 690
-ownership        greek_cities, numidia, egypt, romans_julii, macedon, seleucid
+ownership        greek_cities, numidia, egypt, romans_julii, macedon, seleucid, thrace
 
 type             greek heavy cavalry
 dictionary       greek_heavy_cavalry      ; Thessalian Cavalry
@@ -6566,7 +6566,7 @@ formation        1.5, 1.5, 3, 3, 3, square
 stat_health      1, 0
 stat_pri         4, 2, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_pri_attr    no
-stat_sec         53, 2, ballista, 190, 30, siege_missile, blade, piercing, none, 24 ,1
+stat_sec         53, 2, ballista, 190, 40, siege_missile, blade, piercing, none, 24 ,1
 stat_sec_attr    ap, bp, launching
 stat_pri_armour  4, 5, 0, flesh
 stat_sec_armour  0, 0, flesh
@@ -7858,7 +7858,7 @@ formation        1.5, 1.5, 3, 3, 3, square
 stat_health      1, 0
 stat_pri         4, 2, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_pri_attr    no
-stat_sec         53, 2, ballista, 180, 30, siege_missile, blade, piercing, none, 24 ,1
+stat_sec         53, 2, ballista, 190, 40, siege_missile, blade, piercing, none, 24 ,1
 stat_sec_attr    ap, bp, launching
 stat_pri_armour  7, 3, 0, metal
 stat_sec_armour  0, 0, flesh
@@ -10311,11 +10311,11 @@ stat_pri         8, 4, heavy_javelin, 59, 10, thrown, archery, piercing, spear, 
 stat_pri_attr    thrown
 stat_sec         7, 2, no, 0, 0, melee, simple, piercing, sword, 1 ,1
 stat_sec_attr    no
-stat_pri_armour  4, 5, 4, leather
+stat_pri_armour  4, 4, 5, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 3, 0
-stat_mental      11, normal, highly_trained
+stat_mental      13, normal, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300

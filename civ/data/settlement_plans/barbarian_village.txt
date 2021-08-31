@@ -26,5 +26,5 @@ pile_of_logs,	-48.66,	-22.41,	9.00,	16.00
 pile_of_logs,	-71.05,	16.70,	9.00,	16.00
 barbarian_round_house_large,	199.64,	114.00,	-166.50,	0.00
 barbarian_round_house_large,	-190.52,	-22.51,	-158.50,	0.00
-barb_village_fences,	0,	0,	0,	0
+;barb_village_fences,	0,	0,	0,	0
 }

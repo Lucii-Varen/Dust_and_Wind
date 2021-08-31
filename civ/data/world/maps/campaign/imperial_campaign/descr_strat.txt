@@ -5868,10 +5868,6 @@ settlement
 	}
 	building
 	{
-		type market trader
-	}
-	building
-	{
 		type market market
 	}
 	building

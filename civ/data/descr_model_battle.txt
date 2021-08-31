@@ -4785,6 +4785,7 @@ texture				romans_julii, civ/data/new/models_units/textures/UNIT_GREEK_TARANTINE
 texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_TARANTINE_CAVALRY_MACEDON.tga
 texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_TARANTINE_CAVALRY_SELEUCID.tga
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_ETRUSCAN_TARANTINE_CAVALRY.tga
+texture				thrace, civ/data/new/models_units/textures/UNIT_GREEK_TARANTINE_CAVALRY_THRACE.tga
 model_flexi			civ/data/new/models_units/UNIT_GREEK_TARENTINE_CAVALRY.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_GREEK_TARENTINE_CAVALRY.cas, 30
 model_flexi			civ/data/new/models_units/UNIT_GREEK_TARENTINE_CAVALRY.cas, 40
@@ -4847,6 +4848,7 @@ type				diadoch_archer_elite
 skeleton			fs_fast_archer, fs_fast_dagger
 indiv_range			40
 texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_MACEDON.tga
+texture				thrace, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_MACEDON.tga
 texture				egypt, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_EGYPT.tga
 texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_SELEUCID.tga
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_ARCHER_ELITE_BAKTRIAN.tga

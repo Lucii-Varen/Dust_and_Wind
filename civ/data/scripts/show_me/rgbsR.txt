@@ -17145,24 +17145,128 @@ monitor_event SettlementTurnStart SettlementName Capua
 end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Population Rising;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+monitor_event SettlementTurnStart SettlementName Bactra
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Bactra = parthia
+console_command create_building Bactra "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Zadracarta
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Zadracarta = parthia
+console_command create_building Zadracarta "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Apamea
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Apamea = parthia
+console_command create_building Apamea "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Tabae
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Tabae = parthia
+console_command create_building Tabae "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Susa
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Susa = parthia
+console_command create_building Susa "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Ecbatana
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Ecbatana = parthia
+console_command create_building Ecbatana "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Charax
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Charax = parthia
+console_command create_building Charax "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Merv
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Merv = parthia
+console_command create_building Merv "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Hecatompylos
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Hecatompylos = parthia
+console_command create_building Hecatompylos "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Zarang
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Zarang = parthia
+console_command create_building Zarang "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Istakhr
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Istakhr = parthia
+console_command create_building Istakhr "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Harmozia
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Harmozia = parthia
+console_command create_building Harmozia "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Seleucia
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Seleucia = parthia
+console_command create_building Seleucia "satrapy"
+end_if
+end_monitor
 
-monitor_event SettlementTurnStart SettlementName Sardica
+monitor_event SettlementTurnStart SettlementName Alexandria
 and not SettlementIsLocal
-and I_TurnNumber = 80
-console_command add_population Sardica 4000
-console_command add_population Sardica 3000
+and SettlementBuildingExists = market
+and not SettlementBuildingExists = baths
+console_command create_building Alexandria "baths"
 end_monitor
-monitor_event SettlementTurnStart SettlementName Heraclea
+monitor_event SettlementTurnStart SettlementName Sarmizegetusa
 and not SettlementIsLocal
-and I_TurnNumber = 60
-console_command add_population Heraclea 4000
-console_command add_population Heraclea 4000
+and SettlementBuildingExists = market
+and not SettlementBuildingExists = baths
+console_command create_building Sarmizegetusa "baths"
 end_monitor
-monitor_event SettlementTurnStart SettlementName Mazaka
+monitor_event SettlementTurnStart SettlementName Olbia
 and not SettlementIsLocal
-and I_TurnNumber = 60
-console_command add_population Mazaka 4000
-console_command add_population Mazaka 3000
+and SettlementBuildingExists = market
+and not SettlementBuildingExists = baths
+console_command create_building Olbia "baths"
 end_monitor
 monitor_event SettlementTurnStart SettlementName Pinaca
 and not SettlementIsLocal
@@ -17170,71 +17274,42 @@ and I_TurnNumber = 80
 console_command add_population Pinaca 4000
 console_command add_population Pinaca 3000
 end_monitor
-monitor_event SettlementTurnStart SettlementName Tomi
+
+monitor_event SettlementTurnStart SettlementName Buridava
 and not SettlementIsLocal
-and I_TurnNumber = 15
-and I_SettlementOwner Tomi = thrace
-console_command add_population Tomi 4000
-console_command add_population Cydaus 4000
-console_command add_population Lepcis_Magna 4000
-console_command add_population Lepcis_Magna 3000
-console_command add_population Cirta 4000
-console_command add_population Cirta 4000
-console_command add_population Siga 4000
-console_command add_population Siga 4000
+and SettlementBuildingExists = market
+and not SettlementBuildingExists = baths
+console_command create_building Buridava "baths"
 end_monitor
 
+monitor_event SettlementTurnStart SettlementName Pella
+and not SettlementIsLocal
+and SettlementBuildingExists = market
+and not SettlementBuildingExists = baths
+console_command create_building Pella "baths"
+end_monitor
+
+monitor_event SettlementTurnStart SettlementName Larissa
+and not SettlementIsLocal
+and SettlementBuildingExists = market
+and not SettlementBuildingExists = baths
+console_command create_building Larissa "baths"
+end_monitor
 monitor_event SettlementTurnStart SettlementName Thessalonica
 and not SettlementIsLocal
-and I_TurnNumber = 60
-console_command add_population Thessalonica 4000
-console_command add_population Thessalonica 4000
+and SettlementBuildingExists = market
+and not SettlementBuildingExists = baths
+console_command create_building Thessalonica "baths"
 end_monitor
-monitor_event SettlementTurnStart SettlementName Neapolis_Scythica
+monitor_event SettlementTurnStart SettlementName Seutopolis
 and not SettlementIsLocal
-and I_TurnNumber = 20
-console_command add_population Neapolis_Scythica 4000
-console_command add_population Neapolis_Scythica 4000
-console_command add_money romans_julii, 40000
-end_monitor
-
-monitor_event SettlementTurnStart SettlementName Chersonesos
-and not SettlementIsLocal
-and I_TurnNumber = 60
-console_command add_population Chersonesos 4000
-console_command add_population Chersonesos 4000
-end_monitor
-
-monitor_event SettlementTurnStart SettlementName Panticapaeum
-and not SettlementIsLocal
-and I_TurnNumber = 60
-console_command add_population Panticapaeum 4000
-console_command add_population Panticapaeum 3000
-end_monitor
-
-monitor_event SettlementTurnStart SettlementName Sarmizegetusa
-and not SettlementIsLocal
-and I_TurnNumber = 60
-console_command add_population Sarmizegetusa 4000
-console_command add_population Sarmizegetusa 4000
-end_monitor
-monitor_event SettlementTurnStart SettlementName Mytilene
-and not SettlementIsLocal
-and I_TurnNumber = 60
-console_command add_population Mytilene 4000
-console_command add_population Mytilene 3000
-end_monitor
-monitor_event SettlementTurnStart SettlementName Phabiranum
-and not SettlementIsLocal
-and I_SettlementOwner Phabiranum = germans
-and I_TurnNumber = 100
-console_command add_population Phabiranum 4000
-console_command add_population Phabiranum 4000
-console_command process_cq Halicarnasus
+and SettlementBuildingExists = market
+and not SettlementBuildingExists = baths
+console_command create_building Seutopolis "baths"
 end_monitor
 
 monitor_event FactionTurnStart FactionIsLocal
-and I_TurnNumber = 60
+and I_TurnNumber = 40
 console_command add_population Olbia 4000
 console_command add_population Olbia 2000
 console_command add_population Prophthasia 4000
@@ -17281,10 +17356,111 @@ console_command add_population Charax 4000
 console_command add_population Charax 4000
 console_command add_population Nicomedia 4000
 console_command add_population Nicomedia 4000
+console_command add_population Heraclea 4000
+console_command add_population Heraclea 4000
 console_command add_population Zarang 4000
 console_command add_population Zarang 4000
 console_command add_population Pura 4000
 console_command add_population Pura 4000
+console_command add_population Panticapaeum 4000
+console_command add_population Panticapaeum 4000
+console_command add_population Chersonesos 4000
+console_command add_population Chersonesos 4000
+console_command add_population Tomi 4000
+console_command add_population Tomi 4000
+console_command add_population Side 4000
+console_command add_population Side 4000
+console_command add_population Mazaka 4000
+console_command add_population Mazaka 4000
+console_command add_population Sabata 4000
+console_command add_population Sabata 4000
+if I_SettlementOwner Thospia = armenia
+console_command add_population Thospia 4000
+console_command add_population Thospia 4000
+end_if
+if I_SettlementOwner Gazaca = armenia
+console_command add_population Gazaca 4000
+console_command add_population Gazaca 4000
+end_if
+if I_SettlementOwner Cabalaca = armenia
+console_command add_population Cabalaca 4000
+console_command add_population Cabalaca 4000
+end_if
+console_command add_population Cydaus 4000
+console_command add_population Lepcis_Magna 4000
+console_command add_population Lepcis_Magna 3000
+console_command add_population Cirta 4000
+console_command add_population Cirta 4000
+console_command add_population Siga 4000
+console_command add_population Siga 4000
+console_command add_population Hippo_Regius 4000
+console_command add_population Hippo_Regius 4000
+console_command add_population Tingi 4000
+console_command add_population Tingi 4000
+console_command add_population Gadir 4000
+console_command add_population Gadir 4000
+console_command add_population Baikor 4000
+console_command add_population Baikor 4000
+console_command add_population Baikor 4000
+console_command add_population Baikor 4000
+console_command add_population Arsa 4000
+console_command add_population Arsa 4000
+console_command add_population Arsa 4000
+console_command add_population Arsa 4000
+console_command add_population Thapsus 4000
+console_command add_population Thapsus 4000
+console_command add_population Amasia 4000
+console_command add_population Amasia 3000
+console_command add_population Ancyra 4000
+console_command add_population Ancyra 4000
+console_command add_population Ancyra 1000
+if I_SettlementOwner Nicomedia = pontus
+console_command add_population Nicomedia 4000
+console_command add_population Nicomedia 4000
+end_if
+if I_SettlementOwner Apameia = pontus
+console_command add_population Apameia 4000
+console_command add_population Apameia 4000
+console_command add_population Apameia 1000
+end_if
+console_command add_population Apollonia 4000
+console_command add_population Apollonia 4000
+console_command add_population Olympia 4000
+console_command add_population Olympia 4000
+console_command add_population Chalkis 4000
+console_command add_population Chalkis 4000
+console_command add_population Thermon 4000
+console_command add_population Thermon 4000
+console_command add_population Corinth 4000
+console_command add_population Corinth 4000
+console_command add_population Mytilene 4000
+console_command add_population Mytilene 4000
+console_command add_population Thessalonica 4000
+console_command add_population Thessalonica 4000
+console_command add_population Sardica 4000
+console_command add_population Sardica 4000
+console_command add_population Vicus_Eravisci 4000
+console_command add_population Vicus_Eravisci 4000
+console_command add_population Aquincum 4000
+console_command add_population Aquincum 4000
+console_command add_population Leucaristus 4000
+console_command add_population Leucaristus 4000
+if I_SettlementOwner Sarmizegetusa = dacia
+console_command add_population Sarmizegetusa 4000
+console_command add_population Sarmizegetusa 4000
+end_if
+console_command add_population Mattium 4000
+console_command add_population Mattium 4000
+console_command add_population Phabiranum 4000
+console_command add_population Phabiranum 4000
+console_command add_population Samarobriva 4000
+console_command add_population Samarobriva 4000
+console_command add_population Cenabum 4000
+console_command add_population Cenabum 4000
+console_command add_population Vienna 4000
+console_command add_population Vienna 4000
+console_command add_population Vesontio 4000
+console_command add_population Vesontio 4000
 end_monitor
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -17829,7 +18005,7 @@ and not I_LocalFaction seleucid
 and I_NumberOfSettlements armenia > 0
 console_command diplomatic_stance armenia seleucid War
 end_if
-if I_SettlementOwner Cabalca = seleucid
+if I_SettlementOwner Cabalaca = seleucid
 and not I_LocalFaction armenia
 and not I_LocalFaction seleucid
 and I_NumberOfSettlements armenia > 0
@@ -18033,6 +18209,67 @@ end
 		unit barb cavalry gaul, exp 2 armour 2 weapon_lvl 2
 end
 	end_if
+end_if
+if I_NumberOfSettlements egypt > 0
+and not I_LocalFaction egypt
+and not I_LocalFaction romans_brutii
+and I_SettlementOwner Thebes = romans_brutii
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command diplomatic_stance egypt romans_brutii War
+console_command add_money egypt, 10000
+spawn_army 
+    faction egypt
+    		character Teos, general, age 30, x 192, y 52
+			unit greek general's guard cavalry, exp 3 armour 1 weapon_lvl 1
+			unit egyptian peltast, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+            unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit egyptian nile infantry, exp 3 armour 1 weapon_lvl 1
+			unit egyptian nile infantry, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek royal pikemen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+            unit greek swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit greek swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit egyptian cleruch, exp 3 armour 1 weapon_lvl 1
+            unit egyptian cleruch, exp 3 armour 1 weapon_lvl 1
+			unit greek xystophoroi, exp 3 armour 1 weapon_lvl 1
+			unit greek xystophoroi, exp 3 armour 1 weapon_lvl 1
+			unit greek royal cavalry, exp 3 armour 1 weapon_lvl 1
+            end
+spawn_army 
+    faction egypt
+    		character Teos, general, age 30, x 192, y 52
+			unit greek general's guard cavalry, exp 3 armour 1 weapon_lvl 1
+			unit egyptian peltast, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+            unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit egyptian nile infantry, exp 3 armour 1 weapon_lvl 1
+			unit egyptian nile infantry, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek royal pikemen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+            unit greek swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit greek swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit egyptian cleruch, exp 3 armour 1 weapon_lvl 1
+            unit egyptian cleruch, exp 3 armour 1 weapon_lvl 1
+			unit greek xystophoroi, exp 3 armour 1 weapon_lvl 1
+			unit greek xystophoroi, exp 3 armour 1 weapon_lvl 1
+			unit greek royal cavalry, exp 3 armour 1 weapon_lvl 1
+            end
 end_if
 ;---------------------------------------------------------
 if I_SettlementOwner Vienna = spain

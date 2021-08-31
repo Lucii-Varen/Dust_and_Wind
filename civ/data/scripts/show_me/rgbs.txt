@@ -18671,7 +18671,6 @@ and I_CompareCounter Eburonum_undersiege = 1
 		console_command create_unit Eburonum "barb peltast gaul" 1 2 2 2
         console_command create_unit Eburonum "boii noble cavalry" 2 1 2 2
         console_command create_unit Eburonum "barb heavy cavalry" 2 1 2 2
-        set_counter Eburonum_undersiege 2
 console_command add_money spain, 40000
         spawn_army
             faction spain
@@ -18696,6 +18695,7 @@ console_command add_money spain, 40000
             unit barb cavalry gaul, exp 2 armour 1 weapon_lvl 1
             unit barb cavalry gaul, exp 2 armour 1 weapon_lvl 1
 end
+        set_counter Eburonum_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Iuvavum;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -21201,22 +21201,126 @@ monitor_event SettlementTurnStart SettlementName Capua
 end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Population Rising;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+monitor_event SettlementTurnStart SettlementName Bactra
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Bactra = parthia
+console_command create_building Bactra "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Zadracarta
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Zadracarta = parthia
+console_command create_building Zadracarta "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Apamea
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Apamea = parthia
+console_command create_building Apamea "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Tabae
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Tabae = parthia
+console_command create_building Tabae "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Susa
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Susa = parthia
+console_command create_building Susa "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Ecbatana
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Ecbatana = parthia
+console_command create_building Ecbatana "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Charax
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Charax = parthia
+console_command create_building Charax "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Merv
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Merv = parthia
+console_command create_building Merv "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Hecatompylos
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Hecatompylos = parthia
+console_command create_building Hecatompylos "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Zarang
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Zarang = parthia
+console_command create_building Zarang "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Istakhr
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Istakhr = parthia
+console_command create_building Istakhr "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Harmozia
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Harmozia = parthia
+console_command create_building Harmozia "satrapy"
+end_if
+end_monitor
+monitor_event SettlementTurnStart SettlementName Seleucia
+and not SettlementIsLocal
+and not SettlementBuildingExists = satrapy
+and not SettlementBuildingExists = pahlevani_rituals
+if I_SettlementOwner Seleucia = parthia
+console_command create_building Seleucia "satrapy"
+end_if
+end_monitor
 
 monitor_event SettlementTurnStart SettlementName Alexandria
 and not SettlementIsLocal
-and I_TurnNumber = 80
+and SettlementBuildingExists = market
 and not SettlementBuildingExists = baths
 console_command create_building Alexandria "baths"
 end_monitor
 monitor_event SettlementTurnStart SettlementName Sarmizegetusa
 and not SettlementIsLocal
-and I_TurnNumber = 80
+and SettlementBuildingExists = market
 and not SettlementBuildingExists = baths
 console_command create_building Sarmizegetusa "baths"
 end_monitor
 monitor_event SettlementTurnStart SettlementName Olbia
 and not SettlementIsLocal
-and I_TurnNumber = 80
+and SettlementBuildingExists = market
 and not SettlementBuildingExists = baths
 console_command create_building Olbia "baths"
 end_monitor
@@ -21229,33 +21333,33 @@ end_monitor
 
 monitor_event SettlementTurnStart SettlementName Buridava
 and not SettlementIsLocal
-and I_TurnNumber = 60
+and SettlementBuildingExists = market
 and not SettlementBuildingExists = baths
 console_command create_building Buridava "baths"
 end_monitor
 
 monitor_event SettlementTurnStart SettlementName Pella
 and not SettlementIsLocal
-and I_TurnNumber = 60
+and SettlementBuildingExists = market
 and not SettlementBuildingExists = baths
 console_command create_building Pella "baths"
 end_monitor
 
 monitor_event SettlementTurnStart SettlementName Larissa
 and not SettlementIsLocal
-and I_TurnNumber = 60
+and SettlementBuildingExists = market
 and not SettlementBuildingExists = baths
 console_command create_building Larissa "baths"
 end_monitor
 monitor_event SettlementTurnStart SettlementName Thessalonica
 and not SettlementIsLocal
-and I_TurnNumber = 60
+and SettlementBuildingExists = market
 and not SettlementBuildingExists = baths
 console_command create_building Thessalonica "baths"
 end_monitor
 monitor_event SettlementTurnStart SettlementName Seutopolis
 and not SettlementIsLocal
-and I_TurnNumber = 60
+and SettlementBuildingExists = market
 and not SettlementBuildingExists = baths
 console_command create_building Seutopolis "baths"
 end_monitor
@@ -22025,12 +22129,27 @@ and I_NumberOfSettlements parthia > 0
 and I_NumberOfSettlements armenia > 0
 console_command diplomatic_stance parthia armenia War
 end_if
+if I_SettlementOwner Merv = roman_rebels
+and not I_LocalFaction roman_rebels
+and not I_LocalFaction parthia
+and I_NumberOfSettlements parthia > 0
+console_command diplomatic_stance parthia roman_rebels War
+console_command add_money parthia, 40000
+end_if
+if I_SettlementOwner Alexandria_Ariana = parthia
+and not I_LocalFaction roman_rebels
+and not I_LocalFaction parthia
+and I_NumberOfSettlements roman_rebels > 0
+console_command diplomatic_stance roman_rebels parthia War
+end_if
 if not I_LocalFaction parthia
 	and I_NumberOfSettlements parthia > 0
     if not I_LocalFaction roman_rebels
     and I_SettlementOwner Nisa = roman_rebels
     console_command diplomatic_stance parthia roman_rebels War
-    console_command add_money parthia, 35000
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
+    console_command add_money roman_rebels, -40000
 		if I_SettlementOwner Zadracarta = parthia
         console_command add_population Zadracarta 600
     	end_if
@@ -22049,11 +22168,37 @@ if not I_LocalFaction parthia
 		if I_SettlementOwner Susa = parthia
 		console_command add_population Susa 600
 		end_if
+	end_if
+    if not I_LocalFaction roman_rebels
+    and I_SettlementOwner Hecatompylos = roman_rebels
+    console_command diplomatic_stance parthia roman_rebels War
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
+		if I_SettlementOwner Zadracarta = parthia
+        console_command add_population Zadracarta 600
+    	end_if
+    	if I_SettlementOwner Nisa = parthia
+        console_command add_population Hecatompylos 600
+    	end_if
+    	if I_SettlementOwner Asaak = parthia
+        console_command add_population Asaak 600
+        end_if
+        if I_SettlementOwner Apamea = parthia
+        console_command add_population Apamea 600
+        end_if
+   		if I_SettlementOwner Tabae = parthia
+		console_command add_population Tabae 600
+		end_if
+		if I_SettlementOwner Susa = parthia
+		console_command add_population Susa 600
+		end_if
     end_if
 	if not I_LocalFaction roman_rebels
     and I_SettlementOwner Khiva = roman_rebels
     console_command diplomatic_stance parthia roman_rebels War
-    console_command add_money parthia, 35000
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
+    console_command add_money roman_rebels, -40000
 		if I_SettlementOwner Zadracarta = parthia
         console_command add_population Zadracarta 600
     	end_if
@@ -22073,7 +22218,8 @@ end_if
 	if not I_LocalFaction roman_rebels
     and I_SettlementOwner Istakhr = roman_rebels
     console_command diplomatic_stance parthia roman_rebels War
-    console_command add_money parthia, 20000
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
 		if I_SettlementOwner Zadracarta = parthia
         console_command add_population Zadracarta 600
     	end_if
@@ -22093,7 +22239,8 @@ end_if
 	if not I_LocalFaction roman_rebels
     and I_SettlementOwner Tabae = roman_rebels
     console_command diplomatic_stance parthia roman_rebels War
-    console_command add_money parthia, 25000
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
 		if I_SettlementOwner Zadracarta = parthia
         console_command add_population Zadracarta 600
     	end_if
@@ -22929,6 +23076,43 @@ and not I_LocalFaction roman_rebels
 	end_if
 end_if
 
+if I_NumberOfSettlements egypt > 0
+and not I_LocalFaction egypt
+and not I_LocalFaction romans_brutii
+and I_SettlementOwner Thebes = romans_brutii
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command add_population Thebes 4000
+console_command diplomatic_stance egypt romans_brutii War
+console_command add_money egypt, 10000
+spawn_army 
+    faction egypt
+    		character Teos, general, age 30, x 192, y 52
+			unit greek general's guard cavalry, exp 3 armour 1 weapon_lvl 1
+			unit egyptian peltast, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+            unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit egyptian nile infantry, exp 3 armour 1 weapon_lvl 1
+			unit egyptian nile infantry, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek royal pikemen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+            unit greek swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit greek swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit egyptian cleruch, exp 3 armour 1 weapon_lvl 1
+            unit egyptian cleruch, exp 3 armour 1 weapon_lvl 1
+			unit greek xystophoroi, exp 3 armour 1 weapon_lvl 1
+			unit greek xystophoroi, exp 3 armour 1 weapon_lvl 1
+			unit greek royal cavalry, exp 3 armour 1 weapon_lvl 1
+            end
+end_if
 if I_CompareCounter conquering_greece = 0
 	and not I_LocalFaction romans_scipii
 	and not I_LocalFaction spain
@@ -23266,7 +23450,6 @@ end_if
 
 if I_CompareCounter conquering_greece = 1
     and I_NumberOfSettlements romans_scipii > 0
-	and not I_LocalFaction romans_scipii	    
     if I_SettlementOwner Segestica != spain
         and I_SettlementOwner Scodra != spain
         and I_SettlementOwner Vienna != spain
@@ -23532,6 +23715,7 @@ monitor_event FactionTurnStart FactionType romans_julii
 and DiplomaticStanceFromFaction spain = AtWar
 and DiplomaticStanceFromFaction thrace = Neutral
 if I_NumberOfSettlements thrace > 0
+and not I_LocalFaction thrace
 and I_NumberOfSettlements romans_julii < 7
 console_command diplomatic_stance romans_julii thrace allied
 end_if
@@ -23696,6 +23880,7 @@ end_if
 end_monitor
 
 monitor_event FactionTurnEnd FactionIsLocal
+    and I_TurnNumber < 150
     and not I_LocalFaction seleucid
     and not I_LocalFaction parthia
     if I_SettlementOwner Zadracarta = seleucid
