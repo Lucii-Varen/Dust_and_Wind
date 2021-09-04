@@ -22142,122 +22142,6 @@ and not I_LocalFaction parthia
 and I_NumberOfSettlements roman_rebels > 0
 console_command diplomatic_stance roman_rebels parthia War
 end_if
-if not I_LocalFaction parthia
-	and I_NumberOfSettlements parthia > 0
-    if not I_LocalFaction roman_rebels
-    and I_SettlementOwner Nisa = roman_rebels
-    console_command diplomatic_stance parthia roman_rebels War
-    console_command add_money parthia, 40000
-    console_command add_money roman_rebels, -40000
-    console_command add_money roman_rebels, -40000
-		if I_SettlementOwner Zadracarta = parthia
-        console_command add_population Zadracarta 600
-    	end_if
-    	if I_SettlementOwner Hecatompylos = parthia
-        console_command add_population Hecatompylos 600
-    	end_if
-    	if I_SettlementOwner Asaak = parthia
-        console_command add_population Asaak 600
-        end_if
-        if I_SettlementOwner Apamea = parthia
-        console_command add_population Apamea 600
-        end_if
-   		if I_SettlementOwner Tabae = parthia
-		console_command add_population Tabae 600
-		end_if
-		if I_SettlementOwner Susa = parthia
-		console_command add_population Susa 600
-		end_if
-	end_if
-    if not I_LocalFaction roman_rebels
-    and I_SettlementOwner Hecatompylos = roman_rebels
-    console_command diplomatic_stance parthia roman_rebels War
-    console_command add_money parthia, 40000
-    console_command add_money roman_rebels, -40000
-		if I_SettlementOwner Zadracarta = parthia
-        console_command add_population Zadracarta 600
-    	end_if
-    	if I_SettlementOwner Nisa = parthia
-        console_command add_population Hecatompylos 600
-    	end_if
-    	if I_SettlementOwner Asaak = parthia
-        console_command add_population Asaak 600
-        end_if
-        if I_SettlementOwner Apamea = parthia
-        console_command add_population Apamea 600
-        end_if
-   		if I_SettlementOwner Tabae = parthia
-		console_command add_population Tabae 600
-		end_if
-		if I_SettlementOwner Susa = parthia
-		console_command add_population Susa 600
-		end_if
-    end_if
-	if not I_LocalFaction roman_rebels
-    and I_SettlementOwner Khiva = roman_rebels
-    console_command diplomatic_stance parthia roman_rebels War
-    console_command add_money parthia, 40000
-    console_command add_money roman_rebels, -40000
-    console_command add_money roman_rebels, -40000
-		if I_SettlementOwner Zadracarta = parthia
-        console_command add_population Zadracarta 600
-    	end_if
-    	if I_SettlementOwner Hecatompylos = parthia
-        console_command add_population Hecatompylos 600
-    	end_if
-    	if I_SettlementOwner Asaak = parthia
-        console_command add_population Asaak 600
-        end_if
-        if I_SettlementOwner Apamea = parthia
-        console_command add_population Apamea 600
-        end_if
-   		if I_SettlementOwner Tabae = parthia
-		console_command add_population Tabae 600
-    	end_if
-end_if
-	if not I_LocalFaction roman_rebels
-    and I_SettlementOwner Istakhr = roman_rebels
-    console_command diplomatic_stance parthia roman_rebels War
-    console_command add_money parthia, 40000
-    console_command add_money roman_rebels, -40000
-		if I_SettlementOwner Zadracarta = parthia
-        console_command add_population Zadracarta 600
-    	end_if
-    	if I_SettlementOwner Hecatompylos = parthia
-        console_command add_population Hecatompylos 600
-    	end_if
-    	if I_SettlementOwner Asaak = parthia
-        console_command add_population Asaak 600
-        end_if
-        if I_SettlementOwner Apamea = parthia
-        console_command add_population Apamea 600
-        end_if
-   		if I_SettlementOwner Tabae = parthia
-		console_command add_population Tabae 600
-		end_if
-	end_if
-	if not I_LocalFaction roman_rebels
-    and I_SettlementOwner Tabae = roman_rebels
-    console_command diplomatic_stance parthia roman_rebels War
-    console_command add_money parthia, 40000
-    console_command add_money roman_rebels, -40000
-		if I_SettlementOwner Zadracarta = parthia
-        console_command add_population Zadracarta 600
-    	end_if
-    	if I_SettlementOwner Hecatompylos = parthia
-        console_command add_population Hecatompylos 600
-    	end_if
-    	if I_SettlementOwner Asaak = parthia
-        console_command add_population Asaak 600
-        end_if
-        if I_SettlementOwner Apamea = parthia
-        console_command add_population Apamea 600
-        end_if
-   		if I_SettlementOwner Istakhr = parthia
-		console_command add_population Istakhr 600
-		end_if
-	end_if
-end_if
 
 if not I_LocalFaction macedon
 	and I_NumberOfSettlements macedon > 0
@@ -23712,6 +23596,7 @@ end_if
 end_monitor
 
 monitor_event FactionTurnStart FactionType romans_julii
+and FactionIsLocal
 and DiplomaticStanceFromFaction spain = AtWar
 and DiplomaticStanceFromFaction thrace = Neutral
 if I_NumberOfSettlements thrace > 0
@@ -23731,10 +23616,12 @@ monitor_event FactionTurnStart FactionType romans_julii
 and not FactionIsLocal
 and DiplomaticStanceFromFaction germans = AtWar
 if I_NumberOfSettlements scythia > 0
+and not I_LocalFaction germans
 and I_NumberOfSettlements romans_julii < 7
 console_command diplomatic_stance scythia germans War
 end_if
 if I_NumberOfSettlements gauls > 0
+and not I_LocalFaction gauls
 and I_NumberOfSettlements romans_julii < 7
 console_command diplomatic_stance gauls germans War
 end_if
@@ -23881,27 +23768,150 @@ end_monitor
 
 monitor_event FactionTurnEnd FactionIsLocal
     and I_TurnNumber < 150
-    and not I_LocalFaction seleucid
+if not I_LocalFaction parthia
+	and I_NumberOfSettlements parthia > 0
+    if not I_LocalFaction roman_rebels
+    and I_SettlementOwner Nisa = roman_rebels
+    console_command diplomatic_stance parthia roman_rebels War
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
+    console_command add_money roman_rebels, -40000
+		if I_SettlementOwner Zadracarta = parthia
+        console_command add_population Zadracarta 600
+    	end_if
+    	if I_SettlementOwner Hecatompylos = parthia
+        console_command add_population Hecatompylos 600
+    	end_if
+    	if I_SettlementOwner Asaak = parthia
+        console_command add_population Asaak 600
+        end_if
+        if I_SettlementOwner Apamea = parthia
+        console_command add_population Apamea 600
+        end_if
+   		if I_SettlementOwner Tabae = parthia
+		console_command add_population Tabae 600
+		end_if
+		if I_SettlementOwner Susa = parthia
+		console_command add_population Susa 600
+		end_if
+	end_if
+    if not I_LocalFaction roman_rebels
+    and I_SettlementOwner Hecatompylos = roman_rebels
+    console_command diplomatic_stance parthia roman_rebels War
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
+		if I_SettlementOwner Zadracarta = parthia
+        console_command add_population Zadracarta 600
+    	end_if
+    	if I_SettlementOwner Nisa = parthia
+        console_command add_population Hecatompylos 600
+    	end_if
+    	if I_SettlementOwner Asaak = parthia
+        console_command add_population Asaak 600
+        end_if
+        if I_SettlementOwner Apamea = parthia
+        console_command add_population Apamea 600
+        end_if
+   		if I_SettlementOwner Tabae = parthia
+		console_command add_population Tabae 600
+		end_if
+		if I_SettlementOwner Susa = parthia
+		console_command add_population Susa 600
+		end_if
+    end_if
+	if not I_LocalFaction roman_rebels
+    and I_SettlementOwner Khiva = roman_rebels
+    console_command diplomatic_stance parthia roman_rebels War
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
+    console_command add_money roman_rebels, -40000
+		if I_SettlementOwner Zadracarta = parthia
+        console_command add_population Zadracarta 600
+    	end_if
+    	if I_SettlementOwner Hecatompylos = parthia
+        console_command add_population Hecatompylos 600
+    	end_if
+    	if I_SettlementOwner Asaak = parthia
+        console_command add_population Asaak 600
+        end_if
+        if I_SettlementOwner Apamea = parthia
+        console_command add_population Apamea 600
+        end_if
+   		if I_SettlementOwner Tabae = parthia
+		console_command add_population Tabae 600
+    	end_if
+end_if
+	if not I_LocalFaction roman_rebels
+    and I_SettlementOwner Istakhr = roman_rebels
+    console_command diplomatic_stance parthia roman_rebels War
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
+		if I_SettlementOwner Zadracarta = parthia
+        console_command add_population Zadracarta 600
+    	end_if
+    	if I_SettlementOwner Hecatompylos = parthia
+        console_command add_population Hecatompylos 600
+    	end_if
+    	if I_SettlementOwner Asaak = parthia
+        console_command add_population Asaak 600
+        end_if
+        if I_SettlementOwner Apamea = parthia
+        console_command add_population Apamea 600
+        end_if
+   		if I_SettlementOwner Tabae = parthia
+		console_command add_population Tabae 600
+		end_if
+	end_if
+	if not I_LocalFaction roman_rebels
+    and I_SettlementOwner Tabae = roman_rebels
+    console_command diplomatic_stance parthia roman_rebels War
+    console_command add_money parthia, 40000
+    console_command add_money roman_rebels, -40000
+		if I_SettlementOwner Zadracarta = parthia
+        console_command add_population Zadracarta 600
+    	end_if
+    	if I_SettlementOwner Hecatompylos = parthia
+        console_command add_population Hecatompylos 600
+    	end_if
+    	if I_SettlementOwner Asaak = parthia
+        console_command add_population Asaak 600
+        end_if
+        if I_SettlementOwner Apamea = parthia
+        console_command add_population Apamea 600
+        end_if
+   		if I_SettlementOwner Istakhr = parthia
+		console_command add_population Istakhr 600
+		end_if
+	end_if
+end_if
+if not I_LocalFaction seleucid
     and not I_LocalFaction parthia
     if I_SettlementOwner Zadracarta = seleucid
     console_command add_population Zadracarta 4000
     console_command add_population Zadracarta 4000
     console_command add_population Zadracarta 4000
     console_command add_population Zadracarta 4000
-end_if
+	end_if
 	if I_SettlementOwner Hecatompylos = seleucid
     console_command add_population Hecatompylos 4000
     console_command add_population Hecatompylos 4000
     console_command add_population Hecatompylos 4000
     console_command add_population Hecatompylos 4000
-end_if
+	end_if
 	if I_SettlementOwner Zadracarta = parthia
     and I_SettlementOwner Apamea = seleucid    
     console_command add_population Apamea 4000
     console_command add_population Apamea 4000
     console_command add_population Apamea 4000
     console_command add_population Apamea 4000
-end_if
+	end_if
+	if I_SettlementOwner Apamea = parthia
+    and I_SettlementOwner Tabae = seleucid   
+    console_command add_population Tabae 4000
+    console_command add_population Tabae 4000
+    console_command add_population Tabae 4000
+    console_command add_population Tabae 4000
+	end_if
 	if I_SettlementOwner Apamea = parthia
     and I_SettlementOwner Tabae = seleucid   
     console_command add_population Tabae 4000
@@ -23909,15 +23919,10 @@ end_if
     console_command add_population Tabae 4000
     console_command add_population Tabae 4000
 end_if
-if I_SettlementOwner Apamea = parthia
-    and I_SettlementOwner Tabae = seleucid   
-    console_command add_population Tabae 4000
-    console_command add_population Tabae 4000
-    console_command add_population Tabae 4000
-    console_command add_population Tabae 4000
 end_if
     if I_SettlementOwner Tabae = roman_rebels
     and not I_LocalFaction roman_rebels
+    and not I_LocalFaction parthia
     console_command add_population Tabae 4000
     console_command add_population Tabae 4000
     console_command add_population Tabae 4000

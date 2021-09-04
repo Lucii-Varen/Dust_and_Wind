@@ -110,6 +110,7 @@ BANK: music_bank
 				rombattle4.mp3
 				battle_all.MP3
 				rombattle5.mp3
+				rombattle6.mp3
 			end
 
 
@@ -300,8 +301,8 @@ BANK: music_bank
 				folder civ/data/sounds/music
 				barb_tension.mp3
 				barb_tension.mp3
-				barb_tension.mp3
-				barb_tension.mp3
+				barb_tension1.mp3
+				strat_barbarian_music7.mp3
 			end
 			
 			
@@ -313,15 +314,18 @@ BANK: music_bank
 				Mobilize_barb1.mp3
 				Mobilize_barb4.mp3
 				mobilize_barb3.MP3
+				Mobilize_barb5.mp3
 			end
 		state MUSIC_BATTLE_BATTLE
 			event
 				folder civ/data/sounds/music
-				barb_heavy_battle.mp3
 				barb_epic_battle.mp3
 				barb_long_battle_barb.MP3
 				barb_great_battle.MP3
 				barb_heavy_battle.mp3
+				barb_battle3.mp3
+				barb_battle1.mp3
+				barb_battle2.mp3
 			end
 
 

@@ -11457,3 +11457,37 @@ begin_formation ambush_defender_deployment
 
 
 end_formation
+;****************************************************************
+; Alternate Ambush deployment
+; Column marching formation for the army being ambushed, allows stretching
+;****************************************************************
+
+begin_formation alternate_ambush_defender_deployment
+
+	alternate_ambush_defender_deployment
+	ai_priority 0.1
+
+	;;; general at the front
+	begin_block 0
+		min_units				1
+		max_units				1
+		unit_type				general_unit			1.0
+		unit_density			close
+		block_formation			line
+		block_relative_pos		0 0.0 0.0
+		inter_unit_spacing		2.0
+		priority				1.0
+	end_block
+
+	;;; all other units behind
+	begin_block 1
+		unit_type				any					1.0
+		unit_density			close
+		block_formation			column
+		block_relative_pos		0 0.0 -2.0
+		inter_unit_spacing		2.0
+		priority				1.0
+	end_block
+
+
+end_formation

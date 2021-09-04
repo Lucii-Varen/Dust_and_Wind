@@ -1,7 +1,7 @@
 ;This file is generated from a spreadsheet
 ;Please do not modify by hand
 ;roman campaign
-hidden_resources sparta rome carthage italy etruscans samnites athen creat pergam syracuse thermon thessalia corinth rhodos I_GERMANICA II_AUGUSTA III_AUGUSTA III_Gallica IX_Hispana V_alaudae V_ALAUDEA_imp I_parthica II_adiuturix II_TRAIANA V_MACEDONICA early_VII_CLAUDIA VII_CLAUDIA XVI_flavia XXII_primigenia IV_SCYTHICA vi_ferrata viking cretan getti africa galats greek Germania scythian eastern sugdian Ephesus arabia illyria Cilicia indian
+hidden_resources sparta rome carthage italy etruscans samnites athen creat pergam syracuse thermon thessalia corinth rhodos I_GERMANICA II_AUGUSTA III_AUGUSTA III_Gallica IX_Hispana V_alaudae V_ALAUDEA_imp I_parthica II_adiuturix II_TRAIANA V_MACEDONICA early_VII_CLAUDIA VII_CLAUDIA XVI_flavia XXII_primigenia IV_SCYTHICA vi_ferrata viking cretan getti africa galats greek Germania scythian eastern sugdian Ephesus arabia illyria Cilicia indian bosporus
 
 building core_building
 {
@@ -1225,7 +1225,7 @@ building barracks
                 recruit "heavy thureos swordsmen"  0  requires factions { romans_julii, } and not building_factions { slave, } and building_present_min_level greek_war_art greek_militarism 
                 ;;;;;;;;;;; A O R ;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;EASTERN;;;;;;;;;;;;;;;;;
-                recruit "east infantry"  0  requires factions { carthage, egypt, britons, parthia, armenia, pontus, romans_brutii, seleucid, macedon, romans_julii, greek_cities, numidia, thrace, dacia, spain, gauls, germans, romans_scipii, roman_rebels, } and hidden_resource eastern
+;                recruit "east infantry"  0  requires factions { carthage, egypt, britons, parthia, armenia, pontus, romans_brutii, seleucid, macedon, romans_julii, greek_cities, numidia, thrace, dacia, spain, gauls, germans, romans_scipii, roman_rebels, } and hidden_resource eastern
                 recruit "sugdian warriors"  0  requires factions { barbarian, parthia, pontus, armenia, greek, carthage, egypt, } and hidden_resource sugdian
                 recruit "arab infantry"  0  requires factions { slave, carthage, egypt, britons, parthia, armenia, pontus, romans_brutii, roman_rebels, seleucid, macedon, romans_julii, greek_cities, numidia, thrace, romans_scipii, dacia, spain, gauls, germans, } and hidden_resource arabia
                 recruit "parthian takabara"  0  requires factions { britons, } and hidden_resource eastern
@@ -1680,7 +1680,7 @@ building barracks
 ;;;;;;;;;;;A O R;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;EASTERN;;;;;;;;;;;;;;;;;
                 recruit "sugdian warriors"  0  requires factions { carthage, egypt, parthia, armenia, pontus, romans_brutii, seleucid, macedon, romans_julii, greek_cities, numidia, thrace, dacia, spain, gauls, germans, britons, } and hidden_resource sugdian
-                recruit "east infantry"  1  requires factions { eastern, barbarian, egypt, carthage, greek, romans_scipii, roman_rebels, } and hidden_resource eastern
+;                recruit "east infantry"  1  requires factions { eastern, barbarian, egypt, carthage, greek, romans_scipii, roman_rebels, } and hidden_resource eastern
                 recruit "arab infantry"  0  requires factions { slave, carthage, egypt, britons, parthia, armenia, pontus, romans_brutii, roman_rebels, seleucid, macedon, romans_julii, greek_cities, numidia, thrace, romans_scipii, dacia, spain, gauls, germans, } and hidden_resource arabia
                 recruit "parthian takabara"  0  requires factions { britons, } and hidden_resource eastern
                 recruit "east heavy sparabara"  0  requires factions { britons, } and hidden_resource eastern
@@ -1923,8 +1923,8 @@ building equestrian
                 recruit "greek light lancer"  0  requires factions { macedon, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
                 recruit "greek medium cavalry"  0  requires factions { thrace, seleucid, macedon, } and building_factions { slave, }
                 recruit "greek medium cavalry"  0  requires factions { thrace, seleucid, macedon, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
-                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, } and building_factions { slave, }
-                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
+                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, thrace, } and building_factions { slave, }
+                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, thrace, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
                 recruit "egyptian bedouin"  0  requires factions { egyptian, }  and resource camels and building_factions { slave, }
                 recruit "egyptian bedouin"  0  requires factions { egyptian, }  and resource camels and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
                 recruit "egypt cavalry"  0  requires factions { egypt, } and building_factions { slave, }
@@ -1959,7 +1959,7 @@ building equestrian
                 recruit "numidian cavalry"  0  requires factions { romans_scipii, roman_rebels, barbarian, carthage, greek, eastern, egypt, } and hidden_resource africa 
                 recruit "eastern cavalry"  0  requires factions { barbarian, romans_scipii, roman_rebels, greek, carthage, egypt, } and hidden_resource eastern
                 recruit "eastern cavalry"  0  requires factions { barbarian, romans_scipii, roman_rebels, greek, carthage, egypt, } and hidden_resource IV_SCYTHICA
-                recruit "bosphorian cavalry"  0  requires factions { thrace, }  and hidden_resource getti
+                recruit "bosphorian cavalry"  0  requires factions { thrace, }  and hidden_resource bosporus
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
                 ;;;;;;;;;;;;;;;;;;;;;merc;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "merc barbarian cavalry"  0  requires factions { greek, barbarian, carthage, egypt, eastern, romans_scipii, roman_rebels, } and hidden_resource IX_Hispana
@@ -2100,8 +2100,8 @@ building equestrian
                 recruit "greek cavalry"  0  requires factions { seleucid, thrace, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
                 recruit "greek medium cavalry"  0  requires factions { thrace, seleucid, macedon, } and building_factions { slave, }
                 recruit "greek medium cavalry"  0  requires factions { thrace, seleucid, macedon, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
-                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, } and building_factions { slave, }
-                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
+                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, thrace, } and building_factions { slave, }
+                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, thrace, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
                 recruit "egyptian bedouin"  0  requires factions { egyptian, }  and resource camels and building_factions { slave, }
                 recruit "egyptian bedouin"  0  requires factions { egyptian, }  and resource camels and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
                 recruit "egypt cavalry"  0  requires factions { egypt, } and building_factions { slave, }
@@ -2179,7 +2179,7 @@ building equestrian
                 recruit "thracian light cavalry"  0  requires factions { thrace, } and hidden_resource getti 
                 recruit "greek royal cavalry"  0  requires factions { greek_cities, numidia, barbarian, eastern, } and hidden_resource cretan
                 recruit "greek heavy cavalry"  0  requires factions { greek, eastern, carthage, scythia, dacia, gauls, egypt, } and hidden_resource thessalia
-                recruit "bosphorian cavalry"  0  requires factions { thrace, }  and hidden_resource getti
+                recruit "bosphorian cavalry"  0  requires factions { thrace, }  and hidden_resource bosporus
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
                 ;;;;;;;;;;;;;;;;;;;;;merc;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "merc barbarian cavalry"  0  requires factions { greek, barbarian, carthage, egypt, eastern, romans_scipii, roman_rebels, } and hidden_resource IX_Hispana
@@ -2208,7 +2208,7 @@ building equestrian
                 circus_maximus
             }
         }
-        circus_maximus requires factions { carthage, parthia, pontus, britons, armenia, macedon, seleucid, romans_scipii, roman_rebels, } 
+        circus_maximus requires factions { carthage, parthia, pontus, britons, armenia, macedon, seleucid, romans_scipii, roman_rebels, thrace, } 
         {
             capability
             {
@@ -2334,8 +2334,8 @@ building equestrian
                 recruit "greek cavalry"  0  requires factions { seleucid, thrace, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
                 recruit "greek medium cavalry"  0  requires factions { thrace, seleucid, macedon, } and building_factions { slave, } 
                 recruit "greek medium cavalry"  0  requires factions { thrace, seleucid, macedon, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
-                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, } and building_factions { slave, } 
-                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
+                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, thrace, } and building_factions { slave, } 
+                recruit "tarantine cavalry"  0  requires factions { egypt, macedon, seleucid, thrace, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
                 recruit "egyptian bedouin"  0  requires factions { egyptian, }  and resource camels and building_factions { slave, } 
                 recruit "egyptian bedouin"  0  requires factions { egyptian, }  and resource camels and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
                 recruit "egypt cavalry"  0  requires factions { egypt, } and building_factions { slave, } 
@@ -2420,7 +2420,7 @@ building equestrian
                 recruit "east cappodocian cavalry"  0  requires factions { pontus, } and hidden_resource IV_SCYTHICA
                 recruit "greek royal cavalry"  0  requires factions { greek_cities, numidia, barbarian, eastern, } and hidden_resource cretan
                 recruit "greek heavy cavalry"  1  requires factions { greek, eastern, carthage, scythia, dacia, gauls, egypt, } and hidden_resource thessalia 
-                recruit "bosphorian cavalry"  0  requires factions { thrace, } and hidden_resource getti
+                recruit "bosphorian cavalry"  0  requires factions { thrace, } and hidden_resource bosporus
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
                 ;;;;;;;;;;;;;;;;;;;;;merc;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "merc barbarian cavalry"  0  requires factions { greek, barbarian, carthage, egypt, eastern, romans_scipii, roman_rebels, } and hidden_resource IX_Hispana
@@ -2699,8 +2699,8 @@ building missiles
                 recruit "egyptian slingers"  0  requires factions { egyptian, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy 
                 recruit "thracian agrians"  0  requires factions { thrace, } and building_factions { slave, }
                 recruit "thracian agrians"  0  requires factions { thrace, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy 
-                recruit "diadoch archer elite"  0  requires factions { egypt, macedon, seleucid, } and building_factions { slave, }
-                recruit "diadoch archer elite"  0  requires factions { egypt, macedon, seleucid, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy 
+                recruit "diadoch archer elite"  0  requires factions { egypt, macedon, seleucid, thrace, } and building_factions { slave, }
+                recruit "diadoch archer elite"  0  requires factions { egypt, macedon, seleucid, thrace, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy 
 
                 recruit "cimmerian archer elite"  0  requires factions { britons, } and building_factions { slave, } 
                 recruit "cimmerian archer elite"  0  requires factions { britons, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
@@ -2840,8 +2840,8 @@ building missiles
                 recruit "egyptian slingers"  0  requires factions { egyptian, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy 
                 recruit "thracian agrians"  0  requires factions { thrace, } and building_factions { slave, } 
                 recruit "thracian agrians"  0  requires factions { thrace, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy 
-                recruit "diadoch archer elite"  0  requires factions { egypt, macedon, seleucid, } and building_factions { slave, } 
-                recruit "diadoch archer elite"  0  requires factions { egypt, macedon, seleucid, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy 
+                recruit "diadoch archer elite"  0  requires factions { egypt, macedon, seleucid, thrace, } and building_factions { slave, } 
+                recruit "diadoch archer elite"  0  requires factions { egypt, macedon, seleucid, thrace, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy 
 
                 recruit "cimmerian archer elite"  0  requires factions { britons, } and building_factions { slave, } 
                 recruit "cimmerian archer elite"  0  requires factions { britons, } and not building_factions { slave, } and building_present_min_level gymnasium cleruchy
@@ -2930,7 +2930,7 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
+		taxable_income_bonus 100 requires factions { eastern, } and resource silk
 		taxable_income_bonus 100 requires factions { eastern, } and resource camels
 		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 1 requires factions { greek, barbarian, eastern, egypt, carthage, }
@@ -2966,7 +2966,7 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs  
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
+		taxable_income_bonus 100 requires factions { eastern, } and resource silk
 		taxable_income_bonus 100 requires factions { eastern, } and resource camels
 		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 2 requires factions { greek, barbarian, eastern, egypt, carthage, }
@@ -3009,7 +3009,7 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
+		taxable_income_bonus 100 requires factions { eastern, } and resource silk
 		taxable_income_bonus 100 requires factions { eastern, } and resource camels
 		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 3 requires factions { greek, barbarian, eastern, egypt, carthage, }
@@ -3052,7 +3052,7 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
+		taxable_income_bonus 100 requires factions { eastern, } and resource silk
 		taxable_income_bonus 100 requires factions { eastern, } and resource camels
 		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 4 requires factions { greek, barbarian, eastern, egypt, carthage, }
@@ -3095,7 +3095,7 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { britons, eastern, } and resource silk
+		taxable_income_bonus 100 requires factions { eastern, } and resource silk
 		taxable_income_bonus 100 requires factions { eastern, } and resource camels
 		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 5 requires factions { greek, barbarian, eastern, egypt, carthage, }
@@ -3950,6 +3950,7 @@ building development_east
                 taxable_income_bonus 220 requires factions { romans_brutii, } and resource incense
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
 		taxable_income_bonus 100 requires factions { eastern, } and resource silk
+		taxable_income_bonus 100 requires factions { eastern, } and resource camels
             }
             construction  2 
             cost  10000 
@@ -3967,8 +3968,9 @@ building development_east
                 taxable_income_bonus 200 requires factions { carthage, eastern, } 
 
                 taxable_income_bonus 220 requires factions { romans_brutii, } and resource incense
-		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
+		taxable_income_bonus 120 requires factions { carthage, } and resource elephants
 		taxable_income_bonus 100 requires factions { eastern, } and resource silk
+		taxable_income_bonus 100 requires factions { eastern, } and resource camels
             }
             construction  3 
             cost  12000 
@@ -3986,8 +3988,9 @@ building development_east
                 taxable_income_bonus 220 requires factions { carthage, eastern, } 
 
                 taxable_income_bonus 220 requires factions { romans_brutii, } and resource incense
-		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
+		taxable_income_bonus 120 requires factions { carthage, } and resource elephants
 		taxable_income_bonus 100 requires factions { eastern, } and resource silk
+		taxable_income_bonus 120 requires factions { eastern, } and resource camels
             }
             construction  4 
             cost  15000 
@@ -4411,6 +4414,7 @@ building theatres
             capability
             {
                 happiness_bonus bonus 3
+                stage_races 1 requires factions { greek, } and building_present_min_level equestrian hippodrome
             }
             construction  3 
             cost  1600 
@@ -4426,6 +4430,7 @@ building theatres
             {
                 happiness_bonus bonus 4
                 stage_races 1 requires factions { greek, } and building_present_min_level equestrian hippodrome
+                stage_races 2 requires factions { greek, } and building_present_min_level equestrian circus_maximus
             }
             construction  5 
             cost  3200 
@@ -4440,6 +4445,7 @@ building theatres
             capability
             {
                 happiness_bonus bonus 5
+                stage_races 1 requires factions { greek, } and building_present_min_level equestrian hippodrome
                 stage_races 2 requires factions { greek, } and building_present_min_level equestrian circus_maximus
             }
             construction  6 

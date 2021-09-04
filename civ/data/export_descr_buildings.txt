@@ -1,7 +1,7 @@
 ;This file is generated from a spreadsheet
 ;Please do not modify by hand
 
-hidden_resources sparta rome carthage italy etruscans samnites athen creat pergam syracuse thermon thessalia corinth rhodos I_GERMANICA II_AUGUSTA III_AUGUSTA III_Gallica IX_Hispana V_alaudae V_ALAUDEA_imp I_parthica II_adiuturix II_TRAIANA V_MACEDONICA early_VII_CLAUDIA VII_CLAUDIA XVI_flavia XXII_primigenia IV_SCYTHICA vi_ferrata viking cretan getti africa galats greek Germania scythian eastern sugdian Ephesus arabia illyria Cilicia indian
+hidden_resources sparta rome carthage italy etruscans samnites athen creat pergam syracuse thermon thessalia corinth rhodos I_GERMANICA II_AUGUSTA III_AUGUSTA III_Gallica IX_Hispana V_alaudae V_ALAUDEA_imp I_parthica II_adiuturix II_TRAIANA V_MACEDONICA early_VII_CLAUDIA VII_CLAUDIA XVI_flavia XXII_primigenia IV_SCYTHICA vi_ferrata viking cretan getti africa galats greek Germania scythian eastern sugdian Ephesus arabia illyria Cilicia indian bosporus
 
 building core_building
 {
@@ -1513,7 +1513,7 @@ building equestrian
                 recruit "numidian cavalry"  0  requires factions { romans_scipii, barbarian, carthage, greek, eastern, egypt, } and hidden_resource africa 
                 recruit "eastern cavalry"  0  requires factions { barbarian, romans_scipii, greek, carthage, egypt, } and hidden_resource eastern
                 recruit "eastern cavalry"  0  requires factions { barbarian, romans_scipii, greek, carthage, egypt, } and hidden_resource IV_SCYTHICA
-                recruit "bosphorian cavalry"  0  requires factions { thrace, }  and hidden_resource getti
+                recruit "bosphorian cavalry"  0  requires factions { thrace, }  and hidden_resource bosporus
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
                 ;;;;;;;;;;;;;;;;;;;;;merc;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "merc barbarian cavalry"  0  requires factions { greek, barbarian, carthage, egypt, eastern, romans_scipii, } and hidden_resource IX_Hispana
@@ -1728,7 +1728,7 @@ building equestrian
                 recruit "thracian light cavalry"  0  requires factions { thrace, } and hidden_resource getti 
                 recruit "greek royal cavalry"  0  requires factions { greek_cities, numidia, barbarian, eastern, } and hidden_resource cretan
                 recruit "greek heavy cavalry"  0  requires factions { greek, eastern, carthage, scythia, dacia, gauls, egypt, } and hidden_resource thessalia
-                recruit "bosphorian cavalry"  0  requires factions { thrace, }  and hidden_resource getti
+                recruit "bosphorian cavalry"  0  requires factions { thrace, }  and hidden_resource bosporus
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
                 ;;;;;;;;;;;;;;;;;;;;;merc;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "merc barbarian cavalry"  0  requires factions { greek, barbarian, carthage, egypt, eastern, romans_scipii, } and hidden_resource IX_Hispana
@@ -1964,7 +1964,7 @@ building equestrian
                 recruit "east cappodocian cavalry"  0  requires factions { pontus, } and hidden_resource IV_SCYTHICA
                 recruit "greek royal cavalry"  0  requires factions { greek_cities, numidia, barbarian, eastern, } and hidden_resource cretan
                 recruit "greek heavy cavalry"  1  requires factions { greek, eastern, carthage, scythia, dacia, gauls, egypt, } and hidden_resource thessalia 
-                recruit "bosphorian cavalry"  0  requires factions { thrace, } and hidden_resource getti
+                recruit "bosphorian cavalry"  0  requires factions { thrace, } and hidden_resource bosporus
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
                 ;;;;;;;;;;;;;;;;;;;;;merc;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "merc barbarian cavalry"  0  requires factions { greek, barbarian, carthage, egypt, eastern, romans_scipii, } and hidden_resource IX_Hispana

@@ -78,7 +78,7 @@ Scythia
 	greek_cities				
 	Scythians				
 	33 131 116				
-	pigs, hides, iron, slaves, greek, scythian		
+	pigs, hides, iron, slaves, greek, scythian, bosporus		
 	5
 	12
 
@@ -87,7 +87,7 @@ Getia
 	dacia				
 	Daci				
 	72 177 58				
-	grain, slaves, VII_CLAUDIA, getti 		
+	grain, slaves, VII_CLAUDIA, getti, bosporus 		
 	5
 	9
 
@@ -96,7 +96,7 @@ Scythia_Parva
 	thrace				
 	Getae				
 	131 33 38				
-	dogs, timber, slaves, VII_CLAUDIA, getti, greek		
+	dogs, timber, slaves, VII_CLAUDIA, getti, greek, bosporus		
 	5
 	6
 
@@ -105,7 +105,7 @@ Heraclea_Chersonesus
 	romans_julii				
 	Chersonesans				
 	17 74 202				
-	dogs, wine, slaves, greek, scythian		
+	dogs, wine, slaves, greek, scythian, bosporus		
 	5
 	6
 
@@ -114,7 +114,7 @@ Taurica
 	dacia				
 	Scythians				
 	211 212 2				
-	furs, slaves, greek, scythian		
+	furs, slaves, greek, scythian, bosporus		
 	5
 	5
 
@@ -123,7 +123,7 @@ Regnum_Bosphoranum
 	romans_julii				
 	Bosphorans				
 	200 197 155				
-	dogs, pottery, furs, slaves, greek, scythian		
+	dogs, pottery, furs, slaves, greek, scythian, bosporus		
 	5
 	5
 
@@ -132,7 +132,7 @@ Maeotis
 	romans_julii				
 	Maeotae				
 	131 89 33				
-	textiles, grain, furs, pigs, slaves, greek, scythian	
+	textiles, grain, furs, pigs, slaves, greek, scythian, bosporus	
 	5
 	14
 
@@ -233,7 +233,7 @@ Moesia
 	thrace				
 	Moesii				
 	98 101 199						
-	silver, slaves, VII_CLAUDIA, illyria, getti	
+	silver, slaves, VII_CLAUDIA, illyria, getti, bosporus	
 	5
 	6
 
@@ -242,7 +242,7 @@ Thrace
 	thrace				
 	Odrysae				
 	218 246 61				
-	pigs, marble, copper, gold, VII_CLAUDIA, V_MACEDONICA, slaves, getti, greek			
+	pigs, marble, copper, gold, VII_CLAUDIA, V_MACEDONICA, slaves, getti, greek, bosporus			
 	5
 	10
 
@@ -260,7 +260,7 @@ Albania
 	armenia				
 	Albanians				
 	251 210 147				
-	dogs, slaves, IV_SCYTHICA		
+	dogs, slaves, eastern		
 	5
 	5
 ;;;;;;;;;;;;;Greece;;;;;;;;;;;;;;;;;;;;;
@@ -305,7 +305,7 @@ Propontis
 	thrace				
 	Sithones				
 	118 131 33				
-	gold, timber, slaves, V_MACEDONICA, getti, greek 		
+	gold, timber, slaves, V_MACEDONICA, getti, greek, bosporus 		
 	5
 	12
 
