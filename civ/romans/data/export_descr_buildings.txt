@@ -533,6 +533,8 @@ building barracks
                 recruit "german viking axeman"  0  requires factions { germans, } and hidden_resource viking and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "german warriors"  0  requires factions { germans, } and building_factions { slave, }
                 recruit "german warriors"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "heavy spear german"  0  requires factions { germans, } and building_factions { slave, } 
+                recruit "heavy spear german"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb horse archers scythian"  0  requires factions { scythia, }  and building_factions { slave, }
                 recruit "barb horse archers scythian"  0  requires factions { scythia, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb infantry scythia"  0  requires factions { scythia, }  and building_factions { slave, }
@@ -844,18 +846,20 @@ building barracks
             capability
             {
 ;;;;;;;;;;;;;;;;BARBAREN;;;;;;;;;;;;;;;;;;;;;;;
-                recruit "barb infantry gaul"  0  requires factions { gauls, spain, }  and building_factions { slave, }
-                recruit "barb infantry gaul"  0  requires factions { gauls, spain, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "barb infantry gaul"  1  requires factions { gauls, spain, }  and building_factions { slave, }
+                recruit "barb infantry gaul"  1  requires factions { gauls, spain, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "gaul heavy infantry"  0  requires factions { gauls, spain, }  and building_factions { slave, }
                 recruit "gaul heavy infantry"  0  requires factions { gauls, spain, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband sword gaul"  0  requires factions { gauls, spain, }  and building_factions { slave, }
                 recruit "warband sword gaul"  0  requires factions { gauls, spain, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
-                recruit "warband spear german"  0  requires factions { germans, }  and building_factions { slave, }
-                recruit "warband spear german"  0  requires factions { germans, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "warband spear german"  1  requires factions { germans, }  and building_factions { slave, }
+                recruit "warband spear german"  1  requires factions { germans, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "heavy warband"  0  requires factions { gauls, germans, spain, }  and building_factions { slave, }
                 recruit "heavy warband"  0  requires factions { gauls, germans, spain, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "german warriors"  1  requires factions { germans, } and building_factions { slave, }
                 recruit "german warriors"  1  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "heavy spear german"  0  requires factions { germans, } and building_factions { slave, } 
+                recruit "heavy spear german"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb infantry scythia"  0  requires factions { scythia, }  and building_factions { slave, }
                 recruit "barb infantry scythia"  0  requires factions { scythia, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband axe scythian"  1  requires factions { scythia, }  and building_factions { slave, }
@@ -870,8 +874,8 @@ building barracks
                 recruit "german viking spearman"  0  requires factions { germans, } and hidden_resource viking and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "german viking axeman"  0  requires factions { germans, } and hidden_resource viking and building_factions { slave, }
                 recruit "german viking axeman"  0  requires factions { germans, } and hidden_resource viking and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
-                recruit "barb infantry dacian"  0  requires factions { dacia, }  and building_factions { slave, }
-                recruit "barb infantry dacian"  0  requires factions { dacia, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "barb infantry dacian"  1  requires factions { dacia, }  and building_factions { slave, }
+                recruit "barb infantry dacian"  1  requires factions { dacia, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband falx dacian"  0  requires factions { dacia, }  and building_factions { slave, }
                 recruit "warband falx dacian"  0  requires factions { dacia, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "dacian sword warband"  0  requires factions { dacia, }  and building_factions { slave, }
@@ -1305,24 +1309,26 @@ building barracks
             capability
             {
 ;;;;;;;;;;;;;;;;BARBAREN;;;;;;;;;;;;;;;;;;;;;;;
-                recruit "barb infantry dacian"  0  requires factions { dacia, }  and building_factions { slave, }
-                recruit "barb infantry dacian"  0  requires factions { dacia, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "barb infantry dacian"  1  requires factions { dacia, }  and building_factions { slave, }
+                recruit "barb infantry dacian"  1  requires factions { dacia, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "dacian sword warband"  0  requires factions { dacia, }  and building_factions { slave, }
                 recruit "dacian sword warband"  0  requires factions { dacia, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband falx dacian"  0  requires factions { dacia, }  and building_factions { slave, }
                 recruit "warband falx dacian"  0  requires factions { dacia, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
-                recruit "barb infantry gaul"  0  requires factions { gauls, spain, }  and building_factions { slave, }
-                recruit "barb infantry gaul"  0  requires factions { gauls, spain, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "barb infantry gaul"  1  requires factions { gauls, spain, }  and building_factions { slave, }
+                recruit "barb infantry gaul"  1  requires factions { gauls, spain, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "gaul heavy infantry"  0  requires factions { gauls, spain, }  and building_factions { slave, }
                 recruit "gaul heavy infantry"  0  requires factions { gauls, spain, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband sword gaul"  1  requires factions { gauls, spain, }  and building_factions { slave, }
                 recruit "warband sword gaul"  1  requires factions { gauls, spain, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "heavy warband"  0  requires factions { gauls, germans, spain, } and building_factions { slave, }
                 recruit "heavy warband"  0  requires factions { gauls, germans, spain, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
-                recruit "warband spear german"  0  requires factions { germans, }  and building_factions { slave, }
-                recruit "warband spear german"  0  requires factions { germans, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "warband spear german"  1  requires factions { germans, }  and building_factions { slave, }
+                recruit "warband spear german"  1  requires factions { germans, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "german warriors"  2  requires factions { germans, } and building_factions { slave, }
                 recruit "german warriors"  2  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "heavy spear german"  0  requires factions { germans, } and building_factions { slave, } 
+                recruit "heavy spear german"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband axe german"  0  requires factions { germans, }  and building_factions { slave, }
                 recruit "warband axe german"  0  requires factions { germans, }  and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband dhaxe german"  0  requires factions { germans, } and resource timber and building_factions { slave, }
@@ -2536,6 +2542,8 @@ building missiles
                 recruit "barb archer scythian"  0  requires factions { scythia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband huntsman gaul"  0  requires factions { gauls, spain, } and building_factions { slave, }
                 recruit "warband huntsman gaul"  0  requires factions { gauls, spain, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "unit thracian chosen archers"  0  requires factions { dacia, } and building_factions { slave, }
+                recruit "unit thracian chosen archers"  0  requires factions { dacia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;CARTHAGINIANS;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2599,9 +2607,9 @@ building missiles
 ;;;;;;;;;;;;;;;;;;;A O R;;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "gettic light peltast"  0  requires factions { greek, eastern, carthage, barbarian, egypt, } and hidden_resource getti
                 recruit "gettic peltast"  0  requires factions { greek, eastern, carthage, barbarian, egypt, } and hidden_resource getti
-                recruit "warband huntsman gaul"  0  requires factions { carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource III_Gallica
-                recruit "warband huntsman gaul"  0  requires factions { carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource V_alaudae
-                recruit "warband huntsman gaul"  0  requires factions { carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource XXII_primigenia
+                recruit "warband huntsman gaul"  0  requires factions { germans, carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource III_Gallica
+                recruit "warband huntsman gaul"  0  requires factions { germans, carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource V_alaudae
+                recruit "warband huntsman gaul"  0  requires factions { germans, carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource XXII_primigenia
                 recruit "Galatian peltast"  0  requires factions { eastern, romans_scipii, greek, barbarian, carthage, egypt, roman_rebels, }  and hidden_resource galats
                 recruit "unit thracian chosen archers"  0  requires factions { dacia, } and hidden_resource getti
                 recruit "merc libyan infantry"  0  requires factions { barbarian, eastern, egypt, carthage, romans_scipii, roman_rebels, greek, } and hidden_resource africa
@@ -2633,10 +2641,14 @@ building missiles
                 recruit "barb dacian peltast"  0  requires factions { dacia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb archer dacian"  0  requires factions { dacia, germans, } and building_factions { slave, }
                 recruit "barb archer dacian"  0  requires factions { dacia, germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "german chosen archer"  0  requires factions { germans, } and building_factions { slave, } 
+                recruit "german chosen archer"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb archer scythian"  0  requires factions { scythia, } and building_factions { slave, }
                 recruit "barb archer scythian"  0  requires factions { scythia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband huntsman gaul"  0  requires factions { gauls, spain, } and building_factions { slave, }
                 recruit "warband huntsman gaul"  0  requires factions { gauls, spain, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "unit thracian chosen archers"  0  requires factions { dacia, } and building_factions { slave, }
+                recruit "unit thracian chosen archers"  0  requires factions { dacia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;CARTHAGINIANS;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2734,9 +2746,9 @@ building missiles
                 recruit "greek archer elite"  0  requires factions { greek, eastern, barbarian, romans_scipii, roman_rebels, carthage, egypt, } and hidden_resource cretan
                 recruit "gettic light peltast"  0  requires factions { greek, eastern, carthage, barbarian, egypt, } and hidden_resource getti
                 recruit "gettic peltast"  0  requires factions { greek, eastern, carthage, barbarian, egypt, } and hidden_resource getti
-                recruit "warband huntsman gaul"  0  requires factions { carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource III_Gallica
-                recruit "warband huntsman gaul"  0  requires factions { carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource V_alaudae
-                recruit "warband huntsman gaul"  0  requires factions { carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource XXII_primigenia
+                recruit "warband huntsman gaul"  0  requires factions { germans, carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource III_Gallica
+                recruit "warband huntsman gaul"  0  requires factions { germans, carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource V_alaudae
+                recruit "warband huntsman gaul"  0  requires factions { germans, carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource XXII_primigenia
                 recruit "Galatian peltast"  0  requires factions { eastern, romans_scipii, roman_rebels, greek, barbarian, carthage, egypt, }  and hidden_resource galats
                 recruit "unit thracian chosen archers"  0  requires factions { dacia, thrace, } and hidden_resource getti
                 recruit "merc peltast"  0  requires factions { greek, } 
@@ -2776,6 +2788,8 @@ building missiles
                 recruit "barb archer scythian"  0  requires factions { scythia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "warband huntsman gaul"  0  requires factions { gauls, spain, } and building_factions { slave, }
                 recruit "warband huntsman gaul"  0  requires factions { gauls, spain, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "unit thracian chosen archers"  0  requires factions { dacia, } and building_factions { slave, }
+                recruit "unit thracian chosen archers"  0  requires factions { dacia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;CARTHAGINIANS;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2880,9 +2894,9 @@ building missiles
                 recruit "gettic light peltast"  0  requires factions { greek, eastern, carthage, barbarian, egypt, } and hidden_resource getti
                 recruit "gettic peltast"  0  requires factions { greek, eastern, carthage, barbarian, egypt, } and hidden_resource getti
                 recruit "egyptian archer"  0  requires factions { egyptian, } and hidden_resource II_TRAIANA 
-                recruit "warband huntsman gaul"  0  requires factions { carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource III_Gallica
-                recruit "warband huntsman gaul"  0  requires factions { carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource V_alaudae
-                recruit "warband huntsman gaul"  0  requires factions { carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource XXII_primigenia
+                recruit "warband huntsman gaul"  0  requires factions { germans, carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource III_Gallica
+                recruit "warband huntsman gaul"  0  requires factions { germans, carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource V_alaudae
+                recruit "warband huntsman gaul"  0  requires factions { germans, carthage, greek, egypt, romans_scipii, roman_rebels, eastern, } and hidden_resource XXII_primigenia
                 recruit "Galatian peltast"  0  requires factions { eastern, romans_scipii, roman_rebels, greek, barbarian, carthage, egypt, }  and hidden_resource galats
                 recruit "unit thracian chosen archers"  0  requires factions { dacia, thrace, } and hidden_resource getti
                 recruit "merc peltast"  0  requires factions { greek, } 
@@ -2921,11 +2935,11 @@ building market
                 population_growth_bonus bonus 1
                 taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 250 requires factions { romans_brutii, } and resource incense
-		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource wild_animals
-		taxable_income_bonus 80 requires factions { barbarian, } and resource hides 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource pigs 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource timber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource amber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource wild_animals
+		taxable_income_bonus 100 requires factions { barbarian, } and resource hides 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource pigs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource dogs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
@@ -2957,11 +2971,11 @@ building market
                 population_growth_bonus bonus 1
                 taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 220 requires factions { romans_brutii, } and resource incense
-		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource wild_animals
-		taxable_income_bonus 80 requires factions { barbarian, } and resource hides 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource pigs 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource timber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource amber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource wild_animals
+		taxable_income_bonus 100 requires factions { barbarian, } and resource hides 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource pigs
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource dogs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs  
@@ -3000,11 +3014,11 @@ building market
                 population_growth_bonus bonus 1
                 taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 220 requires factions { romans_brutii, } and resource incense
-		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource wild_animals
-		taxable_income_bonus 80 requires factions { barbarian, } and resource hides 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource pigs 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource timber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource amber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource wild_animals
+		taxable_income_bonus 100 requires factions { barbarian, } and resource hides 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource pigs
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource dogs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
@@ -3043,11 +3057,11 @@ building market
                 population_growth_bonus bonus 2
                 taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 200 requires factions { romans_brutii, } and resource incense
-		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource wild_animals
-		taxable_income_bonus 80 requires factions { barbarian, } and resource hides 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource pigs 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource timber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource amber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource wild_animals
+		taxable_income_bonus 100 requires factions { barbarian, } and resource hides 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource pigs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource dogs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
@@ -3086,11 +3100,11 @@ building market
                 population_growth_bonus bonus -1 requires factions { eastern, }
                 taxable_income_bonus 100 requires factions { egypt, } and resource grain
                 taxable_income_bonus 200 requires factions { romans_brutii, } and resource incense
-		taxable_income_bonus 80 requires factions { barbarian, } and resource timber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource amber 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource wild_animals
-		taxable_income_bonus 80 requires factions { barbarian, } and resource hides 
-		taxable_income_bonus 80 requires factions { barbarian, } and resource pigs 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource timber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource amber 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource wild_animals
+		taxable_income_bonus 100 requires factions { barbarian, } and resource hides 
+		taxable_income_bonus 100 requires factions { barbarian, } and resource pigs
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource dogs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
@@ -6244,6 +6258,8 @@ building temple_of_viking
             {
                 happiness_bonus bonus 2
                 recruits_morale_bonus bonus 1
+		weapon_simple bonus 1
+                armour bonus 1
             }
             construction  1 
             cost  400 
@@ -6259,6 +6275,9 @@ building temple_of_viking
             {
                 happiness_bonus bonus 3
                 recruits_morale_bonus bonus 2
+                weapon_bladed bonus 1
+		weapon_simple bonus 1
+                armour bonus 1
             }
             construction  2 
             cost  800 
@@ -6273,7 +6292,10 @@ building temple_of_viking
             capability
             {
                 happiness_bonus bonus 4
-                recruits_morale_bonus bonus 5
+                recruits_morale_bonus bonus 3
+                weapon_bladed bonus 1
+		weapon_simple bonus 1
+                armour bonus 1
             }
             construction  3 
             cost  1600 

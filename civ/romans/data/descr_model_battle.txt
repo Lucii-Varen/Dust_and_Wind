@@ -1933,6 +1933,19 @@ model_flexi_m		civ/data/new/models_units/UNIT_BARB_WARBAND_AXE_GERMAN.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_BARB_WARBAND_AXE_GERMAN.cas, 30
 model_flexi			civ/data/new/models_units/UNIT_BARB_WARBAND_AXE_GERMAN.cas, max
 model_sprite		germans, 70.0, civ/data/sprites/germans_warband_axe_sprite.spr
+model_sprite		slave, 70.0, civ/data/sprites/germans_warband_axe_sprite.spr
+model_sprite		romans_scipii, 70.0, civ/data/sprites/germans_warband_axe_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				german_chosen_archer
+skeleton			fs_archer, fs_dagger
+indiv_range			40
+texture				germans, civ/data/new/models_units/textures/UNIT_BARB_CHOSEN_ARCHER.tga
+model_flexi			civ/data/new/models_units/UNIT_BARB_ARCHER_CHOSEN.cas, 15
+model_flexi			civ/data/new/models_units/UNIT_BARB_ARCHER_CHOSEN.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_BARB_ARCHER_CHOSEN.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_BARB_ARCHER_CHOSEN.cas, max
+model_sprite		germans, 70.0, civ/data/sprites/germans_german_chosen_archer_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				barb_night_raider
@@ -4173,7 +4186,7 @@ model_sprite		gauls, 80.0, civ/data/sprites/GAUL_HEAVY_INFANTRY_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				gaul_bogaty
-skeleton			fs_javelinman, fs_slow_swordsman 													; SPIKED CLUB!!!
+skeleton			fs_s1_javelinman, fs_slow_swordsman 													; SPIKED CLUB!!!
 indiv_range			40
 texture				gauls, civ/data/new/models_units/textures/gaul_bogaty.TGA
 model_flexi			civ/data/new/models_units/gaul_bogaty_unit.cas, 8
@@ -4185,7 +4198,7 @@ model_sprite		gauls, 80.0, civ/data/sprites/gaul_bogaty_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				heavy_warband
-skeleton			fs_swordsman
+skeleton			fs_s1_javelinman, fs_swordsman
 indiv_range			40
 texture				gauls, civ/data/new/models_units/textures/UNIT_GAUL_HEAVY_WARBAND.TGA
 texture				spain, civ/data/new/models_units/textures/UNIT_BOII_HEAVY_WARBAND.TGA
@@ -4279,6 +4292,17 @@ model_flexi			civ/data/new/models_units/unit_german_bodyguard.cas, 15
 model_flexi			civ/data/new/models_units/unit_german_bodyguard.cas, 30
 model_flexi			civ/data/new/models_units/unit_german_bodyguard.cas, 40
 model_flexi			civ/data/new/models_units/unit_german_bodyguard.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				heavy_spear_german
+skeleton			fs_gladius												
+indiv_range			40
+texture				germans, civ/data/new/models_units/textures/UNIT_BARB_HEAVY_SPEARMAN_GERMAN.tga
+model_flexi			civ/data/new/models_units/UNIT_BARB_HEAVY_SPEARMAN.CAS, 8
+model_flexi			civ/data/new/models_units/UNIT_BARB_HEAVY_SPEARMAN.CAS, 15
+model_flexi			civ/data/new/models_units/UNIT_BARB_HEAVY_SPEARMAN.CAS, 30
+model_flexi			civ/data/new/models_units/UNIT_BARB_HEAVY_SPEARMAN.CAS, 40
+model_flexi			civ/data/new/models_units/UNIT_BARB_HEAVY_SPEARMAN.CAS, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				german_viking_spearmen

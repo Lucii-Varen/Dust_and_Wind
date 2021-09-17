@@ -96,7 +96,14 @@ resource	camels,	317,	148
 resource	camels,	306,	164
 resource	camels,	296,	162
 resource	camels,	291,	179
+;;;;;;;;;;;;;;Nisa;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 resource	camels,	275,	164
+resource	camels,	275,	162
+resource	camels,	277,	164
+resource	camels,	273,	163
+;;;;;;;;;;;;;;Asaak;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+resource	timber,	284,	147
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 resource	camels,	370,	142
 resource	camels,	371,	114
 resource	camels,	364,	102
@@ -237,7 +244,30 @@ resource        wine,   254,   97
 resource	dogs,	181,	154
 ;;;;;;;;;;;;Tribus_Chauci;;;Phabiranum;;;;;;;;;;;;;;
 resource	dogs,	73,	191
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;Teutoburgum;;;;;;;;;;;;;;;;;;;;;;;;
+resource        wild_animals,  101,   186
+resource        wild_animals,  100,   186
+resource        timber,  101,   185
+resource        timber,  100,   185
+resource        hides,  101,   184
+resource        hides,  100,   184
+;;;;;;;;;;;;;;;;Hafnia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+resource        dogs,	93,	206
+resource        dogs,	92,	205
+;;;;;;;;;;;;;;;;Leucaristus;;;;;;;;;;;;;;;;;;;;;;;;
+resource        wild_animals,  118,   170
+resource        wild_animals,  119,   169
+resource        timber,  131,   172
+resource        timber,  134,   168
+;;;;;;;;;;;;;;;;Buridava;;;;;;;;;;;;;;;;;;;;;;;;;;;
+resource        pigs,  153,   151
+resource        pigs,  152,   145
+resource        hides,	139,	142
+;;;;;;;;;;;;;;;;Campus_Aorsi;;;;;;;;;;;;;;;;;;;;;;;
+resource        pigs,  222,	202
+resource        pigs,  224,	202
+resource        pigs,  224,	200
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 resource	elephants,	64,	82
 resource	elephants,	13,	98
 resource	elephants,	377,	145
@@ -3955,6 +3985,10 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
@@ -4013,6 +4047,10 @@ settlement
 	building
 	{
 		type caravans caravan
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -4656,7 +4694,7 @@ settlement
 	region Tribus_Suebi
 
 	year_founded 0
-	population 4000
+	population 7000
 	plan_set default_set
 	faction_creator germans
 	building
@@ -4673,7 +4711,15 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type smith blacksmith
 	}
 }
 
@@ -4683,7 +4729,7 @@ settlement
 	region Cimbrica
 
 	year_founded 0
-	population 4000
+	population 5000
 	plan_set default_set
 	faction_creator germans
 	building
@@ -4696,11 +4742,15 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
 		type temple_of_violence temple_of_violence_temple
+	}
+	building
+	{
+		type market trader
 	}
 }
 
@@ -4729,6 +4779,10 @@ settlement
 	{
 		type temple_of_viking temple_of_viking_temple
 	}
+	building
+	{
+		type market trader
+	}
 }
 
 settlement
@@ -4737,7 +4791,7 @@ settlement
 	region Locus_Rugii
 
 	year_founded 0
-	population 1000
+	population 2000
 	plan_set default_set
 	faction_creator germans
 	building
@@ -4748,6 +4802,14 @@ settlement
 	{
 		type barb_nobles barb_settlement
 	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type barracks muster_field
+	}
 }
 
 settlement
@@ -4756,7 +4818,7 @@ settlement
 	region Insula_Gothii
 
 	year_founded 0
-	population 500
+	population 600
 	plan_set default_set
 	faction_creator germans
 	building
@@ -4774,6 +4836,10 @@ settlement
 	building
 	{
 		type temple_of_viking temple_of_viking_temple
+	}
+	building
+	{
+		type market trader
 	}
 }
 
@@ -9666,12 +9732,28 @@ unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
 unit		barb archer dacian				exp 4 armour 0 weapon_lvl 0
 unit		barb archer dacian				exp 4 armour 0 weapon_lvl 0
 
-;Dacia
+;Dacia;;;;Sarmizegetusa
 character	sub_faction gauls, Morirex, general, age 20, , x 137, y 151
 army
 unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
 unit		barb archer dacian			exp 3 armour 0 weapon_lvl 0
+unit		barb archer dacian			exp 3 armour 0 weapon_lvl 0
 unit		barb noble cavalry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
+unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
+unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
+unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
 
 ;Locus_Careotae
 character	sub_faction germans, Adalmun, general, age 20, , x 159, y 206

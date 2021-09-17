@@ -51,3 +51,7 @@ Caesar's civil war
 /civ/data/UI/UNIT_INFO/DACIA
 /civ/data/descr_formations_ai — копия.txt
 /civ/romans/presets
+/civ/presets
+/civ/data/animations/*.txt
+/civ/data/animations/*.bat
+/civ/data/animations/*.exe

@@ -343,7 +343,7 @@ BANK: war_cry
 			WARCRYLARGE7.wav	
 		end
 
-	type german viking swordsman, german viking axeman
+	type german viking swordsman, german viking axeman, heavy spear german
 		event lod 7  volume 20 mindist 30
 			folder civ/data/sounds/custom
 			WARCRYLARGE25.wav

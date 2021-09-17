@@ -147,7 +147,7 @@ custom_location		African Coast
 
 custom_location		Moon River
 {
-	location		21	71		
+	location		66	142		
 	image			data/menu/river1.tga
 	sett_locked		yes
 	summer			no

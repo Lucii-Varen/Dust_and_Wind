@@ -21373,7 +21373,6 @@ console_command add_population Olbia 2000
 console_command add_population Neapolis_Scythica 4000
 console_command add_population Neapolis_Scythica 4000
 if not I_LocalFaction pontus
-and not I_LocalFaction scythia
 console_command add_population Panticapaeum 4000
 console_command add_population Panticapaeum 4000
 console_command add_population Chersonesos 4000
@@ -21384,6 +21383,11 @@ console_command add_population Tomi 4000
 console_command add_population Tomi 4000
 end_if
 end_if
+if not I_LocalFaction romans_julii
+and not I_LocalFaction scythia
+console_command add_population Campus_Siracae 4000
+console_command add_population Campus_Siracae 4000
+end_if
 if not I_LocalFaction pontus
 and not I_LocalFaction thrace
 and not I_LocalFaction greek_cities
@@ -21392,12 +21396,6 @@ console_command add_population Nicomedia 4000
 console_command add_population Nicomedia 4000
 end_if
 if not I_LocalFaction pontus
-and not I_LocalFaction romans_julii
-and not I_LocalFaction seleucid
-console_command add_population Heraclea 4000
-end_if
-if not I_LocalFaction pontus
-and not I_LocalFaction egypt
 and not I_LocalFaction seleucid
 console_command add_population Side 4000
 console_command add_population Side 4000
@@ -21405,7 +21403,10 @@ console_command add_population Mazaka 4000
 console_command add_population Mazaka 4000
 end_if
 if not I_LocalFaction armenia
-and I_SettlementOwner Thospia = armenia
+console_command add_population Gazaca 4000
+console_command add_population Gazaca 4000
+console_command add_population Gazaca 4000
+console_command add_population Gazaca 4000
 console_command add_population Thospia 4000
 console_command add_population Thospia 4000
 end_if
@@ -21419,6 +21420,8 @@ if not I_LocalFaction armenia
 and not I_LocalFaction seleucid
 console_command add_population Amida 4000
 console_command add_population Amida 4000
+console_command add_population Pinaca 4000
+console_command add_population Pinaca 4000
 end_if
 if not I_LocalFaction carthage
 console_command add_population Cydaus 4000
@@ -21461,9 +21464,15 @@ if not I_LocalFaction numidia
 console_command add_population Sparta 4000
 console_command add_population Sparta 4000
 end_if
-
+if not I_LocalFaction britons
+console_command add_population Varakhsha 4000
+console_command add_population Varakhsha 4000
+console_command add_population Kangha 4000
+console_command add_population Kangha 4000
+console_command add_population Gushan 4000
+console_command add_population Gushan 4000
+end_if
 if not I_LocalFaction parthia
-and not I_LocalFaction britons
 and not I_LocalFaction roman_rebels
 console_command add_population Hecatompylos 4000
 console_command add_population Hecatompylos 3000
@@ -21471,6 +21480,8 @@ console_command add_population Charax 4000
 console_command add_population Charax 4000
 console_command add_population Apamea 4000
 console_command add_population Apamea 4000
+console_command add_population Merv 4000
+console_command add_population Merv 4000
 console_command add_population Tabae 4000
 console_command add_population Tabae 4000
 console_command add_population Alexandria_Oxiana 4000
@@ -21485,13 +21496,19 @@ console_command add_population Pura 4000
 console_command add_population Pura 4000
 console_command add_population Harmozia 4000
 console_command add_population Harmozia 4000
+console_command add_population Bactra 4000
 end_if
 if not I_LocalFaction pontus
 console_command add_population Amasia 4000
 console_command add_population Amasia 3000
+console_command add_population Amasia 3000
+console_command add_population Heraclea 4000
+console_command add_population Heraclea 4000
+if I_SettlementOwner Ancyra = pontus
 console_command add_population Ancyra 4000
 console_command add_population Ancyra 4000
 console_command add_population Ancyra 1000
+end_if
 if I_SettlementOwner Nicomedia = pontus
 console_command add_population Nicomedia 4000
 console_command add_population Nicomedia 4000
@@ -21515,16 +21532,14 @@ console_command add_population Sarmizegetusa 4000
 console_command add_population Sarmizegetusa 4000
 end_if
 end_if
-if not I_LocalFaction spain
-and not I_LocalFaction germans
+if not I_LocalFaction germans
 and not I_LocalFaction gauls
 console_command add_population Mattium 4000
 console_command add_population Mattium 4000
 console_command add_population Phabiranum 4000
 console_command add_population Phabiranum 4000
 end_if
-if not I_LocalFaction germans
-and not I_LocalFaction gauls
+if not I_LocalFaction gauls
 console_command add_population Samarobriva 4000
 console_command add_population Samarobriva 4000
 console_command add_population Cenabum 4000
@@ -22060,6 +22075,20 @@ and not I_LocalFaction thrace
 and not I_LocalFaction pontus
 and I_NumberOfSettlements pontus > 0
 console_command diplomatic_stance pontus thrace War
+end_if
+if I_SettlementOwner Ancyra = thrace
+and not I_LocalFaction thrace
+and not I_LocalFaction pontus
+and I_NumberOfSettlements pontus > 0
+console_command diplomatic_stance pontus thrace War
+console_command add_money pontus, 40000
+end_if
+if I_SettlementOwner Ancyra = greek_cities
+and not I_LocalFaction greek_cities
+and not I_LocalFaction pontus
+and I_NumberOfSettlements pontus > 0
+console_command diplomatic_stance pontus greek_cities War
+console_command add_money pontus, 40000
 end_if
 if I_SettlementOwner Messana = numidia
 and not I_LocalFaction carthage
@@ -23616,12 +23645,14 @@ monitor_event FactionTurnStart FactionType romans_julii
 and not FactionIsLocal
 and DiplomaticStanceFromFaction germans = AtWar
 if I_NumberOfSettlements scythia > 0
+and not I_LocalFaction scythia
 and not I_LocalFaction germans
 and I_NumberOfSettlements romans_julii < 7
 console_command diplomatic_stance scythia germans War
 end_if
 if I_NumberOfSettlements gauls > 0
 and not I_LocalFaction gauls
+and not I_LocalFaction germans
 and I_NumberOfSettlements romans_julii < 7
 console_command diplomatic_stance gauls germans War
 end_if
@@ -23635,7 +23666,6 @@ and DiplomaticStanceFromFaction seleucid = AtWar
 and DiplomaticStanceFromFaction parthia = AtWar
 if I_NumberOfSettlements armenia < 16
 console_command add_money armenia, 40000
-console_command add_money armenia, 10000
 end_if
 if I_NumberOfSettlements armenia < 16
 and I_SettlementOwner Tanais != armenia
@@ -23750,6 +23780,7 @@ and not FactionIsLocal
 and DiplomaticStanceFromFaction thrace = AtWar
 and DiplomaticStanceFromFaction egypt = AtWar
 console_command diplomatic_stance pontus egypt neutral
+console_command add_money pontus, 40000
 end_monitor
 
 monitor_event FactionTurnStart FactionType egypt
@@ -23767,7 +23798,6 @@ end_if
 end_monitor
 
 monitor_event FactionTurnEnd FactionIsLocal
-    and I_TurnNumber < 150
 if not I_LocalFaction parthia
 	and I_NumberOfSettlements parthia > 0
     if not I_LocalFaction roman_rebels
@@ -23884,6 +23914,10 @@ end_if
 		end_if
 	end_if
 end_if
+end_monitor
+
+monitor_event FactionTurnEnd FactionIsLocal
+and I_TurnNumber < 150
 if not I_LocalFaction seleucid
     and not I_LocalFaction parthia
     if I_SettlementOwner Zadracarta = seleucid
@@ -23912,14 +23946,24 @@ if not I_LocalFaction seleucid
     console_command add_population Tabae 4000
     console_command add_population Tabae 4000
 	end_if
-	if I_SettlementOwner Apamea = parthia
-    and I_SettlementOwner Tabae = seleucid   
+	if I_SettlementOwner Tabae = parthia
+    and I_SettlementOwner Zarang = seleucid   
     console_command add_population Tabae 4000
     console_command add_population Tabae 4000
     console_command add_population Tabae 4000
     console_command add_population Tabae 4000
+    end_if
 end_if
-end_if
+    if not I_LocalFaction seleucid
+    and not I_LocalFaction pontus
+    and I_SettlementOwner Mazaka = seleucid
+    console_command add_population Mazaka 4000
+    console_command add_population Mazaka 4000
+    console_command add_population Mazaka 4000
+    console_command add_population Mazaka 4000
+    console_command add_population Mazaka 4000
+    console_command add_population Mazaka 4000
+    end_if
     if I_SettlementOwner Tabae = roman_rebels
     and not I_LocalFaction roman_rebels
     and not I_LocalFaction parthia
@@ -23931,14 +23975,6 @@ end_if
     console_command add_population Tabae 4000
 end_if
 if I_LocalFaction roman_rebels
-    if I_SettlementOwner Mazaka = seleucid
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    end_if
     if I_SettlementOwner Apameia = seleucid
     console_command add_population Apameia 4000
     console_command add_population Apameia 4000
@@ -23965,14 +24001,6 @@ if I_LocalFaction roman_rebels
 	end_if
 end_if
 if I_LocalFaction britons
-    if I_SettlementOwner Mazaka = seleucid
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    console_command add_population Mazaka 4000
-    end_if
     if I_SettlementOwner Apameia = seleucid
     console_command add_population Apameia 4000
     console_command add_population Apameia 4000
