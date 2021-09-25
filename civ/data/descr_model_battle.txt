@@ -6736,8 +6736,8 @@ skeleton			fs_dagger
 indiv_range			40
 texture				merc, civ/data/new/models_units/textures/UNIT_ETRUSCAN_PELTAST.TGA
 texture				slave, civ/data/new/models_units/textures/UNIT_ETRUSCAN_PELTAST.TGA
-model_flexi_m		civ/data/new/models_units/UNIT_GREEK_PEASANT.cas, 8
-model_flexi_m		civ/data/new/models_units/UNIT_GREEK_PEASANT.cas, 15
+model_flexi		civ/data/new/models_units/UNIT_GREEK_PEASANT.cas, 8
+model_flexi		civ/data/new/models_units/UNIT_GREEK_PEASANT.cas, 15
 model_flexi		civ/data/new/models_units/UNIT_GREEK_PEASANT.cas, 30
 model_flexi		civ/data/new/models_units/UNIT_GREEK_PEASANT.cas, max
 model_sprite		60.0, civ/data/sprites/slave_greek_male_peasant_sprite.spr
@@ -6766,4 +6766,13 @@ model_flexi			civ/data/models_unit/UNIT_VIKING_AXEMAN.CAS, 40
 model_flexi			civ/data/models_unit/UNIT_VIKING_AXEMAN.CAS, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
-
+type				hoshuf
+skeleton			fs_dagger
+indiv_range			40
+texture				slave, civ/data/models_unit/textures/UNIT_TSHMO_HOSHUF.TGA
+model_flexi		civ/data/models_unit/UNIT_TSHMO_HOSHUF.cas, 8
+model_flexi		civ/data/models_unit/UNIT_TSHMO_HOSHUF.cas, 15
+model_flexi		civ/data/models_unit/UNIT_TSHMO_HOSHUF.cas, 30
+model_flexi		civ/data/models_unit/UNIT_TSHMO_HOSHUF.cas, max
+model_sprite		slave, 60.0, civ/data/sprites/slave_hoshuf_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f

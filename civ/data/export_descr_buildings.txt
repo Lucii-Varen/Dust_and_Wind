@@ -2282,9 +2282,9 @@ building missiles
                 recruit "roman archer"  0  requires factions { romans_scipii, }  and not marian_reforms 
                 recruit "roman archer auxillia"  0  requires factions { romans_scipii, }  and marian_reforms 
                 recruit "roman ballista"  0  requires factions { romans_scipii, } and building_factions { slave, } 
-                recruit "roman ballista"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic academy
+                recruit "roman ballista"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic ludus_magnus
                 recruit "roman scorpion"  0  requires factions { romans_scipii, } and building_factions { slave, } 
-                recruit "roman scorpion"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic academy
+                recruit "roman scorpion"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic ludus_magnus
                 recruit "roman onager"  0  requires factions { romans_scipii, } and building_factions { slave, } 
                 recruit "roman onager"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic scriptorium and building_present_min_level hinterland_reform reform4
 
@@ -2429,9 +2429,9 @@ building missiles
                 recruit "roman archer"  0  requires factions { romans_scipii, }  and not marian_reforms 
                 recruit "roman archer auxillia"  0  requires factions { romans_scipii, }  and marian_reforms 
                 recruit "roman ballista"  0  requires factions { romans_scipii, } and building_factions { slave, } 
-                recruit "roman ballista"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic academy
+                recruit "roman ballista"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic ludus_magnus
                 recruit "roman scorpion"  0  requires factions { romans_scipii, } and building_factions { slave, } 
-                recruit "roman scorpion"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic academy
+                recruit "roman scorpion"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic ludus_magnus
                 recruit "roman onager"  0  requires factions { romans_scipii, } and building_factions { slave, } 
                 recruit "roman onager"  0  requires factions { romans_scipii, } and not building_factions { slave, } and building_present_min_level academic scriptorium and building_present_min_level hinterland_reform reform4
                 recruit "roman heavy onager"  0  requires factions { romans_scipii, } and building_factions { slave, } 

@@ -11237,29 +11237,27 @@ stat_food        60, 300
 stat_cost        99, 999999, 10, 20, 30, 150
 ownership        slave
 
-type             viking axeman
-dictionary       viking_axeman     ; Scandian axemen
+type             hoshuf
+dictionary       hoshuf      ; hoshuf
 category         infantry
-class            heavy
-voice_type       Heavy_1
-soldier          viking_axeman, 55, 0, 1.2, 0.3
-attributes       sea_faring, hide_improved_forest, hide_long_grass, very_hardy
-formation        1.2, 1.2, 2.4, 2.4, 12, square, shield_wall
-;formation        1.2, 1.2, 0.8, 0.7, 12, square, shield_wall
-stat_health      2, 1
-stat_pri         10, 4, francisca, 39, 2, thrown, blade, piercing, mace, 25 ,1
-stat_pri_attr    prec, launching, thrown ap
-stat_sec         13, 10, no, 0, 0, melee, blade, slashing, axe, 24 ,1
+class            light
+voice_type       Light_1
+soldier          hoshuf, 60, 0, 0.3
+mount_effect     elephant -8, camel -8, horse -8
+attributes       sea_faring, hide_forest, can_sap
+formation        1.2, 1.8, 2.4, 2.4, 10, square
+stat_health      1, 0
+stat_pri         1, 0, no, 0, 0, melee, simple, piercing, knife, 25 ,0.001
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
 stat_sec_attr    no
-stat_pri_armour  8, 7, 5, leather
+stat_pri_armour  0, 1, 0, flesh
 stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      0, 0, 0, 0
-stat_mental      21, impetuous, untrained
-stat_charge_dist 60
-stat_fire_delay  40000
+stat_heat        2
+stat_ground      -3, -3, -3, -3
+stat_mental      0, low, untrained
+stat_charge_dist 30
+stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 2400, 1000, 60, 90, 850
+stat_cost        1, 1, 1, 1, 1, 1
 ownership        slave
-
- 
