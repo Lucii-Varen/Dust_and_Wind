@@ -108,7 +108,7 @@ battle	113, 120
 variable_weather_and_time ( day_time 10.00, year_day 0, duration	24.00, weather_seed	0 )
 
 home_faction	carthage
-alliance	can_deploy	carthage, defending
+alliance	can_deploy	carthage, attacking
 alliance	romans_scipii, attacking
 
 army	romans_scipii, 0, no_withdraw, supporting_armies 0

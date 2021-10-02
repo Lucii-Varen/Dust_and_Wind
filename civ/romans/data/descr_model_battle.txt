@@ -535,6 +535,25 @@ model_sprite		romans_brutii, 100.0, data/sprites/romans_brutii_generals_horse_sp
 model_sprite		romans_julii, 100.0, data/sprites/romans_julii_generals_horse_sprite.spr
 model_tri			700, 0.3f, 0.3f, 0.3f
 
+type				generals_horse_armed
+skeleton			fs_horse
+scale				0.875
+indiv_range			40
+texture				gauls, civ/data/new/models_units/textures/mounts/HORSE_WHITE-BARB_gen.TGA
+texture				spain, civ/data/new/models_units/textures/mounts/HORSE_WHITE-BOII_gen.TGA
+texture				germans, civ/data/new/models_units/textures/mounts/HORSE_WHITE-GER_gen.TGA
+texture				romans_scipii, civ/data/new/models_units/textures/mounts/HORSE_WHITE-JUL_gen.TGA
+model_flexi			civ/data/new/models_units/mount_general_horse.CAS, 15
+model_flexi			civ/data/new/models_units/mount_general_horse.CAS, 30
+model_flexi			civ/data/new/models_units/mount_general_horse.CAS, 60
+model_flexi			civ/data/new/models_units/mount_general_horse.CAS, 80
+model_flexi			civ/data/new/models_units/mount_general_horse.CAS, max
+model_sprite		spain, 100.0, data/sprites/gauls_generals_horse_sprite.spr
+model_sprite		germans, 100.0, data/sprites/germans_generals_horse_sprite.spr
+model_sprite		gauls, 100.0, data/sprites/gauls_generals_horse_sprite.spr
+model_sprite		romans_scipii, 100.0, data/sprites/romans_julii_generals_horse_sprite.spr
+model_tri			700, 0.3f, 0.3f, 0.3f
+
 type				horse_cataphract
 skeleton			fs_cataphract_horse
 scale				0.875
@@ -1766,6 +1785,7 @@ skeleton			fs_hc_spearman1, fs_hc_swordsman1
 indiv_range			40
 texture				gauls, civ/data/new/models_units/textures/UNIT_BARB_GAELIC_CHOSEN_CAVALRY.TGA
 texture				spain, civ/data/new/models_units/textures/UNIT_BARB_BOII_CHOSEN_CAVALRY.TGA
+texture				germans, civ/data/new/models_units/textures/UNIT_BARB_GERMAN_CHOSEN_CAVALRY.TGA
 model_flexi			civ/data/new/models_units/UNIT_BARB_GAELIC_CHOSEN_CAVALRY.cas, 8
 model_flexi			civ/data/new/models_units/UNIT_BARB_GAELIC_CHOSEN_CAVALRY.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_BARB_GAELIC_CHOSEN_CAVALRY.cas, 30
@@ -4292,6 +4312,7 @@ model_flexi			civ/data/new/models_units/unit_german_bodyguard.cas, 15
 model_flexi			civ/data/new/models_units/unit_german_bodyguard.cas, 30
 model_flexi			civ/data/new/models_units/unit_german_bodyguard.cas, 40
 model_flexi			civ/data/new/models_units/unit_german_bodyguard.cas, max
+model_sprite		germans, 60.0, civ/data/sprites/germans_unit_german_bodyguard_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				heavy_spear_german
@@ -4303,6 +4324,7 @@ model_flexi			civ/data/new/models_units/UNIT_BARB_HEAVY_SPEARMAN.CAS, 15
 model_flexi			civ/data/new/models_units/UNIT_BARB_HEAVY_SPEARMAN.CAS, 30
 model_flexi			civ/data/new/models_units/UNIT_BARB_HEAVY_SPEARMAN.CAS, 40
 model_flexi			civ/data/new/models_units/UNIT_BARB_HEAVY_SPEARMAN.CAS, max
+model_sprite		germans, 60.0, civ/data/sprites/germans_heavy_spear_german_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				german_viking_spearmen

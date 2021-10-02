@@ -617,7 +617,7 @@ category         cavalry
 class            heavy
 voice_type       General_1
 soldier          barb_gaelic_chosen_cavalry, 15, 0, 1
-mount            generals horse
+mount            generals horse armed
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, general_unit, hide_forest, hardy
 formation        1.5, 4, 3, 6, 3, square
@@ -643,7 +643,7 @@ category         cavalry
 class            heavy
 voice_type       General_1
 soldier          barb_gaelic_nobles, 15, 0, 1
-mount            generals horse
+mount            generals horse armed
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, general_unit, hide_forest, hardy, general_unit_upgrade
 formation        1.5, 4, 3, 6, 3, square
@@ -722,7 +722,7 @@ category         cavalry
 class            heavy
 voice_type       General_1
 soldier          boii_noble_nobles, 15, 0, 1
-mount            generals horse
+mount            generals horse armed
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, general_unit, hide_forest, hardy, general_unit_upgrade
 formation        1.5, 4, 3, 6, 3, square
@@ -965,6 +965,32 @@ stat_food        60, 300
 stat_cost        1, 3520, 1450, 100, 140, 930
 ownership        germans
 
+type             german heavy cavalry 
+dictionary       german_heavy_cavalry    ; German Heavy Cavalry
+category         cavalry
+class            heavy			;medium
+voice_type       Medium_1
+soldier          barb_celtic_cavalry, 33, 0, 1
+mount            medium horse
+mount_effect     elephant -8, camel -4
+attributes       sea_faring, hide_forest, hardy
+formation        1.5, 4, 3, 6, 4, square, wedge
+stat_health      1, 1
+stat_pri         8, 11, no, 0, 0, melee, simple, piercing, spear, 24 ,1
+stat_pri_attr    no
+stat_sec         8, 5, no, 0, 0, melee, blade, piercing, sword, 24 ,1
+stat_sec_attr    no
+stat_pri_armour  6, 5, 4, leather
+stat_sec_armour  4, 1, flesh
+stat_heat        3
+stat_ground      0, -2, 0, 2
+stat_mental      15, impetuous, untrained
+stat_charge_dist 50
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        0, 1900, 750, 40, 60, 600
+ownership        germans
+
 type             barb noble cavalry german
 dictionary       barb_noble_cavalry_german      ; German Noble Cavalry
 category         cavalry
@@ -980,7 +1006,7 @@ stat_pri         9, 12, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         9, 4, no, 0, 0, melee, blade, slashing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  6, 5, 5, metal
+stat_pri_armour  8, 5, 5, metal
 stat_sec_armour  3, 1, flesh
 stat_heat        3
 stat_ground      0, -2, 0, 2
@@ -997,7 +1023,7 @@ category         cavalry
 class            heavy
 voice_type       General_1
 soldier          barb_heavy_cavalry, 15, 0, 1
-mount            generals horse
+mount            generals horse armed
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, general_unit, hide_forest, hardy, general_unit_upgrade
 formation        1.5, 4, 3, 6, 3, square
@@ -1074,7 +1100,7 @@ soldier          german_viking_spearmen, 60, 0, 1.2, 0.3
 attributes       sea_faring, hide_improved_forest, hardy, warcry
 ;formation        1.2, 1.2, 2.4, 2.4, 12, square
 formation        1.2, 1.2, 0.8, 0.8, 12, square
-stat_health      1, 0
+stat_health      1, 1
 stat_pri         8, 6, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
@@ -7874,7 +7900,7 @@ category         cavalry
 class            heavy
 voice_type       General_1
 soldier          roman_heavy_equites, 15, 0, 1
-mount            generals horse
+mount            generals horse armed
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, general_unit, hide_forest, hardy
 formation        1.5, 4, 3, 6, 3, square
@@ -7884,7 +7910,7 @@ stat_pri_attr    no
 stat_sec         12, 5, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  4, 7, 4, leather
-stat_sec_armour  1, 1, flesh
+stat_sec_armour  4, 1, flesh
 stat_heat        1
 stat_ground      0, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
@@ -7900,7 +7926,7 @@ category         cavalry
 class            heavy
 voice_type       General_1
 soldier          roman_guard_cavalry, 15, 0, 1
-mount            generals horse
+mount            generals horse armed
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, general_unit, hide_forest, hardy, general_unit_upgrade
 formation        1.5, 4, 3, 6, 3, square
@@ -7910,7 +7936,7 @@ stat_pri_attr    no
 stat_sec         12, 5, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  11, 7, 4, metal
-stat_sec_armour  1, 1, flesh
+stat_sec_armour  4, 1, flesh
 stat_heat        3
 stat_ground      0, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
