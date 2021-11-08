@@ -3233,7 +3233,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 ;model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_pike_phalanx
-skeleton			fs_spearman, fs_swordsman	;fs_thp_f_spearman								; combat spear
+skeleton			fs_slow_spearman, fs_swordsman	;fs_thp_f_spearman								; combat spear
 indiv_range			40
 texture				pontus, civ/data/new/models_units/textures/UNIT_GREEK_PHALANX_PIKEMAN_PONTUS_old1.TGA
 texture				egypt, civ/data/new/models_units/textures/UNIT_EGYPT_PIKEMAN.TGA
@@ -3587,7 +3587,7 @@ model_sprite		romans_scipii, 60.0, civ/data/sprites/romans/romans_scipii_roman_l
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				roman_infantry_auxillia
-skeleton			fs_spearman
+skeleton			fs_s1_javelinman, fs_spearman
 indiv_range			40
 texture				romans_scipii, civ/data/new/models_units/LEGIONS/textures/AUXILLIA_spearmen.tga
 texture				roman_rebels, civ/data/new/models_units/LEGIONS/textures/AUXILLIA_spearmen_REBEL.TGA
@@ -4964,7 +4964,7 @@ model_flexi			civ/data/new/models_units/UNIT_GREEK_THRACIAN_NOBLE.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_pike_phalanx_mac
-skeleton			fs_spearman, fs_swordsman	;fs_thp_f_spearman								; combat spear
+skeleton			fs_slow_spearman, fs_swordsman	;fs_thp_f_spearman								; combat spear
 indiv_range			40
 texture				macedon, civ/data/new/models_units/textures/UNIT_MACEDON_PIKE_PHALANX.TGA
 model_flexi_m			civ/data/new/models_units/unit_greek_pike_phalanx_400.cas, 8

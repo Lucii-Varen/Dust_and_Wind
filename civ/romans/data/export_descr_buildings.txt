@@ -1856,6 +1856,8 @@ building equestrian
                 recruit "barb cavalry gaul"  0  requires factions { gauls, spain, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb cavalry gaul"  0  requires factions { germans, } and building_factions { slave, } 
                 recruit "barb cavalry gaul"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "german heavy cavalry"  0  requires factions { germans, } and building_factions { slave, }
+                recruit "german heavy cavalry"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb cavalry gaul"  0  requires factions { dacia, } and building_factions { slave, } 
                 recruit "barb cavalry gaul"  0  requires factions { dacia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb horse archers dacian"  0  requires factions { dacia, } and building_factions { slave, } 
@@ -2002,6 +2004,8 @@ building equestrian
                 recruit "barb cavalry gaul"  0  requires factions { gauls, spain, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb cavalry gaul"  0  requires factions { germans, } and building_factions { slave, }
                 recruit "barb cavalry gaul"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "german heavy cavalry"  0  requires factions { germans, } and building_factions { slave, }
+                recruit "german heavy cavalry"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb cavalry gaul"  0  requires factions { dacia, } and building_factions { slave, }
                 recruit "barb cavalry gaul"  0  requires factions { dacia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb horse archers dacian"  0  requires factions { dacia, } and building_factions { slave, }
@@ -2223,6 +2227,8 @@ building equestrian
                 recruit "barb cavalry gaul"  0  requires factions { gauls, spain, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb cavalry gaul"  0  requires factions { germans, } and building_factions { slave, }
                 recruit "barb cavalry gaul"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
+                recruit "german heavy cavalry"  0  requires factions { germans, } and building_factions { slave, }
+                recruit "german heavy cavalry"  0  requires factions { germans, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb cavalry gaul"  0  requires factions { dacia, } and building_factions { slave, }
                 recruit "barb cavalry gaul"  0  requires factions { dacia, } and not building_factions { slave, } and building_present_min_level barb_nobles barb_settlement
                 recruit "barb horse archers dacian"  0  requires factions { dacia, } and building_factions { slave, }

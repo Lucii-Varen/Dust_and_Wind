@@ -4146,6 +4146,10 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 settlement
@@ -4204,6 +4208,10 @@ settlement
 	building
 	{
 		type caravans caravan
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
