@@ -1338,6 +1338,7 @@ texture				scythia, civ/data/new/models_units/textures/OFFICER_GREEK_HOPLIE.TGA
 texture				romans_julii, civ/data/new/models_units/textures/OFFICER_GREEK_HOPLIE.TGA
 texture				romans_brutii, civ/data/new/models_units/textures/OFFICER_GREEK_HOPLIE.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/OFFICER_GREEK_HOPLIE.TGA
+texture				romans_scipii, civ/data/new/models_units/textures/OFFICER_GREEK_HOPLIE.TGA
 texture				slave, civ/data/new/models_units/textures/OFFICER_GREEK_HOPLIE.TGA
 texture				merc, civ/data/new/models_units/textures/OFFICER_GREEK_HOPLIE.TGA
 model_flexi_m		civ/data/new/models_units/officer_greek_hoplite.cas, 8
@@ -1371,6 +1372,8 @@ texture				dacia, civ/data/new/models_units/textures/OFFICER_GREEK_STANDARD_slav
 texture				romans_julii, civ/data/new/models_units/textures/OFFICER_GREEK_STANDARD_slave.TGA
 texture				romans_brutii, civ/data/new/models_units/textures/OFFICER_GREEK_STANDARD_slave.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/OFFICER_GREEK_STANDARD_slave.TGA
+texture				romans_scipii, civ/data/new/models_units/textures/OFFICER_GREEK_STANDARD_slave.TGA
+texture				slave, civ/data/new/models_units/textures/OFFICER_GREEK_STANDARD_slave.TGA
 texture				merc, civ/data/new/models_units/textures/OFFICER_GREEK_STANDARD_slave.TGA
 model_flexi_m		civ/data/new/models_units/OFFICER_GREEK_STANDARD.cas, 8
 model_flexi_m		civ/data/new/models_units/OFFICER_GREEK_STANDARD.cas, 15
@@ -2450,10 +2453,10 @@ texture				thrace, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_CATAPHRAC
 texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_CATAPHRACT_SELEUCID.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_CATAPHRACT_BAKTRIAN.TGA
 model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT.CAS, 8
-model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT.cas, 15
-model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT.cas, 40
-model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT_LOW.cas, 15
+model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT_LOW.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT_LOW.cas, max
 model_sprite		roman_rebels, 70.0, civ/data/sprites/roman_rebels_greek_heavy_cataphract_sprite.spr
 model_sprite		egypt, 70.0, civ/data/sprites/egypt_greek_heavy_cataphract_sprite.spr
 model_sprite		greek_cities, 70.0, civ/data/sprites/greek_cities_greek_heavy_cataphract_sprite.spr
@@ -3037,26 +3040,26 @@ type				greek_hoplite
 skeleton			fs_gladius									; combat spear
 indiv_range			40
 texture				egypt, civ/data/new/models_units/textures/UNIT_GREEK_Hoplite_EGYPT.TGA
-texture				slave, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_mercenaries.TGA
+texture				slave, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
 texture				greek_cities, civ/data/new/models_units/textures/unit_greek_hoplite.tga
 texture				numidia, civ/data/new/models_units/textures/unit_greek_hoplite_spartan.tga
 texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_macedon.TGA
 texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_seleucid.TGA
 texture				pontus, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_pontus.TGA
-texture				armenia, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
-texture				thrace, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
-texture				parthia, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
-texture				britons, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
-texture				romans_brutii, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
-texture				scythia, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_mercenaries.tga
+texture				armenia, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
+texture				thrace, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
+texture				parthia, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
+texture				britons, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
+texture				romans_brutii, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
+texture				scythia, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
 texture				romans_julii, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_CIMMERIA.TGA
-texture				germans, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
-texture				gauls, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
-texture				spain, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
-texture				carthage, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
+texture				germans, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
+texture				gauls, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
+texture				spain, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
+texture				carthage, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
 texture				romans_scipii, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_ETRSUCAN_HOPLITE.TGA
-texture				merc, civ/data/new/models_units/textures/unit_greek_hoplite_mercenaries.tga
+texture				merc, civ/data/new/models_units/textures/UNIT_GREEK_HOPLITE_ROMAN.TGA
 model_flexi			civ/data/new/models_units/unit_greek_hoplite.cas, 15
 model_flexi			civ/data/new/models_units/unit_greek_hoplite.cas, 30
 model_flexi			civ/data/new/models_units/UNIT_GREEK_hoplite_LOW.cas, 40
@@ -3522,9 +3525,9 @@ texture				romans_scipii, civ/data/new/models_units/legions/textures/ROMAN_HASTA
 texture				roman_rebels, civ/data/new/models_units/legions/textures/ROMAN_HASTATI_POST_MARIAN.TGA
 texture				slave, civ/data/new/models_units/legions/textures/ROMAN_HASTATI.TGA
 model_flexi_m			civ/data/new/models_units/legions/roman_hastati.CAS, 15
-model_flexi_m			civ/data/new/models_units/legions/roman_hastati.CAS, 30
-model_flexi_m			civ/data/new/models_units/legions/roman_hastati.CAS, 40
-model_flexi			civ/data/new/models_units/legions/roman_hastati.CAS, max
+model_flexi_m			civ/data/new/models_units/legions/roman_hastati_low.CAS, 30
+model_flexi_m			civ/data/new/models_units/legions/roman_hastati_low.CAS, 40
+model_flexi			civ/data/new/models_units/legions/roman_hastati_low.CAS, max
 ;model_sprite		romans_scipii, 60.0, civ/data/sprites/romans/romans_scipii_roman_hastati_sprite.spr
 ;model_sprite		roman_rebels, 60.0, civ/data/sprites/romans/romans_scipii_roman_hastati_sprite.spr
 model_sprite		romans_scipii, 60.0, civ/data/sprites/romans_scipii_roman_hastati_sprite.spr
@@ -4457,9 +4460,9 @@ texture				egypt, civ/data/new/models_units/textures/UNIT_MACEDON_HALKASPIST_egy
 texture				britons, civ/data/new/models_units/textures/UNIT_MACEDON_HALKASPIST_BAKTRIA.tga
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_MACEDON_HALKASPIST_BAKTRIA.tga
 model_flexi			civ/data/new/models_units/UNIT_GREEK_MACEDONIAN_CHALKASPIS.cas, 15
-model_flexi			civ/data/new/models_units/UNIT_GREEK_MACEDONIAN_CHALKASPIS.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_GREEK_MACEDONIAN_CHALKASPIS.cas, 40
-model_flexi			civ/data/new/models_units/UNIT_GREEK_MACEDONIAN_CHALKASPIS.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_MACEDONIAN_CHALKASPIS_LOW.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_GREEK_MACEDONIAN_CHALKASPIS_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_GREEK_MACEDONIAN_CHALKASPIS_LOW.cas, max
 model_sprite		macedon, 70.0, civ/data/sprites/macedon_macedonian_chalkaspist_sprite.spr
 model_sprite		seleucid, 70.0, civ/data/sprites/seleucid_macedonian_chalkaspist_sprite.spr
 model_sprite		egypt, 70.0, civ/data/sprites/egypt_macedonian_chalkaspist_sprite.spr
@@ -5181,8 +5184,8 @@ texture				parthia, civ/data/new/models_units/textures/UNIT_EASTERN_INFANTRY_PAR
 texture				armenia, civ/data/new/models_units/textures/UNIT_EASTERN_ARMENIAN_THUREOPHOROI.TGA
 model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY.cas, 8
 model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY.cas, 15
-model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY.cas, max
+model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY_LOW.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_EAST_SABEIAN_HEAVY_INFANTRY_LOW.cas, max
 model_sprite		armenia, 60.0, civ/data/sprites/armenia_sabeian_heavy_infantry_sprite.spr
 model_sprite		parthia, 60.0, civ/data/sprites/parthia_sabeian_heavy_infantry_sprite.spr
 model_sprite		romans_brutii, 60.0, civ/data/sprites/romans_brutii_sabeian_heavy_infantry_sprite.spr

@@ -881,7 +881,7 @@ Scandia
 	126 115 178				
 	iron, amber, slaves, viking, Germania		
 	5
-	3
+	7
 ;;;;;;;;;;;Central Asia;;;;;;;;;;;
 Tribus_Massagetae				
 	Campus_Massagetae				
@@ -1778,7 +1778,7 @@ Insula_Gothii
 	218 89 3				
 	slaves, viking		
 	5
-	3
+	6
 
 Locus_Careotae				
 	Vicus_Careotae				

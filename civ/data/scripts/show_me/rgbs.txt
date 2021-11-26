@@ -22076,19 +22076,194 @@ and not I_LocalFaction pontus
 and I_NumberOfSettlements pontus > 0
 console_command diplomatic_stance pontus thrace War
 end_if
-if I_SettlementOwner Ancyra = thrace
-and not I_LocalFaction thrace
+if I_NumberOfSettlements pontus > 0
 and not I_LocalFaction pontus
-and I_NumberOfSettlements pontus > 0
-console_command diplomatic_stance pontus thrace War
-console_command add_money pontus, 40000
-end_if
-if I_SettlementOwner Ancyra = greek_cities
-and not I_LocalFaction greek_cities
-and not I_LocalFaction pontus
-and I_NumberOfSettlements pontus > 0
-console_command diplomatic_stance pontus greek_cities War
-console_command add_money pontus, 40000
+	if I_SettlementOwner Ancyra = seleucid
+	and not I_LocalFaction seleucid
+	console_command diplomatic_stance pontus seleucid War
+	console_command add_money pontus, 40000
+		if I_SettlementOwner Sinope = pontus
+    	console_command add_population Sinope 500
+    	end_if
+    	if I_SettlementOwner Mazaka = pontus
+    	console_command add_population Mazaka 500
+    	end_if
+    	if I_SettlementOwner Amasia = pontus
+    	console_command add_population Amasia 500
+    	end_if
+    	if I_SettlementOwner Heraclea = pontus
+    	console_command add_population Heraclea 500
+    	end_if
+    	if I_SettlementOwner Apameia = pontus
+    	console_command add_population Apameia 500
+    	end_if
+    	if I_SettlementOwner Sardis = pontus
+    	console_command add_population Sardis 500
+    	end_if
+	end_if
+	if I_SettlementOwner Ancyra = thrace
+	and not I_LocalFaction thrace
+	console_command diplomatic_stance pontus thrace War
+	console_command add_money pontus, 40000
+    if I_SettlementOwner Sinope = pontus
+    console_command add_population Sinope 500
+    end_if
+    if I_SettlementOwner Mazaka = pontus
+    console_command add_population Mazaka 500
+    end_if
+    if I_SettlementOwner Amasia = pontus
+    console_command add_population Amasia 500
+    end_if
+    if I_SettlementOwner Heraclea = pontus
+    console_command add_population Heraclea 500
+    end_if
+    if I_SettlementOwner Apameia = pontus
+    console_command add_population Apameia 500
+    end_if
+    if I_SettlementOwner Sardis = pontus
+    console_command add_population Sardis 500
+    end_if
+	end_if
+	if I_SettlementOwner Ancyra = greek_cities
+	and not I_LocalFaction greek_cities
+	console_command diplomatic_stance pontus greek_cities War
+	console_command add_money pontus, 40000
+	if I_SettlementOwner Sinope = pontus
+    console_command add_population Sinope 500
+    end_if
+    if I_SettlementOwner Mazaka = pontus
+    console_command add_population Mazaka 500
+    end_if
+    if I_SettlementOwner Amasia = pontus
+    console_command add_population Amasia 500
+    end_if
+    if I_SettlementOwner Heraclea = pontus
+    console_command add_population Heraclea 500
+    end_if
+    if I_SettlementOwner Apameia = pontus
+    console_command add_population Apameia 500
+    end_if
+    if I_SettlementOwner Sardis = pontus
+    console_command add_population Sardis 500
+    end_if
+	end_if
+	if I_SettlementOwner Sinope = romans_julii
+	and not I_LocalFaction romans_julii
+	console_command diplomatic_stance pontus romans_julii War
+	console_command add_money pontus, 40000
+    spawn_army 
+        faction pontus
+			character Thyrsos, general, age 30, x 189, y 133
+			unit east pontic general, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit east hoplite brazen shield, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit eastern heavy archer, exp 3 armour 1 weapon_lvl 1
+			unit eastern heavy archer, exp 3 armour 1 weapon_lvl 1
+			unit east onager, exp 3 armour 1 weapon_lvl 1
+			unit east cappodocian cavalry, exp 3 armour 1 weapon_lvl 1
+			unit east cappodocian cavalry, exp 3 armour 1 weapon_lvl 1
+	end
+    	if I_SettlementOwner Ancyra = pontus
+    	console_command add_population Ancyra 500
+    	end_if
+    	if I_SettlementOwner Mazaka = pontus
+    	console_command add_population Mazaka 500
+    	end_if
+    	if I_SettlementOwner Amasia = pontus
+    	console_command add_population Amasia 500
+    	end_if
+    	if I_SettlementOwner Heraclea = pontus
+    	console_command add_population Heraclea 500
+    	end_if
+    	if I_SettlementOwner Apameia = pontus
+    	console_command add_population Apameia 500
+    	end_if
+    	if I_SettlementOwner Sardis = pontus
+    	console_command add_population Sardis 500
+		end_if
+	end_if
+	if I_SettlementOwner Heraclea = romans_julii
+	and not I_LocalFaction romans_julii
+	console_command diplomatic_stance pontus romans_julii War
+	console_command add_money pontus, 40000
+    spawn_army 
+        faction pontus
+			character Thyrsos, general, age 30, x 189, y 133
+			unit east pontic general, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit thureos spears, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit greek pikemen, exp 3 armour 1 weapon_lvl 1
+			unit east hoplite brazen shield, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit heavy thureos swordsmen, exp 3 armour 1 weapon_lvl 1
+			unit eastern heavy archer, exp 3 armour 1 weapon_lvl 1
+			unit eastern heavy archer, exp 3 armour 1 weapon_lvl 1
+			unit east onager, exp 3 armour 1 weapon_lvl 1
+			unit east cappodocian cavalry, exp 3 armour 1 weapon_lvl 1
+			unit east cappodocian cavalry, exp 3 armour 1 weapon_lvl 1
+	end
+		if I_SettlementOwner Ancyra = pontus
+    	console_command add_population Ancyra 500
+    	end_if
+    	if I_SettlementOwner Sinope = pontus
+    	console_command add_population Ancyra 500
+    	end_if
+    	if I_SettlementOwner Mazaka = pontus
+    	console_command add_population Mazaka 500
+    	end_if
+    	if I_SettlementOwner Amasia = pontus
+    	console_command add_population Amasia 500
+    	end_if
+		if I_SettlementOwner Apameia = pontus
+    	console_command add_population Apameia 500
+    	end_if
+    	if I_SettlementOwner Sardis = pontus
+    	console_command add_population Sardis 500
+		end_if
+	end_if
+	if I_SettlementOwner Heraclea = greek_cities
+		and not I_LocalFaction greek_cities
+		console_command diplomatic_stance pontus greek_cities War
+		console_command add_money pontus, 40000
+		if I_SettlementOwner Ancyra = pontus
+    	console_command add_population Ancyra 500
+    	end_if
+    	if I_SettlementOwner Sinope = pontus
+    	console_command add_population Ancyra 500
+    	end_if
+    	if I_SettlementOwner Mazaka = pontus
+    	console_command add_population Mazaka 500
+    	end_if
+    	if I_SettlementOwner Amasia = pontus
+		console_command add_population Amasia 500
+    	end_if
+    	if I_SettlementOwner Apameia = pontus
+    	console_command add_population Apameia 500
+    	end_if
+    	if I_SettlementOwner Sardis = pontus
+    	console_command add_population Sardis 500
+		end_if
+	end_if
 end_if
 if I_SettlementOwner Messana = numidia
 and not I_LocalFaction carthage
@@ -22170,6 +22345,153 @@ and not I_LocalFaction roman_rebels
 and not I_LocalFaction parthia
 and I_NumberOfSettlements roman_rebels > 0
 console_command diplomatic_stance roman_rebels parthia War
+end_if
+if I_SettlementOwner Tanais = Scythia
+and not I_LocalFaction romans_julii
+and not I_LocalFaction Scythia
+and I_NumberOfSettlements romans_julii > 0
+console_command diplomatic_stance romans_julii Scythia War
+console_command add_population Tanais 1000
+end_if
+
+if not I_LocalFaction greek_cities
+	and I_NumberOfSettlements greek_cities > 0
+    if not I_LocalFaction macedon
+    and I_SettlementOwner Athens = macedon
+    console_command diplomatic_stance greek_cities macedon War
+    console_command add_money greek_cities, 20000
+		if I_SettlementOwner Pergamum = greek_cities
+        console_command add_population Pergamum 600
+    	end_if
+    	if I_SettlementOwner Assos = greek_cities
+        console_command add_population Assos 600
+    	end_if
+    	if I_SettlementOwner Rhodes = greek_cities
+        console_command add_population Rhodes 500
+        end_if
+   		if I_SettlementOwner Thermon = greek_cities
+		console_command add_population Thermon 500
+		end_if
+    end_if
+	if not I_LocalFaction numidia
+    and I_SettlementOwner Athens = numidia
+    console_command diplomatic_stance greek_cities numidia War
+    console_command add_money greek_cities, 20000
+		if I_SettlementOwner Pergamum = greek_cities
+        console_command add_population Pergamum 600
+    	end_if
+    	if I_SettlementOwner Assos = greek_cities
+        console_command add_population Assos 600
+    	end_if
+    	if I_SettlementOwner Rhodes = greek_cities
+        console_command add_population Rhodes 500
+        end_if
+   		if I_SettlementOwner Thermon = greek_cities
+		console_command add_population Thermon 500
+		end_if
+    end_if
+    if not I_LocalFaction numidia
+    and I_SettlementOwner Rhodes = numidia
+    console_command diplomatic_stance greek_cities numidia War
+    console_command add_money greek_cities, 20000
+		if I_SettlementOwner Pergamum = greek_cities
+        console_command add_population Pergamum 600
+    	end_if
+    	if I_SettlementOwner Assos = greek_cities
+        console_command add_population Assos 600
+    	end_if
+    	if I_SettlementOwner Athens = greek_cities
+        console_command add_population Athens 500
+        end_if
+   		if I_SettlementOwner Thermon = greek_cities
+		console_command add_population Thermon 500
+		end_if
+	end_if
+	if not I_LocalFaction egypt
+    and I_SettlementOwner Rhodes = egypt
+    console_command diplomatic_stance greek_cities egypt War
+    console_command add_money greek_cities, 20000
+		if I_SettlementOwner Pergamum = greek_cities
+        console_command add_population Pergamum 600
+    	end_if
+    	if I_SettlementOwner Assos = greek_cities
+        console_command add_population Assos 600
+    	end_if
+    	if I_SettlementOwner Athens = greek_cities
+        console_command add_population Athens 500
+        end_if
+   		if I_SettlementOwner Thermon = greek_cities
+		console_command add_population Thermon 500
+		end_if
+    end_if
+	if not I_LocalFaction macedon
+    and I_SettlementOwner Rhodes = macedon
+    console_command diplomatic_stance greek_cities macedon War
+    console_command add_money greek_cities, 30000
+		if I_SettlementOwner Pergamum = greek_cities
+        console_command add_population Pergamum 600
+    	end_if
+    	if I_SettlementOwner Assos = greek_cities
+        console_command add_population Assos 600
+    	end_if
+    	if I_SettlementOwner Athens = greek_cities
+        console_command add_population Athens 500
+        end_if
+   		if I_SettlementOwner Thermon = greek_cities
+		console_command add_population Thermon 500
+		end_if
+    end_if
+	if not I_LocalFaction pontus
+    and I_SettlementOwner Rhodes = pontus
+    console_command diplomatic_stance greek_cities pontus War
+    console_command add_money greek_cities, 30000
+		if I_SettlementOwner Pergamum = greek_cities
+        console_command add_population Pergamum 600
+    	end_if
+    	if I_SettlementOwner Assos = greek_cities
+        console_command add_population Assos 600
+    	end_if
+    	if I_SettlementOwner Athens = greek_cities
+        console_command add_population Athens 500
+        end_if
+   		if I_SettlementOwner Thermon = greek_cities
+		console_command add_population Thermon 500
+		end_if
+    end_if
+if not I_LocalFaction pontus
+   and I_SettlementOwner Pergamum = pontus
+    console_command diplomatic_stance greek_cities pontus War
+    console_command add_money greek_cities, 30000
+		if I_SettlementOwner Rhodes = greek_cities
+        console_command add_population Rhodes 600
+    	end_if
+    	if I_SettlementOwner Assos = greek_cities
+        console_command add_population Assos 600
+    	end_if
+    	if I_SettlementOwner Athens = greek_cities
+        console_command add_population Athens 500
+        end_if
+   		if I_SettlementOwner Thermon = greek_cities
+		console_command add_population Thermon 500
+		end_if
+	end_if
+	if not I_LocalFaction pontus
+	and I_SettlementOwner Assos = pontus
+    console_command diplomatic_stance greek_cities pontus War
+    console_command add_money greek_cities, 20000
+		if I_SettlementOwner Rhodes = greek_cities
+        console_command add_population Rhodes 600
+    	end_if
+    	if I_SettlementOwner Pergamum = greek_cities
+        console_command add_population Pergamum 600
+    	end_if
+    	if I_SettlementOwner Athens = greek_cities
+        console_command add_population Athens 500
+        end_if
+   		if I_SettlementOwner Thermon = greek_cities
+		console_command add_population Thermon 500
+		end_if
+    end_if
 end_if
 
 if not I_LocalFaction macedon
@@ -22353,7 +22675,7 @@ if not I_LocalFaction dacia
     if not I_LocalFaction romans_julii
     and I_SettlementOwner Buridava = romans_julii
     console_command diplomatic_stance dacia romans_julii War
-    console_command add_money dacia, 20000
+    console_command add_money dacia, 40000
 		if I_SettlementOwner Sarmizegetusa = dacia
         console_command add_population Sarmizegetusa 600
     	end_if
@@ -22367,7 +22689,7 @@ if not I_LocalFaction dacia
 	if not I_LocalFaction romans_julii
     and I_SettlementOwner Sarmizegetusa = romans_julii
     console_command diplomatic_stance dacia romans_julii War
-    console_command add_money dacia, 20000
+    console_command add_money dacia, 40000
 		if I_SettlementOwner Buridava = dacia
         console_command add_population Buridava 600
     	end_if
@@ -22381,7 +22703,7 @@ if not I_LocalFaction dacia
     if not I_LocalFaction thrace
     and I_SettlementOwner Sarmizegetusa = thrace
     console_command diplomatic_stance dacia thrace War
-    console_command add_money dacia, 20000
+    console_command add_money dacia, 40000
 		if I_SettlementOwner Buridava = dacia
         console_command add_population Buridava 600
     	end_if
@@ -22395,7 +22717,7 @@ if not I_LocalFaction dacia
 	if not I_LocalFaction thrace
     and I_SettlementOwner Buridava = thrace
 	console_command diplomatic_stance dacia thrace War
-    console_command add_money dacia, 20000
+    console_command add_money dacia, 40000
 		if I_SettlementOwner Sarmizegetusa = dacia
         console_command add_population Sarmizegetusa 600
     	end_if
@@ -22409,7 +22731,7 @@ if not I_LocalFaction dacia
 	if not I_LocalFaction macedon
     and I_SettlementOwner Buridava = macedon
     console_command diplomatic_stance dacia macedon War
-    console_command add_money dacia, 20000
+    console_command add_money dacia, 40000
 		if I_SettlementOwner Sarmizegetusa = dacia
         console_command add_population Sarmizegetusa 600
     	end_if
@@ -22423,7 +22745,7 @@ if not I_LocalFaction dacia
 	if not I_LocalFaction spain
     and I_SettlementOwner Buridava = spain
 	console_command diplomatic_stance dacia spain War
-	console_command add_money dacia, 20000
+	console_command add_money dacia, 40000
 		if I_SettlementOwner Sarmizegetusa = dacia
         console_command add_population Sarmizegetusa 600
     	end_if
@@ -22437,7 +22759,7 @@ if not I_LocalFaction dacia
 	if not I_LocalFaction spain
     and I_SettlementOwner Sarmizegetusa = spain
     console_command diplomatic_stance dacia spain War
-    console_command add_money dacia, 20000
+    console_command add_money dacia, 40000
 		if I_SettlementOwner Buridava = dacia
         console_command add_population Buridava 600
     	end_if
@@ -22451,7 +22773,7 @@ if not I_LocalFaction dacia
 	if not I_LocalFaction germans
     and I_SettlementOwner Sarmizegetusa = germans
     console_command diplomatic_stance dacia germans War
-    console_command add_money dacia, 20000
+    console_command add_money dacia, 40000
 		if I_SettlementOwner Buridava = dacia
         console_command add_population Buridava 600
     	end_if
@@ -22465,7 +22787,7 @@ if not I_LocalFaction dacia
 	if not I_LocalFaction romans_scipii
     and I_SettlementOwner Buridava = romans_scipii
     console_command diplomatic_stance dacia romans_scipii War
-    console_command add_money dacia, 20000
+    console_command add_money dacia, 40000
 		if I_SettlementOwner Sarmizegetusa = dacia
         console_command add_population Sarmizegetusa 600
     	end_if
@@ -22479,7 +22801,7 @@ if not I_LocalFaction dacia
 	if not I_LocalFaction romans_scipii
     and I_SettlementOwner Sarmizegetusa = romans_scipii
     console_command diplomatic_stance dacia romans_scipii War
-    console_command add_money dacia, 20000
+    console_command add_money dacia, 40000
 		if I_SettlementOwner Buridava = dacia
         console_command add_population Buridava 600
     	end_if
@@ -22838,9 +23160,9 @@ if I_NumberOfSettlements scythia > 0
 end_if
 
 if not I_LocalFaction spain
-and I_NumberOfSettlements spain > 0
-if I_SettlementOwner Eburonum = germans
-and not I_LocalFaction germans
+	and I_NumberOfSettlements spain > 0
+	if I_SettlementOwner Eburonum = germans
+	and not I_LocalFaction germans
 console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
@@ -22849,7 +23171,10 @@ console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
-console_command add_money spain 35000
+console_command add_population Iuvavum 400
+console_command add_population Leucaristus 400
+console_command add_population Aquincum 400
+console_command add_money spain 40000
 console_command diplomatic_stance spain germans War
 spawn_army
             faction spain
@@ -22875,8 +23200,8 @@ spawn_army
             unit barb cavalry gaul, exp 2 armour 1 weapon_lvl 1
 end
 end_if
-if I_SettlementOwner Eburonum = gauls
-and not I_LocalFaction gauls
+	if I_SettlementOwner Eburonum = gauls
+	and not I_LocalFaction gauls
 console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
@@ -22885,8 +23210,11 @@ console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
 console_command add_population Eburonum 4000
+console_command add_population Iuvavum 400
+console_command add_population Leucaristus 400
+console_command add_population Aquincum 400
 console_command diplomatic_stance spain gauls War
-spawn_army
+	spawn_army
             faction spain
             character Casticos, general, age 30, x 106, y 169
             unit barb heavy cavalry, exp 3 armour 1 weapon_lvl 1
@@ -22921,7 +23249,7 @@ console_command add_population Iuvavum 4000
 console_command add_population Iuvavum 4000
 console_command add_population Iuvavum 4000
 console_command diplomatic_stance spain gauls War
-console_command add_money spain 35000
+console_command add_money spain 40000
 spawn_army
             faction spain
             character Casticos, general, age 30, x 102, y 161 
@@ -24838,6 +25166,7 @@ end_monitor
 
 monitor_event FactionTurnStart FactionType romans_scipii
 and I_TurnNumber > 25
+and I_TurnNumber < 110
 if I_SettlementOwner Messana = carthage
 and not I_LocalFaction carthage
 and not I_LocalFaction numidia

@@ -340,6 +340,8 @@ building barracks
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EASTERN;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                recruit "east infantry"  0  requires factions { eastern, } and building_factions { slave, }
+                recruit "east infantry"  0  requires factions { eastern, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "armenian auxilia"  0  requires factions { armenia, } and building_factions { slave, }
                 recruit "armenian auxilia"  0  requires factions { armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east militia"  0  requires factions { parthia, pontus, armenia, britons, } and building_factions { slave, }
@@ -522,6 +524,8 @@ building barracks
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EASTERN;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                recruit "east infantry"  0  requires factions { eastern, } and building_factions { slave, }
+                recruit "east infantry"  0  requires factions { eastern, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "armenian auxilia"  0  requires factions { armenia, } and building_factions { slave, }
                 recruit "armenian auxilia"  0  requires factions { armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "greek pikemen"  0  requires factions { pontus, } and building_factions { slave, }
@@ -533,7 +537,7 @@ building barracks
                 recruit "parthian takabara"  0  requires factions { eastern, } and building_factions { slave, }
                 recruit "parthian takabara"  0  requires factions { eastern, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "eastern heavy infantry parthia"  0  requires factions { parthia, } and building_factions { slave, }
-                recruit "eastern heavy infantry parthia"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "eastern heavy infantry parthia"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani pahlevani_rituals
                 recruit "eastern medium infantry"  0  requires factions { parthia, } and building_factions { slave, }
                 recruit "eastern medium infantry"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "eastern auxilia"  0  requires factions { parthia, } and building_factions { slave, }
@@ -770,9 +774,7 @@ building barracks
                 recruit "armenian auxilia"  0  requires factions { armenia, } and building_factions { slave, }
                 recruit "armenian auxilia"  0  requires factions { armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "eastern heavy infantry parthia"  0  requires factions { parthia, } and building_factions { slave, }
-                recruit "eastern heavy infantry parthia"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-;                recruit "eastern medium infantry"  0  requires factions { parthia, } and building_factions { slave, }
-;                recruit "eastern medium infantry"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "eastern heavy infantry parthia"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani pahlevani_rituals
                 recruit "parthian takabara"  0  requires factions { britons, parthia, armenia, pontus, romans_brutii, } and building_factions { slave, }
                 recruit "parthian takabara"  0  requires factions { britons, parthia, armenia, pontus, romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "eastern auxilia"  0  requires factions { parthia, } and building_factions { slave, }
@@ -1092,14 +1094,12 @@ building barracks
                 recruit "thureos spears"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "thureos swordsmen"  0  requires factions { pontus, } and building_factions { slave, }
                 recruit "thureos swordsmen"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "parthian takabara"  0  requires factions { britons, parthia, armenia, pontus, romans_brutii, } and building_factions { slave, }
-                recruit "parthian takabara"  0  requires factions { britons, parthia, armenia, pontus, romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "parthian takabara"  1  requires factions { britons, parthia, armenia, pontus, romans_brutii, } and building_factions { slave, }
+                recruit "parthian takabara"  1  requires factions { britons, parthia, armenia, pontus, romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "eastern heavy infantry parthia"  0  requires factions { parthia, } and building_factions { slave, }
-                recruit "eastern heavy infantry parthia"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-;                recruit "eastern medium infantry"  0  requires factions { parthia, } and building_factions { slave, }
-;                recruit "eastern medium infantry"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "eastern auxilia"  0  requires factions { parthia, } and building_factions { slave, }
-                recruit "eastern auxilia"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "eastern heavy infantry parthia"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani pahlevani_rituals
+                recruit "eastern auxilia"  1  requires factions { parthia, } and building_factions { slave, }
+                recruit "eastern auxilia"  1  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east heavy sparabara"  1  requires factions { eastern, } and building_factions { slave, }
                 recruit "east heavy sparabara"  1  requires factions { eastern, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east sabeian spearmen"  0  requires factions { romans_brutii, } and building_factions { slave, }
@@ -1449,6 +1449,8 @@ building equestrian
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EASTERN;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                recruit "east persian cavalry"  0  requires factions { parthia, britons, armenia, } and building_factions { slave, }
+                recruit "east persian cavalry"  0  requires factions { parthia, britons, armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east elephant small"  0  requires factions { parthia, pontus, armenia, }  and resource elephants and building_factions { slave, } 
                 recruit "east elephant small"  0  requires factions { parthia, pontus, armenia, }  and resource elephants and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "eastern cavalry"  0  requires factions { pontus, parthia, romans_brutii, armenia, britons, } and building_factions { slave, } 
@@ -1461,8 +1463,6 @@ building equestrian
                 recruit "sabaean light cavalry"  0  requires factions { romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east heavy cavalry"  0  requires factions { pontus, } and building_factions { slave, } 
                 recruit "east heavy cavalry"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "persian heavy riders"  0  requires factions { parthia, } and building_factions { slave, } 
-                recruit "persian heavy riders"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "parthian medium cavalry"  0  requires factions { parthia, } and building_factions { slave, } 
                 recruit "parthian medium cavalry"  0  requires factions { parthia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east parthian cavalry"  0  requires factions { parthia, britons, romans_brutii, } and building_factions { slave, } 
@@ -1613,20 +1613,20 @@ building equestrian
                 recruit "east elephant small"  0  requires factions { parthia, pontus, armenia, }  and resource elephants and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east elephant"  0  requires factions { parthia, parthia, pontus, }  and resource elephants and building_factions { slave, }
                 recruit "east elephant"  0  requires factions { parthia, parthia, pontus, }  and resource elephants and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "eastern cavalry"  0  requires factions { pontus, parthia, romans_brutii, armenia, britons, } and building_factions { slave, }
-                recruit "eastern cavalry"  0  requires factions { pontus, parthia, romans_brutii, armenia, britons, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "eastern cavalry"  1  requires factions { pontus, parthia, romans_brutii, armenia, britons, } and building_factions { slave, }
+                recruit "eastern cavalry"  1  requires factions { pontus, parthia, romans_brutii, armenia, britons, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east cavalry"  0  requires factions { pontus, } and building_factions { slave, }
                 recruit "east cavalry"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "east heavy cavalry"  0  requires factions { pontus, } and building_factions { slave, }
-                recruit "east heavy cavalry"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "east heavy cavalry"  1  requires factions { pontus, } and building_factions { slave, }
+                recruit "east heavy cavalry"  1  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east scythed chariot"  0  requires factions { pontus, } and building_factions { slave, }
                 recruit "east scythed chariot"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "east horse archer"  0  requires factions { armenia, parthia, britons, } and building_factions { slave, }
-                recruit "east horse archer"  0  requires factions { armenia, parthia, britons, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "east horse archer"  1  requires factions { armenia, parthia, britons, } and building_factions { slave, }
+                recruit "east horse archer"  1  requires factions { armenia, parthia, britons, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "heavy lancer"  0  requires factions { armenia, } and building_factions { slave, }
                 recruit "heavy lancer"  0  requires factions { armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "east parthian cavalry"  0  requires factions { parthia, britons, romans_brutii, } and building_factions { slave, }
-                recruit "east parthian cavalry"  0  requires factions { parthia, britons, romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "east parthian cavalry"  1  requires factions { parthia, britons, romans_brutii, } and building_factions { slave, }
+                recruit "east parthian cavalry"  1  requires factions { parthia, britons, romans_brutii, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east persian cavalry"  0  requires factions { parthia, britons, armenia, } and building_factions { slave, }
                 recruit "east persian cavalry"  0  requires factions { parthia, britons, armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "persian heavy riders"  0  requires factions { parthia, } and building_factions { slave, }
@@ -1840,12 +1840,12 @@ building equestrian
                 recruit "eastern cavalry"  0  requires factions { pontus, parthia, romans_brutii, armenia, britons, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east cavalry"  0  requires factions { pontus, } and building_factions { slave, }
                 recruit "east cavalry"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "east heavy cavalry"  0  requires factions { pontus, } and building_factions { slave, }
-                recruit "east heavy cavalry"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "east heavy cavalry"  1  requires factions { pontus, } and building_factions { slave, }
+                recruit "east heavy cavalry"  1  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "east scythed chariot"  0  requires factions { pontus, } and building_factions { slave, }
                 recruit "east scythed chariot"  0  requires factions { pontus, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
-                recruit "east horse archer"  0  requires factions { armenia, parthia, britons, } and building_factions { slave, }
-                recruit "east horse archer"  0  requires factions { armenia, parthia, britons, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
+                recruit "east horse archer"  1  requires factions { armenia, parthia, britons, } and building_factions { slave, }
+                recruit "east horse archer"  1  requires factions { armenia, parthia, britons, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "heavy lancer"  0  requires factions { armenia, } and building_factions { slave, }
                 recruit "heavy lancer"  0  requires factions { armenia, } and not building_factions { slave, } and building_present_min_level pahlevani satrapy
                 recruit "SUGDIAN HEAVY CAVALRY"  0  requires factions { britons, } and building_factions { slave, }
@@ -2499,9 +2499,9 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { eastern, } and resource silk
-		taxable_income_bonus 100 requires factions { eastern, } and resource camels
-		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
+		taxable_income_bonus 150 requires factions { eastern, } and resource silk
+		taxable_income_bonus 200 requires factions { eastern, } and resource camels
+		taxable_income_bonus 80 requires factions { eastern, } and resource pigs
                 law_bonus bonus 1 requires factions { greek, barbarian, eastern, egypt, carthage, }
             }
             construction  2 
@@ -2535,9 +2535,9 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs  
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { eastern, } and resource silk
-		taxable_income_bonus 100 requires factions { eastern, } and resource camels
-		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
+		taxable_income_bonus 150 requires factions { eastern, } and resource silk
+		taxable_income_bonus 200 requires factions { eastern, } and resource camels
+		taxable_income_bonus 80 requires factions { eastern, } and resource pigs
                 law_bonus bonus 2 requires factions { greek, barbarian, eastern, egypt, carthage, }
             }
             construction  3 
@@ -2578,8 +2578,8 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { eastern, } and resource silk
-		taxable_income_bonus 100 requires factions { eastern, } and resource camels
+		taxable_income_bonus 150 requires factions { eastern, } and resource silk
+		taxable_income_bonus 200 requires factions { eastern, } and resource camels
 		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
                 law_bonus bonus 3 requires factions { greek, barbarian, eastern, egypt, carthage, }
 		
@@ -2621,9 +2621,9 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { eastern, } and resource silk
-		taxable_income_bonus 100 requires factions { eastern, } and resource camels
-		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
+		taxable_income_bonus 150 requires factions { eastern, } and resource silk
+		taxable_income_bonus 200 requires factions { eastern, } and resource camels
+		taxable_income_bonus 80 requires factions { eastern, } and resource pigs
                 law_bonus bonus 4 requires factions { greek, barbarian, eastern, egypt, carthage, }
             }
             construction  6 
@@ -2664,9 +2664,9 @@ building market
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource furs 
 		taxable_income_bonus 100 requires factions { romans_julii, } and resource pigs 
 		taxable_income_bonus 100 requires factions { carthage, } and resource elephants
-		taxable_income_bonus 100 requires factions { eastern, } and resource silk
-		taxable_income_bonus 100 requires factions { eastern, } and resource camels
-		taxable_income_bonus 60 requires factions { eastern, } and resource pigs
+		taxable_income_bonus 150 requires factions { eastern, } and resource silk
+		taxable_income_bonus 200 requires factions { eastern, } and resource camels
+		taxable_income_bonus 80 requires factions { eastern, } and resource pigs
                 law_bonus bonus 5 requires factions { greek, barbarian, eastern, egypt, carthage, }
             }
             construction  7 

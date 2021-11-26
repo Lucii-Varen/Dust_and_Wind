@@ -4116,7 +4116,7 @@ relative 	Phraotes, 	Nabunaita,		Thuxra,	end
 
 
 faction	pontus, trader smith
-denari	280000
+denari	290000
 settlement
 {
 	level city
@@ -6951,7 +6951,7 @@ settlement
 	year_founded 0
 	population 1300
 	plan_set default_set
-	faction_creator spain
+	faction_creator pontus
 	building
 	{
 		type core_building governors_house
@@ -9395,16 +9395,43 @@ unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
 unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
 unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
 unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
 unit		merc cretan archers			exp 4 armour 3 weapon_lvl 1
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
 unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
 unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
 
 ;Augila
 character	sub_faction carthage, Akbar, general, age 20, , x 133, y 51
 army
-unit		greek hoplite			exp 0 armour 0 weapon_lvl 1
-unit		greek hoplite			exp 0 armour 0 weapon_lvl 1
-unit		greek peltast			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 2
+unit		greek peltast			exp 3 armour 2 weapon_lvl 2
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
 
 ;Locus_Blemmye
 character	sub_faction egypt, Nektanebo, general, age 20, , x 211, y 32
@@ -9993,6 +10020,9 @@ core_attitudes	romans_julii,		360		pontus
 core_attitudes	romans_julii,		600		slave
 core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, roman_rebels, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace
 
+;faction_relationships     poland,         allied_to     sich 
+;faction_relationships     poland,     established_protectorate    sich
+
 faction_relationships	romans_julii, 		45		greek_cities
 faction_relationships	romans_julii, 		155		thrace
 faction_relationships	romans_julii,		210		scythia, armenia
@@ -10026,7 +10056,7 @@ faction_relationships	armenia,			600		slave
 faction_relationships	armenia,			100		pontus
 faction_relationships	dacia,			600		slave
 faction_relationships	greek_cities,		50		macedon, seleucid, romans_julii, numidia
-faction_relationships	greek_cities,		250		romans_scipii
+faction_relationships	greek_cities,		200		romans_scipii
 faction_relationships	greek_cities,		600		slave
 faction_relationships	numidia,			600		slave
 faction_relationships	numidia,			200		greek_cities

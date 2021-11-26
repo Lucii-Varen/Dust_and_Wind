@@ -9619,16 +9619,43 @@ unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
 unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
 unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
 unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 4 armour 2 weapon_lvl 2
 unit		merc cretan archers			exp 4 armour 3 weapon_lvl 1
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
 unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
 unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
 
 ;Augila
 character	sub_faction carthage, Akbar, general, age 20, , x 133, y 51
 army
-unit		greek hoplite			exp 0 armour 0 weapon_lvl 1
-unit		greek hoplite			exp 0 armour 0 weapon_lvl 1
-unit		greek peltast			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite			exp 3 armour 2 weapon_lvl 2
+unit		greek peltast			exp 3 armour 2 weapon_lvl 2
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 6 armour 1 weapon_lvl 1
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 5 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
 
 ;Locus_Blemmye
 character	sub_faction egypt, Nektanebo, general, age 20, , x 211, y 32
