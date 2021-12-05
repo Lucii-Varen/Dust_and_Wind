@@ -1759,41 +1759,6 @@ settlement
 
 settlement
 {
-	level large_town
-	region Lesbos
-
-	year_founded 0
-	population 2300
-	plan_set default_set
-	faction_creator greek_cities
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type gymnasium cleruchy
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type port_buildings port
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
 	level town
 	region Euboea
 
@@ -1872,12 +1837,6 @@ unit		greek hoplite				exp 2 armour 2 weapon_lvl 2
 unit		greek hoplite				exp 2 armour 2 weapon_lvl 2
 unit		greek heavy cavalry				exp 1 armour 0 weapon_lvl 0
 
-character	Cleitos of Gonni, general, age 20, , x 154, y 113
-army
-unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 2
-unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 2
-unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 2
-
 character	Cleitos of Gonni, general, age 20, , x 146, y 110
 army
 unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 0
@@ -1891,7 +1850,7 @@ character	Aegisthes of Larissa, spy, age 20, , x 139, y 125
 traits GoodSpy 2
 ancillaries dancer
 
-character	Alcaeos of Abydos, admiral, age 20, , x 151, y 113 
+character	Alcaeos of Abydos, admiral, age 20, , x 138, y 121 
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
@@ -2629,6 +2588,10 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type defenses stone_wall
+	}
 }
 
 settlement
@@ -2639,7 +2602,7 @@ settlement
 	year_founded 0
 	population 2300
 	plan_set default_set
-	faction_creator seleucid
+	faction_creator britons
 	building
 	{
 		type core_building governors_villa
@@ -3105,6 +3068,7 @@ unit		thureos spears				exp 1 armour 1 weapon_lvl 1
 ;Ionia;;Ephesus
 character	Molon, general, age 21, , x 156, y 110
 army
+unit		ephesus hoplite				exp 1 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 1 armour 2 weapon_lvl 0
 unit		greek levy pikemen				exp 1 armour 2 weapon_lvl 0
 unit		greek levy pikemen				exp 1 armour 2 weapon_lvl 0
@@ -4906,20 +4870,24 @@ relative 	Hariulfus, 	Aurinia,		Sesithacus,	Biua,	Carolus,	end
 
 
 faction	britons, bureaucrat henry
-ai_do_not_attack_faction scythia
-denari	400000
+denari	300000
+
 settlement
 {
-	level large_city
-	region Sogdiana
+	level city
+	region Mysia ;Pergamum
 
 	year_founded 0
-	population 9000
+	population 7000
 	plan_set default_set
 	faction_creator britons
 	building
 	{
-		type core_building proconsuls_palace
+		type core_building governors_palace
+	}
+	building
+	{
+		type greek_war_art greek_colony
 	}
 	building
 	{
@@ -4927,23 +4895,19 @@ settlement
 	}
 	building
 	{
-		type pahlevani satrapy
+		type academic academy
 	}
 	building
 	{
-		type barracks city_barracks
+		type hinterland_farms farms+1
 	}
 	building
 	{
-		type missiles practice_field
+		type barracks militia_barracks
 	}
 	building
 	{
-		type market forum
-	}
-	building
-	{
-		type smith smiths_workshop
+		type smith blacksmith
 	}
 	building
 	{
@@ -4951,38 +4915,46 @@ settlement
 	}
 	building
 	{
-		type caravans caravan
+		type missiles practice_field
 	}
 	building
 	{
-		type hinterland_farms farms+2
+		type port_buildings port
+	}
+	building
+	{
+		type market market 
 	}
 }
 
 settlement
 {
 	level large_town
-	region Sogdiana_Minor
+	region Troas
 
 	year_founded 0
-	population 3800
+	population 3000
 	plan_set default_set
-	faction_creator britons
+	faction_creator greek_cities
 	building
 	{
 		type core_building governors_villa
 	}
 	building
 	{
-		type pahlevani satrapy
+		type greek_war_art greek_colony
 	}
 	building
 	{
 		type barracks muster_field
 	}
-        building
+    building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
+	}
+	building
+	{
+		type market trader
 	}
 	building
 	{
@@ -4990,46 +4962,40 @@ settlement
 	}
 }
 
-
-character	Bahar, named character, leader, age 29, , x 314, y 169 
+character	Eumenes, named character, leader, age 75, , x 157, y 115 
 traits NaturalMilitarySkill 3 , Intelligent 3 , Austere 1 , PublicFaith 2
 ancillaries bard
 army
-unit		east generals cavalry				exp 0 armour 1 weapon_lvl 2
-unit		sugdian chosen warriors				exp 0 armour 2 weapon_lvl 2
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
-unit		sugdian warriors				exp 0 armour 2 weapon_lvl 2
-unit		sugdian warriors				exp 0 armour 2 weapon_lvl 2
+unit		greek general's guard cavalry				exp 0 armour 1 weapon_lvl 2
+unit		pergamum hoplite				exp 0 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 0 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 0 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 0 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 0 armour 2 weapon_lvl 2
+unit		greek swordsmen				exp 0 armour 2 weapon_lvl 2
+unit		greek swordsmen				exp 0 armour 2 weapon_lvl 2
 
-
-character	Caspar, named character, heir, age 17, , x 321, y 178 
-traits NaturalMilitarySkill 1 , Intelligent 1 , Austere 1 , PublicFaith 1 , Drink 1
-ancillaries bard
+character	Philetaerus, named character, heir, age 53, , x 152, y 118 
+traits NaturalMilitarySkill 1 , Intelligent 1 , Austere 1 , PublicFaith 1 
 army
-unit		east generals cavalry				exp 1 armour 0 weapon_lvl 0
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
+unit		greek general's guard cavalry				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 0 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 0 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 0 armour 1 weapon_lvl 1
 
-character	Arses, general, age 20, , x 303, y 170
-army
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
-unit		sugdian infantry				exp 0 armour 2 weapon_lvl 2
-unit		sugdian warriors				exp 0 armour 2 weapon_lvl 2
-unit		sugdian warriors				exp 0 armour 2 weapon_lvl 2
-
-character	Nabonidus, spy, age 20, , x 315, y 169 
+character	Baerius, spy, age 20, , x 158, y 116 
 traits		GoodSpy 2
 
-character_record		Daria, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
-character_record		Gaumata, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
-character_record		Fariel, 	male, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
+character	Chrysippos, diplomat, age 22, , x 158, y 115 
+traits GoodDiplomat 2
 
-relative 	Bahar, 	Daria,		Gaumata,	Fariel,	end
+character_record		Thetis, 	female, command 0, influence 0, management 0, subterfuge 0, age 70, alive, never_a_leader
+character_record		Antiochis, 	female, command 0, influence 0, management 0, subterfuge 0, age 49, alive, never_a_leader
+character_record		Attalos, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+
+relative 	Eumenes, 	Thetis,		Philetaerus,	end
+relative 	Philetaerus,		Antiochis,		Attalos,	end
 
 faction	armenia, fortified henry
 ai_do_not_attack_faction scythia
@@ -5184,7 +5150,6 @@ relative 	Aramu, 	Pao,		Eminos,	Hurriya,	end
 
 
 faction	dacia, craftsman smith
-ai_do_not_attack_faction romans_julii
 denari	380000
 settlement
 {
@@ -5285,15 +5250,14 @@ relative 	Scyles, 	Birkita,		Fallon,	Scylurus,	end
 
 
 faction	greek_cities, sailor smith
-ai_do_not_attack_faction romans_julii
-denari	280000
+denari	300000
 settlement
 {
 	level city
 	region Attica
 
 	year_founded 0
-	population 6800
+	population 7800
 	plan_set default_set
 	faction_creator greek_cities
 	building
@@ -5345,10 +5309,10 @@ settlement
 settlement
 {
 	level large_town
-	region Mysia
+	region Lesbos
 
 	year_founded 0
-	population 2800
+	population 2300
 	plan_set default_set
 	faction_creator greek_cities
 	building
@@ -5363,17 +5327,17 @@ settlement
 	{
 		type barracks muster_field
 	}
-        building
+	building
 	{
-		type defenses stone_wall
+		type hinterland_farms farms
 	}
 	building
 	{
-		type market trader
+		type port_buildings port
 	}
 	building
 	{
-		type hinterland_roads roads
+		type defenses wooden_pallisade
 	}
 }
 
@@ -5383,7 +5347,7 @@ settlement
 	region Rhodos
 
 	year_founded 0
-	population 3900
+	population 4000
 	plan_set default_set
 	faction_creator greek_cities
 	building
@@ -5406,33 +5370,10 @@ settlement
 	{
 		type hinterland_farms farms
 	}
-}
-
-settlement
-{
-	level town
-	region Troas
-
-	year_founded 0
-	population 1700
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type greek_war_art greek_colony
-	}
-	building
-	{
-		type market trader
-	}
 	building
 	{
 		type defenses wooden_pallisade
-	}		
+	}
 }
 
 ;Attica Athens
@@ -5448,20 +5389,16 @@ unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
 
-character	Dionysios, named character, age 34, ,x 157, y 115 
+character	Dionysios, named character, age 34, ,x 144, y 107 
 traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2
 ancillaries brilliant_inventor, playwright
 army
-unit		greek general's guard cavalry				exp 1 armour 0 weapon_lvl 0
-unit		pergamum hoplite				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-character	Crios, general, age 34, ,x 152, y 118 
-army
-unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 1
-unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 1
+unit		greek general's guard cavalry				exp 3 armour 2 weapon_lvl 2
+unit		athenian hoplite				exp 3 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 2 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 2 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 2 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 2 armour 2 weapon_lvl 2
 
 character	Antigonos, named character, age 33, , x 161, y 101 
 traits Intelligent 2 , GoodAdministrator 2 , GoodTrader 2 , Drink 1
@@ -5492,13 +5429,25 @@ unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 1
 unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 1
 unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 1
 
+character	Cleitos, general, age 20, , x 154, y 113
+army
+unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 2
+unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 2
+unit		greek hoplite militia				exp 2 armour 2 weapon_lvl 2
+unit		greek peltast				exp 1 armour 1 weapon_lvl 1
+unit		greek peltast				exp 1 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 0 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 0 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 0 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 0 armour 1 weapon_lvl 1
+
 character	Polydoros of Rhodes, admiral, age 36, , x 162, y 103 
 army
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
 
 character	Castor of Elis, diplomat, age 30, , x 143, y 109 
 traits GoodDiplomat 4
@@ -5678,9 +5627,9 @@ unit		merc cretan archers			exp 5 armour 0 weapon_lvl 3
 
 character	Polydoros of Rhodes, admiral, age 36, , x 138, y 97 
 army
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
 
 character	Acaeus, diplomat, age 20, , x 139, y 102 
 traits GoodDiplomat 3
@@ -7093,7 +7042,7 @@ settlement
 	year_founded 0
 	population 1500
 	plan_set default_set
-	faction_creator britons
+	faction_creator parthia
 	building
 	{
 		type core_building governors_house
@@ -7514,7 +7463,7 @@ settlement
 	year_founded 0
 	population 1500
 	plan_set default_set
-	faction_creator britons
+	faction_creator parthia
 	building
 	{
 		type core_building governors_house
@@ -7524,6 +7473,69 @@ settlement
 		type defenses wooden_wall
 	}
 }
+
+settlement
+{
+	level large_town
+	region Sogdiana ;Maracanda
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type pahlevani satrapy
+	}
+	building
+	{
+		type barracks muster_field
+	}
+        building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Sogdiana_Minor ;varakhsha
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type pahlevani satrapy
+	}
+	building
+	{
+		type barracks muster_field
+	}
+        building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 
 ;settlement
 ;{
@@ -8639,13 +8651,32 @@ unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
 unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
 unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
 unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
 
 ;Asturia;;;;;;;Pallantia
 character,	sub_faction gauls, Aneirin,  general, age 20, , x 27, y 139
 army
-unit		spanish scutarii				exp 4 armour 2 weapon_lvl 2
-unit		spanish scutarii				exp 4 armour 2 weapon_lvl 2
-unit		carthaginian infantry				exp 4 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		carthaginian cavalry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian cavalry				exp 7 armour 3 weapon_lvl 3
 
 ;Tartesania;;;;Arsa
 character, sub_faction carthage, Akbar, general, age 20, , x 18, y 119
@@ -8721,13 +8752,25 @@ unit		etruscan machairophoroi				exp 2 armour 0 weapon_lvl 0
 ;Transalpine_Gaul
 character	sub_faction greek_cities, Cleon, general, age 20, , x 67, y 138
 army
+unit		greek medium cavalry				exp 7 armour 3 weapon_lvl 3
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
+unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
+unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
+unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
 unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite		exp 3 armour 1 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 1 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 1 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 1 weapon_lvl 1
-unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
-unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
 unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
 
 ;Epirus
@@ -8873,7 +8916,24 @@ character	sub_faction gauls, Diviciacus, general, age 20, , x 68, y 153
 army
 unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
-unit		barb cavalry gaul			exp 5 armour 1 weapon_lvl 1
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb archer dacian			exp 2 armour 0 weapon_lvl 0
+unit		barb archer dacian			exp 2 armour 0 weapon_lvl 0
 
 ;Galatia;;;;;Ancyra
 character	sub_faction gauls, Caradog, general, age 20, , x 177, y 123
@@ -9011,6 +9071,22 @@ army
 unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
 
 ;Sicilia_Romanus
 character	sub_faction greek_cities, Pentheus, general, age 20, , x 106, y 107
@@ -9075,8 +9151,46 @@ unit		merc sarmatian cavalry				exp 3 armour 1 weapon_lvl 2
 ;unit		barb horse archers slave				exp 9 armour 3 weapon_lvl 3
 ;unit		barb horse archers slave				exp 9 armour 3 weapon_lvl 3
 
+;sogdiana;;;;;maracanda
+character	sub_faction parthia, Umamaita, general, age 20, , x 314, y 169 
+army
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 4 armour 3 weapon_lvl 2
+unit		barb horse archers slave				exp 4 armour 3 weapon_lvl 2
+unit		barb horse archers slave				exp 4 armour 3 weapon_lvl 2
+unit		barb horse archers slave				exp 4 armour 3 weapon_lvl 2
+unit		east heavy cavalry			exp 5 armour 1 weapon_lvl 1
+
+;Sogdiana_minor;;;;varakhsha
+character	sub_faction parthia, Umamaita, general, age 20, , x 303, y 170
+army
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east infantry		exp 4 armour 2 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 4 armour 3 weapon_lvl 2
+unit		barb horse archers slave				exp 4 armour 3 weapon_lvl 2
+unit		barb horse archers slave				exp 4 armour 3 weapon_lvl 2
+unit		barb horse archers slave				exp 4 armour 3 weapon_lvl 2
+unit		east heavy cavalry			exp 5 armour 1 weapon_lvl 1
+
 ;Chach
-character, sub_faction britons,	Caspar,  general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 322, y 178
+character, sub_faction parthia,	Caspar,  general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 322, y 178
 army
 unit		east infantry		exp 4 armour 2 weapon_lvl 0
 unit		east infantry		exp 4 armour 2 weapon_lvl 0
@@ -9109,7 +9223,7 @@ unit		barb horse archers slave				exp 6 armour 3 weapon_lvl 3
 unit		barb horse archers slave				exp 6 armour 3 weapon_lvl 3
 
 ;Tocharia
-character	sub_faction britons, Darayavahu, general, age 20, , x 338, y 177
+character	sub_faction parthia  , Darayavahu, general, age 20, , x 338, y 177
 army
 unit		east infantry		exp 4 armour 0 weapon_lvl 1
 unit		east infantry		exp 4 armour 0 weapon_lvl 1
@@ -9436,43 +9550,97 @@ unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
 ;Locus_Blemmye
 character	sub_faction egypt, Nektanebo, general, age 20, , x 211, y 32
 army
-unit		merc bedouin			exp 2 armour 2 weapon_lvl 2
-unit		numidian desert warriors				exp 2 armour 1 weapon_lvl 1
-unit		numidian desert warriors				exp 2 armour 1 weapon_lvl 1
-unit		numidian desert warriors				exp 2 armour 1 weapon_lvl 1
-unit		numidian desert warriors				exp 2 armour 1 weapon_lvl 1
-unit		merc libyan infantry				exp 2 armour 2 weapon_lvl 2
-unit		merc libyan infantry				exp 2 armour 2 weapon_lvl 2
-unit		merc libyan infantry				exp 2 armour 2 weapon_lvl 2
-unit		merc libyan infantry				exp 2 armour 2 weapon_lvl 2
-unit		merc bedouin archers			exp 3 armour 0 weapon_lvl 0
-unit		merc bedouin archers			exp 3 armour 0 weapon_lvl 0
+unit		merc bedouin			exp 8 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		merc libyan infantry				exp 6 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 6 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 6 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 6 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
 
 ;Ceretania
 character	sub_faction greek_cities, Chersis, general, age 20, , x 57, y 132
 army
+unit		greek medium cavalry				exp 7 armour 3 weapon_lvl 3
 unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
+unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
+unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
+unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
 
-;Beribracia
+;Beribracia;;;;;Saguntum
 character	sub_faction greek_cities, Aegon, general, age 20, , x 41, y 122
 army
-unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
-unit		merc balearic slingers				exp 0 armour 0 weapon_lvl 0
-unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 9 armour 3 weapon_lvl 3
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		merc balearic slingers				exp 6 armour 2 weapon_lvl 3
+unit		merc balearic slingers				exp 6 armour 2 weapon_lvl 3
+unit		greek medium cavalry				exp 6 armour 3 weapon_lvl 3
+unit		greek medium cavalry				exp 6 armour 3 weapon_lvl 3
 
-;Carpetania
+;Carpetania;;;Baikor
 character	sub_faction gauls, Amminos, general, age 20, , x 29, y 123
 army
-unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 4 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		carthaginian cavalry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian cavalry				exp 7 armour 3 weapon_lvl 3
 
 ;Aetolia;;;Thermon
 character	sub_faction greek_cities, Iollas, general, age 20, , x 132, y 111
@@ -9706,22 +9874,27 @@ unit		barb cavalry gaul			exp 3 armour 0 weapon_lvl 0
 character	sub_faction gauls, Vercingetorix, general, age 20, , x 57, y 148
 army
 unit		barb noble cavalry slave			exp 3 armour 2 weapon_lvl 2
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 2 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 2 armour 2 weapon_lvl 2
 unit		barb archer dacian			exp 2 armour 1 weapon_lvl 0
-unit		barb noble cavalry slave			exp 1 armour 1 weapon_lvl 0
-unit		barb noble cavalry slave			exp 1 armour 1 weapon_lvl 0
-unit		barb noble cavalry slave			exp 1 armour 1 weapon_lvl 0
+unit		barb noble cavalry slave			exp 6 armour 1 weapon_lvl 1
+unit		barb noble cavalry slave			exp 6 armour 1 weapon_lvl 1
+unit		barb noble cavalry slave			exp 6 armour 1 weapon_lvl 1
 
-;Narbonensis Tolosa
+;Narbonensis ;;Tolosa
 character	sub_faction gauls, Voteporix, general, age 20, , x 54, y 141 
 army
+unit		barb noble cavalry slave			exp 9 armour 2 weapon_lvl 3
+unit		barb noble cavalry slave			exp 9 armour 2 weapon_lvl 3
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
@@ -9729,8 +9902,17 @@ unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb archer dacian			exp 7 armour 1 weapon_lvl 2
-unit		barb noble cavalry slave			exp 9 armour 2 weapon_lvl 2
-unit		barb noble cavalry slave			exp 9 armour 2 weapon_lvl 2
+unit		barb archer dacian			exp 7 armour 1 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
 
 ;Tribus_Volcae
 character	sub_faction gauls, Brycham, general, age 20, , x 87, y 166
@@ -9953,8 +10135,7 @@ unit		merc bedouin			exp 4 armour 0 weapon_lvl 0
 core_attitudes	romans_scipii,		150		egypt
 core_attitudes	romans_scipii,		550		carthage, numidia, gauls, roman_rebels
 core_attitudes	romans_scipii,		600		slave 
-core_attitudes	roman_rebels, 		120		britons
-core_attitudes	roman_rebels, 		250		parthia
+core_attitudes	roman_rebels, 		200		parthia
 core_attitudes	roman_rebels,		400		seleucid
 core_attitudes	roman_rebels,		600		slave
 core_attitudes	macedon,		80		thrace, greek_cities, numidia
@@ -9978,7 +10159,7 @@ core_attitudes	parthia,		600		seleucid, slave
 core_attitudes	romans_brutii,		120		armenia, seleucid, pontus
 core_attitudes	romans_brutii,		600		slave
 core_attitudes	pontus,		110		armenia
-core_attitudes	pontus,		300		romans_julii, parthia
+core_attitudes	pontus,		300		romans_julii, parthia, britons
 core_attitudes	pontus,		600		slave, seleucid 
 core_attitudes	gauls,		300		romans_scipii
 core_attitudes	gauls,		200		germans
@@ -9987,8 +10168,7 @@ core_attitudes	gauls,		600		slave
 core_attitudes	germans,		250		gauls
 core_attitudes	germans,		310		scythia
 core_attitudes	germans,		600		slave
-core_attitudes	britons,		50		parthia
-core_attitudes	britons,		110		roman_rebels
+core_attitudes	britons,		50		greek_cities
 core_attitudes	britons,		600		slave, seleucid
 core_attitudes	armenia,		420		parthia
 core_attitudes	armenia,		100		pontus, romans_scipii
@@ -9999,7 +10179,7 @@ core_attitudes	dacia,		180		thrace
 core_attitudes	dacia,		200		germans, scythia, spain, romans_julii
 core_attitudes	dacia,		600		slave
 core_attitudes	greek_cities,		410		romans_scipii
-core_attitudes	greek_cities,		15		numidia, romans_julii, seleucid
+core_attitudes	greek_cities,		15		numidia, romans_julii, seleucid, britons
 core_attitudes	greek_cities,		180		thrace, scythia
 core_attitudes	greek_cities,		600		slave
 core_attitudes	numidia,		0		greek_cities, romans_julii
@@ -10050,13 +10230,14 @@ faction_relationships	pontus,			100		armenia, parthia
 faction_relationships	gauls,			150		spain
 faction_relationships	gauls,			600		slave
 faction_relationships	germans,			600		slave
+faction_relationships	britons,			50		greek_cities, numidia
+faction_relationships	britons,			180		seleucid
 faction_relationships	britons,			600		slave
-faction_relationships	britons,			450		seleucid
 faction_relationships	armenia,			600		slave
 faction_relationships	armenia,			100		pontus
 faction_relationships	dacia,			600		slave
-faction_relationships	greek_cities,		50		macedon, seleucid, romans_julii, numidia
-faction_relationships	greek_cities,		200		romans_scipii
+faction_relationships	greek_cities,		50		britons, seleucid, romans_julii, numidia
+faction_relationships	greek_cities,		150		romans_scipii
 faction_relationships	greek_cities,		600		slave
 faction_relationships	numidia,			600		slave
 faction_relationships	numidia,			200		greek_cities

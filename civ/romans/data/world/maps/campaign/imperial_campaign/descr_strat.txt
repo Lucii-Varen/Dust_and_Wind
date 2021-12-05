@@ -8748,9 +8748,26 @@ unit		carthaginian infantry				exp 3 armour 2 weapon_lvl 1
 ;Asturia;;;;;;;Pallantia
 character,	sub_faction gauls, Aneirin,  general, age 20, , x 27, y 139
 army
-unit		spanish scutarii				exp 4 armour 2 weapon_lvl 2
-unit		spanish scutarii				exp 4 armour 2 weapon_lvl 2
-unit		carthaginian infantry				exp 4 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		carthaginian cavalry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian cavalry				exp 7 armour 3 weapon_lvl 3
 
 ;Tartesania;;;;Arsa
 character, sub_faction carthage, Akbar, general, age 20, , x 18, y 119
@@ -8997,7 +9014,24 @@ character	sub_faction gauls, Diviciacus, general, age 20, , x 68, y 153
 army
 unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
-unit		barb cavalry gaul			exp 5 armour 1 weapon_lvl 1
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb archer dacian			exp 2 armour 0 weapon_lvl 0
+unit		barb archer dacian			exp 2 armour 0 weapon_lvl 0
 
 ;Galatia;;;;;Ancyra
 character	sub_faction gauls, Caradog, general, age 20, , x 177, y 123
@@ -9135,6 +9169,22 @@ army
 unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 3 armour 0 weapon_lvl 0
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		numidian desert warriors				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
+unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
 
 ;Sicilia_Romanus;;;;;Messana
 character	sub_faction greek_cities, Pentheus, general, age 20, , x 106, y 107
@@ -9660,43 +9710,97 @@ unit		carthaginian medium infantry				exp 3 armour 2 weapon_lvl 2
 ;Locus_Blemmye
 character	sub_faction egypt, Nektanebo, general, age 20, , x 211, y 32
 army
-unit		merc bedouin			exp 2 armour 2 weapon_lvl 2
-unit		numidian desert warriors				exp 2 armour 1 weapon_lvl 1
-unit		numidian desert warriors				exp 2 armour 1 weapon_lvl 1
-unit		numidian desert warriors				exp 2 armour 1 weapon_lvl 1
-unit		numidian desert warriors				exp 2 armour 1 weapon_lvl 1
-unit		merc libyan infantry				exp 2 armour 2 weapon_lvl 2
-unit		merc libyan infantry				exp 2 armour 2 weapon_lvl 2
-unit		merc libyan infantry				exp 2 armour 2 weapon_lvl 2
-unit		merc libyan infantry				exp 2 armour 2 weapon_lvl 2
-unit		merc bedouin archers			exp 3 armour 0 weapon_lvl 0
-unit		merc bedouin archers			exp 3 armour 0 weapon_lvl 0
+unit		merc bedouin			exp 8 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		numidian desert warriors				exp 6 armour 3 weapon_lvl 3
+unit		merc libyan infantry				exp 6 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 6 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 6 armour 2 weapon_lvl 2
+unit		merc libyan infantry				exp 6 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
+unit		merc bedouin archers			exp 3 armour 2 weapon_lvl 2
 
 ;Ceretania
 character	sub_faction greek_cities, Chersis, general, age 20, , x 57, y 132
 army
+unit		greek medium cavalry				exp 7 armour 3 weapon_lvl 3
 unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 4 armour 1 weapon_lvl 1
+unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
+unit		greek heavy peltast			exp 3 armour 0 weapon_lvl 0
+unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
+unit		merc cretan archers			exp 3 armour 0 weapon_lvl 3
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
 
-;Beribracia
+;Beribracia;;;;;Saguntum
 character	sub_faction greek_cities, Aegon, general, age 20, , x 41, y 122
 army
-unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 3 armour 0 weapon_lvl 0
-unit		merc balearic slingers				exp 0 armour 0 weapon_lvl 0
-unit		greek medium cavalry				exp 3 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 9 armour 3 weapon_lvl 3
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 3 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		merc balearic slingers				exp 6 armour 2 weapon_lvl 3
+unit		merc balearic slingers				exp 6 armour 2 weapon_lvl 3
+unit		greek medium cavalry				exp 6 armour 3 weapon_lvl 3
+unit		greek medium cavalry				exp 6 armour 3 weapon_lvl 3
 
-;Carpetania
+;Carpetania;;;Baikor
 character	sub_faction gauls, Amminos, general, age 20, , x 29, y 123
 army
-unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 3 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 4 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		spanish scutarii				exp 6 armour 2 weapon_lvl 2
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian infantry				exp 7 armour 3 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		iberian peltast				exp 6 armour 2 weapon_lvl 3
+unit		carthaginian cavalry				exp 7 armour 3 weapon_lvl 3
+unit		carthaginian cavalry				exp 7 armour 3 weapon_lvl 3
 
 ;Aetolia;;;Thermon
 character	sub_faction greek_cities, Iollas, general, age 20, , x 132, y 111
@@ -9931,22 +10035,27 @@ unit		barb cavalry gaul			exp 3 armour 0 weapon_lvl 0
 character	sub_faction gauls, Vercingetorix, general, age 20, , x 57, y 148
 army
 unit		barb noble cavalry slave			exp 3 armour 2 weapon_lvl 2
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave			exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 2 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 2 armour 2 weapon_lvl 2
 unit		barb archer dacian			exp 2 armour 1 weapon_lvl 0
-unit		barb noble cavalry slave			exp 1 armour 1 weapon_lvl 0
-unit		barb noble cavalry slave			exp 1 armour 1 weapon_lvl 0
-unit		barb noble cavalry slave			exp 1 armour 1 weapon_lvl 0
+unit		barb noble cavalry slave			exp 6 armour 1 weapon_lvl 1
+unit		barb noble cavalry slave			exp 6 armour 1 weapon_lvl 1
+unit		barb noble cavalry slave			exp 6 armour 1 weapon_lvl 1
 
-;Narbonensis Tolosa
+;Narbonensis ;;Tolosa
 character	sub_faction gauls, Voteporix, general, age 20, , x 54, y 141 
 army
+unit		barb noble cavalry slave			exp 9 armour 2 weapon_lvl 3
+unit		barb noble cavalry slave			exp 9 armour 2 weapon_lvl 3
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
@@ -9954,8 +10063,17 @@ unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb infantry slave			exp 7 armour 1 weapon_lvl 2
 unit		barb archer dacian			exp 7 armour 1 weapon_lvl 2
-unit		barb noble cavalry slave			exp 9 armour 2 weapon_lvl 2
-unit		barb noble cavalry slave			exp 9 armour 2 weapon_lvl 2
+unit		barb archer dacian			exp 7 armour 1 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
+unit		warband sword gaul			exp 6 armour 2 weapon_lvl 2
 
 ;Tribus_Volcae
 character	sub_faction gauls, Brycham, general, age 20, , x 87, y 166

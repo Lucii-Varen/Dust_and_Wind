@@ -206,4 +206,21 @@ console_command create_building Vibantavarium reform1
 console_command create_building Valhagarum reform1
 console_command create_building Zadracarta reform1
 
+if not I_LocalFaction roman_rebels
+console_command add_population Bactra 4000
+console_command add_money roman_rebels 40000
+console_command add_money roman_rebels 40000
+end_if
+if not I_LocalFaction greek_cities
+console_command add_population Athens 3000
+console_command add_population Mytilene 3000
+end_if
+if not I_LocalFaction Gauls
+console_command add_population Burdigala 3000
+console_command add_population Darioritum 3000
+console_command add_population Lemonum 3000
+end_if
+if not I_LocalFaction Spain
+console_command add_population Iuvavum 4000
+end_if
 end_script

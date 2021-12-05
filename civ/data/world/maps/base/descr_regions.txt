@@ -365,7 +365,7 @@ Elis
 ;;;;;;;;;;;;;Minor Asia;;;;;;;;;;;;;;;;;;;;;;;
 Troas
 	Assos				
-	macedon				
+	britons				
 	Mysians				
 	158 44 35				
 	iron, timber, slaves, IV_SCYTHICA, pergam, cretan, greek		
@@ -374,7 +374,7 @@ Troas
 
 Mysia				
 	Pergamum				
-	greek_cities				
+	britons				
 	Mysians				
 	33 59 131				
 	furs, silver, wine, textiles, slaves, IV_SCYTHICA, pergam, cretan, greek		
@@ -446,7 +446,7 @@ Cilicia
 
 Lydia				
 	Sardis				
-	greek_cities				
+	britons				
 	Lydians				
 	149 109 127				
 	silver, marble, textiles, gold, tin, slaves, eastern, IV_SCYTHICA, cretan, greek		
@@ -455,7 +455,7 @@ Lydia
 
 Ionia
 	Ephesus
-	greek_cities
+	britons
 	Lydians
 	177 58 58
 	silver, timber, slaves, Ephesus, IV_SCYTHICA, cretan, greek
@@ -912,7 +912,7 @@ Chach
 
 Sogdiana				
 	Maracanda				
-	britons				
+	parthia				
 	Sogdians				
 	133 55 61				
 	tin, gold, textiles, slaves, eastern, sugdian		
@@ -921,7 +921,7 @@ Sogdiana
 
 Sogdiana_Minor				
 	Varakhsha				
-	britons				
+	parthia				
 	Sogdians				
 	36 84 139				
 	silk, slaves, eastern, sugdian		
@@ -1039,7 +1039,7 @@ Gedrosia
 
 Aria				
 	Alexandria_Ariana				
-	parthia				
+	roman_rebels				
 	Arians				
 	3 179 152				
 	copper, tin, wine, textiles, camels, slaves, eastern		
@@ -1084,7 +1084,7 @@ Sattagydia
 
 Gandhara				
 	Taxila				
-	britons				
+	roman_rebels				
 	Hindu				
 	162 97 102				
 	gold, timber, marble, textiles, camels, elephants, slaves, indian		
@@ -1111,7 +1111,7 @@ Bactria_Oxiana
 
 Tocharia				
 	Gushan				
-	britons				
+	parthia				
 	Tochari				
 	1 128 187				
 	silk, camels, silver, slaves, eastern, sugdian	
@@ -1463,7 +1463,7 @@ Media
 
 Elymais				
 	Susa				
-	armenia				
+	parthia				
 	Elamites				
 	72 58 177				
 	tin, copper, iron, slaves, eastern		

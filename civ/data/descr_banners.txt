@@ -139,10 +139,10 @@ routing_texture		models/textures/standard_routing_barbarian.tga
 ally_texture		../civ/data/models/textures/standard_german_ally.tga
 
 faction				britons
-standard_texture	../civ/data/models/textures/standard_briton.tga
-rebels_texture		models/textures/standard_eastern_rebels.tga
-routing_texture		models/textures/standard_routing_eastern.tga
-ally_texture		../civ/data/models/textures/standard_briton_ally.tga
+standard_texture	../civ/data/models/textures/standard_pergamum.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		../civ/data/models/textures/standard_pergamum.tga
 
 faction				armenia
 standard_texture	models/textures/standard_armenia.tga

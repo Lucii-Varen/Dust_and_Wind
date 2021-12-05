@@ -1202,8 +1202,8 @@ unit				east peasant
 unit				east archer
 unit				east infantry
 unit				east infantry
-unit				east hillmen
-unit				east hillmen
+unit				sugdian infantry
+unit				sugdian infantry
 unit				east horse archer merc
 unit				east heavy cavalry
 unit				eastern rebel general

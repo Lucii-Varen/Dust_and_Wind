@@ -77,7 +77,7 @@ texture_variants
 		pontus			##standard_pontus.tga
 		gauls			##standard_civgaul.tga
 		germans			##standard_civgerman.tga
-		britons			##standard_civbriton.tga
+		britons			##standard_civpergamum.tga
 		armenia			##standard_civarmenia.tga
 		dacia			##standard_civdacia.tga
 		greek_cities	##standard_civgreek_cities.tga

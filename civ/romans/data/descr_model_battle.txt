@@ -2167,6 +2167,17 @@ model_flexi		civ/data/new/models_units/UNIT_CARTHAGE_PELTAST.cas, 40
 model_flexi		civ/data/new/models_units/UNIT_CARTHAGE_PELTAST.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
+type				libyan_peltast
+skeleton			fs_fast_javelinman, fs_fast_swordsman								; throwing spear
+indiv_range			40
+texture			slave, civ/data/new/models_units/textures/UNIT_LYBIAN_PELTAST.TGA
+texture			merc, civ/data/new/models_units/textures/UNIT_LYBIAN_PELTAST.TGA
+model_flexi		civ/data/new/models_units/unit_carthage_libyan_SKIRMISHER.cas, 15
+model_flexi		civ/data/new/models_units/unit_carthage_libyan_SKIRMISHER.cas, 30
+model_flexi		civ/data/new/models_units/unit_carthage_libyan_SKIRMISHER.cas, 40
+model_flexi		civ/data/new/models_units/unit_carthage_libyan_SKIRMISHER.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
 type				carthaginian_royal_cavalry											; combat spear
 skeleton			fs_hc_spearman1, fs_hc_swordsman1
 indiv_range			40

@@ -38,7 +38,6 @@ end_monitor
     ;7 ;Ceasar's Legions;
     ;8 ;Octavian August legions;
 	;9 ;Population Rising;
-    ;CIVIL WARS;
 
     ;12 ;peace with the dead;
     ;13 ;diplomatic stance;
@@ -69,7 +68,7 @@ declare_counter scythia_player
 declare_counter pontus_player
 declare_counter armenia_player
 declare_counter parthia_player
-declare_counter sogdian_player
+declare_counter pergamum_player
 declare_counter saba_player
 
 set_counter romans_player 0
@@ -90,7 +89,7 @@ set_counter scythia_player 0
 set_counter pontus_player 0
 set_counter armenia_player 0
 set_counter parthia_player 0
-set_counter sogdian_player 0
+set_counter pergamum_player 0
 set_counter saba_player 0
 
 if I_LocalFaction romans_scipii
@@ -148,7 +147,7 @@ if I_LocalFaction parthia
     set_counter parthia_player 1
 end_if
 if I_LocalFaction britons
-	set_counter sogdian_player 1
+	set_counter pergamum_player 1
 end_if
 if I_LocalFaction romans_brutii
 	set_counter saba_player 1
@@ -6941,6 +6940,23 @@ if I_CompareCounter Pella_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Pella_undersiege = 0
+	and I_SettlementOwner Pella = macedon
+	if I_CharacterTypeNearTile britons general, 2 136,124
+		set_counter Pella_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 136,124
+		set_counter Pella_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Pella_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 136,124
+	and not I_CharacterTypeNearTile britons general, 2 136,124
+	set_counter Pella_undersiege 0
+end_if
+end_monitor
+
 monitor_event SettlementTurnStart SettlementName Pella
 and not SettlementIsLocal
 and I_CompareCounter Pella_undersiege = 1
@@ -7612,6 +7628,23 @@ if I_CompareCounter Antioch_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Antioch_undersiege = 0
+	and I_SettlementOwner Antioch = seleucid
+	if I_CharacterTypeNearTile britons general, 2 200,111
+		set_counter Antioch_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 200,111
+		set_counter Antioch_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Antioch_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 200,111
+	and not I_CharacterTypeNearTile britons general, 2 200,111
+	set_counter Antioch_undersiege 0
+end_if
+end_monitor
+
 monitor_event FactionTurnEnd FactionType parthia
 if I_CompareCounter Antioch_undersiege = 0
 	and I_SettlementOwner Antioch = seleucid
@@ -8059,6 +8092,21 @@ end_if
 if I_CompareCounter Edessa_undersiege = 2
 	and not I_CharacterTypeNearTile pontus family, 2 216,116
 	and not I_CharacterTypeNearTile pontus general, 2 216,116
+	set_counter Edessa_undersiege 0
+end_if
+
+if I_CompareCounter Edessa_undersiege = 0
+	and I_SettlementOwner Edessa = seleucid
+	if I_CharacterTypeNearTile britons general, 2 216,116
+		set_counter Edessa_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 216,116
+		set_counter Edessa_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Edessa_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 216,116
+	and not I_CharacterTypeNearTile britons general, 2 216,116
 	set_counter Edessa_undersiege 0
 end_if
 
@@ -9289,6 +9337,21 @@ end_if
 
 if I_CompareCounter Athens_undersiege = 0
 	and I_SettlementOwner Athens = greek_cities
+	if I_CharacterTypeNearTile britons general, 2 143,107
+		set_counter Athens_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 143,107
+		set_counter Athens_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Athens_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 143,107
+	and not I_CharacterTypeNearTile britons general, 2 143,107
+	set_counter Athens_undersiege 0
+end_if
+
+if I_CompareCounter Athens_undersiege = 0
+	and I_SettlementOwner Athens = greek_cities
 	if I_CharacterTypeNearTile scythia general, 2 143,107
 		set_counter Athens_undersiege 1
 	end_if
@@ -9339,15 +9402,528 @@ and I_CompareCounter Athens_undersiege = 1
 	if I_SettlementOwner Athens = greek_cities
 	and I_FactionBesieged greek_cities
     and I_CompareCounter Athens_undersiege = 1
-		console_command create_unit Athens "athenian hoplite" 2 1 2 2
-		console_command create_unit Athens "hellenic slingers" 2 3 2 2
-        console_command create_unit Athens "greek pikemen athens" 2 1 2 2
+		console_command create_unit Athens "athenian hoplite" 2 2 2 2
+        console_command create_unit Athens "greek pikemen athens" 2 3 2 2
 		console_command create_unit Athens "greek hoplite" 4 2 2 2
 		console_command create_unit Athens "greek swordsmen" 4 2 2 2
-        console_command create_unit Athens "greek peltats" 2 1 2 3
-        console_command create_unit Athens "greek cleruhe" 4 1 2 2
+        console_command create_unit Athens "greek peltats" 2 3 2 3       
+		console_command create_unit Athens "hellenic slingers" 2 3 2 2
+        console_command create_unit Athens "tarantine cavalry" 2 3 2 2
 console_command add_money greek_cities, 40000
 set_counter Athens_undersiege 2
+end_if
+end_monitor
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Corinth;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_counter Thermon_undersiege
+set_counter Corinth_undersiege 0
+monitor_event SettlementTurnStart SettlementName Thermon
+and not SettlementIsLocal
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile romans_scipii general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_scipii family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile romans_scipii family, 2 132,111
+	and not I_CharacterTypeNearTile romans_scipii general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile dacia general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile dacia family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile dacia family, 2 132,111
+	and not I_CharacterTypeNearTile dacia general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile thrace general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile thrace family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile thrace family, 2 132,111
+	and not I_CharacterTypeNearTile thrace general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile numidia general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile numidia family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile numidia family, 2 132,111
+	and not I_CharacterTypeNearTile numidia general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile spain general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile spain family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile spain family, 2 132,111
+	and not I_CharacterTypeNearTile spain general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile pontus general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile pontus family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile pontus family, 2 132,111
+	and not I_CharacterTypeNearTile pontus general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile macedon general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile macedon family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile macedon family, 2 132,111
+	and not I_CharacterTypeNearTile macedon general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile gauls general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile gauls family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile gauls family, 2 132,111
+	and not I_CharacterTypeNearTile gauls general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile germans general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile germans family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile germans family, 2 132,111
+	and not I_CharacterTypeNearTile germans general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile parthia general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile parthia family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile parthia family, 2 132,111
+	and not I_CharacterTypeNearTile parthia general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile armenia general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile armenia family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile armenia family, 2 132,111
+	and not I_CharacterTypeNearTile armenia general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile seleucid general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile seleucid family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile seleucid family, 2 132,111
+	and not I_CharacterTypeNearTile seleucid general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile egypt general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile egypt family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile egypt family, 2 132,111
+	and not I_CharacterTypeNearTile egypt general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile romans_julii general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_julii family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile romans_julii family, 2 132,111
+	and not I_CharacterTypeNearTile romans_julii general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile britons general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 132,111
+	and not I_CharacterTypeNearTile britons general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile scythia general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile scythia family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile scythia family, 2 132,111
+	and not I_CharacterTypeNearTile scythia general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile carthage general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile carthage family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile carthage family, 2 132,111
+	and not I_CharacterTypeNearTile carthage general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+
+if I_CompareCounter Thermon_undersiege = 0
+	and I_SettlementOwner Thermon = greek_cities
+	if I_CharacterTypeNearTile romans_brutii general, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_brutii family, 2 132,111
+		set_counter Thermon_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Thermon_undersiege = 2
+	and not I_CharacterTypeNearTile romans_brutii family, 2 132,111
+	and not I_CharacterTypeNearTile romans_brutii general, 2 132,111
+	set_counter Thermon_undersiege 0
+end_if
+end_monitor
+
+monitor_event SettlementTurnEnd SettlementName Thermon
+and not SettlementIsLocal
+and I_CompareCounter Thermon_undersiege = 1
+	if I_SettlementOwner Thermon = greek_cities
+	and I_FactionBesieged greek_cities
+    and I_CompareCounter Thermon_undersiege = 1
+		console_command create_unit Thermon "thermon hoplite" 2 2 2 2
+        console_command create_unit Thermon "greek pikemen athens" 2 1 2 2
+		console_command create_unit Thermon "greek hoplite" 4 2 2 2
+		console_command create_unit Thermon "greek swordsmen" 4 2 2 2
+        console_command create_unit Thermon "greek peltats" 2 3 2 3       
+		console_command create_unit Thermon "hellenic slingers" 2 3 2 2
+        console_command create_unit Thermon "tarantine cavalry" 2 3 2 2
+console_command add_money greek_cities, 40000
+set_counter Thermon_undersiege 2
+end_if
+end_monitor
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Rhodes;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_counter Rhodes_undersiege
+set_counter Rhodes_undersiege 0
+monitor_event SettlementTurnStart SettlementName Rhodes
+and not SettlementIsLocal
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile romans_scipii general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_scipii family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile romans_scipii family, 2 161,101
+	and not I_CharacterTypeNearTile romans_scipii general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile thrace general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile thrace family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile thrace family, 2 161,101
+	and not I_CharacterTypeNearTile thrace general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile numidia general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile numidia family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile numidia family, 2 161,101
+	and not I_CharacterTypeNearTile numidia general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile pontus general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile pontus family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile pontus family, 2 161,101
+	and not I_CharacterTypeNearTile pontus general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile macedon general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile macedon family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile macedon family, 2 161,101
+	and not I_CharacterTypeNearTile macedon general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile parthia general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile parthia family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile parthia family, 2 161,101
+	and not I_CharacterTypeNearTile parthia general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile armenia general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile armenia family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile armenia family, 2 161,101
+	and not I_CharacterTypeNearTile armenia general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile seleucid general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile seleucid family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile seleucid family, 2 161,101
+	and not I_CharacterTypeNearTile seleucid general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile egypt general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile egypt family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile egypt family, 2 161,101
+	and not I_CharacterTypeNearTile egypt general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile romans_julii general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_julii family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile romans_julii family, 2 161,101
+	and not I_CharacterTypeNearTile romans_julii general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile britons general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 161,101
+	and not I_CharacterTypeNearTile britons general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile carthage general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile carthage family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile carthage family, 2 161,101
+	and not I_CharacterTypeNearTile carthage general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+
+if I_CompareCounter Rhodes_undersiege = 0
+	and I_SettlementOwner Rhodes = greek_cities
+	if I_CharacterTypeNearTile romans_brutii general, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_brutii family, 2 161,101
+		set_counter Rhodes_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Rhodes_undersiege = 2
+	and not I_CharacterTypeNearTile romans_brutii family, 2 161,101
+	and not I_CharacterTypeNearTile romans_brutii general, 2 161,101
+	set_counter Rhodes_undersiege 0
+end_if
+end_monitor
+
+monitor_event SettlementTurnEnd SettlementName Rhodes
+and not SettlementIsLocal
+and I_CompareCounter Rhodes_undersiege = 1
+	if I_SettlementOwner Rhodes = greek_cities
+	and I_FactionBesieged greek_cities
+    and I_CompareCounter Rhodes_undersiege = 1
+		console_command create_unit Rhodes "rhodian hoplite" 2 3 2 2
+        console_command create_unit Rhodes "greek pikemen athens" 2 2 2 2
+		console_command create_unit Rhodes "greek hoplite" 4 3 2 2
+		console_command create_unit Rhodes "greek swordsmen" 4 3 2 2
+        console_command create_unit Rhodes "greek peltats" 2 3 2 3
+        console_command create_unit Rhodes "greek cleruhe" 4 3 3 3        
+		console_command create_unit Rhodes "hellenic slingers" 2 3 2 2
+console_command add_money greek_cities, 40000
+set_counter Rhodes_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Pergamum;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -9355,7 +9931,7 @@ declare_counter Pergamum_undersiege
 set_counter Pergamum_undersiege 0
 monitor_event FactionTurnEnd FactionType romans_scipii
 if I_CompareCounter Pergamum_undersiege = 0
-	and I_SettlementOwner Pergamum = greek_cities
+	and I_SettlementOwner Pergamum = britons
 	if I_CharacterTypeNearTile romans_scipii general, 2 157,115
 		set_counter Pergamum_undersiege 1
 	end_if
@@ -9372,7 +9948,7 @@ end_monitor
 
 monitor_event FactionTurnEnd FactionType dacia
 if I_CompareCounter Pergamum_undersiege = 0
-	and I_SettlementOwner Pergamum = greek_cities
+	and I_SettlementOwner Pergamum = britons
 	if I_CharacterTypeNearTile dacia general, 2 157,115
 		set_counter Pergamum_undersiege 1
 	end_if
@@ -9389,7 +9965,7 @@ end_monitor
 
 monitor_event FactionTurnEnd FactionType armenia
 if I_CompareCounter Pergamum_undersiege = 0
-	and I_SettlementOwner Pergamum = greek_cities
+	and I_SettlementOwner Pergamum = britons
 	if I_CharacterTypeNearTile armenia general, 2 157,115
 		set_counter Pergamum_undersiege 1
 	end_if
@@ -9406,7 +9982,7 @@ end_monitor
 
 monitor_event FactionTurnEnd FactionType thrace
 if I_CompareCounter Pergamum_undersiege = 0
-	and I_SettlementOwner Pergamum = greek_cities
+	and I_SettlementOwner Pergamum = britons
 	if I_CharacterTypeNearTile thrace general, 2 157,115
 		set_counter Pergamum_undersiege 1
 	end_if
@@ -9423,7 +9999,7 @@ end_monitor
 
 monitor_event FactionTurnEnd FactionType numidia
 if I_CompareCounter Pergamum_undersiege = 0
-	and I_SettlementOwner Pergamum = greek_cities
+	and I_SettlementOwner Pergamum = britons
 	if I_CharacterTypeNearTile numidia general, 2 157,115
 		set_counter Pergamum_undersiege 1
 	end_if
@@ -9440,7 +10016,7 @@ end_monitor
 
 monitor_event FactionTurnEnd FactionType seleucid
 if I_CompareCounter Pergamum_undersiege = 0
-	and I_SettlementOwner Pergamum = greek_cities
+	and I_SettlementOwner Pergamum = britons
 	if I_CharacterTypeNearTile seleucid general, 2 157,115
 		set_counter Pergamum_undersiege 1
 	end_if
@@ -9456,7 +10032,7 @@ end_if
 end_monitor
 monitor_event FactionTurnEnd FactionType pontus
 if I_CompareCounter Pergamum_undersiege = 0
-	and I_SettlementOwner Pergamum = greek_cities
+	and I_SettlementOwner Pergamum = britons
 	if I_CharacterTypeNearTile pontus general, 2 157,115
 		set_counter Pergamum_undersiege 1
 	end_if
@@ -9473,7 +10049,7 @@ end_monitor
 
 monitor_event FactionTurnEnd FactionType macedon
 if I_CompareCounter Pergamum_undersiege = 0
-	and I_SettlementOwner Pergamum = greek_cities
+	and I_SettlementOwner Pergamum = britons
 	if I_CharacterTypeNearTile macedon general, 2 157,115
 		set_counter Pergamum_undersiege 1
 	end_if
@@ -9489,7 +10065,7 @@ end_if
 end_monitor
 monitor_event FactionTurnEnd FactionType egypt
 if I_CompareCounter Pergamum_undersiege = 0
-	and I_SettlementOwner Pergamum = greek_cities
+	and I_SettlementOwner Pergamum = britons
 	if I_CharacterTypeNearTile egypt general, 2 157,115
 		set_counter Pergamum_undersiege 1
 	end_if
@@ -9503,22 +10079,552 @@ if I_CompareCounter Pergamum_undersiege = 2
 	set_counter Pergamum_undersiege 0
 end_if
 end_monitor
+monitor_event FactionTurnEnd FactionType greek_cities
+if I_CompareCounter Pergamum_undersiege = 0
+	and I_SettlementOwner Pergamum = britons
+	if I_CharacterTypeNearTile greek_cities general, 2 157,115
+		set_counter Pergamum_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile greek_cities family, 2 157,115
+		set_counter Pergamum_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Pergamum_undersiege = 2
+	and not I_CharacterTypeNearTile greek_cities family, 2 157,115
+	and not I_CharacterTypeNearTile greek_cities general, 2 157,115
+	set_counter Pergamum_undersiege 0
+end_if
+end_monitor
 
 monitor_event SettlementTurnStart SettlementName Pergamum
 and not SettlementIsLocal
 and I_CompareCounter Pergamum_undersiege = 1
-	if I_SettlementOwner Pergamum = greek_cities
-	and I_FactionBesieged greek_cities
+	if I_SettlementOwner Pergamum = britons
+	and I_FactionBesieged britons
     and I_CompareCounter Pergamum_undersiege = 1
-		set_counter Pergamum_undersiege 2
-		console_command create_unit Pergamum "pergamum hoplite" 2 1 2 2
-        console_command create_unit Pergamum "greek pikemen athens" 2 1 2 2
-		console_command create_unit Pergamum "greek hoplite" 4 2 2 2
-		console_command create_unit Pergamum "greek swordsmen" 4 2 2 2
-        console_command create_unit Pergamum "greek cleruhe" 4 1 2 2
+		console_command create_unit Pergamum "pergamum hoplite" 2 3 2 2
+        console_command create_unit Pergamum "greek pikemen athens" 2 3 2 2
+		console_command create_unit Pergamum "greek hoplite" 4 3 2 2
+		console_command create_unit Pergamum "greek swordsmen" 4 3 2 2
         console_command create_unit Pergamum "hellenic slingers" 2 3 2 2 
-        console_command create_unit Pergamum "greek peltats" 2 1 2 3
-console_command add_money greek_cities, 40000
+        console_command create_unit Pergamum "greek peltats" 2 4 2 3
+console_command add_money britons, 40000
+set_counter Pergamum_undersiege 2
+end_if
+end_monitor
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Assos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_counter Assos_undersiege
+set_counter Assos_undersiege 0
+monitor_event SettlementTurnStart SettlementName Assos
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile romans_scipii general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_scipii family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile romans_scipii family, 2 152,118
+	and not I_CharacterTypeNearTile romans_scipii general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile dacia general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile dacia family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile dacia family, 2 152,118
+	and not I_CharacterTypeNearTile dacia general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile armenia general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile armenia family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile armenia family, 2 152,118
+	and not I_CharacterTypeNearTile armenia general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile thrace general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile thrace family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile thrace family, 2 152,118
+	and not I_CharacterTypeNearTile thrace general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile numidia general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile numidia family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile numidia family, 2 152,118
+	and not I_CharacterTypeNearTile numidia general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile seleucid general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile seleucid family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile seleucid family, 2 152,118
+	and not I_CharacterTypeNearTile seleucid general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile pontus general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile pontus family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile pontus family, 2 152,118
+	and not I_CharacterTypeNearTile pontus general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile macedon general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile macedon family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile macedon family, 2 152,118
+	and not I_CharacterTypeNearTile macedon general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile egypt general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile egypt family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile egypt family, 2 152,118
+	and not I_CharacterTypeNearTile egypt general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+
+if I_CompareCounter Assos_undersiege = 0
+	and I_SettlementOwner Assos = britons
+	if I_CharacterTypeNearTile greek_cities general, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile greek_cities family, 2 152,118
+		set_counter Assos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Assos_undersiege = 2
+	and not I_CharacterTypeNearTile greek_cities family, 2 152,118
+	and not I_CharacterTypeNearTile greek_cities general, 2 152,118
+	set_counter Assos_undersiege 0
+end_if
+end_monitor
+
+monitor_event SettlementTurnEnd SettlementName Assos
+and not SettlementIsLocal
+and I_CompareCounter Assos_undersiege = 1
+	if I_SettlementOwner Assos = britons
+	and I_FactionBesieged britons
+    and I_CompareCounter Assos_undersiege = 1
+		console_command create_unit Assos "pergamum hoplite" 2 3 2 2
+        console_command create_unit Assos "greek pikemen athens" 2 3 2 2
+		console_command create_unit Assos "greek hoplite" 4 3 2 2
+		console_command create_unit Assos "greek swordsmen" 4 3 2 2
+        console_command create_unit Assos "hellenic slingers" 2 3 2 2 
+        console_command create_unit Assos "greek peltats" 2 4 2 3
+console_command add_money britons, 40000
+set_counter Assos_undersiege 2
+end_if
+end_monitor
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Sardis;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_counter Sardis_undersiege
+set_counter Sardis_undersiege 0
+monitor_event SettlementTurnStart SettlementName Sardis
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile romans_scipii general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_scipii family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile romans_scipii family, 2 162,113
+	and not I_CharacterTypeNearTile romans_scipii general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile dacia general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile dacia family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile dacia family, 2 162,113
+	and not I_CharacterTypeNearTile dacia general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile armenia general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile armenia family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile armenia family, 2 162,113
+	and not I_CharacterTypeNearTile armenia general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile thrace general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile thrace family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile thrace family, 2 162,113
+	and not I_CharacterTypeNearTile thrace general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile numidia general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile numidia family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile numidia family, 2 162,113
+	and not I_CharacterTypeNearTile numidia general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile seleucid general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile seleucid family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile seleucid family, 2 162,113
+	and not I_CharacterTypeNearTile seleucid general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile pontus general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile pontus family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile pontus family, 2 162,113
+	and not I_CharacterTypeNearTile pontus general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile macedon general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile macedon family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile macedon family, 2 162,113
+	and not I_CharacterTypeNearTile macedon general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile egypt general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile egypt family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile egypt family, 2 162,113
+	and not I_CharacterTypeNearTile egypt general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+
+if I_CompareCounter Sardis_undersiege = 0
+	and I_SettlementOwner Sardis = britons
+	if I_CharacterTypeNearTile greek_cities general, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile greek_cities family, 2 162,113
+		set_counter Sardis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sardis_undersiege = 2
+	and not I_CharacterTypeNearTile greek_cities family, 2 162,113
+	and not I_CharacterTypeNearTile greek_cities general, 2 162,113
+	set_counter Sardis_undersiege 0
+end_if
+end_monitor
+
+monitor_event SettlementTurnEnd SettlementName Sardis
+and not SettlementIsLocal
+and I_CompareCounter Sardis_undersiege = 1
+	if I_SettlementOwner Sardis = britons
+	and I_FactionBesieged britons
+    and I_CompareCounter Sardis_undersiege = 1
+		console_command create_unit Sardis "pergamum hoplite" 1 0 2 2
+        console_command create_unit Sardis "greek pikemen athens" 2 2 2 2
+		console_command create_unit Sardis "greek hoplite" 4 1 2 2
+		console_command create_unit Sardis "greek swordsmen" 4 2 2 2
+        console_command create_unit Sardis "hellenic slingers" 2 2 2 2 
+        console_command create_unit Sardis "greek peltats" 2 2 2 3
+        console_command create_unit Sardis "eastern cavalry" 2 3 2 2
+console_command add_money britons, 40000
+set_counter Sardis_undersiege 2
+end_if
+end_monitor
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Ephesus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_counter Ephesus_undersiege
+set_counter Ephesus_undersiege 0
+monitor_event SettlementTurnStart SettlementName Ephesus
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile romans_scipii general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile romans_scipii family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile romans_scipii family, 2 156,110
+	and not I_CharacterTypeNearTile romans_scipii general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile dacia general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile dacia family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile dacia family, 2 156,110
+	and not I_CharacterTypeNearTile dacia general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile armenia general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile armenia family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile armenia family, 2 156,110
+	and not I_CharacterTypeNearTile armenia general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile thrace general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile thrace family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile thrace family, 2 156,110
+	and not I_CharacterTypeNearTile thrace general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile numidia general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile numidia family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile numidia family, 2 156,110
+	and not I_CharacterTypeNearTile numidia general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile seleucid general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile seleucid family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile seleucid family, 2 156,110
+	and not I_CharacterTypeNearTile seleucid general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile pontus general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile pontus family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile pontus family, 2 156,110
+	and not I_CharacterTypeNearTile pontus general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile macedon general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile macedon family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile macedon family, 2 156,110
+	and not I_CharacterTypeNearTile macedon general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile egypt general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile egypt family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile egypt family, 2 156,110
+	and not I_CharacterTypeNearTile egypt general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+
+if I_CompareCounter Ephesus_undersiege = 0
+	and I_SettlementOwner Ephesus = britons
+	if I_CharacterTypeNearTile greek_cities general, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile greek_cities family, 2 156,110
+		set_counter Ephesus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ephesus_undersiege = 2
+	and not I_CharacterTypeNearTile greek_cities family, 2 156,110
+	and not I_CharacterTypeNearTile greek_cities general, 2 156,110
+	set_counter Ephesus_undersiege 0
+end_if
+end_monitor
+
+monitor_event SettlementTurnEnd SettlementName Ephesus
+and not SettlementIsLocal
+and I_CompareCounter Ephesus_undersiege = 1
+	if I_SettlementOwner Ephesus = britons
+	and I_FactionBesieged britons
+    and I_CompareCounter Ephesus_undersiege = 1
+		console_command create_unit Ephesus "ephesus hoplite" 1 0 2 2
+        console_command create_unit Ephesus "greek pikemen athens" 2 2 2 2
+		console_command create_unit Ephesus "greek hoplite" 4 1 2 2
+		console_command create_unit Ephesus "greek swordsmen" 4 2 2 2
+        console_command create_unit Ephesus "hellenic slingers" 2 2 2 2 
+        console_command create_unit Ephesus "greek peltats" 2 2 2 3
+        console_command create_unit Ephesus "greek cavalry" 2 3 2 2
+console_command add_money britons, 40000
+set_counter Ephesus_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Sparta;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -9639,20 +10745,36 @@ if I_CompareCounter Sparta_undersiege = 2
 	set_counter Sparta_undersiege 0
 end_if
 end_monitor
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Sparta_undersiege = 0
+	and I_SettlementOwner Sparta = numidia
+	if I_CharacterTypeNearTile britons general, 2 138,102
+		set_counter Sparta_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 138,102
+		set_counter Sparta_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sparta_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 138,102
+	and not I_CharacterTypeNearTile britons general, 2 138,102
+	set_counter Sparta_undersiege 0
+end_if
+end_monitor
 monitor_event SettlementTurnEnd SettlementName Sparta
 and not SettlementIsLocal
 and I_CompareCounter Sparta_undersiege = 1
 	if I_SettlementOwner Sparta = numidia
 	and I_FactionBesieged numidia
     and I_CompareCounter Sparta_undersiege = 1
-		set_counter Sparta_undersiege 2
-        console_command create_unit Sparta "spartan thorakitai" 2 1 2 2
-        console_command create_unit Sparta "greek hoplite spartan" 2 1 1 1
-		console_command create_unit Sparta "greek juniors" 3 1 2 2
-		console_command create_unit Sparta "greek hoplite" 4 3 2 2
-		console_command create_unit Sparta "greek peltast" 2 1 2 3
+        console_command create_unit Sparta "spartan thorakitai" 2 2 2 2
+        console_command create_unit Sparta "greek hoplite spartan" 4 3 1 1
+		console_command create_unit Sparta "greek hoplite" 4 3 2 2        
+		console_command create_unit Sparta "greek juniors" 5 2 2 2
+		console_command create_unit Sparta "greek peltast" 2 3 2 3
 
 console_command add_money numidia, 40000
+set_counter Sparta_undersiege 2
 end_if
 end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Seutopolis;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -9806,6 +10928,22 @@ if I_CompareCounter Seutopolis_undersiege = 2
 	set_counter Seutopolis_undersiege 0
 end_if
 end_monitor
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Seutopolis_undersiege = 0
+	and I_SettlementOwner Seutopolis = thrace
+	if I_CharacterTypeNearTile britons general, 2 148,133
+		set_counter Seutopolis_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 148,133
+		set_counter Seutopolis_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Seutopolis_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 148,133
+	and not I_CharacterTypeNearTile britons general, 2 148,133
+	set_counter Seutopolis_undersiege 0
+end_if
+end_monitor
 
 monitor_event SettlementTurnStart SettlementName Seutopolis
 and not SettlementIsLocal
@@ -9824,7 +10962,7 @@ console_command add_money thrace, 40000
 if I_SettlementOwner Byzantium != thrace
 spawn_army
 	faction thrace
-    	character Spartacus, general, age 29, x 153, y 133
+    	character Spartacus, general, age 29, x 153, y 134
 		unit greek poens cavalry, exp 2 armour 2 weapon_lvl 2
         unit gettic light peltast, exp 2 armour 2 weapon_lvl 2
         unit gettic peltast, exp 2 armour 2 weapon_lvl 2
@@ -9850,7 +10988,7 @@ end_if
 if I_SettlementOwner Tomi != thrace
 spawn_army
 	faction thrace
-    	character Spartacus, general, age 29, x 153, y 132
+    	character Spartacus, general, age 29, x 153, y 133
 		unit greek poens cavalry, exp 2 armour 2 weapon_lvl 2
         unit gettic light peltast, exp 2 armour 2 weapon_lvl 2
         unit gettic peltast, exp 2 armour 2 weapon_lvl 2
@@ -10016,6 +11154,23 @@ if I_CompareCounter Byzantium_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Byzantium_undersiege = 0
+	and I_SettlementOwner Byzantium = thrace
+	if I_CharacterTypeNearTile britons general, 2 160,129
+		set_counter Byzantium_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 160,129
+		set_counter Byzantium_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Byzantium_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 160,129
+	and not I_CharacterTypeNearTile britons general, 2 160,129
+	set_counter Byzantium_undersiege 0
+end_if
+end_monitor
+
 monitor_event SettlementTurnStart SettlementName Byzantium
 and not SettlementIsLocal
 and I_CompareCounter Byzantium_undersiege = 1
@@ -10034,7 +11189,7 @@ console_command add_money thrace, 40000
 if I_SettlementOwner Seutopolis != thrace
 spawn_army
 	faction thrace
-    	character Spartacus, general, age 29, x 153, y 133
+    	character Spartacus, general, age 29, x 153, y 134
 		unit greek poens cavalry, exp 2 armour 2 weapon_lvl 2
         unit gettic light peltast, exp 2 armour 2 weapon_lvl 2
         unit gettic peltast, exp 2 armour 2 weapon_lvl 2
@@ -10060,7 +11215,7 @@ end_if
 if I_SettlementOwner Tomi != thrace
 spawn_army
 	faction thrace
-    	character Spartacus, general, age 29, x 153, y 132
+    	character Spartacus, general, age 29, x 153, y 133
 		unit greek poens cavalry, exp 2 armour 2 weapon_lvl 2
         unit gettic light peltast, exp 2 armour 2 weapon_lvl 2
         unit gettic peltast, exp 2 armour 2 weapon_lvl 2
@@ -10243,7 +11398,7 @@ console_command add_money thrace, 40000
 if I_SettlementOwner Seutopolis != thrace
 spawn_army
 	faction thrace
-    	character Spartacus, general, age 29, x 153, y 133
+    	character Spartacus, general, age 29, x 153, y 134
 		unit greek poens cavalry, exp 2 armour 2 weapon_lvl 2
         unit gettic light peltast, exp 2 armour 2 weapon_lvl 2
         unit gettic peltast, exp 2 armour 2 weapon_lvl 2
@@ -10269,7 +11424,7 @@ end_if
 if I_SettlementOwner Byzantium != thrace
 spawn_army
 	faction thrace
-    	character Spartacus, general, age 29, x 153, y 132
+    	character Spartacus, general, age 29, x 153, y 133
 		unit greek poens cavalry, exp 2 armour 2 weapon_lvl 2
         unit gettic light peltast, exp 2 armour 2 weapon_lvl 2
         unit gettic peltast, exp 2 armour 2 weapon_lvl 2
@@ -10482,6 +11637,23 @@ end_if
 if I_CompareCounter Buridava_undersiege = 2
 	and not I_CharacterTypeNearTile gauls family, 2 144,145
 	and not I_CharacterTypeNearTile gauls general, 2 144,145
+	set_counter Buridava_undersiege 0
+end_if
+end_monitor
+
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Buridava_undersiege = 0
+	and I_SettlementOwner Buridava = dacia
+	if I_CharacterTypeNearTile britons general, 2 144,145
+		set_counter Buridava_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 144,145
+		set_counter Buridava_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Buridava_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 144,145
+	and not I_CharacterTypeNearTile britons general, 2 144,145
 	set_counter Buridava_undersiege 0
 end_if
 end_monitor
@@ -11742,6 +12914,21 @@ end_if
 if I_CompareCounter Chersonesos_undersiege = 2
 	and not I_CharacterTypeNearTile parthia family, 2 175,151
 	and not I_CharacterTypeNearTile parthia general, 2 175,151
+    set_counter Chersonesos_undersiege 0
+end_if
+
+if I_CompareCounter Chersonesos_undersiege = 0
+	and I_SettlementOwner Chersonesos = romans_julii
+	if I_CharacterTypeNearTile britons general, 2 175,151
+        set_counter Chersonesos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 175,151
+        set_counter Chersonesos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Chersonesos_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 175,151
+	and not I_CharacterTypeNearTile britons general, 2 175,151
     set_counter Chersonesos_undersiege 0
 end_if
 
@@ -13802,6 +14989,23 @@ if I_CompareCounter Tarsus_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Tarsus_undersiege = 0
+	and I_SettlementOwner Tarsus = pontus
+	if I_CharacterTypeNearTile britons general, 2 193,114
+		set_counter Tarsus_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 193,114
+		set_counter Tarsus_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Tarsus_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 193,114
+	and not I_CharacterTypeNearTile britons general, 2 193,114
+	set_counter Tarsus_undersiege 0
+end_if
+end_monitor
+
 monitor_event SettlementTurnEnd SettlementName Tarsus
 and not SettlementIsLocal
 and I_CompareCounter Tarsus_undersiege = 1
@@ -13988,6 +15192,23 @@ if I_CompareCounter Mazaka_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Mazaka_undersiege = 0
+	and I_SettlementOwner Mazaka = pontus
+	if I_CharacterTypeNearTile britons general, 2 192,124
+		set_counter Mazaka_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 192,124
+		set_counter Mazaka_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Mazaka_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 192,124
+	and not I_CharacterTypeNearTile britons general, 2 192,124
+	set_counter Mazaka_undersiege 0
+end_if
+end_monitor
+
 monitor_event SettlementTurnStart SettlementName Mazaka
 and not SettlementIsLocal
 and I_CompareCounter Mazaka_undersiege = 1
@@ -14169,6 +15390,23 @@ end_if
 if I_CompareCounter Heraclea_undersiege = 2
 	and not I_CharacterTypeNearTile egypt family, 2 175,134
 	and not I_CharacterTypeNearTile egypt general, 2 175,134
+	set_counter Heraclea_undersiege 0
+end_if
+end_monitor
+
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Heraclea_undersiege = 0
+	and I_SettlementOwner Heraclea = pontus
+	if I_CharacterTypeNearTile britons general, 2 175,134
+		set_counter Heraclea_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 175,134
+		set_counter Heraclea_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Heraclea_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 175,134
+	and not I_CharacterTypeNearTile britons general, 2 175,134
 	set_counter Heraclea_undersiege 0
 end_if
 end_monitor
@@ -14375,6 +15613,23 @@ if I_CompareCounter Sinope_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Sinope_undersiege = 0
+	and I_SettlementOwner Sinope = pontus
+	if I_CharacterTypeNearTile britons general, 2 185,139
+		set_counter Sinope_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 185,139
+		set_counter Sinope_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Sinope_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 185,139
+	and not I_CharacterTypeNearTile britons general, 2 185,139
+	set_counter Sinope_undersiege 0
+end_if
+end_monitor
+
 monitor_event SettlementTurnStart SettlementName Sinope
 and not SettlementIsLocal
 and I_CompareCounter Sinope_undersiege = 1
@@ -14568,6 +15823,23 @@ if I_CompareCounter Nicomedia_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Nicomedia_undersiege = 0
+	and I_SettlementOwner Nicomedia = pontus
+	if I_CharacterTypeNearTile britons general, 2 165,128
+		set_counter Nicomedia_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 165,128
+		set_counter Nicomedia_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Nicomedia_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 165,128
+	and not I_CharacterTypeNearTile britons general, 2 165,128
+	set_counter Nicomedia_undersiege 0
+end_if
+end_monitor
+
 monitor_event SettlementTurnStart SettlementName Nicomedia
 and not SettlementIsLocal
 and I_CompareCounter Nicomedia_undersiege = 1
@@ -14735,6 +16007,23 @@ if I_CompareCounter Ancyra_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType britons
+if I_CompareCounter Ancyra_undersiege = 0
+	and I_SettlementOwner Ancyra = pontus
+	if I_CharacterTypeNearTile britons general, 2 177,123
+		set_counter Ancyra_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile britons family, 2 177,123
+		set_counter Ancyra_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Ancyra_undersiege = 2
+	and not I_CharacterTypeNearTile britons family, 2 177,123
+	and not I_CharacterTypeNearTile britons general, 2 177,123
+	set_counter Ancyra_undersiege 0
+end_if
+end_monitor
+
 monitor_event SettlementTurnStart SettlementName Ancyra
 and not SettlementIsLocal
 and I_CompareCounter Ancyra_undersiege = 1
@@ -14827,21 +16116,6 @@ end_if
 if I_CompareCounter Ecbatana_undersiege = 2
 	and not I_CharacterTypeNearTile egypt family, 2 250,125
 	and not I_CharacterTypeNearTile egypt general, 2 250,125
-	set_counter Ecbatana_undersiege 0
-end_if
-
-if I_CompareCounter Ecbatana_undersiege = 0
-	and I_SettlementOwner Ecbatana = parthia
-	if I_CharacterTypeNearTile britons general, 2 250,125
-		set_counter Ecbatana_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile britons family, 2 250,125
-		set_counter Ecbatana_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Ecbatana_undersiege = 2
-	and not I_CharacterTypeNearTile britons family, 2 250,125
-	and not I_CharacterTypeNearTile britons general, 2 250,125
 	set_counter Ecbatana_undersiege 0
 end_if
 
@@ -15006,21 +16280,6 @@ end_if
 
 if I_CompareCounter Susa_undersiege = 0
 	and I_SettlementOwner Susa = parthia
-	if I_CharacterTypeNearTile britons general, 2 257,114
-		set_counter Susa_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile britons family, 2 257,114
-		set_counter Susa_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Susa_undersiege = 2
-	and not I_CharacterTypeNearTile britons family, 2 257,114
-	and not I_CharacterTypeNearTile britons general, 2 257,114
-	set_counter Susa_undersiege 0
-end_if
-
-if I_CompareCounter Susa_undersiege = 0
-	and I_SettlementOwner Susa = parthia
 	if I_CharacterTypeNearTile romans_brutii general, 2 257,114
 		set_counter Susa_undersiege 1
 	end_if
@@ -15135,21 +16394,6 @@ end_if
 
 if I_CompareCounter Charax_undersiege = 0
 	and I_SettlementOwner Charax = parthia
-	if I_CharacterTypeNearTile britons general, 2 265,98
-		set_counter Charax_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile britons family, 2 265,98
-		set_counter Charax_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Charax_undersiege = 2
-	and not I_CharacterTypeNearTile britons family, 2 265,98
-	and not I_CharacterTypeNearTile britons general, 2 265,98
-	set_counter Charax_undersiege 0
-end_if
-
-if I_CompareCounter Charax_undersiege = 0
-	and I_SettlementOwner Charax = parthia
 	if I_CharacterTypeNearTile romans_brutii general, 2 265,98
 		set_counter Charax_undersiege 1
 	end_if
@@ -15243,6 +16487,21 @@ end_if
 if I_CompareCounter Zadracarta_undersiege = 2
 	and not I_CharacterTypeNearTile romans_julii family, 2 275,137
 	and not I_CharacterTypeNearTile romans_julii general, 2 275,137
+	set_counter Zadracarta_undersiege 0
+end_if
+
+if I_CompareCounter Zadracarta_undersiege = 0
+	and I_SettlementOwner Zadracarta = parthia
+	if I_CharacterTypeNearTile scythia general, 2 275,137
+		set_counter Zadracarta_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile scythia family, 2 275,137
+		set_counter Zadracarta_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Zadracarta_undersiege = 2
+	and not I_CharacterTypeNearTile scythia family, 2 275,137
+	and not I_CharacterTypeNearTile scythia general, 2 275,137
 	set_counter Zadracarta_undersiege 0
 end_if
 
@@ -15439,21 +16698,6 @@ end_if
 
 if I_CompareCounter Apamea_undersiege = 0
 	and I_SettlementOwner Apamea = parthia
-	if I_CharacterTypeNearTile britons general, 2 277,127
-		set_counter Apamea_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile britons family, 2 277,127
-		set_counter Apamea_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Apamea_undersiege = 2
-	and not I_CharacterTypeNearTile britons family, 2 277,127
-	and not I_CharacterTypeNearTile britons general, 2 277,127
-	set_counter Apamea_undersiege 0
-end_if
-
-if I_CompareCounter Apamea_undersiege = 0
-	and I_SettlementOwner Apamea = parthia
 	if I_CharacterTypeNearTile roman_rebels general, 2 277,127
 		set_counter Apamea_undersiege 1
 	end_if
@@ -15534,6 +16778,21 @@ end_if
 if I_CompareCounter Hecatompylos_undersiege = 2
 	and not I_CharacterTypeNearTile romans_julii family, 2 284,135
 	and not I_CharacterTypeNearTile romans_julii general, 2 284,135
+	set_counter Hecatompylos_undersiege 0
+end_if
+
+if I_CompareCounter Hecatompylos_undersiege = 0
+	and I_SettlementOwner Hecatompylos = parthia
+	if I_CharacterTypeNearTile scythia general, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile scythia family, 2 284,135
+		set_counter Hecatompylos_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Hecatompylos_undersiege = 2
+	and not I_CharacterTypeNearTile scythia family, 2 284,135
+	and not I_CharacterTypeNearTile scythia general, 2 284,135
 	set_counter Hecatompylos_undersiege 0
 end_if
 
@@ -15680,6 +16939,21 @@ end_if
 if I_CompareCounter Asaak_undersiege = 2
 	and not I_CharacterTypeNearTile romans_julii family, 2 292,149
 	and not I_CharacterTypeNearTile romans_julii general, 2 292,149
+	set_counter Asaak_undersiege 0
+end_if
+
+if I_CompareCounter Asaak_undersiege = 0
+	and I_SettlementOwner Asaak = parthia
+	if I_CharacterTypeNearTile scythia general, 2 292,149
+		set_counter Asaak_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile scythia family, 2 292,149
+		set_counter Asaak_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Asaak_undersiege = 2
+	and not I_CharacterTypeNearTile scythia family, 2 292,149
+	and not I_CharacterTypeNearTile scythia general, 2 292,149
 	set_counter Asaak_undersiege 0
 end_if
 
@@ -15891,6 +17165,23 @@ if I_CompareCounter Nisa_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType scythia
+if I_CompareCounter Nisa_undersiege = 0
+	and I_SettlementOwner Nisa = parthia
+	if I_CharacterTypeNearTile scythia general, 2 291,157
+		set_counter Nisa_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile scythia family, 2 291,157
+		set_counter Nisa_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Nisa_undersiege = 2
+	and not I_CharacterTypeNearTile scythia family, 2 291,157
+	and not I_CharacterTypeNearTile scythia general, 2 291,157
+	set_counter Nisa_undersiege 0
+end_if
+end_monitor
+
 monitor_event FactionTurnEnd FactionType romans_julii
 if I_CompareCounter Nisa_undersiege = 0
 	and I_SettlementOwner Nisa = parthia
@@ -16082,6 +17373,23 @@ if I_CompareCounter Khiva_undersiege = 2
 end_if
 end_monitor
 
+monitor_event FactionTurnEnd FactionType scythia
+if I_CompareCounter Khiva_undersiege = 0
+	and I_SettlementOwner Khiva = parthia
+	if I_CharacterTypeNearTile scythia general, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+	if I_CharacterTypeNearTile scythia family, 2 282,171
+		set_counter Khiva_undersiege 1
+	end_if
+end_if
+if I_CompareCounter Khiva_undersiege = 2
+	and not I_CharacterTypeNearTile scythia family, 2 282,171
+	and not I_CharacterTypeNearTile scythia general, 2 282,171
+	set_counter Khiva_undersiege 0
+end_if
+end_monitor
+
 monitor_event FactionTurnEnd FactionType roman_rebels
 if I_CompareCounter Khiva_undersiege = 0
 	and I_SettlementOwner Khiva = parthia
@@ -16169,416 +17477,6 @@ end
             unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
 end
         console_command add_money parthia, 40000
-end_if
-end_monitor
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Maracanda;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-declare_counter Maracanda_undersiege
-set_counter Maracanda_undersiege 0
-monitor_event SettlementTurnStart SettlementName Maracanda
-and not SettlementIsLocal
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile pontus general, 2 314,169
-        ;and I_FactionBesieged britons
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile pontus family, 2 314,169
-        ;and I_FactionBesieged britons
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile pontus family, 2 314,169
-	and not I_CharacterTypeNearTile pontus general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile romans_julii general, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile romans_julii family, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile romans_julii family, 2 314,169
-	and not I_CharacterTypeNearTile romans_julii general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile roman_rebels general, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile roman_rebels family, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile roman_rebels family, 2 314,169
-	and not I_CharacterTypeNearTile roman_rebels general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile romans_scipii general, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile romans_scipii family, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile romans_scipii family, 2 314,169
-	and not I_CharacterTypeNearTile romans_scipii general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile parthia general, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile parthia family, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile parthia family, 2 314,169
-	and not I_CharacterTypeNearTile parthia general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile scythia general, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile scythia family, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile scythia family, 2 314,169
-	and not I_CharacterTypeNearTile scythia general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-
-
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile armenia general, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile armenia family, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile armenia family, 2 314,169
-	and not I_CharacterTypeNearTile armenia general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-
-
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile seleucid general, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile seleucid family, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile seleucid family, 2 314,169
-	and not I_CharacterTypeNearTile seleucid general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile egypt general, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile egypt family, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile egypt family, 2 314,169
-	and not I_CharacterTypeNearTile egypt general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-
-if I_CompareCounter Maracanda_undersiege = 0
-	and I_SettlementOwner Maracanda = britons
-	if I_CharacterTypeNearTile romans_brutii general, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile romans_brutii family, 2 314,169
-		set_counter Maracanda_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Maracanda_undersiege = 2
-	and not I_CharacterTypeNearTile romans_brutii family, 2 314,169
-	and not I_CharacterTypeNearTile romans_brutii general, 2 314,169
-	set_counter Maracanda_undersiege 0
-end_if
-end_monitor
-
-monitor_event SettlementTurnEnd SettlementName Maracanda
-and not SettlementIsLocal
-and I_CompareCounter Maracanda_undersiege = 1
-	if I_SettlementOwner Maracanda = britons
-	and I_FactionBesieged britons
-    and I_CompareCounter Maracanda_undersiege = 1
-        console_command create_unit Maracanda "sugdian chosen warriors" 2 3 2 2
-        console_command create_unit Maracanda "sugdian warriors" 4 3 2 2
-        console_command create_unit Maracanda "parthian takabara" 2 3 2 2
-        console_command create_unit Maracanda "east infantry" 2 3 2 2
-        console_command create_unit Maracanda "eastern heavy archer" 1 3 2 2
-		console_command create_unit Maracanda "east peltast" 2 3 2 2
-        console_command create_unit Maracanda "east horse archer" 2 3 2 2
-        console_command create_unit Maracanda "eastern cavalry" 2 3 2 2
-        console_command add_money britons, 40000
-
-if I_NumberOfSettlements britons < 4
-            spawn_army
-            faction britons
-            character Zoroaster, general, age 30, x 313, y 167
-            unit east heavy cataphract, exp 0 armour 2 weapon_lvl 2
-            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
-            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
-            unit east horse archer, exp 0 armour 2 weapon_lvl 2
-            unit east horse archer, exp 0 armour 2 weapon_lvl 2
-            unit east horse archer, exp 0 armour 2 weapon_lvl 2
-            unit east horse archer, exp 0 armour 2 weapon_lvl 2
-            unit east peltast, exp 0 armour 2 weapon_lvl 2
-            unit east archer, exp 0 armour 2 weapon_lvl 2
-            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
-            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
-            unit east infantry, exp 0 armour 2 weapon_lvl 2
-            unit east infantry, exp 0 armour 2 weapon_lvl 2
-            unit east infantry, exp 0 armour 2 weapon_lvl 2
-            unit east infantry, exp 0 armour 2 weapon_lvl 2
-            unit east hillmen, exp 0 armour 2 weapon_lvl 2
-            unit east hillmen, exp 0 armour 2 weapon_lvl 2
-            unit east hillmen, exp 0 armour 2 weapon_lvl 2
-            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
-            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
-end
-end_if
-        set_counter Maracanda_undersiege 2
-end_if
-end_monitor
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Varakhsha;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-declare_counter Varakhsha_undersiege
-set_counter Varakhsha_undersiege 0
-monitor_event SettlementTurnStart SettlementName Varakhsha
-and not SettlementIsLocal
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile pontus general, 2 303,170
-        ;and I_FactionBesieged britons
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile pontus family, 2 303,170
-        ;and I_FactionBesieged britons
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile pontus family, 2 303,170
-	and not I_CharacterTypeNearTile pontus general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile romans_julii general, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile romans_julii family, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile romans_julii family, 2 303,170
-	and not I_CharacterTypeNearTile romans_julii general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile roman_rebels general, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile roman_rebels family, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile roman_rebels family, 2 303,170
-	and not I_CharacterTypeNearTile roman_rebels general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile romans_scipii general, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile romans_scipii family, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile romans_scipii family, 2 303,170
-	and not I_CharacterTypeNearTile romans_scipii general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile parthia general, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile parthia family, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile parthia family, 2 303,170
-	and not I_CharacterTypeNearTile parthia general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile scythia general, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile scythia family, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile scythia family, 2 303,170
-	and not I_CharacterTypeNearTile scythia general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-
-
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile armenia general, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile armenia family, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile armenia family, 2 303,170
-	and not I_CharacterTypeNearTile armenia general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-
-
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile seleucid general, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile seleucid family, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile seleucid family, 2 303,170
-	and not I_CharacterTypeNearTile seleucid general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile egypt general, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile egypt family, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile egypt family, 2 303,170
-	and not I_CharacterTypeNearTile egypt general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-
-if I_CompareCounter Varakhsha_undersiege = 0
-	and I_SettlementOwner Varakhsha = britons
-	if I_CharacterTypeNearTile romans_brutii general, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile romans_brutii family, 2 303,170
-		set_counter Varakhsha_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Varakhsha_undersiege = 2
-	and not I_CharacterTypeNearTile romans_brutii family, 2 303,170
-	and not I_CharacterTypeNearTile romans_brutii general, 2 303,170
-	set_counter Varakhsha_undersiege 0
-end_if
-end_monitor
-
-monitor_event SettlementTurnEnd SettlementName Varakhsha
-and not SettlementIsLocal
-and I_CompareCounter Varakhsha_undersiege = 1
-	if I_SettlementOwner Varakhsha = britons
-	and I_FactionBesieged britons
-    and I_CompareCounter Varakhsha_undersiege = 1
-        console_command create_unit Varakhsha "sugdian chosen warriors" 2 2 2 2
-        console_command create_unit Varakhsha "sugdian warriors" 4 2 2 2
-        console_command create_unit Varakhsha "parthian takabara" 2 2 2 2
-        console_command create_unit Varakhsha "east infantry" 2 2 2 2
-        console_command create_unit Varakhsha "eastern heavy archer" 1 2 2 2
-		console_command create_unit Varakhsha "east peltast" 2 2 2 2
-        console_command create_unit Varakhsha "east horse archer" 2 2 2 2
-        console_command create_unit Varakhsha "eastern cavalry" 2 2 2 2
-        console_command add_money britons, 40000
-
-if I_NumberOfSettlements britons < 4
-            spawn_army
-            faction britons
-            character Zoroaster, general, age 30, x 313, y 167
-            unit east heavy cataphract, exp 0 armour 2 weapon_lvl 2
-            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
-            unit east persian cavalry, exp 0 armour 2 weapon_lvl 2
-            unit east horse archer, exp 0 armour 2 weapon_lvl 2
-            unit east horse archer, exp 0 armour 2 weapon_lvl 2
-            unit east horse archer, exp 0 armour 2 weapon_lvl 2
-            unit east horse archer, exp 0 armour 2 weapon_lvl 2
-            unit east peltast, exp 0 armour 2 weapon_lvl 2
-            unit east archer, exp 0 armour 2 weapon_lvl 2
-            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
-            unit parthian takabara, exp 0 armour 2 weapon_lvl 2
-            unit east infantry, exp 0 armour 2 weapon_lvl 2
-            unit east infantry, exp 0 armour 2 weapon_lvl 2
-            unit east infantry, exp 0 armour 2 weapon_lvl 2
-            unit east infantry, exp 0 armour 2 weapon_lvl 2
-            unit east hillmen, exp 0 armour 2 weapon_lvl 2
-            unit east hillmen, exp 0 armour 2 weapon_lvl 2
-            unit east hillmen, exp 0 armour 2 weapon_lvl 2
-            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
-            unit eastern cavalry, exp 0 armour 2 weapon_lvl 2
-end
-end_if
-        set_counter Varakhsha_undersiege 2
 end_if
 end_monitor
 
@@ -16973,21 +17871,6 @@ end_if
 
 if I_CompareCounter Prophthasia_undersiege = 0
 	and I_SettlementOwner Prophthasia = roman_rebels
-	if I_CharacterTypeNearTile britons general, 2 329,126
-		set_counter Prophthasia_undersiege 1
-	end_if
-	if I_CharacterTypeNearTile britons family, 2 329,126
-		set_counter Prophthasia_undersiege 1
-	end_if
-end_if
-if I_CompareCounter Prophthasia_undersiege = 2
-	and not I_CharacterTypeNearTile britons family, 2 329,126
-	and not I_CharacterTypeNearTile britons general, 2 329,126
-	set_counter Prophthasia_undersiege 0
-end_if
-
-if I_CompareCounter Prophthasia_undersiege = 0
-	and I_SettlementOwner Prophthasia = roman_rebels
 	if I_CharacterTypeNearTile romans_scipii general, 2 329,126
 		set_counter Prophthasia_undersiege 1
 	end_if
@@ -17111,7 +17994,7 @@ and I_CompareCounter Prophthasia_undersiege = 1
 end_if
 end_monitor
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Armavir;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Armavira;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 declare_counter Armavira_undersiege
 set_counter Armavira_undersiege 0
 monitor_event SettlementTurnStart SettlementName Armavira
@@ -17279,7 +18162,6 @@ and I_CompareCounter Armavira_undersiege = 1
 	if I_SettlementOwner Armavira = armenia
 	and I_FactionBesieged armenia
     and I_CompareCounter Armavira_undersiege = 1
-		set_counter Armavira_undersiege 2
         console_command create_unit Armavira "eastern heavy infantry" 2 3 2 2
         console_command create_unit Armavira "east heavy infantry" 4 3 2 2
         console_command create_unit Armavira "armenian auxilia" 4 3 2 2
@@ -17316,8 +18198,8 @@ spawn_army
 		unit eastern cavalry, exp 3 armour 1 weapon_lvl 1
 		unit east heavy cataphract, exp 3 armour 1 weapon_lvl 1
 end
-
 end_if
+set_counter Armavira_undersiege 2
 end_if
 end_monitor
 
@@ -17487,7 +18369,6 @@ and I_CompareCounter Thospia_undersiege = 1
 	if I_SettlementOwner Thospia = armenia
 	and I_FactionBesieged armenia
     and I_CompareCounter Thospia_undersiege = 1
-		set_counter Thospia_undersiege 2
         console_command create_unit Thospia "east heavy infantry" 4 3 1 1
         console_command create_unit Thospia "parthian takabara" 4 3 1 1
         console_command create_unit Thospia "armenian auxilia" 5 3 1 1
@@ -17524,6 +18405,7 @@ spawn_army
 end
 
 end_if
+set_counter Thospia_undersiege 2
 end_if
 end_monitor
 
@@ -17551,11 +18433,9 @@ end_if
 if I_CompareCounter Gazaca_undersiege = 0
 	and I_SettlementOwner Gazaca = armenia
 	if I_CharacterTypeNearTile roman_rebels general, 2 239,134
-        ;and I_FactionBesieged armenia
 		set_counter Gazaca_undersiege 1
 	end_if
 	if I_CharacterTypeNearTile roman_rebels family, 2 239,134
-        ;and I_FactionBesieged armenia
 		set_counter Gazaca_undersiege 1
 	end_if
 end_if
@@ -17708,7 +18588,7 @@ and not SettlementIsLocal
 and I_CompareCounter Gazaca_undersiege = 1
 	if I_SettlementOwner Gazaca = armenia
 	and I_FactionBesieged armenia
-    	set_counter Gazaca_undersiege 2
+    and I_CompareCounter Gazaca_undersiege = 1	
         console_command create_unit Gazaca "armenian auxilia" 5 3 1 1
         console_command create_unit Gazaca "parthian takabara" 4 3 1 1
         console_command create_unit Gazaca "east infantry" 4 3 1 1
@@ -17745,6 +18625,7 @@ spawn_army
 end
 
 end_if
+set_counter Gazaca_undersiege 2
 end_if
 end_monitor
 
@@ -21390,13 +22271,14 @@ console_command add_population Campus_Siracae 4000
 end_if
 if not I_LocalFaction pontus
 and not I_LocalFaction thrace
-and not I_LocalFaction greek_cities
 and not I_LocalFaction macedon
+and not I_LocalFaction britons
 console_command add_population Nicomedia 4000
 console_command add_population Nicomedia 4000
 end_if
 if not I_LocalFaction pontus
 and not I_LocalFaction seleucid
+and not I_LocalFaction britons
 console_command add_population Side 4000
 console_command add_population Side 4000
 console_command add_population Mazaka 4000
@@ -21453,6 +22335,8 @@ console_command add_population Sabata 4000
 console_command add_population Sabata 4000
 end_if
 if not I_LocalFaction greek_cities
+and not I_LocalFaction britons
+and not I_LocalFaction pontus
 console_command add_population Halicarnasus 4000
 console_command add_population Halicarnasus 3000
 end_if
@@ -21464,7 +22348,8 @@ if not I_LocalFaction numidia
 console_command add_population Sparta 4000
 console_command add_population Sparta 4000
 end_if
-if not I_LocalFaction britons
+if not I_LocalFaction parthia
+and not I_LocalFaction roman_rebels
 console_command add_population Varakhsha 4000
 console_command add_population Varakhsha 4000
 console_command add_population Kangha 4000
@@ -21499,6 +22384,8 @@ console_command add_population Harmozia 4000
 console_command add_population Bactra 4000
 end_if
 if not I_LocalFaction pontus
+and not I_LocalFaction britons
+and not I_LocalFaction Seleucid
 console_command add_population Amasia 4000
 console_command add_population Amasia 3000
 console_command add_population Amasia 3000
@@ -22101,51 +22988,51 @@ and not I_LocalFaction pontus
     	console_command add_population Sardis 500
     	end_if
 	end_if
+	if I_SettlementOwner Ancyra = britons
+	and not I_LocalFaction britons
+	console_command diplomatic_stance pontus britons War
+	console_command add_money pontus, 40000
+		if I_SettlementOwner Sinope = pontus
+    	console_command add_population Sinope 500
+    	end_if
+    	if I_SettlementOwner Mazaka = pontus
+    	console_command add_population Mazaka 500
+    	end_if
+    	if I_SettlementOwner Amasia = pontus
+    	console_command add_population Amasia 500
+    	end_if
+    	if I_SettlementOwner Heraclea = pontus
+    	console_command add_population Heraclea 500
+    	end_if
+    	if I_SettlementOwner Apameia = pontus
+    	console_command add_population Apameia 500
+    	end_if
+    	if I_SettlementOwner Sardis = pontus
+    	console_command add_population Sardis 500
+    	end_if
+	end_if
 	if I_SettlementOwner Ancyra = thrace
 	and not I_LocalFaction thrace
 	console_command diplomatic_stance pontus thrace War
 	console_command add_money pontus, 40000
-    if I_SettlementOwner Sinope = pontus
-    console_command add_population Sinope 500
-    end_if
-    if I_SettlementOwner Mazaka = pontus
-    console_command add_population Mazaka 500
-    end_if
-    if I_SettlementOwner Amasia = pontus
-    console_command add_population Amasia 500
-    end_if
-    if I_SettlementOwner Heraclea = pontus
-    console_command add_population Heraclea 500
-    end_if
-    if I_SettlementOwner Apameia = pontus
-    console_command add_population Apameia 500
-    end_if
-    if I_SettlementOwner Sardis = pontus
-    console_command add_population Sardis 500
-    end_if
-	end_if
-	if I_SettlementOwner Ancyra = greek_cities
-	and not I_LocalFaction greek_cities
-	console_command diplomatic_stance pontus greek_cities War
-	console_command add_money pontus, 40000
-	if I_SettlementOwner Sinope = pontus
-    console_command add_population Sinope 500
-    end_if
-    if I_SettlementOwner Mazaka = pontus
-    console_command add_population Mazaka 500
-    end_if
-    if I_SettlementOwner Amasia = pontus
-    console_command add_population Amasia 500
-    end_if
-    if I_SettlementOwner Heraclea = pontus
-    console_command add_population Heraclea 500
-    end_if
-    if I_SettlementOwner Apameia = pontus
-    console_command add_population Apameia 500
-    end_if
-    if I_SettlementOwner Sardis = pontus
-    console_command add_population Sardis 500
-    end_if
+    	if I_SettlementOwner Sinope = pontus
+    	console_command add_population Sinope 500
+    	end_if
+    	if I_SettlementOwner Mazaka = pontus
+    	console_command add_population Mazaka 500
+    	end_if
+    	if I_SettlementOwner Amasia = pontus
+    	console_command add_population Amasia 500
+    	end_if
+    	if I_SettlementOwner Heraclea = pontus
+    	console_command add_population Heraclea 500
+    	end_if
+    	if I_SettlementOwner Apameia = pontus
+    	console_command add_population Apameia 500
+    	end_if
+    	if I_SettlementOwner Sardis = pontus
+    	console_command add_population Sardis 500
+    	end_if
 	end_if
 	if I_SettlementOwner Sinope = romans_julii
 	and not I_LocalFaction romans_julii
@@ -22264,6 +23151,29 @@ and not I_LocalFaction pontus
     	console_command add_population Sardis 500
 		end_if
 	end_if
+	if I_SettlementOwner Heraclea = britons
+		and not I_LocalFaction britons
+		console_command diplomatic_stance pontus britons War
+		console_command add_money pontus, 40000
+		if I_SettlementOwner Ancyra = pontus
+    	console_command add_population Ancyra 500
+    	end_if
+    	if I_SettlementOwner Sinope = pontus
+    	console_command add_population Ancyra 500
+    	end_if
+    	if I_SettlementOwner Mazaka = pontus
+    	console_command add_population Mazaka 500
+    	end_if
+    	if I_SettlementOwner Amasia = pontus
+		console_command add_population Amasia 500
+    	end_if
+    	if I_SettlementOwner Apameia = pontus
+    	console_command add_population Apameia 500
+    	end_if
+    	if I_SettlementOwner Sardis = pontus
+    	console_command add_population Sardis 500
+		end_if
+	end_if
 end_if
 if I_SettlementOwner Messana = numidia
 and not I_LocalFaction carthage
@@ -22276,6 +23186,12 @@ and I_SettlementOwner Amasia = pontus
 and not I_LocalFaction greek_cities
 and not I_LocalFaction pontus
 console_command diplomatic_stance pontus greek_cities War
+end_if
+if I_SettlementOwner Nicomedia = britons
+and I_NumberOfSettlements pontus > 0
+and not I_LocalFaction britons
+and not I_LocalFaction pontus
+console_command diplomatic_stance pontus britons War
 end_if
 if I_SettlementOwner Nicomedia = macedon
 and not I_LocalFaction macedon
@@ -22330,7 +23246,6 @@ if I_SettlementOwner Susa = armenia
 and not I_LocalFaction armenia
 and not I_LocalFaction parthia
 and I_NumberOfSettlements parthia > 0
-and I_NumberOfSettlements armenia > 0
 console_command diplomatic_stance parthia armenia War
 end_if
 if I_SettlementOwner Merv = roman_rebels
@@ -22360,11 +23275,11 @@ if not I_LocalFaction greek_cities
     and I_SettlementOwner Athens = macedon
     console_command diplomatic_stance greek_cities macedon War
     console_command add_money greek_cities, 20000
-		if I_SettlementOwner Pergamum = greek_cities
-        console_command add_population Pergamum 600
+		if I_SettlementOwner Olympia = greek_cities
+        console_command add_population Olympia 600
     	end_if
-    	if I_SettlementOwner Assos = greek_cities
-        console_command add_population Assos 600
+    	if I_SettlementOwner Mytilene = greek_cities
+        console_command add_population Mytilene 600
     	end_if
     	if I_SettlementOwner Rhodes = greek_cities
         console_command add_population Rhodes 500
@@ -22377,11 +23292,11 @@ if not I_LocalFaction greek_cities
     and I_SettlementOwner Athens = numidia
     console_command diplomatic_stance greek_cities numidia War
     console_command add_money greek_cities, 20000
-		if I_SettlementOwner Pergamum = greek_cities
-        console_command add_population Pergamum 600
+		if I_SettlementOwner Olympia = greek_cities
+        console_command add_population Olympia 600
     	end_if
-    	if I_SettlementOwner Assos = greek_cities
-        console_command add_population Assos 600
+    	if I_SettlementOwner Mytilene = greek_cities
+        console_command add_population Mytilene 600
     	end_if
     	if I_SettlementOwner Rhodes = greek_cities
         console_command add_population Rhodes 500
@@ -22394,11 +23309,11 @@ if not I_LocalFaction greek_cities
     and I_SettlementOwner Rhodes = numidia
     console_command diplomatic_stance greek_cities numidia War
     console_command add_money greek_cities, 20000
-		if I_SettlementOwner Pergamum = greek_cities
-        console_command add_population Pergamum 600
+		if I_SettlementOwner Olympia = greek_cities
+        console_command add_population Olympia 600
     	end_if
-    	if I_SettlementOwner Assos = greek_cities
-        console_command add_population Assos 600
+    	if I_SettlementOwner Mytilene = greek_cities
+        console_command add_population Mytilene 600
     	end_if
     	if I_SettlementOwner Athens = greek_cities
         console_command add_population Athens 500
@@ -22411,11 +23326,11 @@ if not I_LocalFaction greek_cities
     and I_SettlementOwner Rhodes = egypt
     console_command diplomatic_stance greek_cities egypt War
     console_command add_money greek_cities, 20000
-		if I_SettlementOwner Pergamum = greek_cities
-        console_command add_population Pergamum 600
+		if I_SettlementOwner Olympia = greek_cities
+        console_command add_population Olympia 600
     	end_if
-    	if I_SettlementOwner Assos = greek_cities
-        console_command add_population Assos 600
+    	if I_SettlementOwner Mytilene = greek_cities
+        console_command add_population Mytilene 600
     	end_if
     	if I_SettlementOwner Athens = greek_cities
         console_command add_population Athens 500
@@ -22428,11 +23343,11 @@ if not I_LocalFaction greek_cities
     and I_SettlementOwner Rhodes = macedon
     console_command diplomatic_stance greek_cities macedon War
     console_command add_money greek_cities, 30000
-		if I_SettlementOwner Pergamum = greek_cities
-        console_command add_population Pergamum 600
+		if I_SettlementOwner Olympia = greek_cities
+        console_command add_population Olympia 600
     	end_if
-    	if I_SettlementOwner Assos = greek_cities
-        console_command add_population Assos 600
+    	if I_SettlementOwner Mytilene = greek_cities
+        console_command add_population Mytilene 600
     	end_if
     	if I_SettlementOwner Athens = greek_cities
         console_command add_population Athens 500
@@ -22445,28 +23360,11 @@ if not I_LocalFaction greek_cities
     and I_SettlementOwner Rhodes = pontus
     console_command diplomatic_stance greek_cities pontus War
     console_command add_money greek_cities, 30000
-		if I_SettlementOwner Pergamum = greek_cities
-        console_command add_population Pergamum 600
+		if I_SettlementOwner Olympia = greek_cities
+        console_command add_population Olympia 600
     	end_if
-    	if I_SettlementOwner Assos = greek_cities
-        console_command add_population Assos 600
-    	end_if
-    	if I_SettlementOwner Athens = greek_cities
-        console_command add_population Athens 500
-        end_if
-   		if I_SettlementOwner Thermon = greek_cities
-		console_command add_population Thermon 500
-		end_if
-    end_if
-if not I_LocalFaction pontus
-   and I_SettlementOwner Pergamum = pontus
-    console_command diplomatic_stance greek_cities pontus War
-    console_command add_money greek_cities, 30000
-		if I_SettlementOwner Rhodes = greek_cities
-        console_command add_population Rhodes 600
-    	end_if
-    	if I_SettlementOwner Assos = greek_cities
-        console_command add_population Assos 600
+    	if I_SettlementOwner Mytilene = greek_cities
+        console_command add_population Mytilene 600
     	end_if
     	if I_SettlementOwner Athens = greek_cities
         console_command add_population Athens 500
@@ -22475,23 +23373,166 @@ if not I_LocalFaction pontus
 		console_command add_population Thermon 500
 		end_if
 	end_if
-	if not I_LocalFaction pontus
-	and I_SettlementOwner Assos = pontus
-    console_command diplomatic_stance greek_cities pontus War
-    console_command add_money greek_cities, 20000
-		if I_SettlementOwner Rhodes = greek_cities
-        console_command add_population Rhodes 600
+	if not I_LocalFaction macedon
+    and I_SettlementOwner Thermon = macedon
+    console_command diplomatic_stance greek_cities macedon War
+    console_command add_money greek_cities, 10000
+		if I_SettlementOwner Olympia = greek_cities
+        console_command add_population Olympia 500
     	end_if
-    	if I_SettlementOwner Pergamum = greek_cities
-        console_command add_population Pergamum 600
+    	if I_SettlementOwner Rhodes = greek_cities
+        console_command add_population Rhodes 600
     	end_if
     	if I_SettlementOwner Athens = greek_cities
         console_command add_population Athens 500
         end_if
-   		if I_SettlementOwner Thermon = greek_cities
-		console_command add_population Thermon 500
+   		if I_SettlementOwner Mytilene = greek_cities
+		console_command add_population Mytilene 500
 		end_if
     end_if
+end_if
+if not I_LocalFaction britons
+and I_NumberOfSettlements britons > 0
+if not I_LocalFaction pontus
+   and I_SettlementOwner Pergamum = pontus
+    console_command diplomatic_stance britons pontus War
+    console_command add_money britons, 40000
+		if I_SettlementOwner Ephesus = britons
+        console_command add_population Ephesus 600
+    	end_if
+    	if I_SettlementOwner Sardis = britons
+        console_command add_population Sardis 600
+    	end_if
+    	if I_SettlementOwner Apameia = britons
+        console_command add_population Apameia 500
+        end_if
+   		if I_SettlementOwner Assos = britons
+		console_command add_population Assos 500
+    	end_if
+    	if I_SettlementOwner Halicarnasus = britons
+		console_command add_population Halicarnasus 500
+		end_if
+	end_if
+	if not I_LocalFaction pontus
+	and I_SettlementOwner Assos = pontus
+    console_command diplomatic_stance britons pontus War
+    console_command add_money britons, 40000
+		if I_SettlementOwner Ephesus = britons
+        console_command add_population Ephesus 600
+    	end_if
+    	if I_SettlementOwner Sardis = britons
+        console_command add_population Sardis 600
+    	end_if
+    	if I_SettlementOwner Apameia = britons
+        console_command add_population Apameia 500
+        end_if
+   		if I_SettlementOwner Pergamum = britons
+		console_command add_population Pergamum 500
+    	end_if
+    	if I_SettlementOwner Halicarnasus = britons
+		console_command add_population Halicarnasus 500
+		end_if
+	end_if
+	if not I_LocalFaction pontus
+	and I_SettlementOwner Halicarnasus = pontus
+    console_command diplomatic_stance britons pontus War
+    console_command add_money britons, 25000
+		if I_SettlementOwner Ephesus = britons
+        console_command add_population Ephesus 600
+    	end_if
+    	if I_SettlementOwner Sardis = britons
+        console_command add_population Sardis 600
+    	end_if
+    	if I_SettlementOwner Apameia = britons
+        console_command add_population Apameia 500
+        end_if
+   		if I_SettlementOwner Pergamum = britons
+		console_command add_population Pergamum 500
+    	end_if
+    	if I_SettlementOwner Assos = britons
+		console_command add_population Assos 500
+		end_if
+	end_if
+	if not I_LocalFaction pontus
+	and I_SettlementOwner Sardis = pontus
+    console_command diplomatic_stance britons pontus War
+    console_command add_money britons, 25000
+		if I_SettlementOwner Ephesus = britons
+        console_command add_population Ephesus 600
+    	end_if
+    	if I_SettlementOwner Apameia = britons
+        console_command add_population Apameia 500
+        end_if
+   		if I_SettlementOwner Pergamum = britons
+		console_command add_population Pergamum 500
+    	end_if
+    	if I_SettlementOwner Assos = britons
+		console_command add_population Assos 500
+		end_if
+		if I_SettlementOwner Halicarnasus = britons
+		console_command add_population Halicarnasus 500
+		end_if
+    end_if
+	if not I_LocalFaction seleucid
+	and I_SettlementOwner Pergamum = seleucid
+    console_command diplomatic_stance britons seleucid War
+    console_command add_money britons, 40000
+		if I_SettlementOwner Ephesus = britons
+        console_command add_population Ephesus 600
+    	end_if
+    	if I_SettlementOwner Sardis = britons
+        console_command add_population Sardis 600
+    	end_if
+    	if I_SettlementOwner Apameia = britons
+        console_command add_population Apameia 500
+        end_if
+   		if I_SettlementOwner Assos = britons
+		console_command add_population Assos 500
+    	end_if
+    	if I_SettlementOwner Halicarnasus = britons
+		console_command add_population Halicarnasus 500
+		end_if
+	end_if
+	if not I_LocalFaction seleucid
+	and I_SettlementOwner Assos = seleucid
+    console_command diplomatic_stance britons seleucid War
+    console_command add_money britons, 40000
+		if I_SettlementOwner Ephesus = britons
+        console_command add_population Ephesus 600
+    	end_if
+    	if I_SettlementOwner Sardis = britons
+        console_command add_population Sardis 600
+    	end_if
+    	if I_SettlementOwner Apameia = britons
+        console_command add_population Apameia 500
+        end_if
+   		if I_SettlementOwner Pergamum = britons
+		console_command add_population Pergamum 500
+    	end_if
+    	if I_SettlementOwner Halicarnasus = britons
+		console_command add_population Halicarnasus 500
+		end_if
+	end_if
+	if not I_LocalFaction seleucid
+	and I_SettlementOwner Halicarnasus = seleucid
+    console_command diplomatic_stance britons seleucid War
+    console_command add_money britons, 25000
+		if I_SettlementOwner Ephesus = britons
+        console_command add_population Ephesus 600
+    	end_if
+    	if I_SettlementOwner Sardis = britons
+        console_command add_population Sardis 600
+    	end_if
+    	if I_SettlementOwner Apameia = britons
+        console_command add_population Apameia 500
+        end_if
+   		if I_SettlementOwner Pergamum = britons
+		console_command add_population Pergamum 500
+    	end_if
+    	if I_SettlementOwner Assos = britons
+		console_command add_population Assos 500
+		end_if
+	end_if
 end_if
 
 if not I_LocalFaction macedon
@@ -22814,27 +23855,38 @@ if not I_LocalFaction dacia
     end_if
 end_if
 
+declare_counter germans_resist
 if not I_LocalFaction germans
-    and I_NumberOfSettlements germans > 0
+and I_NumberOfSettlements germans > 0
 	if I_SettlementOwner Tulisurgium = spain
     and not I_LocalFaction spain
 	console_command diplomatic_stance germans spain War
-    end_if
+    console_command add_money germans 40000
+    set_counter germans_resist 1
+	end_if
 	if I_SettlementOwner Tulisurgium = gauls
     and not I_LocalFaction gauls
 	console_command diplomatic_stance germans gauls War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
 	end_if
 	if I_SettlementOwner Phabiranum = gauls
 	and not I_LocalFaction gauls
     console_command diplomatic_stance germans gauls War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
 	end_if
 	if I_SettlementOwner Phabiranum = spain
 	and not I_LocalFaction spain
     console_command diplomatic_stance germans spain War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
 	end_if
     if I_SettlementOwner Teutoburgum = spain
 	and not I_LocalFaction spain
     console_command diplomatic_stance germans spain War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
     spawn_army
 	faction germans
     	character Adalmun, general, age 29, x 94, y 188
@@ -22863,6 +23915,8 @@ end
 	if I_SettlementOwner Teutoburgum = gauls
 	and not I_LocalFaction gauls
     console_command diplomatic_stance germans gauls War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
     spawn_army
 	faction germans
     	character Adalmun, general, age 29, x 94, y 188
@@ -22891,6 +23945,8 @@ end
 	if I_SettlementOwner Teutoburgum = romans_julii
 	and not I_LocalFaction romans_julii
     console_command diplomatic_stance germans romans_julii War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
     spawn_army
 	faction germans
     	character Adalmun, general, age 29, x 94, y 188
@@ -22919,6 +23975,8 @@ end
     if I_SettlementOwner Hafnia = gauls
 	and not I_LocalFaction gauls
     console_command diplomatic_stance germans gauls War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
     spawn_army
 	faction germans
     	character Adalmun, general, age 29, x 94, y 188
@@ -22947,6 +24005,8 @@ end
 	if I_SettlementOwner Hafnia = spain
 	and not I_LocalFaction spain
     console_command diplomatic_stance germans spain War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
     spawn_army
 	faction germans
     	character Adalmun, general, age 29, x 94, y 188
@@ -22975,6 +24035,8 @@ end
 	if I_SettlementOwner Rugium = spain
 	and not I_LocalFaction spain
     console_command diplomatic_stance germans spain War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
     spawn_army
 	faction germans
     	character Adalmun, general, age 29, x 94, y 188
@@ -23003,6 +24065,8 @@ end
 	if I_SettlementOwner Rugium = gauls
 	and not I_LocalFaction gauls
     console_command diplomatic_stance germans gauls War
+    console_command add_money germans 40000
+    set_counter germans_resist 1
     spawn_army
 	faction germans
     	character Adalmun, general, age 29, x 94, y 188
@@ -23037,7 +24101,8 @@ end
 	console_command add_population Rugium 4000
 	console_command add_population Rugium 4000
 	console_command add_population Rugium 4000
-    console_command add_money germans, 25000
+    console_command add_money germans 40000
+    set_counter germans_resist 1
     spawn_army
 	faction germans
     	character Adalmun, general, age 29, x 94, y 188
@@ -23072,7 +24137,8 @@ end
 	console_command add_population Rugium 4000
 	console_command add_population Rugium 4000
 	console_command add_population Rugium 4000
-    console_command add_money germans, 25000
+    console_command add_money germans 40000
+    set_counter germans_resist 1
     spawn_army
 	faction germans
     	character Adalmun, general, age 29, x 94, y 188
@@ -23098,6 +24164,44 @@ end
 		unit barb cavalry gaul, exp 2 armour 2 weapon_lvl 2
 end
 	end_if
+	if I_CompareCounter germans_resist = 1
+    console_command add_money germans, 40000
+    	if I_SettlementOwner Tulisurgium = germans
+        console_command add_population Tulisurgium 500
+        end_if
+        if I_SettlementOwner Phabiranum = germans
+    	console_command add_population Phabiranum 500
+        end_if
+    	if I_SettlementOwner Hafnia = germans
+    	console_command add_population Hafnia 500
+        end_if
+    	if I_SettlementOwner Teutoburgum = germans
+        console_command add_population Teutoburgum 500
+        end_if
+    	if I_SettlementOwner Rugium = germans
+        console_command add_population Rugium 500
+        end_if
+    	if I_SettlementOwner Mattium = germans
+        console_command add_population Mattium 500
+        end_if
+    	if I_SettlementOwner Burgaz_Gothii = germans
+        console_command add_population Burgaz_Gothii 500
+        end_if
+    	if I_SettlementOwner Valhagarum = germans
+        console_command add_population Valhagarum 500
+        end_if
+    	if I_SettlementOwner Burgaz_Sueones = germans
+        console_command add_population Burgaz_Sueones 500
+        end_if
+    end_if
+if I_SettlementOwner Tulisurgium = germans
+and I_SettlementOwner Phabiranum = germans
+and I_SettlementOwner Hafnia = germans
+and I_SettlementOwner Teutoburgum = germans
+and I_SettlementOwner Rugium = germans
+and I_SettlementOwner Mattium = germans
+set_counter germans_resist 0
+end_if
 end_if
 
 if I_NumberOfSettlements scythia > 0
@@ -23128,9 +24232,9 @@ if I_NumberOfSettlements scythia > 0
 		end_if
 	end_if
 	if not I_LocalFaction thrace
-	and I_SettlementOwner Campus_Iazyges = thrace
-	console_command diplomatic_stance scythia thrace War
-	console_command add_money scythia, 20000
+		and I_SettlementOwner Campus_Iazyges = thrace
+		console_command diplomatic_stance scythia thrace War
+		console_command add_money scythia, 20000
 	end_if
 	if not I_LocalFaction germans
 		if I_SettlementOwner Vicus_Tissagetae = germans
@@ -23157,6 +24261,76 @@ if I_NumberOfSettlements scythia > 0
 		console_command add_money scythia, 15000
 		end_if
 	end_if
+end_if
+
+declare_counter gauls_resist
+if I_NumberOfSettlements gauls > 0
+and not I_LocalFaction gauls
+	if I_SettlementOwner Samarobriva = germans
+    and not I_LocalFaction germans
+	console_command diplomatic_stance gauls germans War
+    console_command add_money gauls 40000
+    set_counter gauls_resist 1
+	end_if
+	if I_SettlementOwner Vesontio = germans
+    and not I_LocalFaction germans
+	console_command diplomatic_stance gauls germans War
+    console_command add_money gauls 40000
+    set_counter gauls_resist 1
+	end_if
+	if I_SettlementOwner Vesontio = spain
+    and not I_LocalFaction spain
+	console_command diplomatic_stance gauls spain War
+    console_command add_money gauls 40000
+    set_counter gauls_resist 1
+	end_if
+    if I_SettlementOwner Vienna = spain
+    and not I_LocalFaction spain
+	console_command diplomatic_stance gauls spain War
+    console_command add_money gauls 40000
+    set_counter gauls_resist 1
+	end_if
+    if I_CompareCounter gauls_resist = 1
+    console_command add_money gauls, 40000
+    	if I_SettlementOwner Samarobriva = gauls
+        console_command add_population Samarobriva 500
+        end_if
+        if I_SettlementOwner Vesontio = gauls
+    	console_command add_population Vesontio 500
+        end_if
+    	if I_SettlementOwner Cenabum = gauls
+    	console_command add_population Cenabum 500
+        end_if
+    	if I_SettlementOwner Bibracte = gauls
+        console_command add_population Bibracte 500
+        end_if
+    	if I_SettlementOwner Vienna = gauls
+        console_command add_population Vienna 500
+        end_if
+    	if I_SettlementOwner Lemonum = gauls
+        console_command add_population Lemonum 500
+        end_if
+    	if I_SettlementOwner Darioritum = gauls
+        console_command add_population Darioritum 500
+        end_if
+    	if I_SettlementOwner Ictis = gauls
+        console_command add_population Ictis 500
+    	end_if
+    	if I_SettlementOwner Camulodunum = gauls
+        console_command add_population Camulodunum 500
+        end_if
+    end_if
+if I_SettlementOwner Samarobriva = gauls
+and I_SettlementOwner Vesontio = gauls    	
+and I_SettlementOwner Cenabum = gauls
+and I_SettlementOwner Bibracte = gauls
+and I_SettlementOwner Vienna = gauls
+and I_SettlementOwner Lemonum = gauls
+and I_SettlementOwner Darioritum = gauls
+and I_SettlementOwner Ictis = gauls
+and I_SettlementOwner Camulodunum = gauls
+set_counter gauls_resist 0
+end_if
 end_if
 
 if not I_LocalFaction spain
@@ -23328,7 +24502,7 @@ console_command add_population Thebes 4000
 console_command add_population Thebes 4000
 console_command add_population Thebes 4000
 console_command diplomatic_stance egypt romans_brutii War
-console_command add_money egypt, 10000
+console_command add_money egypt, 20000
 spawn_army 
     faction egypt
     		character Teos, general, age 30, x 192, y 52
@@ -23363,16 +24537,18 @@ if I_CompareCounter conquering_greece = 0
 	and I_SettlementOwner Patavium != spain
 	and I_SettlementOwner Massilia != spain
 	and I_SettlementOwner Tolosa != spain
+    and I_SettlementOwner Segestica != spain
+	and I_SettlementOwner Scodra != spain
 	console_command diplomatic_stance romans_scipii spain neutral
 end_if
-if I_CompareCounter conquering_greece = 0
-		and not I_LocalFaction macedon
-        and I_SettlementOwner Scodra = romans_scipii
-		and I_SettlementOwner Segestica != macedon
-		and I_NumberOfSettlements macedon > 0
-		console_command diplomatic_stance romans_scipii macedon neutral
-		console_command diplomatic_stance macedon romans_scipii neutral        
-end_if
+;if I_CompareCounter conquering_greece = 0
+;		and not I_LocalFaction macedon
+;        and I_SettlementOwner Scodra = romans_scipii
+;		and I_SettlementOwner Segestica != macedon
+;		and I_NumberOfSettlements macedon > 0
+;		console_command diplomatic_stance romans_scipii macedon neutral
+;		console_command diplomatic_stance macedon romans_scipii neutral        
+;end_if
 if I_CompareCounter conquering_greece = 0
         and not I_LocalFaction romans_scipii
         and I_NumberOfSettlements romans_scipii > 0
@@ -23492,7 +24668,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -23583,7 +24759,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -23675,7 +24851,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -23743,114 +24919,119 @@ end_if
 
 if I_SettlementOwner Rhodes = greek_cities
 	if I_CharacterTypeNearTile romans_scipii family, 2 161,101
-    console_command diplomatic_stance greek_cities romans_scipii war
+    console_command diplomatic_stance greek_cities romans_scipii War
     end_if
 	if I_CharacterTypeNearTile romans_scipii general, 2 161,101
-    console_command diplomatic_stance greek_cities romans_scipii war
+    console_command diplomatic_stance greek_cities romans_scipii War
     end_if
     if I_CharacterTypeNearTile egypt family, 2 161,101
-	console_command diplomatic_stance greek_cities egypt war
+	console_command diplomatic_stance greek_cities egypt War
     end_if
     if I_CharacterTypeNearTile egypt general, 2 161,101
-    console_command diplomatic_stance greek_cities egypt war
+    console_command diplomatic_stance greek_cities egypt War
     end_if
     if I_CharacterTypeNearTile seleucid family, 2 161,101
-	console_command diplomatic_stance greek_cities seleucid war
+	console_command diplomatic_stance greek_cities seleucid War
     end_if
     if I_CharacterTypeNearTile seleucid general, 2 161,101
-    console_command diplomatic_stance greek_cities seleucid war
+    console_command diplomatic_stance greek_cities seleucid War
     end_if
     if I_CharacterTypeNearTile macedon family, 2 161,101
-	console_command diplomatic_stance greek_cities macedon war
+	console_command diplomatic_stance greek_cities macedon War
     end_if
     if I_CharacterTypeNearTile macedon general, 2 161,101
-    console_command diplomatic_stance greek_cities macedon war
+    console_command diplomatic_stance greek_cities macedon War
     end_if
     if I_CharacterTypeNearTile pontus family, 2 161,101
-	console_command diplomatic_stance greek_cities macedon war
+	console_command diplomatic_stance greek_cities macedon War
     end_if
     if I_CharacterTypeNearTile pontus general, 2 161,101
-    console_command diplomatic_stance greek_cities pontus war
+    console_command diplomatic_stance greek_cities pontus War
     end_if
     if I_CharacterTypeNearTile numidia family, 2 161,101
-	console_command diplomatic_stance greek_cities numidia war
+	console_command diplomatic_stance greek_cities numidia War
     end_if
     if I_CharacterTypeNearTile numidia general, 2 161,101
-    console_command diplomatic_stance greek_cities numidia war
+    console_command diplomatic_stance greek_cities numidia War
     end_if
     if I_CharacterTypeNearTile thrace family, 2 161,101
-	console_command diplomatic_stance greek_cities thrace war
+	console_command diplomatic_stance greek_cities thrace War
     end_if
     if I_CharacterTypeNearTile thrace general, 2 161,101
-    console_command diplomatic_stance greek_cities thrace war
+    console_command diplomatic_stance greek_cities thrace War
 end_if
 end_if
 if I_SettlementOwner Kydonia = numidia
 	if I_CharacterTypeNearTile romans_scipii family, 2 146,94
-	console_command diplomatic_stance numidia romans_scipii war
+	console_command diplomatic_stance numidia romans_scipii War
     end_if
     if I_CharacterTypeNearTile romans_scipii general, 2 146,94
-    console_command diplomatic_stance numidia romans_scipii war
+    console_command diplomatic_stance numidia romans_scipii War
     end_if
     if I_CharacterTypeNearTile egypt family, 2 146,94
-	console_command diplomatic_stance numidia egypt war
+	console_command diplomatic_stance numidia egypt War
     end_if
     if I_CharacterTypeNearTile egypt general, 2 146,94
-    console_command diplomatic_stance numidia egypt war
+    console_command diplomatic_stance numidia egypt War
     end_if
     if I_CharacterTypeNearTile seleucid family, 2 146,94
-	console_command diplomatic_stance numidia seleucid war
+	console_command diplomatic_stance numidia seleucid War
     end_if
     if I_CharacterTypeNearTile seleucid general, 2 146,94
-    console_command diplomatic_stance numidia seleucid war
+    console_command diplomatic_stance numidia seleucid War
     end_if
     if I_CharacterTypeNearTile macedon family, 2 146,94
-	console_command diplomatic_stance numidia macedon war
+	console_command diplomatic_stance numidia macedon War
     end_if
     if I_CharacterTypeNearTile macedon general, 2 146,94
-    console_command diplomatic_stance numidia macedon war
+    console_command diplomatic_stance numidia macedon War
     end_if
     if I_CharacterTypeNearTile pontus family, 2 146,94
-	console_command diplomatic_stance numidia pontus war
+	console_command diplomatic_stance numidia pontus War
     end_if
     if I_CharacterTypeNearTile pontus general, 2 146,94
-    console_command diplomatic_stance numidia pontus war
+    console_command diplomatic_stance numidia pontus War
     end_if
     if I_CharacterTypeNearTile greek_cities family, 2 146,94
-	console_command diplomatic_stance numidia romans_scipii war
+	console_command diplomatic_stance numidia romans_scipii War
     end_if
     if I_CharacterTypeNearTile greek_cities general, 2 146,94
-    console_command diplomatic_stance numidia greek_cities war
+    console_command diplomatic_stance numidia greek_cities War
     end_if
     if I_CharacterTypeNearTile thrace family, 2 146,94
-	console_command diplomatic_stance numidia thrace war
+	console_command diplomatic_stance numidia thrace War
     end_if
     if I_CharacterTypeNearTile thrace general, 2 146,94
-    console_command diplomatic_stance numidia thrace war
+    console_command diplomatic_stance numidia thrace War
 end_if
 end_if
 end_monitor
 
 monitor_event FactionTurnStart FactionType seleucid
         and not FactionIsLocal
-        if I_LocalFaction britons
-        and I_NumberOfSettlements britons < 16
-        and I_NumberOfSettlements seleucid > 10
-        console_command add_money seleucid, -20000
-        console_command add_money pontus, 5000
-        console_command add_money parthia, 5000
-        console_command diplomatic_stance pontus seleucid War
-        console_command diplomatic_stance parthia seleucid War
-        console_command diplomatic_stance egypt seleucid War
-end_if
         if I_LocalFaction roman_rebels
         and I_NumberOfSettlements roman_rebels < 19
-        and I_NumberOfSettlements seleucid > 10
-        console_command add_money seleucid, -20000
+        and I_NumberOfSettlements seleucid > 12
+        console_command add_money seleucid, -10000
         console_command diplomatic_stance egypt seleucid War
-        console_command diplomatic_stance greek_cities seleucid War
+        console_command diplomatic_stance britons seleucid War
 end_if
 end_monitor
+monitor_event FactionTurnEnd FactionType seleucid
+and FactionIsLocal
+and DiplomaticStanceFromFaction egypt = Allied
+if I_NumberOfSettlements egypt > 0
+console_command diplomatic_stance egypt seleucid neutral
+end_if
+end_monitor
+monitor_event FactionTurnStart FactionType macedon
+and FactionIsLocal
+and DiplomaticStanceFromFaction romans_scipii = Allied
+if I_NumberOfSettlements romans_scipii > 0
+console_command diplomatic_stance romans_scipii macedon War
+end_if
+end_monitor
+
 monitor_event FactionTurnEnd FactionType pontus
 and not FactionIsLocal
 and I_LocalFaction armenia
@@ -23878,7 +25059,7 @@ if I_SettlementOwner Antioch = seleucid
 console_command diplomatic_stance pontus seleucid War
 end_if
 end_monitor
-monitor_event FactionTurnEnd FactionType pontus
+monitor_event FactionTurnStart FactionType pontus
 and not FactionIsLocal
 and I_NumberOfSettlements pontus > 0
 if I_SettlementOwner Nicomedia = pontus
@@ -24328,24 +25509,6 @@ if I_LocalFaction roman_rebels
     console_command add_population Zadracarta 4000
 	end_if
 end_if
-if I_LocalFaction britons
-    if I_SettlementOwner Apameia = seleucid
-    console_command add_population Apameia 4000
-    console_command add_population Apameia 4000
-    console_command add_population Apameia 4000
-    console_command add_population Apameia 4000
-    console_command add_population Apameia 4000
-    console_command add_population Apameia 4000
-	end_if
-	if I_SettlementOwner Ancyra = seleucid
-    console_command add_population Ancyra 4000
-    console_command add_population Ancyra 4000
-    console_command add_population Ancyra 4000
-    console_command add_population Ancyra 4000
-    console_command add_population Ancyra 4000
-    console_command add_population Ancyra 4000
-	end_if
-end_if
 end_monitor
 
 monitor_event FactionTurnEnd FactionType romans_scipii
@@ -24354,6 +25517,8 @@ if I_CompareCounter gallic_war = 0
 and not I_LocalFaction spain
 and not I_LocalFaction macedon
 and I_NumberOfSettlements macedon > 0
+and I_SettlementOwner Segestica != spain
+and I_SettlementOwner Scodra != spain
 console_command diplomatic_stance romans_scipii spain neutral
 console_command diplomatic_stance macedon romans_scipii War
 console_command add_money macedon, 25000
@@ -24546,7 +25711,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -24629,7 +25794,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -24768,7 +25933,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -24846,7 +26011,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -24927,7 +26092,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -24967,17 +26132,17 @@ and I_SettlementOwner Scodra != spain
 console_command diplomatic_stance spain romans_scipii neutral
 end_if
 
-if not I_LocalFaction macedon
-and I_NumberOfSettlements romans_scipii > 0
-	if I_SettlementOwner Segestica = macedon
-	console_command diplomatic_stance romans_scipii macedon War
-	end_if
-	if I_SettlementOwner Segestica != macedon
-	and I_SettlementOwner Scodra != macedon
-	console_command diplomatic_stance macedon romans_scipii neutral
-	console_command diplomatic_stance romans_scipii macedon neutral
-	end_if
-end_if
+;if not I_LocalFaction macedon
+;and I_NumberOfSettlements romans_scipii > 0
+;	if I_SettlementOwner Segestica = macedon
+;	console_command diplomatic_stance romans_scipii macedon War
+;	end_if
+;	if I_SettlementOwner Segestica != macedon
+;	and I_SettlementOwner Scodra != macedon
+;	console_command diplomatic_stance macedon romans_scipii neutral
+;	console_command diplomatic_stance romans_scipii macedon neutral
+;	end_if
+;end_if
 
 if not I_LocalFaction greek_cities
 and I_NumberOfSettlements romans_scipii > 0	
@@ -25467,7 +26632,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -25637,7 +26802,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -26573,7 +27738,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -27460,7 +28625,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -27546,7 +28711,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
@@ -27633,7 +28798,7 @@ if I_CompareCounter parthia_player = 1
 console_command control parthia
 console_command control parthia
 end_if
-if I_CompareCounter sogdian_player = 1
+if I_CompareCounter pergamum_player = 1
 console_command control britons
 console_command control britons
 end_if
