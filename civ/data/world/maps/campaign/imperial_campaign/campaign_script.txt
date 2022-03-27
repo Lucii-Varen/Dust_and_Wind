@@ -31,6 +31,7 @@ console_command create_building Asaak reform1
 console_command create_building Assos reform1
 console_command create_building Apamea reform1
 console_command create_building Apameia reform1
+console_command create_building Atuatuca reform1
 console_command create_building Avaricum reform1
 console_command create_building Bibracte reform1
 console_command create_building Bactra reform1
@@ -72,6 +73,7 @@ console_command create_building Cenabum reform1
 console_command create_building Damascus reform1
 console_command create_building Darioritum reform1
 console_command create_building Deva reform1
+console_command create_building Docidava reform1
 console_command create_building Dyrrachium reform1
 console_command create_building Eburonum reform1
 console_command create_building Emain_Macha reform1
@@ -90,6 +92,7 @@ console_command create_building Halicarnassus reform1
 console_command create_building Hadrumetum reform1
 console_command create_building Harmozia reform1
 console_command create_building Hecatompylos reform1
+console_command create_building Hegra reform1
 console_command create_building Heraclea reform1
 console_command create_building Hafnia reform1
 console_command create_building Hippo_Regius reform1
@@ -166,11 +169,11 @@ console_command create_building Sumelocenna reform1
 console_command create_building Seutopolis reform1
 console_command create_building Scodra reform1
 console_command create_building Sardica reform1
+console_command create_building Sarmizegetusa reform1
 console_command create_building Sabata reform1
 console_command create_building Saguntum reform1
 console_command create_building Singidunum reform1
 console_command create_building Side reform1
-console_command create_building Sarmizegetusa reform1
 console_command create_building Syracuse reform1
 console_command create_building Tanais reform1
 console_command create_building Tarentum reform1
@@ -206,10 +209,20 @@ console_command create_building Vibantavarium reform1
 console_command create_building Valhagarum reform1
 console_command create_building Zadracarta reform1
 
+if not I_LocalFaction seleucid
+console_command add_money seleucid, -40000
+console_command add_money seleucid, -40000
+end_if
 if not I_LocalFaction roman_rebels
 console_command add_population Bactra 4000
-console_command add_money roman_rebels 40000
-console_command add_money roman_rebels 40000
+console_command add_money roman_rebels, 40000
+end_if
+if not I_LocalFaction pontus
+console_command add_money pontus, 40000
+console_command add_money pontus, 40000
+console_command add_money pontus, 40000
+console_command add_money pontus, 40000
+console_command add_money pontus, 40000
 end_if
 if not I_LocalFaction greek_cities
 console_command add_population Athens 3000
@@ -220,7 +233,56 @@ console_command add_population Burdigala 3000
 console_command add_population Darioritum 3000
 console_command add_population Lemonum 3000
 end_if
-if not I_LocalFaction Spain
+if not I_LocalFaction spain
 console_command add_population Iuvavum 4000
+console_command add_money spain, 40000
+console_command add_money spain, 40000
+console_command add_money spain, 40000
+console_command add_money spain, 40000
+end_if
+if not I_LocalFaction dacia
+console_command add_population Buridava 4000
+console_command add_population Sarmizegetusa 4000
+console_command add_money dacia, 40000
+console_command add_money dacia, 40000
+console_command add_money dacia, 40000
+console_command add_money dacia, 40000
+console_command add_money dacia, 40000
+end_if
+if not I_LocalFaction carthage
+console_command create_unit Aleria "carthaginian heavy infantry" 4 1 2 2
+console_command create_unit Aleria "carthaginian archer" 1 2 2 2
+console_command create_unit Aleria "carthaginian heavy swordsman" 4 2 2 2
+console_command create_unit Aleria "carthaginian cavalry royal" 2 1 2 2
+
+console_command create_unit Caralis "thureos spears" 3 0 2 2
+console_command create_unit Caralis "carthaginian heavy infantry" 4 0 2 2
+console_command create_unit Caralis "carthaginian archer" 1 2 2 2
+console_command create_unit Caralis "carthaginian heavy swordsman" 4 0 2 2
+console_command create_unit Caralis "carthaginian cavalry royal" 2 0 2 2
+spawn_army
+            faction carthage
+            character Zeuxis, general, age 30, x 98, y 107
+            unit carthaginian general's cavalry, exp 4 armour 2 weapon_lvl 2
+            unit carthaginian legionary, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian legionary, exp 2 armour 2 weapon_lvl 2
+            unit thureos spears, exp 2 armour 2 weapon_lvl 2
+            unit thureos spears, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian heavy infantry, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian heavy infantry, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian heavy infantry, exp 2 armour 2 weapon_lvl 2
+            unit thureos spears, exp 2 armour 2 weapon_lvl 2
+            unit thureos spears, exp 2 armour 2 weapon_lvl 2
+            unit merc balearic slingers, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian heavy swordsman, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian heavy swordsman, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian heavy swordsman, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian heavy swordsman, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian archer, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian royal cavalry, exp 2 armour 2 weapon_lvl 2
+            unit carthaginian cavalry royal, exp 2 armour 2 weapon_lvl 2
+            unit numidian cavalry, exp 2 armour 2 weapon_lvl 3
+            unit numidian cavalry, exp 2 armour 2 weapon_lvl 3
+end
 end_if
 end_script

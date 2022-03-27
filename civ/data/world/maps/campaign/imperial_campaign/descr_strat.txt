@@ -111,7 +111,7 @@ resource	camels,	343,	111     ;Arachosia
 resource	camels,	330,	88     ;Gedrosia
 resource	camels,	311,	140     ;Aria
 resource	camels,	310,	107     ;Carmania
-;;;;;;;;;;;;;Bostra;;;;;;;Nabatea;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Bostra;;;;;;;Nabataea;;;;;;;;;;;;;;;;;
 resource	camels,	222,	74
 resource	camels,	209,	86
 ;;;;;;;;;;;;;Zarang;;;;;Sakastan;;;;;;;;;;;;;;;;;;;
@@ -1353,22 +1353,24 @@ traits GoodCommander 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1
 ancillaries aged_retainer
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman princeps				exp 2 armour 0 weapon_lvl 0
-unit		roman princeps				exp 2 armour 0 weapon_lvl 0
-unit		roman princeps				exp 2 armour 0 weapon_lvl 0
-unit		roman princeps				exp 2 armour 0 weapon_lvl 0
-unit		roman velite				exp 2 armour 0 weapon_lvl 0
-unit		roman velite				exp 2 armour 0 weapon_lvl 0
-unit		roman triarii				exp 2 armour 0 weapon_lvl 0
-unit		roman triarii				exp 2 armour 0 weapon_lvl 0
-unit		roman triarii				exp 2 armour 0 weapon_lvl 0
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman light cavalry				exp 2 armour 1 weapon_lvl 1
+unit		roman light cavalry				exp 2 armour 1 weapon_lvl 1
+unit		roman princeps				exp 2 armour 1 weapon_lvl 1
+unit		roman princeps				exp 2 armour 1 weapon_lvl 1
+unit		roman princeps				exp 2 armour 1 weapon_lvl 1
+unit		roman princeps				exp 2 armour 1 weapon_lvl 1
+unit		roman velite				exp 2 armour 1 weapon_lvl 1
+unit		roman velite				exp 2 armour 1 weapon_lvl 1
+unit		roman triarii				exp 2 armour 1 weapon_lvl 1
+unit		roman triarii				exp 2 armour 1 weapon_lvl 1
+unit		roman triarii				exp 2 armour 1 weapon_lvl 1
 
 character	Julianus Scipio, named character, heir, subterfuge 0, age 36, , x 102, y 124 
 traits GoodCommander 1 , NaturalMilitarySkill 3 , GoodRiskyAttacker 1 , LoyaltyStarter 1
@@ -1385,17 +1387,23 @@ character	Quintus Scipio, named character, subterfuge 0, age 35, , x 114, y 113
 traits NaturalMilitarySkill 1 , Intelligent 1 , Generous 1 , LoyaltyStarter 1
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman princeps				exp 2 armour 0 weapon_lvl 0
-unit		roman princeps				exp 2 armour 0 weapon_lvl 0
-unit		roman princeps				exp 2 armour 0 weapon_lvl 0
-unit		roman princeps				exp 2 armour 0 weapon_lvl 0
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman hastati				exp 2 armour 1 weapon_lvl 1
+unit		roman princeps				exp 2 armour 1 weapon_lvl 1
+unit		roman princeps				exp 2 armour 1 weapon_lvl 1
+unit		roman princeps				exp 2 armour 1 weapon_lvl 1
+unit		roman princeps				exp 2 armour 1 weapon_lvl 1
+unit		roman light cavalry				exp 2 armour 1 weapon_lvl 1
+unit		roman light cavalry				exp 2 armour 1 weapon_lvl 1
+unit		roman triarii				exp 2 armour 1 weapon_lvl 1
+unit		roman triarii				exp 2 armour 1 weapon_lvl 1
 
 character	Quintus, general, age 47, , x 89, y 138 
 army
@@ -1489,7 +1497,7 @@ relative 	Quintus Scipio, 	Crispina,		Placidia,	Publius Scipio,	end
 
 faction	roman_rebels, sailor stalin
 ai_do_not_attack_faction scythia
-denari	400000
+denari	500000
 settlement
 {
 	level city
@@ -1525,7 +1533,7 @@ settlement
 	}
 	building
 	{
-		type market trader
+		type market market
 	}
 	building
 	{
@@ -1538,6 +1546,37 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Bactria_Oxiana
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator roman_rebels
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type gymnasium cleruchy
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type temple_of_farming temple_of_farming_shrine
+	}
+	building
+	{
+		type barracks muster_field
 	}
 }
 
@@ -1566,6 +1605,21 @@ army
 unit		greek general's guard cavalry				exp 1 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 1 weapon_lvl 1
 unit		east horse archer				exp 0 armour 1 weapon_lvl 1
+unit		greek pikemen				exp 1 armour 2 weapon_lvl 1
+unit		greek pikemen				exp 1 armour 2 weapon_lvl 1
+
+;Bactria_Oxiana
+character	Cleitos, general, age 20, , x 341, y 156
+army
+unit		egyptian militia				exp 3 armour 2 weapon_lvl 0
+unit		egyptian militia				exp 2 armour 2 weapon_lvl 0
+unit		egyptian militia				exp 2 armour 2 weapon_lvl 0
+unit		east infantry				exp 3 armour 0 weapon_lvl 0
+unit		east infantry				exp 3 armour 0 weapon_lvl 0
+unit		east infantry				exp 3 armour 0 weapon_lvl 0
+unit		east infantry				exp 3 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 1 weapon_lvl 1
+unit		east horse archer				exp 0 armour 1 weapon_lvl 1
 
 character	Aristarchus, diplomat, age 26, , x 326, y 148 
 traits GoodDiplomat 2
@@ -1576,7 +1630,7 @@ character_record		Helena, 	female, command 0, influence 0, management 0, subterf
 relative 	Diodotus of Bactra, 	Helena,		Euthydemus,	Antimachus,	end
 
 faction	macedon, Comfortable smith
-denari	280000
+denari	400000
 settlement
 {
 	level city
@@ -1870,7 +1924,7 @@ relative 	Euenus, 	Pervica,		Caleope,	Deukalos,	end
 
 faction	egypt, fortified smith
 ai_do_not_attack_faction carthage
-denari	270000
+denari	400000
 settlement
 {
 	level large_town
@@ -2313,7 +2367,7 @@ relative 	Kiya, 	Pedibastet,		Heruben,	end
 
 
 faction	seleucid, balanced stalin
-denari	250000
+denari	320000
 settlement
 {
 	level city
@@ -2345,7 +2399,7 @@ settlement
 	}
 	building
 	{
-		type equestrian stables
+		type equestrian cavalry_barracks
 	}
 	building
 	{
@@ -2452,7 +2506,7 @@ settlement
 	region Babylonia
 
 	year_founded 0
-	population 6400
+	population 6500
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -2478,6 +2532,10 @@ settlement
 	building
 	{
 		type market market
+	}
+	building
+	{
+		type equestrian cavalry_barracks
 	}
 	building
 	{
@@ -3247,7 +3305,7 @@ relative 	Alexander, 	Parthenope,		Gyras,	Helike,	end
 relative 	Demetrius, 	Athena,		Kassandros,	Orthia,	end
 
 
-faction	carthage, trader smith
+faction	carthage, balanced smith
 ai_do_not_attack_faction egypt
 denari	500000
 settlement
@@ -3256,7 +3314,7 @@ settlement
 	region Africa
 
 	year_founded 0
-	population 6000
+	population 6500
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -3388,6 +3446,10 @@ settlement
         building
 	{
 		type hinterland_roads paved_roads
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -3848,7 +3910,7 @@ relative 	AbKarab, 	Kahilal,		Wahab,	Shahar,	Hamlat,	Tharin,	end
 
 faction	parthia, Balanced Henry
 ai_do_not_attack_faction scythia
-denari	400000
+denari	500000
 settlement
 {
 	level city
@@ -3876,7 +3938,7 @@ settlement
 	}
 	building
 	{
-		type equestrian stables
+		type equestrian cavalry_barracks
 	}
 	building
 	{
@@ -3944,6 +4006,10 @@ settlement
 	building
 	{
 		type market trader
+	}
+	building
+	{
+		type equestrian stables
 	}
 	building
 	{
@@ -4080,14 +4146,14 @@ relative 	Phraotes, 	Nabunaita,		Thuxra,	end
 
 
 faction	pontus, trader smith
-denari	290000
+denari	500000
 settlement
 {
 	level city
 	region Pontus
 
 	year_founded 0
-	population 6300
+	population 6700
 	plan_set default_set
 	faction_creator pontus
 	building
@@ -4130,6 +4196,10 @@ settlement
 	{
 		type hinterland_farms farms+2
 	}
+	building
+	{
+		type missiles practice_field
+	}
 }
 
 settlement
@@ -4160,6 +4230,10 @@ settlement
 	building
 	{
 		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
 	}
 	building
 	{
@@ -4225,7 +4299,7 @@ relative 	Herakles, 	Antonia,		Dionysos,	Rhescuporis,	end
 
 
 faction	gauls, trader napoleon
-denari	400000
+denari	450000
 settlement
 {
 	level city
@@ -4651,7 +4725,7 @@ relative 	Rianorix, 	Esselt,		Lucco,	end
 relative 	Vindex, 	Keyne,		Meriadoc,	Verica,	end
 
 faction	germans, religious mao
-denari	300000
+denari	400000
 settlement
 {
 	level city
@@ -4870,7 +4944,7 @@ relative 	Hariulfus, 	Aurinia,		Sesithacus,	Biua,	Carolus,	end
 
 
 faction	britons, bureaucrat henry
-denari	300000
+denari	350000
 
 settlement
 {
@@ -4999,7 +5073,7 @@ relative 	Philetaerus,		Antiochis,		Attalos,	end
 
 faction	armenia, fortified henry
 ai_do_not_attack_faction scythia
-denari	300000
+denari	480000
 settlement
 {
 	level city
@@ -5150,7 +5224,7 @@ relative 	Aramu, 	Pao,		Eminos,	Hurriya,	end
 
 
 faction	dacia, craftsman smith
-denari	380000
+denari	400000
 settlement
 {
 	level city
@@ -5198,6 +5272,33 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Dacia
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type barb_nobles barb_settlement
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 character	Zyraxes, named character, leader, age 60, , x 144, y 145 
 traits GoodCommander 2 , Intelligent 1 , Bloodthirsty 2
 ancillaries bard
@@ -5212,13 +5313,18 @@ unit		warband falx dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb archer dacian				exp 0 armour 0 weapon_lvl 0
 unit		warband falx dacian				exp 0 armour 0 weapon_lvl 0
 
-character	Vezina, named character, heir, age 35, , x 149, y 147 
+;Dacia;;;;Sarmizegetusa
+character	Vezina, named character, heir, age 35, , x 137, y 151
 traits NaturalMilitarySkill 2 , Intelligent 1 , Bloodthirsty 1 , Drink 1
 ancillaries armourer
 army
 unit		barb chieftain cavalry early dacian	exp 1 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		warband falx dacian				exp 0 armour 0 weapon_lvl 0
 
 character	Scyles, named character, age 30, , x 139, y 145 
 traits Intelligent 3 , Bloodthirsty 1 , Energetic 1
@@ -5250,7 +5356,7 @@ relative 	Scyles, 	Birkita,		Fallon,	Scylurus,	end
 
 
 faction	greek_cities, sailor smith
-denari	300000
+denari	600000
 settlement
 {
 	level city
@@ -5647,7 +5753,7 @@ relative 	Antaeus of Sparta, 	Aganippe,		Leonidas,	Kallikrates,	end
 
 faction	scythia, balanced genghis
 ai_do_not_attack_faction parthia
-denari	390000
+denari	450000
 
 settlement
 {
@@ -5855,7 +5961,7 @@ relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
 
 
 faction	spain, balanced smith
-denari	240000
+denari	500000
 settlement
 {
 	level city
@@ -6567,6 +6673,52 @@ settlement
 settlement
 {
 	level town
+	region Tribus_Scordisci
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level town
+	region Crisia
+
+	year_founded 0
+	population 3500
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level town
 	region Regnum_Palmyrae
 
 	year_founded 0
@@ -6695,6 +6847,33 @@ settlement
 {
 	level town
 	region Belgica
+
+	year_founded 0
+	population 1600
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type barb_nobles barb_settlement
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level town
+	region Tribus_Nervii
 
 	year_founded 0
 	population 1600
@@ -6991,7 +7170,7 @@ settlement
 settlement
 {
 	level town
-	region Albania	;Cabalaca
+	region Albania ;Cabalaca
 
 	year_founded 0
 	population 1500
@@ -7008,6 +7187,25 @@ settlement
 	building
 	{
 		type defenses stone_wall
+	}
+}
+
+settlement
+{
+	level town
+	region Armenia_Minor ;Satala
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
 	}
 }
 
@@ -7092,33 +7290,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type temple_of_farming temple_of_farming_shrine
-	}
-}
-
-settlement
-{
-	level town
-	region Bactria_Oxiana
-
-	year_founded 0
-	population 1700
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type gymnasium cleruchy
-	}
-	building
-	{
-		type market trader
 	}
 	building
 	{
@@ -8148,16 +8319,16 @@ settlement
 	}
 }
 
-settlement
-{
-	level village
-	region Nurthralandan
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator germans
-}
+;settlement
+;{
+;	level village
+;	region Nurthralandan
+;
+;	year_founded 0
+;	population 400
+;	plan_set default_set
+;	faction_creator germans
+;}
 
 settlement
 {
@@ -8210,29 +8381,6 @@ settlement
 	building
 	{
 		type hinterland_farms farms
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Dacia
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator dacia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type barb_nobles barb_settlement
 	}
 	building
 	{
@@ -8904,12 +9052,51 @@ unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
 unit		illyrian thureophoroi			exp 5 armour 1 weapon_lvl 1
 unit		merc cilician pirate				exp 3 armour 0 weapon_lvl 0
 
-;Tribus_Neuri
-character	sub_faction dacia, Dapyx, general, age 20, , x 149, y 185
+;Tribus_Scordisci
+character, sub_faction thrace,	Rhaskuporis,  named character, command 0, influence 0, management 0, subterfuge 0, age 16, , x 127, y 144
+traits GoodCommander 2, Austere 3, BloodHumour 1, GoodTrader 3,
 army
 unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		merc illyrian			exp 4 armour 1 weapon_lvl 1
+unit		merc illyrian			exp 4 armour 1 weapon_lvl 1
+unit		merc illyrian			exp 4 armour 1 weapon_lvl 1
+unit		merc illyrian			exp 4 armour 1 weapon_lvl 1
+unit		thracian infantry				exp 4 armour 0 weapon_lvl 1
+unit		thracian infantry				exp 4 armour 0 weapon_lvl 1
+unit		thracian infantry				exp 4 armour 0 weapon_lvl 1
+unit		thracian infantry				exp 4 armour 0 weapon_lvl 1
+unit		thracian infantry				exp 4 armour 0 weapon_lvl 1
+unit		thracian infantry				exp 4 armour 0 weapon_lvl 1
+unit		barb archer dacian			exp 3 armour 1 weapon_lvl 1
+unit		barb archer dacian			exp 3 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry gaul			exp 2 armour 1 weapon_lvl 1
+
+;Tribus_Neuri;;;;;Vicus_Neuri
+character	sub_faction dacia, Dapyx, general, age 20, , x 149, y 185
+army
+unit		barb infantry slave			exp 4 armour 1 weapon_lvl 1
+unit		barb infantry slave			exp 4 armour 1 weapon_lvl 1
+unit		barb infantry slave			exp 4 armour 1 weapon_lvl 1
+unit		barb infantry slave			exp 4 armour 1 weapon_lvl 1
+unit		barb infantry slave			exp 4 armour 1 weapon_lvl 1
+unit		barb infantry slave			exp 4 armour 1 weapon_lvl 1
 unit		barb archer dacian			exp 3 armour 0 weapon_lvl 0
+unit		barb archer dacian			exp 3 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 1
+unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 1
+unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 1
+unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 1
+unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
+unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
+unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
+unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
+unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
+unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
+unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
 
 ;Lugdinensis
 character	sub_faction gauls, Diviciacus, general, age 20, , x 68, y 153
@@ -8982,6 +9169,30 @@ unit		east archer			exp 3 armour 0 weapon_lvl 0
 unit		east archer			exp 3 armour 0 weapon_lvl 0
 unit		east archer			exp 3 armour 0 weapon_lvl 0
 
+;Armenia_Minor;;;;;;;;Satala
+character, sub_faction armenia,	Kudurmabug,  general, age 20, , x 205, y 133
+army
+unit		east infantry		exp 3 armour 1 weapon_lvl 1
+unit		east infantry		exp 3 armour 1 weapon_lvl 1
+unit		east infantry		exp 3 armour 1 weapon_lvl 1
+unit		east infantry		exp 3 armour 1 weapon_lvl 1
+unit		east infantry		exp 3 armour 1 weapon_lvl 1
+unit		east infantry		exp 3 armour 1 weapon_lvl 1
+unit		east infantry		exp 3 armour 1 weapon_lvl 1
+unit		east infantry		exp 3 armour 1 weapon_lvl 1
+unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
+unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
+unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
+unit		east heavy cavalry			exp 3 armour 1 weapon_lvl 1
+unit		east archer			exp 3 armour 1 weapon_lvl 1
+unit		east archer			exp 3 armour 1 weapon_lvl 1
+unit		merc cilician pirate			exp 3 armour 1 weapon_lvl 1
+unit		merc cilician pirate			exp 3 armour 1 weapon_lvl 1
+unit		merc takabara			exp 3 armour 1 weapon_lvl 1
+unit		merc takabara			exp 3 armour 1 weapon_lvl 1
+unit		merc takabara			exp 3 armour 1 weapon_lvl 1
+unit		merc takabara			exp 3 armour 1 weapon_lvl 1
+
 ;Regnum_Palmyrae
 character	sub_faction parthia, Xanthos, general, age 20, , x 219, y 100
 army
@@ -8995,14 +9206,51 @@ unit		east infantry			exp 0 armour 0 weapon_lvl 0
 unit		east infantry			exp 0 armour 0 weapon_lvl 0
 unit		merc bedouin archers			exp 0 armour 0 weapon_lvl 0
 
-;Nabataea
-character	sub_faction parthia, Umamaita, general, age 20, , x 216, y 80
+;Nabataea;;;;bostra
+character	sub_faction romans_brutii, Faram, general, age 20, , x 211, y 90
 army
 unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
 unit		east infantry			exp 4 armour 1 weapon_lvl 1
+unit		east infantry			exp 4 armour 1 weapon_lvl 1
+unit		east infantry			exp 4 armour 1 weapon_lvl 1
+unit		east infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
 unit		merc bedouin archers			exp 3 armour 0 weapon_lvl 0
+unit		merc bedouin archers			exp 3 armour 0 weapon_lvl 0
+unit		merc arab cavalry		exp 4 armour 1 weapon_lvl 1
+unit		merc arab cavalry		exp 4 armour 1 weapon_lvl 1
 
-;Sinai
+;Madiane;;;;;;Hegra
+character	sub_faction romans_brutii, Faram, general, age 20, , x 219, y 62
+army
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		east archer			exp 3 armour 0 weapon_lvl 0
+unit		east infantry			exp 4 armour 1 weapon_lvl 1
+unit		east infantry			exp 4 armour 1 weapon_lvl 1
+unit		east infantry			exp 4 armour 1 weapon_lvl 1
+unit		east infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		arab infantry			exp 4 armour 1 weapon_lvl 1
+unit		merc bedouin archers			exp 3 armour 0 weapon_lvl 0
+unit		merc bedouin archers			exp 3 armour 0 weapon_lvl 0
+unit		merc arab cavalry		exp 4 armour 1 weapon_lvl 1
+unit		merc arab cavalry		exp 4 armour 1 weapon_lvl 1
+
+;Sinai;;;;;;Petra
 character	sub_faction romans_brutii, Faram, general, age 20, , x 206, y 70
 army
 unit		east archer			exp 4 armour 0 weapon_lvl 0
@@ -9022,6 +9270,32 @@ unit		barb archer dacian				exp 3 armour 0 weapon_lvl 1
 unit		barb archer dacian				exp 3 armour 0 weapon_lvl 1
 unit		barb chariot heavy slave				exp 7 armour 1 weapon_lvl 2
 unit		barb chariot heavy slave				exp 7 armour 1 weapon_lvl 2
+unit		barb naked fanatics slave		exp 3 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave		exp 3 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave		exp 3 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave		exp 3 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+
+;Tribus_Nervii
+character, sub_faction gauls,	Aneirin,  general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 75, y 180
+army
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+unit		barb cavalry gaul			exp 3 armour 0 weapon_lvl 0
+unit		barb cavalry gaul			exp 3 armour 0 weapon_lvl 0
+unit		barb archer dacian				exp 3 armour 0 weapon_lvl 1
+unit		barb archer dacian				exp 3 armour 0 weapon_lvl 1
+unit		barb naked fanatics slave		exp 3 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave		exp 3 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave		exp 3 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave		exp 3 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
+unit		warband sword gaul			exp 2 armour 0 weapon_lvl 0
 
 ;Scythia
 character	sub_faction scythia, Idanthyrsus, general, age 20, , x 165, y 160
@@ -9040,7 +9314,24 @@ unit		barb archer dacian				exp 5 armour 0 weapon_lvl 1
 character	sub_faction scythia, Sarduri, general, age 20, , x 191 y 168
 army
 unit		barb archer dacian				exp 3 armour 0 weapon_lvl 1
-unit		greek hoplite		exp 3 armour 0 weapon_lvl 0
+unit		barb archer dacian				exp 3 armour 0 weapon_lvl 1
+unit		greek peltast			exp 3 armour 0 weapon_lvl 0
+unit		greek peltast			exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 3 armour 2 weapon_lvl 2
+unit		barb horse archers slave				exp 3 armour 0 weapon_lvl 1
+unit		barb horse archers slave				exp 3 armour 0 weapon_lvl 1
+unit		barb horse archers slave				exp 3 armour 0 weapon_lvl 1
 unit		barb horse archers slave				exp 3 armour 0 weapon_lvl 1
 
 ;Colchis;;;;;Kotais
@@ -9088,15 +9379,29 @@ unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
 unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
 unit		carthaginian medium infantry				exp 3 armour 1 weapon_lvl 1
 
-;Sicilia_Romanus
+;Sicilia_Romanus;;;;;Messana
 character	sub_faction greek_cities, Pentheus, general, age 20, , x 106, y 107
 army
+unit		greek hoplite		exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite		exp 5 armour 2 weapon_lvl 2
+unit		greek medium cavalry				exp 7 armour 3 weapon_lvl 3
+unit		greek medium cavalry				exp 7 armour 3 weapon_lvl 3
+unit		greek medium cavalry				exp 7 armour 3 weapon_lvl 3
+unit		greek medium cavalry				exp 7 armour 3 weapon_lvl 3
 unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
 unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
-unit		greek hoplite militia				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 3 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite		exp 5 armour 1 weapon_lvl 1
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
+unit		greek heavy peltast			exp 3 armour 2 weapon_lvl 2
 
 ;Caledonia
 character	sub_faction gauls, Aneirin, general, age 20, , x 50, y 216
@@ -9308,17 +9613,6 @@ unit		indian archer				exp 3 armour 0 weapon_lvl 0
 
 ;Drangiana
 character	sub_faction parthia, Umamaita, general, age 20, , x 329, y 126
-army
-unit		east infantry		exp 3 armour 0 weapon_lvl 0
-unit		east horse archer merc		exp 3 armour 0 weapon_lvl 0
-unit		east horse archer merc		exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 3 armour 0 weapon_lvl 0
-
-;Bactria_Oxiana
-character	sub_faction parthia, Umamaita, general, age 20, , x 341, y 156
 army
 unit		east infantry		exp 3 armour 0 weapon_lvl 0
 unit		east horse archer merc		exp 3 armour 0 weapon_lvl 0
@@ -9782,7 +10076,7 @@ unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
 unit		barb archer dacian			exp 3 armour 0 weapon_lvl 0
 
-;Tribus_Bastarnae
+;Tribus_Bastarnae;;;;Vibantavarium
 character	sub_faction germans, Bertgarda, general, age 20, , x 148, y 168
 army
 unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 1
@@ -9791,8 +10085,15 @@ unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
 unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
 unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
 unit		merc bastarnae				exp 7 armour 0 weapon_lvl 1
+unit		barb infantry slave			exp 3 armour 2 weapon_lvl 2
+unit		barb infantry slave			exp 3 armour 2 weapon_lvl 2
+unit		barb infantry slave			exp 3 armour 2 weapon_lvl 2
+unit		barb infantry slave			exp 3 armour 2 weapon_lvl 2
+unit		barb infantry slave			exp 3 armour 2 weapon_lvl 2
+unit		barb infantry slave			exp 3 armour 2 weapon_lvl 2
 unit		barb archer dacian				exp 4 armour 0 weapon_lvl 1
 unit		barb archer dacian				exp 4 armour 0 weapon_lvl 1
+unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 1
 unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 1
 unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 1
 unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 1
@@ -9931,18 +10232,18 @@ unit		warband axe german			exp 4 armour 1 weapon_lvl 1
 unit		barb cavalry gaul				exp 4 armour 0 weapon_lvl 2
 
 ;Nurthralandan
-character	sub_faction germans, Burkhard, general, age 20, , x 91, y 226
-army
-unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
-unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
-unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
-unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
-unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
-unit		barb archer dacian				exp 4 armour 0 weapon_lvl 0
-unit		barb archer dacian				exp 4 armour 0 weapon_lvl 0
+;character	sub_faction germans, Burkhard, general, age 20, , x 91, y 226
+;army
+;unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
+;unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
+;unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
+;unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
+;unit		barb infantry slave				exp 4 armour 0 weapon_lvl 1
+;unit		barb archer dacian				exp 4 armour 0 weapon_lvl 0
+;unit		barb archer dacian				exp 4 armour 0 weapon_lvl 0
 
-;Dacia;;;;Sarmizegetusa
-character	sub_faction gauls, Morirex, general, age 20, , x 137, y 151
+;Crisia;;;;Docidava
+character	sub_faction dacia, Scyles, general, age 20, , x 130, y 160
 army
 unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
 unit		barb archer dacian			exp 3 armour 0 weapon_lvl 0
@@ -9963,6 +10264,29 @@ unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
 unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
 unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
 unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
+
+;Dacia;;;;Sarmizegetusa
+;character	sub_faction dacia, Scyles, general, age 20, , x 137, y 151
+;army
+;unit		barb infantry slave			exp 3 armour 0 weapon_lvl 0
+;unit		barb archer dacian			exp 3 armour 0 weapon_lvl 0
+;unit		barb archer dacian			exp 3 armour 0 weapon_lvl 0
+;unit		barb noble cavalry slave			exp 3 armour 0 weapon_lvl 0
+;unit		barb noble cavalry slave			exp 3 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		barb infantry slave			exp 1 armour 0 weapon_lvl 0
+;unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
+;unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
+;unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
+;unit		thracian infantry				exp 2 armour 1 weapon_lvl 1
 
 ;Locus_Careotae
 character	sub_faction germans, Adalmun, general, age 20, , x 159, y 206

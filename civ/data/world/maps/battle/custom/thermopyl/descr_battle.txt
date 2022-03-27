@@ -20,7 +20,7 @@ faction	parthia
 character	Xerxes, general, age 30, , x 140, y 114 
 
 army
-unit		east generals cavalry early				soldiers 48 exp 3 armour 0 weapon_lvl 0
+unit		east parthian cavalry				soldiers 132 exp 3 armour 0 weapon_lvl 0
 unit		immortals				soldiers 200 exp 2 armour 0 weapon_lvl 0
 unit		immortals				soldiers 200 exp 2 armour 0 weapon_lvl 0
 unit		immortals				soldiers 200 exp 2 armour 0 weapon_lvl 0
@@ -116,7 +116,7 @@ unit		east infantry				soldiers 240 exp 1 armour 1 weapon_lvl 1
 character	Sogdianus, general, age 20, , x 140, y 114 
 
 army
-unit		east generals cavalry early				soldiers 60 exp 3 armour 1 weapon_lvl 0
+unit		east parthian cavalry				soldiers 132 exp 3 armour 1 weapon_lvl 0
 unit		sugdian warriors				soldiers 240 exp 2 armour 1 weapon_lvl 0
 unit		sugdian warriors				soldiers 240 exp 2 armour 1 weapon_lvl 0
 unit		sugdian warriors				soldiers 240 exp 2 armour 1 weapon_lvl 0
@@ -142,8 +142,8 @@ character	Leonidas of_Sparta, named character, age 50, , x 140, y 114
 
 army
 unit		greek hoplite strategos				soldiers 82 exp 5 armour 2 weapon_lvl 0
-unit		greek hoplite spartan heavy				soldiers 180 exp 5 armour 2 weapon_lvl 0
-unit		greek hoplite spartan heavy				soldiers 180 exp 5 armour 2 weapon_lvl 0
+unit		greek hoplite spartan heavy				soldiers 180 exp 5 armour 2 weapon_lvl 1
+unit		greek hoplite spartan heavy				soldiers 180 exp 5 armour 2 weapon_lvl 1
 unit		greek hoplite				soldiers 240 exp 4 armour 3 weapon_lvl 2
 unit		greek hoplite				soldiers 240 exp 4 armour 3 weapon_lvl 2
 unit		greek hoplite				soldiers 240 exp 4 armour 3 weapon_lvl 2

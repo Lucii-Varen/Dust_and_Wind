@@ -8308,151 +8308,151 @@ monitor_event SettlementTurnStart SettlementName Campus_Aorsi
     and not SettlementIsLocal
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile pontus general, 2 277,198
+	if I_CharacterTypeNearTile pontus general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile pontus family, 2 277,198
+	if I_CharacterTypeNearTile pontus family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile pontus family, 2 277,198
-	and not I_CharacterTypeNearTile pontus general, 2 277,198
+	and not I_CharacterTypeNearTile pontus family, 2 242,200
+	and not I_CharacterTypeNearTile pontus general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile macedon general, 2 277,198
+	if I_CharacterTypeNearTile macedon general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile macedon family, 2 277,198
+	if I_CharacterTypeNearTile macedon family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile macedon family, 2 277,198
-	and not I_CharacterTypeNearTile macedon general, 2 277,198
+	and not I_CharacterTypeNearTile macedon family, 2 242,200
+	and not I_CharacterTypeNearTile macedon general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile parthia general, 2 277,198
+	if I_CharacterTypeNearTile parthia general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile parthia family, 2 277,198
+	if I_CharacterTypeNearTile parthia family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile parthia family, 2 277,198
-	and not I_CharacterTypeNearTile parthia general, 2 277,198
+	and not I_CharacterTypeNearTile parthia family, 2 242,200
+	and not I_CharacterTypeNearTile parthia general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile spain general, 2 277,198
+	if I_CharacterTypeNearTile spain general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile spain family, 2 277,198
+	if I_CharacterTypeNearTile spain family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile spain family, 2 277,198
-	and not I_CharacterTypeNearTile spain general, 2 277,198
+	and not I_CharacterTypeNearTile spain family, 2 242,200
+	and not I_CharacterTypeNearTile spain general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile thrace general, 2 277,198
+	if I_CharacterTypeNearTile thrace general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile thrace family, 2 277,198
+	if I_CharacterTypeNearTile thrace family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile thrace family, 2 277,198
-	and not I_CharacterTypeNearTile thrace general, 2 277,198
+	and not I_CharacterTypeNearTile thrace family, 2 242,200
+	and not I_CharacterTypeNearTile thrace general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile armenia general, 2 277,198
+	if I_CharacterTypeNearTile armenia general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile armenia family, 2 277,198
+	if I_CharacterTypeNearTile armenia family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile armenia family, 2 277,198
-	and not I_CharacterTypeNearTile armenia general, 2 277,198
+	and not I_CharacterTypeNearTile armenia family, 2 242,200
+	and not I_CharacterTypeNearTile armenia general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile romans_scipii general, 2 277,198
+	if I_CharacterTypeNearTile romans_scipii general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_scipii family, 2 277,198
+	if I_CharacterTypeNearTile romans_scipii family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile romans_scipii family, 2 277,198
-	and not I_CharacterTypeNearTile romans_scipii general, 2 277,198
+	and not I_CharacterTypeNearTile romans_scipii family, 2 242,200
+	and not I_CharacterTypeNearTile romans_scipii general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile romans_julii general, 2 277,198
+	if I_CharacterTypeNearTile romans_julii general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_julii family, 2 277,198
+	if I_CharacterTypeNearTile romans_julii family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile romans_julii family, 2 277,198
-	and not I_CharacterTypeNearTile romans_julii general, 2 277,198
+	and not I_CharacterTypeNearTile romans_julii family, 2 242,200
+	and not I_CharacterTypeNearTile romans_julii general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile britons general, 2 277,198
+	if I_CharacterTypeNearTile britons general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile britons family, 2 277,198
+	if I_CharacterTypeNearTile britons family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile britons family, 2 277,198
-	and not I_CharacterTypeNearTile britons general, 2 277,198
+	and not I_CharacterTypeNearTile britons family, 2 242,200
+	and not I_CharacterTypeNearTile britons general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Aorsi_undersiege = 0
 	and I_SettlementOwner Campus_Aorsi = scythia
-	if I_CharacterTypeNearTile seleucid general, 2 277,198
+	if I_CharacterTypeNearTile seleucid general, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile seleucid family, 2 277,198
+	if I_CharacterTypeNearTile seleucid family, 2 242,200
 		set_counter Campus_Aorsi_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Aorsi_undersiege = 2
-	and not I_CharacterTypeNearTile seleucid family, 2 277,198
-	and not I_CharacterTypeNearTile seleucid general, 2 277,198
+	and not I_CharacterTypeNearTile seleucid family, 2 242,200
+	and not I_CharacterTypeNearTile seleucid general, 2 242,200
 	set_counter Campus_Aorsi_undersiege 0
 end_if
 end_monitor
@@ -8510,91 +8510,91 @@ monitor_event SettlementTurnStart SettlementName Campus_Massagetae
     and not SettlementIsLocal
 if I_CompareCounter Campus_Massagetae_undersiege = 0
 	and I_SettlementOwner Campus_Massagetae = scythia
-	if I_CharacterTypeNearTile pontus general, 2 277,198
+	if I_CharacterTypeNearTile pontus general, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile pontus family, 2 277,198
+	if I_CharacterTypeNearTile pontus family, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Massagetae_undersiege = 2
-	and not I_CharacterTypeNearTile pontus family, 2 277,198
-	and not I_CharacterTypeNearTile pontus general, 2 277,198
+	and not I_CharacterTypeNearTile pontus family, 2 277,158
+	and not I_CharacterTypeNearTile pontus general, 2 277,158
 	set_counter Campus_Massagetae_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Massagetae_undersiege = 0
 	and I_SettlementOwner Campus_Massagetae = scythia
-	if I_CharacterTypeNearTile parthia general, 2 277,198
+	if I_CharacterTypeNearTile parthia general, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile parthia family, 2 277,198
+	if I_CharacterTypeNearTile parthia family, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Massagetae_undersiege = 2
-	and not I_CharacterTypeNearTile parthia family, 2 277,198
-	and not I_CharacterTypeNearTile parthia general, 2 277,198
+	and not I_CharacterTypeNearTile parthia family, 2 277,158
+	and not I_CharacterTypeNearTile parthia general, 2 277,158
 	set_counter Campus_Massagetae_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Massagetae_undersiege = 0
 	and I_SettlementOwner Campus_Massagetae = scythia
-	if I_CharacterTypeNearTile armenia general, 2 277,198
+	if I_CharacterTypeNearTile armenia general, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile armenia family, 2 277,198
+	if I_CharacterTypeNearTile armenia family, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Massagetae_undersiege = 2
-	and not I_CharacterTypeNearTile armenia family, 2 277,198
-	and not I_CharacterTypeNearTile armenia general, 2 277,198
+	and not I_CharacterTypeNearTile armenia family, 2 277,158
+	and not I_CharacterTypeNearTile armenia general, 2 277,158
 	set_counter Campus_Massagetae_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Massagetae_undersiege = 0
 	and I_SettlementOwner Campus_Massagetae = scythia
-	if I_CharacterTypeNearTile romans_scipii general, 2 277,198
+	if I_CharacterTypeNearTile romans_scipii general, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_scipii family, 2 277,198
+	if I_CharacterTypeNearTile romans_scipii family, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Massagetae_undersiege = 2
-	and not I_CharacterTypeNearTile romans_scipii family, 2 277,198
-	and not I_CharacterTypeNearTile romans_scipii general, 2 277,198
+	and not I_CharacterTypeNearTile romans_scipii family, 2 277,158
+	and not I_CharacterTypeNearTile romans_scipii general, 2 277,158
 	set_counter Campus_Massagetae_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Massagetae_undersiege = 0
 	and I_SettlementOwner Campus_Massagetae = scythia
-	if I_CharacterTypeNearTile romans_julii general, 2 277,198
+	if I_CharacterTypeNearTile romans_julii general, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile romans_julii family, 2 277,198
+	if I_CharacterTypeNearTile romans_julii family, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Massagetae_undersiege = 2
-	and not I_CharacterTypeNearTile romans_julii family, 2 277,198
-	and not I_CharacterTypeNearTile romans_julii general, 2 277,198
+	and not I_CharacterTypeNearTile romans_julii family, 2 277,158
+	and not I_CharacterTypeNearTile romans_julii general, 2 277,158
 	set_counter Campus_Massagetae_undersiege 0
 end_if
 
 if I_CompareCounter Campus_Massagetae_undersiege = 0
 	and I_SettlementOwner Campus_Massagetae = scythia
-	if I_CharacterTypeNearTile britons general, 2 277,198
+	if I_CharacterTypeNearTile britons general, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
-	if I_CharacterTypeNearTile britons family, 2 277,198
+	if I_CharacterTypeNearTile britons family, 2 277,158
 		set_counter Campus_Massagetae_undersiege 1
 	end_if
 end_if
 if I_CompareCounter Campus_Massagetae_undersiege = 2
-	and not I_CharacterTypeNearTile britons family, 2 277,198
-	and not I_CharacterTypeNearTile britons general, 2 277,198
+	and not I_CharacterTypeNearTile britons family, 2 277,158
+	and not I_CharacterTypeNearTile britons general, 2 277,158
 	set_counter Campus_Massagetae_undersiege 0
 end_if
 end_monitor
@@ -8620,7 +8620,7 @@ and I_CompareCounter Campus_Massagetae_undersiege = 1
         console_command kill_character "Scylurus"
             spawn_army
 	faction scythia
-			character Scylurus, general, age 30, x 275, y 199
+			character Scylurus, general, age 30, x 275, y 160
 			unit barb scythian general scythian, exp 7 armour 3 weapon_lvl 3
 			unit scythian skirmisher, exp 4 armour 3 weapon_lvl 3
 			unit barb archer scythian, exp 4 armour 3 weapon_lvl 3

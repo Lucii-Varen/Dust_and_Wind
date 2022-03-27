@@ -84,7 +84,7 @@ slot_48x32_religious,	-32.00,	-24.00,	180.00,	0.50
 slot_48x32_market,	56.00,	-24.00,	180,	0.50
 slot_48x32_barracks,	-72.00,	32.00,	-90.00,	0.50
 slot_48x32_core_building,	114.00,	52.00,	-90.00,	0.50
-slot_plaza_roman_32x32m,	-24.00,	24.00,	0.00,	0.50
+;slot_plaza_roman_32x32m,	-24.00,	24.00,	0.00,	0.50
 
 
 ; AMBIENT

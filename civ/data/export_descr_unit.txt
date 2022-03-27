@@ -125,7 +125,7 @@ stat_heat        4
 stat_ground      2, -2, 3, 2
 stat_mental      14, impetuous, untrained
 stat_charge_dist 80
-stat_fire_delay  40000
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1500, 700, 50, 70, 450
 ownership        gauls, germans, spain
@@ -149,7 +149,7 @@ stat_heat        4
 stat_ground      4, -2, 3, 2
 stat_mental      20, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1360, 60, 90, 960
 ownership        carthage, germans, scythia, dacia, eastern, egypt, greek
@@ -161,10 +161,10 @@ class            missile
 voice_type       Light_1
 soldier          Galatian_peltast, 50, 0, 1, 0.3
 mount_effect     elephant +6, chariot +6
-attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, warcry
-formation        1.2, 2, 3.2, 4, 7, square
+attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy, warcry
+formation        1.2, 2, 2, 3, 7, square
 stat_health      1, 1
-stat_pri         10, 5, javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
+stat_pri         11, 5, javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         8, 4, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
@@ -174,7 +174,7 @@ stat_heat        1
 stat_ground      1, 1, 0, -1
 stat_mental      12, impetuous, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 2100, 880, 20, 30, 480
 ownership        barbarian, eastern, greek, carthage, egypt
@@ -198,7 +198,7 @@ stat_heat        1
 stat_ground      2, 1, -1, -1
 stat_mental      19, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1400, 60, 90, 780
 ownership        barbarian, eastern, greek, carthage, egypt, slave
@@ -251,7 +251,7 @@ stat_heat        2
 stat_ground      2, -2, 3, 2
 stat_mental      10, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1000, 500, 30, 40, 220
 ownership        gauls, spain
@@ -300,7 +300,7 @@ stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      14, impetuous, untrained
 stat_charge_dist 70
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1400, 700, 50, 70, 460
 ownership        gauls, spain, slave
@@ -318,7 +318,7 @@ stat_pri         11, 4, heavy_javelin, 39, 2, thrown, simple, piercing, spear, 2
 stat_pri_attr    prec, thrown
 stat_sec         13, 5, no, 0, 0, melee, simple, slashing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  1, 4, 4, flesh
+stat_pri_armour  1, 5, 5, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      2, -2, 3, 2
@@ -376,7 +376,7 @@ stat_heat        5
 stat_ground      2, -2, 3, 2
 stat_mental      19, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  30000
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2500, 1150, 70, 110, 680
 ownership        gauls, spain
@@ -395,13 +395,13 @@ stat_pri         13, 4, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  7, 5, 2, metal
+stat_pri_armour  4, 5, 5, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      2, -2, 3, 2
 stat_mental      19, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2200, 950, 50, 80, 480
 ownership        gauls, spain
@@ -528,7 +528,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      10, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1100, 550, 40, 60, 400
 ownership        gauls, spain, germans, dacia, slave
@@ -554,7 +554,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      15, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1900, 750, 40, 60, 600
 ownership        gauls, spain
@@ -580,7 +580,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      20, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2400, 900, 60, 90, 600
 ownership        gauls, spain
@@ -606,7 +606,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      22, impetuous, trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1250, 100, 150, 940
 ownership        gauls
@@ -632,7 +632,7 @@ stat_heat        4
 stat_ground      0, -2, 0, 2
 stat_mental      19, impetuous, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 810, 0, 90, 130, 810
 ownership        gauls, spain
@@ -658,7 +658,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      20, impetuous, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 940, 0, 100, 150, 940
 ownership        gauls
@@ -711,7 +711,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      22, impetuous, trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1250, 100, 150, 940
 ownership        spain
@@ -737,7 +737,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      20, impetuous, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 940, 0, 100, 150, 940
 ownership        spain
@@ -764,7 +764,7 @@ stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      10, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1000, 500, 30, 40, 220
 ownership        germans, slave
@@ -863,7 +863,7 @@ stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      14, impetuous, untrained
 stat_charge_dist 70
-stat_fire_delay  30000
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1400, 720, 50, 70, 450
 ownership        germans, romans_scipii, slave
@@ -912,25 +912,25 @@ stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      17, impetuous, untrained
 stat_charge_dist 80
-stat_fire_delay  30000
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2320, 1000, 60, 90, 580
 ownership        germans
- 
+
 type             barb night raiders german
 dictionary       night_raiders_german      ; Night Raiders
 category         infantry
 class            heavy
 voice_type       Medium_1
 soldier          barb_night_raider, 60, 0, 1.2, 0.3
-attributes       sea_faring, hide_forest, hide_long_grass, frighten_foot, can_swim, hardy, warcry
+attributes       sea_faring, hide_forest, hide_long_grass, frighten_foot, can_swim, very_hardy, warcry
 formation        1.2, 1.2, 2.4, 2.4, 10, square
 stat_health      1, 1
 stat_pri         9, 4, francisca, 39, 2, thrown, blade, piercing, axe, 25 ,1
 stat_pri_attr    prec, launching, thrown ap
 stat_sec         13, 6, no, 0, 0, melee, blade, piercing, axe, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  3, 3, 5, leather
+stat_pri_armour  3, 4, 5, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      2, -2, 3, 2
@@ -940,7 +940,7 @@ stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 2660, 1100, 60, 90, 640
 ownership        germans
- 
+
 type             barb berserker german
 dictionary       barb_berserker_german      ; Berserkers
 category         infantry
@@ -986,7 +986,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      15, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1900, 750, 40, 60, 600
 ownership        germans
@@ -1012,7 +1012,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      19, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2400, 800, 60, 90, 600
 ownership        germans
@@ -1038,7 +1038,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      19, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 940, 0, 100, 150, 940
 ownership        germans
@@ -1163,7 +1163,7 @@ stat_heat        2
 stat_ground      2, -2, 3, 2
 stat_mental      14, impetuous, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1100, 600, 30, 40, 350
 ownership        dacia
@@ -1206,13 +1206,13 @@ stat_pri         7, 4, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    light_spear, spear_bonus_4
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  4, 2, 7, leather
+stat_pri_armour  2, 4, 7, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      11, impetuous, untrained
 stat_charge_dist 80
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1400, 600, 50, 70, 420
 ownership        dacia
@@ -1262,11 +1262,36 @@ stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      19, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 800, 50, 80, 500
 ownership        dacia, thrace, slave
- 
+
+type             heavy falxmen
+dictionary       heavy_falxmen      ; heavy falxmen
+category         infantry
+class            heavy
+voice_type       Heavy_1
+soldier          heavy_falxmen, 50, 0, 1.3, 0.3
+officer          dacian_standard_dragon
+attributes       sea_faring, hide_improved_forest, can_swim, very_hardy, warcry
+formation        1.2, 1.2, 2.4, 2.4, 9, square
+stat_health      1, 1
+stat_pri         13, 10, no, 0, 0, melee, blade, slashing, axe, 24 ,1
+stat_pri_attr    ap
+stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
+stat_sec_attr    no
+stat_pri_armour  8, 7, 4, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      2, -2, 3, 2
+stat_mental      19, impetuous, untrained
+stat_charge_dist 50
+stat_fire_delay  50000
+stat_food        60, 300
+stat_cost        1, 3700, 1300, 60, 90, 960
+ownership        dacia
+
 type             barb warguard dacian
 dictionary       barb_warguard_dacian      ; Chosen Swordsmen
 category         infantry
@@ -1276,7 +1301,7 @@ soldier          barb_warguard_dacian, 55, 0, 1.3, 0.3
 officer          dacian_standard_dragon
 attributes       sea_faring, hide_improved_forest, very_hardy, warcry
 formation        1.2, 1.2, 2.4, 2.4, 10, square
-stat_health      1, 0
+stat_health      1, 1
 stat_pri         11, 4, heavy_javelin, 40, 2, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         13, 4, no, 0, 0, melee, blade, piercing, sword, 24 ,1
@@ -1285,9 +1310,9 @@ stat_pri_armour  8, 5, 5, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      2, -2, 3, 2
-stat_mental      19, impetuous, untrained
+stat_mental      19, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  30000
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2500, 1150, 70, 110, 680
 ownership        dacia
@@ -1300,20 +1325,20 @@ voice_type       Heavy_1
 soldier          dacian_heavy_spearmen, 55, 0, 1.3, 0.3
 officer          dacian_standard_dragon
 mount_effect     horse -1, camel -1
-attributes       sea_faring, hide_forest, can_sap, can_swim, very_hardy;, warcry
+attributes       sea_faring, hide_forest, can_sap, can_swim, very_hardy, warcry
 formation        0.92, 1.3, 2.4, 2.4, 8, square, shield_wall
 stat_health      1, 1
 stat_pri         10, 5, no, 0, 0, melee, blade, piercing, spear, 24 ,1.4
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 4, 5, metal
+stat_pri_armour  9, 6, 6, metal 
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      2, -2, 3, 2
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2600, 1000, 50, 80, 500
 ownership        dacia
@@ -1332,11 +1357,11 @@ stat_pri         12, 4, heavy_javelin, 40, 2, thrown, blade, piercing, spear, 24
 stat_pri_attr    prec, thrown ap
 stat_sec         14, 9, no, 0, 0, melee, blade, slashing, axe, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  8, 7, 6, metal
+stat_pri_armour  9, 7, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      1, -2, 3, 2
-stat_mental      21, impetuous, untrained
+stat_mental      21, disciplined, trained
 stat_charge_dist 50
 stat_fire_delay  40000
 stat_food        60, 300
@@ -1354,17 +1379,17 @@ mount_effect     camel -4
 attributes       sea_faring, hide_forest, very_hardy, cantabrian_circle
 formation        2, 4, 4, 6, 4, square
 stat_health      1, 1
-stat_pri         7, 1, javelin, 50, 6, thrown, archery, piercing, spear, 24 ,1
+stat_pri         8, 2, javelin, 50, 6, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         6, 4, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  1, 2, 4, flesh
-stat_sec_armour  4, 1, flesh
+stat_sec_armour  0, 2, flesh
 stat_heat        2
 stat_ground      1, 0, 0, 0
 stat_mental      10, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1100, 450, 40, 60, 340
 ownership        dacia
@@ -1390,7 +1415,7 @@ stat_heat        2
 stat_ground      1, -2, 0, 2
 stat_mental      20, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2400, 900, 40, 60, 600
 ownership        dacia
@@ -1416,7 +1441,7 @@ stat_heat        3
 stat_ground      2, 0, 0, 2
 stat_mental      19, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1200, 50, 80, 920
 ownership        dacia
@@ -1426,11 +1451,11 @@ dictionary       barb_horse_archers_dacian      ; Dacian Horse Archers
 category         cavalry
 class            missile
 voice_type       Medium_1
-soldier          barb_horse_archer_dacian, 35, 0, 1
+soldier          barb_horse_archer_dacian, 36, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, hardy, cantabrian_circle
-formation        2.5, 4, 6, 6, 7, square
+formation        1.5, 3, 3, 5, 4, square
 stat_health      1, 1
 stat_pri         8, 2, arrow, 120, 40, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
@@ -1453,7 +1478,7 @@ category         cavalry
 class            heavy
 voice_type       General_1
 soldier          barb_heavy_cavalry, 15, 0, 1
-mount            generals horse
+mount            horse half_armoured
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, general_unit, hide_forest, hardy
 formation        1.5, 4, 3, 6, 3, square
@@ -1462,13 +1487,13 @@ stat_pri         12, 7, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         11, 0, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  3, 6, 4, leather
-stat_sec_armour  2, 1, flesh
+stat_pri_armour  5, 6, 4, leather
+stat_sec_armour  7, 1, flesh
 stat_heat        2
 stat_ground      1, -2, 0, 2
 stat_mental      19, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 810, 0, 90, 130, 810
 ownership        dacia
@@ -1494,7 +1519,7 @@ stat_heat        2
 stat_ground      0, -2, 0, 2
 stat_mental      19, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 940, 0, 100, 150, 940
 ownership        dacia
@@ -1521,7 +1546,7 @@ stat_heat        2
 stat_ground      2, -1, 3, 2
 stat_mental      10, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1000, 550, 30, 40, 220
 ownership        scythia
@@ -1555,7 +1580,7 @@ dictionary       barb_noble_horse_archers_scythian2      ; Scythian foot Noble A
 category         infantry
 class            missile
 voice_type       Medium_1
-soldier          barb_scythian_noble_cavalry2, 45, 0, 1, 0.3
+soldier          barb_scythian_noble_cavalry2, 50, 0, 1, 0.3
 ;soldier          barb_scythian_noble_cavalry2, 45, 0, 20, 0.3
 attributes       sea_faring, hide_forest, very_hardy
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -1604,7 +1629,7 @@ stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      11, impetuous, untrained
 stat_charge_dist 80
-stat_fire_delay  6000
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1300, 600, 50, 70, 420
 ownership        scythia
@@ -1630,7 +1655,7 @@ stat_heat        -1
 stat_ground      5, 5, 5, 5
 stat_mental      50, berserker, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        6, 12000, 4500, 70, 80, 4000
 ownership        scythia
@@ -1655,7 +1680,7 @@ stat_ground      5, 5, 5, 5
 stat_mental      60, berserker, trained
 ;stat_mental      60, impetuous, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        3, 8000, 2000, 70, 80, 4000
 ownership        scythia
@@ -1680,7 +1705,7 @@ stat_heat        2
 stat_ground      2, -1, 3, 2
 stat_mental      14, impetuous, untrained
 stat_charge_dist 70
-stat_fire_delay  30000
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2050, 840, 50, 70, 450
 ownership        scythia
@@ -1705,7 +1730,7 @@ stat_heat        2
 stat_ground      2, -2, 3, 2
 stat_mental      20, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  30000
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2550, 1090, 50, 90, 780
 ownership        scythia
@@ -1731,7 +1756,7 @@ stat_heat        2
 stat_ground      0, -1, 0, 2
 stat_mental      10, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 540, 40, 60, 400
 ownership        scythia
@@ -1741,7 +1766,7 @@ dictionary       barb_horse_archers_scythian      ; Scythian Horse Archers
 category         cavalry
 class            missile
 voice_type       Medium_1
-soldier          barb_horse_archer, 37, 0, 1
+soldier          barb_horse_archer, 38, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, hardy, cantabrian_circle
@@ -1809,7 +1834,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 2
 stat_mental      17, impetuous, untrained
 stat_charge_dist 70
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2000, 750, 60, 90, 600
 ownership        scythia
@@ -1835,7 +1860,7 @@ stat_heat        4
 stat_ground      0, -2, 0, 2
 stat_mental      16, impetuous, untrained
 stat_charge_dist 60
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 800, 50, 70, 400
 ownership        barbarian, greek, eastern, roman, carthage, egypt
@@ -1861,7 +1886,7 @@ stat_heat        4
 stat_ground      0, -2, 0, 2
 stat_mental      22, impetuous, trained
 stat_charge_dist 60
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2800, 1000, 80, 110, 930
 ownership        barbarian, greek, eastern, roman, carthage, egypt
@@ -1887,7 +1912,7 @@ stat_heat        3
 stat_ground      0, 0, 0, -1
 stat_mental      20, normal, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3500, 1240, 100, 150, 1240
 ownership        scythia
@@ -1897,15 +1922,15 @@ dictionary       scythian_noble_women_scythian      ; Scythian Noble Women
 category         cavalry
 class            missile
 voice_type       Female_1
-soldier          barb_scythian_noblewoman, 40, 0, 1
+soldier          barb_scythian_noblewoman, 35, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, cantabrian_circle, hardy
-formation        1.5, 2.5, 4, 6, 4, square
+formation        1.5, 3, 3, 5, 4, square
 stat_health      1, 1
-stat_pri         9, 4, arrow, 130, 30, missile, archery, piercing, none, 24 ,1
+stat_pri         10, 4, arrow, 130, 35, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
-stat_sec         7, 5, no, 0, 0, melee, simple, piercing, knife, 24 ,1
+stat_sec         7, 5, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  8, 5, 4, metal
 stat_sec_armour  10, 2, flesh
@@ -1913,7 +1938,7 @@ stat_heat        2
 stat_ground      0, -2, 0, 1
 stat_mental      17, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 1400, 800, 70, 100, 660
 ownership        scythia
@@ -1939,7 +1964,7 @@ stat_heat        2
 stat_ground      0, -2, 0, 1
 stat_mental      20, impetuous, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 980, 0, 100, 150, 980
 ownership        scythia 
@@ -1964,7 +1989,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      11, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1440, 1200, 30, 40, 220
 ownership        barbarian
@@ -1991,7 +2016,7 @@ stat_heat        -1
 stat_ground      2, 1, 0, -2
 stat_mental      9, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1000, 500, 20, 30, 180
 ownership        carthage, slave
@@ -2004,8 +2029,8 @@ voice_type       Light_1
 soldier          carthaginian_slinger, 50, 0, 0.8, 0.3
 attributes       sea_faring, hide_forest, can_sap
 formation        1.4, 2, 3, 4, 3, square
-stat_health      1, 0
-stat_pri         9, 5, stone, 120, 40, missile, archery, blunt, none, 24 ,1
+stat_health      1, 1
+stat_pri         9, 5, stone, 140, 40, missile, archery, blunt, none, 24 ,1
 stat_pri_attr    no
 stat_sec         3, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -2028,7 +2053,7 @@ voice_type       Heavy_1
 soldier          carthaginian_archer, 50, 0, 1, 0.3
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1.4, 1.5, 2, 3, 5, square
-stat_health      1, 0
+stat_health      1, 1
 stat_pri         9, 3, arrow, 140, 30, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
 stat_sec         3, 2, no, 0, 0, melee, simple, piercing, knife, 24 ,1
@@ -2052,7 +2077,7 @@ voice_type       Light_1
 soldier          carthage_town_militia, 55, 0, 1, 0.3
 attributes       sea_faring, hide_forest, can_sap
 formation        1, 1, 2, 2, 6, square
-stat_health      1, 0
+stat_health      1, 1
 stat_pri         4, 1, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
@@ -2063,7 +2088,7 @@ stat_heat        0
 stat_ground      2, 1, 0, -2
 stat_mental      9, normal, trained
 stat_charge_dist 120
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 900, 500, 20, 30, 150
 ownership        carthage, slave 
@@ -2076,7 +2101,7 @@ voice_type       Light_1
 soldier          carthaginian_infantry, 60, 0, 1, 0.3
 attributes       sea_faring, hide_forest, can_sap, warcry, hardy
 formation        1, 1, 2, 2, 10, square
-stat_health      1, 0
+stat_health      1, 1
 stat_pri         7, 3, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
@@ -2087,7 +2112,7 @@ stat_heat        0
 stat_ground      2, 1, 0, -1
 stat_mental      14, normal, trained
 stat_charge_dist 100
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 600, 30, 40, 240
 ownership        carthage, roman_rebels, romans_scipii, slave 
@@ -2113,7 +2138,7 @@ stat_heat        1
 stat_ground      1, 1, -1, -1
 stat_mental      14, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 920, 40, 60, 500
 ownership        carthage, roman, barbarian, greek, eastern, egypt, slave 
@@ -2139,7 +2164,7 @@ stat_heat        0
 stat_ground      2, 1, -2, -2
 stat_mental      12, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 800, 40, 110, 750
 ownership        carthage 
@@ -2165,7 +2190,7 @@ stat_heat        1
 stat_ground      1, 2, -2, -2
 stat_mental      14, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2080, 750, 40, 60, 500
 ownership        carthage, greek, barbarian, eastern, egypt, roman_rebels, romans_scipii
@@ -2178,8 +2203,8 @@ voice_type       Medium_1
 soldier          LIBYAN_SPEARMAN_LATE, 60, 0, 1.2, 0.3
 officer          carthage_officer
 officer          new_carthaginian_standard
-attributes       sea_faring, hide_forest, can_sap, hardy
-formation        0.91, 1.3, 2, 2, 9, square
+attributes       sea_faring, hide_forest, can_sap, very_hardy
+formation        0.91, 1.3, 2, 2, 9, square, shield_wall
 stat_health      1, 1
 stat_pri         8, 3, no, 0, 0, melee, simple, piercing, spear, 24 ,1.3
 stat_pri_attr    light_spear
@@ -2192,7 +2217,7 @@ stat_heat        1
 stat_ground      1, 2, -2, -1
 stat_mental      14, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2200, 1000, 40, 60, 500
 ownership        carthage, roman_rebels, romans_scipii 
@@ -2207,7 +2232,7 @@ officer          carthage_officer
 officer          new_carthaginian_standard
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1, 1.4, 2, 2, 7, square
-stat_health      1, 0
+stat_health      1, 1
 stat_pri         12, 3, heavy_javelin, 39, 2, thrown, blade, piercing, spear, 10 ,1
 stat_pri_attr    prec, thrown
 stat_sec         9, 4, no, 0, 0, melee, blade, piercing, sword, 24 ,1
@@ -2218,7 +2243,7 @@ stat_heat        1
 stat_ground      2, 2, -2, -2
 stat_mental      15, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2480, 1100, 70, 120, 740
 ownership        carthage
@@ -2242,7 +2267,7 @@ stat_heat        2
 stat_ground      2, 1, 0, -1
 stat_mental      16, impetuous, trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1130, 50, 70, 580
 ownership        barbarian, carthage, eastern, egypt, greek, roman_rebels, romans_scipii, slave
@@ -2266,7 +2291,7 @@ stat_heat        -1
 stat_ground      2, 2, -2, -3
 stat_mental      13, normal, untrained
 stat_charge_dist 100
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 450, 40, 60, 390
 ownership        carthage, slave
@@ -2280,7 +2305,7 @@ soldier          numidian_legionary, 60, 0, 1.3, 0.3
 officer          new_carthaginian_standard
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        0.92, 1.7, 2, 3, 10, square
-stat_health      1, 0
+stat_health      1, 1
 stat_pri         12, 3, heavy_javelin, 40, 2, thrown, simple, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown
 stat_sec         8, 2, no, 0, 0, melee, simple, piercing, sword, 24 ,1
@@ -2291,7 +2316,7 @@ stat_heat        1
 stat_ground      1, 2, -1, -2
 stat_mental      13, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2100, 950, 50, 80, 500
 ownership        carthage, romans_scipii, slave
@@ -2317,7 +2342,7 @@ stat_heat        1
 stat_ground      1, 2, 0, -1
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2400, 1200, 50, 80, 600
 ownership        carthage
@@ -2343,7 +2368,7 @@ stat_heat        1
 stat_ground      1, 2, -1, -2
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3700, 1450, 80, 110, 910
 ownership        carthage
@@ -2369,7 +2394,7 @@ stat_heat        0
 stat_ground      0, 1, 0, -2
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2400, 950, 80, 120, 700
 ownership        carthage, egypt, eastern, greek, barbarian 
@@ -2396,7 +2421,7 @@ stat_heat        0
 stat_ground      0, 1, 0, -2
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3300, 1200, 80, 120, 780
 ownership        carthage
@@ -2422,7 +2447,7 @@ stat_heat        -1
 stat_ground      0, 2, 0, -3
 stat_mental      12, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1100, 470, 50, 70, 420
 ownership        carthage, egypt, roman, barbarian, greek, eastern, slave
@@ -2448,7 +2473,7 @@ stat_heat        -1
 stat_ground      0, 2, 0, -2
 stat_mental      11, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1400, 130, 200, 1400
 ownership        carthage
@@ -2474,7 +2499,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      13, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 5700, 1800, 260, 380, 2600
 ownership        carthage
@@ -2500,7 +2525,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      14, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 7500, 2200, 280, 420, 2800
 ownership        carthage
@@ -2526,7 +2551,7 @@ stat_heat        -1
 stat_ground      1, 2, 0, -2
 stat_mental      11, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1000, 440, 40, 50, 430
 ownership        carthage, slave
@@ -2552,7 +2577,7 @@ stat_heat        -1
 stat_ground      1, 1, 0, -2
 stat_mental      14, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1800, 700, 60, 80, 510
 ownership        carthage, eastern, greek_cities, numidia, romans_scipii, slave
@@ -2578,7 +2603,7 @@ stat_heat        -1
 stat_ground      1, 2, 0, -2
 stat_mental      6, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 790, 0, 80, 120, 790
 ownership        slave
@@ -2605,7 +2630,7 @@ stat_heat        0
 stat_ground      0, 1, 0, -2
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1040, 0, 110, 160, 1040
 ownership        carthage
@@ -2630,38 +2655,12 @@ stat_heat        0
 stat_ground      0, 0, 0, -2
 stat_mental      21, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1450, 120, 180, 750
 ownership        carthage, slave
 
 ;;;;;easterns;;;;;pontus;;;
-
-type             east generals cavalry early
-dictionary       east_generals_cavalry_early      ; Eastern General
-category         cavalry
-class            heavy
-voice_type       Heavy_1
-soldier          east_heavy_cavalry, 15, 0, 1
-mount            horse half_armoured
-mount_effect     elephant -8, camel -4
-attributes       sea_faring, general_unit, hide_forest, hardy
-formation        1.5, 4, 3, 6, 3, square
-stat_health      2, 1
-stat_pri         12, 3, javelin, 50, 6, thrown, archery, piercing, spear, 25 ,1
-stat_pri_attr    thrown
-stat_sec         12, 5, no, 0, 0, melee, simple, piercing, sword, 25 ,1
-stat_sec_attr    no
-stat_pri_armour  6, 5, 4, metal
-stat_sec_armour  3, 2, flesh
-stat_heat        -1
-stat_ground      0, 1, 0, -2
-stat_mental      18, normal, highly_trained
-stat_charge_dist 40
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        0, 960, 0, 100, 150, 960
-ownership        armenia
 
 type             east militia
 dictionary       east_militia      ; Militia
@@ -2674,7 +2673,7 @@ attributes       sea_faring, hide_forest, can_swim, can_sap
 formation        1, 1.4, 2, 2, 11, square
 stat_health      1, 1
 stat_pri         4, 4, no, 0, 0, melee, simple, piercing, spear, 24 ,1
-stat_pri_attr    spear, spear_bonus_8
+stat_pri_attr    spear, spear_bonus_4
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  1, 4, 3, leather
@@ -2683,7 +2682,7 @@ stat_heat        0
 stat_ground      1, 1, -1, -2
 stat_mental      9, low, untrained
 stat_charge_dist 60
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 900, 500, 20, 30, 150
 ownership        parthia, armenia, pontus
@@ -2707,9 +2706,9 @@ stat_pri_armour  6, 4, 5, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        1
 stat_ground      2, 1, 0, -1
-stat_mental      11, low, trained
+stat_mental      11, normal, trained
 stat_charge_dist 60
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 600, 40, 50, 530
 ownership        parthia, armenia, pontus, greek, barbarian, carthage, egypt, slave 
@@ -2735,7 +2734,7 @@ stat_heat        0
 stat_ground      2, 1, -1, -1
 stat_mental      12, impetuous, untrained
 stat_charge_dist 70
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 500, 30, 50, 290
 ownership        parthia, armenia, pontus, roman_rebels, slave
@@ -2749,19 +2748,19 @@ soldier          persian_heavy_sparabara, 60, 0, 1.1, 0.3
 officer          east_officer_swrodsman
 officer          eastern_standard
 attributes       sea_faring, hide_forest, can_swim, very_hardy, can_sap
-formation        1, 1.4, 2, 2, 13, square, shield_wall
+formation        1, 1.4, 2, 2, 12, square, shield_wall
 stat_health      1, 1
 stat_pri         6, 5, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    light_spear, spear_bonus_8
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  8, 4, 5, leather
+stat_pri_armour  8, 4, 6, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, 2, -2, -2
 stat_mental      14, normal, trained
 stat_charge_dist 60
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2050, 750, 40, 50, 630
 ownership        eastern, roman_rebels
@@ -2774,22 +2773,47 @@ voice_type       Medium_1
 soldier          thureos_spears, 60, 0, 1, 0.3
 officer          macedon_standard
 attributes       sea_faring, hide_forest, hardy, can_sap
-formation        1, 1, 2, 2, 8, square, shield_wall
+formation        1, 1.2, 2, 2, 8, square, shield_wall
 stat_health      1, 1
 stat_pri         10, 8, longjavelin, 40, 1, thrown, simple, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown, ap
 stat_sec         7, 3, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_sec_attr    light_spear
-stat_pri_armour  6, 7, 5, leather
+stat_pri_armour  6, 6, 6, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      2, 0, -1, -1
 stat_mental      15, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2050, 750, 50, 70, 540
 ownership        pontus, egypt, romans_julii, macedon, seleucid, thrace, roman_rebels, carthage, britons 
+
+type             heavy thureos spears
+dictionary       heavy_thureos_spears      ; Heavy Thureos spearmen
+category         infantry
+class            spearmen
+voice_type       Medium_1
+soldier          heavy_thureos_spears, 55, 0, 1.1, 0.3
+officer          macedon_standard
+attributes       sea_faring, hide_forest, very_hardy, can_sap
+formation        1, 1.2, 2, 2, 8, square, shield_wall
+stat_health      1, 1
+stat_pri         10, 8, longjavelin, 40, 1, thrown, simple, piercing, spear, 24 ,1
+stat_pri_attr    prec, thrown, ap
+stat_sec         8, 3, no, 0, 0, melee, simple, piercing, spear, 24 ,1
+stat_sec_attr    light_spear
+stat_pri_armour  8, 6, 6, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      2, 0, -1, -1
+stat_mental      16, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        0, 2400, 1000, 50, 70, 540
+ownership        macedon, seleucid 
 
 type             thureos swordsmen
 dictionary       thureos_swordsmen     ; Thureos swordsmen
@@ -2799,7 +2823,7 @@ voice_type       Heavy_1
 soldier          thureos_swordsmen, 60, 0, 1.2, 0.3
 officer          greek_officer
 officer          macedon_standard
-attributes       sea_faring, hide_forest, can_sap, hardy
+attributes       sea_faring, hide_forest, can_sap, very_hardy
 formation        0.9, 1.6, 2, 2, 6, square
 stat_health      1, 1
 stat_pri         13, 3, longjavelin, 40, 2, thrown, simple, piercing, spear, 24 ,1
@@ -2812,7 +2836,7 @@ stat_heat        2
 stat_ground      2, 0, -1, -1
 stat_mental      15, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2480, 1140, 70, 120, 740
 ownership        pontus, egypt, roman_rebels
@@ -2838,7 +2862,7 @@ stat_heat        2
 stat_ground      2, 0, -1, -1
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1400, 80, 110, 710
 ownership        pontus, egypt, romans_julii, roman_rebels
@@ -2864,7 +2888,7 @@ stat_heat        3
 stat_ground      2, 0, -1, -1
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3600, 1500, 80, 110, 710
 ownership        pontus, egypt
@@ -2890,7 +2914,7 @@ stat_heat        2
 stat_ground      2, 1, -2, -2
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1400, 70, 110, 890
 ownership        pontus, roman_rebels
@@ -2905,7 +2929,7 @@ mount_effect     elephant +6, chariot +6
 attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy
 formation        1.3, 1.5, 2, 3, 4, square
 stat_health      1, 1
-stat_pri         8, 5, javelin, 59, 11, thrown, archery, piercing, spear, 24 ,1
+stat_pri         9, 5, javelin, 59, 11, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         4, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -2915,7 +2939,7 @@ stat_heat        -1
 stat_ground      2, 1, 0, -2
 stat_mental      10, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1000, 500, 20, 30, 280
 ownership        pontus, armenia, parthia, roman_rebels
@@ -2949,7 +2973,7 @@ dictionary       east_cavalry      ; Pontic Light Cavalry
 category         cavalry
 class            missile
 voice_type       Light_1
-soldier          east_cavalry, 34, 0, 1
+soldier          east_cavalry, 35, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, cantabrian_circle, hardy, can_swim
@@ -2965,7 +2989,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      12, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1100, 480, 40, 60, 370
 ownership        pontus
@@ -2981,17 +3005,17 @@ mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, cantabrian_circle, hardy
 formation        1.5, 4, 3, 6, 4, square
 stat_health      1, 1
-stat_pri         10, 3, javelin, 50, 6, thrown, archery, piercing, spear, 24 ,1
+stat_pri         10, 3, javelin, 50, 7, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         9, 5, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  6, 5, 4, metal
-stat_sec_armour  10, 1, flesh
+stat_sec_armour  1, 1, flesh
 stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      15, disciplined, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 800, 70, 100, 630
 ownership        pontus, slave
@@ -3017,7 +3041,7 @@ stat_heat        3
 stat_ground      0, 1, 0, -2
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3480, 1300, 90, 130, 870
 ownership        pontus
@@ -3043,7 +3067,7 @@ stat_heat        3
 stat_ground      0, 1, -2, -2
 stat_mental      16, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 8800, 7000, 100, 140, 1200
 ownership        pontus
@@ -3058,18 +3082,18 @@ mount            horse cataphract
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, general_unit, hide_forest, hardy
 formation        1.5, 4, 3, 6, 3, square
-stat_health      2, 2
+stat_health      2, 1
 stat_pri         10, 9, no, 0, 0, melee, blade, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         12, 5, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  9, 6, 4, metal
+stat_pri_armour  18, 6, 0, metal
 stat_sec_armour  10, 1, flesh
 stat_heat        1
 stat_ground      0, 1, 0, -2
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1020, 0, 110, 160, 1020
 ownership        pontus
@@ -3083,9 +3107,9 @@ class            missile
 voice_type       Light_1
 soldier          persian_slinger, 55, 0, 0.9, 0.3
 attributes       sea_faring, hide_forest, can_sap, hardy
-formation        1.2, 1.5, 2, 3, 4, square
+formation        1.2, 1.5, 2, 2.5, 4, square
 stat_health      1, 1
-stat_pri         8, 4, stone, 130, 40, missile, archery, blunt, none, 24 ,1
+stat_pri         9, 3, stone, 140, 40, missile, archery, blunt, none, 24 ,1
 stat_pri_attr    no
 stat_sec         4, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -3093,7 +3117,7 @@ stat_pri_armour  2, 2, 3, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        -1
 stat_ground      2, 1, 0, -1
-stat_mental      10, low, untrained
+stat_mental      10, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -3111,7 +3135,7 @@ officer          eastern_standard
 attributes       sea_faring, hide_forest, can_sap
 formation        1.2, 1.2, 2.4, 2.4, 5, square
 stat_health      1, 1
-stat_pri         11, 3, arrow, 170, 35, missile, archery, piercing, none, 24 ,1
+stat_pri         11, 3, arrow, 170, 40, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
 stat_sec         7, 5, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
@@ -3121,7 +3145,7 @@ stat_heat        0
 stat_ground      1, 0, -2, -1
 stat_mental      15, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2400, 1100, 80, 80, 790
 ownership        armenia, pontus, parthia
@@ -3151,7 +3175,7 @@ stat_heat        2
 stat_ground      0, 0, 0, 0
 stat_mental      90, impetuous, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 4880, 4080, 30, 40, 880
 ownership        parthia
@@ -3171,15 +3195,15 @@ stat_pri         8, 3, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  8, 5, 5, metal
+stat_pri_armour  8, 5, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
 stat_ground      2, 0, -1, -2
 stat_mental      15, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
-stat_cost        0, 2100, 1050, 50, 80, 500
+stat_cost        0, 2100, 1060, 50, 80, 500
 ownership        parthia, roman_rebels
 
 type             eastern medium infantry
@@ -3203,7 +3227,7 @@ stat_heat        2
 stat_ground      1, 2, -2, -2
 stat_mental      12, normal, trained
 stat_charge_dist 100
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1220, 600, 40, 50, 430
 ownership        parthia
@@ -3227,9 +3251,9 @@ stat_heat        2
 stat_ground      1, 2, -2, -2
 stat_mental      14, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
-stat_cost        0, 2000, 900, 50, 80, 500
+stat_cost        0, 2000, 700, 50, 80, 500
 ownership        eastern, roman_rebels, slave
 
 type             parthian thureophoroi
@@ -3253,7 +3277,7 @@ stat_heat        0
 stat_ground      1, 2, -2, -3
 stat_mental      15, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 80, 110, 710
 ownership        parthia, romans_brutii, armenia
@@ -3279,7 +3303,7 @@ stat_heat        0
 stat_ground      1, 2, -1, -2
 stat_mental      17, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 100, 90, 830
 ownership        parthia
@@ -3305,7 +3329,7 @@ stat_heat        0
 stat_ground      2, 1, -1, -2
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3800, 1450, 40, 50, 1330
 ownership        parthia
@@ -3315,7 +3339,7 @@ dictionary       east_horse_archer      ; Horse Archers
 category         cavalry
 class            missile
 voice_type       Medium_1
-soldier          persian_elite_archer, 35, 0, 1
+soldier          persian_elite_archer, 36, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, cantabrian_circle, hardy, can_swim
@@ -3341,7 +3365,7 @@ dictionary       east_horse_archer      ; Horse Archers
 category         cavalry
 class            missile
 voice_type       Medium_1
-soldier          persian_elite_archer, 35, 0, 1
+soldier          persian_elite_archer, 36, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, cantabrian_circle, hardy, can_swim, mercenary_unit
@@ -3383,7 +3407,7 @@ stat_heat        -1
 stat_ground      1, 2, 0, -1
 stat_mental      14, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 750, 80, 120, 800
 ownership        parthia, roman_rebels, armenia
@@ -3409,7 +3433,7 @@ stat_heat        2
 stat_ground      0, 2, 0, -1
 stat_mental      17, normal, trained
 stat_charge_dist 60
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2700, 900, 100, 150, 940
 ownership        parthia
@@ -3435,7 +3459,7 @@ stat_heat        2
 stat_ground      1, 1, 0, -1
 stat_mental      18, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1400, 0, 140, 210, 1400
 ownership        parthia
@@ -3461,7 +3485,7 @@ stat_heat        2
 stat_ground      2, 1, 0, -1
 stat_mental      22, disciplined, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        2, 4000, 1300, 90, 1200, 2430
 ownership        parthia
@@ -3487,7 +3511,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -1
 stat_mental      15, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 800, 70, 100, 630
 ownership        parthia
@@ -3513,7 +3537,7 @@ stat_heat        2
 stat_ground      1, 1, 0, -1
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2700, 1000, 100, 150, 940
 ownership        parthia, slave
@@ -3539,7 +3563,7 @@ stat_heat        -1
 stat_ground      1, 1, 0, -1
 stat_mental      12, normal, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1920, 750, 70, 100, 730
 ownership        parthia, romans_brutii, roman_rebels
@@ -3566,7 +3590,7 @@ stat_heat        -1
 stat_ground      0, 2, -2, -3
 stat_mental      10, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1000, 500, 20, 30, 280
 ownership        romans_brutii
@@ -3591,7 +3615,7 @@ stat_heat        -1
 stat_ground      0, 1, -3, -3
 stat_mental      10, low, untrained
 stat_charge_dist 70
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 900, 500, 30, 50, 290
 ownership        romans_brutii
@@ -3616,7 +3640,7 @@ stat_heat        -1
 stat_ground      0, 3, -3, -3
 stat_mental      11, impetuous, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 500, 80, 110, 710
 ownership        romans_brutii, greek, eastern, carthage, egypt, slave
@@ -3641,7 +3665,7 @@ stat_heat        0
 stat_ground      1, 2, -2, -3
 stat_mental      14, normal, trained
 stat_charge_dist 70
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 720, 50, 80, 500
 ownership        romans_brutii
@@ -3665,7 +3689,7 @@ stat_heat        0
 stat_ground      0, 2, -2, -3
 stat_mental      15, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 1050, 80, 110, 710
 ownership        romans_brutii
@@ -3679,19 +3703,19 @@ soldier          east_sabeian_heavy_spearmen, 50, 0, 1.2, 0.3
 officer          east_officer_swrodsman
 mount_effect     horse -1, camel -2
 attributes       sea_faring, hide_forest, can_sap, can_swim, hardy
-formation        0.8, 1.3, 2.4, 2.4, 8, square
+formation        0.9, 1.3, 2.4, 2.4, 8, square, shield_wall
 stat_health      1, 1
 stat_pri         10, 5, no, 0, 0, melee, blade, piercing, spear, 24 ,1.5
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 4, 5, metal
+stat_pri_armour  10, 5, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
 stat_ground      0, 2, -2, -3
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3500, 1200, 50, 80, 500
 ownership        romans_brutii
@@ -3717,7 +3741,7 @@ stat_heat        2
 stat_ground      1, 2, -2, -3
 stat_mental      20, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3600, 1450, 100, 90, 830
 ownership        romans_brutii
@@ -3768,7 +3792,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -1
 stat_mental      11, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1100, 480, 40, 60, 370
 ownership        romans_brutii
@@ -3789,12 +3813,12 @@ stat_pri_attr    no
 stat_sec         8, 4, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  10, 5, 4, leather
-stat_sec_armour  1, 1, flesh
+stat_sec_armour  4, 1, flesh
 stat_heat        1
 stat_ground      1, 2, 0, -3
 stat_mental      15, disciplined, trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1800, 700, 70, 100, 630
 ownership        romans_brutii
@@ -3808,23 +3832,23 @@ soldier          sabaean_heavy_cavalry, 15, 0, 1.3
 mount            horse half_armoured
 attributes       sea_faring, general_unit, hide_forest, hardy, general_unit_upgrade
 formation        1.2, 4, 2.4, 6, 3, square
-stat_health      2, 2
+stat_health      2, 1
 stat_pri         10, 11, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         11, 6, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  10, 5, 4, metal
-stat_sec_armour  1, 1, flesh
+stat_sec_armour  4, 1, flesh
 stat_heat        2
 stat_ground      1, 2, 0, -3
 stat_mental      18, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1400, 0, 140, 210, 1400
 ownership        romans_brutii
 
-;;;;;;armenians;;;;;
+;;;;;;;;;armenians;;;;;;;
 
 type             armenian auxilia
 dictionary       armenian_auxilia      ; Warriors with Maces
@@ -3847,7 +3871,7 @@ stat_heat        2
 stat_ground      2, 0, -1, -1
 stat_mental      15, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 850, 70, 110, 890
 ownership        armenia
@@ -3873,7 +3897,7 @@ stat_heat        2
 stat_ground      2, 0, -2, -1
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3500, 1500, 50, 70, 460
 ownership        armenia
@@ -3900,7 +3924,7 @@ stat_heat        0
 stat_ground      2, 0, -2, -1
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2600, 1050, 70, 110, 890
 ownership        armenia
@@ -3926,7 +3950,7 @@ stat_heat        3
 stat_ground      1, 0, 0, -1
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2600, 950, 100, 150, 940
 ownership        armenia
@@ -3952,7 +3976,7 @@ stat_heat        3
 stat_ground      0, 1, 0, -1
 stat_mental      20, normal, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3500, 1200, 100, 150, 1240
 ownership        parthia, armenia, pontus, romans_brutii, barbarian, romans_scipii, carthage
@@ -4004,7 +4028,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      11, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1400, 140, 200, 1320
 ownership        parthia, armenia, pontus
@@ -4030,7 +4054,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      13, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 5700, 1800, 260, 380, 2520
 ownership        parthia, armenia, pontus, roman_rebels
@@ -4056,7 +4080,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      14, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 7500, 2200, 300, 450, 2970
 ownership        parthia, pontus, armenia
@@ -4069,20 +4093,20 @@ voice_type       Heavy_1
 soldier          east_heavy_cataphract, 15, 0, 1
 mount            horse cataphract
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, general_unit, hide_forest, hardy, general_unit_upgrade
+attributes       sea_faring, general_unit, hide_forest, hardy
 formation        1.2, 4, 2.4, 6, 3, square
 stat_health      2, 1
 stat_pri         10, 15, no, 0, 0, melee, blade, piercing, spear, 24 ,1
 stat_pri_attr    no
 stat_sec         11, 6, no, 0, 0, melee, simple, blunt, mace, 24 ,1
-stat_sec_attr    ap
+stat_sec_attr    no
 stat_pri_armour  18, 6, 0, metal
 stat_sec_armour  10, 1, flesh
 stat_heat        3
 stat_ground      1, 0, 0, -1
 stat_mental      18, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1400, 0, 140, 210, 1400
 ownership        armenia
@@ -4107,7 +4131,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      11, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1440, 1200, 30, 40, 220
 ownership        eastern
@@ -4133,7 +4157,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      10, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 4880, 2500, 80, 110, 1220
 ownership        eastern
@@ -4160,7 +4184,7 @@ stat_heat        0
 stat_ground      1, 1, -2, -2
 stat_mental      12, normal, trained
 stat_charge_dist 100
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 900, 200, 40, 50, 430 ;changed
 ownership        slave
@@ -4186,7 +4210,7 @@ stat_heat        1
 stat_ground      2, 1, -2, -1
 stat_mental      15, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2100, 900, 40, 50, 630
 ownership        eastern, greek, barbarian, carthage, egypt
@@ -4212,7 +4236,7 @@ stat_heat        2
 stat_ground      2, 1, -2, -1
 stat_mental      17, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 50, 70, 730
 ownership        eastern, greek, barbarian, carthage, egypt 
@@ -4222,7 +4246,7 @@ dictionary       BAKTRIAN_NOBLES      ; BAKTRIAN NOBLES
 category         cavalry
 class            heavy
 voice_type       Heavy_1
-soldier          east_cappodocian_cavalry, 30, 0, 1
+soldier          east_cappodocian_cavalry, 32, 0, 1
 mount            horse half_armoured
 mount_effect     elephant -4, camel -2
 attributes       sea_faring, hide_forest, very_hardy
@@ -4238,7 +4262,7 @@ stat_heat        3
 stat_ground      1, 0, 0, -1
 stat_mental      18, normal, trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2800, 1000, 90, 130, 1470
 ownership        roman_rebels
@@ -4266,7 +4290,7 @@ stat_heat        3
 stat_ground      0, 1, 0, -1
 stat_mental      11, normal, trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1800, 750, 70, 90, 750
 ownership        pontus, parthia, armenia, romans_brutii, barbarian, romans_scipii, roman_rebels, greek, carthage, egypt
@@ -4278,22 +4302,22 @@ dictionary       egyptian_peltast      ; Skirmishers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          egyptian_peltast, 55, 0, 0.8, 0.3
+soldier          greek_peltast, 55, 0, 0.8, 0.3
 mount_effect     elephant +6, chariot +6
 attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy
 formation        1.3, 1.5, 2, 3, 4, square
 stat_health      1, 0
-stat_pri         9, 1, javelin, 58, 9, thrown, archery, piercing, spear, 24 ,1
+stat_pri         9, 1, javelin, 59, 11, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
-stat_sec         3, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
+stat_sec         4, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  1, 2, 2, flesh
+stat_pri_armour  2, 3, 2, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        -2
 stat_ground      1, 2, -2, -3
 stat_mental      11, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1000, 500, 20, 30, 280
 ownership        egypt, slave
@@ -4307,7 +4331,7 @@ soldier          carthaginian_slinger, 50, 0, 0.8, 0.3
 attributes       sea_faring, hide_forest, can_sap
 formation        1.4, 1.5, 3, 4, 3, square
 stat_health      1, 0
-stat_pri         9, 1, stone, 120, 40, missile, archery, blunt, none, 24 ,1
+stat_pri         9, 5, stone, 140, 40, missile, archery, blunt, none, 24 ,1
 stat_pri_attr    no
 stat_sec         3, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -4366,7 +4390,7 @@ stat_heat        2
 stat_ground      2, 0, -2, -2
 stat_mental      9, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 900, 500, 30, 40, 330
 ownership        egypt, macedon, seleucid, roman_rebels, britons
@@ -4391,7 +4415,7 @@ stat_heat        -1
 stat_ground      1, 2, -2, -3
 stat_mental      11, normal, trained
 stat_charge_dist 140
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1400, 600, 40, 60, 470
 ownership        egypt, carthage, greek, barbarian, eastern
@@ -4417,7 +4441,7 @@ stat_heat        -1
 stat_ground      1, 2, -2, -3
 stat_mental      12, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 800, 40, 60, 360
 ownership        egypt, slave
@@ -4443,7 +4467,7 @@ stat_heat        1
 stat_ground      0, 2, 0, -2
 stat_mental      10, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1000, 400, 40, 60, 340
 ownership        egypt
@@ -4469,7 +4493,7 @@ stat_heat        0
 stat_ground      0, 2, 0, -3
 stat_mental      11, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 500, 40, 60, 340
 ownership        egypt
@@ -4495,7 +4519,7 @@ stat_heat        -1
 stat_ground      0, 2, 0, -2
 stat_mental      13, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1900, 750, 60, 90, 570
 ownership        egypt
@@ -4537,20 +4561,20 @@ mount_effect     elephant +6, chariot +6
 attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy
 formation        1.3, 1.5, 2, 3, 4, square
 stat_health      1, 1
-stat_pri         8, 1, javelin, 59, 11, thrown, archery, piercing, spear, 24 ,1
+stat_pri         9, 1, javelin, 59, 11, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         4, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  2, 2, 2, flesh
+stat_pri_armour  2, 3, 2, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        1
 stat_ground      2, 0, 1, -1
 stat_mental      11, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1000, 500, 20, 30, 280
-ownership        macedon, seleucid, thrace, greek_cities, numidia, romans_julii, , britons, slave
+ownership        macedon, seleucid, thrace, greek_cities, numidia, romans_julii, britons, slave
 
 type             hellenic slingers
 dictionary       hellenic_slingers      ; Slingers
@@ -4560,8 +4584,8 @@ voice_type       Light_1
 soldier          hellenic_slinger, 50, 0, 0.8, 0.28
 attributes       sea_faring, hide_forest, hide_long_grass, can_sap, hardy
 formation        1.4, 2, 3, 4, 3, square
-stat_health      1, 0
-stat_pri         9, 3, bullet, 120, 40, missile, archery, blunt, none, 24 ,1
+stat_health      1, 1
+stat_pri         9, 4, bullet, 140, 40, missile, archery, blunt, none, 24 ,1
 stat_pri_attr    no
 stat_sec         6, 3, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -4595,7 +4619,7 @@ stat_heat        0
 stat_ground      1, 1, 0, -2
 stat_mental      11, normal, trained
 stat_charge_dist 150
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1300, 660, 40, 90, 580
 ownership        greek_cities, egypt, seleucid, macedon 
@@ -4622,7 +4646,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      14, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2100, 900, 80, 110, 710
 ownership        greek_cities, macedon, seleucid, romans_julii, romans_scipii, egypt, britons 
@@ -4649,9 +4673,9 @@ stat_heat        3
 stat_ground      2, 0, -1, -1
 stat_mental      16, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
-stat_cost        1, 2500, 1080, 80, 110, 910
+stat_cost        0, 2500, 1080, 80, 110, 910
 ownership        seleucid, macedon, greek_cities, britons
 
 type             greek archer
@@ -4687,7 +4711,7 @@ soldier          greek_archer_elite, 50, 0, 1, 0.3
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1.4, 1.7, 2.8, 3.4, 3, square
 stat_health      1, 1
-stat_pri         12, 3, arrow, 170, 40, missile, archery, piercing, none, 24 ,1
+stat_pri         12, 3, arrow, 170, 45, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
 stat_sec         6, 2, no, 0, 0, melee, simple, piercing, sword, 1, 1
 stat_sec_attr    no
@@ -4712,7 +4736,7 @@ mount_effect     elephant +6, chariot +6
 attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 1
-stat_pri         9, 8, heavy_javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
+stat_pri         10, 6, heavy_javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         7, 2, no, 0, 0, melee, simple, piercing, sword, 1 ,1
 stat_sec_attr    no
@@ -4722,10 +4746,10 @@ stat_heat        2
 stat_ground      2, 0, 2, -1
 stat_mental      14, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
-stat_cost        0, 2000, 850, 40, 60, 450
-ownership        greek_cities, numidia, romans_julii, macedon, seleucid, egypt, britons, slave
+stat_cost        0, 2000, 900, 40, 60, 450
+ownership        greek_cities, numidia, romans_julii, macedon, seleucid, egypt, britons, pontus, slave
 
 type             greek hoplite militia
 dictionary       greek_hoplite_militia      ; Militia Hoplites
@@ -4746,7 +4770,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      10, low, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 900, 500, 30, 40, 330
 ownership        greek_cities, thrace, numidia, romans_julii, slave
@@ -4771,7 +4795,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      15, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 750, 50, 70, 540
 ownership        greek_cities, romans_julii, egypt, numidia, thrace, seleucid, macedon, barbarian, eastern, carthage, britons, slave
@@ -4792,13 +4816,13 @@ stat_pri         10, 4, no, 0, 0, melee, blade, piercing, spear, 24 ,1
 stat_pri_attr    light_spear
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  11, 6, 5, metal
+stat_pri_armour  10, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      2, 0, 0, -2
 stat_mental      17, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1000, 70, 100, 840
 ownership        greek_cities, eastern, carthage, egypt, britons
@@ -4825,7 +4849,7 @@ stat_heat        2
 stat_ground      2, 1, 0, -2
 stat_mental      14, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2100, 900, 50, 70, 470
 ownership        greek_cities, britons
@@ -4850,7 +4874,7 @@ stat_heat        3
 stat_ground      2, 0, 1, -2
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2620, 1200, 40, 60, 680
 ownership        greek_cities, numidia, macedon, seleucid, thrace, romans_julii
@@ -4877,7 +4901,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -2
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3860, 1450, 70, 100, 940
 ownership        greek, eastern, carthage, egypt, barbarian
@@ -4903,7 +4927,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -2
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3860, 1450, 70, 100, 940
 ownership        greek_cities, britons
@@ -4929,7 +4953,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -2
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3860, 1450, 70, 100, 940
 ownership        greek, eastern, carthage, egypt, barbarian
@@ -4955,7 +4979,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -2
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3860, 1450, 70, 100, 940
 ownership        greek, eastern, carthage, egypt, barbarian
@@ -4981,7 +5005,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3860, 1450, 70, 100, 940
 ownership        greek, eastern, carthage, egypt, barbarian
@@ -5007,7 +5031,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -1
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3860, 1450, 70, 100, 940
 ownership        greek, eastern, carthage, egypt, barbarian
@@ -5033,7 +5057,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3860, 1450, 70, 100, 940
 ownership        greek, eastern, carthage, egypt, barbarian
@@ -5059,7 +5083,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3860, 1450, 70, 100, 940
 ownership        greek, eastern, carthage, egypt, barbarian
@@ -5085,7 +5109,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3860, 1450, 70, 100, 940
 ownership        greek, eastern, carthage, egypt, barbarian
@@ -5110,9 +5134,9 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      22, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
-stat_cost        3, 4500, 1600, 120, 180, 1490
+stat_cost        2, 4500, 1600, 120, 180, 1490
 ownership        greek_cities, numidia
 
 type             greek hoplite spartan heavy2
@@ -5138,7 +5162,7 @@ stat_heat        0
 stat_ground      10, 10, 10, 10
 stat_mental      100, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        4, 8960, 4000, 120, 180, 1490
 ownership        greek_cities, numidia
@@ -5164,7 +5188,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      22, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        2, 4300, 1500, 130, 190, 1590
 ownership        greek_cities
@@ -5190,7 +5214,7 @@ stat_heat        2
 stat_ground      1, 0, 0, -2
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1020, 0, 110, 160, 1020
 ownership        numidia
@@ -5216,7 +5240,7 @@ stat_heat        2
 stat_ground      1, 0, 0, -2
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1020, 0, 110, 160, 1020
 ownership        numidia
@@ -5242,7 +5266,7 @@ stat_heat        2
 stat_ground      1, 0, 0, -2
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1020, 0, 110, 160, 1020
 ownership        greek_cities, seleucid, macedon, roman_rebels, egypt, britons
@@ -5268,7 +5292,7 @@ stat_heat        2
 stat_ground      1, 0, 0, -2
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1020, 0, 110, 160, 1020
 ownership        greek_cities
@@ -5292,8 +5316,8 @@ stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 1, 0, -2
 stat_mental      15, normal, trained
-stat_charge_dist 140
-stat_fire_delay  0
+stat_charge_dist 40
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1500, 700, 40, 90, 580
 ownership        numidia
@@ -5319,7 +5343,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2500, 1080, 80, 110, 910
 ownership        numidia
@@ -5345,7 +5369,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        25, 300
 stat_cost        1, 2600, 1180, 120, 180, 1290
 ownership        greek, barbarian, eastern, carthage, egypt
@@ -5372,7 +5396,7 @@ stat_heat        2
 stat_ground      2, 0, -1, -2
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        25, 300
 stat_cost        1, 2500, 1100, 120, 180, 995
 ownership        greek_cities, numidia
@@ -5399,7 +5423,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4200, 1440, 100, 150, 1190
 ownership        numidia, greek_cities
@@ -5425,7 +5449,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -2
 stat_mental      22, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        2, 4300, 1500, 130, 190, 1590
 ownership        numidia, romans_julii
@@ -5451,7 +5475,7 @@ stat_heat        2
 stat_ground      1, 0, 0, -2
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3500, 1240, 90, 100, 720
 ownership        numidia
@@ -5478,13 +5502,12 @@ stat_heat        2
 stat_ground      2, 0, 0, -2
 stat_mental      31, disciplined, highly_trained
 stat_charge_dist 35
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        4, 13000, 6000, 320, 380, 3490
 ownership        greek_cities, numidia 
 
-;;;;;;;;Cimmerians;;;;;;;
-
+;;;;;;;;Cimmerians;;;;;;;;
 type             cimmerian hoplite elite
 dictionary       cimmerian_hoplite_elite      ; Armoured Hoplites
 category         infantry
@@ -5502,13 +5525,13 @@ stat_pri_attr    light_spear
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 ;stat_sec         8, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1.1
 stat_sec_attr    no
-stat_pri_armour  11, 6, 5, metal
+stat_pri_armour  10, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      2, -1, 0, 0
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1000, 70, 100, 840
 ownership        romans_julii
@@ -5558,7 +5581,7 @@ stat_heat        2
 stat_ground      0, -2, 0, 2
 stat_mental      15, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 750, 80, 120, 800
 ownership        thrace, romans_julii
@@ -5584,7 +5607,7 @@ stat_heat        4
 stat_ground      0, -2, 0, 2
 stat_mental      18, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2400, 1100, 90, 140, 900
 ownership        romans_julii
@@ -5610,7 +5633,7 @@ stat_heat        2
 stat_ground      0, 0, 0, 0
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2300, 1300, 80, 120, 760
 ownership        romans_julii, britons
@@ -5636,7 +5659,7 @@ stat_heat        3
 stat_ground      0, 0, 0, -1
 stat_mental      19, normal, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3500, 1200, 100, 150, 1240
 ownership        romans_julii
@@ -5662,7 +5685,7 @@ stat_heat        2
 stat_ground      1, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1020, 0, 110, 160, 1020
 ownership        romans_julii
@@ -5689,7 +5712,7 @@ stat_heat        2
 stat_ground      2, 0, 2, 1
 stat_mental      15, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 850, 40, 60, 450
 ownership        thrace
@@ -5739,7 +5762,7 @@ stat_heat        1
 stat_ground      2, -2, 3, 1
 stat_mental      11, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1100, 600, 20, 40, 570
 ownership        greek, eastern, carthage, barbarian, egypt
@@ -5751,7 +5774,7 @@ class            missile
 voice_type       Heavy_1
 soldier          gettic_peltast, 55, 0, 1, 0.3
 mount_effect     elephant +6, chariot +6
-attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy, warcry
+attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, very_hardy, warcry
 formation        1.2, 1.2, 2.4, 2.4, 7, square
 stat_health      2, 1
 stat_pri         10, 5, heavy_javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
@@ -5764,7 +5787,7 @@ stat_heat        2
 stat_ground      2, -2, 3, 1
 stat_mental      15, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        1, 2200, 900, 20, 40, 670
 ownership        greek, eastern, carthage, barbarian, egypt
@@ -5778,7 +5801,7 @@ voice_type       Heavy_1
 soldier          thracian_thureos_swordsmen, 60, 0, 1.1, 0.3
 officer          greek_officer
 officer          greek_standard
-attributes       sea_faring, hide_forest, can_sap, hardy
+attributes       sea_faring, hide_forest, can_sap, very_hardy
 formation        1, 1.4, 2, 2, 8, square
 stat_health      1, 1
 stat_pri         12, 4, heavy_javelin, 45, 2, thrown, simple, piercing, spear, 24 ,1
@@ -5791,7 +5814,7 @@ stat_heat        3
 stat_ground      2, 0, 1, 1
 stat_mental      14, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2100, 900, 80, 110, 710
 ownership        thrace 
@@ -5816,7 +5839,7 @@ stat_heat        3
 stat_ground      2, 0, 1, 1
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2500, 1080, 80, 110, 910
 ownership        thrace 
@@ -5830,7 +5853,7 @@ soldier          thracian_mercenaries, 60, 0, 1.2, 0.3
 attributes       sea_faring, hide_improved_forest, hardy, warcry, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 10, square
 stat_health      1, 1
-stat_pri         9, 7, javelin, 45, 3, thrown, simple, piercing, spear, 24 ,1
+stat_pri         10, 5, javelin, 59, 3, thrown, simple, piercing, spear, 24 ,1
 stat_pri_attr    prec
 stat_sec         10, 5, no, 0, 0, melee, blade, piercing, axe, 24 ,1
 stat_sec_attr    no
@@ -5840,7 +5863,7 @@ stat_heat        1
 stat_ground      2, -1, 2, 1
 stat_mental      13, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1300, 620, 40, 50, 330
 ownership        thrace, romans_scipii, slave
@@ -5864,7 +5887,7 @@ stat_heat        2
 stat_ground      2, -2, 3, 2
 stat_mental      17, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2400, 1050, 80, 120, 790
 ownership        thrace
@@ -5891,7 +5914,7 @@ stat_heat        4
 stat_ground      2, -1, 0, 0
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1000, 70, 100, 840
 ownership        thrace
@@ -5917,7 +5940,7 @@ stat_heat        4
 stat_ground      2, -2, 0, 0
 stat_mental      17, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3800, 1450, 90, 160, 950
 ownership        thrace
@@ -5944,7 +5967,7 @@ stat_heat        3
 stat_ground      1, -1, 1, 0
 stat_mental      19, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1520, 90, 160, 950
 ownership        thrace
@@ -5970,7 +5993,7 @@ stat_heat        2
 stat_ground      1, -2, 0, 1
 stat_mental      12, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1150, 500, 40, 60, 340
 ownership        thrace
@@ -5996,7 +6019,7 @@ stat_heat        1
 stat_ground      0, -1, 0, 0
 stat_mental      12, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 550, 40, 60, 500
 ownership        thrace, macedon
@@ -6022,7 +6045,7 @@ stat_heat        3
 stat_ground      0, -2, 0, 0
 stat_mental      17, disciplined, trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2300, 850, 100, 150, 940
 ownership        thrace
@@ -6048,7 +6071,7 @@ stat_heat        3
 stat_ground      -1, 0, 0, 0
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1240, 80, 120, 760
 ownership        thrace
@@ -6074,7 +6097,7 @@ stat_heat        3
 stat_ground      -1, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1020, 0, 110, 160, 1020
 ownership        thrace
@@ -6089,7 +6112,7 @@ soldier          diadoch_archer_elite, 50, 0, 1, 0.3
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1, 1.4, 2, 3, 3, square
 stat_health      1, 1
-stat_pri         10, 4, arrow, 170, 40, missile, archery, piercing, none, 24 ,1
+stat_pri         11, 4, arrow, 170, 40, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
 stat_sec         6, 2, no, 0, 0, melee, simple, piercing, sword, 1, 1
 stat_sec_attr    no
@@ -6125,7 +6148,7 @@ stat_heat        1
 stat_ground      2, 1, 0, -2
 stat_mental      10, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1640, 940, 40, 50, 410
 ownership        macedon, seleucid, roman_rebels
@@ -6152,7 +6175,7 @@ stat_heat        2
 stat_ground      1, 0, -1, -1
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2100, 900, 60, 90, 580
 ownership        macedon
@@ -6179,7 +6202,7 @@ stat_heat        3
 stat_ground      1, 0, -1, -1
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3800, 1300, 80, 120, 740
 ownership        macedon, egypt
@@ -6199,13 +6222,13 @@ stat_pri         10, 4, no, 0, 0, melee, blade, piercing, spear, 24 ,1
 stat_pri_attr    light_spear
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 5, 7, metal
+stat_pri_armour  10, 7, 7, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      1, 0, -1, -1
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1200, 70, 100, 840
 ownership        macedon, seleucid, roman_rebels, egypt
@@ -6224,13 +6247,13 @@ stat_pri         13, 3, heavy_javelin, 40, 2, thrown, simple, piercing, spear, 2
 stat_pri_attr    prec, thrown ap
 stat_sec         12, 9, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  8, 8, 8, metal
+stat_pri_armour  9, 8, 7, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        2
 stat_ground      1, -1, 0, -1
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4300, 1500, 40, 50, 1030
 ownership        macedon
@@ -6244,7 +6267,7 @@ soldier          greek_pike_phalanx, 60, 0, 1, 0.3
 officer          greek_officer
 officer          macedon_standard
 officer          greek_musician
-attributes       sea_faring, hide_forest, can_sap, hardy
+attributes       sea_faring, hide_forest, can_sap, very_hardy
 formation        1, 1, 2, 2, 8, square, phalanx
 stat_health      1, 1
 stat_pri         9, 3, no, 0, 0, melee, simple, piercing, spear, 24 ,1
@@ -6257,7 +6280,7 @@ stat_heat        2
 stat_ground      1, 0, -1, -1
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2100, 900, 60, 90, 580
 ownership        seleucid, thrace, pontus, egypt, roman_rebels 
@@ -6284,7 +6307,7 @@ stat_heat        2
 stat_ground      2, 1, -1, -1
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1200, 80, 110, 730
 ownership        seleucid
@@ -6311,7 +6334,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -2
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3500, 1460, 80, 110, 710
 ownership        seleucid
@@ -6337,7 +6360,7 @@ stat_heat        1
 stat_ground      1, 1, 0, -1
 stat_mental      11, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1000, 400, 40, 60, 370
 ownership        macedon
@@ -6363,7 +6386,7 @@ stat_heat        1
 stat_ground      1, 1, 0, -1
 stat_mental      11, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1000, 400, 40, 60, 340
 ownership        greek_cities, seleucid, thrace, numidia, romans_julii, britons, slave
@@ -6389,7 +6412,7 @@ stat_heat        1
 stat_ground      0, 0, 0, 0
 stat_mental      12, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1400, 550, 40, 50, 330
 ownership        greek_cities, macedon, seleucid, numidia, romans_julii, thrace, britons, slave
@@ -6415,7 +6438,7 @@ stat_heat        1
 stat_ground      0, 0, 0, -1
 stat_mental      14, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1900, 800, 70, 110, 690
 ownership        greek_cities, numidia, egypt, romans_julii, macedon, seleucid, thrace, britons
@@ -6441,7 +6464,7 @@ stat_heat        2
 stat_ground      0, 0, 0, -1
 stat_mental      19, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2760, 1000, 70, 110, 690
 ownership        greek, eastern, carthage, scythia, dacia, gauls
@@ -6467,7 +6490,7 @@ stat_heat        2
 stat_ground      0, 0, 0, -1
 stat_mental      20, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1240, 80, 120, 760
 ownership        macedon, seleucid, greek_cities, numidia, egypt, barbarian, roman_rebels, britons, eastern
@@ -6488,15 +6511,15 @@ stat_pri_attr    no
 stat_sec         10, 5, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  12, 7, 0, metal
-stat_sec_armour  1, 1, flesh
+stat_sec_armour  4, 1, flesh
 stat_heat        2
 stat_ground      0, 0, 0, -1
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2600, 900, 80, 120, 760
-ownership        macedon, seleucid, egypt, greek_cities
+ownership        macedon, seleucid, egypt, greek_cities, pontus
 
 type             greek heavy cataphract
 dictionary       greek_heavy_cataphract      ; Cataphracts
@@ -6519,7 +6542,7 @@ stat_heat        2
 stat_ground      1, 0, 0, -1
 stat_mental      20, normal, highly_trained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3500, 1200, 100, 150, 1240
 ownership        seleucid, greek_cities, thrace, macedon, numidia, roman_rebels, egypt, britons
@@ -6545,7 +6568,7 @@ stat_heat        1
 stat_ground      0, 0, 0, 0
 stat_mental      14, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1100, 700, 30, 60, 640
 ownership        macedon
@@ -6571,7 +6594,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      11, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1400, 140, 200, 1320
 ownership        seleucid, egypt
@@ -6597,7 +6620,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      13, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 5700, 1800, 270, 410, 2690
 ownership        seleucid, egypt
@@ -6623,7 +6646,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      14, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 7500, 2200, 300, 450, 2970
 ownership        seleucid, egypt
@@ -6648,7 +6671,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      11, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1440, 1200, 30, 40, 220
 ownership        greek, egypt, carthage
@@ -6674,7 +6697,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      10, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 4880, 2500, 80, 110, 1220
 ownership        greek, egypt, carthage, slave 
@@ -6700,7 +6723,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      10, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 6120, 3200, 100, 140, 1530
 ownership        greek, egypt, carthage 
@@ -6726,7 +6749,7 @@ stat_heat        3
 stat_ground      0, 1, -2, -2
 stat_mental      15, impetuous, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 15000, 8000, 100, 150, 1200
 ownership        seleucid
@@ -6776,7 +6799,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -1
 stat_mental      10, low, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 900, 500, 30, 40, 330
 ownership        slave
@@ -6801,7 +6824,7 @@ stat_heat        3
 stat_ground      1, 0, 0, -1
 stat_mental      11, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1400, 670, 50, 70, 440
 ownership        slave, greek, eastern, carthage, egypt, romans_scipii
@@ -6827,7 +6850,7 @@ stat_heat        4
 stat_ground      2, 0, 0, -1
 stat_mental      14, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2200, 950, 50, 80, 590
 ownership        slave
@@ -6853,7 +6876,7 @@ stat_heat        4
 stat_ground      2, 0, 0, -1
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2470, 1120, 50, 80, 500
 ownership        slave
@@ -6879,7 +6902,7 @@ stat_heat        4
 stat_ground      2, 0, 0, -1
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2500, 1000, 50, 80, 500
 ownership        greek, eastern, carthage, egypt, slave
@@ -6905,7 +6928,7 @@ stat_heat        1
 stat_ground      0, 0, 0, -1
 stat_mental      17, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2200, 800, 60, 80, 520
 ownership        slave 
@@ -6921,19 +6944,19 @@ soldier          thureos_spears, 60, 0, 1, 0.3
 officer          roman_early_centurion
 officer          roman_rep_standard
 attributes       sea_faring, hide_forest, hardy, can_sap
-formation        1, 1, 2, 2, 5, square
+formation        1, 1.2, 2, 2, 5, square
 stat_health      1, 1
 stat_pri         10, 8, longjavelin, 40, 1, thrown, simple, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown, ap
 stat_sec         7, 3, no, 0, 0, melee, simple, piercing, spear, 23 ,1
 stat_sec_attr    light_spear
-stat_pri_armour  6, 7, 5, leather
+stat_pri_armour  6, 6, 6, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      2, 0, 0, -2
 stat_mental      15, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2050, 750, 50, 70, 540
 ownership        romans_scipii
@@ -6959,7 +6982,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -1
 stat_mental      15, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 750, 50, 70, 540
 ownership        romans_scipii
@@ -6998,7 +7021,7 @@ officer          roman_rep_standard
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         11, 4, arrow, 175, 35, missile, archery, piercing, none, 10 ,1
+stat_pri         11, 4, arrow, 175, 40, missile, archery, piercing, none, 10 ,1
 stat_pri_attr    no
 stat_sec         4, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -7008,7 +7031,7 @@ stat_heat        1
 stat_ground      2, 0, 2, 0
 stat_mental      16, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 2400, 1080, 40, 60, 400
 ownership        romans_scipii
@@ -7033,7 +7056,7 @@ stat_heat        1
 stat_ground      2, 0, 2, -1
 stat_mental      10, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1080, 500, 30, 40, 270
 ownership        romans_scipii, slave
@@ -7059,7 +7082,7 @@ stat_heat        1
 stat_ground      2, 0, 3, -1
 stat_mental      10, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1100, 600, 30, 50, 290
 ownership        romans_scipii
@@ -7083,7 +7106,7 @@ stat_heat        2
 stat_ground      2, 0, 0, -1
 stat_mental      10, low, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 900, 500, 20, 30, 150
 ownership        romans_scipii, slave
@@ -7109,7 +7132,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -1
 stat_mental      12, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1400, 700, 50, 70, 440
 ownership        romans_scipii, slave
@@ -7135,7 +7158,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -1
 stat_mental      15, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2100, 900, 50, 80, 490
 ownership        romans_scipii
@@ -7160,7 +7183,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -1
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2200, 950, 50, 80, 540
 ownership        romans_scipii
@@ -7186,7 +7209,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2200, 950, 50, 80, 490
 ownership        romans_scipii
@@ -7213,7 +7236,7 @@ stat_heat        4
 stat_ground      2, 0, 0, -1
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2500, 1000, 50, 80, 500
 ownership        romans_scipii
@@ -7239,7 +7262,7 @@ stat_heat        4
 stat_ground      2, 0, 0, -1
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2600, 1120, 50, 80, 500
 ownership        romans_scipii
@@ -7263,7 +7286,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -1
 stat_mental      15, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2050, 850, 50, 70, 560
 ownership        roman, barbarian, greek, eastern, carthage, egypt
@@ -7288,7 +7311,7 @@ stat_heat        3
 stat_ground      2, 0, 1, -1
 stat_mental      14, disciplined, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1500, 600, 50, 70, 500
 ownership        roman, barbarian, greek, eastern, carthage, egypt, slave
@@ -7314,7 +7337,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      17, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2600, 1060, 50, 80, 590
 ownership        romans_scipii
@@ -7341,7 +7364,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2800, 1140, 50, 80, 490
 ownership        romans_scipii
@@ -7367,7 +7390,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2760, 1140, 50, 80, 590
 ownership        romans_scipii
@@ -7393,7 +7416,7 @@ stat_heat        3
 stat_ground      2, 0, 1, 0
 stat_mental      15, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 800, 50, 70, 530
 ownership        romans_scipii
@@ -7407,7 +7430,7 @@ soldier          roman_auxllia_legion, 55, 0, 1, 0.28
 officer          roman_centurion
 officer          roman_rep_standard
 attributes       sea_faring, hide_forest, can_sap, hardy
-formation        0.8, 2, 2, 3, 6, square, testudo
+formation        0.8, 1.5, 2, 3, 6, square, testudo
 stat_health      1, 1
 stat_pri         11, 2, pilum, 40, 2, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
@@ -7419,7 +7442,7 @@ stat_heat        3
 stat_ground      2, 0, 1, 0
 stat_mental      15, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2100, 900, 50, 70, 540
 ownership        romans_scipii
@@ -7433,7 +7456,7 @@ soldier          roman_auxllia_legion, 55, 0, 1, 0.28
 officer          roman_centurion
 officer          roman_imp_STANDARD
 attributes       sea_faring, hide_forest, can_sap, very_hardy, mercenary_unit
-formation        0.8, 2, 2, 3, 4, square, testudo
+formation        0.8, 1.5, 2, 3, 4, square, testudo
 stat_health      1, 1
 stat_pri         11, 2, imppilum, 40, 2, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
@@ -7445,7 +7468,7 @@ stat_heat        3
 stat_ground      2, 0, 1, 0
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2400, 1000, 50, 80, 590
 ownership        romans_scipii
@@ -7471,7 +7494,7 @@ stat_heat        3
 stat_ground      2, 0, 1, 0
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2400, 950, 50, 70, 530
 ownership        romans_scipii
@@ -7498,7 +7521,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2400, 1080, 70, 100, 610
 ownership        romans_scipii
@@ -7525,7 +7548,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2800, 1140, 50, 80, 490
 ownership        romans_scipii
@@ -7546,13 +7569,13 @@ stat_pri         13, 3, imppilum, 40, 2, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         9, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 5, 5, metal
+stat_pri_armour  10, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -7573,13 +7596,13 @@ stat_pri         13, 3, imppilum, 40, 2, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 5, 5, metal
+stat_pri_armour  10, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3800, 1400, 130, 190, 1220
 ownership        romans_scipii 
@@ -7600,13 +7623,13 @@ stat_pri         16, 3, pilum, 40, 2, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         12, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        2, 3800, 1500, 90, 140, 910
 ownership        romans_scipii
@@ -7627,13 +7650,13 @@ stat_pri         18, 3, pilum, 40, 2, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         14, 4, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  14, 8, 5, metal
+stat_pri_armour  13, 8, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        2, 4200, 1600, 90, 160, 960
 ownership        romans_scipii
@@ -7647,8 +7670,8 @@ soldier          roman_arcani, 16, 0, 1.3, 0.3
 attributes       sea_faring, hide_improved_forest, hide_long_grass, hide_anywhere, very_hardy
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      2, 1
-stat_pri         13, 5, no, 0, 0, melee, blade, slashing, sword, 15 ,1.8
-stat_pri_attr    ap
+stat_pri         13, 5, no, 0, 0, melee, blade, slashing, sword, 15 ,1.9
+stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
 stat_sec_attr    no
 stat_pri_armour  12, 6, 2, metal
@@ -7657,7 +7680,7 @@ stat_heat        3
 stat_ground      2, 0, 0, 0
 stat_mental      22, impetuous, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        3, 4500, 1600, 90, 140, 1550
 ownership        romans_scipii
@@ -7681,7 +7704,7 @@ stat_heat        3
 stat_ground      2, 0, 0, 0
 stat_mental      21, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3400, 1400, 80, 110, 720
 ownership        slave 
@@ -7707,7 +7730,7 @@ stat_heat        1
 stat_ground      0, 0, 0, 0
 stat_mental      12, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 550, 50, 70, 420
 ownership        romans_scipii, slave 
@@ -7733,7 +7756,7 @@ stat_heat        1
 stat_ground      0, 0, 0, 0
 stat_mental      15, disciplined, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 1900, 800, 60, 80, 520
 ownership        romans_scipii  
@@ -7759,7 +7782,7 @@ stat_heat        1
 stat_ground      0, 0, 0, 0
 stat_mental      12, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1000, 450, 50, 70, 470
 ownership        romans_scipii
@@ -7785,7 +7808,7 @@ stat_heat        1
 stat_ground      0, 0, 0, 0
 stat_mental      14, normal, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1900, 800, 60, 80, 520
 ownership        romans_scipii
@@ -7811,7 +7834,7 @@ stat_heat        4
 stat_ground      0, 0, 0, 0
 stat_mental      15, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2700, 900, 80, 120, 700
 ownership        romans_scipii
@@ -7837,7 +7860,7 @@ stat_heat        4
 stat_ground      0, 0, 0, 0
 stat_mental      16, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2800, 1000, 80, 120, 790
 ownership        romans_scipii
@@ -7863,7 +7886,7 @@ stat_heat        2
 stat_ground      0, 0, 0, 0
 stat_mental      21, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 90, 130, 840
 ownership        romans_scipii
@@ -7889,7 +7912,7 @@ stat_heat        1
 stat_ground      0, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  -70000
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 790, 0, 80, 120, 790
 ownership        romans_scipii 
@@ -7915,7 +7938,7 @@ stat_heat        3
 stat_ground      0, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -350000
 stat_food        60, 300
 stat_cost        0, 1120, 0, 120, 170, 1120
 ownership        romans_scipii
@@ -7940,7 +7963,7 @@ stat_heat        2
 stat_ground      0, 0, 0, 0
 stat_mental      10, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2080, 1400, 40, 50, 320
 ownership        romans_scipii
@@ -7966,7 +7989,7 @@ stat_heat        2
 stat_ground      0, 0, 0, 0
 stat_mental      10, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2320, 1400, 40, 60, 380
 ownership        romans_scipii
@@ -7992,7 +8015,7 @@ stat_heat        2
 stat_ground      0, 0, 0, 0
 stat_mental      10, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 4920, 4000, 90, 130, 1230
 ownership        romans_scipii 
@@ -8018,7 +8041,7 @@ stat_heat        2
 stat_ground      0, 0, 0, 0
 stat_mental      10, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 6200, 4880, 110, 160, 1550
 ownership        romans_scipii 
@@ -8044,7 +8067,7 @@ stat_heat        2
 stat_ground      0, 0, 0, 0
 stat_mental      10, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2640, 1440, 50, 70, 660
 ownership        romans_scipii
@@ -8073,7 +8096,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8100,7 +8123,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8127,7 +8150,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8154,7 +8177,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8181,7 +8204,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8208,7 +8231,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8235,7 +8258,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8262,7 +8285,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8289,7 +8312,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8316,7 +8339,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8343,7 +8366,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8370,7 +8393,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8397,7 +8420,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8424,7 +8447,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8451,7 +8474,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8478,7 +8501,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8505,7 +8528,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8532,7 +8555,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8559,7 +8582,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8586,7 +8609,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8613,7 +8636,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8640,7 +8663,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8667,7 +8690,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8694,7 +8717,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8721,7 +8744,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8748,7 +8771,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8775,7 +8798,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 3000, 1200, 70, 100, 1010
 ownership        romans_scipii
@@ -8802,7 +8825,7 @@ stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2500, 1100, 70, 100, 610
 ownership        romans_scipii
@@ -8825,13 +8848,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -8852,13 +8875,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -8879,13 +8902,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -8906,13 +8929,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -8933,13 +8956,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -8960,13 +8983,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -8987,13 +9010,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9014,13 +9037,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9041,13 +9064,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9068,13 +9091,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9095,13 +9118,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9122,13 +9145,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9149,13 +9172,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9176,13 +9199,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9203,13 +9226,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9230,13 +9253,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9257,13 +9280,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9284,13 +9307,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9311,13 +9334,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9338,13 +9361,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9365,13 +9388,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9392,13 +9415,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9419,13 +9442,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9446,13 +9469,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9473,13 +9496,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9500,13 +9523,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9527,13 +9550,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9554,13 +9577,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9581,13 +9604,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9608,13 +9631,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9635,13 +9658,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9662,13 +9685,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9689,13 +9712,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9716,13 +9739,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9743,13 +9766,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9770,13 +9793,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9797,13 +9820,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9824,13 +9847,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9851,13 +9874,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9878,13 +9901,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9905,13 +9928,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      19, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4000, 1500, 110, 150, 1100
 ownership        romans_scipii
@@ -9932,13 +9955,13 @@ stat_pri         13, 3, imppilum, 40, 3, thrown, blade, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown ap
 stat_sec         10, 3, no, 0, 0, melee, blade, piercing, sword, 24 ,1
 stat_sec_attr    no
-stat_pri_armour  12, 6, 5, metal
+stat_pri_armour  11, 6, 6, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
 stat_mental      18, disciplined, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3400, 1300, 80, 120, 740
 ownership        romans_scipii
@@ -9988,7 +10011,7 @@ stat_heat        4
 stat_ground      2, -2, 3, 2
 stat_mental      17, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2000, 900, 50, 80, 480
 ownership        slave
@@ -10014,7 +10037,7 @@ stat_heat        2
 stat_ground      0, -2, -4, 2
 stat_mental      15, impetuous, untrained
 stat_charge_dist 50
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2400, 800, 60, 90, 600
 ownership        slave
@@ -10024,7 +10047,7 @@ dictionary       barb_horse_archers_slave      ; Scythian Horse Archers
 category         cavalry
 class            missile
 voice_type       Medium_1
-soldier          barb_horse_archer, 32, 0, 1
+soldier          barb_horse_archer, 35, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, hardy, cantabrian_circle
@@ -10040,7 +10063,7 @@ stat_heat        2
 stat_ground      0, -2, -4, 2
 stat_mental      11, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2160, 1120, 60, 90, 540
 ownership        slave
@@ -10066,7 +10089,7 @@ stat_heat        2
 stat_ground      0, -2, -4, 2
 stat_mental      12, impetuous, untrained
 stat_charge_dist 80
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2320, 900, 60, 90, 580
 ownership        slave
@@ -10092,7 +10115,7 @@ stat_heat        1
 stat_ground      0, 0, -6, 0
 stat_mental      14, disciplined, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 770, 80, 80, 120, 770
 ownership        slave
@@ -10118,7 +10141,7 @@ stat_heat        1
 stat_ground      0, 1, -6, -1
 stat_mental      12, disciplined, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1080, 80, 110, 170, 1080
 ownership        slave
@@ -10144,7 +10167,7 @@ stat_heat        2
 stat_ground      0, -2, -4, 2
 stat_mental      12, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 810, 60, 90, 130, 810
 ownership        slave
@@ -10170,7 +10193,7 @@ stat_heat        1
 stat_ground      0, 0, -6, 0
 stat_mental      13, disciplined, highly_trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 690, 130, 70, 110, 690
 ownership        slave
@@ -10194,7 +10217,7 @@ stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      11, impetuous, untrained
 stat_charge_dist 80
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1620, 800, 50, 70, 420
 ownership        slave
@@ -10218,7 +10241,7 @@ stat_heat        0
 stat_ground      2, 1, 0, -1
 stat_mental      11, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 490, 500, 50, 80, 490
 ownership        slave
@@ -10243,7 +10266,7 @@ stat_heat        -1
 stat_ground      2, 1, 0, -1
 stat_mental      5, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 790, 780, 20, 30, 180
 ownership        slave
@@ -10268,7 +10291,7 @@ stat_heat        -1
 stat_ground      2, 1, 0, -1
 stat_mental      5, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 720, 680, 20, 30, 180
 ownership        slave
@@ -10281,7 +10304,7 @@ voice_type       Light_1
 soldier          greek_archer, 50, 0, 0.8, 0.3
 attributes       sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation        1.6, 2, 3.2, 4, 3, square
-stat_health      1, 0
+stat_health      1, 1
 stat_pri         9, 2, arrow, 135, 30, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
 stat_sec         4, 1, no, 0, 0, melee, simple, piercing, knife, 24 ,1
@@ -10316,10 +10339,10 @@ stat_heat        1
 stat_ground      2, 1, 0, -2
 stat_mental      11, normal, trained
 stat_charge_dist 60
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1850, 900, 40, 50, 530
-ownership        slave 
+ownership        slave
 
 type             indian cavalry
 dictionary       indian_cavalry      ; Indian Cavalry
@@ -10342,7 +10365,7 @@ stat_heat        1
 stat_ground      0, 0, 0, -2
 stat_mental      11, normal, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1720, 900, 70, 110, 690
 ownership        slave
@@ -10380,20 +10403,20 @@ soldier          greek_heavy_peltast, 50, 0, 1, 0.3
 mount_effect     elephant +6, chariot +6
 attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 5, square
-stat_health      1, 0
-stat_pri         8, 4, heavy_javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
+stat_health      1, 1
+stat_pri         10, 4, heavy_javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         7, 2, no, 0, 0, melee, simple, piercing, sword, 1 ,1
 stat_sec_attr    no
-stat_pri_armour  4, 4, 5, leather
+stat_pri_armour  5, 4, 5, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 3, 0
 stat_mental      13, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
-stat_cost        0, 800, 670, 40, 50, 330
+stat_cost        0, 800, 800, 40, 50, 330
 ownership        slave
 
 type             merc illyrian
@@ -10406,7 +10429,7 @@ mount_effect     elephant +6, chariot +6
 attributes       sea_faring, hide_improved_forest, hardy, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 10, square
 stat_health      1, 0
-stat_pri         9, 4, heavy_javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
+stat_pri         10, 4, heavy_javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         7, 4, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
@@ -10416,7 +10439,7 @@ stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      12, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        100, 1180, 1000, 40, 60, 380
 ownership        slave, macedon, thrace 
@@ -10440,7 +10463,7 @@ stat_heat        3
 stat_ground      2, -2, 3, 2
 stat_mental      12, impetuous, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        100, 1180, 1100, 40, 60, 380
 ownership        slave 
@@ -10464,7 +10487,7 @@ stat_heat        3
 stat_ground      2, 0, 0, -1
 stat_mental      12, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1760, 660, 50, 70, 440
 ownership        roman, eastern, greek, barbarian, carthage, egypt
@@ -10488,7 +10511,7 @@ stat_heat        -1
 stat_ground      2, 1, 0, -1
 stat_mental      14, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        80, 1400, 800, 50, 70, 450
 ownership        slave, pontus 
@@ -10512,7 +10535,7 @@ stat_heat        2
 stat_ground      2, -2, 3, 2
 stat_mental      15, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 930, 770, 100, 140, 930
 ownership        slave
@@ -10538,7 +10561,7 @@ stat_heat        4
 stat_ground      0, -2, 0, 2
 stat_mental      17, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 1100, 80, 120, 780
 ownership        slave
@@ -10548,7 +10571,7 @@ dictionary       merc_horse_archers      ; Scythian Mercenaries
 category         cavalry
 class            missile
 voice_type       Medium_1
-soldier          barb_horse_archer, 37, 0, 1
+soldier          barb_horse_archer, 38, 0, 1
 mount            light horse
 mount_effect     elephant -8, camel -4
 attributes       sea_faring, hide_forest, hardy, cantabrian_circle, mercenary_unit
@@ -10564,7 +10587,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -1
 stat_mental      10, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        10, 1300, 640, 60, 90, 540
 ownership        slave, dacia
@@ -10578,7 +10601,7 @@ soldier          parthian_takabara, 60, 0, 1.1, 0.3
 attributes       sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation        1, 1.3, 2, 3, 7, square
 stat_health      1, 1
-stat_pri         9, 2, javelin, 39, 2, thrown, simple, piercing, spear, 24 ,1
+stat_pri         10, 2, javelin, 39, 2, thrown, simple, piercing, spear, 24 ,1
 stat_pri_attr    prec, thrown 
 stat_sec         7, 5, no, 0, 0, melee, simple, piercing, axe, 24 ,1
 stat_sec_attr    no
@@ -10588,10 +10611,34 @@ stat_heat        2
 stat_ground      1, 2, -2, -2
 stat_mental      14, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 840, 50, 80, 500
 ownership        slave
+
+type             phrygian infantry
+dictionary       phrygian_infantry      ; Phrygian Infantry
+category         infantry
+class            heavy
+voice_type       Heavy_1
+soldier          phrygian_infantry, 55, 0, 1.2, 0.3
+attributes       sea_faring, hide_forest, can_sap, very_hardy, mercenary_unit
+formation        1, 1.2, 2, 3, 7, square
+stat_health      1, 1
+stat_pri         13, 2, heavy_javelin, 40, 2, thrown, simple, piercing, spear, 24 ,1
+stat_pri_attr    prec, thrown 
+stat_sec         9, 5, no, 0, 0, melee, blade, piercing, axe, 24 ,1
+stat_sec_attr    no
+stat_pri_armour  7, 6, 4, leather
+stat_sec_armour  0, 1, flesh
+stat_heat        2
+stat_ground      1, 2, -2, -2
+stat_mental      17, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  50000
+stat_food        60, 300
+stat_cost        0, 2200, 940, 80, 110, 710
+ownership        slave, eastern, greek, barbarian, egypt, carthage
 
 type             merc rhodian slingers
 dictionary       merc_rhodian_slingers      ; Rhodian Slingers
@@ -10599,10 +10646,10 @@ category         infantry
 class            missile
 voice_type       Light_1
 soldier          hellenic_slinger, 50, 0, 0.8, 0.28
-attributes       sea_faring, hide_forest, can_sap, hardy, mercenary_unit
+attributes       sea_faring, hide_forest, can_sap, very_hardy, mercenary_unit
 formation        1.4, 2, 3, 4, 4, square
 stat_health      1, 1
-stat_pri         9, 3, bullet, 120, 40, missile, archery, blunt, none, 24 ,1
+stat_pri         10, 3, bullet, 140, 40, missile, archery, blunt, none, 24 ,1
 stat_pri_attr    no
 stat_sec         6, 3, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -10612,7 +10659,7 @@ stat_heat        1
 stat_ground      2, 0, 3, 0
 stat_mental      12, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1480, 800, 20, 30, 350
 ownership        slave
@@ -10626,7 +10673,7 @@ soldier          greek_archer_elite, 50, 0, 0.8, 0.3
 attributes       sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation        1.4, 1.7, 2.8, 3.4, 3, square
 stat_health      1, 1
-stat_pri         11, 3, arrow, 170, 40, missile, archery, piercing, none, 24 ,1
+stat_pri         11, 3, arrow, 170, 45, missile, archery, piercing, none, 24 ,1
 stat_pri_attr    no
 stat_sec         6, 3, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
@@ -10636,7 +10683,7 @@ stat_heat        1
 stat_ground      2, 0, 2, 0
 stat_mental      16, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 2300, 1000, 50, 50, 490
 ownership        slave 
@@ -10647,8 +10694,8 @@ category         infantry
 class            spearmen
 voice_type       Light_1
 soldier          greek_hoplite, 60, 0, 1, 0.3
-attributes       sea_faring, hide_forest, can_sap, hardy, mercenary_unit
-formation        1, 1, 2, 2, 10, square
+attributes       sea_faring, hide_forest, can_sap, very_hardy, mercenary_unit
+formation        1, 1, 2, 2, 10, square, shield_wall
 stat_health      1, 1
 stat_pri         7, 3, no, 0, 0, melee, simple, piercing, spear, 24 ,1
 stat_pri_attr    light_spear, spear_bonus_8
@@ -10660,7 +10707,7 @@ stat_heat        3
 stat_ground      2, 0, 0, 0
 stat_mental      15, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2000, 750, 50, 70, 540
 ownership        slave
@@ -10674,8 +10721,8 @@ soldier          libyan_peltast, 55, 0, 0.9, 0.3
 mount_effect     elephant +6, chariot +6
 attributes       sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy, mercenary_unit
 formation        1.3, 1.5, 2, 3, 6, square
-stat_health      1, 0
-stat_pri         8, 2, javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
+stat_health      1, 1
+stat_pri         9, 2, javelin, 59, 10, thrown, archery, piercing, spear, 24 ,1
 stat_pri_attr    thrown
 stat_sec         5, 2, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_sec_attr    no
@@ -10685,7 +10732,7 @@ stat_heat        -2
 stat_ground      2, 2, -2, -2
 stat_mental      10, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  -500
 stat_food        60, 300
 stat_cost        0, 1000, 550, 20, 30, 170
 ownership        slave
@@ -10711,7 +10758,7 @@ stat_heat        -2
 stat_ground      0, 2, 0,-2
 stat_mental      11, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1100, 450, 50, 80, 480
 ownership        slave, parthia, armenia, romans_brutii
@@ -10726,7 +10773,7 @@ mount            camel
 mount_effect     elephant -8, horse +2
 attributes       sea_faring, hide_forest, hardy, mercenary_unit
 formation        2, 3, 4, 4, 4, square, wedge
-stat_health      1, 2
+stat_health      1, 1
 stat_pri         7, 4, no, 0, 0, melee, simple, piercing, sword, 24 ,1
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 24 ,1
@@ -10737,7 +10784,7 @@ stat_heat        -2
 stat_ground      0, 2, 0,-2
 stat_mental      11, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1200, 470, 50, 80, 480
 ownership        slave, parthia, armenia, romans_brutii
@@ -10763,7 +10810,7 @@ stat_heat        -2
 stat_ground      0, 2, 0,-2
 stat_mental      11, normal, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1300, 640, 70, 100, 650
 ownership        slave, parthia, armenia, romans_brutii
@@ -10776,8 +10823,8 @@ voice_type       Light_1
 soldier          carthaginian_slinger, 50, 0, 0.8, 0.28
 attributes       sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation        1.4, 2, 3, 4, 3, square
-stat_health      1, 0
-stat_pri         10, 6, bullet, 120, 40, missile, archery, blunt, none, 24 ,1
+stat_health      1, 1
+stat_pri         10, 6, bullet, 145, 40, missile, archery, blunt, none, 24 ,1
 stat_pri_attr    no
 stat_sec         6, 3, no, 0, 0, melee, simple, piercing, knife, 24 ,1
 stat_sec_attr    no
@@ -10787,7 +10834,7 @@ stat_heat        -1
 stat_ground      2, 1, 0, -1
 stat_mental      12, normal, trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        90, 1100, 600, 50, 70, 470
 ownership        slave, carthage
@@ -10811,7 +10858,7 @@ stat_heat        3
 stat_ground      2, -2, 2, 2
 stat_mental      13, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1300, 600, 50, 80, 480
 ownership        slave  
@@ -10837,7 +10884,7 @@ stat_heat        2
 stat_ground      0, -2, 0, 2
 stat_mental      14, impetuous, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 1800, 750, 50, 80, 500
 ownership        slave, romans_scipii
@@ -10863,7 +10910,7 @@ stat_heat        -1
 stat_ground      0, 1, 0, -2
 stat_mental      13, normal, highly_trained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 5700, 1800, 260, 380, 2600
 ownership        roman, barbarian, greek, eastern, egypt, slave
@@ -10888,7 +10935,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      8, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2640, 1200, 70, 100, 660
 ownership        roman, greek, carthaginian, eastern, egyptian
@@ -10913,7 +10960,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      8, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3040, 1550, 100, 150, 960
 ownership        roman, greek, carthaginian, eastern, egyptian
@@ -10938,7 +10985,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      8, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4600, 2700, 170, 250, 1650
 ownership        roman, greek, carthaginian, eastern, egyptian
@@ -10963,7 +11010,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      8, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 4920, 2800, 180, 270, 1770
 ownership        roman, greek, carthaginian, eastern, egyptian
@@ -10988,7 +11035,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      8, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        2, 5800, 3000, 250, 370, 2430
 ownership        roman, greek, carthaginian, eastern, egyptian
@@ -11013,7 +11060,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      8, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2160, 1000, 60, 90, 540
 ownership        barbarian
@@ -11038,7 +11085,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      8, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 3040, 1550, 100, 150, 960
 ownership        barbarian
@@ -11063,7 +11110,7 @@ stat_heat        0
 stat_ground      0, 0, 0, 0
 stat_mental      8, normal, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        0, 2800, 1450, 80, 120, 780
 ownership        slave
@@ -11078,7 +11125,7 @@ attributes       sea_faring, hide_forest, very_hardy, warcry
 formation        1, 1.2, 3, 3, 15, square
 stat_health      15, 15
 stat_pri         16, 25, no, 0, 0, melee, blade, slashing, axe, 24 ,50
-stat_pri_attr    no
+stat_pri_attr    area
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
 stat_sec_attr    no
 stat_pri_armour  63, 63, 63, metal
@@ -11087,7 +11134,7 @@ stat_heat        3
 stat_ground      10, 10, 10, 10
 stat_mental      100, berserker, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        2, 680, 50, 60, 90, 570
 ownership        Slave
@@ -11111,7 +11158,7 @@ stat_heat        3
 stat_ground      10, 10, 10, 10
 stat_mental      100, berserker, untrained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        2, 680, 50, 60, 90, 570
 ownership        Slave, scythia
@@ -11136,7 +11183,7 @@ stat_heat        -10
 stat_ground      10, 10, 10, 10
 stat_mental      100, berserker, trained
 stat_charge_dist 40
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        2, 680, 50, 60, 90, 570
 ownership        Slave, scythia
@@ -11160,7 +11207,7 @@ stat_heat        2
 stat_ground      2, -2, 3, 2
 stat_mental      5, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        99, 999999, 10, 20, 30, 150
 ownership        slave
@@ -11184,7 +11231,7 @@ stat_heat        -1
 stat_ground      2, 1, 0, -1
 stat_mental      5, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        99, 999999, 10, 20, 30, 150
 ownership        slave
@@ -11208,7 +11255,7 @@ stat_heat        -1
 stat_ground      2, 1, 0, -1
 stat_mental      5, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        99, 999999, 10, 20, 30, 150
 ownership        slave
@@ -11232,7 +11279,7 @@ stat_heat        1
 stat_ground      2, 0, 0, 0
 stat_mental      0, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        99, 999999, 10, 20, 30, 150
 ownership        slave
@@ -11242,7 +11289,7 @@ dictionary       hoshuf      ; hoshuf
 category         infantry
 class            light
 voice_type       Light_1
-soldier          hoshuf, 60, 0, 0.3
+soldier          hoshuf, 60, 0, 0.4
 mount_effect     elephant -8, camel -8, horse -8
 attributes       sea_faring, hide_forest, can_sap
 formation        1.2, 1.8, 2.4, 2.4, 10, square
@@ -11257,32 +11304,8 @@ stat_heat        2
 stat_ground      -3, -3, -3, -3
 stat_mental      0, low, untrained
 stat_charge_dist 30
-stat_fire_delay  0
+stat_fire_delay  50000
 stat_food        60, 300
 stat_cost        1, 1, 1, 1, 1, 1
 ownership        slave
 
-type             greek mahairofory2
-dictionary       greek_mahairofory      ; Greek heavy Machairohporoi
-category         infantry
-class            heavy
-voice_type       Heavy_1
-soldier          olympic_chempions, 50, 0, 10, 0.3
-mount_effect     elephant +2, chariot +1
-attributes       sea_faring, hide_improved_forest, can_sap, very_hardy, warcry
-formation        1, 1.2, 2, 2.4, 6, square
-stat_health      15, 15
-stat_pri         30, 29, longjavelin2, 293, 99999, thrown, archery, piercing, spear, 24 ,24
-stat_pri_attr    launching, thrown, spear_bonus_8, ap, bp
-stat_sec         50, 20, no, 0, 0, melee, blade, piercing, sword, 10 ,25
-stat_sec_attr    no
-stat_pri_armour  60, 60, 60, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        3
-stat_ground      2, 0, 1, -2
-stat_mental      99, disciplined, highly_trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 2620, 1200, 40, 60, 680
-ownership        greek_cities, numidia, macedon, seleucid, thrace, romans_julii

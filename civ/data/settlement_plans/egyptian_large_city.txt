@@ -140,7 +140,7 @@ slot_112x64_equestrian,	255.47,	266.08,	-90,	0
 slot_112x64_health,	-318.34,	-220.56,	90,	0
 
 slot_256x192_core_building,	-105.93,	229.65,	0,	-0
-slot_plaza_egyptian_192x192m,	-9.48,	5.65,	0,	0
+;slot_plaza_egyptian_192x192m,	-9.48,	5.65,	0,	0
 
 egyptian_obelisk,	36,	201,	0,	0
 egyptian_obelisk,	293,	-171,	0,	0

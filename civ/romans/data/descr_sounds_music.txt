@@ -63,9 +63,9 @@ BANK: music_bank
 	culture roman
 		state MUSIC_FRONTEND
 			event
-				folder data/sounds/music
-				Frontend1-Rome_Total_War.mp3
-				Frontend2-Rome_HQ.mp3
+				folder civ/data/sounds/music
+				RomeTotalWar_Main_Theme_Re-orchestrated.mp3
+				9th_legion.mp3
 			end
 
 

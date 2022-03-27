@@ -50,7 +50,7 @@ Locus_Rugii
 	germans				
 	Rugii				
 	203 41 232				
-	silver, iron, amber, slaves, Germania, viking	
+	silver, iron, amber, slaves, Germania, viking, barbarian	
 	5
 	6
 
@@ -59,7 +59,7 @@ Tribus_Neuri
 	germans				
 	Neuri				
 	131 33 125						
-	amber, timber, wild_animals, slaves, Germania, scythian	
+	amber, timber, wild_animals, slaves, Germania, scythian, barbarian	
 	5
 	7
 
@@ -68,7 +68,7 @@ Locus_Lugii
 	spain				
 	Lugii				
 	177 78 58				
-	furs, iron, silver, slaves, Germania		
+	furs, iron, silver, slaves, Germania, barbarian		
 	5
 	6
 
@@ -86,7 +86,7 @@ Getia
 	dacia				
 	Daci				
 	72 177 58				
-	grain, slaves, VII_CLAUDIA, getti, bosporus 		
+	grain, slaves, VII_CLAUDIA, getti, bosporus, barbarian 		
 	5
 	9
 
@@ -160,7 +160,7 @@ Cisalpine_Gaul
 	gauls				
 	Insubres				
 	221 232 41						
-	slaves, III_Gallica	
+	slaves, III_Gallica, barbarian	
 	5
 	10
 
@@ -169,7 +169,7 @@ Venetia
 	gauls				
 	Veneti				
 	13 198 117				
-	furs, glass, textiles, slaves, III_Gallica	
+	furs, glass, textiles, slaves, III_Gallica, barbarian	
 	5
 	10
 
@@ -178,7 +178,7 @@ Transalpine_Gaul
 	greek_cities				
 	Vocontii				
 	117 198 13				
-	olive_oil, slaves, V_alaudae, greek, III_Gallica		
+	olive_oil, slaves, V_alaudae, greek, III_Gallica, barbarian		
 	5
 	9
 
@@ -187,7 +187,7 @@ Dalmatia
 	dacia				
 	Illyrians				
 	58 173 177				
-	gold, silver, iron, wine, slaves, illyria, VII_CLAUDIA		
+	gold, silver, iron, wine, slaves, illyria, VII_CLAUDIA, barbarian		
 	5
 	4
 
@@ -205,7 +205,7 @@ Tribus_Eravisci
 	dacia				
 	Eravisci				
 	250 128 151						
-	pigs, hides, slaves, illyria, II_adiuturix 	
+	pigs, hides, slaves, illyria, II_adiuturix, barbarian 	
 	5
 	8
 
@@ -214,7 +214,7 @@ Pannonia
 	spain				
 	Pannonians				
 	131 61 33				
-	textiles, iron,	slaves, illyria, II_adiuturix
+	textiles, iron,	slaves, illyria, II_adiuturix, barbarian
 	3
 	8
 
@@ -223,7 +223,7 @@ Dardania
 	thrace				
 	Dardanii				
 	131 33 100						
-	silver, slaves, VII_CLAUDIA, V_MACEDONICA, illyria, getti 	
+	silver, slaves, VII_CLAUDIA, V_MACEDONICA, illyria, getti, barbarian 	
 	5
 	7
 
@@ -232,7 +232,7 @@ Moesia
 	thrace				
 	Moesii				
 	98 101 199						
-	silver, slaves, VII_CLAUDIA, illyria, getti, bosporus	
+	silver, slaves, VII_CLAUDIA, illyria, getti, bosporus, barbarian	
 	5
 	6
 
@@ -878,7 +878,7 @@ Scandia
 	germans				
 	Goths				
 	126 115 178				
-	iron, amber, slaves, viking, Germania		
+	iron, amber, slaves, viking, Germania, barbarian		
 	5
 	3
 ;;;;;;;;;;;Central Asia;;;;;;;;;;;
@@ -1312,7 +1312,7 @@ Ceretania
 	greek_cities				
 	Iberians				
 	13 196 198				
-	timber, marble, slaves, IX_Hispana		
+	timber, marble, slaves, IX_Hispana, barbarian		
 	5
 	8
 
@@ -1321,7 +1321,7 @@ Beribracia
 	romans_scipii				
 	Iberians				
 	53 100 47				
-	pottery, slaves, IX_Hispana, greek		
+	pottery, slaves, IX_Hispana, greek, barbarian		
 	5
 	8
 
@@ -1330,7 +1330,7 @@ Lusitania
 	carthage				
 	Iberians				
 	13 198 30						
-	slaves, IX_Hispana	
+	slaves, IX_Hispana, barbarian	
 	5
 	7
 
@@ -1339,7 +1339,7 @@ Tartesania
 	carthage				
 	Iberians				
 	204 9 9				
-	dogs, slaves, IX_Hispana
+	dogs, slaves, IX_Hispana, barbarian
 	5
 	7
 
@@ -1348,7 +1348,7 @@ Carpetania
 	gauls				
 	Iberians				
 	238 106 8				
-	silver, copper, lead, slaves, IX_Hispana		
+	silver, copper, lead, slaves, IX_Hispana, barbarian		
 	5
 	6
 
@@ -1357,7 +1357,7 @@ Bastetania
 	carthage				
 	Iberians				
 	187 198 13				
-	dogs, lead, silver, slaves, IX_Hispana		
+	dogs, lead, silver, slaves, IX_Hispana, barbarian		
 	5
 	7
 
@@ -1366,7 +1366,7 @@ Turdetania
 	carthage				
 	Iberians				
 	17 13 198				
-	silver, copper, lead, gold, olive_oil, wine, slaves, IX_Hispana		
+	silver, copper, lead, gold, olive_oil, wine, slaves, IX_Hispana, barbarian		
 	5
 	10
 
@@ -1375,7 +1375,7 @@ Celtiberia
 	gauls				
 	Iberians				
 	198 13 35				
-	pigs, wine, iron, silver, slaves, IX_Hispana		
+	pigs, wine, iron, silver, slaves, IX_Hispana, barbarian		
 	5
 	8
 
@@ -1384,7 +1384,7 @@ Asturia
 	spain				
 	Iberians				
 	204 160 7				
-	tin, slaves, IX_Hispana		
+	tin, slaves, IX_Hispana, barbarian		
 	5
 	5
 
@@ -1393,7 +1393,7 @@ Gallaecia
 	gauls				
 	Iberians				
 	13 157 198				
-	gold, timber, iron, slaves, IX_Hispana		
+	gold, timber, iron, slaves, IX_Hispana, barbarian		
 	5
 	4
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1420,7 +1420,7 @@ Tribus_Bastarnae
 	dacia				
 	Bastarnae				
 	223 192 126						
-	slaves	
+	slaves, barbarian	
 	5
 	7
 
@@ -1429,7 +1429,7 @@ Tribus_Tissagetae
 	germans				
 	Tissagetae				
 	175 198 15				
-	wild_animals, timber, slaves, scythian		
+	wild_animals, timber, slaves, scythian, barbarian		
 	5
 	4
 
@@ -1503,7 +1503,7 @@ Tribus_Trinovantes
 	gauls				
 	Trinovantes				
 	232 41 46				
-	iron, textiles, slaves, II_AUGUSTA		
+	iron, textiles, slaves, II_AUGUSTA, barbarian		
 	5
 	8
 
@@ -1512,7 +1512,7 @@ Caledonia
 	gauls				
 	Caledonii				
 	6 122 176				
-	slaves, II_AUGUSTA		
+	slaves, II_AUGUSTA, barbarian		
 	5
 	3
 
@@ -1521,7 +1521,7 @@ Tribus_Ordovices
 	gauls				
 	Ordovices				
 	41 232 63				
-	gold, lead, slaves, II_AUGUSTA		
+	gold, lead, slaves, II_AUGUSTA, barbarian		
 	5
 	4
 
@@ -1530,7 +1530,7 @@ Tribus_Dumnonii
 	gauls				
 	Dumnonii				
 	129 123 31				
-	tin, slaves, II_AUGUSTA		
+	tin, slaves, II_AUGUSTA, barbarian		
 	5
 	4
 
@@ -1539,7 +1539,7 @@ Tribus_Brigantes
 	gauls				
 	Brigantes				
 	232 41 198				
-	furs, slaves, lead, II_AUGUSTA		
+	furs, slaves, lead, II_AUGUSTA, barbarian		
 	5
 	5
 
@@ -1548,7 +1548,7 @@ Connachta
 	gauls				
 	Eblani				
 	212 232 41						
-	silver, slaves, II_AUGUSTA
+	silver, slaves, II_AUGUSTA, barbarian
 	5
 	3
 
@@ -1557,7 +1557,7 @@ Erain
 	gauls				
 	Hibernians				
 	43 130 47						
-	slaves
+	slaves, barbarian
 	5
 	3
 
@@ -1567,7 +1567,7 @@ Sequania
 	gauls				
 	Sequani				
 	72 41 232						
-	wine, slaves, V_alaudae, XXII_primigenia	 
+	wine, slaves, V_alaudae, XXII_primigenia, barbarian	 
 	4
 	7
 
@@ -1576,7 +1576,7 @@ Lugdinensis
 	gauls				
 	Allobroges				
 	85 114 141				
-	glass, pottery, slaves, V_alaudae		
+	glass, pottery, slaves, V_alaudae, barbarian		
 	3
 	6
 
@@ -1585,7 +1585,7 @@ Aeduia
 	gauls				
 	Bituriges				
 	31 75 37				
-	hides, slaves, V_alaudae, XXII_primigenia		
+	hides, slaves, V_alaudae, XXII_primigenia, barbarian		
 	4
 	7
 
@@ -1594,7 +1594,7 @@ Lemovicia
 	gauls				
 	Lemovici				
 	68 232 41				
-	grain, slaves, V_alaudae				
+	grain, slaves, V_alaudae, barbarian				
 	4
 	8
 
@@ -1603,7 +1603,7 @@ Aquitania
 	gauls				
 	Aquitani				
 	154 162 97				
-	marble, wine, pigs, slaves, V_alaudae	
+	marble, wine, pigs, slaves, V_alaudae, barbarian	
 	3
 	8
 
@@ -1612,7 +1612,7 @@ Arvernia
 	gauls				
 	Arverni				
 	194 204 127				
-	iron, slaves, V_alaudae		
+	iron, slaves, V_alaudae, barbarian		
 	3
 	7
 
@@ -1621,7 +1621,7 @@ Narbonensis
 	gauls				
 	Volcae				
 	196 13 198				
-	silver, wine, textiles, pigs, slaves, V_alaudae		
+	silver, wine, textiles, pigs, slaves, V_alaudae, barbarian		
 	5
 	8
 
@@ -1630,7 +1630,7 @@ Biturigia
 	gauls				
 	Bituriges				
 	68 166 211				
-	iron, lead, slaves, V_alaudae		
+	iron, lead, slaves, V_alaudae, barbarian		
 	4
 	7
 
@@ -1639,7 +1639,7 @@ Armorica
 	gauls				
 	Veneti				
 	232 41 135				
-	timber, glass, slaves, V_alaudae		
+	timber, glass, slaves, V_alaudae, barbarian		
 	4
 	7
 
@@ -1648,7 +1648,7 @@ Belgica
 	gauls				
 	Belgae				
 	232 90 41				
-	marble, pottery, textiles, slaves, XXII_primigenia		
+	marble, pottery, textiles, slaves, XXII_primigenia, barbarian		
 	4
 	7
 
@@ -1657,7 +1657,7 @@ Aulercia
 	gauls				
 	Belgae				
 	33 152 75				
-	slaves, V_alaudae		
+	slaves, V_alaudae, barbarian		
 	5
 	7
 
@@ -1667,7 +1667,7 @@ Cimbrica
 	germans				
 	Cimbri				
 	232 41 55				
-	slaves, timber, amber, viking		
+	slaves, timber, amber, viking, barbarian		
 	5
 	4
 
@@ -1676,7 +1676,7 @@ Locus_Aestii
 	germans				
 	Aestii				
 	58 177 95				
-	dogs, amber, slaves, Germania		
+	dogs, amber, slaves, Germania, barbarian		
 	5
 	4
 
@@ -1685,7 +1685,7 @@ Tribus_Suebi
 	germans				
 	Suebi				
 	232 198 41				
-	hides, slaves, I_GERMANICA, Germania		
+	hides, slaves, I_GERMANICA, Germania, barbarian		
 	5
 	5
 
@@ -1694,7 +1694,7 @@ Tribus_Chauci
 	germans				
 	Chauci				
 	41 162 232				
-	dogs, slaves, I_GERMANICA, Germania		
+	dogs, slaves, I_GERMANICA, Germania, barbarian		
 	5
 	5
 
@@ -1703,7 +1703,7 @@ Tribus_Cherusci
 	germans				
 	Cherusci				
 	219 9 68				
-	iron, hides, slaves, XXII_primigenia, Germania		
+	iron, hides, slaves, XXII_primigenia, Germania, barbarian		
 	5
 	6
 
@@ -1712,7 +1712,7 @@ Tribus_Chattii
 	germans				
 	Chatti				
 	39 67 171				
-	furs, wild_animals, timber, slaves, I_GERMANICA, Germania
+	furs, wild_animals, timber, slaves, I_GERMANICA, Germania, barbarian
 	5
 	5
 
@@ -1721,7 +1721,7 @@ Tribus_Volcae
 	gauls				
 	Volcae				
 	63 232 41				
-	wine, hides, slaves, I_GERMANICA, Germania		
+	wine, hides, slaves, I_GERMANICA, Germania, barbarian		
 	5
 	7
 
@@ -1730,7 +1730,7 @@ Boihaemum
 	spain				
 	Boii				
 	58 150 177				
-	silver, iron, slaves, Germania		
+	silver, iron, slaves, Germania, barbarian		
 	3
 	7
 
@@ -1739,7 +1739,7 @@ Noricum
 	spain				
 	Nori				
 	230 41 232						
-	gold, wine, copper, slaves, I_GERMANICA, Germania	
+	gold, wine, copper, slaves, I_GERMANICA, Germania, barbarian	
 	3
 	6
 
@@ -1748,7 +1748,7 @@ Tribus_Cotini
 	spain				
 	Cotini				
 	33 100 131						
-	iron, slaves, Germania	
+	iron, slaves, Germania, barbarian	
 	5
 	5
 
@@ -1757,7 +1757,7 @@ Nurthralandan
 	germans				
 	Sueones				
 	19 147 64				
-	dogs, silver, slaves, viking, Germania		
+	dogs, silver, slaves, viking, Germania, barbarian		
 	5
 	2
 
@@ -1766,7 +1766,7 @@ Dacia
 	dacia				
 	Tevrisci				
 	72 122 168				
-	furs, silver, gold, iron, copper, slaves, VII_CLAUDIA, getti  		
+	furs, silver, gold, iron, copper, slaves, VII_CLAUDIA, getti, barbarian  		
 	5
 	6
 
@@ -1775,7 +1775,7 @@ Insula_Gothii
 	germans				
 	Goths				
 	218 89 3				
-	slaves, viking		
+	slaves, viking, barbarian		
 	5
 	3
 
@@ -1784,7 +1784,7 @@ Locus_Careotae
 	germans				
 	Careotae				
 	148 155 177				
-	wild_animals, dogs, timber, slaves, scythian		
+	wild_animals, dogs, timber, slaves, scythian, barbarian		
 	5
 	5
 

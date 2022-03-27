@@ -164,8 +164,8 @@ pool Egypt
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.03 - 0.05 max 1 initial 1
 
 pool Northern_Europe
-	regions	Scandia Insula_Gothii Nurthralandan Locus_Aestii Locus_Careotae			
-	unit merc barbarian infantry,			exp 0 cost 800 replenish 0.03 - 0.08 max 1 initial 0
+	regions	Scandia Insula_Gothii Locus_Aestii Locus_Careotae			; Nurthralandan 
+	unit merc barbarian infantry,			exp 1 cost 800 replenish 0.03 - 0.08 max 1 initial 0
 
 pool Sarmatia
 	regions Tribus_Roxolani Tribus_Aorsi Tribus_Iirkai Tribus_Massagetae			

@@ -118,8 +118,8 @@ default
 		grass_long		CLAY	NORMAL
 		shrub_sparse	SOIL	NORMAL
 		shrub_dense		SOIL	NORMAL
-		forest_sparse	SOIL	VERY_HIGH
-		forest_dense	SOIL	VERY_HIGH
+		forest_sparse	SOIL	VERY_LOW
+		forest_dense	SOIL	VERY_LOW
 	}
 
 	generation
@@ -214,8 +214,8 @@ sandy_desert modifies default
 		grass_long		CLAY	NORMAL
 		shrub_sparse	CLAY	HIGH
 		shrub_dense		SOIL	NORMAL
-		forest_sparse	CLAY	VERY_HIGH
-		forest_dense	SOIL	VERY_HIGH
+		forest_sparse	CLAY	VERY_LOW
+		forest_dense	SOIL	VERY_LOW
 	}
 
 	generation
@@ -441,7 +441,7 @@ temperate_grassland_infertile modifies default
 		MOUNTAINS_HIGH	ROCK	NORMAL 		0.0		5		0.0			200.0	250.0		0.0		7		-0.15		  0.0	0.5		
 		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
 		HILLS			ROCK	NORMAL		-0.5	7		-0.15		  0.0	 40.0		0.0		7		-0.15		  0.0	0.7		
-		FOREST_DENSE	SHALE	NORMAL		0.0		5		0.0			  0.0	 30.0		0.0		7		-0.15		  0.0	0.7		
+		FOREST_DENSE	SHALE	LOW		0.0		5		0.0			  0.0	 30.0		0.0		7		-0.15		  0.0	0.7		
 		FOREST_SPARSE	SHALE	LOW			0.0		5		0.0			  0.0	  8.0		0.0		7		-0.15		  0.0	0.7		
 		SWAMP			SWAMP	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
 		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
@@ -617,8 +617,8 @@ temperate_forest_deep modifies default
 		grass_long		CLAY	LOW
 		shrub_sparse	CLAY	HIGH
 		shrub_dense		SHALE	HIGH
-		forest_sparse	CLAY	VERY_HIGH
-		forest_dense	SOIL	VERY_HIGH
+		forest_sparse	CLAY	NORMAL
+		forest_dense	SOIL	NORMAL
 	}
 
 	generation
@@ -713,8 +713,8 @@ swamp modifies default
 		grass_long		CLAY	NORMAL
 		shrub_sparse	CLAY	HIGH
 		shrub_dense		SHALE	HIGH
-		forest_sparse	CLAY	VERY_HIGH
-		forest_dense	SOIL	VERY_HIGH
+		forest_sparse	CLAY	NORMAL
+		forest_dense	SOIL	NORMAL
 	}
 
 	generation
@@ -809,8 +809,8 @@ highland modifies default
 		grass_long		CLAY	NORMAL
 		shrub_sparse	CLAY	HIGH
 		shrub_dense		SHALE	HIGH
-		forest_sparse	CLAY	VERY_HIGH
-		forest_dense	SOIL	VERY_HIGH
+		forest_sparse	CLAY	NORMAL
+		forest_dense	SOIL	NORMAL
 	}
 
 	generation
@@ -905,8 +905,8 @@ alpine modifies default
 		grass_long		CLAY	NORMAL
 		shrub_sparse	CLAY	HIGH
 		shrub_dense		CLAY	HIGH
-		forest_sparse	CLAY	VERY_HIGH
-		forest_dense	SOIL	VERY_HIGH
+		forest_sparse	CLAY	LOW
+		forest_dense	SOIL	LOW
 	}
 
 	generation
@@ -1001,8 +1001,8 @@ sub_arctic modifies default
 		grass_long		CLAY	NORMAL
 		shrub_sparse	CLAY	HIGH
 		shrub_dense		CLAY	HIGH
-		forest_sparse	CLAY	VERY_HIGH
-		forest_dense	SOIL	VERY_HIGH
+		forest_sparse	CLAY	LOW
+		forest_dense	SOIL	LOW
 	}
 }
 

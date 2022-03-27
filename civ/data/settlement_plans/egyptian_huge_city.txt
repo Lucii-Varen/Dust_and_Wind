@@ -154,7 +154,7 @@ slot_112x64_barracks,	-160,	24.32,	180,	0
 slot_112x64_academic,	-160,	-225.93,	180,	0
 slot_48x32_smith,	345.4,	-210.19,	0,	0
 slot_112x64_health,	-286,	-277,	90,	0
-slot_plaza_egyptian_192x192m,	0,	0,	0,	0
+;slot_plaza_egyptian_192x192m,	0,	0,	0,	0
 
 ;egyptian_arch,		-85,	-416,	0,	0
 ;egyptian_arch,		112,	20,	90,	0

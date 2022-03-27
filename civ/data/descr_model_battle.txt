@@ -615,7 +615,8 @@ texture				greek_cities, civ/data/new/models_units/textures/HORSE_CATAPHRACTS_AT
 texture				egypt, civ/data/new/models_units/textures/HORSE_CATAPHRACTS_EGYPT.TGA
 texture				seleucid, civ/data/new/models_units/textures/HORSE_CATAPHRACT_SELEUCID.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/HORSE_CATAPHRACT_SELEUCID.TGA
-model_flexi_m			civ/data/new/models_units/mount_horse_cataphract_hellenic.CAS, 25
+texture				britons, civ/data/new/models_units/textures/HORSE_CATAPHRACT_SELEUCID.TGA
+model_flexi			civ/data/new/models_units/mount_horse_cataphract_hellenic.CAS, 25
 model_flexi			civ/data/new/models_units/mount_horse_cataphract_hellenic.CAS, 55
 model_flexi			civ/data/new/models_units/mount_horse_cataphract_hellenic.CAS, 80
 model_flexi			civ/data/new/models_units/mount_horse_cataphract_hellenic.CAS, max
@@ -626,6 +627,7 @@ model_sprite		greek_cities, 100.0, civ/data/sprites/greek_cities_horse_cataphrac
 model_sprite		egypt, 100.0, civ/data/sprites/egypt_horse_cataphract_hellenic_sprite.spr
 model_sprite		seleucid, 100.0, civ/data/sprites/seleucid_horse_cataphract_hellenic_sprite.spr
 model_sprite		roman_rebels, 100.0, civ/data/sprites/seleucid_horse_cataphract_hellenic_sprite.spr
+model_sprite		britons, 100.0, civ/data/sprites/seleucid_horse_cataphract_hellenic_sprite.spr
 model_tri			700, 0.3f, 0.3f, 0.3f
 
 type				Immortal_cataphract
@@ -1576,6 +1578,7 @@ model_flexi			civ/data/new/models_units/UNIT_BARB_DACIAN_HEAVY_SPEARMAN.CAS, 8
 model_flexi			civ/data/new/models_units/UNIT_BARB_DACIAN_HEAVY_SPEARMAN.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_BARB_DACIAN_HEAVY_SPEARMAN.cas, 30
 model_flexi			civ/data/new/models_units/UNIT_BARB_DACIAN_HEAVY_SPEARMAN.cas, max
+model_sprite		dacia, 65.0, civ/data/sprites/dacia_dacian_heavy_spearmen_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				barb_infantry_longshield_gaul
@@ -1689,6 +1692,17 @@ model_flexi			civ/data/new/models_units/UNIT_BARB_FALX_WARBAND.cas, 30
 model_flexi			civ/data/new/models_units/UNIT_BARB_FALX_WARBAND.cas, max
 model_sprite		dacia, 60.0, civ/data/sprites/dacia_warband_falx_sprite.spr
 model_sprite		thrace, 60.0, civ/data/sprites/dacia_warband_falx_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				heavy_falxmen
+skeleton			fs_2handed
+indiv_range			40
+texture				dacia, civ/data/new/models_units/textures/unit_barb_dacian_heavy_falxman.tga
+model_flexi			civ/data/new/models_units/UNIT_BARB_DACIAN_HEAVY_FALXMAN.cas, 8
+model_flexi			civ/data/new/models_units/UNIT_BARB_DACIAN_HEAVY_FALXMAN.cas, 15
+model_flexi			civ/data/new/models_units/UNIT_BARB_DACIAN_HEAVY_FALXMAN.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_BARB_DACIAN_HEAVY_FALXMAN.cas, max
+model_sprite		dacia, 60.0, civ/data/sprites/dacia_heavy_falxmen_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				warband_huntsman
@@ -2078,10 +2092,10 @@ type				LIBYAN_SPEARMAN_LATE												; combat spear
 skeleton			fs_spearman, fs_swordsman
 indiv_range			40
 texture			carthage, civ/data/new/models_units/textures/UNIT_CARTHAGE_LYBIAN_SPEARMAN_LATE.tga
-model_flexi_m		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE.cas, 15
-model_flexi_m		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE.cas, 30
-model_flexi_m		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE.cas, 40
-model_flexi		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE.cas, max
+model_flexi		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE.cas, 15
+model_flexi		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE_LOW.cas, 30
+model_flexi		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE_LOW.cas, 40
+model_flexi		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE_LOW.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				carthaginian_infantry											; combat spear
@@ -2441,7 +2455,7 @@ model_flexi			civ/data/new/models_units/UNIT_EAST_INDIAN_CAVALRY.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				immortals
-skeleton			fs_slow_spearman, fs_slow_swordsman
+skeleton			fs_s1_hoplite_heavy, fs_slow_swordsman
 indiv_range			40
 texture				parthia, civ/data/new/models_units/textures/immortals.tga
 model_flexi_m		civ/data/new/models_units/Immortals.CAS, 15
@@ -2485,6 +2499,7 @@ texture				numidia, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_CATAPHRA
 texture				thrace, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_CATAPHRACT_THRACE.TGA
 texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_CATAPHRACT_SELEUCID.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_CATAPHRACT_BAKTRIAN.TGA
+texture				britons, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_CATAPHRACT_PERGAMUM.TGA
 model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT.CAS, 8
 model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT_LOW.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_CATAPHRACT_LOW.cas, 30
@@ -2497,6 +2512,7 @@ model_sprite		macedon, 70.0, civ/data/sprites/macedon_greek_heavy_cataphract_spr
 model_sprite		numidia, 70.0, civ/data/sprites/numidia_greek_heavy_cataphract_sprite.spr
 model_sprite		thrace, 70.0, civ/data/sprites/seleucid_greek_heavy_cataphract_sprite.spr
 model_sprite		seleucid, 70.0, civ/data/sprites/thrace_greek_heavy_cataphract_sprite.spr
+model_sprite		britons, 70.0, civ/data/sprites/britons_greek_heavy_cataphract_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				bosporan_cataphract
@@ -2902,22 +2918,6 @@ model_flexi			civ/data/new/models_units/unit_egyption_infantry.cas, max
 model_sprite		60.0, data/sprites/egyptian_cavalry_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
-type				egyptian_peltast
-skeleton			fs_semi_fast_javelinman, fs_semi_fast_swordsman										; throwing spear
-indiv_range			40
-texture				egypt, civ/data/new/models_units/textures/unit_egyption_peltast.tga
-texture				slave, civ/data/new/models_units/textures/unit_egyption_peltast.tga
-texture				merc, civ/data/new/models_units/textures/unit_egyption_peltast.tga
-model_flexi			civ/data/new/models_units/unit_egyptian_peltast.cas, 15
-model_flexi			civ/data/new/models_units/unit_egyptian_peltast.cas, 30
-model_flexi			civ/data/new/models_units/unit_egyptian_peltast.cas, 40
-model_flexi			civ/data/new/models_units/unit_egyptian_peltast.cas, max
-model_sprite		slave, 60.0, data/sprites/slave_egyptian_peltast_sprite.spr
-model_sprite		egypt, 60.0, data/sprites/egypt_egyptian_peltast_sprite.spr
-model_sprite		merc, 60.0, data/sprites/egypt_egyptian_peltast_sprite.spr
-model_tri			400, 0.5f, 0.5f, 0.5f
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 ;					GREEKS
@@ -3190,10 +3190,11 @@ texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_xystophoroi_ma
 texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_xystophoroi_seleucid.tga
 texture				egypt, civ/data/new/models_units/textures/UNIT_GREEK_xystophoroi_egypt.tga
 texture				greek_cities, civ/data/new/models_units/textures/UNIT_GREEK_xystophoroi_athenian.tga
-model_flexi_m		civ/data/new/models_units/UNIT_GREEK_xystophoroi.cas, 8
-model_flexi_m		civ/data/new/models_units/UNIT_GREEK_xystophoroi.cas, 15
-model_flexi_m		civ/data/new/models_units/UNIT_GREEK_xystophoroi.cas, 30
-model_flexi_m		civ/data/new/models_units/UNIT_GREEK_xystophoroi.cas, 40
+texture				pontus, civ/data/new/models_units/textures/UNIT_GREEK_xystophoroi_pontus.tga
+model_flexi			civ/data/new/models_units/UNIT_GREEK_xystophoroi.cas, 8
+model_flexi			civ/data/new/models_units/UNIT_GREEK_xystophoroi.cas, 15
+model_flexi			civ/data/new/models_units/UNIT_GREEK_xystophoroi.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_GREEK_xystophoroi.cas, 40
 model_flexi			civ/data/new/models_units/UNIT_GREEK_xystophoroi.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
@@ -3220,11 +3221,21 @@ texture				thrace, civ/data/new/models_units/textures/unit_greek_peltast_thrace.
 texture				romans_julii, civ/data/new/models_units/textures/unit_greek_peltast_cimmerian.tga
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_ETRUSCAN_PELTAST.TGA
 texture				britons, civ/data/new/models_units/textures/UNIT_GREEK_PELTAST_PERGAMUM.TGA
+texture				egypt, civ/data/new/models_units/textures/unit_egyption_peltast.tga
 texture				slave, civ/data/new/models_units/textures/UNIT_GREEK_PELTAST_GREEK.TGA
 model_flexi			civ/data/new/models_units/unit_greek_peltast.cas, 15
 model_flexi			civ/data/new/models_units/unit_greek_peltast.cas, 30
 model_flexi			civ/data/new/models_units/unit_greek_peltast.cas, 40
 model_flexi			civ/data/new/models_units/unit_greek_peltast.cas, max
+model_sprite		egypt, 60.0, civ/data/sprites/egypt_greek_peltast_sprite.spr
+model_sprite		roman_rebels, 60.0, civ/data/sprites/roman_rebels_greek_peltast_sprite.spr
+model_sprite		romans_julii, 60.0, civ/data/sprites/romans_julii_greek_peltast_sprite.spr
+model_sprite		numidia, 60.0, civ/data/sprites/numidia_greek_peltast_sprite.spr
+model_sprite		greek_cities, 60.0, civ/data/sprites/greek_cities_greek_peltast_sprite.spr
+model_sprite		seleucid, 60.0, civ/data/sprites/seleucid_greek_peltast_sprite.spr
+model_sprite		thrace, 60.0, civ/data/sprites/thrace_greek_peltast_sprite.spr
+model_sprite		macedon, 60.0, civ/data/sprites/macedon_greek_peltast_sprite.spr
+model_sprite		britons, 60.0, civ/data/sprites/britons_greek_peltast_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_javelin_cavalry
@@ -3365,7 +3376,7 @@ model_sprite		merc, 60.0, civ/data/sprites/greek_cilician_pirate_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				thracian_mercenaries
-skeleton			fs_semi_fast_javelinman, fs_semi_fast_swordsman
+skeleton			fs_s1_fast_javelinman, fs_semi_fast_swordsman
 indiv_range			40
 texture				macedon, civ/data/new/models_units/textures/unit_thracian_mercenaries.tga
 texture				merc, civ/data/new/models_units/textures/unit_thracian_mercenaries.tga
@@ -3397,6 +3408,7 @@ texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_PELTASTS
 texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_PELTASTS_SELEUCID.TGA
 texture				egypt, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_PELTASTS_EGYPTIAN.TGA
 texture				britons, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_PELTASTS_PERGAMUM.TGA
+texture				pontus, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_PELTASTS_PONTUS.TGA
 texture				slave, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_PELTASTS_SLAVE.TGA
 texture				merc, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_PELTASTS_SLAVE.TGA
 model_flexi			civ/data/new/models_units/UNIT_GREEK_HEAVY_PELTASTS.cas, 15
@@ -3412,6 +3424,7 @@ model_sprite		greek_cities, 70.0, civ/data/sprites/greek_cities_greek_heavy_pelt
 model_sprite		egypt, 70.0, civ/data/sprites/greek_cities_greek_heavy_peltast_sprite.spr
 model_sprite		seleucid, 70.0, civ/data/sprites/seleucid_greek_heavy_peltast_sprite.spr
 model_sprite		macedon, 70.0, civ/data/sprites/macedon_greek_heavy_peltast_sprite.spr
+model_sprite		pontus, 70.0, civ/data/sprites/pontus_greek_heavy_peltast_sprite.spr
 model_sprite		merc, 70.0, data/sprites/slave_greek_heavy_peltast_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
@@ -3999,7 +4012,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_heavy_peltast_merc
 skeleton			fs_fast_javelinman, fs_fast_swordsman
 indiv_range			40
-texture				slave, civ/data/new/models_units/textures/UNIT_GREEK_ILLYRIAN_HOPLITE.TGA
+texture				slave, civ/data/new/models_units/textures/UNIT_GREEK_ILLYRIAN_PELTAST.TGA
 texture				merc, civ/data/new/models_units/textures/UNIT_GREEK_ILLYRIAN_PELTAST.TGA
 model_flexi			civ/data/new/models_units/UNIT_GREEK_ILLYRIAN_PELTAST.cas, 15
 model_flexi			civ/data/new/models_units/UNIT_GREEK_ILLYRIAN_PELTAST.cas, 30
@@ -4708,12 +4721,32 @@ texture				scythia, civ/data/new/models_units/textures/Ephesian_AND_Rhodian_hopl
 texture				romans_julii, civ/data/new/models_units/textures/Ephesian_AND_Rhodian_hoplite.TGA
 texture				romans_brutii, civ/data/new/models_units/textures/Ephesian_AND_Rhodian_hoplite.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/Ephesian_AND_Rhodian_hoplite.TGA
-texture				merc, civ/data/new/models_units/textures/Ephesian_hoplite.TGA ;Ephesian hoplite
+texture				merc, civ/data/new/models_units/textures/Ephesian_hoplite.TGA
 model_flexi			civ/data/new/models_units/Ephesian_Rhodian_hoplite_high.cas, 15
 model_flexi			civ/data/new/models_units/Ephesian_Rhodian_hoplite_high.cas, 30
 model_flexi			civ/data/new/models_units/Ephesian_Rhodian_hoplite_high.cas, 40
 model_flexi			civ/data/new/models_units/Ephesian_Rhodian_hoplite_high.cas, max
-;model_sprite		merc, 80.0, civ/data/sprites/greek_cities_Ephesus_hoplite_sprite.spr
+model_sprite		70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		greek_cities, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		numidia, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		carthage, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		egypt, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		macedon, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		seleucid, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		thrace, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		parthia, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		armenia, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		britons, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		gauls, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		dacia, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		germans, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		scythia, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		scythia, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		scythia, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		romans_julii, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		romans_brutii, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		roman_rebels, 70, civ/data/sprites/greek_cities_Ephesian_Rhodian_hoplite_sprite.spr
+model_sprite		merc, 70.0, civ/data/sprites/Ephesian_Rhodian_hoplite_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_swordsmen
@@ -5036,8 +5069,8 @@ type				greek_pike_phalanx_mac
 skeleton			fs_slow_spearman, fs_swordsman	;fs_thp_f_spearman								; combat spear
 indiv_range			40
 texture				macedon, civ/data/new/models_units/textures/UNIT_MACEDON_PIKE_PHALANX.TGA
-model_flexi_m			civ/data/new/models_units/unit_greek_pike_phalanx_400.cas, 8
-model_flexi_m			civ/data/new/models_units/unit_greek_pike_phalanx_400.cas, 15
+model_flexi			civ/data/new/models_units/unit_greek_pike_phalanx_400.cas, 8
+model_flexi			civ/data/new/models_units/unit_greek_pike_phalanx_400.cas, 15
 model_flexi			civ/data/new/models_units/unit_greek_pike_phalanx_400.cas, 30
 model_flexi			civ/data/new/models_units/unit_greek_pike_phalanx_400.cas, 40
 model_flexi			civ/data/new/models_units/unit_greek_pike_phalanx_400.cas, max
@@ -5352,6 +5385,17 @@ model_sprite		slave, 70.0, civ/data/sprites/parthia_parthian_takabara_sprite.spr
 model_sprite		merc, 70.0, civ/data/sprites/parthia_parthian_takabara_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
+type				phrygian_infantry
+skeleton			fs_s1_javelinman, fs_swordsman								; throwing spear
+indiv_range			40
+texture				merc, civ/data/new/models_units/textures/UNIT_EASTERN_PHRYGIAN_INFANTRY.TGA
+model_flexi			civ/data/new/models_units/unit_eastern_phrygian_infantry.cas, 8
+model_flexi			civ/data/new/models_units/unit_eastern_phrygian_infantry.cas, 15
+model_flexi			civ/data/new/models_units/unit_eastern_phrygian_infantry.cas, 30
+model_flexi			civ/data/new/models_units/unit_eastern_phrygian_infantry.cas, max
+model_sprite		merc, 60.0, civ/data/sprites/slave_phrygian_infantry_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f
+
 type				parthian_oil_men
 skeleton			fs_fast_javelinman, fs_fast_swordsman
 indiv_range			40
@@ -5375,10 +5419,10 @@ texture				carthage, civ/data/new/models_units/textures/UNIT_GREEK_THUREOS_SPEAR
 texture				thrace, civ/data/new/models_units/textures/UNIT_GREEK_THUREOS_SPEARMAN_THRACE.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_THUREOS_SPEARMAN_BAKTRIA.TGA
 texture				britons, civ/data/new/models_units/textures/UNIT_GREEK_THUREOS_SPEARMAN_PERGAMUM.TGA
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS.cas, 15
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS.cas, 40
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS_NEW.cas, 15
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS_NEW.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS_NEW_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS_NEW_LOW.cas, max
 model_sprite		carthage, 70.0, civ/data/sprites/carthage_thureos_spears_sprite.spr
 model_sprite		roman_rebels, 70.0, civ/data/sprites/roman_rebels_thureos_spears_sprite.spr
 model_sprite		pontus, 70.0, civ/data/sprites/pontus_thureos_spears_sprite.spr
@@ -5391,16 +5435,29 @@ model_sprite		thrace, 70.0, civ/data/sprites/thrace_thureos_spears_sprite.spr
 model_sprite		britons, 70.0, civ/data/sprites/britons_thureos_spears_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
+type				heavy_thureos_spears
+skeleton			fs_s1_javelinman, fs_s1_hoplite_heavy 	;fs_spearman
+indiv_range			40
+texture				macedon, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_THUREOS_SPEARMAN_MACEDON.TGA
+texture				seleucid, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_THUREOS_SPEARMAN_SELEUCID.TGA
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS_NEW.cas, 15
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS_NEW.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS_NEW_LOW.cas, 40
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SPEARMAN_PONTUS_NEW_LOW.cas, max
+model_sprite		macedon, 70.0, civ/data/sprites/seleucid_heavy_thureos_spears_sprite.spr
+model_sprite		seleucid, 70.0, civ/data/sprites/seleucid_heavy_thureos_spears_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f
+
 type				thureos_swordsmen
 skeleton			fs_javelinman, fs_swordsman								; throwing spear
 indiv_range			40
 texture				pontus, civ/data/new/models_units/textures/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS.TGA
 texture				egypt, civ/data/new/models_units/textures/UNIT_GREEK_THUREOS_SWORDSMAN_egypt.TGA
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_THUREOS_SWORDSMAN_BAKTRIAN.tga
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS.cas, 8
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS.cas, 15
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_NEW.cas, 8
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_NEW.cas, 15
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_NEW.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_NEW.cas, max
 model_sprite		roman_rebels, 70.0, civ/data/sprites/roman_rebels_thureos_swordsmen_sprite.spr
 model_sprite		pontus, 70.0, civ/data/sprites/pontus_thureos_swordsmen_sprite.spr
 model_sprite		egypt, 70.0, civ/data/sprites/egypt_thureos_swordsmen_sprite.spr
@@ -5413,10 +5470,10 @@ texture				pontus, civ/data/new/models_units/textures/UNIT_GREEK_heavy_THUREOS_S
 texture				egypt, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_THUREOS_SWORDSMAN_EGYPT.TGA
 texture				romans_julii, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_THUREOS_SWORDSMAN_CIMMERIAN.tga
 texture				roman_rebels, civ/data/new/models_units/textures/UNIT_GREEK_HEAVY_THUREOS_SWORDSMAN_BAKTRIA.TGA
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS.cas, 8
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS.cas, 15
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS.cas, 30
-model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS.cas, max
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_NEW.cas, 8
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_NEW.cas, 15
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_NEW.cas, 30
+model_flexi			civ/data/new/models_units/UNIT_GREEK_THUREOS_SWORDSMAN_PONTUS_NEW.cas, max
 model_sprite		roman_rebels, 70.0, civ/data/sprites/roman_rebels_heavy_thureos_swordsmen_sprite.spr
 model_sprite		romans_julii, 70.0, civ/data/sprites/romans_julii_heavy_thureos_swordsmen_sprite.spr
 model_sprite		pontus, 70.0, civ/data/sprites/pontus_heavy_thureos_swordsmen_sprite.spr

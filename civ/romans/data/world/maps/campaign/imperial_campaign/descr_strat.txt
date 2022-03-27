@@ -4277,7 +4277,7 @@ relative 	Phraotes, 	Nabunaita,		Thuxra,	end
 
 
 faction	pontus, trader smith
-denari	280000
+denari	700000
 settlement
 {
 	level city
