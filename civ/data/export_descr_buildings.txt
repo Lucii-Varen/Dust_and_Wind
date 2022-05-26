@@ -515,6 +515,8 @@ building barracks
                 recruit "thureos spears"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites punic_colony
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } and building_factions { slave, } 
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites punic_colony
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, } and building_factions { slave, } 
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites punic_colony
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EASTERN;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -754,7 +756,9 @@ building barracks
                 recruit "thureos spears"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites punic_colony
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } and building_factions { slave, } 
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites punic_colony
-                ;;;;;;;;;;E l i t e s;;;;;;;;;;;;;;;;;;;;;;;;
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, } and building_factions { slave, } 
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites punic_colony
+				;;;;;;;;;;E l i t e s;;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "carthaginian legionary"  0  requires factions { carthage, } and building_factions { slave, } 
                 recruit "carthaginian legionary"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites melqart_cult
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1063,7 +1067,9 @@ building barracks
                 recruit "thureos spears"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites punic_colony
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } and building_factions { slave, } 
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites punic_colony
-                ;;;;;;;;;;E l i t e s;;;;;;;;;;;;;;;;;;;;;;;;
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, } and building_factions { slave, } 
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites punic_colony
+				;;;;;;;;;;E l i t e s;;;;;;;;;;;;;;;;;;;;;;;;
                 recruit "carthaginian legionary"  0  requires factions { carthage, } and building_factions { slave, } 
                 recruit "carthaginian legionary"  0  requires factions { carthage, } and not building_factions { slave, } and building_present_min_level melqart_rites melqart_cult
                 recruit "carthaginian sacred band infantry"  0  requires factions { carthage, } and building_factions { slave, } 

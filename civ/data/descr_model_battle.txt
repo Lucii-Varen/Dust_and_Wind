@@ -2081,11 +2081,11 @@ type				carthaginian_heavy_infantry												; combat spear
 skeleton			fs_javelinman, fs_slow_swordsman
 indiv_range			40
 texture			carthage, civ/data/new/models_units/textures/unit_carthage_poeni_infantry.tga
-model_flexi_m		civ/data/new/models_units/unit_carthage_poeni_infantry.cas, 15
-model_flexi_m		civ/data/new/models_units/unit_carthage_poeni_infantry.cas, 30
-model_flexi_m		civ/data/new/models_units/unit_carthage_poeni_infantry.cas, 40
+model_flexi		civ/data/new/models_units/unit_carthage_poeni_infantry.cas, 15
+model_flexi		civ/data/new/models_units/unit_carthage_poeni_infantry.cas, 30
+model_flexi		civ/data/new/models_units/unit_carthage_poeni_infantry.cas, 40
 model_flexi		civ/data/new/models_units/unit_carthage_poeni_infantry.cas, max
-model_sprite		60.0, data/sprites/carthaginian_heavy_infantry_sprite.spr
+model_sprite		carthage, 60.0, civ/data/sprites/carthage_carthaginian_heavy_infantry_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				LIBYAN_SPEARMAN_LATE												; combat spear
@@ -2096,6 +2096,7 @@ model_flexi		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE.cas, 1
 model_flexi		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE_LOW.cas, 30
 model_flexi		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE_LOW.cas, 40
 model_flexi		civ/data/new/models_units/unit_carthage_libyan_spearman_LATE_LOW.cas, max
+model_sprite		carthage, 60.0, civ/data/sprites/carthage_LIBYAN_SPEARMAN_LATE_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				carthaginian_infantry											; combat spear
@@ -3584,10 +3585,10 @@ indiv_range			40
 texture				romans_scipii, civ/data/new/models_units/legions/textures/ROMAN_PRINCIPE.TGA
 texture				roman_rebels, civ/data/new/models_units/legions/textures/ROMAN_PRINCIPE.TGA
 texture				merc, civ/data/new/models_units/legions/textures/ROMAN_PRINCIPE_POST_MARIAN.TGA
-model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 15
-model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 30
-model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 40
-model_flexi			civ/data/new/models_units/legions/roman_principe_premarian.cas, max
+model_flexi			civ/data/new/models_units/legions/roman_principe_premarian.cas, 15
+model_flexi			civ/data/new/models_units/legions/roman_principe_premarian_low.cas, 35
+model_flexi			civ/data/new/models_units/legions/roman_principe_premarian_low.cas, 40
+model_flexi			civ/data/new/models_units/legions/roman_principe_premarian_low.cas, max
 model_sprite		60.0, civ/data/sprites/romans/romans_scipii_roman_principes_sprite.spr
 model_sprite		merc, 60.0, civ/data/sprites/romans/roman_principes_sprite.spr
 model_sprite		romans_scipii, 60.0, civ/data/sprites/romans/romans_scipii_roman_principes_sprite.spr
@@ -3599,10 +3600,10 @@ skeleton			fs_pilum, fs_s1_gladius
 indiv_range			40
 texture				romans_scipii, civ/data/new/models_units/legions/textures/ROMAN_ITALIC_ALIIED_HASTATI.TGA
 texture				roman_rebels, civ/data/new/models_units/legions/textures/ROMAN_ITALIC_ALIIED_HASTATI.TGA
-model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 15
-model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 30
-model_flexi_m			civ/data/new/models_units/legions/roman_principe_premarian.cas, 40
-model_flexi			civ/data/new/models_units/legions/roman_principe_premarian.cas, max
+model_flexi			civ/data/new/models_units/legions/roman_principe_premarian.cas, 15
+model_flexi			civ/data/new/models_units/legions/roman_principe_premarian_low.cas, 35
+model_flexi			civ/data/new/models_units/legions/roman_principe_premarian_low.cas, 40
+model_flexi			civ/data/new/models_units/legions/roman_principe_premarian_low.cas, max
 model_sprite		romans_scipii, 70.0, civ/data/sprites/romans/romans_scipii_roman_evocati_sprite.spr
 model_sprite		roman_rebels, 70.0, civ/data/sprites/romans/romans_scipii_roman_evocati_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
@@ -3625,9 +3626,9 @@ skeleton			fs_s1_javelinman, fs_s1_gladius
 indiv_range			40
 texture				romans_scipii, civ/data/new/models_units/legions/textures/REPUBLICAN_LEGION_julii.tga
 texture				roman_rebels, civ/data/new/models_units/legions/textures/REPUBLICAN_LEGION_REBELS.tga
-model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN.cas, 15
-model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN.cas, 30
-model_flexi_m			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN_LOW.cas, 40
+model_flexi			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN.cas, 15
+model_flexi			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN_LOW.cas, 35
+model_flexi			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN_LOW.cas, 40
 model_flexi			civ/data/new/models_units/legions/Legion_REPUBLICAN_MARIAN_LOW.cas, max
 model_sprite		romans_scipii, 70.0, civ/data/sprites/romans/romans_scipii_roman_republican_LEG_sprite.spr
 model_sprite		roman_rebels, 70.0, civ/data/sprites/romans/roman_rebels_roman_republican_LEG_sprite.spr
@@ -4989,6 +4990,7 @@ model_flexi			civ/data/new/models_units/unit_greek_archer_high1.cas, 30
 model_flexi			civ/data/new/models_units/unit_greek_archer_high1.cas, 40
 model_flexi			civ/data/new/models_units/unit_greek_archer_high1.cas, max
 model_sprite		60.0, data/sprites/greek_cities_greek_archer_sprite.spr
+model_sprite		merc, 60.0, data/sprites/greek_cities_greek_archer_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				diadoch_archer_elite

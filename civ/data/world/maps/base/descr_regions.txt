@@ -233,7 +233,7 @@ Dardania
 	thrace				
 	Dardanii				
 	131 33 100						
-	silver, slaves, VII_CLAUDIA, V_MACEDONICA, illyria, getti, barbarian 	
+	silver, slaves, VII_CLAUDIA, illyria, getti, barbarian 	
 	5
 	7
 
@@ -242,7 +242,7 @@ Moesia
 	thrace				
 	Moesii				
 	98 101 199						
-	silver, slaves, VII_CLAUDIA, illyria, getti, bosporus, barbarian	
+	silver, slaves, VII_CLAUDIA, illyria, getti, bosporus	
 	5
 	6
 
@@ -251,7 +251,7 @@ Thrace
 	thrace				
 	Odrysae				
 	218 246 61				
-	pigs, marble, copper, gold, VII_CLAUDIA, V_MACEDONICA, slaves, getti, greek, bosporus			
+	slaves, V_MACEDONICA, getti, greek, bosporus ;pigs, marble, copper, gold, 			
 	5
 	10
 
@@ -278,7 +278,7 @@ Epirus
 	macedon				
 	Epirots				
 	83 58 177						
-	copper, slaves, greek, illyria, V_MACEDONICA	
+	copper, slaves, greek, illyria, V_MACEDONICA, thessalia	
 	5
 	6
 
@@ -296,7 +296,7 @@ Macedonia
 	macedon				
 	Edones				
 	177 58 145				
-	gold, slaves, V_MACEDONICA, greek, cretan		
+	gold, slaves, V_MACEDONICA, greek, cretan, thessalia		
 	5
 	10
 
@@ -305,7 +305,7 @@ Chalcidice
 	macedon
 	Edones
 	51 168 111
-	timber, slaves, V_MACEDONICA, greek, cretan
+	timber, slaves, V_MACEDONICA, greek, cretan, thessalia
 	5
 	4
 
@@ -332,7 +332,7 @@ Aetolia
 	greek_cities				
 	Aetolians				
 	13 18 244						
-	slaves, thermon, cretan, greek, V_MACEDONICA	
+	slaves, thermon, cretan, greek, thessalia  ;if start crash then delete thessalia resourse	
 	5
 	4
 
@@ -341,7 +341,7 @@ Attica
 	greek_cities				
 	Athenians				
 	58 177 106				
-	lead, silver, iron, olive_oil, slaves, V_MACEDONICA, athen, greek, cretan		
+	slaves, V_MACEDONICA, athen, greek, cretan ;lead, silver, iron, olive_oil, 		
 	5
 	6
 
@@ -359,7 +359,7 @@ Laconia
 	numidia				
 	Helots				
 	244 13 24				
-	copper, iron, sparta, cretan, V_MACEDONICA, greek, slaves		
+	copper, iron, slaves, sparta, cretan, V_MACEDONICA, greek		
 	5
 	6
 
@@ -386,7 +386,7 @@ Mysia
 	britons				
 	Mysians				
 	33 59 131				
-	furs, silver, wine, textiles, slaves, IV_SCYTHICA, pergam, cretan, greek		
+	slaves, IV_SCYTHICA, pergam, cretan, greek ;furs, silver, wine, textiles, 		
 	5
 	12
 
@@ -395,7 +395,7 @@ Bithynia
 	greek_cities				
 	Bithynians				
 	202 17 122				
-	silver, gold, wine, slaves, IV_SCYTHICA, galats, greek, phrygia			
+	slaves, IV_SCYTHICA, galats, greek, phrygia ;silver, gold, wine, 			
 	5
 	11
 
@@ -422,7 +422,7 @@ Cappadocia
 	pontus				
 	Cappadocians				
 	177 58 148				
-	pigs, silver, lead, slaves, IV_SCYTHICA, galats, eastern, phrygia		
+	slaves, IV_SCYTHICA, galats, eastern, phrygia	;pigs, silver, lead, 	
 	5
 	7
 
@@ -440,7 +440,7 @@ Pisidia
 	seleucid
 	Pamphylians
 	14 241 169
-	furs, tin, slaves, IV_SCYTHICA, eastern, galats, barbarian, barbarian			
+	slaves, IV_SCYTHICA, eastern, galats, barbarian ;furs, tin, 			
 	5
 	4
 
@@ -458,7 +458,7 @@ Lydia
 	britons				
 	Lydians				
 	149 109 127				
-	silver, marble, textiles, gold, tin, slaves, eastern, IV_SCYTHICA, cretan, greek		
+	slaves, eastern, IV_SCYTHICA, cretan, greek ;silver, marble, textiles, gold, tin,		
 	5
 	10
 
@@ -504,7 +504,7 @@ Campania
 	macedon				
 	Campanians				
 	198 13 174				
-	glass, wine, italy, samnites, slaves, early_VII_CLAUDIA		
+	glass, wine, slaves, early_VII_CLAUDIA, italy, samnites, 		
 	5
 	9
 
@@ -568,7 +568,7 @@ Syria
 	seleucid				
 	Syrians				
 	13 244 165				
-	iron, wine, textiles, silk, camels, slaves, XVI_flavia, vi_ferrata, eastern, Cilicia		
+	slaves, XVI_flavia, vi_ferrata, eastern, Cilicia	;iron, wine, textiles, silk, camels,	
 	5
 	9
 
@@ -670,7 +670,7 @@ Cyprus
 	greek_cities				
 	Cypriots				
 	126 144 111				
-	gold, timber, purple_dye, copper, slaves, greek, vi_ferrata, Cilicia		
+	slaves, greek, vi_ferrata, Cilicia ;gold, timber, purple_dye, copper,		
 	5
 	9
 
@@ -716,7 +716,7 @@ Africa			;Zeugitana
 	carthage				
 	Poeni				
 	202 191 17				
-	grain, timber, olive_oil, elephants, camels, slaves, carthage, V_ALAUDEA_imp, africa, III_AUGUSTA		
+	slaves, carthage, V_ALAUDEA_imp, africa, III_AUGUSTA	; grain, timber, olive_oil, elephants, camels,	
 	7
 	11
 
@@ -761,7 +761,7 @@ Numidia
 	Carthage				
 	Numidians				
 	17 83 202				
-	pigs, furs,  marble, elephants, camels, slaves, III_AUGUSTA, africa		
+	slaves, III_AUGUSTA, africa	; pigs, furs,  marble, elephants, camels,	
 	5
 	7
 
@@ -807,7 +807,7 @@ Judaea
 	egypt				
 	Judaeans				
 	244 13 29				
-	furs, wine, purple_dye, camels, slaves, V_ALAUDEA_imp, vi_ferrata, eastern		
+	slaves, V_ALAUDEA_imp, vi_ferrata, eastern	;furs, wine, purple_dye, camels, 	
 	5
 	8
 
@@ -1042,7 +1042,7 @@ Carmania
 	parthia				
 	Persians				
 	186 45 1				
-	timber, gold, silver, textiles, iron, camels, slaves, eastern		
+	slaves, eastern		; timber, gold, silver, textiles, iron, camels, 
 	5
 	5
 
@@ -1096,7 +1096,7 @@ Sind
 	roman_rebels				
 	Hindu				
 	21 190 29				
-	purple_dye, gold, incense, wild_animals, camels, elephants, slaves, indian		
+	slaves, indian		;purple_dye, gold, incense, wild_animals, camels, elephants,
 	5
 	10
 
@@ -1114,7 +1114,7 @@ Gandhara
 	roman_rebels				
 	Hindu				
 	162 97 102				
-	gold, timber, marble, textiles, camels, elephants, slaves, indian		
+	 slaves, indian		
 	5
 	9
 
@@ -1286,7 +1286,7 @@ Mauretania_Massaesili
 	carthage				
 	Moors				
 	158 177 26				
-	silver, wild_animals, copper, elephants, camels, slaves, africa, III_AUGUSTA		
+	slaves, africa, III_AUGUSTA		;silver, wild_animals, copper, elephants, camels,
 	5
 	6
 Cydamae				
@@ -1394,7 +1394,7 @@ Turdetania
 	carthage				
 	Iberians				
 	17 13 198				
-	silver, copper, lead, gold, olive_oil, wine, slaves, IX_Hispana, barbarian		
+	slaves, IX_Hispana, barbarian		;silver, copper, lead, gold, olive_oil, wine, 
 	5
 	10
 
@@ -1756,7 +1756,7 @@ Tribus_Chattii
 	germans				
 	Chatti				
 	39 67 171				
-	furs, wild_animals, timber, slaves, I_GERMANICA, Germania, barbarian
+	slaves, I_GERMANICA, Germania, barbarian ;furs, wild_animals, timber, 
 	5
 	5
 
@@ -1801,7 +1801,7 @@ Crisia
 	dacia
 	Tevrisci
 	126 155 65
-	furs, silver, slaves, VII_CLAUDIA, getti, barbarian 
+	slaves, VII_CLAUDIA, getti, barbarian ;furs, silver, 
 	5
 	5
 
